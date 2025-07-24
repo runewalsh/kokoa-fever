@@ -1,0 +1,13 @@
+CommonEvent 765
+Name = "☆闘技負けイベント"
+
+  ShotBalloonIcon([-1, 7, false])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ココア"])
+  ShowText(["「負け・・ちゃった・・・」"])
+  ControlSwitches([69, 69, 1])
+  ControlSwitches([70, 70, 0])
+  FadeoutScreen([])
+  TransferPlayer([0, 119, 21, 42, 4, 0])
+  CallCommonEvent([766])
+  Empty([])

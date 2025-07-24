@@ -1,0 +1,91 @@
+Display Name = "魔法商店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 11, 44, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["店のお姉さん"])
+    ShowText(["「いらっしゃいませー」"])
+    ShopProcessing([0, 85, 0, 0, true])
+    ShopItem([0, 86, 0, 0])
+    ShopItem([0, 87, 0, 0])
+    ShopItem([0, 88, 0, 0])
+    ShopItem([0, 89, 0, 0])
+    ShopItem([0, 90, 0, 0])
+    ShopItem([0, 91, 0, 0])
+    ShopItem([0, 92, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ここからだと店員の死角になってる・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["万引きする・・・？"])
+    ShowChoices([["する", "しない"], 0])
+    When([0, "する"])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["加速薬(全)を万引きした！"])
+      ChangeItems([91, 0, 0, 1])
+      ControlSwitches([57, 57, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ココア"])
+      ShowText(["「・・・・・・・・。」"])
+      ControlVariables([28, 28, 1, 0, 5])
+      ControlSelfSwitch(["A", 0])
+      Empty([])
+
+    When([1, "しない"])
+      ControlVariables([28, 28, 1, 0, 1])
+      ControlSwitches([58, 58, 0])
+      ControlSelfSwitch(["B", 0])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「万引きは・・よくない」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["エルフのお姉さん"])
+    ShowText(["「ブースト系のアイテムは高価なだけに"])
+    ShowText(["　それなりの効果があるわ」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["真面目そうな冒険者"])
+    ShowText(["「妖精を入れておいたら自動復活とかしないもんかな・・」"])
+    Empty([])

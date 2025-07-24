@@ -1,0 +1,47 @@
+CommonEvent 982
+Name = "りんご　呼出"
+
+  ControlVariables([24, 24, 0, 2, 0, 1000])
+  ConditionalBranch([1, 24, 0, 400, 2])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["りんごを手に入れた"])
+    ChangeItems([229, 0, 0, 1])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 24, 0, 700, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["りんごを２つ手に入れた"])
+      ChangeItems([229, 0, 0, 2])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 950, 2])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["りんごを３つ手に入れた"])
+        ChangeItems([229, 0, 0, 3])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 24, 0, 1000, 2])
+          PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+          ShowTextAttributes(["", 0, 0, 2])
+          ShowText(["りんごを４つ手に入れた"])
+          ChangeItems([229, 0, 0, 4])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ControlVariables([86, 86, 1, 0, 1])
+  Empty([])

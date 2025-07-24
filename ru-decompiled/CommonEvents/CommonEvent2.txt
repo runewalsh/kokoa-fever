@@ -1,0 +1,16 @@
+CommonEvent 2
+Name = "変数"
+
+  ControlVariables([1, 1, 0, 0, 0])
+  ControlVariables([2, 2, 0, 0, 0])
+  Comment(["０　ココア"])
+  CommentMore(["１　ここな"])
+  CommentMore(["２　クロウ"])
+  CommentMore(["３　プティン"])
+  ControlVariables([3, 3, 0, 0, 0])
+  ControlVariables([4, 4, 0, 0, 0])
+  Comment(["０、１　12ココア"])
+  CommentMore(["２　13ココア"])
+  CommentMore(["３　14ココア"])
+  ControlVariables([198, 198, 0, 0, 0])
+  Empty([])

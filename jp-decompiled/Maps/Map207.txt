@@ -1,0 +1,3 @@
+Display Name = "オークの洞窟"
+Parallax Name = ""
+Note = ""

@@ -1,0 +1,444 @@
+Display Name = "スライムの森７"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Script(["rx_self_sw(116,"])
+    ScriptMore(["[5,6], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 115, 22, 1, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Script(["rx_self_sw(116,"])
+    ScriptMore(["[5,6], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 115, 23, 1, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ConditionalBranch([8, 35])
+      Empty([])
+
+    Else([])
+      ChangeItems([35, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BP界への転移結晶を手に入れた！"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「これがクロウの言っていたものかな・・・？」"])
+    ConditionalBranch([0, 109, 1])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+      ScrollMap([2, 8, 4])
+      Wait([60])
+      Wait([60])
+      Wait([60])
+      PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+      Wait([60])
+      ScrollMap([8, 8, 4])
+      Wait([60])
+      Wait([60])
+      ShotBalloonIcon([-1, 6, true])
+      Empty([])
+
+    BranchEnd([])
+    ControlVariables([3, 3, 0, 0, 27])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ControlSwitches([1, 1, 0])
+    ChangeBattleEndME(["RPG::ME(@name=\"\", @pitch=100, @volume=80)"])
+    ControlVariables([24, 24, 0, 2, 0, 170])
+    ConditionalBranch([1, 24, 0, 30, 2])
+      BattleProcessing([0, 73, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 0, 1])
+        ControlVariables([29, 29, 1, 0, 1])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([435])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 50, 2])
+        BattleProcessing([0, 74, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 1, 2])
+          ControlVariables([29, 29, 1, 2, 1, 2])
+          Empty([])
+        IfEscape([])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([435])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 24, 0, 70, 2])
+          BattleProcessing([0, 75, true, true])
+          IfWin([])
+            ControlVariables([30, 30, 1, 2, 1, 2])
+            ControlVariables([29, 29, 1, 2, 1, 2])
+            Empty([])
+          IfEscape([])
+            Empty([])
+          IfLose([])
+            CallCommonEvent([435])
+            Empty([])
+          BattleProcessingEnd([])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 24, 0, 100, 2])
+            BattleProcessing([0, 76, true, true])
+            IfWin([])
+              ControlVariables([30, 30, 1, 2, 0, 1])
+              ControlVariables([29, 29, 1, 2, 0, 1])
+              Empty([])
+            IfEscape([])
+              Empty([])
+            IfLose([])
+              CallCommonEvent([440])
+              Empty([])
+            BattleProcessingEnd([])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 24, 0, 125, 2])
+              BattleProcessing([0, 77, true, true])
+              IfWin([])
+                ControlVariables([29, 29, 1, 2, 0, 2])
+                ControlVariables([30, 30, 1, 2, 0, 2])
+                Empty([])
+              IfEscape([])
+                Empty([])
+              IfLose([])
+                CallCommonEvent([440])
+                Empty([])
+              BattleProcessingEnd([])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 24, 0, 150, 2])
+                BattleProcessing([0, 78, true, true])
+                IfWin([])
+                  ControlVariables([29, 29, 1, 2, 1, 2])
+                  ControlVariables([30, 30, 1, 2, 1, 2])
+                  Empty([])
+                IfEscape([])
+                  Empty([])
+                IfLose([])
+                  CallCommonEvent([440])
+                  Empty([])
+                BattleProcessingEnd([])
+                Empty([])
+              Else([])
+                ConditionalBranch([1, 24, 0, 165, 2])
+                  BattleProcessing([0, 79, true, true])
+                  IfWin([])
+                    ControlVariables([29, 29, 1, 2, 1, 2])
+                    ControlVariables([30, 30, 1, 2, 1, 2])
+                    Empty([])
+                  IfEscape([])
+                    Empty([])
+                  IfLose([])
+                    CallCommonEvent([440])
+                    Empty([])
+                  BattleProcessingEnd([])
+                  Empty([])
+                Else([])
+                  BattleProcessing([0, 80, true, true])
+                  IfWin([])
+                    ControlVariables([29, 29, 1, 2, 0, 4])
+                    ControlVariables([30, 30, 1, 2, 0, 4])
+                    Empty([])
+                  IfEscape([])
+                    Empty([])
+                  IfLose([])
+                    CallCommonEvent([435])
+                    Empty([])
+                  BattleProcessingEnd([])
+                  Empty([])
+                BranchEnd([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+CommonEvent 5
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "地獄花"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+    Wait([60])
+    BattleProcessing([0, 81, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 5])
+      ControlSwitches([109, 109, 0])
+      Script(["get_skillpoint(12, 3)"])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 116, 14, 19, 2, 0])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 116, 13, 19, 0, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+    Wait([60])
+    BattleProcessing([0, 81, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 5])
+      ControlSwitches([109, 109, 0])
+      Script(["get_skillpoint(12, 3)"])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 116, 14, 19, 2, 0])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 116, 14, 19, 0, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+    Wait([60])
+    BattleProcessing([0, 81, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 5])
+      ControlSwitches([109, 109, 0])
+      Script(["get_skillpoint(12, 3)"])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 116, 14, 19, 2, 0])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 116, 15, 19, 0, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([7, 1, true])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+    Wait([60])
+    BattleProcessing([0, 81, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 5])
+      ControlSwitches([109, 109, 0])
+      Script(["get_skillpoint(12, 3)"])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 116, 14, 19, 2, 0])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 116, 14, 11, 0, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([7, 1, true])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+    Wait([60])
+    BattleProcessing([0, 81, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 5])
+      ControlSwitches([109, 109, 0])
+      Script(["get_skillpoint(12, 3)"])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 116, 14, 19, 2, 0])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 116, 14, 10, 0, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([7, 1, true])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=100, @volume=80)"])
+    Wait([60])
+    BattleProcessing([0, 81, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 5])
+      ControlSwitches([109, 109, 0])
+      Script(["get_skillpoint(12, 3)"])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 116, 14, 19, 2, 0])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 116, 14, 11, 0, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])

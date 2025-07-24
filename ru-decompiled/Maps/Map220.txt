@@ -1,0 +1,1012 @@
+Display Name = "アジト５"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TransferPlayer([0, 220, 16, 28, 0, 0])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "立ち絵：レモン通常", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["レモン"])
+    ShowText(["「どうやら特殊なトラップのようね・・・"])
+    ShowText(["　ここに来るまでに解除出来ないかしら？」"])
+    ErasePicture([11])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 220, 17, 28, 0, 0])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "立ち絵：レモン通常", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["レモン"])
+    ShowText(["「どうやら特殊なトラップのようね・・・"])
+    ShowText(["　ここに来るまでに解除出来ないかしら？」"])
+    ErasePicture([11])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 217, 16, 1, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 217, 17, 1, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 224, 20, 43, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 224, 21, 43, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 222, 33, 9, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 222, 33, 10, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 223, 1, 9, 0, 0])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 223, 1, 10, 0, 0])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["紫髪の冒険者"])
+    ShowText(["「くそっ・・ここの転送トラップの解除方法が分からねぇ・・」"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"アジト戦\", @volume=100, @pitch=100)"])
+    ControlSwitches([17, 17, 0])
+    ControlVariables([24, 24, 0, 2, 1, 11])
+    ConditionalBranch([1, 24, 0, 3, 2])
+      BattleProcessing([0, 134, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 2, 3])
+        ControlVariables([29, 29, 1, 2, 0, 1])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([428])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 5, 2])
+        BattleProcessing([0, 135, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 2, 3])
+          ControlVariables([29, 29, 1, 2, 0, 1])
+          Empty([])
+        IfEscape([])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([428])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 24, 0, 7, 2])
+          BattleProcessing([0, 136, true, true])
+          IfWin([])
+            ControlVariables([30, 30, 1, 2, 2, 3])
+            ControlVariables([29, 29, 1, 2, 0, 1])
+            Empty([])
+          IfEscape([])
+            Empty([])
+          IfLose([])
+            CallCommonEvent([428])
+            Empty([])
+          BattleProcessingEnd([])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 24, 0, 9, 2])
+            BattleProcessing([0, 137, true, true])
+            IfWin([])
+              ControlVariables([30, 30, 1, 2, 2, 3])
+              ControlVariables([29, 29, 1, 2, 0, 1])
+              Empty([])
+            IfEscape([])
+              Empty([])
+            IfLose([])
+              CallCommonEvent([428])
+              Empty([])
+            BattleProcessingEnd([])
+            Empty([])
+          Else([])
+            BattleProcessing([0, 138, true, true])
+            IfWin([])
+              ControlVariables([30, 30, 1, 2, 2, 3])
+              ControlVariables([29, 29, 1, 2, 0, 1])
+              Empty([])
+            IfEscape([])
+              Empty([])
+            IfLose([])
+              CallCommonEvent([428])
+              Empty([])
+            BattleProcessingEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "ベルデ"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeArmor([523, 0, 0, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["水駆のブーツを手に入れた！"])
+    ControlVariables([18, 18, 0, 0, 44])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ベルデ・・・・」"])
+    ShowPicture([11, "敵立ち絵：ベルデ", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「アジトがバレたと思ったら、やっぱり貴方だったのね」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「そう・・・これは私が招いた事、だから・・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「ここから先には行かせない！！」"])
+    ErasePicture([11])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"ベルデ戦\", @volume=85, @pitch=100)"])
+    ControlSwitches([21, 21, 0])
+    ControlSwitches([17, 17, 0])
+    BattleProcessing([0, 139, false, true])
+    IfWin([])
+      ControlVariables([18, 18, 0, 0, 41])
+      Empty([])
+
+    IfLose([])
+      ControlVariables([18, 18, 0, 0, 43])
+      CallCommonEvent([428])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Slash4\", @pitch=100, @volume=80)"])
+    FlashScreen(["Color(@red=255.0, @green=0.0, @blue=0.0, @alpha=136.0)", 60, false])
+    SetMoveRoute([13, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「どうやら・・・ここまでのようね」"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ベルデ・・・・さよなら」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「えぇ・・・さよなら」"])
+    FadeoutScreen([])
+    Wait([60])
+    ControlSwitches([21, 21, 0])
+    PlaySE(["RPG::SE(@name=\"Earth3\", @pitch=95, @volume=80)"])
+    Wait([60])
+    ControlVariables([18, 18, 0, 0, 42])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ベルデ・・・・」"])
+    ShowPicture([11, "敵立ち絵：ベルデ", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「アジトがバレたと思ったら、やっぱり貴方だったのね」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「そう・・・これは私が招いた事、だから・・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「ここから先には行かせない！！」"])
+    ErasePicture([11])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"ベルデ戦\", @volume=85, @pitch=100)"])
+    ControlSwitches([21, 21, 0])
+    ControlSwitches([17, 17, 0])
+    BattleProcessing([0, 139, false, true])
+    IfWin([])
+      ControlVariables([18, 18, 0, 0, 41])
+      Empty([])
+
+    IfLose([])
+      ControlVariables([18, 18, 0, 0, 43])
+      CallCommonEvent([428])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ベルデ・・・・」"])
+    ShowPicture([11, "敵立ち絵：ベルデ", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「アジトがバレたと思ったら、やっぱり貴方だったのね」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「そう・・・これは私が招いた事、だから・・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ベルデ"])
+    ShowText(["「ここから先には行かせない！！」"])
+    ErasePicture([11])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"ベルデ戦\", @volume=85, @pitch=100)"])
+    ControlSwitches([21, 21, 0])
+    ControlSwitches([17, 17, 0])
+    BattleProcessing([0, 139, false, true])
+    IfWin([])
+      ControlVariables([18, 18, 0, 0, 41])
+      Empty([])
+
+    IfLose([])
+      ControlVariables([18, 18, 0, 0, 43])
+      CallCommonEvent([428])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 18
+Name = "ネセス"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "敵立ち絵：ネセス", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["青髪の男"])
+    ShowText(["「・・・・・。」"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・て、敵！？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["青髪の男"])
+    ShowText(["「・・・・。」"])
+    ShowPicture([11, "立ち絵：ここな１０", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「何やってるのよ！！引くわよ！！！」"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 2, true])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・ここなどうしたの？」"])
+    ShowPicture([11, "立ち絵：ここな６", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「あいつ魔剣使いよ！！ドラゴンと魔剣使いからは逃げるのが基本よ！！！"])
+    ShowText(["　私たちじゃどうにもならないわ！！！」"])
+    SetEventLocation([21, 0, 8, 33, 0])
+    SetEventLocation([1, 0, 5, 22, 0])
+    SetEventLocation([2, 0, 2, 21, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「その通りだ」"])
+    ShotBalloonIcon([-1, 1, false])
+    ControlSwitches([82, 82, 0])
+    SetEventLocation([20, 0, 16, 26, 0])
+    SetMoveRoute([20, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「クロウ！」"])
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「この組織に裏で協力していたようだな・・ネセス」"])
+    ShowPicture([10, "敵立ち絵：ネセス", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「・・・・・。」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「魔剣偽りの永遠の使い手・・・・一連の魔剣が絡んだ事件。"])
+    ShowText(["　全てはお前の入れ知恵だな？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「そうだ」"])
+    ShowPicture([11, "立ち絵：クロウ4", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「５年前・・・この国に災害をもたらしたのもお前なのか？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「そうだ。・・・魔法協会のメイリーと言う女に依頼された」"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「えっ・・えっ・・・クロウどういう事？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「別におかしい話じゃないさ。"])
+    ShowText(["　この国に魔法協会が介入する為にしたマッチポンプって事だ"])
+    ShowText(["　もっともメイリー個人の意思でやった事だろうが・・・」"])
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「ココア・・お前は魔法で病気を治して貰ったと言っていたが"])
+    ShowText(["　公式の記録では魔法協会の特効薬で病気を根絶させたと記されている」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「良いか？・・魔法では病気は治せないんだ」"])
+    ShowPicture([10, "立ち絵：ココア通常２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・・。」"])
+    ShowPicture([12, "敵立ち絵：ネセス", 0, 0, -200, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「東洋にある犬神という妖怪の特性を真似た呪いだ"])
+    ShowText(["　治すには祓いの力を宿した物を服用するか"])
+    ShowText(["　呪い自体を解除すればいい」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「解除の方法は呪いを生み出した俺と依頼主しか知らない」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「魔法協会に味方したり敵対したり忙しい奴だな」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「俺の目的は世界の混沌だ・・」"])
+    ShowPicture([11, "立ち絵：クロウ4", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「ここな。ココアを連れて先に行け"])
+    ShowText(["　俺たちの任務は組織のリーダーの捕獲だ。行け」"])
+    ShowPicture([10, "立ち絵：ここな２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「わ、分かったわ！」"])
+    ShowPicture([11, "立ち絵：ココア通常３", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・。」"])
+    ShowPicture([10, "立ち絵：ここな６", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「ほら、早く行くわよ！」"])
+    FadeoutScreen([])
+    ErasePicture([10])
+    ErasePicture([11])
+    ErasePicture([12])
+    TransferPlayer([0, 220, 17, 2, 8, 0])
+    FadeinScreen([])
+    ControlSwitches([82, 82, 1])
+    ControlVariables([3, 3, 0, 0, 340])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 20
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "敵立ち絵：ネセス", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["青髪の男"])
+    ShowText(["「・・・・・。」"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・て、敵！？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["青髪の男"])
+    ShowText(["「・・・・。」"])
+    ShowPicture([11, "立ち絵：ここな１０", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「何やってるのよ！！引くわよ！！！」"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 2, true])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・ここなどうしたの？」"])
+    ShowPicture([11, "立ち絵：ここな６", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「あいつ魔剣使いよ！！ドラゴンと魔剣使いからは逃げるのが基本よ！！！"])
+    ShowText(["　私たちじゃどうにもならないわ！！！」"])
+    SetEventLocation([21, 0, 8, 33, 0])
+    SetEventLocation([1, 0, 5, 22, 0])
+    SetEventLocation([2, 0, 2, 21, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「その通りだ」"])
+    ShotBalloonIcon([-1, 1, false])
+    ControlSwitches([82, 82, 0])
+    SetEventLocation([20, 0, 16, 26, 0])
+    SetMoveRoute([20, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「クロウ！」"])
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「この組織に裏で協力していたようだな・・ネセス」"])
+    ShowPicture([10, "敵立ち絵：ネセス", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「・・・・・。」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「魔剣偽りの永遠の使い手・・・・一連の魔剣が絡んだ事件。"])
+    ShowText(["　全てはお前の入れ知恵だな？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「そうだ」"])
+    ShowPicture([11, "立ち絵：クロウ4", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「５年前・・・この国に災害をもたらしたのもお前なのか？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「そうだ。・・・魔法協会のメイリーと言う女に依頼された」"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「えっ・・えっ・・・クロウどういう事？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「別におかしい話じゃないさ。"])
+    ShowText(["　この国に魔法協会が介入する為にしたマッチポンプって事だ"])
+    ShowText(["　もっともメイリー個人の意思でやった事だろうが・・・」"])
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「ココア・・お前は魔法で病気を治して貰ったと言っていたが"])
+    ShowText(["　公式の記録では魔法協会の特効薬で病気を根絶させたと記されている」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「良いか？・・魔法では病気は治せないんだ」"])
+    ShowPicture([10, "立ち絵：ココア通常２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・・。」"])
+    ShowPicture([12, "敵立ち絵：ネセス", 0, 0, -200, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「東洋にある犬神という妖怪の特性を真似た呪いだ"])
+    ShowText(["　治すには祓いの力を宿した物を服用するか"])
+    ShowText(["　呪い自体を解除すればいい」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「解除の方法は呪いを生み出した俺と依頼主しか知らない」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「魔法協会に味方したり敵対したり忙しい奴だな」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネセス"])
+    ShowText(["「俺の目的は世界の混沌だ・・」"])
+    ShowPicture([11, "立ち絵：クロウ4", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「ここな。ココアを連れて先に行け"])
+    ShowText(["　俺たちの任務は組織のリーダーの捕獲だ。行け」"])
+    ShowPicture([10, "立ち絵：ここな２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「わ、分かったわ！」"])
+    ShowPicture([11, "立ち絵：ココア通常３", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・。」"])
+    ShowPicture([10, "立ち絵：ここな６", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「ほら、早く行くわよ！」"])
+    FadeoutScreen([])
+    ErasePicture([10])
+    ErasePicture([12])
+    ErasePicture([11])
+    TransferPlayer([0, 220, 17, 2, 8, 0])
+    FadeinScreen([])
+    ControlSwitches([82, 82, 1])
+    ControlVariables([3, 3, 0, 0, 340])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「早く先に行くわよ」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「早く先に行くわよ」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    FadeinScreen([])
+    ShowPicture([10, "立ち絵：ココア通常２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・。」"])
+    ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「どうしたのよ？」"])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ココア分からなくなった・・・魔法協会で働けて嬉しかったけど"])
+    ShowText(["　今は魔法協会で働くのが違う気がしてきた・・・」"])
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「なら辞めちゃえばいいじゃん！"])
+    ShowText(["　クロウに言って私達と一緒に行きましょうよ」"])
+    ShowPicture([10, "立ち絵：ココア通常２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・。」"])
+    ShowPicture([11, "立ち絵：ここな２１", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「そんな難しく考えなくていいじゃん"])
+    ShowText(["　自分がやりたいようにやれば」"])
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「この作戦が終わるまでに決めておきなさい"])
+    ShowText(["　そろそろ連絡役が来る頃だから」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・うん」"])
+    ErasePicture([10])
+    ErasePicture([11])
+    ControlSwitches([21, 21, 0])
+    ControlVariables([3, 3, 0, 0, 341])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「クロウの所に行くわよ」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「クロウの所に行くわよ」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「クロウの所に行くわよ」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「クロウの所に行くわよ」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+CommonEvent 29
+Name = "クロウ２"
+
+  Page 0
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア通常", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「クロウ・・・終わったよ」"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([29, 1, true])
+    SetMoveRoute([29, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "立ち絵：クロウ7", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「あぁ・・ご苦労様だ・・・後はギルドに任せて撤収するぞ・・」"])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ク、クロウ！？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「逃がしてしまうとは俺もまだまだらしい・・・な」"])
+    FadeoutScreen([])
+    PlayBGM(["RPG::BGM(@name=\"\", @volume=100, @pitch=100)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Blow1\", @pitch=80, @volume=100)"])
+    Wait([60])
+    Wait([60])
+    ErasePicture([10])
+    ErasePicture([11])
+    Wait([60])
+    ChangePartyMember([16, 0, 0])
+    RecoverAll([0, 0])
+    ChangePartyMember([12, 1, 0])
+    ChangePartyMember([15, 1, 0])
+    ControlVariables([3, 3, 0, 0, 420])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア通常", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「クロウ・・・終わったよ」"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([29, 1, true])
+    SetMoveRoute([29, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "立ち絵：クロウ7", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「あぁ・・ご苦労様だ・・・後はギルドに任せて撤収するぞ・・」"])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ク、クロウ！？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「逃がしてしまうとは俺もまだまだらしい・・・な」"])
+    FadeoutScreen([])
+    PlayBGM(["RPG::BGM(@name=\"\", @volume=100, @pitch=100)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Blow1\", @pitch=80, @volume=100)"])
+    Wait([60])
+    Wait([60])
+    ErasePicture([10])
+    ErasePicture([11])
+    Wait([60])
+    ChangePartyMember([16, 0, 0])
+    RecoverAll([0, 0])
+    ChangePartyMember([12, 1, 0])
+    ChangePartyMember([15, 1, 0])
+    ControlVariables([3, 3, 0, 0, 420])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア通常", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「クロウ・・・終わったよ」"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([29, 1, true])
+    SetMoveRoute([29, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([11, "立ち絵：クロウ7", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「あぁ・・ご苦労様だ・・・後はギルドに任せて撤収するぞ・・」"])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ク、クロウ！？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「逃がしてしまうとは俺もまだまだらしい・・・な」"])
+    FadeoutScreen([])
+    PlayBGM(["RPG::BGM(@name=\"\", @volume=100, @pitch=100)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Blow1\", @pitch=80, @volume=100)"])
+    Wait([60])
+    Wait([60])
+    ErasePicture([10])
+    ErasePicture([11])
+    Wait([60])
+    ChangePartyMember([16, 0, 0])
+    RecoverAll([0, 0])
+    ChangePartyMember([12, 1, 0])
+    ChangePartyMember([15, 1, 0])
+    ControlVariables([3, 3, 0, 0, 420])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["メイリー"])
+    ShowText(["「う～ん惜しいわね～"])
+    ShowText(["　出来れば専属として雇っておきたいのだけれど」"])
+    TransferPlayer([0, 242, 11, 14, 8, 0])
+    FadeinScreen([])
+    ControlVariables([3, 3, 0, 0, 421])
+    Empty([])
+
+  Page 1
+    Empty([])

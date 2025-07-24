@@ -1,0 +1,22 @@
+CommonEvent 119
+Name = "９軽戦士"
+
+  ConditionalBranch([1, 200, 0, 1, 1])
+    ControlVariables([210, 210, 1, 1, 200])
+    ControlVariables([200, 200, 0, 0, 0])
+    ConditionalBranch([1, 210, 0, 100, 1])
+      ChangeArmor([810, 0, 0, 1, false])
+      ChangeEquipment([15, 3, 810])
+      ChangeArmor([809, 1, 0, 1, true])
+      ControlVariables([210, 210, 0, 0, 0])
+      ControlVariables([211, 211, 0, 0, 0])
+      ControlVariables([201, 201, 1, 0, 1])
+      PlaySE(["RPG::SE(@name=\"Thunder3\", @pitch=130, @volume=80)"])
+      CallCommonEvent([99])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

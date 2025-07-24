@@ -1,0 +1,3 @@
+Display Name = "スライムの森"
+Parallax Name = ""
+Note = ""

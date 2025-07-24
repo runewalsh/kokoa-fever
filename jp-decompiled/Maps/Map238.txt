@@ -1,0 +1,54 @@
+Display Name = "触手の森５"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 237, 1, 17, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 237, 1, 18, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Monster1\", @pitch=100, @volume=80)"])
+    Wait([40])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle7\", @volume=100, @pitch=100)"])
+    FadeoutScreen([])
+    BattleProcessing([0, 145, true, true])
+    IfWin([])
+      FadeinScreen([])
+      ControlVariables([3, 3, 0, 0, 90])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 15])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 238, 9, 18, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 238, 9, 17, 2, 0])
+      CallCommonEvent([444])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])

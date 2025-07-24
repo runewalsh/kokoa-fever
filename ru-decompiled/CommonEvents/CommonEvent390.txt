@@ -1,0 +1,14 @@
+CommonEvent 390
+Name = "☆謎のスキル書"
+
+  ConditionalBranch([4, 12, 0])
+    CallCommonEvent([391])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 15, 0])
+    CallCommonEvent([392])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

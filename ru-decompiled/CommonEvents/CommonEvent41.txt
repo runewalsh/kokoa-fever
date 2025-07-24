@@ -1,0 +1,5 @@
+CommonEvent 41
+Name = "　森スライム出産"
+
+  ControlSwitches([302, 302, 1])
+  Empty([])

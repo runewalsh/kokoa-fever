@@ -1,0 +1,11 @@
+CommonEvent 492
+Name = "☆オークココアのみ"
+
+  FadeoutScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["それから私はオークの繁殖場で"])
+  ShowText(["オーク達に毎日交尾の相手をさせられた"])
+  CallCommonEvent([398])
+  CallCommonEvent([493])
+  CallCommonEvent([494])
+  Empty([])

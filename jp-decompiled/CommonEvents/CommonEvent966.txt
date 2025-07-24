@@ -1,0 +1,5 @@
+CommonEvent 966
+Name = "暗殺者の日記"
+
+  ControlSwitches([211, 211, 0])
+  Empty([])

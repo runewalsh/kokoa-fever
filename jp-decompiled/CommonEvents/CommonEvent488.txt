@@ -1,0 +1,16 @@
+CommonEvent 488
+Name = "☆レムリアみみず"
+
+  CallCommonEvent([399])
+  CallCommonEvent([398])
+  ConditionalBranch([1, 117, 0, 0, 0])
+    CallCommonEvent([489])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([490])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([491])
+  Empty([])

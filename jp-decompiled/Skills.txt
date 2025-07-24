@@ -1,0 +1,6993 @@
+Skill 1
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "普通に攻撃する"
+Note = "# <駆動> は発動に必要な待ち時間です。\r\n# <硬直> は発動後の待ち時間です。\r\n\r\n# spd はキャラの行動速度偏差値です。\r\n# テストの偏差値と同じく、だいたい\r\n# 30～70の間に収まります。\r\n#<硬直> [(90 - a.spd) / 2.5].max\r\n<駆動> 0\r\n<硬直>[((1500 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<メモライズ不要>"
+
+Skill 2
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "防御"
+Description = "身を守ることに専念し、受けるダメージを抑える。"
+Note = "<駆動> 0\r\n<硬直> [((1000 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 3
+Message 1 = "は逃げ出した！"
+Message 2 = ""
+Name = "逃走"
+Description = "逃走時の硬直"
+Note = "<硬直> [((1000 - ( a.agi * a.spd / 10 )) * 10 / 100),1].max"
+
+Skill 4
+Message 1 = ""
+Message 2 = ""
+Name = "戦闘開始"
+Description = "戦闘開始時の順番に計算に、\r\nこのスキルの<駆動>の計算式が使われます"
+Note = "<駆動> 100 - a.spd"
+
+Skill 5
+Message 1 = ""
+Message 2 = ""
+Name = "復活"
+Description = ""
+Note = "<駆動> [((1500 - ( a.agi * a.spd / 10 )) * 50 / 100),1].max"
+
+Skill 6
+Message 1 = ""
+Message 2 = ""
+Name = "キャンセル"
+Description = ""
+Note = "<駆動> [((1500 - ( a.agi * a.spd / 10 )) * 120 / 100),1].max"
+
+Skill 7
+Message 1 = ""
+Message 2 = ""
+Name = "先制"
+Description = "先制したバトラーの戦闘開始時の順番に計算に、\r\nこのスキルの<駆動>の計算式が使われます"
+Note = "<駆動> 4"
+
+Skill 8
+Message 1 = ""
+Message 2 = ""
+Name = "行動不能＆復帰"
+Description = ""
+Note = "<硬直> [((1500 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 9
+Message 1 = ""
+Message 2 = ""
+Name = "--予約エリア--"
+Description = ""
+Note = ""
+
+Skill 10
+Message 1 = ""
+Message 2 = ""
+Name = "--予約エリア--"
+Description = ""
+Note = ""
+
+Skill 11
+Message 1 = "は猛毒の霧を放った！"
+Message 2 = ""
+Name = "猛毒の霧"
+Description = "敵全体を毒状態にする。"
+Note = ""
+
+Skill 12
+Message 1 = "は眩しい光を放った！"
+Message 2 = ""
+Name = "眩しい光"
+Description = "敵全体を暗闇状態にする。"
+Note = ""
+
+Skill 13
+Message 1 = "は妖しい霧を放った！"
+Message 2 = ""
+Name = "妖しい霧"
+Description = "敵全体を沈黙状態にする。"
+Note = ""
+
+Skill 14
+Message 1 = "は超音波を放った！"
+Message 2 = ""
+Name = "超音波"
+Description = "敵全体を混乱状態にする。"
+Note = ""
+
+Skill 15
+Message 1 = "は誘惑の歌を歌った！"
+Message 2 = ""
+Name = "誘惑の歌"
+Description = "敵全体を混乱状態にする。"
+Note = ""
+
+Skill 16
+Message 1 = "は甘い息を吐いた！"
+Message 2 = ""
+Name = "甘い息"
+Description = "敵全体を睡眠状態にする。"
+Note = ""
+
+Skill 17
+Message 1 = "は眠りの花粉を放った！"
+Message 2 = ""
+Name = "眠りの花粉"
+Description = "敵全体を睡眠状態にする。"
+Note = ""
+
+Skill 18
+Message 1 = "は痺れる息を吐いた！"
+Message 2 = ""
+Name = "痺れる息"
+Description = "敵全体を麻痺状態にする。"
+Note = ""
+
+Skill 19
+Message 1 = "は鋭い目でにらみつけた！"
+Message 2 = ""
+Name = "麻痺にらみ"
+Description = "敵単体を麻痺状態にする。"
+Note = ""
+
+Skill 20
+Message 1 = "は足払いを仕掛けた！"
+Message 2 = ""
+Name = "足払い"
+Description = "敵単体のバランスを崩させる。"
+Note = ""
+
+Skill 21
+Message 1 = "は体当たりをした！"
+Message 2 = ""
+Name = "体当たり"
+Description = "敵単体にダメージを与え、バランスを崩させる。"
+Note = ""
+
+Skill 22
+Message 1 = "は雄たけびを上げた！"
+Message 2 = ""
+Name = "雄たけび"
+Description = "敵全体のバランスを崩させる。"
+Note = ""
+
+Skill 23
+Message 1 = "の吸血攻撃！"
+Message 2 = ""
+Name = "吸血"
+Description = "敵単体のＨＰを吸収する。"
+Note = ""
+
+Skill 24
+Message 1 = "は瞑想を始めた。"
+Message 2 = ""
+Name = "瞑想"
+Description = "使用者のＨＰを回復する。"
+Note = ""
+
+Skill 25
+Message 1 = ""
+Message 2 = ""
+Name = "--------------------"
+Description = ""
+Note = ""
+
+Skill 26
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "味方単体のＨＰを回復する。"
+Note = ""
+
+Skill 27
+Message 1 = "はヒールⅡを唱えた！"
+Message 2 = ""
+Name = "ヒールⅡ"
+Description = "味方単体のＨＰを回復する。"
+Note = ""
+
+Skill 28
+Message 1 = "はヒールⅢを唱えた！"
+Message 2 = ""
+Name = "ヒールⅢ"
+Description = "味方単体のＨＰを回復する。"
+Note = ""
+
+Skill 29
+Message 1 = "はリカバーを唱えた！"
+Message 2 = ""
+Name = "リカバー"
+Description = "味方全体のＨＰを回復する。"
+Note = ""
+
+Skill 30
+Message 1 = "はリカバーⅡを唱えた！"
+Message 2 = ""
+Name = "リカバーⅡ"
+Description = "味方全体のＨＰを回復する。"
+Note = ""
+
+Skill 31
+Message 1 = "はキュアを唱えた！"
+Message 2 = ""
+Name = "キュア"
+Description = "毒状態および麻痺状態を治療する。"
+Note = ""
+
+Skill 32
+Message 1 = "はキュアⅡを唱えた！"
+Message 2 = ""
+Name = "キュアⅡ"
+Description = "戦闘不能以外の状態異常を治療する。"
+Note = ""
+
+Skill 33
+Message 1 = "はレイズを唱えた！"
+Message 2 = ""
+Name = "レイズ"
+Description = "戦闘不能から復活させる。"
+Note = ""
+
+Skill 34
+Message 1 = "はレイズⅡを唱えた！"
+Message 2 = ""
+Name = "レイズⅡ"
+Description = "戦闘不能から復活させ、ＨＰを大きく回復する。"
+Note = ""
+
+Skill 35
+Message 1 = "はポイズンを唱えた！"
+Message 2 = ""
+Name = "ポイズン"
+Description = "敵全体を毒状態にする。"
+Note = ""
+
+Skill 36
+Message 1 = "はブラインドを唱えた！"
+Message 2 = ""
+Name = "ブラインド"
+Description = "敵全体を暗闇状態にする。"
+Note = ""
+
+Skill 37
+Message 1 = "はサイレンスを唱えた！"
+Message 2 = ""
+Name = "サイレンス"
+Description = "敵全体を沈黙状態にする。"
+Note = ""
+
+Skill 38
+Message 1 = "はコンフューズを唱えた！"
+Message 2 = ""
+Name = "コンフューズ"
+Description = "敵全体を混乱状態にする。"
+Note = ""
+
+Skill 39
+Message 1 = "はスリープを唱えた！"
+Message 2 = ""
+Name = "スリープ"
+Description = "敵全体を睡眠状態にする。"
+Note = ""
+
+Skill 40
+Message 1 = "はパラライズを唱えた！"
+Message 2 = ""
+Name = "パラライズ"
+Description = "敵単体を麻痺状態にする。"
+Note = ""
+
+Skill 41
+Message 1 = "はウェポンブレスを唱えた！"
+Message 2 = ""
+Name = "ウェポンブレス"
+Description = "味方単体の攻撃力を上げる。"
+Note = ""
+
+Skill 42
+Message 1 = "はアーマーブレスを唱えた！"
+Message 2 = ""
+Name = "アーマーブレス"
+Description = "味方単体の防御力を上げる。"
+Note = ""
+
+Skill 43
+Message 1 = "はディバインブレスを唱えた！"
+Message 2 = ""
+Name = "ディバインブレス"
+Description = "味方単体の魔法防御を上げる。"
+Note = ""
+
+Skill 44
+Message 1 = "はクイックムーブを唱えた！"
+Message 2 = ""
+Name = "クイックムーブ"
+Description = "味方単体の敏捷性を上げる。"
+Note = ""
+
+Skill 45
+Message 1 = "はウェポンカースを唱えた！"
+Message 2 = ""
+Name = "ウェポンカース"
+Description = "敵全体の攻撃力を下げる。"
+Note = ""
+
+Skill 46
+Message 1 = "はアーマーカースを唱えた！"
+Message 2 = ""
+Name = "アーマーカース"
+Description = "敵全体の防御力を下げる。"
+Note = ""
+
+Skill 47
+Message 1 = "はディバインカースを唱えた！"
+Message 2 = ""
+Name = "ディバインカース"
+Description = "敵全体の魔法防御を下げる。"
+Note = ""
+
+Skill 48
+Message 1 = "はスロームーブを唱えた！"
+Message 2 = ""
+Name = "スロームーブ"
+Description = "敵全体の敏捷性を下げる。"
+Note = ""
+
+Skill 49
+Message 1 = "はライフドレインを唱えた！"
+Message 2 = ""
+Name = "ライフドレイン"
+Description = "敵単体のＨＰを吸収する。"
+Note = ""
+
+Skill 50
+Message 1 = "はマナドレインを唱えた！"
+Message 2 = ""
+Name = "マナドレイン"
+Description = "敵単体のＭＰを吸収する。"
+Note = ""
+
+Skill 51
+Message 1 = "はファイアを唱えた！"
+Message 2 = ""
+Name = "ファイア"
+Description = "敵単体に炎属性のダメージを与える。"
+Note = ""
+
+Skill 52
+Message 1 = "はファイアⅡを唱えた！"
+Message 2 = ""
+Name = "ファイアⅡ"
+Description = "敵単体に炎属性のダメージを与える。"
+Note = ""
+
+Skill 53
+Message 1 = "はフレイムを唱えた！"
+Message 2 = ""
+Name = "フレイム"
+Description = "敵全体に炎属性のダメージを与える。"
+Note = ""
+
+Skill 54
+Message 1 = "はフレイムⅡを唱えた！"
+Message 2 = ""
+Name = "フレイムⅡ"
+Description = "敵全体に炎属性のダメージを与える。"
+Note = ""
+
+Skill 55
+Message 1 = "はアイスを唱えた！"
+Message 2 = ""
+Name = "アイス"
+Description = "敵単体に氷属性のダメージを与える。"
+Note = ""
+
+Skill 56
+Message 1 = "はアイスⅡを唱えた！"
+Message 2 = ""
+Name = "アイスⅡ"
+Description = "敵単体に氷属性のダメージを与える。"
+Note = ""
+
+Skill 57
+Message 1 = "はブリザードを唱えた！"
+Message 2 = ""
+Name = "ブリザード"
+Description = "敵全体に氷属性のダメージを与える。"
+Note = ""
+
+Skill 58
+Message 1 = "はブリザードⅡを唱えた！"
+Message 2 = ""
+Name = "ブリザードⅡ"
+Description = "敵全体に氷属性のダメージを与える。"
+Note = ""
+
+Skill 59
+Message 1 = "はサンダーを唱えた！"
+Message 2 = ""
+Name = "サンダー"
+Description = "敵単体に雷属性のダメージを与える。"
+Note = ""
+
+Skill 60
+Message 1 = "はサンダーⅡを唱えた！"
+Message 2 = ""
+Name = "サンダーⅡ"
+Description = "敵単体に雷属性のダメージを与える。"
+Note = ""
+
+Skill 61
+Message 1 = "はスパークを唱えた！"
+Message 2 = ""
+Name = "スパーク"
+Description = "敵全体に雷属性のダメージを与える。"
+Note = ""
+
+Skill 62
+Message 1 = "はスパークⅡを唱えた！"
+Message 2 = ""
+Name = "スパークⅡ"
+Description = "敵全体に雷属性のダメージを与える。"
+Note = ""
+
+Skill 63
+Message 1 = "はウォーターを唱えた！"
+Message 2 = ""
+Name = "ウォーター"
+Description = "敵単体に水属性のダメージを与える。"
+Note = ""
+
+Skill 64
+Message 1 = "はウェーブを唱えた！"
+Message 2 = ""
+Name = "ウェーブ"
+Description = "敵全体に水属性のダメージを与える。"
+Note = ""
+
+Skill 65
+Message 1 = "はストーンを唱えた！"
+Message 2 = ""
+Name = "ストーン"
+Description = "敵単体に大地属性のダメージを与える。"
+Note = ""
+
+Skill 66
+Message 1 = "はクェイクを唱えた！"
+Message 2 = ""
+Name = "クェイク"
+Description = "敵全体に大地属性のダメージを与える。"
+Note = ""
+
+Skill 67
+Message 1 = "はウィンドを唱えた！"
+Message 2 = ""
+Name = "ウィンド"
+Description = "敵単体に風属性のダメージを与える。"
+Note = ""
+
+Skill 68
+Message 1 = "はトルネードを唱えた！"
+Message 2 = ""
+Name = "トルネード"
+Description = "敵全体に風属性のダメージを与える。"
+Note = ""
+
+Skill 69
+Message 1 = "はセイントを唱えた！"
+Message 2 = ""
+Name = "セイント"
+Description = "敵単体に神聖属性のダメージを与える。"
+Note = ""
+
+Skill 70
+Message 1 = "はスターライトを唱えた！"
+Message 2 = ""
+Name = "スターライト"
+Description = "敵全体に神聖属性のダメージを与える。"
+Note = ""
+
+Skill 71
+Message 1 = "はシェイドを唱えた！"
+Message 2 = ""
+Name = "シェイド"
+Description = "敵単体に暗黒属性のダメージを与える。"
+Note = ""
+
+Skill 72
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "ダークネス"
+Description = "敵全体に暗黒属性のダメージを与える。"
+Note = ""
+
+Skill 73
+Message 1 = "はバーストを唱えた！"
+Message 2 = ""
+Name = "バースト"
+Description = "敵単体に防御無視のダメージを与える。"
+Note = ""
+
+Skill 74
+Message 1 = "はニュークリアを唱えた！"
+Message 2 = ""
+Name = "ニュークリア"
+Description = "敵全体に防御無視のダメージを与える。"
+Note = ""
+
+Skill 75
+Message 1 = ""
+Message 2 = ""
+Name = "--------------------"
+Description = ""
+Note = ""
+
+Skill 76
+Message 1 = "はファイアウェポンを唱えた！"
+Message 2 = ""
+Name = "ファイアウェポン"
+Description = "５ターンの間、使用者に炎属性を付与する。"
+Note = ""
+
+Skill 77
+Message 1 = "はアイスウェポンを唱えた！"
+Message 2 = ""
+Name = "アイスウェポン"
+Description = "５ターンの間、使用者に氷属性を付与する。"
+Note = ""
+
+Skill 78
+Message 1 = "はサンダーウェポンを唱えた！"
+Message 2 = ""
+Name = "サンダーウェポン"
+Description = "５ターンの間、使用者に雷属性を付与する。"
+Note = ""
+
+Skill 79
+Message 1 = ""
+Message 2 = ""
+Name = "--------------------"
+Description = ""
+Note = ""
+
+Skill 80
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃"
+Description = "敵単体に対して強力な攻撃を行う。"
+Note = ""
+
+Skill 81
+Message 1 = "は薙ぎ払った！"
+Message 2 = ""
+Name = "薙ぎ払い"
+Description = "敵全体に対して攻撃を行う。"
+Note = ""
+
+Skill 82
+Message 1 = "は狂戦士の咆哮を使った！"
+Message 2 = ""
+Name = "狂戦士の咆哮"
+Description = "５ターンの間、味方全体の攻撃力を少し上げる。"
+Note = ""
+
+Skill 83
+Message 1 = "はバーサーカーダンスを放った！"
+Message 2 = ""
+Name = "バーサーカーダンス"
+Description = "斧技。敵３体に対して強力な攻撃を行う。"
+Note = ""
+
+Skill 84
+Message 1 = "はギガスランページを放った！"
+Message 2 = ""
+Name = "ギガスランページ"
+Description = "斧技。敵全体に対して強力な攻撃を行う。"
+Note = ""
+
+Skill 85
+Message 1 = "はタックルを放った！"
+Message 2 = ""
+Name = "タックル"
+Description = "敵単体に対して攻撃を行ない、バランスを崩させる。\r\nダメージは使用者の攻撃力と防御力に依存する。"
+Note = ""
+
+Skill 86
+Message 1 = "はチャクラを使った！"
+Message 2 = ""
+Name = "チャクラ"
+Description = "使用者の状態異常をすべて治す。"
+Note = ""
+
+Skill 87
+Message 1 = "は虎伏の構えを使った！"
+Message 2 = ""
+Name = "虎伏の構え"
+Description = "３ターンの間、敵の攻撃をキャンセルして反撃を行う。"
+Note = ""
+
+Skill 88
+Message 1 = "は無影脚を放った！"
+Message 2 = ""
+Name = "無影脚"
+Description = "敵全体に対して、防御力無視の強力な攻撃を行う。\r\n通常よりも素早く行動できる。"
+Note = ""
+
+Skill 89
+Message 1 = "は破龍爪円舞を放った！"
+Message 2 = ""
+Name = "破龍爪円舞"
+Description = "爪技。敵単体に対して、防御力無視の強力な２回攻撃を行う。"
+Note = ""
+
+Skill 90
+Message 1 = "は仲間をかばっている。"
+Message 2 = ""
+Name = "かばう"
+Description = "１ターンの間、ＨＰの少ない味方を自動的にかばう。"
+Note = ""
+
+Skill 91
+Message 1 = "は敵の注意を引きつけた！"
+Message 2 = ""
+Name = "挑発"
+Description = "５ターンの間、使用者の狙われやすさを上げる。"
+Note = ""
+
+Skill 92
+Message 1 = "は鉄壁の守りを使った！"
+Message 2 = ""
+Name = "鉄壁の守り"
+Description = "３ターンの間、使用者への物理攻撃をほぼ完全に防ぐ。"
+Note = ""
+
+Skill 93
+Message 1 = "はリッターシルトを使った！"
+Message 2 = ""
+Name = "リッターシルト"
+Description = "５ターンの間、味方全体の防御力を大幅に上げる。"
+Note = ""
+
+Skill 94
+Message 1 = "はゼクスシュツルムを放った！"
+Message 2 = ""
+Name = "ゼクスシュツルム"
+Description = "槍技。敵３体に対して強力な２回攻撃を行う。"
+Note = ""
+
+Skill 95
+Message 1 = "はオーラブレードを放った！"
+Message 2 = ""
+Name = "オーラブレード"
+Description = "剣技。敵単体に対して強力な攻撃を行ない、沈黙させる。\r\nダメージは使用者の攻撃力と魔法力に依存する。"
+Note = ""
+
+Skill 96
+Message 1 = "はディスペルを使った！"
+Message 2 = ""
+Name = "ディスペル"
+Description = "敵単体の強化魔法を解除する。"
+Note = ""
+
+Skill 97
+Message 1 = "は魔法バリアを使った！"
+Message 2 = ""
+Name = "魔法バリア"
+Description = "３ターンの間、使用者の魔法防御を大幅に上げる。"
+Note = ""
+
+Skill 98
+Message 1 = "はリインフォーサーを使った！"
+Message 2 = ""
+Name = "リインフォーサー"
+Description = "５ターンの間、使用者に炎・氷・雷の属性を付与する。"
+Note = ""
+
+Skill 99
+Message 1 = "はレディアントブレードを放った！"
+Message 2 = ""
+Name = "レディアントブレード"
+Description = "剣技。敵全体に対して強力な神聖属性の攻撃を行う。\r\nダメージは使用者の攻撃力と魔法力に依存する。"
+Note = ""
+
+Skill 100
+Message 1 = "は鎧通しを放った！"
+Message 2 = ""
+Name = "鎧通し"
+Description = "敵単体に防御力無視の攻撃を行なう。"
+Note = ""
+
+Skill 101
+Message 1 = "は心頭滅却を使った！"
+Message 2 = ""
+Name = "心頭滅却"
+Description = "使用者のＴＰを少し増やす。"
+Note = ""
+
+Skill 102
+Message 1 = "は八相を使った！"
+Message 2 = ""
+Name = "八相"
+Description = "５ターンの間、使用者の攻撃力と防御力を少し上げる。"
+Note = ""
+
+Skill 103
+Message 1 = "はツバメ返しを放った！"
+Message 2 = ""
+Name = "ツバメ返し"
+Description = "刀技。敵全体に対して２回攻撃を行う。"
+Note = ""
+
+Skill 104
+Message 1 = "は桜花夢幻刃を放った！"
+Message 2 = ""
+Name = "桜花夢幻刃"
+Description = "刀技。敵全体に対して４回攻撃を行う。"
+Note = ""
+
+Skill 105
+Message 1 = "はウェポンブレイクを放った！"
+Message 2 = ""
+Name = "ウェポンブレイク"
+Description = "敵単体に必中攻撃を行い、攻撃力を少し下げる。"
+Note = ""
+
+Skill 106
+Message 1 = "はアーマーブレイクを放った！"
+Message 2 = ""
+Name = "アーマーブレイク"
+Description = "敵単体に必中攻撃を行い、防御力を少し下げる。"
+Note = ""
+
+Skill 107
+Message 1 = "は絶影を使った！"
+Message 2 = ""
+Name = "絶影"
+Description = "５ターンの間、使用者の敏捷性を大幅に上げる。"
+Note = ""
+
+Skill 108
+Message 1 = "はトリプルショットを放った！"
+Message 2 = ""
+Name = "トリプルショット"
+Description = "弓技。敵３体に対して強力な攻撃を行う。\r\nダメージは使用者の攻撃力と敏捷性に依存する。"
+Note = ""
+
+Skill 109
+Message 1 = "はサウザンドアローを放った！"
+Message 2 = ""
+Name = "サウザンドアロー"
+Description = "弓技。敵全体に対して３回攻撃を行う。\r\nダメージは使用者の攻撃力と敏捷性に依存する。"
+Note = ""
+
+Skill 110
+Message 1 = "は気配を消した！"
+Message 2 = ""
+Name = "隠れる"
+Description = "５ターンの間、使用者の狙われやすさを下げる。"
+Note = ""
+
+Skill 111
+Message 1 = "は閃光玉を使った！"
+Message 2 = ""
+Name = "閃光玉"
+Description = "敵全体を暗闇状態にする。"
+Note = ""
+
+Skill 112
+Message 1 = "は盗賊の悪運を使った！"
+Message 2 = ""
+Name = "盗賊の悪運"
+Description = "８ターンの間、使用者の運を大幅に上げる。"
+Note = ""
+
+Skill 113
+Message 1 = "はアサシンエッジを放った！"
+Message 2 = ""
+Name = "アサシンエッジ"
+Description = "短剣技。敵単体に対して強力な２回攻撃を行う。\r\nダメージは使用者の攻撃力と運に依存する。"
+Note = ""
+
+Skill 114
+Message 1 = "はヴァリアントエッジを放った！"
+Message 2 = ""
+Name = "ヴァリアントエッジ"
+Description = "短剣技。敵４体に対して強力な攻撃を行う。\r\nダメージは使用者の攻撃力と運に依存する。"
+Note = ""
+
+Skill 115
+Message 1 = "は聖霊の祝福を使った！"
+Message 2 = ""
+Name = "聖霊の祝福"
+Description = "３ターンの間、味方全体の防御力を少し上げる。"
+Note = ""
+
+Skill 116
+Message 1 = "は妖精の息吹を使った！"
+Message 2 = ""
+Name = "妖精の息吹"
+Description = "４ターンの間、味方全体をＨＰ自動回復状態にする。"
+Note = ""
+
+Skill 117
+Message 1 = "は神罰を放った！"
+Message 2 = ""
+Name = "神罰"
+Description = "敵全体に対して、魔法力依存の神聖属性攻撃を行う。"
+Note = ""
+
+Skill 118
+Message 1 = "は女神の加護を使った！"
+Message 2 = ""
+Name = "女神の加護"
+Description = "７ターンの間、味方全体の防御力と魔法防御を大幅に上げる。"
+Note = ""
+
+Skill 119
+Message 1 = "は敵の魔法攻撃に備えている。"
+Message 2 = ""
+Name = "魔法反射"
+Description = "１ターンの間、敵の魔法攻撃を跳ね返す。"
+Note = ""
+
+Skill 120
+Message 1 = "はスペルエンハンスを使った！"
+Message 2 = ""
+Name = "スペルエンハンス"
+Description = "５ターンの間、使用者の魔法力を大幅に上げる。"
+Note = ""
+
+Skill 121
+Message 1 = "はナイトメアを放った！"
+Message 2 = ""
+Name = "ナイトメア"
+Description = "敵全体を睡眠状態にし、魔法防御を大幅に下げる。"
+Note = ""
+
+Skill 122
+Message 1 = "は魔力の奔流を使った！"
+Message 2 = ""
+Name = "魔力の奔流"
+Description = "使用者のＭＰを最大値の50％回復する。"
+Note = ""
+
+Skill 123
+Message 1 = "は魔脈のオーラを使った！"
+Message 2 = ""
+Name = "魔脈のオーラ"
+Description = "４ターンの間、使用者をＭＰ自動回復状態にする。"
+Note = ""
+
+Skill 124
+Message 1 = "は絶対魔法防御を使った！"
+Message 2 = ""
+Name = "絶対魔法防御"
+Description = "３ターンの間、使用者への魔法攻撃を打ち消す。"
+Note = ""
+
+Skill 125
+Message 1 = "はマナの光輝を使った！"
+Message 2 = ""
+Name = "マナの光輝"
+Description = "５ターンの間、味方全体の状態異常を防止する。"
+Note = ""
+
+Skill 126
+Message 1 = "は魔道の秘儀を使った！"
+Message 2 = ""
+Name = "魔道の秘儀"
+Description = "５ターンの間、使用者の消費ＭＰを大幅に減らす。"
+Note = ""
+
+Skill 127
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "普通に攻撃する"
+Note = "# <駆動> は発動に必要な待ち時間です。\r\n# <硬直> は発動後の待ち時間です。\r\n\r\n# spd はキャラの行動速度偏差値です。\r\n# テストの偏差値と同じく、だいたい\r\n# 30～70の間に収まります。\r\n#<硬直> [(90 - a.spd) / 2.5].max\r\n<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 128
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "普通に攻撃する"
+Note = "# <駆動> は発動に必要な待ち時間です。\r\n# <硬直> は発動後の待ち時間です。\r\n\r\n# spd はキャラの行動速度偏差値です。\r\n# テストの偏差値と同じく、だいたい\r\n# 30～70の間に収まります。\r\n#<硬直> [(90 - a.spd) / 2.5].max\r\n<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 129
+Message 1 = "は光弾を放った！"
+Message 2 = ""
+Name = "光弾"
+Description = "簡易的な魔法攻撃"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 130
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "複合攻撃"
+Description = "物魔複合の通常攻撃！"
+Note = "# <駆動> は発動に必要な待ち時間です。\r\n# <硬直> は発動後の待ち時間です。\r\n\r\n# spd はキャラの行動速度偏差値です。\r\n# テストの偏差値と同じく、だいたい\r\n# 30～70の間に収まります。\r\n#<硬直> [(90 - a.spd) / 2.5].max\r\n<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 131
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "防御"
+Description = "身を守ることに専念し、受けるダメージを抑える。\r\nHP/MP/TPが微量回復する"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( a.agi * a.spd / 10 )) * 70 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 132
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "防御Lv2"
+Description = "身を守ることに専念し、受けるダメージを抑える。\r\nHP/MP/TPが微量回復する"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( a.agi * a.spd / 10 )) * 70 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 133
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "複合防御"
+Description = "身を守ることに専念し、受けるダメージを抑える。\r\n魔法防御力に補正がつく"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( a.agi * a.spd / 10 )) * 70 / 100),1].max\r\n\r\n<共有スキル>"
+
+Skill 134
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "複合防御Lv2"
+Description = "身を守ることに専念し、受けるダメージを抑える。\r\n魔法防御力に補正がつく"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( a.agi * a.spd / 10 )) * 70 / 100),1].max\r\n\r\n<共有スキル>"
+
+Skill 135
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 136
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "防御"
+Description = "身を守ることに専念し、受けるダメージを抑える。\r\nHP/MP/TPが微量回復する"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( a.agi * a.spd / 10 )) * 70 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 137
+Message 1 = ""
+Message 2 = ""
+Name = "ーーーー回復・特殊ーーーーーーーー"
+Description = ""
+Note = ""
+
+Skill 138
+Message 1 = "のストラフ！"
+Message 2 = ""
+Name = "ストラフ"
+Description = "気を集中して自身を回復する\r\nCT:10"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 10>\r\n\r\n<共有スキル>"
+
+Skill 139
+Message 1 = "のエルストラフ！"
+Message 2 = ""
+Name = "エルストラフ"
+Description = "気を集中して自身を回復する\r\nCT:15"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 15>\r\n\r\n<記憶容量 1>\r\n<共有スキル>"
+
+Skill 140
+Message 1 = "のバリストラフ！"
+Message 2 = ""
+Name = "バリストラフ"
+Description = "気を集中して自身を回復する\r\nCT:20"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 20>\r\n\r\n<記憶容量 2>\r\n<共有スキル>"
+
+Skill 141
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 142
+Message 1 = "は突撃戦法の体勢に入った！"
+Message 2 = ""
+Name = "タクティックアソー"
+Description = "(-(-д(-д(｀д´)д-)д-)-)『突撃ぃ～～！』\r\n自身の攻撃力を上昇させるスキル"
+Note = "<価格:10000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 143
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 144
+Message 1 = "の集気法！"
+Message 2 = ""
+Name = "集気法"
+Description = "気を高め周囲の魔力を自身に吸収させる秘技\r\nCT:12"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 12>\r\n\r\n<記憶容量 1>\r\n<共有スキル>"
+
+Skill 145
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 146
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 147
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 148
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 149
+Message 1 = ""
+Message 2 = ""
+Name = "----物理--------"
+Description = ""
+Note = ""
+
+Skill 150
+Message 1 = ""
+Message 2 = ""
+Name = "☆単体"
+Description = ""
+Note = ""
+
+Skill 151
+Message 1 = "は閃刃を放った！"
+Message 2 = ""
+Name = "閃刃"
+Description = "素早く対象を切り裂く\r\n非常に安定感のある二刀流スキル CT:2"
+Note = "<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 90 / 100),1].max\r\n<スキルディレイ 2>\r\n<二刀流要求>\r\n<共有スキル>"
+
+Skill 152
+Message 1 = "は閃刃を放った！"
+Message 2 = ""
+Name = "閃刃Lv2"
+Description = "素早く対象を切り裂く\r\n非常に安定感のある二刀流スキル CT:2"
+Note = "<駆動> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 15 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 90 / 100),1].max\r\n<スキルディレイ 2>\r\n<二刀流要求>\r\n<共有スキル>"
+
+Skill 153
+Message 1 = "は閃刃を放った！"
+Message 2 = ""
+Name = "閃刃Lv3"
+Description = "素早く対象を切り裂く\r\n非常に安定感のある二刀流スキル CT:2"
+Note = "<駆動> [((1300 - (( a.agi+15) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+15) * a.spd / 10 )) * 70 / 100),1].max\r\n<スキルディレイ 2>\r\n<二刀流要求>\r\n<共有スキル>"
+
+Skill 154
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "対象を左右から挟み込む斬撃を繰り出す\r\nダメージの信頼度が高い二刀流スキル CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 5>\r\n<二刀流要求>\r\n<攻撃属性 19>\r\n<共有スキル>"
+
+Skill 155
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダーLv2"
+Description = "対象を左右から挟み込む斬撃を繰り出す\r\nダメージの信頼度が高い二刀流スキル CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 5>\r\n<二刀流要求>\r\n<攻撃属性 19>\r\n<共有スキル>"
+
+Skill 156
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダーLv3"
+Description = "対象を左右から挟み込む斬撃を繰り出す\r\nダメージの信頼度が高い二刀流スキル CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-3) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-3) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<二刀流要求>\r\n<攻撃属性 19>\r\n<キャンセル>\r\n<キャンセル率> 20\r\n<共有スキル>\r\n\r\n"
+
+Skill 157
+Message 1 = "はダブルカウントを放った！"
+Message 2 = ""
+Name = "ダブルカウント"
+Description = "対象を２回攻撃するスキル\r\n普通のスキル。普通の。 CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 16>\r\n<ディレイコマ数> rand(2)\r\n<ディレイ率> 15\r\n<共有スキル>"
+
+Skill 158
+Message 1 = "はダブルカウントを放った！"
+Message 2 = ""
+Name = "ダブルカウントLv2"
+Description = "対象を２回攻撃するスキル\r\n普通のスキル。普通の。 CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-2) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-2) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 16>\r\n<ディレイコマ数> rand(2)\r\n<ディレイ率> 20\r\n<共有スキル>"
+
+Skill 159
+Message 1 = "はダブルカウントを放った！"
+Message 2 = ""
+Name = "ダブルカウントLv3"
+Description = "対象を２回攻撃するスキル\r\n普通のスキル。普通の。 CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-0) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-0) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 16>\r\n<ディレイコマ数> rand(2)\r\n<ディレイ率> 25\r\n<共有スキル>"
+
+Skill 160
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃"
+Description = "強力な一撃をお見舞いする\r\nCT:8"
+Note = "<駆動> [((1300 - ( (a.agi+2) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+2) * a.spd / 10 )) * 170 / 100),1].max\r\n<スキルディレイ 8>\r\n<攻撃属性 18>\r\n<キャンセル>\r\n<キャンセル率> 70\r\n<共有スキル>"
+
+Skill 161
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃Lv2"
+Description = "強力な一撃をお見舞いする\r\nCT:8"
+Note = "<駆動> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 160 / 100),1].max\r\n<スキルディレイ 8>\r\n<攻撃属性 18>\r\n<キャンセル>\r\n<キャンセル率> 85\r\n<共有スキル>"
+
+Skill 162
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃Lv3"
+Description = "強力な一撃をお見舞いする\r\nCT:8"
+Note = "<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 8>\r\n<攻撃属性 18>\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 163
+Message 1 = "はトリプルカウントを放った！"
+Message 2 = ""
+Name = "トリプルカウント"
+Description = "対象を３回攻撃するスキル\r\n割と強力。CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 16>\r\n<ディレイコマ数> rand(2)\r\n<ディレイ率> 10\r\n<共有スキル>"
+
+Skill 164
+Message 1 = "はトリプルカウントを放った！"
+Message 2 = ""
+Name = "トリプルカウントLv2"
+Description = "対象を３回攻撃するスキル\r\n割と強力。CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 16>\r\n<ディレイコマ数> rand(2)\r\n<ディレイ率> 15\r\n<共有スキル>"
+
+Skill 165
+Message 1 = "はトリプルカウントを放った！"
+Message 2 = ""
+Name = "トリプルカウントLv3"
+Description = "対象を３回攻撃するスキル\r\n割と強力。CT:5"
+Note = "<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 16>\r\n<ディレイコマ数> rand(2)\r\n<ディレイ率> 20\r\n<共有スキル>"
+
+Skill 166
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連"
+Description = "斬撃による連続攻撃\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 167
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連Lv2"
+Description = "斬撃による連続攻撃\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 168
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連Lv3"
+Description = "斬撃による連続攻撃\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 169
+Message 1 = "は殺を放った！"
+Message 2 = ""
+Name = "殺"
+Description = "対象を鋭い勢いで突き刺す・・必殺の一撃\r\nCT:7"
+Note = "<駆動> [((1300 - ( (a.agi+8) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+8) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 7>\r\n<攻撃属性 17>\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 170
+Message 1 = "は殺を放った！"
+Message 2 = ""
+Name = "殺Lv2"
+Description = "対象を鋭い勢いで突き刺す・・必殺の一撃\r\nCT:7"
+Note = "<駆動> [((1300 - ( (a.agi+12) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+12) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 7>\r\n<攻撃属性 17>\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 171
+Message 1 = "は殺を放った！"
+Message 2 = ""
+Name = "殺Lv3"
+Description = "対象を鋭い勢いで突き刺す・・必殺の一撃\r\nCT:7"
+Note = "<駆動> [((1300 - ( (a.agi+15) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+15) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 7>\r\n<攻撃属性 17>\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 172
+Message 1 = "は五月雨を放った！"
+Message 2 = ""
+Name = "五月雨"
+Description = "さみだれ。どう読むかたまに忘れるスキル\r\nCT:8"
+Note = "<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 160 / 100),1].max\r\n<スキルディレイ 8>\r\n<記憶容量 1>\r\n<攻撃属性 17>\r\n<連続回数 15>\r\n<共有スキル>"
+
+Skill 173
+Message 1 = "は五月雨を放った！"
+Message 2 = ""
+Name = "五月雨Lv2"
+Description = "さみだれ。どう読むかたまに忘れるスキル\r\nCT:8"
+Note = "<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 160 / 100),1].max\r\n<スキルディレイ 8>\r\n<記憶容量 1>\r\n<攻撃属性 17>\r\n<連続回数 16>\r\n<共有スキル>\r\n"
+
+Skill 174
+Message 1 = "は五月雨を放った！"
+Message 2 = ""
+Name = "五月雨Lv3"
+Description = "さみだれ。たまに読み方を忘れるスキル\r\nCT:8"
+Note = "<駆動> [((1300 - ( (a.agi+12) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+12) * a.spd / 10 )) * 160 / 100),1].max\r\n<スキルディレイ 8>\r\n<記憶容量 1>\r\n<攻撃属性 17>\r\n<連続回数 20>\r\n<共有スキル>"
+
+Skill 175
+Message 1 = "はフレイムエッジを放った！"
+Message 2 = ""
+Name = "フレイムエッジ"
+Description = "火の力を纏った斬撃を放つ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-2) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-2) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 176
+Message 1 = "はフレイムエッジを放った！"
+Message 2 = ""
+Name = "フレイムエッジLv2"
+Description = "火の力を纏った斬撃を放つ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 177
+Message 1 = "はフレイムエッジを放った！"
+Message 2 = ""
+Name = "フレイムエッジLv3"
+Description = "火の力を纏った斬撃を放つ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 178
+Message 1 = "の炎舞！！"
+Message 2 = ""
+Name = "炎舞"
+Description = "火を纏い舞うように斬る物魔複合スキル\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+2) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+2) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 179
+Message 1 = "の炎舞！！"
+Message 2 = ""
+Name = "炎舞Lv2"
+Description = "火を纏い舞うように斬る物魔複合スキル\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 180
+Message 1 = "の炎舞！！"
+Message 2 = ""
+Name = "炎舞Lv3"
+Description = "火を纏い舞うように斬る物魔複合スキル\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 181
+Message 1 = "はデュアルエッジを放った！"
+Message 2 = ""
+Name = "デュアルエッジ"
+Description = "二本の剣を交互に振り、的確に対象を攻撃する\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<共有スキル>"
+
+Skill 182
+Message 1 = "はデュアルエッジを放った！"
+Message 2 = ""
+Name = "デュアルエッジLv2"
+Description = "二本の剣を交互に振り、的確に対象を攻撃する\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n<共有スキル>"
+
+Skill 183
+Message 1 = "はデュアルエッジを放った！"
+Message 2 = ""
+Name = "デュアルエッジLv3"
+Description = "二本の剣を交互に振り、的確に対象を攻撃する\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n\r\n<共有スキル>"
+
+Skill 184
+Message 1 = "はアイシクルブレードを放った！"
+Message 2 = ""
+Name = "アイシクルブレード"
+Description = "冷気を纏った斬撃を繰り出す\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 185
+Message 1 = "はアイシクルブレードを放った！"
+Message 2 = ""
+Name = "アイシクルブレードLv2"
+Description = "冷気を纏った斬撃を繰り出す\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+8) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+8) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 186
+Message 1 = "はアイシクルブレードを放った！"
+Message 2 = ""
+Name = "アイシクルブレードLv3"
+Description = "冷気を纏った斬撃を繰り出す\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+12) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+12) * a.spd / 10 )) * 90 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 187
+Message 1 = "はインパルスアサルトを放った！"
+Message 2 = ""
+Name = "インパルスアサルト"
+Description = "鋭い斬撃が対象を襲う\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 210 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 188
+Message 1 = "はインパルスアサルトを放った！"
+Message 2 = ""
+Name = "インパルスアサルトLv2"
+Description = "鋭い斬撃が対象を襲う\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 200 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 189
+Message 1 = "はインパルスアサルトを放った！"
+Message 2 = ""
+Name = "インパルスアサルトLv3"
+Description = "鋭い斬撃が対象を襲う\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 170 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 190
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 191
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 192
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 193
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 194
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 195
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 196
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 197
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 198
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 199
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 200
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 201
+Message 1 = ""
+Message 2 = ""
+Name = "☆範囲"
+Description = ""
+Note = ""
+
+Skill 202
+Message 1 = "のダッシュ斬り！"
+Message 2 = ""
+Name = "ダッシュ斬り"
+Description = "ダッシュして斬る。ダッシュして斬る。\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 3>\r\n<共有スキル>\r\n\r\n"
+
+Skill 203
+Message 1 = "のダッシュ斬り！"
+Message 2 = ""
+Name = "ダッシュ斬りLv2"
+Description = "ダッシュして斬る。ダッシュして斬る。\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n\r\n<共有スキル>"
+
+Skill 204
+Message 1 = "のダッシュ斬り！"
+Message 2 = ""
+Name = "ダッシュ斬りLv3"
+Description = "ダッシュして斬る。ダッシュして斬る。\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+10) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+10) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<共有スキル>"
+
+Skill 205
+Message 1 = "はクロススラッシュを放った！"
+Message 2 = ""
+Name = "クロススラッシュ"
+Description = "二刀の武器を交差するように振る連続技\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 5>\r\n<二刀流要求>\r\n<攻撃属性 19>\r\n<共有スキル>"
+
+Skill 206
+Message 1 = "はクロススラッシュを放った！"
+Message 2 = ""
+Name = "クロススラッシュLv2"
+Description = "二刀の武器を交差するように振る連続技\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 5>\r\n<二刀流要求>\r\n<攻撃属性 19>\r\n<共有スキル>"
+
+Skill 207
+Message 1 = "はクロススラッシュを放った！"
+Message 2 = ""
+Name = "クロススラッシュLv3"
+Description = "二刀の武器を交差するように振る連続技\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 170 / 100),1].max\r\n<スキルディレイ 5>\r\n<二刀流要求>\r\n<攻撃属性 19>\r\n<共有スキル>"
+
+Skill 208
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃"
+Description = "敵全体をなぎ払う物魔複合スキル\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 209
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃Lv2"
+Description = "敵全体をなぎ払う物魔複合スキル\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi+10) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+10) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 210
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃Lv3"
+Description = "敵全体をなぎ払う物魔複合スキル\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi+13) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+13) * a.spd / 10 )) * 90 / 100),1].max\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 211
+Message 1 = "は凍刃招を放った！"
+Message 2 = ""
+Name = "凍刃招"
+Description = "斬りつけると同時に氷柱を生み出し全体を攻撃する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 212
+Message 1 = "は凍刃招を放った！"
+Message 2 = ""
+Name = "凍刃招Lv2"
+Description = "斬りつけると同時に氷柱を生み出し全体を攻撃する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 213
+Message 1 = "は凍刃招を放った！"
+Message 2 = ""
+Name = "凍刃招Lv3"
+Description = "斬りつけると同時に氷柱を生み出し全体を攻撃する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 170 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 214
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 215
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 216
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 217
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 218
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 219
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 220
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 221
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 222
+Message 1 = ""
+Message 2 = ""
+Name = "☆範囲分散"
+Description = ""
+Note = ""
+
+Skill 223
+Message 1 = "は乱舞斬を放った！"
+Message 2 = ""
+Name = "乱舞斬"
+Description = "乱れ狂う斬撃が敵の群れを襲う長剣スキル\r\nCT:6"
+Note = "<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 200 / 100),1].max\r\n<スキルディレイ 6>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 224
+Message 1 = "は乱舞斬を放った！"
+Message 2 = ""
+Name = "乱舞斬Lv2"
+Description = "乱れ狂う斬撃が敵の群れを襲う長剣スキル\r\nCT:6"
+Note = "<駆動> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 200 / 100),1].max\r\n<スキルディレイ 6>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 225
+Message 1 = "は乱舞斬を放った！"
+Message 2 = ""
+Name = "乱舞斬Lv3"
+Description = "乱れ狂う斬撃が敵の群れを襲う長剣スキル\r\nCT:6"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 6>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 226
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 227
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 228
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 229
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 230
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 231
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 232
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 233
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 234
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 235
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 236
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 237
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 238
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 239
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 240
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 241
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 242
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 243
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 244
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 245
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 246
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 247
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 248
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 249
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 250
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 251
+Message 1 = ""
+Message 2 = ""
+Name = "----魔法------"
+Description = ""
+Note = ""
+
+Skill 252
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "安定の回復魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n<共有スキル>"
+
+Skill 253
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒールLv2"
+Description = "安定の回復魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n<共有スキル>"
+
+Skill 254
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒールLv3"
+Description = "安定の回復魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n<共有スキル>"
+
+Skill 255
+Message 1 = "はメガヒールを唱えた！"
+Message 2 = ""
+Name = "メガヒール"
+Description = "安定の回復魔法partⅡ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n<共有スキル>"
+
+Skill 256
+Message 1 = "はメガヒールを唱えた！"
+Message 2 = ""
+Name = "メガヒールLv2"
+Description = "安定の回復魔法partⅡ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-9) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-9) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n<共有スキル>"
+
+Skill 257
+Message 1 = "はメガヒールを唱えた！"
+Message 2 = ""
+Name = "メガヒールLv3"
+Description = "安定の回復魔法partⅡ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-9) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-9) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<共有スキル>"
+
+Skill 258
+Message 1 = "はギガヒールを唱えた！"
+Message 2 = ""
+Name = "ギガヒール"
+Description = "回復量がやば高い回復魔法。毒・暗闇も解除する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<共有スキル>"
+
+Skill 259
+Message 1 = "はギガヒールを唱えた！"
+Message 2 = ""
+Name = "ギガヒールLv2"
+Description = "回復量がやば高い回復魔法。毒・暗闇も解除する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<共有スキル>"
+
+Skill 260
+Message 1 = "はギガヒールを唱えた！"
+Message 2 = ""
+Name = "ギガヒールLv3"
+Description = "回復量がやば高い回復魔法。毒・暗闇も解除する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n<共有スキル>"
+
+Skill 261
+Message 1 = "はオメガヒールを唱えた！"
+Message 2 = ""
+Name = "オメガヒール"
+Description = "こんな回復して馬鹿じゃないの？的な回復(毒･暗闇解除)\r\nCT:25"
+Note = "<駆動> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 70 / 100),1].max\r\n<スキルディレイ 25>\r\n\r\n<記憶容量 1>\r\n<共有スキル>"
+
+Skill 262
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 263
+Message 1 = "はアンチドートを唱えた！"
+Message 2 = ""
+Name = "アンチドート"
+Description = "毒を治療し、微量ながらHPも回復させる\r\nCT:2"
+Note = "<価格:1000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 264
+Message 1 = "はアンチブラックを唱えた！"
+Message 2 = ""
+Name = "アンチブラック"
+Description = "暗闇を治療し、微量ながらHPも回復させる\r\nCT:2"
+Note = "<価格:1000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 265
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 266
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 267
+Message 1 = "はエンチャントレッドを唱えた！"
+Message 2 = ""
+Name = "エンチャントレッド"
+Description = "火の属性に有利になる\r\nCT:2"
+Note = "<価格:5000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 268
+Message 1 = "はエンチャントブルーを唱えた！"
+Message 2 = ""
+Name = "エンチャントブルー"
+Description = "水の属性に有利になる\r\nCT:2"
+Note = "<価格:5000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 269
+Message 1 = "はエンチャントブラウンを唱えた！"
+Message 2 = ""
+Name = "エンチャントブラウン"
+Description = "土の属性に有利になる\r\nCT:2"
+Note = "<価格:5000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 270
+Message 1 = "はエンチャントグリーンを唱えた！"
+Message 2 = ""
+Name = "エンチャントグリーン"
+Description = "風の属性に有利になる\r\nCT:2"
+Note = "<価格:5000>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi*5) * a.spd / 10 )) * 30 / 100),1].max\r\n\r\n<スキルディレイ 2>\r\n<共有スキル>"
+
+Skill 271
+Message 1 = "はクレイアーマーを唱えた！"
+Message 2 = ""
+Name = "クレイアーマー"
+Description = "泥を魔力でコーティングし、自身の盾として扱う\r\n防御力上昇　　CT:10"
+Note = "<駆動> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> 0\r\n<スキルディレイ 10>\r\n<共有スキル>"
+
+Skill 272
+Message 1 = "はクレイアーマーを唱えた！"
+Message 2 = ""
+Name = "クレイアーマーLv2"
+Description = "泥を魔力でコーティングし、自身の盾として扱う\r\n防御力上昇　　CT:10"
+Note = "<駆動> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> 0\r\n<スキルディレイ 10>\r\n<共有スキル>"
+
+Skill 273
+Message 1 = "はクレイアーマーを唱えた！"
+Message 2 = ""
+Name = "クレイアーマーLv3"
+Description = "泥を魔力でコーティングし、自身の盾として扱う\r\n防御力上昇　　CT:10"
+Note = "<駆動> [((1300 - ( (a.agi-20) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> 0\r\n<スキルディレイ 10>\r\n<共有スキル>"
+
+Skill 274
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 275
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 276
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 277
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 278
+Message 1 = ""
+Message 2 = ""
+Name = "----攻撃魔法-----------"
+Description = ""
+Note = ""
+
+Skill 279
+Message 1 = "はショックを唱えた！"
+Message 2 = ""
+Name = "ショック"
+Description = "簡易的な雷撃魔法\r\nCT:1"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<スキルディレイ 1>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 280
+Message 1 = "はショックを唱えた！"
+Message 2 = ""
+Name = "ショックLv2"
+Description = "簡易的な雷撃魔法\r\nCT:1"
+Note = "<駆動> [((1300 - ( (a.agi-3) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-3) * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<スキルディレイ 1>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 281
+Message 1 = "はショックを唱えた！"
+Message 2 = ""
+Name = "ショックLv3"
+Description = "簡易的な雷撃魔法\r\nCT:1"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi-1) * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<スキルディレイ 1>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 282
+Message 1 = "はファイアを唱えた！"
+Message 2 = ""
+Name = "ファイア"
+Description = "炎をお見舞いする\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi- 10) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 283
+Message 1 = "はファイアを唱えた！"
+Message 2 = ""
+Name = "ファイアLv2"
+Description = "炎をお見舞いする\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi- 10) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 284
+Message 1 = "はファイアを唱えた！"
+Message 2 = ""
+Name = "ファイアLv3"
+Description = "炎をお見舞いする\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi- 7) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 285
+Message 1 = "はアイスニードルを唱えた！"
+Message 2 = ""
+Name = "アイスニードル"
+Description = "氷の針が相手を襲う\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi- 15) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 286
+Message 1 = "はアイスニードルを唱えた！"
+Message 2 = ""
+Name = "アイスニードルLv2"
+Description = "氷の針が相手を襲う\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi- 15) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 287
+Message 1 = "はアイスニードルを唱えた！"
+Message 2 = ""
+Name = "アイスニードルLv3"
+Description = "氷の針が相手を襲う\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi- 15) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 288
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルト"
+Description = "雷撃を放つ！\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 289
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルトLv2"
+Description = "雷撃を放つ！\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 24>\r\n<共有スキル>\r\n"
+
+Skill 290
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルトLv3"
+Description = "雷撃を放つ！\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 291
+Message 1 = "はフレイムを唱えた！"
+Message 2 = ""
+Name = "フレイム"
+Description = "強力な炎をお見舞いする\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 292
+Message 1 = "はフレイムを唱えた！"
+Message 2 = ""
+Name = "フレイムLv2"
+Description = "強力な炎をお見舞いする\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 293
+Message 1 = "はフレイムを唱えた！"
+Message 2 = ""
+Name = "フレイムLv3"
+Description = "強力な炎をお見舞いする\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 294
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "暗黒"
+Description = "闇属性の単体魔法\r\nCT:7"
+Note = "<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 7>\r\n<攻撃属性 27>\r\n<共有スキル>"
+
+Skill 295
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "暗黒Lv2"
+Description = "闇属性の単体魔法\r\nCT:7"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 7>\r\n<攻撃属性 27>\r\n<共有スキル>"
+
+Skill 296
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "暗黒Lv3"
+Description = "闇属性の単体魔法\r\nCT:7"
+Note = "<駆動> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 7>\r\n<攻撃属性 27>\r\n<共有スキル>"
+
+Skill 297
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 298
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 299
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 300
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 301
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 302
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 303
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 304
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 305
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 306
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 307
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 308
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 309
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 310
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 311
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 312
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 313
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 314
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 315
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 316
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 317
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 318
+Message 1 = "はファイアバーストを唱えた！"
+Message 2 = ""
+Name = "ファイアバースト"
+Description = "火球を生み出し、それを急速に膨張させ爆発させる魔法\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 2>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 319
+Message 1 = "はファイアバーストを唱えた！"
+Message 2 = ""
+Name = "ファイアバーストLv2"
+Description = "火球を生み出し、それを急速に膨張させ爆発させる魔法\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 2>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 320
+Message 1 = "はファイアバーストを唱えた！"
+Message 2 = ""
+Name = "ファイアバーストLv3"
+Description = "火球を生み出し、それを急速に膨張させ爆発させる魔法\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 2>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 321
+Message 1 = "はテンライを唱えた！"
+Message 2 = ""
+Name = "テンライ"
+Description = "天がお怒りじゃ～:(；ﾞﾟωﾟ'):\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 322
+Message 1 = "はテンライを唱えた！"
+Message 2 = ""
+Name = "テンライLv2"
+Description = "天がお怒りじゃ～:(；ﾞﾟωﾟ'):\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+6) * a.spd / 10 )) * 170 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 323
+Message 1 = "はテンライを唱えた！"
+Message 2 = ""
+Name = "テンライLv3"
+Description = "天がお怒りじゃ～:(；ﾞﾟωﾟ'):\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+9) * a.spd / 10 )) * 160 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 324
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "ダークネス"
+Description = "闇属性の全体攻撃魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-6) * a.spd / 10 )) * 80 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-6) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 27>\r\n<共有スキル>"
+
+Skill 325
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "ダークネスLv2"
+Description = "闇属性の全体攻撃魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-4) * a.spd / 10 )) * 70 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-4) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 27>\r\n<共有スキル>"
+
+Skill 326
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "ダークネスLv3"
+Description = "闇属性の全体攻撃魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-1) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-1) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 3>\r\n<攻撃属性 27>\r\n<共有スキル>"
+
+Skill 327
+Message 1 = "はアイシクルフィールドを唱えた！"
+Message 2 = ""
+Name = "アイシクルフィールド"
+Description = "氷の世界と化す\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi- 8) * a.spd / 10 )) * 60 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 180 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 328
+Message 1 = "はアイシクルフィールドを唱えた！"
+Message 2 = ""
+Name = "アイシクルフィールドLv2"
+Description = "氷の世界と化す\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi- 5) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 170 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 329
+Message 1 = "はアイシクルフィールドを唱えた！"
+Message 2 = ""
+Name = "アイシクルフィールドLv3"
+Description = "氷の世界と化す\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-3) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-3) * a.spd / 10 )) * 160 / 100),1].max\r\n<スキルディレイ 5>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 330
+Message 1 = ""
+Message 2 = ""
+Name = "ーーーーー奥義ーーー"
+Description = ""
+Note = ""
+
+Skill 331
+Message 1 = "はVスラッシュを放った！"
+Message 2 = ""
+Name = "Vスラッシュ"
+Description = "対象に大ダメージを与える奥義スキル\r\nCT:18"
+Note = "[コモン呼出 = 200]\r\n<記憶容量 1>\r\n<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 130 / 100),1].max\r\n\r\n<スキルディレイ 15>\r\n<キャンセル>\r\n<ディレイコマ数> 1\r\n<共有スキル>"
+
+Skill 332
+Message 1 = "はWスラッシュを放った！"
+Message 2 = ""
+Name = "Wスラッシュ"
+Description = "W字斬りだ～っ！\r\nCT:25"
+Note = "[コモン呼出 = 200]\r\n<記憶容量 1>\r\n<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 130 / 100),1].max\r\n\r\n<スキルディレイ 25>\r\n<消費TP 150>\r\n<キャンセル>\r\n<ディレイコマ数> 2\r\n<共有スキル>"
+
+Skill 333
+Message 1 = "はイグニスを唱えた！"
+Message 2 = ""
+Name = "イグニス"
+Description = "強力な火柱を生み出す魔法奥義\r\nCT:15"
+Note = "[コモン呼出 = 200]\r\n<記憶容量 1>\r\n<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 130 / 100),1].max\r\n\r\n<スキルディレイ 15>\r\n<消費TP 130>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 334
+Message 1 = "はアイスベルグを唱えた！"
+Message 2 = ""
+Name = "アイスベルグ"
+Description = "無数の氷柱が敵の群れを貫きつくす\r\nCT:26"
+Note = "[コモン呼出 = 200]\r\n<記憶容量 1>\r\n<駆動> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 80 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-10) * a.spd / 10 )) * 150 / 100),1].max\r\n\r\n<スキルディレイ 26>\r\n<消費TP 150>\r\n<攻撃属性 21>\r\n<共有スキル>"
+
+Skill 335
+Message 1 = "は滅を放った！"
+Message 2 = ""
+Name = "滅"
+Description = "精神を集中して魔力を込めた斬撃を繰り出す魔剣奥義\r\nCT:18"
+Note = "[コモン呼出 = 200]\r\n<記憶容量 1>\r\n<駆動> 0\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 180 / 100),1].max\r\n\r\n<スキルディレイ 18>\r\n<消費TP 120>\r\n<キャンセル>\r\n<ディレイコマ数> 2\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 336
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 337
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 338
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 339
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 340
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 341
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 342
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 343
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 344
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 345
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 346
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 347
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 348
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 349
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 350
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 351
+Message 1 = ""
+Message 2 = ""
+Name = "ーーーーパッシブーーーーーー"
+Description = ""
+Note = ""
+
+Skill 352
+Message 1 = ""
+Message 2 = ""
+Name = "田舎娘"
+Description = "田舎育ちの村娘\r\n最大HP+2%"
+Note = "<パッシブ能力防具 265>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 353
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法"
+Description = "効率の良い呼吸で体力の回復を早める！\r\nHP回復+1%/ターン"
+Note = "<パッシブ能力防具 266>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 354
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法Lv2"
+Description = "効率の良い呼吸で体力の回復を早める！\r\nHP回復+2%/ターン"
+Note = "<パッシブ能力防具 267>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 355
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法Lv3"
+Description = "効率の良い呼吸で体力の回復を早める！\r\nHP回復+4%/ターン"
+Note = "<パッシブ能力防具 268>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 356
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一"
+Description = "精神を統一することで効率の良いMP回復を！\r\nMP回復+1%/ターン"
+Note = "<パッシブ能力防具 269>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 357
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一Lv2"
+Description = "精神を統一することで効率の良いMP回復を！\r\nMP回復+2%/ターン"
+Note = "<パッシブ能力防具 270>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 358
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一Lv3"
+Description = "精神を統一することで効率の良いMP回復を！\r\nMP回復+3%/ターン"
+Note = "<パッシブ能力防具 271>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 359
+Message 1 = ""
+Message 2 = ""
+Name = "慎重"
+Description = "先人のアドバイスを大切にする慎重な子\r\n命中率+5%"
+Note = "<パッシブ能力防具 272>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 360
+Message 1 = ""
+Message 2 = ""
+Name = "無謀な子"
+Description = "駆け出しでアダンダラに挑戦しようとした無謀な子\r\n攻撃力+5"
+Note = "<パッシブ能力防具 273>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 361
+Message 1 = ""
+Message 2 = ""
+Name = "のんびり"
+Description = "時には休息も大事\r\n獲得経験値+10%"
+Note = "<パッシブ能力防具 274>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 362
+Message 1 = ""
+Message 2 = ""
+Name = "体力UP"
+Description = "最大HP+20"
+Note = "<パッシブ能力防具 275>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 363
+Message 1 = ""
+Message 2 = ""
+Name = "スタミナUP"
+Description = "TP回復量+1%/ターン"
+Note = "<パッシブ能力防具 276>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 364
+Message 1 = ""
+Message 2 = ""
+Name = "MP上昇"
+Description = "最大MP+15"
+Note = "<パッシブ能力防具 277>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 365
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃UP"
+Description = "攻撃力+7"
+Note = "<パッシブ能力防具 273>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 366
+Message 1 = ""
+Message 2 = ""
+Name = "魔力UP"
+Description = "魔法力+7"
+Note = "<パッシブ能力防具 278>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 367
+Message 1 = ""
+Message 2 = ""
+Name = "精神力UP"
+Description = "魔法防御力+7"
+Note = "<パッシブ能力防具 279>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 368
+Message 1 = ""
+Message 2 = ""
+Name = "防御力UP"
+Description = "防御力+7"
+Note = "<パッシブ能力防具 280>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 369
+Message 1 = ""
+Message 2 = ""
+Name = "体力UPⅡ"
+Description = "最大HP+25"
+Note = "<パッシブ能力武器 601>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 370
+Message 1 = ""
+Message 2 = ""
+Name = "MP上昇Ⅱ"
+Description = "最大MP+20"
+Note = "<パッシブ能力武器 602>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 371
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃UPⅡ"
+Description = "攻撃力+12"
+Note = "<パッシブ能力武器 603>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 372
+Message 1 = ""
+Message 2 = ""
+Name = "魔力UPⅡ"
+Description = "魔法力+12"
+Note = "<パッシブ能力武器 604>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 373
+Message 1 = ""
+Message 2 = ""
+Name = "精神力UPⅡ"
+Description = "魔法防御力+12"
+Note = "<パッシブ能力武器 605>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 374
+Message 1 = ""
+Message 2 = ""
+Name = "防御力UPⅡ"
+Description = "防御力+12"
+Note = "<パッシブ能力武器 606>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 375
+Message 1 = ""
+Message 2 = ""
+Name = "スタミナUPⅡ"
+Description = "TP回復量+1%/ターン\r\n最大TP+10"
+Note = "<パッシブ能力武器 607>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 376
+Message 1 = ""
+Message 2 = ""
+Name = "体力UPⅢ"
+Description = "最大HP+12%"
+Note = "<パッシブ能力武器 608>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 377
+Message 1 = ""
+Message 2 = ""
+Name = "MP上昇Ⅲ"
+Description = "最大MP+15%"
+Note = "<パッシブ能力武器 609>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 378
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃UPⅢ"
+Description = "攻撃力+8%"
+Note = "<パッシブ能力武器 610>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 379
+Message 1 = ""
+Message 2 = ""
+Name = "魔力UPⅢ"
+Description = "魔法力+8%"
+Note = "<パッシブ能力武器 611>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 380
+Message 1 = ""
+Message 2 = ""
+Name = "精神力UPⅢ"
+Description = "魔法防御力+8%"
+Note = "<パッシブ能力武器 612>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 381
+Message 1 = ""
+Message 2 = ""
+Name = "防御力UPⅢ"
+Description = "防御力+8%"
+Note = "<パッシブ能力武器 613>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 382
+Message 1 = ""
+Message 2 = ""
+Name = "スタミナUPⅢ"
+Description = "TP回復量+2%/ターン"
+Note = "<パッシブ能力武器 614>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 383
+Message 1 = ""
+Message 2 = ""
+Name = "敏捷上昇"
+Description = "敏捷値+3"
+Note = "<パッシブ能力武器 615>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 384
+Message 1 = ""
+Message 2 = ""
+Name = "敏捷上昇Ⅱ"
+Description = "敏捷値+5"
+Note = "<パッシブ能力武器 616>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 385
+Message 1 = ""
+Message 2 = ""
+Name = "敏捷上昇Ⅲ"
+Description = "敏捷値+7"
+Note = "<パッシブ能力武器 617>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 386
+Message 1 = ""
+Message 2 = ""
+Name = "技量UP"
+Description = "技量+4"
+Note = "<パッシブ能力武器 618>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 387
+Message 1 = ""
+Message 2 = ""
+Name = "技量UPⅡ"
+Description = "技量+7"
+Note = "<パッシブ能力武器 619>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 388
+Message 1 = ""
+Message 2 = ""
+Name = "技量UPⅢ"
+Description = "技量+11"
+Note = "<パッシブ能力武器 620>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 389
+Message 1 = ""
+Message 2 = ""
+Name = "体力UPα"
+Description = "最大HP+7%"
+Note = "<パッシブ能力武器 621>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 390
+Message 1 = ""
+Message 2 = ""
+Name = "MP上昇α"
+Description = "最大MP+5%\r\nMP回復量+1%/ターン"
+Note = "<パッシブ能力武器 622,623>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 391
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃UPα"
+Description = "攻撃力+6%"
+Note = "<パッシブ能力武器 624>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 392
+Message 1 = ""
+Message 2 = ""
+Name = "魔力UPα"
+Description = "魔法力+6%"
+Note = "<パッシブ能力武器 625>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 393
+Message 1 = ""
+Message 2 = ""
+Name = "精神力UPα"
+Description = "魔法防御力+6%"
+Note = "<パッシブ能力武器 626>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 394
+Message 1 = ""
+Message 2 = ""
+Name = "防御力UPα"
+Description = "防御力+6%"
+Note = "<パッシブ能力武器 627>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 395
+Message 1 = ""
+Message 2 = ""
+Name = "スタミナUPα"
+Description = "最大TP+20\r\nTP回復量+1%/ターン"
+Note = "<パッシブ能力武器 628>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 396
+Message 1 = ""
+Message 2 = ""
+Name = "敏捷上昇α"
+Description = "敏捷値+4+1%"
+Note = "<パッシブ能力武器 629>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 397
+Message 1 = ""
+Message 2 = ""
+Name = "技量UPα"
+Description = "技量+5+1%"
+Note = "<パッシブ能力武器 630>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 398
+Message 1 = ""
+Message 2 = ""
+Name = "体力UPβ"
+Description = "最大HP+100"
+Note = "<パッシブ能力武器 631>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 399
+Message 1 = ""
+Message 2 = ""
+Name = "MP上昇β"
+Description = "最大MP+80"
+Note = "<パッシブ能力武器 632>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 400
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃UPβ"
+Description = "攻撃力+60"
+Note = "<パッシブ能力武器 633>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 401
+Message 1 = ""
+Message 2 = ""
+Name = "魔力UPβ"
+Description = "魔法力+70"
+Note = "<パッシブ能力武器 634>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 402
+Message 1 = ""
+Message 2 = ""
+Name = "精神力UPβ"
+Description = "魔法防御力+70"
+Note = "<パッシブ能力武器 635>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 403
+Message 1 = ""
+Message 2 = ""
+Name = "防御力UPβ"
+Description = "防御力+40"
+Note = "<パッシブ能力武器 636>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 404
+Message 1 = ""
+Message 2 = ""
+Name = "スタミナUPβ"
+Description = "最大TP+50\r\nTP回復量+1%/ターン"
+Note = "<パッシブ能力武器 637>\r\n<記憶容量 6>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 405
+Message 1 = ""
+Message 2 = ""
+Name = "敏捷上昇β"
+Description = "敏捷値+12"
+Note = "<パッシブ能力武器 638>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 406
+Message 1 = ""
+Message 2 = ""
+Name = "技量UPβ"
+Description = "技量+18"
+Note = "<パッシブ能力武器 639>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 407
+Message 1 = ""
+Message 2 = ""
+Name = "スタミナUPω"
+Description = "オッパイじゃないよオメガだよω\r\n最大TP+60　TP回復量+3%/ターン"
+Note = "<パッシブ能力武器 640>\r\n<記憶容量 8>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 408
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 409
+Message 1 = ""
+Message 2 = ""
+Name = "良い子"
+Description = "万引きしない良い子\r\n攻撃力+4"
+Note = "<パッシブ能力武器 641>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 410
+Message 1 = ""
+Message 2 = ""
+Name = "悪い子"
+Description = "万引きをした悪い子\r\n魔法力+4"
+Note = "<パッシブ能力武器 642>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 411
+Message 1 = ""
+Message 2 = ""
+Name = "駆け出し冒険者"
+Description = "ギルド身分証を持っている駆け出し冒険者\r\n攻撃力+4　敏捷+1"
+Note = "<パッシブ能力武器 643>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 412
+Message 1 = ""
+Message 2 = ""
+Name = "冷静な判断"
+Description = "何が幸せかは本人が決める事で他人が決める事では無い\r\n精神力+11"
+Note = "<パッシブ能力武器 644>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 413
+Message 1 = ""
+Message 2 = ""
+Name = "当然の流れ"
+Description = "魔物に犯されてる女性を助けるのは当たり前なのだ\r\n攻撃力+3　敏捷性+1"
+Note = "<パッシブ能力武器 645>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 414
+Message 1 = ""
+Message 2 = ""
+Name = "剣闘士"
+Description = "祝！Eランク突破！！( ﾟДﾟﾉﾉ\"☆ﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁ\r\nHP+15　MP+5　攻撃力+10  防御力+3　魔法力+5　敏捷性+1　技量+1"
+Note = "<パッシブ能力武器 646>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 415
+Message 1 = ""
+Message 2 = ""
+Name = "Dランカー"
+Description = "Eランクを突破した強者の証。戦いはこれからだ\r\n防御力+13"
+Note = "<パッシブ能力武器 647>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 416
+Message 1 = ""
+Message 2 = ""
+Name = "Cランク"
+Description = "Dランクマッチを突破した貴方はもう中級者\r\nMP+25"
+Note = "<パッシブ能力武器 648>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 417
+Message 1 = ""
+Message 2 = ""
+Name = "Bランク"
+Description = "Cランク戦を突破した強者に与えられるランク\r\n攻撃力+50"
+Note = "<パッシブ能力武器 649>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 418
+Message 1 = ""
+Message 2 = ""
+Name = "A"
+Description = "Bランクを突破した戦神に送られる称号\r\nHP+10% MP+10%"
+Note = "<パッシブ能力武器 650>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 419
+Message 1 = ""
+Message 2 = ""
+Name = "底辺"
+Description = "毎日を売春でしか生きる糧を得られない底辺\r\n全ての能力値が減少"
+Note = "<パッシブ能力武器 651>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 420
+Message 1 = ""
+Message 2 = ""
+Name = "犯罪者"
+Description = "犯した罪がある者をさす\r\n魔法防御力+5"
+Note = "<パッシブ能力武器 652>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 421
+Message 1 = ""
+Message 2 = ""
+Name = "マイペース"
+Description = "ココアはいつもマイペース\r\nHP回復量+1%"
+Note = "<パッシブ能力武器 653>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 422
+Message 1 = ""
+Message 2 = ""
+Name = "集中"
+Description = "集中して命中率・回避率を上昇させる\r\n命中率+10% 回避率+5%"
+Note = "<パッシブ能力武器 654>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 423
+Message 1 = ""
+Message 2 = ""
+Name = "必死避け"
+Description = "必死に避ける\r\n回避率+8%"
+Note = "<パッシブ能力武器 655>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 424
+Message 1 = ""
+Message 2 = ""
+Name = "魔剣士の心得"
+Description = "魔剣士とは何ぞや\r\n魔法力+15　魔法防御+20　クリ率+3%　回避率+3%"
+Note = "<パッシブ能力武器 656>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 425
+Message 1 = ""
+Message 2 = ""
+Name = "命を大事に"
+Description = "命を大事にします\r\n会心回避率+5%"
+Note = "<パッシブ能力武器 657>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 426
+Message 1 = ""
+Message 2 = ""
+Name = "二刀流"
+Description = "両手利きも立派な特殊能力と褒められた\r\n攻撃力+30"
+Note = "<パッシブ能力武器 658>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 427
+Message 1 = ""
+Message 2 = ""
+Name = "アダンダラキラー"
+Description = "アダンダラを討伐した！やった(ﾟ∀ﾟ)\r\n敏捷+4"
+Note = "<パッシブ能力武器 659>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 428
+Message 1 = ""
+Message 2 = ""
+Name = "魔法協会員"
+Description = "魔法協会で働く事になりました\r\n最大HP+15"
+Note = "<パッシブ能力武器 660>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 429
+Message 1 = ""
+Message 2 = ""
+Name = "40↑"
+Description = "40レベルを超えた者。ここまでがチュートリアル\r\n攻撃力+20　魔法力+20"
+Note = "<パッシブ能力武器 661>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 430
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 431
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 432
+Message 1 = ""
+Message 2 = ""
+Name = "スライムっ子"
+Description = "スライムに犯された娘\r\n攻撃力+3　防御力+1"
+Note = "<パッシブ能力武器 663>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 433
+Message 1 = ""
+Message 2 = ""
+Name = "ミミズ娘"
+Description = "おまんこにミミズを入れたエッチな娘\r\n魔法防御+5"
+Note = "<パッシブ能力武器 664>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 434
+Message 1 = ""
+Message 2 = ""
+Name = "ゼリー娘"
+Description = "ゼリー漬けにされた女の子\r\n魔法攻撃+8　防御+4"
+Note = "<パッシブ能力武器 665>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 435
+Message 1 = ""
+Message 2 = ""
+Name = "メス豚"
+Description = "メス豚呼ばわりされちゃいました\r\n攻撃力+8　防御力+1"
+Note = "<パッシブ能力武器 666>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 436
+Message 1 = ""
+Message 2 = ""
+Name = "レズ"
+Description = "ワイルドプシーとえっちしました\r\n魔法防御+15"
+Note = "<パッシブ能力武器 667>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 437
+Message 1 = ""
+Message 2 = ""
+Name = "ゲルボディ"
+Description = "ゲルのような柔軟な体を作ります\r\n打属性ダメージ軽減"
+Note = "<パッシブ能力武器 668>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 438
+Message 1 = ""
+Message 2 = ""
+Name = "スライムボディ"
+Description = "弾力のある体作り\r\n斬属性ダメージ軽減"
+Note = "<パッシブ能力武器 669>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 439
+Message 1 = ""
+Message 2 = ""
+Name = "触手っ子"
+Description = "触手と友達！\r\n女殺し属性ダメージ軽減"
+Note = "<パッシブ能力武器 670>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 440
+Message 1 = ""
+Message 2 = ""
+Name = "触手好き娘"
+Description = "触手に犯されるのが好きな変態娘\r\n女殺し属性ダメージ軽減"
+Note = "<パッシブ能力武器 671>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 441
+Message 1 = ""
+Message 2 = ""
+Name = "触手大好き！"
+Description = "触手にイヤらしく犯されるのが大好きな変態娘\r\n女殺し属性ダメージ軽減"
+Note = "<パッシブ能力武器 672>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 442
+Message 1 = ""
+Message 2 = ""
+Name = "敗者"
+Description = "敗北を知った者\r\n魔法防御+8"
+Note = "<パッシブ能力武器 673>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 443
+Message 1 = ""
+Message 2 = ""
+Name = "弱者"
+Description = "ちょっと弱すぎんよー修正はよ\r\n防御力+10"
+Note = "<パッシブ能力武器 674>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 444
+Message 1 = ""
+Message 2 = ""
+Name = "あまりにも弱者・・"
+Description = "その・・・なんていうかね・・\r\n防御力+18"
+Note = "<パッシブ能力武器 675>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 445
+Message 1 = ""
+Message 2 = ""
+Name = "激弱"
+Description = "弱い(確信\r\nダメージ軽減率↑"
+Note = "<パッシブ能力武器 676>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 446
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 447
+Message 1 = ""
+Message 2 = ""
+Name = "百合"
+Description = "レズが嫌いな女子はいません！\r\n魔法力+1%"
+Note = "<パッシブ能力武器 677>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 448
+Message 1 = ""
+Message 2 = ""
+Name = "ガチレズ"
+Description = "完璧にレズ\r\n魔法力+3%"
+Note = "<パッシブ能力武器 678>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 449
+Message 1 = ""
+Message 2 = ""
+Name = "レズマスター"
+Description = "レズを極めし者・・・\r\n魔法力+5%"
+Note = "<パッシブ能力武器 679>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 450
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 451
+Message 1 = ""
+Message 2 = ""
+Name = "マゾ"
+Description = "魔物に負けて犯されちゃうマゾ\r\n魔法防御+15"
+Note = "<パッシブ能力武器 680>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 452
+Message 1 = ""
+Message 2 = ""
+Name = "ドＭ"
+Description = "何度も魔物に犯されるまさにドエム\r\n魔法防御+22"
+Note = "<パッシブ能力武器 681>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 453
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 454
+Message 1 = ""
+Message 2 = ""
+Name = "えっちな少女"
+Description = "えっちな事に興味がある少女\r\n最大HP+11"
+Note = "<パッシブ能力武器 682>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 455
+Message 1 = ""
+Message 2 = ""
+Name = "すけべ少女"
+Description = "すけべぇな女の子\r\n最大HP+18"
+Note = "<パッシブ能力武器 683>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 456
+Message 1 = ""
+Message 2 = ""
+Name = "エロい子"
+Description = "ただのエロい娘\r\n最大HP+32"
+Note = "<パッシブ能力武器 684>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 457
+Message 1 = ""
+Message 2 = ""
+Name = "どすけべ"
+Description = "ここまで来るとただのどすけべ\r\n最大HP+3%"
+Note = "<パッシブ能力武器 685>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 458
+Message 1 = ""
+Message 2 = ""
+Name = "淫乱娘"
+Description = "えっち大好きな淫乱びっち系少女\r\n最大HP+5%"
+Note = "<パッシブ能力武器 686>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 459
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 460
+Message 1 = ""
+Message 2 = ""
+Name = "売春婦"
+Description = "体を売ってお金を得る女\r\n敏捷+3"
+Note = "<パッシブ能力武器 687>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 461
+Message 1 = ""
+Message 2 = ""
+Name = "上級娼婦"
+Description = "それなりに経験を重ねた娼婦\r\n最大MP+22"
+Note = "<パッシブ能力武器 688>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 462
+Message 1 = ""
+Message 2 = ""
+Name = "穴奴隷"
+Description = "えっちする事がすでに目的となっている・・\r\n最大HP+7%"
+Note = "<パッシブ能力武器 689>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 463
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 464
+Message 1 = ""
+Message 2 = ""
+Name = "初心者"
+Description = "駆け出しの初心者\r\n最大HP+10"
+Note = "<パッシブ能力武器 690>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 465
+Message 1 = ""
+Message 2 = ""
+Name = "ベテラン"
+Description = "最大HP+20　最大MP+20　攻撃力+20　防御力+20\r\n魔法力+20　魔法防御+20"
+Note = "<パッシブ能力武器 691>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 466
+Message 1 = ""
+Message 2 = ""
+Name = "戦闘狂"
+Description = "バトルマニア\r\n攻撃力+10%　魔法力+10%"
+Note = "<パッシブ能力武器 692>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 467
+Message 1 = ""
+Message 2 = ""
+Name = "戦神"
+Description = "我に敵なし\r\n攻撃力+12%　魔法力+12%　技量+10"
+Note = "<パッシブ能力武器 693>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 468
+Message 1 = ""
+Message 2 = ""
+Name = "鬼神"
+Description = "おにのようなつよさこわい\r\n攻撃力+5%　防御力+5%　魔法力+5%　魔法防御+5%"
+Note = "<パッシブ能力武器 694>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 469
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 470
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 471
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 472
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 473
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 474
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 475
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 476
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 477
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 478
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 479
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 480
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 481
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 482
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 483
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 484
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 485
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 486
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 487
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 488
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 489
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 490
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 491
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 492
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 493
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 494
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 495
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 496
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 497
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 498
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 499
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 500
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 501
+Message 1 = ""
+Message 2 = ""
+Name = "立派な良い子"
+Description = "パパができました♥\r\n魔法防御+15"
+Note = "<パッシブ能力武器 696>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 502
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 503
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 504
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 505
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 506
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 507
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 508
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 509
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 510
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 511
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 512
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 513
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 514
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 515
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 516
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 517
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 518
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 519
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 520
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 521
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 522
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 523
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 524
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 525
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 526
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 527
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 528
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 529
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 530
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 531
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 532
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 533
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 534
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 535
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 536
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 537
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 538
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 539
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 540
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 541
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 542
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 543
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 544
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 545
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 546
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 547
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 548
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 549
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 550
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 551
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 552
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 553
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 554
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 555
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 556
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 557
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 558
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 559
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 560
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 561
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 562
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 563
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 564
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 565
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 566
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 567
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 568
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 569
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 570
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 571
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 572
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 573
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 574
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 575
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 576
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 577
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 578
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 579
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 580
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 581
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 582
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 583
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 584
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 585
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 586
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 587
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 588
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 589
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 590
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 591
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 592
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 593
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 594
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 595
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 596
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 597
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 598
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 599
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 600
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 601
+Message 1 = ""
+Message 2 = ""
+Name = "---ここな-----------------"
+Description = ""
+Note = ""
+
+Skill 602
+Message 1 = ""
+Message 2 = ""
+Name = "ーーー回復ーーーー"
+Description = ""
+Note = ""
+
+Skill 603
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "安定の回復魔法\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 604
+Message 1 = "はメガヒールを唱えた！"
+Message 2 = ""
+Name = "メガヒール"
+Description = "安定の回復魔法partⅡ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-9) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-9) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 605
+Message 1 = "はギガヒールを唱えた！"
+Message 2 = ""
+Name = "ギガヒール"
+Description = "回復量がやば高い回復魔法。毒・暗闇も解除する\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 606
+Message 1 = "はオールヒールを唱えた！"
+Message 2 = ""
+Name = "オールヒール"
+Description = "安定の回復魔法( ﾟдﾟ )ﾐﾝﾅﾃﾞ\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 607
+Message 1 = ""
+Message 2 = ""
+Name = "ーーー特殊ーーー"
+Description = ""
+Note = ""
+
+Skill 608
+Message 1 = "は気合を入れた！！"
+Message 2 = ""
+Name = "気合"
+Description = "気合で負けたら負けちまうんだよ！　\r\n攻撃・防御上昇  CT:5"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 50 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 609
+Message 1 = "「瞬間回復～！！！」"
+Message 2 = ""
+Name = "瞬間回復"
+Description = "こんなんチートやチート\r\nCT:60"
+Note = "[コモン呼出 = 201]\r\n<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 40>\r\n<記憶容量 1>\r\n<共有スキル>"
+
+Skill 610
+Message 1 = ""
+Message 2 = ""
+Name = "オナニー"
+Description = ""
+Note = "<共有スキル>"
+
+Skill 611
+Message 1 = ""
+Message 2 = ""
+Name = "くぱぁ"
+Description = ""
+Note = "<共有スキル>"
+
+Skill 612
+Message 1 = ""
+Message 2 = ""
+Name = "ーーースキルーーーー"
+Description = ""
+Note = ""
+
+Skill 613
+Message 1 = "は瞬刃を放った！"
+Message 2 = ""
+Name = "瞬刃"
+Description = "素早く相手を切り刻む\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi+10) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+10) * a.spd / 10 )) * 70 / 100),1].max\r\n<スキルディレイ 2>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 614
+Message 1 = "は瞬牙を放った！"
+Message 2 = ""
+Name = "瞬牙"
+Description = "素早い斬撃が相手を襲う\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 80 / 100),1].max\r\n<スキルディレイ 2>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 615
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連"
+Description = "斬撃による連続攻撃\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 616
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 617
+Message 1 = "はモアンソードを放った！"
+Message 2 = ""
+Name = "モアンソード"
+Description = "対象の防御能力を落とす斬撃\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 618
+Message 1 = "は紅蓮を放った！"
+Message 2 = ""
+Name = "紅蓮"
+Description = "炎の魔力を相手にぶつける物魔複合攻撃\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 20>\r\n\r\n<キャンセル>\r\n<キャンセル率> 30\r\n<共有スキル>"
+
+Skill 619
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 620
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 621
+Message 1 = "の一閃！！"
+Message 2 = ""
+Name = "一閃"
+Description = "超高速で繰り出される斬撃\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 622
+Message 1 = "は剣を地面に突き立てた！"
+Message 2 = ""
+Name = "守護方陣"
+Description = "自身周辺に攻防一体の魔方陣を展開する\r\nCT：6"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 6>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 623
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 624
+Message 1 = ""
+Message 2 = ""
+Name = "----魔法-------"
+Description = ""
+Note = ""
+
+Skill 625
+Message 1 = "はファイアーボールを放った！"
+Message 2 = ""
+Name = "ファイアーボール"
+Description = "火炎球を放つ\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+2) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+2) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 626
+Message 1 = "はフレイムを唱えた！"
+Message 2 = ""
+Name = "フレイム"
+Description = "対象を業火にて滅する\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 627
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 628
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 629
+Message 1 = "はボマーを唱えた！"
+Message 2 = ""
+Name = "ボマー"
+Description = "敵全体に火球を放つ\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+1) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+1) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 630
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 631
+Message 1 = "はファイアーボール改を放った！"
+Message 2 = ""
+Name = "ファイアーボール改"
+Description = "強化されたファイアーボールを放つ範囲拡散魔法\r\nCT:6"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 150 / 100),1].max\r\n<スキルディレイ 6>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 632
+Message 1 = ""
+Message 2 = ""
+Name = "------奥義---------"
+Description = ""
+Note = ""
+
+Skill 633
+Message 1 = "は月光を放った！"
+Message 2 = ""
+Name = "月光"
+Description = "精神を集中して一振りに爆発させる奥義\r\nCT:22"
+Note = "[コモン呼出 = 201]\r\n<記憶容量 1>\r\n<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 80 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 180 / 100),1].max\r\n\r\n<スキルディレイ 22>\r\n<消費TP 100>\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 634
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 635
+Message 1 = ""
+Message 2 = ""
+Name = "ーーー守護方陣用ーーーーー"
+Description = ""
+Note = ""
+
+Skill 636
+Message 1 = "は守護方陣を放った！"
+Message 2 = ""
+Name = "守護方陣"
+Description = ""
+Note = ""
+
+Skill 637
+Message 1 = "「みんな回復だよー」"
+Message 2 = ""
+Name = "オールヒール"
+Description = "安定の回復魔法( ﾟдﾟ )ﾐﾝﾅﾃﾞ\r\nCT:3"
+Note = ""
+
+Skill 638
+Message 1 = ""
+Message 2 = ""
+Name = "ーーーパッシブーーーーー"
+Description = ""
+Note = ""
+
+Skill 639
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法Ⅱ"
+Description = "効率の良い呼吸で体力の回復を早める！\r\nHP回復+3%/ターン"
+Note = "<パッシブ能力武器 902>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 640
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一Ⅱ"
+Description = "精神を統一することで効率の良いMP回復を！\r\nMP回復+2%/ターン"
+Note = "<パッシブ能力武器 903>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 641
+Message 1 = ""
+Message 2 = ""
+Name = "見習いエージェント"
+Description = "見習いのエージェント\r\nHP+10　MP+40 攻撃力+10+10%　"
+Note = "<パッシブ能力武器 904>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 642
+Message 1 = ""
+Message 2 = ""
+Name = "イーグルアイⅢ"
+Description = "命中率+22"
+Note = "<パッシブ能力武器 905>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 643
+Message 1 = ""
+Message 2 = ""
+Name = "がんばり屋"
+Description = "経験値+30%"
+Note = "<パッシブ能力武器 906>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 644
+Message 1 = ""
+Message 2 = ""
+Name = "閃き"
+Description = "回避率+8"
+Note = "<パッシブ能力武器 907>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 645
+Message 1 = ""
+Message 2 = ""
+Name = "軽魔剣士"
+Description = "回避型魔剣士\r\n攻撃力+50 魔法力+50 魔法防御+30 技量+15"
+Note = "<パッシブ能力武器 908>\r\n<記憶容量 7>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 646
+Message 1 = ""
+Message 2 = ""
+Name = "元気！"
+Description = "元気だよ！\r\nTP回復+7%/ターン"
+Note = "<パッシブ能力武器 909>\r\n<記憶容量 12>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 647
+Message 1 = ""
+Message 2 = ""
+Name = "スピードスター"
+Description = "敏捷性+15　回避率+5%"
+Note = "<パッシブ能力武器 910>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 648
+Message 1 = ""
+Message 2 = ""
+Name = "覚醒Ⅱ"
+Description = "全能力値+15%"
+Note = "<パッシブ能力武器 911>\r\n<記憶容量 14>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 649
+Message 1 = ""
+Message 2 = ""
+Name = "技量＋"
+Description = "技量+22"
+Note = "<パッシブ能力武器 912>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 650
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 911>\r\n<記憶容量 14>"
+
+Skill 651
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 911>\r\n<記憶容量 14>"
+
+Skill 652
+Message 1 = ""
+Message 2 = ""
+Name = "===プティン============="
+Description = ""
+Note = ""
+
+Skill 653
+Message 1 = "は連打を放った！"
+Message 2 = ""
+Name = "連打"
+Description = "連続で対象を叩きつける\r\nCT:2"
+Note = "<駆動> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-5) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 2>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 654
+Message 1 = "はハードアタックを放った！"
+Message 2 = ""
+Name = "ハードアタック"
+Description = "対象に思いっきり体当たりをする\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-7) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 18>\r\n<キャンセル>\r\n<ディレイコマ数> 1\r\n<共有スキル>"
+
+Skill 655
+Message 1 = "は一刀両断を放った！"
+Message 2 = ""
+Name = "一刀両断"
+Description = "力いっぱい振り下ろす\r\nCT:6"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 6>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 18>\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 656
+Message 1 = "は大地斬を放った！"
+Message 2 = ""
+Name = "大地斬"
+Description = "大地を叩き切る必殺技\r\nCT:6"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 6>\r\n\r\n<メモライズ不要>\r\n<キャンセル>\r\n<ディレイコマ数> 2\r\n<共有スキル>"
+
+Skill 657
+Message 1 = ""
+Message 2 = ""
+Name = "ーーパッシブーーーーー"
+Description = ""
+Note = ""
+
+Skill 658
+Message 1 = ""
+Message 2 = ""
+Name = "手加減Ⅱ"
+Description = "手加減する\r\n攻撃力-20% 命中率+40%"
+Note = "<パッシブ能力武器 915>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 659
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 916>\r\n<記憶容量 15>"
+
+Skill 660
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 661
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 662
+Message 1 = ""
+Message 2 = ""
+Name = "ーレモンーーーーーーーーーー"
+Description = ""
+Note = ""
+
+Skill 663
+Message 1 = "はオールメガヒールを唱えた！"
+Message 2 = ""
+Name = "オールメガヒール"
+Description = "安定の回復魔法( ﾟдﾟ )ﾐﾝﾅﾃﾞﾒｶﾞ\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 664
+Message 1 = "はホーリィを唱えた！"
+Message 2 = ""
+Name = "ホーリィ"
+Description = "聖なる光が対象を包む\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 50 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 120 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 665
+Message 1 = "はホーリィブラストを唱えた！"
+Message 2 = ""
+Name = "ホーリィブラスト"
+Description = "聖なる光で全体を包む\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 80 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 666
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 667
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 668
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 669
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 670
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 671
+Message 1 = ""
+Message 2 = ""
+Name = "---スキルショップ-----------"
+Description = ""
+Note = ""
+
+Skill 672
+Message 1 = ""
+Message 2 = ""
+Name = "手加減"
+Description = "手加減する\r\n攻撃力-10% 防御力-10%　命中率+20%"
+Note = "<価格:1000>\r\n<パッシブ能力武器 919>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 673
+Message 1 = ""
+Message 2 = ""
+Name = "鋼鉄ボディ"
+Description = "体を鋼鉄のように硬くするのだ\r\n被ダメージ率-5% 防御力+10"
+Note = "<価格:3000>\r\n<パッシブ能力武器 921>\r\n<記憶容量 7>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 674
+Message 1 = ""
+Message 2 = ""
+Name = "気孔"
+Description = "気の流れを掴む事で自身の身体能力を向上させる\r\n攻撃力+5%  防御力+5%"
+Note = "<価格:3000>\r\n<パッシブ能力武器 922>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 675
+Message 1 = ""
+Message 2 = ""
+Name = "剣術＋"
+Description = "剣の扱いを覚える\r\n攻撃力+3% 技量+4 CRI+5"
+Note = "<価格:2000>\r\n<パッシブ能力武器 923>\r\n<記憶容量 4>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 676
+Message 1 = ""
+Message 2 = ""
+Name = "パリング"
+Description = "パリングの技術を磨く\r\n被ダメージ率-3% 技量+4"
+Note = "<価格:3000>\r\n<パッシブ能力武器 924>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 677
+Message 1 = ""
+Message 2 = ""
+Name = "防具知識"
+Description = "効率の良い防御\r\n被ダメージ率-5%"
+Note = "<価格:6000>\r\n<パッシブ能力武器 925>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 678
+Message 1 = ""
+Message 2 = ""
+Name = "PT知識"
+Description = "ポジション取りの知識を得る\r\n被タゲ率-20%"
+Note = "<価格:1000>\r\n<パッシブ能力武器 926>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 679
+Message 1 = ""
+Message 2 = ""
+Name = "対女殺し"
+Description = "女殺し属性のダメージを軽減する"
+Note = "<価格:3000>\r\n<パッシブ能力武器 927>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 680
+Message 1 = ""
+Message 2 = ""
+Name = "対耳狩り"
+Description = "耳狩り属性のダメージを軽減する"
+Note = "<価格:3000>\r\n<パッシブ能力武器 928>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 681
+Message 1 = ""
+Message 2 = ""
+Name = "対地上攻撃"
+Description = "地上属性のダメージを軽減する"
+Note = "<価格:3000>\r\n<パッシブ能力武器 929>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 682
+Message 1 = ""
+Message 2 = ""
+Name = "覇属性知識"
+Description = "覇属性のダメージを軽減する"
+Note = "<価格:5000>\r\n<パッシブ能力武器 930>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 683
+Message 1 = ""
+Message 2 = ""
+Name = "地上殺し"
+Description = "対地能力を得る"
+Note = "<価格:5000>\r\n<パッシブ能力武器 931>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 684
+Message 1 = ""
+Message 2 = ""
+Name = "飛行殺し"
+Description = "対空能力を得る"
+Note = "<価格:5000>\r\n<パッシブ能力武器 932>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 685
+Message 1 = ""
+Message 2 = ""
+Name = "スキル知識"
+Description = "スキルの威力が上昇する"
+Note = "<価格:10000>\r\n<パッシブ能力武器 933>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 686
+Message 1 = ""
+Message 2 = ""
+Name = "魔法知識"
+Description = "魔法の威力が上昇する"
+Note = "<価格:10000>\r\n<パッシブ能力武器 934>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 687
+Message 1 = ""
+Message 2 = ""
+Name = "真・呼吸法"
+Description = "全く新しい呼吸法！\r\n戦闘後回復量上昇"
+Note = "<価格:2000>\r\n<パッシブ能力武器 935>\r\n<記憶容量 2>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 688
+Message 1 = ""
+Message 2 = ""
+Name = "HIT＋"
+Description = "命中率+7"
+Note = "<価格:1000>\r\n<パッシブ能力武器 936>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 689
+Message 1 = ""
+Message 2 = ""
+Name = "治癒知識"
+Description = "回復能力を高める"
+Note = "<価格:2000>\r\n<パッシブ能力武器 937>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 690
+Message 1 = ""
+Message 2 = ""
+Name = "アイテム知識"
+Description = "アイテムによる回復力を高める"
+Note = "<価格:1000>\r\n<パッシブ能力武器 938>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 691
+Message 1 = ""
+Message 2 = ""
+Name = "安全第一"
+Description = "敵からのクリティカルを予防する。あくまでも予防"
+Note = "<価格:3000>\r\n<パッシブ能力武器 939>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 692
+Message 1 = ""
+Message 2 = ""
+Name = "防御性能+"
+Description = "防御性能を向上させる"
+Note = "<価格:1000>\r\n<パッシブ能力武器 940>\r\n<記憶容量 1>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 693
+Message 1 = ""
+Message 2 = ""
+Name = "イニシャライザ"
+Description = "この瞬間を待っていた！！\r\n低確率で硬直をキャンセルして再度行動する"
+Note = "<価格:8000>\r\n<パッシブ能力武器 941>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 694
+Message 1 = ""
+Message 2 = ""
+Name = "薬学"
+Description = "アイテムの回復量が1.5倍になる"
+Note = "<価格:2000>\r\n<パッシブ能力武器 942>\r\n<記憶容量 3>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 695
+Message 1 = ""
+Message 2 = ""
+Name = "鉄壁"
+Description = "防御性能を向上させる。鉄壁の構え"
+Note = "<価格:4000>\r\n<パッシブ能力武器 943>\r\n<記憶容量 5>\r\n<戦闘中非表示>\r\n<共有スキル>"
+
+Skill 696
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<価格:1000>\r\n<パッシブ能力武器 940>\r\n<記憶容量 2>"
+
+Skill 697
+Message 1 = ""
+Message 2 = ""
+Name = "村娘"
+Description = ""
+Note = "<パッシブ能力武器 945>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 698
+Message 1 = ""
+Message 2 = ""
+Name = "市民"
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 699
+Message 1 = ""
+Message 2 = ""
+Name = "見習い剣士"
+Description = ""
+Note = "<パッシブ能力武器 947>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 700
+Message 1 = ""
+Message 2 = ""
+Name = "見習い戦士"
+Description = ""
+Note = "<パッシブ能力武器 948>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 701
+Message 1 = ""
+Message 2 = ""
+Name = "見習い魔法使い"
+Description = ""
+Note = "<パッシブ能力武器 949>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 702
+Message 1 = ""
+Message 2 = ""
+Name = "プロ市民"
+Description = ""
+Note = "<パッシブ能力武器 950>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 703
+Message 1 = ""
+Message 2 = ""
+Name = "盗人"
+Description = ""
+Note = "<パッシブ能力武器 951>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 704
+Message 1 = ""
+Message 2 = ""
+Name = "良い子"
+Description = ""
+Note = "<パッシブ能力武器 952>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 705
+Message 1 = ""
+Message 2 = ""
+Name = "駆け出し剣士"
+Description = ""
+Note = "<パッシブ能力武器 953>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 706
+Message 1 = ""
+Message 2 = ""
+Name = "駆け出し戦士"
+Description = ""
+Note = "<パッシブ能力武器 954>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 707
+Message 1 = ""
+Message 2 = ""
+Name = "駆け出し魔法使い"
+Description = ""
+Note = "<パッシブ能力武器 955>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 708
+Message 1 = ""
+Message 2 = ""
+Name = "駆け出し冒険者"
+Description = ""
+Note = "<パッシブ能力武器 956>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 709
+Message 1 = ""
+Message 2 = ""
+Name = "剣闘士"
+Description = ""
+Note = "<パッシブ能力武器 957>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 710
+Message 1 = ""
+Message 2 = ""
+Name = "中級剣士"
+Description = ""
+Note = "<パッシブ能力武器 958>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 711
+Message 1 = ""
+Message 2 = ""
+Name = "中級戦士"
+Description = ""
+Note = "<パッシブ能力武器 987>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 712
+Message 1 = ""
+Message 2 = ""
+Name = "中級魔法使い"
+Description = ""
+Note = "<パッシブ能力武器 959>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 713
+Message 1 = ""
+Message 2 = ""
+Name = "中級冒険者"
+Description = ""
+Note = "<パッシブ能力武器 960>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 714
+Message 1 = ""
+Message 2 = ""
+Name = "放浪者"
+Description = ""
+Note = "<パッシブ能力武器 961>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 715
+Message 1 = ""
+Message 2 = ""
+Name = "リベンジャー"
+Description = ""
+Note = "<パッシブ能力武器 962>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 716
+Message 1 = ""
+Message 2 = ""
+Name = "騎士"
+Description = ""
+Note = "<パッシブ能力武器 963>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 717
+Message 1 = ""
+Message 2 = ""
+Name = "踊り子"
+Description = ""
+Note = "<パッシブ能力武器 964>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 718
+Message 1 = ""
+Message 2 = ""
+Name = "吟遊詩人"
+Description = ""
+Note = "<パッシブ能力武器 965>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 719
+Message 1 = ""
+Message 2 = ""
+Name = "超人"
+Description = ""
+Note = "<パッシブ能力武器 966>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 720
+Message 1 = ""
+Message 2 = ""
+Name = "ヒロイン"
+Description = ""
+Note = "<パッシブ能力武器 967>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 721
+Message 1 = ""
+Message 2 = ""
+Name = "ハンター"
+Description = ""
+Note = "<パッシブ能力武器 968>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 722
+Message 1 = ""
+Message 2 = ""
+Name = "ストライカー"
+Description = ""
+Note = "<パッシブ能力武器 969>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 723
+Message 1 = ""
+Message 2 = ""
+Name = "暗殺者"
+Description = ""
+Note = "<パッシブ能力武器 970>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 724
+Message 1 = ""
+Message 2 = ""
+Name = "愚者"
+Description = ""
+Note = "<パッシブ能力武器 971>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 725
+Message 1 = ""
+Message 2 = ""
+Name = "歩兵"
+Description = ""
+Note = "<パッシブ能力武器 972>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 726
+Message 1 = ""
+Message 2 = ""
+Name = "傭兵"
+Description = ""
+Note = "<パッシブ能力武器 973>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 727
+Message 1 = ""
+Message 2 = ""
+Name = "侍"
+Description = ""
+Note = "<パッシブ能力武器 974>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 728
+Message 1 = ""
+Message 2 = ""
+Name = "呪術師"
+Description = ""
+Note = "<パッシブ能力武器 975>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 729
+Message 1 = ""
+Message 2 = ""
+Name = "魔砲士"
+Description = ""
+Note = "<パッシブ能力武器 976>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 730
+Message 1 = ""
+Message 2 = ""
+Name = "将軍"
+Description = ""
+Note = "<パッシブ能力武器 977>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 731
+Message 1 = ""
+Message 2 = ""
+Name = "英雄"
+Description = ""
+Note = "<パッシブ能力武器 978>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 732
+Message 1 = ""
+Message 2 = ""
+Name = "中級魔剣士"
+Description = ""
+Note = "<パッシブ能力武器 979>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 733
+Message 1 = ""
+Message 2 = ""
+Name = "中級闘士"
+Description = ""
+Note = "<パッシブ能力武器 980>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 734
+Message 1 = ""
+Message 2 = ""
+Name = "中級者"
+Description = ""
+Note = "<パッシブ能力武器 981>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 735
+Message 1 = ""
+Message 2 = ""
+Name = "倹約者"
+Description = ""
+Note = "<パッシブ能力武器 982>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 736
+Message 1 = ""
+Message 2 = ""
+Name = "上級剣士"
+Description = ""
+Note = "<パッシブ能力武器 983>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 737
+Message 1 = ""
+Message 2 = ""
+Name = "上級戦士"
+Description = ""
+Note = "<パッシブ能力武器 984>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 738
+Message 1 = ""
+Message 2 = ""
+Name = "上級魔法使い"
+Description = ""
+Note = "<パッシブ能力武器 985>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 739
+Message 1 = ""
+Message 2 = ""
+Name = "上級魔剣士"
+Description = ""
+Note = "<パッシブ能力武器 986>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 740
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 987>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 741
+Message 1 = ""
+Message 2 = ""
+Name = "軽戦士"
+Description = ""
+Note = "<パッシブ能力武器 870>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 742
+Message 1 = ""
+Message 2 = ""
+Name = "軽魔剣士"
+Description = ""
+Note = "<パッシブ能力武器 871>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 743
+Message 1 = ""
+Message 2 = ""
+Name = "騎士"
+Description = ""
+Note = "<パッシブ能力武器 872>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 744
+Message 1 = ""
+Message 2 = ""
+Name = "踊り子"
+Description = ""
+Note = "<パッシブ能力武器 873>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 745
+Message 1 = ""
+Message 2 = ""
+Name = "吟遊詩人"
+Description = ""
+Note = "<パッシブ能力武器 874>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 746
+Message 1 = ""
+Message 2 = ""
+Name = "超人"
+Description = ""
+Note = "<パッシブ能力武器 875>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 747
+Message 1 = ""
+Message 2 = ""
+Name = "ヒロイン"
+Description = ""
+Note = "<パッシブ能力武器 876>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 748
+Message 1 = ""
+Message 2 = ""
+Name = "ハンター"
+Description = ""
+Note = "<パッシブ能力武器 877>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 749
+Message 1 = ""
+Message 2 = ""
+Name = "ストライカー"
+Description = ""
+Note = "<パッシブ能力武器 878>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 750
+Message 1 = ""
+Message 2 = ""
+Name = "暗殺者"
+Description = ""
+Note = "<パッシブ能力武器 879>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 751
+Message 1 = ""
+Message 2 = ""
+Name = "愚者"
+Description = ""
+Note = "<パッシブ能力武器 880>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 752
+Message 1 = ""
+Message 2 = ""
+Name = "歩兵"
+Description = ""
+Note = "<パッシブ能力武器 881>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 753
+Message 1 = ""
+Message 2 = ""
+Name = "傭兵"
+Description = ""
+Note = "<パッシブ能力武器 882>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 754
+Message 1 = ""
+Message 2 = ""
+Name = "侍"
+Description = ""
+Note = "<パッシブ能力武器 883>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 755
+Message 1 = ""
+Message 2 = ""
+Name = "呪術師"
+Description = ""
+Note = "<パッシブ能力武器 884>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 756
+Message 1 = ""
+Message 2 = ""
+Name = "魔砲士"
+Description = ""
+Note = "<パッシブ能力武器 885>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 757
+Message 1 = ""
+Message 2 = ""
+Name = "将軍"
+Description = ""
+Note = "<パッシブ能力武器 886>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 758
+Message 1 = ""
+Message 2 = ""
+Name = "英雄"
+Description = ""
+Note = "<パッシブ能力武器 887>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 759
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 760
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 761
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 762
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 763
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 764
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 765
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 766
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 767
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 768
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 769
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 770
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 771
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 772
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 773
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 774
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 775
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 776
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 777
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 778
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 779
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 780
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 781
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 782
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 783
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = "<パッシブ能力武器 946>\r\n<メニュー非表示>\r\n<メモライズ不要>"
+
+Skill 784
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 785
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 786
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 787
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 788
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 789
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 790
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 791
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 792
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 793
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 794
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 795
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 796
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 797
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 798
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 799
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 800
+Message 1 = ""
+Message 2 = ""
+Name = "ーー魔物攻撃ーーーーーーー"
+Description = ""
+Note = ""
+
+Skill 801
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー格闘"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 802
+Message 1 = "は様子を見ている"
+Message 2 = ""
+Name = "様子をみる"
+Description = ""
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 50 / 100),1].max"
+
+Skill 803
+Message 1 = "は逃げた！"
+Message 2 = ""
+Name = "逃げる"
+Description = ""
+Note = ""
+
+Skill 804
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "魔物魔法攻撃"
+Description = ""
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 805
+Message 1 = "はキャンセルテスト用を放った！"
+Message 2 = ""
+Name = "キャンセルテスト用"
+Description = ""
+Note = "<駆動> 10000\r\n<硬直> 10000"
+
+Skill 806
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー打"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 807
+Message 1 = "は防御した！"
+Message 2 = ""
+Name = "防御"
+Description = ""
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 808
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー女殺し"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 809
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー斬"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 810
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 30 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 811
+Message 1 = "は正拳突きを放った！"
+Message 2 = ""
+Name = "正拳突き"
+Description = "ネンドマン必殺2.8"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 30 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 120 / 100),1].max\r\n"
+
+Skill 812
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー毒"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 813
+Message 1 = "の必殺攻撃！"
+Message 2 = ""
+Name = "必殺技"
+Description = "斬2.2"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 80 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 814
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルト"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 50 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n\r\n<攻撃属性 24>"
+
+Skill 815
+Message 1 = "はファイアボールを唱えた！"
+Message 2 = ""
+Name = "ファイアボール"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 50 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 160 / 100),1].max\r\n\r\n<攻撃属性 20>"
+
+Skill 816
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー突"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 817
+Message 1 = "は二段突きを放った！"
+Message 2 = ""
+Name = "二段突き"
+Description = "森0.8*2"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 40 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 818
+Message 1 = "の必殺攻撃！"
+Message 2 = ""
+Name = "必殺技"
+Description = "殴り2.2"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 80 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 819
+Message 1 = "の必殺攻撃！"
+Message 2 = ""
+Name = "必殺技"
+Description = "殴り2.2"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 80 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 820
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ーオーク"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>2800"
+
+Skill 821
+Message 1 = "の必殺攻撃！"
+Message 2 = ""
+Name = "必殺技"
+Description = "ベルデ\r\n1.8"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 80 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 822
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 30 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 823
+Message 1 = "のエクスプローション！"
+Message 2 = ""
+Name = "アディス"
+Description = "クロウアディス戦"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 200 / 100),1].max"
+
+Skill 824
+Message 1 = "はトルネードを唱えた！"
+Message 2 = ""
+Name = "トルネード"
+Description = "クロウアディス戦"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 160 / 100),1].max"
+
+Skill 825
+Message 1 = "はカオスフレイムを唱えた！"
+Message 2 = ""
+Name = "カオスフレイム"
+Description = "クロウアディス戦"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 120 / 100),1].max"
+
+Skill 826
+Message 1 = "の必殺攻撃！"
+Message 2 = ""
+Name = "必殺技"
+Description = "殴り2.2"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 20 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 827
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー射"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 828
+Message 1 = "はブレスを唱えた！"
+Message 2 = ""
+Name = "ブレス"
+Description = "物理軽減"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 30 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 120 / 100),1].max\r\n"
+
+Skill 829
+Message 1 = "の複合攻撃！"
+Message 2 = ""
+Name = "物魔複合攻撃"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 830
+Message 1 = "は必殺技を放った！"
+Message 2 = ""
+Name = "必殺技"
+Description = "物魔複合"
+Note = "<駆動>[((1300 - ( a.agi * a.spd / 10 )) * 80 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 831
+Message 1 = "はフレイムを唱えた！"
+Message 2 = ""
+Name = "フレイム"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 80 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 832
+Message 1 = "はポイズンを唱えた！"
+Message 2 = ""
+Name = "ポイズン"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 5 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 110 / 100),1].max"
+
+Skill 833
+Message 1 = "は大地割りを放った！"
+Message 2 = ""
+Name = "大地割り"
+Description = "全体スキル2.2"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 60 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 130 / 100),1].max\r\n"
+
+Skill 834
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 835
+Message 1 = ""
+Message 2 = ""
+Name = "アディス"
+Description = ""
+Note = ""
+
+Skill 836
+Message 1 = "はトルネードを唱えた！"
+Message 2 = ""
+Name = "トルネード"
+Description = "クロウアディス戦"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 120 / 100),1].max"
+
+Skill 837
+Message 1 = "はカオスフレイムを唱えた！"
+Message 2 = ""
+Name = "カオスフレイム"
+Description = "クロウアディス戦"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 20 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 838
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 839
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー打　火傷"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 840
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー斬　流血"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 841
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃ー突　貫通"
+Description = "森"
+Note = "<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n"
+
+Skill 842
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 843
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 844
+Message 1 = "はダークネスを唱えた！"
+Message 2 = ""
+Name = "ダークネス"
+Description = "クロウアディス戦"
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 20 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 845
+Message 1 = "はニコニコ微笑んでいる"
+Message 2 = ""
+Name = "ワタミン"
+Description = "クロウアディス戦"
+Note = "\r\n<硬直>1000"
+
+Skill 846
+Message 1 = "はウィンドを唱えた！"
+Message 2 = ""
+Name = "ウィンド"
+Description = ""
+Note = "<駆動> [((1300 - ( a.agi * a.spd / 10 )) * 20 / 100),1].max\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max"
+
+Skill 847
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 848
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 849
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 850
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 851
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 852
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 853
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 854
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 855
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 856
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 857
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 858
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 859
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 860
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 861
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 862
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 863
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 864
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 865
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 866
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 867
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 868
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 869
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 870
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 871
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 872
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 873
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 874
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 875
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 876
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 877
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 878
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 879
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 880
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 881
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 882
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 883
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 884
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 885
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 886
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 887
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 888
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 889
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 890
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 891
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 892
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 893
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 894
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 895
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 896
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 897
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 898
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 899
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 900
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 901
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 902
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 903
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 904
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 905
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 906
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 907
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 908
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 909
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 910
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 911
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 912
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 913
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 914
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 915
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 916
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 917
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 918
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 919
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 920
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 921
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 922
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 923
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 924
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 925
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 926
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 927
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 928
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 929
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 930
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 931
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 932
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 933
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 934
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 935
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 936
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 937
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 938
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 939
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 940
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 941
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 942
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 943
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 944
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 945
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 946
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 947
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 948
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 949
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 950
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 951
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 952
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 953
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 954
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 955
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 956
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 957
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 958
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 959
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 960
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 961
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 962
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 963
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 964
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 965
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 966
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 967
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 968
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 969
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 970
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 971
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 972
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 973
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 974
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 975
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 976
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 977
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 978
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 979
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 980
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 981
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 982
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 983
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 984
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 985
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 986
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 987
+Message 1 = ""
+Message 2 = ""
+Name = "＝＝＝クロウ＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Skill 988
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "複合防御Lv2"
+Description = "身を守ることに専念し、受けるダメージを抑える。\r\n魔法防御力に補正がつく"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( a.agi * a.spd / 10 )) * 70 / 100),1].max\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 989
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "ぶっきらぼうに連"
+Description = "ぶっきらぼうな連続攻撃\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 40 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-12) * a.spd / 10 )) * 130 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 16>\r\n<共有スキル>"
+
+Skill 990
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルト"
+Description = "雷撃を放つ！\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 30 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+7) * a.spd / 10 )) * 140 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 24>\r\n<共有スキル>"
+
+Skill 991
+Message 1 = "はモアンソードを放った！"
+Message 2 = ""
+Name = "モアンソード"
+Description = "対象の防御能力を落とす斬撃\r\nCT:5"
+Note = "<駆動> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 20 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+3) * a.spd / 10 )) * 100 / 100),1].max\r\n<スキルディレイ 5>\r\n\r\n<メモライズ不要>\r\n\r\n<キャンセル>\r\n<共有スキル>"
+
+Skill 992
+Message 1 = "はフレイムエッジを放った！"
+Message 2 = ""
+Name = "フレイムエッジ"
+Description = "火の力を纏った斬撃を放つ\r\nCT:4"
+Note = "<駆動> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi+4) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 4>\r\n\r\n<メモライズ不要>\r\n<攻撃属性 20>\r\n<共有スキル>"
+
+Skill 993
+Message 1 = "は滅を放った！"
+Message 2 = ""
+Name = "滅"
+Description = "精神を集中して魔力を込めた斬撃を繰り出す魔剣奥義\r\nCT:25"
+Note = "<駆動> 0\r\n<硬直> [((1300 - ( (a.agi+5) * a.spd / 10 )) * 180 / 100),1].max\r\n\r\n<スキルディレイ 25>\r\n<キャンセル>\r\n<ディレイコマ数> 2\r\n<攻撃属性 16>\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 994
+Message 1 = "は月光を放った！"
+Message 2 = ""
+Name = "月光"
+Description = "精神を集中して一振りに爆発させる奥義\r\nCT:25"
+Note = "<駆動> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 80 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-15) * a.spd / 10 )) * 180 / 100),1].max\r\n\r\n<スキルディレイ 25>\r\n<キャンセル>\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 995
+Message 1 = "はオールヒールを唱えた！"
+Message 2 = ""
+Name = "オールヒール"
+Description = "安定の回復魔法( ﾟдﾟ )ﾐﾝﾅﾃﾞ\r\nCT:3"
+Note = "<駆動> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 10 / 100),0].max\r\n<硬直> [((1300 - ( (a.agi-8) * a.spd / 10 )) * 110 / 100),1].max\r\n<スキルディレイ 3>\r\n\r\n<メモライズ不要>\r\n<共有スキル>"
+
+Skill 996
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 997
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 998
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 999
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "普通に攻撃する"
+Note = "# <駆動> は発動に必要な待ち時間です。\r\n# <硬直> は発動後の待ち時間です。\r\n\r\n# spd はキャラの行動速度偏差値です。\r\n# テストの偏差値と同じく、だいたい\r\n# 30～70の間に収まります。\r\n#<硬直> [(90 - a.spd) / 2.5].max\r\n<駆動> 0\r\n<硬直>[((1300 - ( a.agi * a.spd / 10 )) * 100 / 100),1].max\r\n\r\n<メモライズ不要>"
+

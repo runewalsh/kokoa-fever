@@ -1,0 +1,20 @@
+CommonEvent 474
+Name = "☆カルボ鉱山汎用ここな"
+
+  CallCommonEvent([399])
+  CallCommonEvent([398])
+  ConditionalBranch([1, 26, 0, 2, 0])
+    ConditionalBranch([1, 115, 0, 0, 0])
+      CallCommonEvent([475])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([476])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([477])
+  Empty([])

@@ -1,0 +1,4 @@
+CommonEvent 427
+Name = "☆悪夢花嫁END"
+
+  Empty([])

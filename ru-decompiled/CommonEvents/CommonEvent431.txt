@@ -1,0 +1,20 @@
+CommonEvent 431
+Name = "☆ワイルドプシー"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 107, 0, 0, 0])
+      CallCommonEvent([432])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([433])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([434])
+  Empty([])

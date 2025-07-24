@@ -1,0 +1,98 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "レモン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    SetWeatherEffects([:rain, 6, 0, false])
+    ControlSwitches([21, 21, 1])
+    ErasePicture([10])
+    ControlSwitches([82, 82, 0])
+    ControlSwitches([85, 85, 0])
+    ControlSwitches([86, 86, 0])
+    SetEventLocation([2, 0, 11, 23, 8])
+    SetEventLocation([3, 0, 12, 18, 8])
+    SetEventLocation([4, 0, 13, 20, 8])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([11, "立ち絵：クロウ4", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「まったく・・こんな所によく逃げてくれたもんだ」"])
+    SetMoveRoute([3, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowPicture([10, "立ち絵：レモン通常", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["レモン"])
+    ShowText(["「本当に面倒だったわね。けどこれで今回の依頼は達成になるわ"])
+    ShowText(["　次は新しいダンジョンの調査をしないといけないのよ"])
+    ShowText(["　さっさと片付けましょう」"])
+    ShowPicture([10, "立ち絵：ここな５", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「・・・・・。」"])
+    FadeoutScreen([])
+    ControlSwitches([21, 21, 0])
+    ControlSwitches([82, 82, 1])
+    ControlSwitches([85, 85, 1])
+    ControlSwitches([86, 86, 1])
+    ChangePartyMember([16, 0, 0])
+    ErasePicture([10])
+    ErasePicture([11])
+    RecoverAll([0, 0])
+    FadeinScreen([])
+    ControlVariables([18, 18, 0, 0, 51])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 227, 19, 38, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 227, 18, 38, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 227, 17, 38, 0, 0])
+    Empty([])

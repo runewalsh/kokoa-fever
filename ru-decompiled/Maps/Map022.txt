@@ -1,0 +1,46 @@
+Display Name = "靴屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 44, 51, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["靴屋のお姉ちゃん"])
+    ShowText(["「いらっしゃいませ！」"])
+    ShopProcessing([2, 702, 0, 0, true])
+    ShopItem([2, 703, 0, 0])
+    ShopItem([2, 704, 0, 0])
+    ShopItem([2, 705, 0, 0])
+    ShopItem([2, 706, 0, 0])
+    ShopItem([2, 707, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["金髪の女"])
+    ShowText(["「靴を試しに履いてみて買うのはいいんだけど"])
+    ShowText(["　それって他の人が履いた可能性もあるのよね"])
+    ShowText(["　なんか嫌じゃない？」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ハゲ"])
+    ShowText(["「ワシは冬でも草履じゃ！」"])
+    Empty([])

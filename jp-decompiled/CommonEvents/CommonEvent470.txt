@@ -1,0 +1,8 @@
+CommonEvent 470
+Name = "☆アダンダラ"
+
+  CallCommonEvent([399])
+  CallCommonEvent([398])
+  CallCommonEvent([471])
+  CallCommonEvent([472])
+  Empty([])

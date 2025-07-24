@@ -1,0 +1,344 @@
+Display Name = "ハーリス街道４"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 1, 45, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 1, 46, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 1, 47, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 1, 48, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 48, 13, 1, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 48, 14, 1, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 48, 15, 1, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 48, 16, 1, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Script(["rx_self_sw(47,"])
+    ScriptMore(["[15,16,17,18,19,20], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 48, 17, 1, 0, 0])
+    Empty([])
+
+CommonEvent 10
+Name = "赤い花"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["赤い花を手に入れた"])
+    ChangeItems([242, 0, 0, 1])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "赤い花"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["赤い花を手に入れた"])
+    ChangeItems([242, 0, 0, 1])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "黄色い花"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["黄色い花を手に入れた"])
+    ChangeItems([243, 0, 0, 1])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "白い花"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["白い花を手に入れた"])
+    ChangeItems([244, 0, 0, 1])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "白い花"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["白い花を手に入れた"])
+    ChangeItems([244, 0, 0, 1])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 16
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 17
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 18
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 19
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 20
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleBGM(["RPG::BGM(@name=\"ハーリス街道戦\", @volume=100, @pitch=100)"])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ControlVariables([24, 24, 0, 2, 0, 120])
+    ConditionalBranch([1, 24, 0, 40, 2])
+      BattleProcessing([0, 205, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 0, 2])
+        ControlVariables([29, 29, 1, 2, 0, 1])
+        Empty([])
+      IfEscape([])
+        ControlVariables([30, 30, 1, 2, -2, -1])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([413])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 70, 2])
+        BattleProcessing([0, 206, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 0, 1])
+          ControlVariables([29, 29, 1, 2, 0, 1])
+          Empty([])
+        IfEscape([])
+          ControlVariables([30, 30, 1, 2, -2, -1])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([413])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 24, 0, 100, 2])
+          BattleProcessing([0, 207, true, true])
+          IfWin([])
+            ControlVariables([30, 30, 1, 2, 0, 1])
+            ControlVariables([29, 29, 1, 2, 0, 1])
+            Empty([])
+          IfEscape([])
+            ControlVariables([30, 30, 1, 2, -2, -1])
+            Empty([])
+          IfLose([])
+            CallCommonEvent([413])
+            Empty([])
+          BattleProcessingEnd([])
+          Empty([])
+        Else([])
+          BattleProcessing([0, 204, true, true])
+          IfWin([])
+            ControlVariables([30, 30, 1, 2, 0, 1])
+            ControlVariables([29, 29, 1, 2, 0, 1])
+            Empty([])
+          IfEscape([])
+            ControlVariables([30, 30, 1, 2, -2, -1])
+            Empty([])
+          IfLose([])
+            CallCommonEvent([422])
+            Empty([])
+          BattleProcessingEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([52, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["薬草を手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])

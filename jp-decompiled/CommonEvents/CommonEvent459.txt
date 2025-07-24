@@ -1,0 +1,7 @@
+CommonEvent 459
+Name = "☆デスペナ☆"
+
+  ControlVariables([32, 32, 0, 3, 7, 2, 0])
+  ControlVariables([32, 32, 4, 0, 10])
+  ChangeGold([1, 1, 32])
+  Empty([])

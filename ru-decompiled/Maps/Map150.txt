@@ -1,0 +1,125 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 130, 33, 10, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "村長"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「家が広いのに誰も尋ねにこん・・・・村長寂しい」"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    CallCommonEvent([400])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    FadeoutScreen([])
+    ControlSwitches([85, 85, 0])
+    SetEventLocation([4, 0, 12, 17, 8])
+    FadeinScreen([])
+    ControlVariables([15, 15, 0, 0, 2])
+    CallCommonEvent([96])
+    ShowPicture([11, "立ち絵E：ここな表情１", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「魔法協会からの派遣で来ましたー」"])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・きた！」"])
+    PlaySE(["RPG::SE(@name=\"Jump1\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([2, 1, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「ずいぶん小さなお客人だのぉ・・・。"])
+    ShowText(["　それに魔法協会からの使いと来た・・・」"])
+    ShowPicture([11, "立ち絵E：ここな表情２", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「これが証明書よ。問題ないでしょ」"])
+    ShotBalloonIcon([4, 5, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「どれどれ・・・」"])
+    ShotBalloonIcon([2, 8, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「これが本物かどうかなんぞ分からんが、まぁえぇわい」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「この村がキノコの名産地だと言う事は知っておるかのぉ」"])
+    ShowPicture([10, "立ち絵：ココア通常", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「さっき聞いて知った！」"])
+    ShotBalloonIcon([2, 6, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「つい先日、\\C[2]村の東\\C[0]の\\C[2]キノコの森\\C[0]に"])
+    ShowText(["　村人数人でキノコ狩り行ったのじゃが」"])
+    PlayME(["RPG::ME(@name=\"Shock\", @pitch=100, @volume=100)"])
+    ShowPicture([11, "立ち絵E：ここな表情８", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「なんと、キノコが襲ってきたのじゃ！！！」"])
+    ShowPicture([11, "立ち絵E：ここな表情１６", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「そんな馬鹿な・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「本当じゃ！怪我人も出ておる！！」"])
+    ShowPicture([11, "立ち絵E：ここな表情４", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「と、とりあえず調査してみますね～」"])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ココア頑張る！」"])
+    ShotBalloonIcon([2, 6, true])
+    ConditionalBranch([1, 201, 0, 0, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["村長"])
+      ShowText(["（それにしても・・・どうして裸なんじゃ・・・）"])
+      Empty([])
+
+    BranchEnd([])
+    FadeoutScreen([])
+    ControlSwitches([85, 85, 1])
+    ErasePicture([9])
+    ErasePicture([10])
+    ErasePicture([11])
+    ControlSwitches([21, 21, 0])
+    FadeinScreen([])
+    ControlVariables([3, 3, 0, 0, 35])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])

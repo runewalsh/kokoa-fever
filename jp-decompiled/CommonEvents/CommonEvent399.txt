@@ -1,0 +1,46 @@
+CommonEvent 399
+Name = "☆キャラ判定"
+
+  ConditionalBranch([4, 16, 0])
+    Comment(["クロウを含む"])
+    ControlVariables([26, 26, 0, 0, 5])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([4, 15, 0])
+      ConditionalBranch([4, 12, 0])
+        Comment(["ココア＋ここな"])
+        ControlVariables([26, 26, 0, 0, 4])
+        Empty([])
+
+      Else([])
+        Comment(["ここな　のみ"])
+        ControlVariables([26, 26, 0, 0, 2])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([4, 12, 0])
+        Comment(["ココアのみ"])
+        ControlVariables([26, 26, 0, 0, 1])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([4, 17, 0])
+          Comment(["プティンのみ"])
+          ControlVariables([26, 26, 0, 0, 3])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

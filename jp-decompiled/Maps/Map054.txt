@@ -1,0 +1,3 @@
+Display Name = "ラウエル平原"
+Parallax Name = ""
+Note = ""

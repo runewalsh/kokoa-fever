@@ -1,0 +1,9 @@
+CommonEvent 464
+Name = "　２"
+
+  ShowPicture([1, "暗幕", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowPicture([2, "Ｈイベント：マッサージ店４", 0, 0, 0, 0, 100, 100, 255, 0])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["気持ち良いマッサージをしてもらいました"])
+  Empty([])

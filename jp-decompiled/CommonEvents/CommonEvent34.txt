@@ -1,0 +1,25 @@
+CommonEvent 34
+Name = "妊娠判定"
+
+  ConditionalBranch([1, 22, 0, 1, 1])
+    ControlVariables([23, 23, 1, 1, 22])
+    ControlVariables([22, 22, 0, 0, 0])
+    ConditionalBranch([1, 23, 0, 100, 1])
+      ConditionalBranch([0, 27, 1])
+        CallCommonEvent([35])
+        Empty([])
+
+      Else([])
+        ControlVariables([27, 27, 1, 2, 100, 200])
+        ControlVariables([23, 23, 0, 2, 0, 60])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([37])
+  Empty([])

@@ -1,0 +1,122 @@
+Display Name = "食事処"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["おばちゃん"])
+    ShowText(["「いらっしゃい」"])
+    ShopProcessing([0, 135, 0, 0, true])
+    ShopItem([0, 137, 0, 0])
+    ShopItem([0, 138, 0, 0])
+    ShopItem([0, 139, 0, 0])
+    ShopItem([0, 140, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ConditionalBranch([6, -1, 2])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「もぐもぐ」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ConditionalBranch([6, -1, 6])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「もぐもぐ」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「もぐもぐ」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["若い冒険者"])
+    ShowText(["「お酒臭いが駄目で向こうの酒場では食事しないの」"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["元気な兄ちゃん"])
+    ShowText(["「しっかり食べて、しっかり動く！"])
+    ShowText(["　これが健康の秘訣さ！！」"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["真面目な冒険者"])
+    ShowText(["「こういう４人がけの座席がある時ってどのポジションに座るか悩むんだよ"])
+    ShowText(["　聞いたところによると恋人は正面よりも横に座った方が好印象らしい」"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["金髪の少女"])
+    ShowText(["「キャーキャー」"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 28, 59, 0, 0])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 31, 61, 0, 0])
+    Empty([])

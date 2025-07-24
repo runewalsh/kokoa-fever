@@ -1,0 +1,13 @@
+CommonEvent 995
+Name = "　変数初期化"
+
+  ControlVariables([2, 2, 0, 0, 0])
+  ControlVariables([3, 3, 0, 0, 0])
+  ControlVariables([5, 5, 1, 0, 1])
+  ControlVariables([16, 16, 0, 0, 0])
+  ControlVariables([17, 17, 0, 0, 0])
+  ControlVariables([18, 18, 0, 0, 0])
+  ControlVariables([93, 93, 0, 0, 0])
+  ControlVariables([113, 113, 0, 0, 0])
+  ControlVariables([82, 82, 0, 0, 0])
+  Empty([])

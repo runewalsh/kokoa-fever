@@ -1,0 +1,352 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 117, 19, 20, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 117, 20, 20, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Empty([])
+
+CommonEvent 13
+Name = "Eランク"
+
+  Page 0
+    FadeoutScreen([])
+    ControlSwitches([69, 69, 0])
+    FadeinScreen([])
+    ScrollMap([4, 5, 4])
+    ScrollMap([8, 10, 4])
+    ScrollMap([6, 10, 4])
+    ScrollMap([2, 10, 4])
+    ScrollMap([4, 5, 4])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ここが闘技場・・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「緊張してきた・・」"])
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 19, 4, 0])
+    SetEventLocation([14, 0, 15, 19, 0])
+    FadeinScreen([])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["実況"])
+    ShowText(["「それではいよいよEランクマッチスタートです！！！」"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle6\", @volume=100, @pitch=100)"])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ControlSwitches([17, 17, 0])
+    BattleProcessing([0, 83, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 1])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlVariables([3, 3, 0, 0, 31])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 84, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 2])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 3
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 85, false, true])
+    IfWin([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["実況"])
+      ShowText(["「やりましたココア選手堂々の３枚抜き達成！！！！"])
+      ShowText(["　ココア選手にはDランクへの出場資格が与えられます！！」"])
+      ControlVariables([28, 28, 1, 0, 3])
+      ControlVariables([29, 29, 1, 0, 3])
+      ControlVariables([16, 16, 0, 0, 3])
+      ControlVariables([30, 30, 1, 0, 30])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 14
+Name = "相手"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "Dランク"
+
+  Page 0
+    ControlSwitches([69, 69, 0])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle5\", @volume=100, @pitch=100)"])
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 99, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 5])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlVariables([3, 3, 0, 0, 39])
+    ControlSwitches([59, 59, 0])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 100, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 6])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 2
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 101, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 7])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 3
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 102, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 8])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 16
+Name = "Cランク"
+
+  Page 0
+    ControlSwitches([69, 69, 0])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle6\", @volume=100, @pitch=100)"])
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 155, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 20])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      ControlVariables([3, 3, 0, 0, 110])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlVariables([3, 3, 0, 0, 110])
+    ControlSwitches([59, 59, 0])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    FadeoutScreen([])
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 156, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 21])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      ControlVariables([3, 3, 0, 0, 110])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 2
+    TransferPlayer([0, 118, 20, 20, 4, 0])
+    SetEventLocation([14, 0, 15, 20, 0])
+    FadeinScreen([])
+    Wait([60])
+    BattleProcessing([0, 157, false, true])
+    IfWin([])
+      ControlVariables([16, 16, 0, 0, 25])
+      TransferPlayer([0, 117, 19, 24, 2, 0])
+      Empty([])
+
+    IfLose([])
+      CallCommonEvent([765])
+      ControlVariables([3, 3, 0, 0, 110])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 3
+    Empty([])

@@ -1,0 +1,14 @@
+CommonEvent 18
+Name = "☆ココア立ち絵受付"
+
+  ConditionalBranch([0, 17, 0])
+    CallCommonEvent([26])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([10])
+    Empty([])
+
+  BranchEnd([])
+  Wait([45])
+  Empty([])

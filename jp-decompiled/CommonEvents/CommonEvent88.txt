@@ -1,0 +1,30 @@
+CommonEvent 88
+Name = "　体力取得"
+
+  ControlVariables([41, 41, 0, 3, 3, 17, 4])
+  ControlVariables([42, 42, 0, 3, 3, 17, 2])
+  ControlVariables([42, 42, 3, 0, 100])
+  ControlVariables([42, 42, 4, 1, 41])
+  ConditionalBranch([1, 42, 0, 30, 4])
+    ControlVariables([63, 63, 0, 0, 3])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 42, 0, 60, 4])
+      ControlVariables([63, 63, 0, 0, 2])
+      Empty([])
+
+    Else([])
+      ControlVariables([63, 63, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Comment(["＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃"])
+  CommentMore([""])
+  CommentMore(["HP残量：１　100%～60"])
+  CommentMore(["　　　　２　59%～３０"])
+  CommentMore(["　　　　３　29%～"])
+  Empty([])

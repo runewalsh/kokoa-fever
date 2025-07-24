@@ -1,0 +1,5994 @@
+Enemy 1
+Battler Name = "Slime"
+Name = "テスト用スライム"
+Description = nil
+Note = "<ステータスポイント 10>\r\n[レベル非表示]"
+
+Enemy 2
+Battler Name = "Bat"
+Name = "こうもり"
+Description = nil
+Note = "<ステータスポイント -200>"
+
+Enemy 3
+Battler Name = "Hornet"
+Name = "ホーネット"
+Description = nil
+Note = ""
+
+Enemy 4
+Battler Name = "Spider"
+Name = "大グモ"
+Description = nil
+Note = ""
+
+Enemy 5
+Battler Name = "Rat"
+Name = "大ネズミ"
+Description = nil
+Note = ""
+
+Enemy 6
+Battler Name = "Willowisp"
+Name = "ウィスプ"
+Description = nil
+Note = ""
+
+Enemy 7
+Battler Name = "Snake"
+Name = "大蛇"
+Description = nil
+Note = ""
+
+Enemy 8
+Battler Name = "Scorpion"
+Name = "大サソリ"
+Description = nil
+Note = ""
+
+Enemy 9
+Battler Name = "Jellyfish"
+Name = "大クラゲ"
+Description = nil
+Note = ""
+
+Enemy 10
+Battler Name = "Plant"
+Name = "食人花"
+Description = nil
+Note = ""
+
+Enemy 11
+Battler Name = "Ghost"
+Name = "ゴースト"
+Description = nil
+Note = ""
+
+Enemy 12
+Battler Name = "Skeleton"
+Name = "スケルトン"
+Description = nil
+Note = ""
+
+Enemy 13
+Battler Name = "Orc"
+Name = "オーク"
+Description = nil
+Note = ""
+
+Enemy 14
+Battler Name = "Imp"
+Name = "インプ"
+Description = nil
+Note = ""
+
+Enemy 15
+Battler Name = "Gayzer"
+Name = "ゲイザー"
+Description = nil
+Note = ""
+
+Enemy 16
+Battler Name = "Puppet"
+Name = "パペット"
+Description = nil
+Note = ""
+
+Enemy 17
+Battler Name = "Zombie"
+Name = "ゾンビ"
+Description = nil
+Note = ""
+
+Enemy 18
+Battler Name = "Cockatrice"
+Name = "コカトリス"
+Description = nil
+Note = ""
+
+Enemy 19
+Battler Name = "Chimera"
+Name = "キマイラ"
+Description = nil
+Note = ""
+
+Enemy 20
+Battler Name = "Mimic"
+Name = "ミミック"
+Description = nil
+Note = ""
+
+Enemy 21
+Battler Name = "Werewolf"
+Name = "ウェアウルフ"
+Description = nil
+Note = ""
+
+Enemy 22
+Battler Name = "Sahagin"
+Name = "サハギン"
+Description = nil
+Note = ""
+
+Enemy 23
+Battler Name = "Ogre"
+Name = "オーガ"
+Description = nil
+Note = ""
+
+Enemy 24
+Battler Name = "Gargoyle"
+Name = "ガーゴイル"
+Description = nil
+Note = ""
+
+Enemy 25
+Battler Name = "Lamia"
+Name = "ラミア"
+Description = nil
+Note = ""
+
+Enemy 26
+Battler Name = "Vampire"
+Name = "ヴァンパイア"
+Description = nil
+Note = ""
+
+Enemy 27
+Battler Name = "Succubus"
+Name = "サキュバス"
+Description = nil
+Note = ""
+
+Enemy 28
+Battler Name = "Demon"
+Name = "デーモン"
+Description = nil
+Note = ""
+
+Enemy 29
+Battler Name = "Darklord"
+Name = "魔王"
+Description = nil
+Note = ""
+
+Enemy 30
+Battler Name = "Evilgod"
+Name = "魔神"
+Description = nil
+Note = ""
+
+Enemy 31
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 32
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 33
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 34
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 35
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 36
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 37
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 38
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 39
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 40
+Battler Name = ""
+Name = "ーーーーーーーー"
+Description = ""
+Note = ""
+
+Enemy 41
+Battler Name = "森スライム"
+Name = "森スライム"
+Description = ""
+Note = "[レベル非表示]\r\n2"
+
+Enemy 42
+Battler Name = "ちんこミミズ"
+Name = "ちんこミミズ"
+Description = ""
+Note = "[レベル非表示]\r\n3"
+
+Enemy 43
+Battler Name = "バトラー：プティン"
+Name = "プティン"
+Description = ""
+Note = "[レベル非表示]\r\n15"
+
+Enemy 44
+Battler Name = "ゼリイヌ"
+Name = "ゼリイヌ"
+Description = ""
+Note = "[レベル非表示]\r\n1"
+
+Enemy 45
+Battler Name = "ゼリイヌ"
+Name = "ゼリイヌ"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ I,205,30>\r\n5"
+
+Enemy 46
+Battler Name = "ゼリイヌ"
+Name = "ゼリイヌ"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ I,205,50>\r\n<追加ドロップ I,205,30>\r\n10"
+
+Enemy 47
+Battler Name = "ひっかきウサギ"
+Name = "ひっかきウサギ"
+Description = ""
+Note = "[レベル非表示]\r\n3"
+
+Enemy 48
+Battler Name = "ひっかきウサギ"
+Name = "ひっかきウサギ"
+Description = ""
+Note = "[レベル非表示]\r\n8"
+
+Enemy 49
+Battler Name = "ひっかきウサギ"
+Name = "ひっかきウサギ"
+Description = ""
+Note = "[レベル非表示]\r\n13"
+
+Enemy 50
+Battler Name = "マネーバード"
+Name = "マネーバード"
+Description = ""
+Note = "[レベル非表示]\r\n10"
+
+Enemy 51
+Battler Name = "マネーバード"
+Name = "マネーバード"
+Description = ""
+Note = "[レベル非表示]\r\n20"
+
+Enemy 52
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 53
+Battler Name = "なごみだけ"
+Name = "なごみだけ"
+Description = ""
+Note = "[レベル非表示]\r\n5"
+
+Enemy 54
+Battler Name = "なごみだけ"
+Name = "なごみだけ"
+Description = ""
+Note = "[レベル非表示]\r\n10"
+
+Enemy 55
+Battler Name = "なごみだけ"
+Name = "なごみだけ"
+Description = ""
+Note = "[レベル非表示]\r\n20\r\n<追加ドロップ I,208,30>"
+
+Enemy 56
+Battler Name = "ブータ"
+Name = "ブータ"
+Description = ""
+Note = "[レベル非表示]\r\n5"
+
+Enemy 57
+Battler Name = "ブータ"
+Name = "ブータ"
+Description = ""
+Note = "[レベル非表示]\r\n12\r\n<追加ドロップ I,207,30>"
+
+Enemy 58
+Battler Name = "ブータ"
+Name = "ブータ"
+Description = ""
+Note = "[レベル非表示]\r\n18\r\n<追加ドロップ I,207,60>"
+
+Enemy 59
+Battler Name = "ワイルドキャットオス"
+Name = "ワイルドキャット"
+Description = ""
+Note = "[レベル非表示]\r\n3"
+
+Enemy 60
+Battler Name = "ワイルドキャットオス"
+Name = "ワイルドキャット"
+Description = ""
+Note = "<追加ドロップ W,260,1%>\r\n<追加ドロップ W,261,1%>\r\n<追加ドロップ W,262,1%>\r\n<追加ドロップ W,263,1%>\r\n<追加ドロップ W,264,1%>\r\n[レベル非表示]\r\n22\r\n"
+
+Enemy 61
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 62
+Battler Name = "ワイルドキャットメス"
+Name = "ワイルドプシー"
+Description = ""
+Note = "[レベル非表示]\r\n8"
+
+Enemy 63
+Battler Name = "ワイルドキャットメス"
+Name = "ワイルドプシー"
+Description = ""
+Note = "[レベル非表示]\r\n24\r\n<追加ドロップ A,519,25>"
+
+Enemy 64
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 65
+Battler Name = "ちんこミミズ"
+Name = "ちんこミミズ"
+Description = ""
+Note = "[レベル非表示]\r\n7"
+
+Enemy 66
+Battler Name = "ちんこミミズ"
+Name = "ちんこミミズ"
+Description = ""
+Note = "[レベル非表示]\r\n15"
+
+Enemy 67
+Battler Name = "森スライム"
+Name = "森スライム"
+Description = ""
+Note = "[レベル非表示]\r\n5"
+
+Enemy 68
+Battler Name = "森スライム"
+Name = "森スライム"
+Description = ""
+Note = "[レベル非表示]\r\n10"
+
+Enemy 69
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 70
+Battler Name = "ストーンゴーレム"
+Name = "石の集まり"
+Description = ""
+Note = "[レベル非表示]\r\n25"
+
+Enemy 71
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 72
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 73
+Battler Name = "ハンド"
+Name = "ハンド"
+Description = ""
+Note = "[レベル非表示]\r\n20"
+
+Enemy 74
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 75
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 76
+Battler Name = "イシノツブテ"
+Name = "イシノツブテ"
+Description = ""
+Note = "\r\n24"
+
+Enemy 77
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 78
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 79
+Battler Name = "イービルストーン"
+Name = "イービルストーン"
+Description = ""
+Note = "[レベル非表示]\r\n30\r\n<ステータスポイント 10>"
+
+Enemy 80
+Battler Name = "イービルストーン２"
+Name = "イービルストーン"
+Description = ""
+Note = "[レベル非表示]\r\n30\r\n<ステータスポイント 20>"
+
+Enemy 81
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 82
+Battler Name = "ゲル"
+Name = "ゲル"
+Description = ""
+Note = "[レベル非表示]\r\n8"
+
+Enemy 83
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 84
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 85
+Battler Name = "スライム娘A"
+Name = "スライム娘"
+Description = ""
+Note = "[レベル非表示]\r\n5"
+
+Enemy 86
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 87
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 88
+Battler Name = "リーフスライム娘"
+Name = "リーフスライム娘"
+Description = ""
+Note = "[レベル非表示]\r\n10"
+
+Enemy 89
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 90
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 91
+Battler Name = "imgbb51072a14a33eb"
+Name = "地獄花"
+Description = ""
+Note = "[レベル非表示]\r\n15\r\n<ステータスポイント 10>"
+
+Enemy 92
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 93
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 94
+Battler Name = "Rogue"
+Name = "チンピラ"
+Description = ""
+Note = "[レベル非表示]\r\n3"
+
+Enemy 95
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 96
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 97
+Battler Name = "bt_Actor5-5_b"
+Name = "僧侶っぽい何か"
+Description = ""
+Note = "[レベル非表示]\r\n5"
+
+Enemy 98
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 99
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 100
+Battler Name = "Grappler_m"
+Name = "ネンドマン"
+Description = ""
+Note = "[レベル非表示]\r\n10\r\n<ステータスポイント 3>"
+
+Enemy 101
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 102
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 103
+Battler Name = "キノプオ"
+Name = "キノプオ"
+Description = ""
+Note = "[レベル非表示]\r\n10"
+
+Enemy 104
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 105
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 106
+Battler Name = "ねこなめこ"
+Name = "なめこねこ"
+Description = ""
+Note = "[レベル非表示]\r\n13"
+
+Enemy 107
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 108
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 109
+Battler Name = "マタンゴ"
+Name = "マタンゴ"
+Description = ""
+Note = "[レベル非表示]\r\n15"
+
+Enemy 110
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 111
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 112
+Battler Name = "緑の悪魔"
+Name = "緑の悪魔"
+Description = ""
+Note = "[レベル非表示]\r\n18"
+
+Enemy 113
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 114
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 115
+Battler Name = "仏くん"
+Name = "仏くん"
+Description = ""
+Note = "[レベル非表示]\r\n25\r\n<ステータスポイント 5>"
+
+Enemy 116
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 117
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 118
+Battler Name = "bt_Actor4-7Ryoma_a"
+Name = "SAMURAI"
+Description = ""
+Note = "[レベル非表示]\r\n15\r\n<ステータスポイント 3>"
+
+Enemy 119
+Battler Name = "bt_Actor4-1Eric_b"
+Name = "大剣使い"
+Description = ""
+Note = "[レベル非表示]\r\n18\r\n<ステータスポイント 3>"
+
+Enemy 120
+Battler Name = "2_2bl"
+Name = "女冒険者"
+Description = ""
+Note = "[レベル非表示]\r\n22\r\n<ステータスポイント 3>"
+
+Enemy 121
+Battler Name = "General2"
+Name = "ガイキング"
+Description = ""
+Note = "[レベル非表示]\r\n24\r\n<ステータスポイント 3>"
+
+Enemy 122
+Battler Name = "m1_7b"
+Name = "悪夢の亡霊"
+Description = ""
+Note = "[レベル非表示]\r\n24"
+
+Enemy 123
+Battler Name = "バトラー：プティン"
+Name = "プティン"
+Description = ""
+Note = "[レベル非表示]\r\n16\r\n<ステータスポイント 5>"
+
+Enemy 124
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 125
+Battler Name = ""
+Name = "ースラムルートー"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 126
+Battler Name = "Soldier"
+Name = "警備兵士A"
+Description = ""
+Note = "<ステータスポイント 10>\r\n[レベル非表示]"
+
+Enemy 127
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 128
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 129
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 130
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 131
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 132
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 133
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 134
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 135
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 136
+Battler Name = ""
+Name = "----------------"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 137
+Battler Name = "スライムべス"
+Name = "ホットスライム娘"
+Description = ""
+Note = "[レベル非表示]\r\n20"
+
+Enemy 138
+Battler Name = "スライムべス"
+Name = "ポイズンスライム娘"
+Description = ""
+Note = "[レベル非表示]\r\n19"
+
+Enemy 139
+Battler Name = "さきゅばちゅ"
+Name = "さきゅばちゅ"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 140
+Battler Name = "さきゅばちゅ２"
+Name = "さきゅばちゅ"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 141
+Battler Name = "カエル女"
+Name = "カエル女"
+Description = ""
+Note = "[レベル非表示]\r\n18"
+
+Enemy 142
+Battler Name = "カエル女"
+Name = "リザードカエル女"
+Description = ""
+Note = "[レベル非表示]\r\n23\r\n<追加ドロップ I,249,50>\r\n<追加ドロップ I,249,30>\r\n<追加ドロップ I,249,30>"
+
+Enemy 143
+Battler Name = "カエル女"
+Name = "イービルガエル女"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 144
+Battler Name = "吸血鬼１"
+Name = "吸血鬼"
+Description = ""
+Note = "[レベル非表示]\r\n120000\r\n<ステータスポイント 10>"
+
+Enemy 145
+Battler Name = "カーバンクル"
+Name = "カーバンクルちゃん"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 146
+Battler Name = "カーバンクル"
+Name = "カーバンクルちゃん"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 147
+Battler Name = "カーバンクル"
+Name = "カーバンクルちゃん"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 148
+Battler Name = "ワタミン"
+Name = "ワタミン"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 149
+Battler Name = "ザケルナヤー"
+Name = "ザケルナヤー"
+Description = ""
+Note = ""
+
+Enemy 150
+Battler Name = "ザケルナヤー"
+Name = "シャドウザケルナヤー"
+Description = ""
+Note = ""
+
+Enemy 151
+Battler Name = "ドム子"
+Name = "ドム子"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 152
+Battler Name = ""
+Name = "＝ヘタレ１＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 153
+Battler Name = "ブータ"
+Name = "ヘタレブータ"
+Description = ""
+Note = "[レベル非表示]\r\n5"
+
+Enemy 154
+Battler Name = "ワタミン"
+Name = "ヘタレワタミン"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 155
+Battler Name = "ゼリイヌ"
+Name = "ヘタレゼリイヌ"
+Description = ""
+Note = "[レベル非表示]\r\n1"
+
+Enemy 156
+Battler Name = ""
+Name = "＝＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 157
+Battler Name = "ハーピー"
+Name = "ハーピー"
+Description = ""
+Note = "[レベル非表示]\r\n24"
+
+Enemy 158
+Battler Name = "ハーピー"
+Name = "ハーピー"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 159
+Battler Name = "アダンダラ"
+Name = "アダンダラ"
+Description = ""
+Note = "<ステータスポイント 10>\r\n[レベル非表示]\r\n20"
+
+Enemy 160
+Battler Name = "アダンダラ"
+Name = "アダンダラ"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 161
+Battler Name = "オーク"
+Name = "オーク"
+Description = ""
+Note = "<追加ドロップ W,265,2%>\r\n<追加ドロップ W,266,1%>\r\n<追加ドロップ W,267,1%>\r\n<追加ドロップ W,268,1%>\r\n<追加ドロップ W,269,1%>"
+
+Enemy 162
+Battler Name = "オーク"
+Name = "ハイオーク"
+Description = ""
+Note = "<追加ドロップ W,265,2%>\r\n<追加ドロップ W,266,1%>\r\n<追加ドロップ W,267,1%>\r\n<追加ドロップ W,268,1%>\r\n<追加ドロップ W,269,1%>\r\n<ステータスポイント 10>"
+
+Enemy 163
+Battler Name = ""
+Name = "＝やり直しルート＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 164
+Battler Name = "p1_5"
+Name = "反魔法組織員"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 165
+Battler Name = "p1_6"
+Name = "反魔法組織員"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 166
+Battler Name = "p2_4a"
+Name = "反魔法組織員"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 167
+Battler Name = "p4_5"
+Name = "反魔法組織員"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 168
+Battler Name = "ベルデ"
+Name = "ベルデ"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 20>"
+
+Enemy 169
+Battler Name = "Fanatic"
+Name = "アディス"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 170
+Battler Name = ""
+Name = "＝キノコの森＝＝＝＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 171
+Battler Name = "ベルデ"
+Name = "ベルデ"
+Description = ""
+Note = "[レベル非表示]\r\n正規ルートキノコの森戦\r\n<ステータスポイント 30>"
+
+Enemy 172
+Battler Name = ""
+Name = "～触手の森～～～～～～～～～"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 173
+Battler Name = "にょろん"
+Name = "にょろん"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ W,260,2%>\r\n<追加ドロップ W,261,1%>\r\n<追加ドロップ W,262,1%>\r\n<追加ドロップ W,263,1%>\r\n<追加ドロップ W,264,1%>"
+
+Enemy 174
+Battler Name = "アルラウネ"
+Name = "アルラウネ"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 15>"
+
+Enemy 175
+Battler Name = "デビルプラント"
+Name = "デビルプラント"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ W,270,2%>\r\n<追加ドロップ W,271,1%>\r\n<追加ドロップ W,272,1%>\r\n<追加ドロップ W,273,1%>\r\n<追加ドロップ W,274,1%>"
+
+Enemy 176
+Battler Name = ""
+Name = "＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 177
+Battler Name = "アダンダラ"
+Name = "ヘタンダラ"
+Description = ""
+Note = "[レベル非表示]\r\n20"
+
+Enemy 178
+Battler Name = "にょろん"
+Name = "ヘタレにょろん"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 179
+Battler Name = "ザケルナヤー"
+Name = "ヘタレザケルナヤー"
+Description = ""
+Note = ""
+
+Enemy 180
+Battler Name = ""
+Name = "＝＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 181
+Battler Name = "Warrior_f"
+Name = "女戦士"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 3>"
+
+Enemy 182
+Battler Name = "Warrior_m"
+Name = "斧戦士"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 3>"
+
+Enemy 183
+Battler Name = "Captain"
+Name = "二刀重戦士"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 10>"
+
+Enemy 184
+Battler Name = ""
+Name = "＝＝＝＝＝＝＝＝－－"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 185
+Battler Name = "狂子ちゃん"
+Name = "狂子ちゃん"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 15>"
+
+Enemy 186
+Battler Name = "ブータカスタム"
+Name = "ブータカスタム"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 187
+Battler Name = "陸戦型ブータ"
+Name = "陸戦型ブータ"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 188
+Battler Name = "ブータガードカスタム"
+Name = "ブータガードカスタム"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 189
+Battler Name = "ブタスナイパー"
+Name = "ブタスナイパー"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 190
+Battler Name = ""
+Name = "＝＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 191
+Battler Name = "Ghost"
+Name = "フードの男"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 40>"
+
+Enemy 192
+Battler Name = "ちんこミミズ達"
+Name = "ちんこミミズ達"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 193
+Battler Name = "キャンサー"
+Name = "キャンサー"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 194
+Battler Name = "にゃだんだら"
+Name = "にゃだんだら"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 195
+Battler Name = "おたかいスキャラ"
+Name = "おたかいスキュラ"
+Description = ""
+Note = "<ステータスポイント 25>"
+
+Enemy 196
+Battler Name = "にゃだんだら"
+Name = "にゃだんだら"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 197
+Battler Name = ""
+Name = "＝＝＝＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 198
+Battler Name = "オーク"
+Name = "オーク"
+Description = ""
+Note = "<追加ドロップ W,265,2%>\r\n<追加ドロップ W,266,1%>\r\n<追加ドロップ W,267,1%>\r\n<追加ドロップ W,268,1%>\r\n<追加ドロップ W,269,1%>"
+
+Enemy 199
+Battler Name = "オーク"
+Name = "ハイオーク"
+Description = ""
+Note = "<追加ドロップ W,265,2%>\r\n<追加ドロップ W,266,1%>\r\n<追加ドロップ W,267,1%>\r\n<追加ドロップ W,268,1%>\r\n<追加ドロップ W,269,1%>\r\n<ステータスポイント 55>"
+
+Enemy 200
+Battler Name = ""
+Name = "＝正規ルートラスト＝＝＝＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 201
+Battler Name = "Fanatic"
+Name = "アディス"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 202
+Battler Name = ""
+Name = "＝＝トリー湿原＝＝＝＝＝"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 203
+Battler Name = "ヴェノム"
+Name = "ヴェノム"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ W,276,2%>\r\n<追加ドロップ W,277,1%>\r\n<追加ドロップ W,278,1%>\r\n<追加ドロップ W,279,1%>\r\n<追加ドロップ W,280,1%>"
+
+Enemy 204
+Battler Name = "サハギン"
+Name = "サハギン"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ W,276,1%>\r\n<追加ドロップ W,277,2%>\r\n<追加ドロップ W,278,1%>\r\n<追加ドロップ W,279,1%>\r\n<追加ドロップ W,280,1%>"
+
+Enemy 205
+Battler Name = "ゼリイヌ"
+Name = "ホットゼリイヌ"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ W,276,5%>\r\n<追加ドロップ W,277,5%>\r\n<追加ドロップ W,278,5%>\r\n<追加ドロップ W,279,5%>\r\n<追加ドロップ W,280,5%>"
+
+Enemy 206
+Battler Name = "カエル女"
+Name = "イービルガエル女"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ W,276,1%>\r\n<追加ドロップ W,277,1%>\r\n<追加ドロップ W,278,2%>\r\n<追加ドロップ W,279,1%>\r\n<追加ドロップ W,280,1%>"
+
+Enemy 207
+Battler Name = "蟹"
+Name = "蟹"
+Description = ""
+Note = "[レベル非表示]\r\n<ステータスポイント 40>"
+
+Enemy 208
+Battler Name = ""
+Name = "================"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 209
+Battler Name = "ゼリイヌ"
+Name = "ゼリイヌ"
+Description = ""
+Note = "[レベル非表示]\r\n<追加ドロップ I,205,100>\r\n<追加ドロップ I,205,100>\r\n<追加ドロップ I,205,50>\r\n<追加ドロップ I,205,30>\r\n15\r\n"
+
+Enemy 210
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 211
+Battler Name = "ちんこミミズ達"
+Name = "ちんこミミズ達"
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 212
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 213
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 214
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 215
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 216
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 217
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 218
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 219
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 220
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 221
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 222
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 223
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 224
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 225
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 226
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 227
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 228
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 229
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 230
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 231
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 232
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 233
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 234
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 235
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 236
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 237
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 238
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 239
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 240
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 241
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 242
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 243
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 244
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 245
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 246
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 247
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 248
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 249
+Battler Name = ""
+Name = ""
+Description = ""
+Note = "[レベル非表示]"
+
+Enemy 250
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 251
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 252
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 253
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 254
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 255
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 256
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 257
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 258
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 259
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 260
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 261
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 262
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 263
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 264
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 265
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 266
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 267
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 268
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 269
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 270
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 271
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 272
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 273
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 274
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 275
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 276
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 277
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 278
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 279
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 280
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 281
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 282
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 283
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 284
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 285
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 286
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 287
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 288
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 289
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 290
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 291
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 292
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 293
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 294
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 295
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 296
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 297
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 298
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 299
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 300
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 301
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 302
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 303
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 304
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 305
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 306
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 307
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 308
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 309
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 310
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 311
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 312
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 313
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 314
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 315
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 316
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 317
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 318
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 319
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 320
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 321
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 322
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 323
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 324
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 325
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 326
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 327
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 328
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 329
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 330
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 331
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 332
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 333
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 334
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 335
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 336
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 337
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 338
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 339
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 340
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 341
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 342
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 343
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 344
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 345
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 346
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 347
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 348
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 349
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 350
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 351
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 352
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 353
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 354
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 355
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 356
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 357
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 358
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 359
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 360
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 361
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 362
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 363
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 364
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 365
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 366
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 367
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 368
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 369
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 370
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 371
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 372
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 373
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 374
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 375
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 376
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 377
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 378
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 379
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 380
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 381
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 382
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 383
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 384
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 385
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 386
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 387
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 388
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 389
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 390
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 391
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 392
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 393
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 394
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 395
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 396
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 397
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 398
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 399
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 400
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 401
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 402
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 403
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 404
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 405
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 406
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 407
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 408
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 409
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 410
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 411
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 412
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 413
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 414
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 415
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 416
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 417
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 418
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 419
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 420
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 421
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 422
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 423
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 424
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 425
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 426
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 427
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 428
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 429
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 430
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 431
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 432
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 433
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 434
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 435
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 436
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 437
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 438
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 439
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 440
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 441
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 442
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 443
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 444
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 445
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 446
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 447
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 448
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 449
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 450
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 451
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 452
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 453
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 454
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 455
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 456
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 457
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 458
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 459
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 460
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 461
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 462
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 463
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 464
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 465
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 466
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 467
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 468
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 469
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 470
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 471
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 472
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 473
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 474
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 475
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 476
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 477
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 478
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 479
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 480
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 481
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 482
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 483
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 484
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 485
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 486
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 487
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 488
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 489
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 490
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 491
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 492
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 493
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 494
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 495
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 496
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 497
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 498
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 499
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 500
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 501
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 502
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 503
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 504
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 505
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 506
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 507
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 508
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 509
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 510
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 511
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 512
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 513
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 514
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 515
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 516
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 517
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 518
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 519
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 520
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 521
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 522
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 523
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 524
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 525
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 526
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 527
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 528
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 529
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 530
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 531
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 532
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 533
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 534
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 535
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 536
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 537
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 538
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 539
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 540
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 541
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 542
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 543
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 544
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 545
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 546
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 547
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 548
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 549
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 550
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 551
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 552
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 553
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 554
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 555
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 556
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 557
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 558
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 559
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 560
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 561
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 562
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 563
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 564
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 565
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 566
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 567
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 568
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 569
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 570
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 571
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 572
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 573
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 574
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 575
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 576
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 577
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 578
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 579
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 580
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 581
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 582
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 583
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 584
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 585
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 586
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 587
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 588
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 589
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 590
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 591
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 592
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 593
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 594
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 595
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 596
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 597
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 598
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 599
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 600
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 601
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 602
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 603
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 604
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 605
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 606
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 607
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 608
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 609
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 610
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 611
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 612
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 613
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 614
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 615
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 616
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 617
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 618
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 619
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 620
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 621
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 622
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 623
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 624
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 625
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 626
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 627
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 628
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 629
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 630
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 631
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 632
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 633
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 634
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 635
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 636
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 637
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 638
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 639
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 640
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 641
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 642
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 643
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 644
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 645
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 646
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 647
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 648
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 649
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 650
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 651
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 652
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 653
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 654
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 655
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 656
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 657
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 658
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 659
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 660
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 661
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 662
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 663
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 664
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 665
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 666
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 667
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 668
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 669
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 670
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 671
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 672
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 673
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 674
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 675
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 676
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 677
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 678
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 679
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 680
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 681
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 682
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 683
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 684
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 685
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 686
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 687
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 688
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 689
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 690
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 691
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 692
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 693
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 694
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 695
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 696
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 697
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 698
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 699
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 700
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 701
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 702
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 703
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 704
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 705
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 706
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 707
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 708
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 709
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 710
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 711
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 712
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 713
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 714
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 715
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 716
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 717
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 718
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 719
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 720
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 721
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 722
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 723
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 724
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 725
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 726
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 727
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 728
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 729
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 730
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 731
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 732
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 733
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 734
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 735
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 736
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 737
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 738
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 739
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 740
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 741
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 742
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 743
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 744
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 745
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 746
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 747
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 748
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 749
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 750
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 751
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 752
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 753
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 754
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 755
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 756
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 757
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 758
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 759
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 760
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 761
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 762
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 763
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 764
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 765
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 766
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 767
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 768
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 769
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 770
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 771
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 772
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 773
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 774
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 775
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 776
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 777
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 778
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 779
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 780
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 781
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 782
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 783
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 784
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 785
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 786
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 787
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 788
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 789
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 790
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 791
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 792
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 793
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 794
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 795
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 796
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 797
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 798
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 799
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 800
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 801
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 802
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 803
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 804
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 805
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 806
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 807
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 808
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 809
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 810
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 811
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 812
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 813
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 814
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 815
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 816
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 817
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 818
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 819
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 820
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 821
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 822
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 823
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 824
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 825
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 826
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 827
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 828
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 829
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 830
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 831
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 832
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 833
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 834
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 835
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 836
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 837
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 838
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 839
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 840
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 841
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 842
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 843
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 844
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 845
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 846
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 847
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 848
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 849
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 850
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 851
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 852
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 853
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 854
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 855
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 856
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 857
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 858
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 859
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 860
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 861
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 862
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 863
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 864
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 865
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 866
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 867
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 868
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 869
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 870
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 871
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 872
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 873
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 874
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 875
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 876
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 877
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 878
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 879
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 880
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 881
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 882
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 883
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 884
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 885
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 886
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 887
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 888
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 889
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 890
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 891
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 892
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 893
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 894
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 895
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 896
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 897
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 898
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 899
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 900
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 901
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 902
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 903
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 904
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 905
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 906
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 907
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 908
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 909
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 910
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 911
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 912
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 913
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 914
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 915
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 916
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 917
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 918
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 919
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 920
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 921
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 922
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 923
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 924
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 925
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 926
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 927
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 928
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 929
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 930
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 931
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 932
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 933
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 934
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 935
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 936
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 937
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 938
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 939
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 940
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 941
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 942
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 943
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 944
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 945
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 946
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 947
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 948
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 949
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 950
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 951
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 952
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 953
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 954
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 955
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 956
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 957
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 958
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 959
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 960
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 961
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 962
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 963
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 964
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 965
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 966
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 967
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 968
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 969
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 970
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 971
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 972
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 973
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 974
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 975
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 976
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 977
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 978
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 979
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 980
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 981
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 982
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 983
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 984
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 985
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 986
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 987
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 988
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 989
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 990
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 991
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 992
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 993
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 994
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 995
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 996
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 997
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 998
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 999
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+

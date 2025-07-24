@@ -1,0 +1,20 @@
+CommonEvent 409
+Name = "☆チンコミミズ"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 104, 0, 0, 0])
+      CallCommonEvent([410])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([411])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([412])
+  Empty([])

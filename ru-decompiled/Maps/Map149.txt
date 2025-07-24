@@ -1,0 +1,59 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 130, 37, 22, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["貧乏な神父"])
+    ShowText(["「いつかここにピアノが置けるといいのですが・・」"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["老婆"])
+    ShowText(["「ここの教会は神父さまがお優しい方でな・・・"])
+    ShowText(["　困ってる人にお金を片っ端から渡すから教会自体が貧乏なのじゃ」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["デブス"])
+    ShowText(["「うえっ・・貧乏がうつるかも知れないから用が済んだら出ていこぉ」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["イカツイお兄さん"])
+    ShowText(["「俺・・・ここの神父に助けてもらったんだ。"])
+    ShowText(["　昔は悪い事いっぱいやったが、今は心入れなおして"])
+    ShowText(["　ここの手伝いしてんだ」"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["金髪勘違い野郎"])
+    ShowText(["「神いわゆるkamiねｗｗｗちょーかっけーわーｗｗｗ」"])
+    Empty([])

@@ -1,0 +1,5 @@
+CommonEvent 965
+Name = "ハンターの日記"
+
+  ControlSwitches([210, 210, 0])
+  Empty([])

@@ -1,0 +1,18 @@
+CommonEvent 457
+Name = "後処理"
+
+  FadeoutScreen([])
+  ErasePicture([1])
+  FadeoutBGM([3])
+  Wait([60])
+  Wait([60])
+  Wait([60])
+  ReplayBGM([])
+  ControlSwitches([21, 21, 0])
+  TransferPlayer([0, 265, 11, 9, 6, 0])
+  SetEventLocation([3, 0, 13, 9, 4])
+  ControlVariables([21, 21, 1, 2, 5, 10])
+  ControlVariables([28, 28, 1, 2, 1, 2])
+  FadeinScreen([])
+  CallCommonEvent([24])
+  Empty([])

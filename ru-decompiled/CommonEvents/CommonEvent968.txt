@@ -1,0 +1,5 @@
+CommonEvent 968
+Name = "愚者の日記"
+
+  ControlSwitches([213, 213, 0])
+  Empty([])

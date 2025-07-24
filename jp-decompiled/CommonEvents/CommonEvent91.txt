@@ -1,0 +1,7 @@
+CommonEvent 91
+Name = "☆プティン戦闘"
+
+  CallCommonEvent([88])
+  CallCommonEvent([90])
+  Wait([30])
+  Empty([])

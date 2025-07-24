@@ -1,0 +1,180 @@
+CommonEvent 377
+Name = "☆パッシブ２"
+
+  ConditionalBranch([1, 101, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 432])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【スライムっ子】を習得した！"])
+      ChangeSkills([0, 12, 0, 432])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 104, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 433])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【ミミズ娘】を習得した！"])
+      ChangeSkills([0, 12, 0, 433])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 105, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 434])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【ゼリー娘】を習得した！"])
+      ChangeSkills([0, 12, 0, 434])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 106, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 435])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【メス豚】を習得した！"])
+      ChangeSkills([0, 12, 0, 435])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 107, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 436])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【レズ】を習得した！"])
+      ChangeSkills([0, 12, 0, 436])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 108, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 437])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【ゲルボディ】を習得した！"])
+      ChangeSkills([0, 12, 0, 437])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 109, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 438])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【スライムボディ】を習得した！"])
+      ChangeSkills([0, 12, 0, 438])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 110, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 439])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【触手っ子】を習得した！"])
+      ChangeSkills([0, 12, 0, 439])
+      Empty([])
+
+    BranchEnd([])
+    ConditionalBranch([1, 110, 0, 4, 1])
+      ConditionalBranch([4, 12, 3, 440])
+        Empty([])
+
+      Else([])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["パッシブスキル"])
+        ShowText(["【触手好き娘】を習得した！"])
+        ChangeSkills([0, 12, 0, 440])
+        Empty([])
+
+      BranchEnd([])
+      ConditionalBranch([1, 110, 0, 8, 1])
+        ConditionalBranch([4, 12, 3, 441])
+          Empty([])
+
+        Else([])
+          PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+          ShowTextAttributes(["", 0, 0, 2])
+          ShowText(["パッシブスキル"])
+          ShowText(["【触手大好き！】を習得した！"])
+          ChangeSkills([0, 12, 0, 441])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 93, 0, 1, 1])
+    ConditionalBranch([4, 12, 3, 501])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パッシブスキル"])
+      ShowText(["【立派な良い子】を習得した！"])
+      ChangeSkills([0, 12, 0, 501])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

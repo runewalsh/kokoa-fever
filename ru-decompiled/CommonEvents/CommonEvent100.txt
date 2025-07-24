@@ -1,0 +1,15 @@
+CommonEvent 100
+Name = "☆ここな立ち絵受付"
+
+  CallCommonEvent([101])
+  ConditionalBranch([1, 201, 0, 0, 0])
+    ChangeActorGraphic([15, "ここなチビ２", 0, "", 0])
+    Empty([])
+
+  Else([])
+    ChangeActorGraphic([15, "ここなチビ２", 5, "", 0])
+    Empty([])
+
+  BranchEnd([])
+  Wait([45])
+  Empty([])

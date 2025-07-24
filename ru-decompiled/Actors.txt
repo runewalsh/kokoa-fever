@@ -1,0 +1,240 @@
+Actor 1
+Nickname = "銀の死神"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "エリック"
+Description = "数々の戦場を渡り歩き、生き延びてきた歴戦の傭兵。普段は\r\n温厚だが、ひとたび戦いが始まれば狂戦士と化す。"
+Note = "<最大TP 300>\r\n<最小TP 100>"
+
+Actor 2
+Nickname = "紅蓮の迅雷"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "ナタリー"
+Description = "暗殺拳の達人を祖父にもつ少女。幼少のころからその技の\r\nすべてを叩き込まれている格闘術のエキスパート。"
+Note = ""
+
+Actor 3
+Nickname = "流浪の聖騎士"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "テレンス"
+Description = "謀略により地位を剥奪された聖騎士。真の騎士道を極めるため\r\n各地をさまよい修練を重ねている。"
+Note = ""
+
+Actor 4
+Nickname = "魔剣を継ぐ者"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "アーネスト"
+Description = "師匠の仇を探して旅を続ける剣士。剣に魔力を宿らせる技\r\n「魔法剣」を体得している。"
+Note = ""
+
+Actor 5
+Nickname = "暁の剛剣"
+Character Name = "Actor4"
+Face Name = "Actor4"
+Name = "リョーマ"
+Description = "東国では無双の剛剣と称された、桜花一刀流の使い手。\r\n流れるような動きから繰り出される一閃は、重く、鋭い。"
+Note = ""
+
+Actor 6
+Nickname = "深緑の護り手"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "ブレンダ"
+Description = "森の精霊に育てられた少女。自然を愛し、森の平穏を乱す者を\r\n許さない。都会での生活にちょっとだけ憧れている。"
+Note = ""
+
+Actor 7
+Nickname = "見えざる疾風"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "リック"
+Description = "束縛されることが嫌いな自称義賊の青年。軽口ばかり叩くが\r\n仲間のためなら命も張れる熱血漢。"
+Note = ""
+
+Actor 8
+Nickname = "救世の聖女"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "アリス"
+Description = "神託により聖女となることを運命づけられた女性。慈愛に満ち\r\nその愛情は敵に対しても等しく与えられる。"
+Note = ""
+
+Actor 9
+Nickname = "優雅なる悪夢"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "イザベル"
+Description = "永きに渡り人類に恐怖を与えてきた魔女。転生術の失敗により\r\n記憶の大半を失っているが、キレると本性が出る。"
+Note = ""
+
+Actor 10
+Nickname = "星を見る者"
+Character Name = "Actor5"
+Face Name = "Actor5"
+Name = "ノア"
+Description = "俗世との交わりを避け、山奥に隠れ住む賢者。凶星の正体を\r\n調べるため、伝説にある「最果ての書庫」を探す旅に出る。"
+Note = ""
+
+Actor 11
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 12
+Nickname = ""
+Character Name = "ココア１"
+Face Name = ""
+Name = "ココア"
+Description = "魔法使いになって安定した職に就くため\r\n都会に来た田舎娘"
+Note = "<先制攻撃率増減:100>\r\n<BATK:self.hp/10>\r\n<BDEF:-self.hp/10>\r\n<MHP:$game_variables[5]*20>\r\n<BMAT:$game_variables[21]/4>\r\n<BMDF:$game_variables[28]/3>\r\n<BATK:$game_variables[30]/8>\r\n<戦闘後回復 10,5>\r\n<転職画面許可 43>\r\n<転職画面表示 43>\r\n<キャンセル不可>\r\n<TP基本値 30>\r\n<TPLv補正 160>\r\n<開始時TP 50%>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>\r\n<二刀流装備スロット 0,0,2,3,5,4,4,4,6>"
+
+Actor 13
+Nickname = ""
+Character Name = "ココア１"
+Face Name = ""
+Name = "ココア2"
+Description = "魔法使いになって安定した職に就くため\r\n都会に来た田舎娘"
+Note = "<転職画面許可 44>\r\n<転職画面表示 44>\r\n<キャンセル不可>\r\n<TP基本値 100>\r\n<TPLv補正 300>\r\n<開始時TP 70%>"
+
+Actor 14
+Nickname = ""
+Character Name = "ココア１"
+Face Name = ""
+Name = "ココア3"
+Description = "魔法使いになって安定した職に就くため\r\n都会に来た田舎娘"
+Note = "<転職画面許可 45>\r\n<転職画面表示 45>\r\n<キャンセル不可>\r\n<TP基本値 100>\r\n<TPLv補正 300>\r\n<開始時TP 70%>"
+
+Actor 15
+Nickname = ""
+Character Name = "ここなチビ２"
+Face Name = ""
+Name = "ここな"
+Description = "クロウの仕事を手伝っている猫耳少女"
+Note = "<先制攻撃率増減:100>\r\n<BATK:self.hp/10>\r\n<BDEF:-self.hp/10>\r\n<戦闘後回復 20,10>\r\n<転職画面許可 46>\r\n<転職画面表示 46>\r\n<キャンセル不可>\r\n<TP基本値 10>\r\n<TPLv補正 150>\r\n<開始時TP 50%>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>\r\n<通常装備スロット 0,1,2,3,5,4,4,4,4>"
+
+Actor 16
+Nickname = ""
+Character Name = "ちびキャラ：クロウ"
+Face Name = ""
+Name = "クロウ"
+Description = "魔法協会から様々な仕事を依頼されているエージェント\r\n"
+Note = "<先制攻撃率増減:100>\r\n<戦闘後回復 20,10>\r\n<転職画面許可 47>\r\n<転職画面表示 47>\r\n<キャンセル不可>\r\n<TP基本値 10>\r\n<TPLv補正 150>\r\n<開始時TP 70%>\r\n<レベル限界増加:10>\r\n<振り分け設定0 4,42,1,0>\r\n<振り分け設定1 2,35,1,0>\r\n<振り分け設定2 1,55,1,0>\r\n<振り分け設定3 1,21,1,0>\r\n<振り分け設定4 1,45,1,0>\r\n<振り分け設定5 1,23,1,0>\r\n<振り分け設定6 1,72,1,0>\r\n<振り分け設定7 1,102,1,0>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>\r\n<通常装備スロット 0,1,2,3,5,5,5,4,4>"
+
+Actor 17
+Nickname = ""
+Character Name = "ちびキャラ：プティン"
+Face Name = ""
+Name = "プティン"
+Description = "クロウに仕えている家政婦的な少女"
+Note = "<先制攻撃率増減:100>\r\n<BATK:self.hp/10>\r\n<BDEF:-self.hp/10>\r\n<戦闘後回復 20,10>\r\n<転職画面許可 48>\r\n<転職画面表示 48>\r\n<キャンセル不可>\r\n<TP基本値 70>\r\n<TPLv補正 400>\r\n<開始時TP 70%>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>\r\n<通常装備スロット 0,1,2,3,4,4,4>"
+
+Actor 18
+Nickname = ""
+Character Name = "レモン"
+Face Name = ""
+Name = "レモン"
+Description = "本部とクロウとの連絡役をしている少女"
+Note = "<通常装備スロット 0,1,2,3,5,5,4,4,4>\r\n<戦闘後回復 5,10>\r\n<BATK:self.hp/10>\r\n<BDEF:-self.hp/10>\r\n<転職画面許可 49>\r\n<転職画面表示 49>\r\n<キャンセル不可>\r\n<TP基本値 10>\r\n<TPLv補正 80>\r\n<開始時TP 40%>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>"
+
+Actor 19
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 20
+Nickname = ""
+Character Name = "ココア１"
+Face Name = "Spiritual"
+Name = "ココア"
+Description = "魔法使いになって安定した職に就くため\r\n都会に来た田舎娘"
+Note = "\r\n<キャンセル不可>\r\n<TP基本値 100>\r\n<TPLv補正 300>\r\n<開始時TP 70%>"
+
+Actor 21
+Nickname = ""
+Character Name = "クルイーサ"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 22
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 23
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 24
+Nickname = ""
+Character Name = "ベルデ"
+Face Name = ""
+Name = "ベルデ"
+Description = ""
+Note = ""
+
+Actor 25
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 26
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 27
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 28
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 29
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 30
+Nickname = ""
+Character Name = "J_monster"
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

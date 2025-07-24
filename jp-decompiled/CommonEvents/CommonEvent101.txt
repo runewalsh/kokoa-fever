@@ -1,0 +1,17 @@
+CommonEvent 101
+Name = "ここな立ち絵"
+
+  CallCommonEvent([102])
+  CallCommonEvent([103])
+  CallCommonEvent([104])
+  ConditionalBranch([0, 25, 0])
+    ShowPicture([10, "", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowPicture([9, "", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([105])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

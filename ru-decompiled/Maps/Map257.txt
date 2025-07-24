@@ -1,0 +1,76 @@
+Display Name = "レムリア遺跡７"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TransferPlayer([0, 257, 11, 14, 6, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 257, 5, 14, 4, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 256, 10, 23, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"SC_battle2\", @volume=100, @pitch=100)"])
+    FadeoutScreen([])
+    BattleProcessing([0, 172, true, true])
+    IfWin([])
+      ControlVariables([3, 3, 0, 0, 286])
+      FadeinScreen([])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「な・・なんとか勝てたわね・・・」"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「・・・・これで帰れる」"])
+      ShotBalloonIcon([-1, 6, true])
+      ControlVariables([3, 3, 0, 0, 290])
+      FadeoutScreen([])
+      ChangePartyMember([12, 0, 0])
+      RecoverAll([0, 0])
+      ChangePartyMember([15, 1, 0])
+      ControlSwitches([22, 22, 1])
+      ControlSwitches([21, 21, 0])
+      TransferPlayer([0, 240, 7, 10, 2, 0])
+      ErasePicture([9])
+      ErasePicture([10])
+      ErasePicture([11])
+      FadeinScreen([])
+      Empty([])
+
+    IfEscape([])
+      TransferPlayer([0, 257, 4, 14, 4, 0])
+      FadeinScreen([])
+      Empty([])
+
+    IfLose([])
+      TransferPlayer([0, 257, 5, 14, 0, 0])
+      CallCommonEvent([439])
+      FadeinScreen([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    Empty([])

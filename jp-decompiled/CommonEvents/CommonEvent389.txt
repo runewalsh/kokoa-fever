@@ -1,0 +1,6 @@
+CommonEvent 389
+Name = "守護方陣"
+
+  ForceAction([1, 15, 636, -1])
+  ForceAction([1, 15, 637, -1])
+  Empty([])

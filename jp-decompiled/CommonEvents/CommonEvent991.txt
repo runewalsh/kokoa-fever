@@ -1,0 +1,19 @@
+CommonEvent 991
+Name = "　ほしねが"
+
+  FadeoutScreen([])
+  FadeoutBGM([1])
+  Wait([60])
+  ChangePartyMember([12, 0, 0])
+  ChangePartyMember([15, 1, 0])
+  ChangePartyMember([16, 1, 0])
+  ChangePartyMember([17, 1, 0])
+  ChangePartyMember([18, 1, 0])
+  ControlSwitches([11, 11, 1])
+  CallCommonEvent([400])
+  ChangeEquipment([12, 3, 63])
+  ChangeActorGraphic([12, "ココア１", 1, "", 4])
+  TransferPlayer([0, 171, 19, 33, 2, 0])
+  ControlVariables([5, 5, 2, 0, 1])
+  FadeinScreen([])
+  Empty([])

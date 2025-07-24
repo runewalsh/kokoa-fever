@@ -1,0 +1,13 @@
+CommonEvent 993
+Name = "　アイテム調節"
+
+  ChangeItems([34, 1, 0, 1])
+  ChangeItems([901, 1, 0, 1])
+  ChangeItems([902, 1, 0, 1])
+  ChangeItems([903, 1, 0, 1])
+  ChangeItems([904, 1, 0, 1])
+  ChangeItems([905, 1, 0, 1])
+  ChangeItems([906, 1, 0, 1])
+  ChangeItems([907, 1, 0, 1])
+  ChangeItems([911, 1, 0, 1])
+  Empty([])

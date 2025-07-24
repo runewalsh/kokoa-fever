@@ -1,0 +1,20 @@
+CommonEvent 35
+Name = "　妊娠処理"
+
+  Wait([60])
+  ShotBalloonIcon([-1, 7, true])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ココア"])
+  ShowText(["「うっ・・・・・なんか気持ち悪い・・・・・・」"])
+  FadeoutScreen([])
+  ControlVariables([23, 23, 0, 2, 0, 60])
+  ControlVariables([27, 27, 0, 3, 7, 3, 0])
+  ControlVariables([27, 27, 1, 2, 1500, 3000])
+  Wait([60])
+  CallCommonEvent([36])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ココア"])
+  ShowText(["「・・・・赤ちゃん・・・出来ちゃったみたい・・・・」"])
+  ControlSwitches([27, 27, 0])
+  Empty([])

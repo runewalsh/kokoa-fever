@@ -1,0 +1,273 @@
+Display Name = "オークの洞窟２"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 210, 43, 4, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 210, 43, 5, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Script(["rx_self_sw(209,"])
+    ScriptMore(["[5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 208, 20, 10, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Script(["rx_self_sw(209,"])
+    ScriptMore(["[5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 208, 21, 10, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 6
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 7
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 8
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 9
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 10
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Script(["rx_self_sw(209,"])
+    ScriptMore(["[5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 211, 13, 43, 0, 0])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Script(["rx_self_sw(209,"])
+    ScriptMore(["[5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 211, 14, 43, 0, 0])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"オーク戦\", @volume=100, @pitch=100)"])
+    ControlVariables([24, 24, 0, 2, 0, 45])
+    ConditionalBranch([1, 24, 0, 30, 2])
+      BattleProcessing([0, 130, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 1, 2])
+        ControlVariables([29, 29, 1, 2, 0, 1])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([492])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 45, 2])
+        BattleProcessing([0, 131, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 1, 2])
+          ControlVariables([29, 29, 1, 2, 1, 2])
+          Empty([])
+        IfEscape([])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([492])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"オーク戦\", @volume=100, @pitch=100)"])
+    ControlVariables([24, 24, 0, 2, 0, 45])
+    ConditionalBranch([1, 24, 0, 30, 2])
+      BattleProcessing([0, 174, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 1, 2])
+        ControlVariables([29, 29, 1, 2, 0, 1])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([495])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 45, 2])
+        BattleProcessing([0, 175, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 1, 2])
+          ControlVariables([29, 29, 1, 2, 1, 2])
+          Empty([])
+        IfEscape([])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([495])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Empty([])

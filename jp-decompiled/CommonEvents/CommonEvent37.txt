@@ -1,0 +1,5 @@
+CommonEvent 37
+Name = "　精子off"
+
+  ControlSwitches([301, 301, 1])
+  Empty([])

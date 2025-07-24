@@ -1,0 +1,1000 @@
+Class 1
+Name = "戦士"
+Description = ""
+Note = ""
+
+Class 2
+Name = "モンク"
+Description = ""
+Note = ""
+
+Class 3
+Name = "騎士"
+Description = ""
+Note = ""
+
+Class 4
+Name = "魔法剣士"
+Description = ""
+Note = ""
+
+Class 5
+Name = "サムライ"
+Description = ""
+Note = ""
+
+Class 6
+Name = "アーチャー"
+Description = ""
+Note = ""
+
+Class 7
+Name = "シーフ"
+Description = ""
+Note = ""
+
+Class 8
+Name = "僧侶"
+Description = ""
+Note = ""
+
+Class 9
+Name = "魔道士"
+Description = ""
+Note = ""
+
+Class 10
+Name = "賢者"
+Description = ""
+Note = ""
+
+Class 11
+Name = "☆ココア"
+Description = ""
+Note = ""
+
+Class 12
+Name = "村娘"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<職業説明>街で勉強して魔法使いになり\r\n仕事に就く為に田舎から出て来た村娘</職業説明>\r\n\r\n<最大TP増加 10%>"
+
+Class 13
+Name = "市民"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<職業説明>何の特徴もない平凡な市民</職業説明>"
+
+Class 14
+Name = "見習い剣士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 56>\r\n<職業説明>物理攻撃に優れいる</職業説明>\r\n"
+
+Class 15
+Name = "見習い戦士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 56>\r\n<職業説明>物理面には秀でたものはあるが\r\n魔法面には少しの心細さを感じる</職業説明>\r\n<最大TP増加 5>"
+
+Class 16
+Name = "見習い魔法使い"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 56>\r\n<職業説明>魔法面を意識したスタイル\r\n</職業説明>\r\n\r\n<最大TP減少 10>"
+
+Class 17
+Name = "☆ココアテスト用"
+Description = ""
+Note = ""
+
+Class 18
+Name = "プロ市民"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 221>\r\n<職業説明>何の特徴もないプロな市民\r\n少しだけ市民より強い</職業説明>"
+
+Class 19
+Name = "盗人"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 4>\r\n<転職スイッチ 57>\r\n<職業説明>万引きをした悪い子</職業説明>"
+
+Class 20
+Name = "良い子"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 4>\r\n<転職スイッチ 58>\r\n<職業説明>万引きをしない良い子\r\n普通はしないが</職業説明>"
+
+Class 21
+Name = "駆け出し剣士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 59>\r\n<職業説明>物理攻撃に優れており、TP回復能力が微小ながら高まる</職業説明>"
+
+Class 22
+Name = "駆け出し戦士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 59>\r\n<職業説明>物理面には秀でたものはあるが\r\n魔法面には少しの心細さを感じる</職業説明>\r\n<TP消費率 90%>\r\n<最大TP増加 5>"
+
+Class 23
+Name = "駆け出し魔法使い"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 59>\r\n<職業説明>魔法面を意識したスタイル\r\n</職業説明>\r\n\r\n<最大TP減少 10>"
+
+Class 24
+Name = "駆け出し冒険者"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 1>\r\n<転職スイッチ 59>\r\n<職業説明>ギルド身分証を取得し、冒険者としても生きていけるようになった</職業説明>"
+
+Class 25
+Name = "剣闘士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 4>\r\n<転職スイッチ 60>\r\n<職業説明>剣闘士・・それは剣によってのみ名声を得る者たちの職業</職業説明>"
+
+Class 26
+Name = "中級剣士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 204>\r\n<職業説明>物理攻撃に優れており、TP回復能力が微小ながら高まる</職業説明>"
+
+Class 27
+Name = "中級戦士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 204>\r\n<職業説明>物理面には秀でたものはあるが\r\n魔法面には少しの心細さを感じる</職業説明>\r\n<TP消費率 90%>\r\n<最大TP増加 10>"
+
+Class 28
+Name = "中級魔法使い"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 204>\r\n<職業説明>魔法面を意識したスタイル\r\n</職業説明>\r\n\r\n<最大TP減少 10>"
+
+Class 29
+Name = "中級冒険者"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 204>\r\n<職業説明>ギルド身分証を取得し、冒険者としても生きていけるようになった</職業説明>"
+
+Class 30
+Name = "放浪者"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 4>\r\n<転職スイッチ 72>\r\n<職業説明>放浪者とは行くあてもなく彷徨う者である</職業説明>"
+
+Class 31
+Name = "リベンジャー"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 4>\r\n<転職スイッチ 73>\r\n<職業説明>人生をやりなおす・・・</職業説明>"
+
+Class 32
+Name = "騎士"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 205>\r\n<職業説明>物理系には嬉しい能力値</職業説明>"
+
+Class 33
+Name = "踊り子"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 206>\r\n<職業説明>踊り子は体力勝負</職業説明>"
+
+Class 34
+Name = "吟遊詩人"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 207>\r\n<職業説明>物理面に不満はあるが魔法面ではかなり優秀である</職業説明>"
+
+Class 35
+Name = "超人"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 208>\r\n<職業説明>あいあむすーぱーまん</職業説明>"
+
+Class 36
+Name = "ヒロイン"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 209>\r\n<職業説明>私がヒロイン！</職業説明>"
+
+Class 37
+Name = "ハンター"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 210>\r\n<職業説明>獲物を前に舌なめずり、三流のする事だな</職業説明>"
+
+Class 38
+Name = "ストライカー"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 212>\r\n<職業説明>攻撃すること、それが大切</職業説明>"
+
+Class 39
+Name = "暗殺者"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 211>\r\n<職業説明>すばやく殺す。すばやく殺す</職業説明>"
+
+Class 40
+Name = "愚者"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 213>\r\n<職業説明>愚かな者</職業説明>"
+
+Class 41
+Name = "歩兵"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 214>\r\n<職業説明>歩兵・・。</職業説明>"
+
+Class 42
+Name = "傭兵"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 215>\r\n<職業説明>金さえあれば何でもします！\r\nん？今・・</職業説明>"
+
+Class 43
+Name = "侍"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 216>\r\n<職業説明>攻撃力が光る職業</職業説明>\r\n"
+
+Class 44
+Name = "呪術師"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 217>\r\n<職業説明>魔法面はお任せ！</職業説明>"
+
+Class 45
+Name = "魔砲士"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 218>\r\n<職業説明>魔法は火力よね☆</職業説明>"
+
+Class 46
+Name = "将軍"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 219>\r\n<職業説明>能力値は高いが・・・</職業説明>"
+
+Class 47
+Name = "英雄"
+Description = ""
+Note = "<転職許可 12>\r\n<職業ランク 4>\r\n<転職スイッチ 220>\r\n<職業説明>ひでお</職業説明>\r\n<TP消費率 130%>"
+
+Class 48
+Name = ""
+Description = ""
+Note = ""
+
+Class 49
+Name = "中級魔剣士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 221>\r\n<職業説明>魔剣士としては相応しいステ振り。若干ながら体力に不満はあるが・・</職業説明>"
+
+Class 50
+Name = "中級闘士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 221>\r\n<職業説明>スレイヤー。\r\n対象を物理で分からせる</職業説明>"
+
+Class 51
+Name = "中級者"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 221>\r\n<職業説明>特に特徴のない中級者</職業説明>"
+
+Class 52
+Name = ""
+Description = ""
+Note = ""
+
+Class 53
+Name = "倹約者"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 2>\r\n<転職スイッチ 222>\r\n<職業説明>MPを節約して使う</職業説明>"
+
+Class 54
+Name = ""
+Description = ""
+Note = ""
+
+Class 55
+Name = "上級剣士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 3>\r\n<転職スイッチ 223>\r\n<職業説明>上級剣士として満足な性能を発揮できそう</職業説明>"
+
+Class 56
+Name = "上級戦士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 3>\r\n<転職スイッチ 223>\r\n<職業説明>重量感のあるスタイル</職業説明>"
+
+Class 57
+Name = "上級魔法使い"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 3>\r\n<転職スイッチ 223>\r\n<職業説明>確かな火力と安定性の両立を計ったスタイル</職業説明>"
+
+Class 58
+Name = "上級魔剣士"
+Description = ""
+Note = "<転職許可 12,13,14>\r\n<職業ランク 3>\r\n<転職スイッチ 223>\r\n<職業説明>攻撃バランスに優れた万能スタイル</職業説明>"
+
+Class 59
+Name = ""
+Description = ""
+Note = ""
+
+Class 60
+Name = ""
+Description = ""
+Note = ""
+
+Class 61
+Name = ""
+Description = ""
+Note = ""
+
+Class 62
+Name = ""
+Description = ""
+Note = ""
+
+Class 63
+Name = ""
+Description = ""
+Note = ""
+
+Class 64
+Name = ""
+Description = ""
+Note = ""
+
+Class 65
+Name = ""
+Description = ""
+Note = ""
+
+Class 66
+Name = ""
+Description = ""
+Note = ""
+
+Class 67
+Name = ""
+Description = ""
+Note = ""
+
+Class 68
+Name = ""
+Description = ""
+Note = ""
+
+Class 69
+Name = ""
+Description = ""
+Note = ""
+
+Class 70
+Name = ""
+Description = ""
+Note = ""
+
+Class 71
+Name = ""
+Description = ""
+Note = ""
+
+Class 72
+Name = ""
+Description = ""
+Note = ""
+
+Class 73
+Name = ""
+Description = ""
+Note = ""
+
+Class 74
+Name = ""
+Description = ""
+Note = ""
+
+Class 75
+Name = ""
+Description = ""
+Note = ""
+
+Class 76
+Name = ""
+Description = ""
+Note = ""
+
+Class 77
+Name = ""
+Description = ""
+Note = ""
+
+Class 78
+Name = ""
+Description = ""
+Note = ""
+
+Class 79
+Name = ""
+Description = ""
+Note = ""
+
+Class 80
+Name = ""
+Description = ""
+Note = ""
+
+Class 81
+Name = ""
+Description = ""
+Note = ""
+
+Class 82
+Name = ""
+Description = ""
+Note = ""
+
+Class 83
+Name = ""
+Description = ""
+Note = ""
+
+Class 84
+Name = ""
+Description = ""
+Note = ""
+
+Class 85
+Name = ""
+Description = ""
+Note = ""
+
+Class 86
+Name = ""
+Description = ""
+Note = ""
+
+Class 87
+Name = ""
+Description = ""
+Note = ""
+
+Class 88
+Name = ""
+Description = ""
+Note = ""
+
+Class 89
+Name = ""
+Description = ""
+Note = ""
+
+Class 90
+Name = ""
+Description = ""
+Note = ""
+
+Class 91
+Name = ""
+Description = ""
+Note = ""
+
+Class 92
+Name = ""
+Description = ""
+Note = ""
+
+Class 93
+Name = ""
+Description = ""
+Note = ""
+
+Class 94
+Name = ""
+Description = ""
+Note = ""
+
+Class 95
+Name = ""
+Description = ""
+Note = ""
+
+Class 96
+Name = ""
+Description = ""
+Note = ""
+
+Class 97
+Name = ""
+Description = ""
+Note = ""
+
+Class 98
+Name = ""
+Description = ""
+Note = ""
+
+Class 99
+Name = ""
+Description = ""
+Note = ""
+
+Class 100
+Name = ""
+Description = ""
+Note = ""
+
+Class 101
+Name = "ーーここなーーーーー"
+Description = ""
+Note = ""
+
+Class 102
+Name = "見習いエージェント"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 1>\r\n<職業説明>頑張って、いつかは一流のエージェントになる！</職業説明>"
+
+Class 103
+Name = "軽戦士"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 1>\r\n<職業説明>一応は戦士系統だけど打たれ弱い</職業説明>"
+
+Class 104
+Name = "軽魔剣士"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 1>\r\n<職業説明>回避型魔剣士。ロマンはあるが打たれ弱すぎる</職業説明>"
+
+Class 105
+Name = "騎士"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 205>\r\n<職業説明>物理系には嬉しい能力値</職業説明"
+
+Class 106
+Name = "踊り子"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 206>\r\n<職業説明>踊り子は体力勝負</職業説明>"
+
+Class 107
+Name = "吟遊詩人"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 207>\r\n<職業説明>物理面に不満はあるが魔法面ではかなり優秀である</職業説明>"
+
+Class 108
+Name = "超人"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 208>\r\n<職業説明>あいあむすーぱーまん</職業説明>"
+
+Class 109
+Name = "ヒロイン"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 209>\r\n<職業説明>私がヒロイン！</職業説明>"
+
+Class 110
+Name = "ハンター"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 210>\r\n<職業説明>獲物を前に舌なめずり、三流のする事だな</職業説明>"
+
+Class 111
+Name = "ストライカー"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 212>\r\n<職業説明>攻撃すること、それが大切</職業説明>"
+
+Class 112
+Name = "暗殺者"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 211>\r\n<職業説明>すばやく殺す。すばやく殺す</職業説明>"
+
+Class 113
+Name = "愚者"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 213>\r\n<職業説明>愚かな者</職業説明>"
+
+Class 114
+Name = "歩兵"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 214>\r\n<職業説明>歩兵・・。</職業説明>"
+
+Class 115
+Name = "傭兵"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 215>\r\n<職業説明>金さえあれば何でもします！\r\nん？今・・</職業説明>"
+
+Class 116
+Name = "侍"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 216>\r\n<職業説明>攻撃力が光る職業</職業説明>"
+
+Class 117
+Name = "呪術師"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 217>\r\n<職業説明>魔法面はお任せ！</職業説明>"
+
+Class 118
+Name = "魔砲士"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 218>\r\n<職業説明>魔法は火力よね☆</職業説明>"
+
+Class 119
+Name = "将軍"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 219>\r\n<職業説明>能力値は高いが・・・</職業説明>"
+
+Class 120
+Name = "英雄"
+Description = ""
+Note = "<転職許可 15>\r\n<職業ランク 4>\r\n<転職スイッチ 220>\r\n<職業説明>ひでお</職業説明>\r\n"
+
+Class 121
+Name = ""
+Description = ""
+Note = ""
+
+Class 122
+Name = ""
+Description = ""
+Note = ""
+
+Class 123
+Name = ""
+Description = ""
+Note = ""
+
+Class 124
+Name = ""
+Description = ""
+Note = ""
+
+Class 125
+Name = ""
+Description = ""
+Note = ""
+
+Class 126
+Name = ""
+Description = ""
+Note = ""
+
+Class 127
+Name = ""
+Description = ""
+Note = ""
+
+Class 128
+Name = ""
+Description = ""
+Note = ""
+
+Class 129
+Name = ""
+Description = ""
+Note = ""
+
+Class 130
+Name = ""
+Description = ""
+Note = ""
+
+Class 131
+Name = ""
+Description = ""
+Note = ""
+
+Class 132
+Name = ""
+Description = ""
+Note = ""
+
+Class 133
+Name = ""
+Description = ""
+Note = ""
+
+Class 134
+Name = ""
+Description = ""
+Note = ""
+
+Class 135
+Name = ""
+Description = ""
+Note = ""
+
+Class 136
+Name = ""
+Description = ""
+Note = ""
+
+Class 137
+Name = ""
+Description = ""
+Note = ""
+
+Class 138
+Name = ""
+Description = ""
+Note = ""
+
+Class 139
+Name = ""
+Description = ""
+Note = ""
+
+Class 140
+Name = ""
+Description = ""
+Note = ""
+
+Class 141
+Name = ""
+Description = ""
+Note = ""
+
+Class 142
+Name = ""
+Description = ""
+Note = ""
+
+Class 143
+Name = ""
+Description = ""
+Note = ""
+
+Class 144
+Name = ""
+Description = ""
+Note = ""
+
+Class 145
+Name = ""
+Description = ""
+Note = ""
+
+Class 146
+Name = ""
+Description = ""
+Note = ""
+
+Class 147
+Name = ""
+Description = ""
+Note = ""
+
+Class 148
+Name = ""
+Description = ""
+Note = ""
+
+Class 149
+Name = ""
+Description = ""
+Note = ""
+
+Class 150
+Name = ""
+Description = ""
+Note = ""
+
+Class 151
+Name = ""
+Description = ""
+Note = ""
+
+Class 152
+Name = ""
+Description = ""
+Note = ""
+
+Class 153
+Name = ""
+Description = ""
+Note = ""
+
+Class 154
+Name = ""
+Description = ""
+Note = ""
+
+Class 155
+Name = ""
+Description = ""
+Note = ""
+
+Class 156
+Name = ""
+Description = ""
+Note = ""
+
+Class 157
+Name = ""
+Description = ""
+Note = ""
+
+Class 158
+Name = ""
+Description = ""
+Note = ""
+
+Class 159
+Name = ""
+Description = ""
+Note = ""
+
+Class 160
+Name = ""
+Description = ""
+Note = ""
+
+Class 161
+Name = ""
+Description = ""
+Note = ""
+
+Class 162
+Name = ""
+Description = ""
+Note = ""
+
+Class 163
+Name = ""
+Description = ""
+Note = ""
+
+Class 164
+Name = ""
+Description = ""
+Note = ""
+
+Class 165
+Name = ""
+Description = ""
+Note = ""
+
+Class 166
+Name = ""
+Description = ""
+Note = ""
+
+Class 167
+Name = ""
+Description = ""
+Note = ""
+
+Class 168
+Name = ""
+Description = ""
+Note = ""
+
+Class 169
+Name = ""
+Description = ""
+Note = ""
+
+Class 170
+Name = ""
+Description = ""
+Note = ""
+
+Class 171
+Name = ""
+Description = ""
+Note = ""
+
+Class 172
+Name = ""
+Description = ""
+Note = ""
+
+Class 173
+Name = ""
+Description = ""
+Note = ""
+
+Class 174
+Name = ""
+Description = ""
+Note = ""
+
+Class 175
+Name = ""
+Description = ""
+Note = ""
+
+Class 176
+Name = ""
+Description = ""
+Note = ""
+
+Class 177
+Name = ""
+Description = ""
+Note = ""
+
+Class 178
+Name = ""
+Description = ""
+Note = ""
+
+Class 179
+Name = ""
+Description = ""
+Note = ""
+
+Class 180
+Name = ""
+Description = ""
+Note = ""
+
+Class 181
+Name = ""
+Description = ""
+Note = ""
+
+Class 182
+Name = ""
+Description = ""
+Note = ""
+
+Class 183
+Name = ""
+Description = ""
+Note = ""
+
+Class 184
+Name = ""
+Description = ""
+Note = ""
+
+Class 185
+Name = "＝レモン＝＝＝＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Class 186
+Name = "シスターズ"
+Description = ""
+Note = "<転職許可 18>\r\n<職業ランク 1>\r\n<職業説明>様々な仕事をこなす傭兵団の一員</職業説明>"
+
+Class 187
+Name = ""
+Description = ""
+Note = ""
+
+Class 188
+Name = ""
+Description = ""
+Note = ""
+
+Class 189
+Name = ""
+Description = ""
+Note = ""
+
+Class 190
+Name = ""
+Description = ""
+Note = ""
+
+Class 191
+Name = "＝＝プティン＝＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Class 192
+Name = "ホブゴブリン"
+Description = ""
+Note = "<転職許可 17>\r\n<職業ランク 1>\r\n<職業説明>働き者で家の手伝いをしてくれる妖精の一種</職業説明>\r\n"
+
+Class 193
+Name = "物理特化型"
+Description = ""
+Note = "<転職許可 17>\r\n<職業ランク 1>\r\n<職業説明>物理面に特化されたスタイル。魔法に滅茶弱い</職業説明>\r\n"
+
+Class 194
+Name = "重量型"
+Description = ""
+Note = "<転職許可 17>\r\n<職業ランク 1>\r\n<職業説明>スピードを犠牲にする事で物理面に特化したスタイル</職業説明>\r\n"
+
+Class 195
+Name = "ホブゴブリン"
+Description = ""
+Note = "<転職許可 17>\r\n<職業説明>働き者で家の手伝いをしてくれる妖精の一種</職業説明>\r\n"
+
+Class 196
+Name = "------クロウ------------"
+Description = ""
+Note = ""
+
+Class 197
+Name = "魔剣スタイル"
+Description = ""
+Note = ""
+
+Class 198
+Name = "物理スタイル"
+Description = ""
+Note = ""
+
+Class 199
+Name = "魔法スタイル"
+Description = ""
+Note = ""
+
+Class 200
+Name = ""
+Description = ""
+Note = ""
+

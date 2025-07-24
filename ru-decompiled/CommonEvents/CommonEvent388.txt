@@ -1,0 +1,5 @@
+CommonEvent 388
+Name = "☆エッチな本"
+
+  ControlVariables([21, 21, 1, 0, 5])
+  Empty([])

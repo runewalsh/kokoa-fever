@@ -1,0 +1,39 @@
+Display Name = "武具屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["武具屋の店主？"])
+    ShowText(["「いらっしゃいませ！」"])
+    ShopProcessing([1, 230, 0, 0, true])
+    ShopItem([1, 231, 0, 0])
+    ShopItem([1, 232, 0, 0])
+    ShopItem([2, 220, 0, 0])
+    ShopItem([2, 221, 0, 0])
+    ShopItem([2, 222, 0, 0])
+    ShopItem([2, 223, 0, 0])
+    ShopItem([2, 224, 0, 0])
+    ShopItem([2, 225, 0, 0])
+    ShopItem([2, 226, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 86, 34, 27, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["とある冒険者"])
+    ShowText(["「ここの武具屋はマニアックな品揃えだな・・・」"])
+    Empty([])

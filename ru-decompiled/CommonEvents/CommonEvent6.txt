@@ -1,0 +1,16 @@
+CommonEvent 6
+Name = "やり直しルート"
+
+  Comment(["３　万能草をとりに行く　を聞く"])
+  CommentMore(["４　万能草をとりに行く"])
+  Comment(["５　ギルドに万能茸を届ける"])
+  CommentMore(["６"])
+  Comment(["１１　売春宿へ"])
+  Comment(["１９　紋章印店へ"])
+  Comment(["２１　オークの洞窟へ"])
+  Comment(["３０　オーク討伐完了"])
+  Comment(["３５　アジトへ"])
+  CommentMore(["４０　本部行こう"])
+  Comment(["４４　ベルデイベント終了"])
+  Comment(["５０　アジトイベント終了"])
+  Empty([])

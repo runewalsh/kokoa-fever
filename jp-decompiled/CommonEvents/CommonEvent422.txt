@@ -1,0 +1,20 @@
+CommonEvent 422
+Name = "☆ブータ"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 106, 0, 0, 0])
+      CallCommonEvent([423])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([424])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([425])
+  Empty([])

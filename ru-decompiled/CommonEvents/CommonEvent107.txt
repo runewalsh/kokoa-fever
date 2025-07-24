@@ -1,0 +1,13 @@
+CommonEvent 107
+Name = "☆☆ここな立ち絵"
+
+  ConditionalBranch([0, 17, 0])
+    CallCommonEvent([106])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([100])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

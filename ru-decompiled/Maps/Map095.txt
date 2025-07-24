@@ -1,0 +1,34 @@
+Display Name = "信長服店２階"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 94, 4, 15, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 94, 3, 15, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["無口なバイト"])
+    ShowText(["「・・・。」"])
+    ShopProcessing([2, 736, 0, 0, true])
+    ShopItem([2, 737, 0, 0])
+    ShopItem([2, 738, 0, 0])
+    ShopItem([2, 739, 0, 0])
+    ShopItem([2, 740, 0, 0])
+    ShopItem([2, 741, 0, 0])
+    Empty([])

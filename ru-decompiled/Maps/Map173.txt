@@ -1,0 +1,55 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 53, 25, 11, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 53, 29, 11, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["武器屋の少し疲れた感じがする店主"])
+    ShowText(["「こういう場所とは言え、武器が必要なこともあるんですよ・・ははは」"])
+    ShopProcessing([1, 145, 0, 0, true])
+    ShopItem([1, 146, 0, 0])
+    ShopItem([1, 147, 0, 0])
+    ShopItem([1, 148, 0, 0])
+    ShopItem([1, 149, 0, 0])
+    ShopItem([1, 150, 0, 0])
+    ShopItem([1, 151, 0, 0])
+    ShopItem([1, 152, 0, 0])
+    ShopItem([1, 153, 0, 0])
+    ShopItem([1, 154, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["デブ"])
+    ShowText(["「ぶへへｗｗｗｗ」"])
+    ShopProcessing([0, 59, 0, 0, true])
+    ShopItem([0, 69, 0, 0])
+    ShopItem([0, 74, 0, 0])
+    ShopItem([0, 75, 0, 0])
+    ShopItem([2, 731, 0, 0])
+    ShopItem([2, 732, 0, 0])
+    ShopItem([2, 733, 0, 0])
+    ShopItem([2, 734, 0, 0])
+    Empty([])

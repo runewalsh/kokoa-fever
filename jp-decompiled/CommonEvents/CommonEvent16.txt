@@ -1,0 +1,13 @@
+CommonEvent 16
+Name = "　ちびキャラ変更"
+
+  ConditionalBranch([1, 198, 0, 0, 0])
+    ChangeActorGraphic([12, "ココア１", 0, "", 4])
+    Empty([])
+
+  Else([])
+    ChangeActorGraphic([12, "ココア１", 1, "", 4])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

@@ -1,0 +1,20 @@
+CommonEvent 126
+Name = "１６ニンフ"
+
+  ConditionalBranch([1, 200, 0, 1, 1])
+    ControlVariables([217, 217, 1, 1, 200])
+    ControlVariables([200, 200, 0, 0, 0])
+    ConditionalBranch([1, 217, 0, 50, 1])
+      ChangeEquipment([15, 3, 0])
+      ChangeArmor([816, 1, 0, 1, false])
+      ControlVariables([217, 217, 0, 0, 0])
+      ControlVariables([201, 201, 0, 0, 0])
+      PlaySE(["RPG::SE(@name=\"Thunder3\", @pitch=130, @volume=80)"])
+      CallCommonEvent([99])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

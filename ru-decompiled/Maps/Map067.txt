@@ -1,0 +1,173 @@
+Display Name = "カリッカの森７"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 66, 38, 28, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 10
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 244, 20, 43, 0, 0])
+    Empty([])

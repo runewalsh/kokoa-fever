@@ -1,0 +1,30 @@
+CommonEvent 396
+Name = "☆エロ後能力アップ処理"
+
+  ConditionalBranch([1, 26, 0, 1, 0])
+    ConditionalBranch([1, 4, 0, 1, 2])
+      CallCommonEvent([395])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 4, 0, 2, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 4, 0, 3, 0])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

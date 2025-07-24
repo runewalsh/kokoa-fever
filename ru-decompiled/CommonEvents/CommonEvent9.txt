@@ -1,0 +1,28 @@
+CommonEvent 9
+Name = "☆戦闘立ち絵受付"
+
+  ConditionalBranch([0, 21, 0])
+    CallCommonEvent([26])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([0, 22, 0])
+      CallCommonEvent([106])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([0, 24, 0])
+        CallCommonEvent([91])
+        Empty([])
+
+      Else([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

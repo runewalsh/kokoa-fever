@@ -1,0 +1,5 @@
+CommonEvent 387
+Name = "☆情報誌"
+
+  ControlVariables([28, 28, 1, 0, 5])
+  Empty([])

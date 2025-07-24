@@ -1,0 +1,21 @@
+CommonEvent 994
+Name = "　スイッチ初期化"
+
+  ControlSwitches([70, 70, 1])
+  ControlSwitches([101, 116, 1])
+  ControlSwitches([73, 73, 1])
+  ControlSwitches([72, 72, 1])
+  ControlSwitches([21, 21, 1])
+  ControlSwitches([22, 22, 1])
+  ControlSwitches([23, 23, 1])
+  ControlSwitches([24, 24, 1])
+  ControlSwitches([82, 93, 1])
+  ControlSwitches([63, 63, 1])
+  ControlSwitches([64, 64, 1])
+  ControlSwitches([65, 65, 1])
+  ControlSwitches([108, 108, 1])
+  ControlSwitches([1, 1, 1])
+  ControlSwitches([69, 69, 1])
+  ControlSwitches([109, 109, 1])
+  ControlSwitches([119, 119, 1])
+  Empty([])

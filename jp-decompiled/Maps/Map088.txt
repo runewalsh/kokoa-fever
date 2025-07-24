@@ -1,0 +1,3 @@
+Display Name = "カルボ鉱山"
+Parallax Name = ""
+Note = ""

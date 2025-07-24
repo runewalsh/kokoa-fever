@@ -1,0 +1,116 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 53, 10, 36, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ConditionalBranch([6, -1, 6])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["落ちぶれた冒険者"])
+      ShowText(["「俺はいつかきっと一流冒険者になって返り咲いてやるんだ・・"])
+      ShowText(["　へっ・・・へへ・・・・へへへっ・・・」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["落ちぶれた冒険者"])
+      ShowText(["「俺はいつかきっと一流冒険者になって返り咲いてやるんだ・・"])
+      ShowText(["　へっ・・・へへ・・・・へへへっ・・・」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["寂れた冒険者"])
+      ShowText(["「あの隅にいる緑髪の青年がおるじゃろ・・。"])
+      ShowText(["　あいつも昔は冒険者だったんじゃが今は一日中あそこであぁしておる"])
+      ShowText(["　ワシも人のことを言えたもんじゃないが・・・」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ConditionalBranch([6, -1, 4])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["寂れた冒険者"])
+      ShowText(["「あの隅にいる緑髪の青年がおるじゃろ・・。"])
+      ShowText(["　あいつも昔は冒険者だったんじゃが今は一日中あそこであぁしておる"])
+      ShowText(["　ワシも人のことを言えたもんじゃないが・・・」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ConditionalBranch([6, -1, 6])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["寂れた冒険者"])
+      ShowText(["「あの隅にいる緑髪の青年がおるじゃろ・・。"])
+      ShowText(["　あいつも昔は冒険者だったんじゃが今は一日中あそこであぁしておる"])
+      ShowText(["　ワシも人のことを言えたもんじゃないが・・・」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["男性"])
+    ShowText(["「ちっ・・剣の腕なら覚えがあるのに魔法が使えねーってだけで"])
+    ShowText(["　依頼を断られた。チッ」"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["おじいちゃん"])
+    ShowText(["「ここは夢破れた者の行き着く先じゃ・・・"])
+    ShowText(["　お主もそうなのかえ？」"])
+    Empty([])

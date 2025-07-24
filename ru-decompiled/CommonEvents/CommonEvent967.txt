@@ -1,0 +1,5 @@
+CommonEvent 967
+Name = "ストライカーの日記"
+
+  ControlSwitches([212, 212, 0])
+  Empty([])

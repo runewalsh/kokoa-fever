@@ -1,0 +1,6 @@
+CommonEvent 26
+Name = "戦闘立ち絵描写ココア１"
+
+  CallCommonEvent([11])
+  CallCommonEvent([27])
+  Empty([])

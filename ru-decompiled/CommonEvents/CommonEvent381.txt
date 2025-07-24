@@ -1,0 +1,5 @@
+CommonEvent 381
+Name = "☆経験値100"
+
+  ChangeEXP([0, 0, 0, 0, 100, false])
+  Empty([])

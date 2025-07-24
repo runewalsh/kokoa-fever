@@ -1,0 +1,5 @@
+CommonEvent 962
+Name = "吟遊詩人の日記"
+
+  ControlSwitches([207, 207, 0])
+  Empty([])

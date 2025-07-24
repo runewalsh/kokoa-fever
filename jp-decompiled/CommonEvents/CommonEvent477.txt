@@ -1,0 +1,18 @@
+CommonEvent 477
+Name = "　後処理"
+
+  FadeoutScreen([])
+  ErasePicture([1])
+  ChangeMP([0, 0, 0, 0, 5000])
+  Wait([60])
+  ControlVariables([115, 115, 1, 0, 1])
+  SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+  Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+  FadeinScreen([])
+  ShotBalloonIcon([-1, 1, true])
+  ReplayBGM([])
+  Wait([30])
+  CallCommonEvent([372])
+  CallCommonEvent([459])
+  CallCommonEvent([24])
+  Empty([])

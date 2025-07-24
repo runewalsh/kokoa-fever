@@ -1,0 +1,12 @@
+CommonEvent 36
+Name = "　精子⇒子供"
+
+  ConditionalBranch([0, 301, 0])
+    ControlSwitches([302, 302, 0])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

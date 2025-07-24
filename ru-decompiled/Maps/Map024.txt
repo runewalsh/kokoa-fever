@@ -1,0 +1,75 @@
+Display Name = "雑貨屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["雑貨屋のお姉さん"])
+    ShowText(["「いらっしゃいませどうぞ～」"])
+    ShopProcessing([0, 57, 0, 0, true])
+    ShopItem([0, 58, 0, 0])
+    ShopItem([0, 59, 0, 0])
+    ShopItem([0, 60, 0, 0])
+    ShopItem([0, 61, 0, 0])
+    ShopItem([0, 62, 0, 0])
+    ShopItem([0, 67, 0, 0])
+    ShopItem([0, 68, 0, 0])
+    ShopItem([0, 69, 0, 0])
+    ShopItem([0, 70, 0, 0])
+    ShopItem([0, 71, 0, 0])
+    ShopItem([0, 72, 0, 0])
+    ShopItem([0, 73, 0, 0])
+    ShopItem([0, 74, 0, 0])
+    ShopItem([0, 75, 0, 0])
+    ShopItem([0, 76, 0, 0])
+    ShopItem([0, 77, 0, 0])
+    ShopItem([0, 78, 0, 0])
+    ShopItem([0, 79, 0, 0])
+    ShopItem([0, 80, 0, 0])
+    ShopItem([0, 81, 0, 0])
+    ShopItem([0, 82, 0, 0])
+    ShopItem([0, 83, 0, 0])
+    ShopItem([0, 84, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 4, 44, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["淫乱ぴんく"])
+    ShowText(["「このぬいぐるみ、か・わ・いぃ♥」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["イケメン"])
+    ShowText(["「・・・・。」"])
+    ShowText(["(イケメンは寡黙なのだ)"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["普通の青年"])
+    ShowText(["「あのピンク髪の子"])
+    ShowText(["　大きな声でカワイイアピールしてるけど、きっと僕に対して"])
+    ShowText(["　やってるんだ」"])
+    ShotBalloonIcon([-1, 2, false])
+    Empty([])

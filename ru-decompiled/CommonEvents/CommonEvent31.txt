@@ -1,0 +1,5 @@
+CommonEvent 31
+Name = "☆胎児成長薬"
+
+  ControlVariables([27, 27, 1, 0, 500])
+  Empty([])

@@ -1,0 +1,248 @@
+CommonEvent 760
+Name = "☆特訓用１"
+
+  FadeoutScreen([])
+  ErasePicture([11])
+  Wait([60])
+  Wait([60])
+  ConditionalBranch([4, 12, 3, 154])
+    ConditionalBranch([1, 223, 0, 0, 0])
+      ControlVariables([223, 223, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 160])
+    ConditionalBranch([1, 225, 0, 0, 0])
+      ControlVariables([225, 225, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 166])
+    ConditionalBranch([1, 227, 0, 0, 0])
+      ControlVariables([227, 227, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 169])
+    ControlVariables([228, 228, 0, 0, 1])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 172])
+    ConditionalBranch([1, 229, 0, 0, 0])
+      ControlVariables([229, 229, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 175])
+    ConditionalBranch([1, 230, 0, 0, 0])
+      ControlVariables([230, 230, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 178])
+    ConditionalBranch([1, 231, 0, 0, 0])
+      ControlVariables([231, 231, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 181])
+    ConditionalBranch([1, 232, 0, 0, 0])
+      ControlVariables([232, 232, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 184])
+    ConditionalBranch([1, 233, 0, 0, 0])
+      ControlVariables([233, 233, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 187])
+    ConditionalBranch([1, 234, 0, 0, 0])
+      ControlVariables([234, 234, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 202])
+    ConditionalBranch([1, 235, 0, 0, 0])
+      ControlVariables([235, 235, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 205])
+    ConditionalBranch([1, 236, 0, 0, 0])
+      ControlVariables([236, 236, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 208])
+    ConditionalBranch([1, 237, 0, 0, 0])
+      ControlVariables([237, 237, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 211])
+    ConditionalBranch([1, 238, 0, 0, 0])
+      ControlVariables([238, 238, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 223])
+    ConditionalBranch([1, 239, 0, 0, 0])
+      ControlVariables([239, 239, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 285])
+    ConditionalBranch([1, 242, 0, 0, 0])
+      ControlVariables([242, 242, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 288])
+    ConditionalBranch([1, 243, 0, 0, 0])
+      ControlVariables([243, 243, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 291])
+    ConditionalBranch([1, 244, 0, 0, 0])
+      ControlVariables([244, 244, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 318])
+    ConditionalBranch([1, 246, 0, 0, 0])
+      ControlVariables([246, 246, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 321])
+    ConditionalBranch([1, 247, 0, 0, 0])
+      ControlVariables([247, 247, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 327])
+    ConditionalBranch([1, 249, 0, 0, 0])
+      ControlVariables([249, 249, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 252])
+    ConditionalBranch([1, 250, 0, 0, 0])
+      ControlVariables([250, 250, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 255])
+    ConditionalBranch([1, 251, 0, 0, 0])
+      ControlVariables([251, 251, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 258])
+    ConditionalBranch([1, 252, 0, 0, 0])
+      ControlVariables([252, 252, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 356])
+    ConditionalBranch([1, 254, 0, 0, 0])
+      ControlVariables([254, 254, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 133])
+    ConditionalBranch([1, 256, 0, 0, 0])
+      ControlVariables([256, 256, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 12, 3, 271])
+    ConditionalBranch([1, 257, 0, 0, 0])
+      ControlVariables([257, 257, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  FadeinScreen([])
+  Empty([])

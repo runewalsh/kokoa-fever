@@ -1,0 +1,5 @@
+CommonEvent 24
+Name = "エロ後キャッシュ削除"
+
+  Script(["clear_pic_cache"])
+  Empty([])

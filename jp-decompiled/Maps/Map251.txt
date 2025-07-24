@@ -1,0 +1,271 @@
+Display Name = "レムリア遺跡１"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「ふっふ～ん♪」"])
+    ControlSwitches([43, 43, 1])
+    ControlSwitches([46, 46, 0])
+    ControlSwitches([47, 47, 1])
+    ControlSwitches([48, 48, 1])
+    ControlSwitches([49, 49, 1])
+    Script(["SceneManager.call(Scene_JobChange)"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowAnimation([-1, 145, false])
+    Wait([60])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    Wait([60])
+    Wait([60])
+    FadeoutScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    TransferPlayer([0, 250, 13, 21, 2, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネコ耳の女性"])
+    ShowText(["「にゃにゃ♪いらっしゃいにゃん♪」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「・・・・ここお店なの？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネコ耳の店員"])
+    ShowText(["「そうにゃ！"])
+    ShowText(["　この遺跡は全国各地の転移魔方陣から鍛錬の為に来る冒険者が"])
+    ShowText(["　多いにゃ」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネコ耳の店員"])
+    ShowText(["「客が絶えないから商売安定にゃ♪」"])
+    ShotBalloonIcon([0, 3, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「へー・・・」"])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ネコ耳の店員"])
+    ShowText(["「泊まりにゃか？それともアイテムを見るにゃ？」"])
+    ShowChoices([["泊まる", "アイテムを見る", "やっぱやーめた"], 0])
+    When([0, "泊まる"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ネコ耳の店員"])
+      ShowText(["「にゃにゃ♪"])
+      ShowText(["　同じネコ耳同士にゃ特別に10Yenでいいにゃ♪」"])
+      ConditionalBranch([7, 10, 0])
+        FadeoutScreen([])
+        PlayME(["RPG::ME(@name=\"SC_Inn1\", @pitch=100, @volume=100)"])
+        Wait([300])
+        RecoverAll([0, 0])
+        TransferPlayer([0, 251, 14, 11, 2, 0])
+        FadeinScreen([])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["ネコ耳の店員"])
+        ShowText(["「にゃ～・・・お金が足りないにゃぁ・・・・"])
+        ShowText(["　もっと頑張るにゃ」"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "アイテムを見る"])
+      ShopProcessing([0, 60, 0, 0, true])
+      ShopItem([0, 61, 0, 0])
+      ShopItem([0, 70, 0, 0])
+      ShopItem([0, 71, 0, 0])
+      ShopItem([0, 74, 0, 0])
+      ShopItem([0, 78, 0, 0])
+      ShopItem([0, 79, 0, 0])
+      ShopItem([1, 122, 0, 0])
+      ShopItem([1, 123, 0, 0])
+      ShopItem([1, 124, 0, 0])
+      ShopItem([1, 125, 0, 0])
+      ShopItem([1, 126, 0, 0])
+      ShopItem([1, 133, 0, 0])
+      ShopItem([1, 134, 0, 0])
+      ShopItem([1, 135, 0, 0])
+      ShopItem([1, 136, 0, 0])
+      ShopItem([1, 137, 0, 0])
+      ShopItem([2, 801, 0, 0])
+      ShopItem([2, 803, 0, 0])
+      ShopItem([2, 805, 0, 0])
+      ShopItem([2, 807, 0, 0])
+      ShopItem([2, 809, 0, 0])
+      ShopItem([2, 811, 0, 0])
+      ShopItem([2, 813, 0, 0])
+      ShopItem([2, 903, 0, 0])
+      ShopItem([2, 904, 0, 0])
+      ShopItem([2, 905, 0, 0])
+      Empty([])
+
+    When([2, "やっぱやーめた"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ネコ耳の店員"])
+      ShowText(["「そうにゃすか・・・またのご来店をお待ちしているにゃ」"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フードの男"])
+    ShowText(["「素材を買い取ろうか？」"])
+    ShowChoices([["素材を売る", "今はいい", "襲いかかる"], 0])
+    When([0, "素材を売る"])
+      Script(["only_sell_shop(20)"])
+      Empty([])
+
+    When([1, "今はいい"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["フードの男"])
+      ShowText(["「そうか」"])
+      Empty([])
+
+    When([2, "襲いかかる"])
+      ControlSwitches([1, 1, 0])
+      BattleProcessing([0, 167, true, true])
+      IfWin([])
+        ControlSelfSwitch(["A", 0])
+        Empty([])
+      IfEscape([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["フードの男"])
+        ShowText(["「逃げるのか・・・それもいいだろう。"])
+        ShowText(["　二度と馬鹿なマネはしない事だ」"])
+        Empty([])
+      IfLose([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["フードの男"])
+        ShowText(["「これで分かったか？馬鹿なマネはやめろよな」"])
+        Empty([])
+      BattleProcessingEnd([])
+      ControlSwitches([17, 17, 1])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 252, 10, 1, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 252, 11, 1, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["銀髪の青年"])
+    ShowText(["「同じ魔物でも場所が違えば強さが違う事だってある"])
+    ShowText(["　弱いと思ってた敵が思いの他強かったりしてビビる事もあるんだよな」"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["長髪の魔剣士"])
+    ShowText(["「新しい必殺技の開発にダンジョンに潜りに来たぜ"])
+    ShowText(["　今の必殺技も悪くないが１つだけってのもな」"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowAnimation([-1, 145, false])
+    Wait([60])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    Wait([60])
+    Wait([60])
+    FadeoutScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    TransferPlayer([0, 253, 15, 6, 2, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowAnimation([-1, 145, false])
+    Wait([60])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    Wait([60])
+    Wait([60])
+    FadeoutScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    TransferPlayer([0, 256, 10, 7, 2, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([915, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["★星に願いをを手に入れた！"])
+    ControlSwitches([982, 982, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])

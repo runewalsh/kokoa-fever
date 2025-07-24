@@ -1,0 +1,43 @@
+CommonEvent 200
+Name = "ココア奥義"
+
+  Comment(["==行動前イベント:使用前=="])
+  ShowPicture([15, "カットイン：ココア", 0, 0, 0, 0, 100, 100, 255, 0])
+  ControlVariables([24, 24, 0, 2, 0, 3])
+  FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=119.0)", 60, false])
+  PlaySE(["RPG::SE(@name=\"Ice4\", @pitch=115, @volume=90)"])
+  ConditionalBranch([1, 24, 0, 0, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「ココア・・・頑張る！」"])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 24, 0, 1, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ココア"])
+      ShowText(["「・・・とっておき！」"])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 2, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["ココア"])
+        ShowText(["「これで決める！」"])
+        Empty([])
+
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["ココア"])
+        ShowText(["「負けない・・・！」"])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ErasePicture([15])
+  Empty([])

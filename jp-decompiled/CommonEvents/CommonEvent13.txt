@@ -1,0 +1,13 @@
+CommonEvent 13
+Name = "　装備情報取得"
+
+  Comment(["199に0を格納"])
+  CommentMore(["もしも17番が997の防具を装備していたら"])
+  CommentMore(["199は1を格納する"])
+  Script(["$game_variables[198] = 0"])
+  ScriptMore([" id_arr = $game_actors[12].armors.collect\\"])
+  ScriptMore([" {|obj| $game_party.turn_item_id(obj.id)}"])
+  ScriptMore([" $game_variables[198] =                     "])
+  ScriptMore(["1 if id_arr.include?(63)"])
+  ScriptMore([" "])
+  Empty([])

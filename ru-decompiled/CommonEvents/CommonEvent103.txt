@@ -1,0 +1,14 @@
+CommonEvent 103
+Name = "　立ち絵一時消し"
+
+  ControlVariables([62, 62, 0, 3, 5, -1, 3])
+  ConditionalBranch([1, 62, 0, 420, 1])
+    ControlSwitches([25, 25, 0])
+    Empty([])
+
+  Else([])
+    ControlSwitches([25, 25, 1])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

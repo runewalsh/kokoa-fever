@@ -1,0 +1,413 @@
+Display Name = "スライムの森４"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Script(["rx_self_sw(113,"])
+    ScriptMore(["[8,9,10,11,12,13,14,15,16,17,18,19,20,21,"])
+    ScriptMore(["22,23], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 112, 1, 5, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Script(["rx_self_sw(113,"])
+    ScriptMore(["[8,9,10,11,12,13,14,15,16,17,18,19,20,21,"])
+    ScriptMore(["22,23], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 112, 1, 6, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Script(["rx_self_sw(113,"])
+    ScriptMore(["[8,9,10,11,12,13,14,15,16,17,18,19,20,21,"])
+    ScriptMore(["22,23], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 112, 1, 22, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Script(["rx_self_sw(113,"])
+    ScriptMore(["[8,9,10,11,12,13,14,15,16,17,18,19,20,21,"])
+    ScriptMore(["22,23], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 112, 1, 23, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Script(["rx_self_sw(113,"])
+    ScriptMore(["[8,9,10,11,12,13,14,15,16,17,18,19,20,21,"])
+    ScriptMore(["22,23], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 114, 15, 28, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Script(["rx_self_sw(113,"])
+    ScriptMore(["[8,9,10,11,12,13,14,15,16,17,18,19,20,21,"])
+    ScriptMore(["22,23], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 114, 16, 28, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeArmor([514, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["小さい靴を手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 10
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 16
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 17
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 18
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 19
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 20
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 21
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 22
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 23
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    ControlSwitches([1, 1, 0])
+    ChangeBattleEndME(["RPG::ME(@name=\"\", @pitch=100, @volume=80)"])
+    ControlVariables([24, 24, 0, 2, 0, 170])
+    ConditionalBranch([1, 24, 0, 30, 2])
+      BattleProcessing([0, 73, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 0, 1])
+        ControlVariables([29, 29, 1, 0, 1])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([435])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 50, 2])
+        BattleProcessing([0, 74, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 1, 2])
+          ControlVariables([29, 29, 1, 2, 1, 2])
+          Empty([])
+        IfEscape([])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([435])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 24, 0, 70, 2])
+          BattleProcessing([0, 75, true, true])
+          IfWin([])
+            ControlVariables([30, 30, 1, 2, 1, 2])
+            ControlVariables([29, 29, 1, 2, 1, 2])
+            Empty([])
+          IfEscape([])
+            Empty([])
+          IfLose([])
+            CallCommonEvent([435])
+            Empty([])
+          BattleProcessingEnd([])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 24, 0, 100, 2])
+            BattleProcessing([0, 76, true, true])
+            IfWin([])
+              ControlVariables([30, 30, 1, 2, 0, 1])
+              ControlVariables([29, 29, 1, 2, 0, 1])
+              Empty([])
+            IfEscape([])
+              Empty([])
+            IfLose([])
+              CallCommonEvent([440])
+              Empty([])
+            BattleProcessingEnd([])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 24, 0, 125, 2])
+              BattleProcessing([0, 77, true, true])
+              IfWin([])
+                ControlVariables([29, 29, 1, 2, 0, 2])
+                ControlVariables([30, 30, 1, 2, 0, 2])
+                Empty([])
+              IfEscape([])
+                Empty([])
+              IfLose([])
+                CallCommonEvent([440])
+                Empty([])
+              BattleProcessingEnd([])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 24, 0, 150, 2])
+                BattleProcessing([0, 78, true, true])
+                IfWin([])
+                  ControlVariables([29, 29, 1, 2, 1, 2])
+                  ControlVariables([30, 30, 1, 2, 1, 2])
+                  Empty([])
+                IfEscape([])
+                  Empty([])
+                IfLose([])
+                  CallCommonEvent([440])
+                  Empty([])
+                BattleProcessingEnd([])
+                Empty([])
+              Else([])
+                ConditionalBranch([1, 24, 0, 165, 2])
+                  BattleProcessing([0, 79, true, true])
+                  IfWin([])
+                    ControlVariables([29, 29, 1, 2, 1, 2])
+                    ControlVariables([30, 30, 1, 2, 1, 2])
+                    Empty([])
+                  IfEscape([])
+                    Empty([])
+                  IfLose([])
+                    CallCommonEvent([440])
+                    Empty([])
+                  BattleProcessingEnd([])
+                  Empty([])
+                Else([])
+                  BattleProcessing([0, 80, true, true])
+                  IfWin([])
+                    ControlVariables([29, 29, 1, 2, 0, 4])
+                    ControlVariables([30, 30, 1, 2, 0, 4])
+                    Empty([])
+                  IfEscape([])
+                    Empty([])
+                  IfLose([])
+                    CallCommonEvent([435])
+                    Empty([])
+                  BattleProcessingEnd([])
+                  Empty([])
+                BranchEnd([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])

@@ -1,0 +1,837 @@
+MapInfo 1
+Name = "フィールドイメージ"
+
+MapInfo 2
+Name = "実験場"
+
+MapInfo 3
+Name = "街外れ東"
+
+MapInfo 4
+Name = "？？？"
+
+MapInfo 5
+Name = "クロウの家"
+
+MapInfo 6
+Name = "ココアの部屋"
+
+MapInfo 7
+Name = "小屋"
+
+MapInfo 8
+Name = "要塞都市ハーリス"
+
+MapInfo 9
+Name = "西（風俗街"
+
+MapInfo 10
+Name = "東（住宅街"
+
+MapInfo 11
+Name = "中央"
+
+MapInfo 12
+Name = "魔法協会"
+
+MapInfo 13
+Name = "学区"
+
+MapInfo 14
+Name = "魔法協会"
+
+MapInfo 15
+Name = "ここなの部屋"
+
+MapInfo 16
+Name = "風呂場"
+
+MapInfo 17
+Name = "オープニング"
+
+MapInfo 18
+Name = "静かなる森１"
+
+MapInfo 19
+Name = "武器屋"
+
+MapInfo 20
+Name = "防具屋"
+
+MapInfo 21
+Name = "鍛冶屋"
+
+MapInfo 22
+Name = "靴屋"
+
+MapInfo 23
+Name = "アクセサリー店"
+
+MapInfo 24
+Name = "雑貨屋"
+
+MapInfo 25
+Name = "魔法商店"
+
+MapInfo 26
+Name = "紋章店"
+
+MapInfo 27
+Name = "換金所"
+
+MapInfo 28
+Name = "ギルド"
+
+MapInfo 29
+Name = "ギルド２階"
+
+MapInfo 30
+Name = "ハーリス街道１"
+
+MapInfo 31
+Name = "静かなる森２－１"
+
+MapInfo 32
+Name = "静かなる森２－２"
+
+MapInfo 33
+Name = "静かなる森３"
+
+MapInfo 34
+Name = "ハーリス街道２"
+
+MapInfo 35
+Name = "静かなる森４"
+
+MapInfo 36
+Name = "静かなる森４－２"
+
+MapInfo 37
+Name = "静かなる森４－１"
+
+MapInfo 38
+Name = "ハーリス街道３"
+
+MapInfo 39
+Name = "ハーリス山道１"
+
+MapInfo 40
+Name = "ハーリス山道２"
+
+MapInfo 41
+Name = "ハーリス山道３"
+
+MapInfo 42
+Name = "ハーリス山道４－１"
+
+MapInfo 43
+Name = "ハーリス山道４－２"
+
+MapInfo 44
+Name = "ハーリス山　山頂"
+
+MapInfo 45
+Name = "ハーリス山道５"
+
+MapInfo 46
+Name = "カリッカの森１"
+
+MapInfo 47
+Name = "ハーリス街道４"
+
+MapInfo 48
+Name = "ハーリス街道５"
+
+MapInfo 49
+Name = "ハーリス街道５－１"
+
+MapInfo 50
+Name = "街・村"
+
+MapInfo 51
+Name = "ダンジョン"
+
+MapInfo 52
+Name = "ハーリス街道５－２"
+
+MapInfo 53
+Name = "スラム"
+
+MapInfo 54
+Name = "ラウエル平原（待ち伏せ"
+
+MapInfo 55
+Name = "ラウエル平原１"
+
+MapInfo 56
+Name = "ラウエル平原２"
+
+MapInfo 57
+Name = "フィールドMAP"
+
+MapInfo 58
+Name = "カリッカの森２"
+
+MapInfo 59
+Name = "カリッカの森"
+
+MapInfo 60
+Name = "カリッカの森２－１"
+
+MapInfo 61
+Name = "ハーリス街道スラム前"
+
+MapInfo 62
+Name = "カリッカの森３"
+
+MapInfo 63
+Name = "カリッカの森４－１"
+
+MapInfo 64
+Name = "カリッカの森５"
+
+MapInfo 65
+Name = "カリッカの森４－２"
+
+MapInfo 66
+Name = "カリッカの森６"
+
+MapInfo 67
+Name = "カリッカの森７"
+
+MapInfo 68
+Name = "ラウエル平原３"
+
+MapInfo 69
+Name = "ラウエル平原３－１"
+
+MapInfo 70
+Name = "ラウエル平原４－１"
+
+MapInfo 71
+Name = "ラウエル平原４"
+
+MapInfo 72
+Name = "ラウエル平原５"
+
+MapInfo 73
+Name = "ラウエル平原５－１"
+
+MapInfo 74
+Name = "ラウエル平原５－２"
+
+MapInfo 75
+Name = "ラウエル平原５－３"
+
+MapInfo 76
+Name = "レクタン"
+
+MapInfo 77
+Name = "宿屋"
+
+MapInfo 78
+Name = "宿屋２階"
+
+MapInfo 79
+Name = "宿屋２階"
+
+MapInfo 80
+Name = "銀行"
+
+MapInfo 81
+Name = "食事処"
+
+MapInfo 82
+Name = "教会"
+
+MapInfo 83
+Name = "孤児院"
+
+MapInfo 84
+Name = "BP界"
+
+MapInfo 85
+Name = "ラウエル平原６"
+
+MapInfo 86
+Name = "鉱山村カルボ"
+
+MapInfo 87
+Name = "鉱山の入口"
+
+MapInfo 88
+Name = "カルボ鉱山"
+
+MapInfo 89
+Name = "カルボ鉱山１"
+
+MapInfo 90
+Name = "カルボ鉱山２"
+
+MapInfo 91
+Name = "カルボ鉱山３"
+
+MapInfo 92
+Name = "カルボ鉱山４"
+
+MapInfo 93
+Name = ""
+
+MapInfo 94
+Name = "信長服店"
+
+MapInfo 95
+Name = "信長服店２階"
+
+MapInfo 96
+Name = "雑貨店"
+
+MapInfo 97
+Name = "魔具店"
+
+MapInfo 98
+Name = ""
+
+MapInfo 99
+Name = "宿屋"
+
+MapInfo 100
+Name = "道具屋"
+
+MapInfo 101
+Name = "装飾品店"
+
+MapInfo 102
+Name = "酒場"
+
+MapInfo 103
+Name = "武具屋"
+
+MapInfo 104
+Name = "村長の家：1F"
+
+MapInfo 105
+Name = "村長の家：2F"
+
+MapInfo 106
+Name = "民家１"
+
+MapInfo 107
+Name = "民家２"
+
+MapInfo 108
+Name = "転送神殿"
+
+MapInfo 109
+Name = "スライムの森"
+
+MapInfo 110
+Name = "スライムの森１"
+
+MapInfo 111
+Name = "スライムの森２"
+
+MapInfo 112
+Name = "スライムの森３"
+
+MapInfo 113
+Name = "スライムの森４"
+
+MapInfo 114
+Name = "スライムの森５"
+
+MapInfo 115
+Name = "スライムの森６"
+
+MapInfo 116
+Name = "スライムの森７"
+
+MapInfo 117
+Name = "闘技場"
+
+MapInfo 118
+Name = "決闘場"
+
+MapInfo 119
+Name = "闘技場２階"
+
+MapInfo 120
+Name = "ハーリス街道"
+
+MapInfo 121
+Name = "メリオス街道"
+
+MapInfo 122
+Name = "メリオス街道１"
+
+MapInfo 123
+Name = "メリオス街道２"
+
+MapInfo 124
+Name = "トリア森道"
+
+MapInfo 125
+Name = "巨大滝"
+
+MapInfo 126
+Name = "トリア森道１"
+
+MapInfo 127
+Name = "トリア森道２"
+
+MapInfo 128
+Name = "迷宮の入口2"
+
+MapInfo 129
+Name = "トリア森道３"
+
+MapInfo 130
+Name = "山奥の村チミテール"
+
+MapInfo 131
+Name = "キノコの森"
+
+MapInfo 132
+Name = "キノコの森１"
+
+MapInfo 133
+Name = "キノコの森２"
+
+MapInfo 134
+Name = "キノコの森２－１"
+
+MapInfo 135
+Name = "キノコの森３－１"
+
+MapInfo 136
+Name = "キノコの森１(２)"
+
+MapInfo 137
+Name = "キノコの森２－２"
+
+MapInfo 138
+Name = "キノコの森３－２"
+
+MapInfo 139
+Name = "キノコの森３－３"
+
+MapInfo 140
+Name = "キノコの森４－１"
+
+MapInfo 141
+Name = "キノコの森４－２"
+
+MapInfo 142
+Name = "キノコの森４－３"
+
+MapInfo 143
+Name = "村の民家A"
+
+MapInfo 144
+Name = "村の民家B"
+
+MapInfo 145
+Name = "村の民家C：1F"
+
+MapInfo 146
+Name = "転送の間"
+
+MapInfo 147
+Name = "アイテムの店"
+
+MapInfo 148
+Name = "宿屋：1F"
+
+MapInfo 149
+Name = "教会"
+
+MapInfo 150
+Name = "村長の家：1F"
+
+MapInfo 151
+Name = "夢"
+
+MapInfo 152
+Name = "夢"
+
+MapInfo 153
+Name = "夢１階"
+
+MapInfo 154
+Name = "夢３階"
+
+MapInfo 155
+Name = "夢２階"
+
+MapInfo 156
+Name = "201"
+
+MapInfo 157
+Name = "101"
+
+MapInfo 158
+Name = "102"
+
+MapInfo 159
+Name = "103"
+
+MapInfo 160
+Name = "104"
+
+MapInfo 161
+Name = "105"
+
+MapInfo 162
+Name = "202"
+
+MapInfo 163
+Name = "203"
+
+MapInfo 164
+Name = "204"
+
+MapInfo 165
+Name = "205"
+
+MapInfo 166
+Name = "301"
+
+MapInfo 167
+Name = "302"
+
+MapInfo 168
+Name = "303"
+
+MapInfo 169
+Name = "304"
+
+MapInfo 170
+Name = "305"
+
+MapInfo 171
+Name = "次元の狭間"
+
+MapInfo 172
+Name = "スラム"
+
+MapInfo 173
+Name = "武器雑貨屋"
+
+MapInfo 174
+Name = "ギルド飲食店"
+
+MapInfo 175
+Name = "教会"
+
+MapInfo 176
+Name = "宿屋"
+
+MapInfo 177
+Name = "家１"
+
+MapInfo 178
+Name = "小屋"
+
+MapInfo 179
+Name = ""
+
+MapInfo 180
+Name = "靴屋"
+
+MapInfo 181
+Name = "宿屋"
+
+MapInfo 182
+Name = "雑貨屋"
+
+MapInfo 183
+Name = "武器の店"
+
+MapInfo 184
+Name = "民家１"
+
+MapInfo 185
+Name = "民家２"
+
+MapInfo 186
+Name = "屋敷：1F"
+
+MapInfo 187
+Name = "屋敷：2F"
+
+MapInfo 188
+Name = "換金"
+
+MapInfo 189
+Name = "装飾"
+
+MapInfo 190
+Name = "警備兵屯所"
+
+MapInfo 191
+Name = "ヘタレダンジョン"
+
+MapInfo 192
+Name = "売春宿"
+
+MapInfo 193
+Name = "売春宿"
+
+MapInfo 194
+Name = "控え室"
+
+MapInfo 195
+Name = "プレイルーム"
+
+MapInfo 196
+Name = "浴場"
+
+MapInfo 197
+Name = "洞窟"
+
+MapInfo 198
+Name = "スキルショップ"
+
+MapInfo 199
+Name = "森の町ドゥ"
+
+MapInfo 200
+Name = ""
+
+MapInfo 201
+Name = "宿屋"
+
+MapInfo 202
+Name = "武具屋"
+
+MapInfo 203
+Name = "民家"
+
+MapInfo 204
+Name = "民家"
+
+MapInfo 205
+Name = "民家"
+
+MapInfo 206
+Name = "紋章印店"
+
+MapInfo 207
+Name = "オークの洞窟"
+
+MapInfo 208
+Name = "オークの洞窟１"
+
+MapInfo 209
+Name = "オークの洞窟２"
+
+MapInfo 210
+Name = "繁殖場"
+
+MapInfo 211
+Name = "オークの洞窟３"
+
+MapInfo 212
+Name = "オークの洞窟４"
+
+MapInfo 213
+Name = ""
+
+MapInfo 214
+Name = "アジトの家"
+
+MapInfo 215
+Name = "地下１階"
+
+MapInfo 216
+Name = "アジト"
+
+MapInfo 217
+Name = "アジト１"
+
+MapInfo 218
+Name = "アジト２"
+
+MapInfo 219
+Name = "アジト４"
+
+MapInfo 220
+Name = "アジト５"
+
+MapInfo 221
+Name = "アジト３"
+
+MapInfo 222
+Name = "アジト４－１"
+
+MapInfo 223
+Name = "アジト５－１"
+
+MapInfo 224
+Name = "アジト本部"
+
+MapInfo 225
+Name = "島"
+
+MapInfo 226
+Name = "１"
+
+MapInfo 227
+Name = "2"
+
+MapInfo 228
+Name = "3"
+
+MapInfo 229
+Name = "5"
+
+MapInfo 230
+Name = "4"
+
+MapInfo 231
+Name = "クロウの部屋"
+
+MapInfo 232
+Name = "触手の森"
+
+MapInfo 233
+Name = "触手の森１"
+
+MapInfo 234
+Name = "触手の森２"
+
+MapInfo 235
+Name = "触手の森３"
+
+MapInfo 236
+Name = "触手の森３－１"
+
+MapInfo 237
+Name = "触手の森4"
+
+MapInfo 238
+Name = "触手の森５"
+
+MapInfo 239
+Name = "ヘタレダンジョン２"
+
+MapInfo 240
+Name = "ココアのお部屋"
+
+MapInfo 241
+Name = "平屋"
+
+MapInfo 242
+Name = "所長室"
+
+MapInfo 243
+Name = "試練の洞窟"
+
+MapInfo 244
+Name = "試練の洞窟１"
+
+MapInfo 245
+Name = "試練の洞窟２"
+
+MapInfo 246
+Name = "試練の洞窟２－１"
+
+MapInfo 247
+Name = "試練の洞窟３"
+
+MapInfo 248
+Name = "試練の洞窟４"
+
+MapInfo 249
+Name = "レムリア遺跡"
+
+MapInfo 250
+Name = "レムリア遺跡入口"
+
+MapInfo 251
+Name = "レムリア遺跡１"
+
+MapInfo 252
+Name = "レムリア遺跡２"
+
+MapInfo 253
+Name = "レムリア遺跡３"
+
+MapInfo 254
+Name = "レムリア遺跡4"
+
+MapInfo 255
+Name = "レムリア遺跡５"
+
+MapInfo 256
+Name = "レムリア遺跡６"
+
+MapInfo 257
+Name = "レムリア遺跡７"
+
+MapInfo 258
+Name = "メリオス街道３"
+
+MapInfo 259
+Name = "トリー湿原"
+
+MapInfo 260
+Name = "トリー湿原１"
+
+MapInfo 261
+Name = "トリー湿原２"
+
+MapInfo 262
+Name = "トリー湿原３"
+
+MapInfo 263
+Name = "トリー湿原４"
+
+MapInfo 264
+Name = "飯屋"
+
+MapInfo 265
+Name = "１０６"
+
+MapInfo 266
+Name = "平屋１～３"
+
+MapInfo 267
+Name = "青い屋根の家"
+
+MapInfo 268
+Name = "赤い屋根の家"
+
+MapInfo 269
+Name = "マンション"
+
+MapInfo 270
+Name = "マンション"
+
+MapInfo 271
+Name = "民家１"
+
+MapInfo 272
+Name = "フリープレイルーム１"
+
+MapInfo 273
+Name = "赤い屋根の物置"
+
+MapInfo 274
+Name = "マッサージ店"
+
+MapInfo 275
+Name = "大衆浴場"
+
+MapInfo 276
+Name = "女性更衣室"
+
+MapInfo 277
+Name = "女性浴場"
+
+MapInfo 278
+Name = "風俗嬢派遣所"
+
+MapInfo 279
+Name = "負け初期化部屋"
+

@@ -1,0 +1,32 @@
+CommonEvent 90
+Name = "　描写"
+
+  ConditionalBranch([1, 199, 0, 0, 0])
+    ConditionalBranch([1, 63, 0, 1, 0])
+      ShowPicture([10, "立ち絵：プティン裸３", 0, 0, 0, 0, 100, 100, 255, 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 63, 0, 2, 0])
+        ShowPicture([10, "立ち絵：プティン裸１", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 63, 0, 3, 0])
+          ShowPicture([10, "立ち絵：プティン裸２", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

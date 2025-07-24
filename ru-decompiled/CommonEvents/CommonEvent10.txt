@@ -1,0 +1,17 @@
+CommonEvent 10
+Name = "立ち絵描写ココア１"
+
+  CallCommonEvent([11])
+  CallCommonEvent([13])
+  CallCommonEvent([14])
+  ConditionalBranch([0, 25, 0])
+    ErasePicture([10])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([15])
+    CallCommonEvent([16])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

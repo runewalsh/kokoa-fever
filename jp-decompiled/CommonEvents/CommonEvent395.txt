@@ -1,0 +1,77 @@
+CommonEvent 395
+Name = "能力アップ処理原型"
+
+  ControlVariables([24, 24, 0, 2, 0, 100])
+  ConditionalBranch([1, 24, 0, 20, 2])
+    ConditionalBranch([1, 24, 0, 0, 1])
+      ChangeParameters([0, 12, 0, 0, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 30, 2])
+    ConditionalBranch([1, 24, 0, 10, 1])
+      ChangeParameters([0, 12, 1, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 80, 2])
+    ConditionalBranch([1, 24, 0, 60, 1])
+      ChangeParameters([0, 12, 2, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 50, 2])
+    ConditionalBranch([1, 24, 0, 30, 1])
+      ChangeParameters([0, 12, 3, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 60, 2])
+    ConditionalBranch([1, 24, 0, 20, 1])
+      ChangeParameters([0, 12, 4, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 80, 2])
+    ConditionalBranch([1, 24, 0, 35, 1])
+      ChangeParameters([0, 12, 5, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 90, 2])
+    ConditionalBranch([1, 24, 0, 80, 1])
+      ChangeParameters([0, 12, 6, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 24, 0, 100, 2])
+    ConditionalBranch([1, 24, 0, 90, 1])
+      ChangeParameters([0, 12, 7, 0, 0, 1])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

@@ -1,0 +1,102 @@
+Display Name = "風俗嬢派遣宿"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 9, 24, 32, 0, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["受付"])
+    ShowText(["「ここは女が金を貰って男の性欲を満たす場所を提供する店だ」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["受付"])
+    ShowText(["「お前は売春婦になりたいのか？」"])
+    ConditionalBranch([1, 21, 0, 30, 1])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["売春婦に・・・"])
+      ShowChoices([["なる", "ならない"], 2])
+      When([0, "なる"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["受付"])
+        ShowText(["「・・・ふむ。ここは隣にある平屋に売春婦を派遣する場所だ"])
+        ShowText(["　そして部屋ごとにいる客によって求めるプレイが違うんだ」"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["受付"])
+        ShowText(["「客が入ってる場合は入口左の壁に紙が張ってあるかで確認しろ」"])
+        ControlSwitches([118, 118, 0])
+        Empty([])
+      When([1, "ならない"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["受付"])
+        ShowText(["「そうか。それも正しき選択だろう"])
+        ShowText(["　気が変わったらまた来ればいい」"])
+        Empty([])
+      ChoicesEnd([])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+      ShotBalloonIcon([-1, 1, true])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[6])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=29, @parameters=[6])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+      FadeoutScreen([])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 9, 24, 32, 0, 0])
+      FadeinScreen([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["受付"])
+    ShowText(["「仕事は上手くいっているか？」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["１０５号室"])
+    ShowText(["手コキプレイをご所望のお客様が入室しています"])
+    Empty([])

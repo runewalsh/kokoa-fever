@@ -1,0 +1,17 @@
+CommonEvent 433
+Name = "　ぷしー２"
+
+  ControlVariables([24, 24, 0, 2, 0, 1])
+  ConditionalBranch([1, 24, 0, 0, 0])
+    ShowPicture([1, "魔物H：ワイルドプシー２", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    ShowPicture([1, "魔物H：ワイルドプシー３", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  BranchEnd([])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ワイルドプシーとおまんこを擦り合わせました"])
+  Empty([])

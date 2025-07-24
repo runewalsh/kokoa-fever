@@ -1,0 +1,4047 @@
+Display Name = "カリッカの森１"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 29
+Name = "EV029"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 34
+Name = "EV034"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 35
+Name = "EV035"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 36
+Name = "EV036"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 37
+Name = "EV037"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 38
+Name = "EV038"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 39
+Name = "EV039"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 40
+Name = "EV040"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 46
+Name = "EV046"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 47
+Name = "EV047"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 48
+Name = "EV048"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 49
+Name = "EV049"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 50
+Name = "EV050"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 51
+Name = "EV051"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 54
+Name = "EV054"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 55
+Name = "EV055"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 56
+Name = "EV056"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 57
+Name = "EV057"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 58
+Name = "EV058"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 59
+Name = "EV059"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 60
+Name = "EV060"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 61
+Name = "EV061"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 62
+Name = "EV062"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 63
+Name = "EV063"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 64
+Name = "EV064"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 65
+Name = "EV065"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 66
+Name = "EV066"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 67
+Name = "EV067"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 68
+Name = "EV068"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 69
+Name = "EV069"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 70
+Name = "EV070"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 71
+Name = "EV071"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 72
+Name = "EV072"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 73
+Name = "EV073"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 74
+Name = "EV074"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 75
+Name = "EV075"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 76
+Name = "EV076"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 77
+Name = "EV077"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 78
+Name = "EV078"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 79
+Name = "EV079"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 82
+Name = "EV082"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 83
+Name = "EV083"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 84
+Name = "EV084"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 85
+Name = "EV085"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 86
+Name = "EV086"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 87
+Name = "EV087"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 88
+Name = "EV088"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 89
+Name = "EV089"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 90
+Name = "EV090"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 91
+Name = "EV091"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 92
+Name = "EV092"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 93
+Name = "EV093"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 94
+Name = "EV094"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 95
+Name = "EV095"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 96
+Name = "EV096"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 97
+Name = "EV097"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 98
+Name = "EV098"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 99
+Name = "EV099"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 100
+Name = "EV100"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 101
+Name = "EV101"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 102
+Name = "EV102"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 103
+Name = "EV103"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 104
+Name = "EV104"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 105
+Name = "EV105"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 106
+Name = "EV106"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 107
+Name = "EV107"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 108
+Name = "EV108"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 109
+Name = "EV109"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 110
+Name = "EV110"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 113
+Name = "EV113"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 114
+Name = "EV114"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 115
+Name = "EV115"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 116
+Name = "EV116"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 117
+Name = "EV117"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 118
+Name = "EV118"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 119
+Name = "EV119"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 120
+Name = "EV120"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 121
+Name = "EV121"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 122
+Name = "EV122"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 123
+Name = "EV123"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 124
+Name = "EV124"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 125
+Name = "EV125"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 126
+Name = "EV126"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 127
+Name = "EV127"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 128
+Name = "EV128"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 129
+Name = "EV129"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 130
+Name = "EV130"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 131
+Name = "EV131"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 132
+Name = "EV132"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 133
+Name = "EV133"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 134
+Name = "EV134"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 135
+Name = "EV135"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 138
+Name = "EV138"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 139
+Name = "EV139"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 140
+Name = "EV140"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 141
+Name = "EV141"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 142
+Name = "EV142"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 148
+Name = "EV148"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 149
+Name = "EV149"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 150
+Name = "EV150"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 151
+Name = "EV151"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 152
+Name = "EV152"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 153
+Name = "EV153"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 154
+Name = "EV154"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 155
+Name = "EV155"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 156
+Name = "EV156"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 157
+Name = "EV157"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 158
+Name = "EV158"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 159
+Name = "EV159"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 160
+Name = "EV160"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 161
+Name = "EV161"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 162
+Name = "EV162"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 163
+Name = "EV163"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 164
+Name = "EV164"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 165
+Name = "EV165"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 166
+Name = "EV166"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 167
+Name = "EV167"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 168
+Name = "EV168"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 169
+Name = "EV169"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 170
+Name = "EV170"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 171
+Name = "EV171"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 172
+Name = "EV172"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 173
+Name = "EV173"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 174
+Name = "EV174"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 175
+Name = "EV175"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 176
+Name = "EV176"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 177
+Name = "EV177"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 178
+Name = "EV178"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 179
+Name = "EV179"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 180
+Name = "EV180"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 181
+Name = "EV181"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 182
+Name = "EV182"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 183
+Name = "EV183"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 184
+Name = "EV184"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 185
+Name = "EV185"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 186
+Name = "EV186"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 187
+Name = "EV187"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 188
+Name = "EV188"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 189
+Name = "EV189"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 190
+Name = "EV190"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 191
+Name = "EV191"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 192
+Name = "EV192"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 193
+Name = "EV193"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 194
+Name = "EV194"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 195
+Name = "EV195"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 196
+Name = "EV196"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 197
+Name = "EV197"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 198
+Name = "EV198"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 202
+Name = "EV202"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 203
+Name = "EV203"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 204
+Name = "EV204"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 205
+Name = "EV205"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 206
+Name = "EV206"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 207
+Name = "EV207"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 208
+Name = "EV208"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 209
+Name = "EV209"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 210
+Name = "EV210"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 211
+Name = "EV211"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 212
+Name = "EV212"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 213
+Name = "EV213"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 214
+Name = "EV214"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 215
+Name = "EV215"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 216
+Name = "EV216"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 217
+Name = "EV217"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 222
+Name = "EV222"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 223
+Name = "EV223"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 224
+Name = "EV224"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 225
+Name = "EV225"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 226
+Name = "EV226"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 227
+Name = "EV227"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 228
+Name = "EV228"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 229
+Name = "EV229"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 230
+Name = "EV230"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 231
+Name = "EV231"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 232
+Name = "EV232"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 234
+Name = "EV234"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 235
+Name = "EV235"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 236
+Name = "EV236"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 237
+Name = "EV237"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 238
+Name = "EV238"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 239
+Name = "EV239"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 240
+Name = "EV240"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 241
+Name = "EV241"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 242
+Name = "EV242"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 243
+Name = "EV243"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 244
+Name = "EV244"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 2])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 245
+Name = "EV245"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 246
+Name = "EV246"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 2])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 247
+Name = "EV247"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 248
+Name = "EV248"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 0])
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 249
+Name = "EV249"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 0])
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 250
+Name = "EV250"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 0])
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 251
+Name = "EV251"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 252
+Name = "EV252"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 253
+Name = "EV253"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 254
+Name = "EV254"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 255
+Name = "EV255"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 256
+Name = "EV256"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 257
+Name = "EV257"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 258
+Name = "EV258"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 259
+Name = "EV259"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 260
+Name = "EV260"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 261
+Name = "EV261"
+
+  Page 0
+    ControlVariables([12, 12, 0, 0, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 262
+Name = "EV262"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 263
+Name = "EV263"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 264
+Name = "EV264"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 265
+Name = "EV265"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 270
+Name = "EV270"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 271
+Name = "EV271"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 272
+Name = "EV272"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 274
+Name = "EV274"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 282
+Name = "EV282"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 283
+Name = "EV283"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 284
+Name = "EV284"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 285
+Name = "EV285"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 286
+Name = "EV286"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 287
+Name = "EV287"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 288
+Name = "EV288"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 289
+Name = "EV289"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 290
+Name = "EV290"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 291
+Name = "EV291"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 292
+Name = "EV292"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 293
+Name = "EV293"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 294
+Name = "EV294"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 295
+Name = "EV295"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 296
+Name = "EV296"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 297
+Name = "EV297"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 298
+Name = "EV298"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 299
+Name = "EV299"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 300
+Name = "EV300"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 301
+Name = "EV301"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 302
+Name = "EV302"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 303
+Name = "EV303"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 304
+Name = "EV304"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 305
+Name = "EV305"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 306
+Name = "EV306"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 307
+Name = "EV307"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 308
+Name = "EV308"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 309
+Name = "EV309"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 310
+Name = "EV310"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 311
+Name = "EV311"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 312
+Name = "EV312"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 313
+Name = "EV313"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 314
+Name = "EV314"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 315
+Name = "EV315"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 316
+Name = "EV316"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 317
+Name = "EV317"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 318
+Name = "EV318"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 319
+Name = "EV319"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 320
+Name = "EV320"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 321
+Name = "EV321"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 322
+Name = "EV322"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 323
+Name = "EV323"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 324
+Name = "EV324"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 325
+Name = "EV325"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 326
+Name = "EV326"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 327
+Name = "EV327"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 328
+Name = "EV328"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 329
+Name = "EV329"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 330
+Name = "EV330"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 331
+Name = "EV331"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 332
+Name = "EV332"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 333
+Name = "EV333"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 334
+Name = "EV334"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 335
+Name = "EV335"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 336
+Name = "EV336"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 337
+Name = "EV337"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 338
+Name = "EV338"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 339
+Name = "EV339"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 340
+Name = "EV340"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 341
+Name = "EV341"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 342
+Name = "EV342"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 343
+Name = "EV343"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 344
+Name = "EV344"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 364
+Name = "EV364"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 365
+Name = "EV365"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 366
+Name = "EV366"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 367
+Name = "EV367"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 368
+Name = "EV368"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 369
+Name = "EV369"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 370
+Name = "EV370"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 371
+Name = "EV371"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 372
+Name = "EV372"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 373
+Name = "EV373"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 374
+Name = "EV374"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 376
+Name = "EV376"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 377
+Name = "EV377"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 409
+Name = "EV409"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 410
+Name = "EV410"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    Empty([])
+
+CommonEvent 411
+Name = "EV411"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 412
+Name = "EV412"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 413
+Name = "EV413"
+
+  Page 0
+    ControlSwitches([6, 6, 0])
+    Empty([])
+
+CommonEvent 414
+Name = "EV414"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 65, 1, 0, 0])
+    Empty([])
+
+CommonEvent 415
+Name = "EV415"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 12, 1, 0, 0])
+    Empty([])
+
+CommonEvent 416
+Name = "EV416"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 13, 1, 0, 0])
+    Empty([])
+
+CommonEvent 417
+Name = "EV417"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 14, 1, 0, 0])
+    Empty([])
+
+CommonEvent 418
+Name = "EV418"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 15, 1, 0, 0])
+    Empty([])
+
+CommonEvent 419
+Name = "EV419"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 58, 38, 27, 0, 0])
+    Empty([])
+
+CommonEvent 420
+Name = "EV420"
+
+  Page 0
+    Script(["rx_self_sw(46,"])
+    ScriptMore(["[451,452,453,454,455,456,457,458,459,460,"])
+    ScriptMore(["461,462,463,464,465,466,467,468,469,470,"])
+    ScriptMore(["471,472,473,474,475,476,477,478,479,480,"])
+    ScriptMore(["481,482,483,484,485,486], "])
+    ScriptMore(["\"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 58, 38, 28, 0, 0])
+    Empty([])
+
+CommonEvent 421
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 422
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 423
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 424
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 425
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 426
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 427
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 428
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 429
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 430
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 431
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 432
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 433
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 434
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 435
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 436
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 437
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 438
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 439
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 440
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 441
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 442
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 443
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 444
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 445
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 446
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 447
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 448
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 449
+Name = "万能茸"
+
+  Page 0
+    CallCommonEvent([981])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 450
+Name = "EV450"
+
+  Page 0
+    ControlSwitches([1, 1, 1])
+    ChangeBattleBGM(["RPG::BGM(@name=\"カリッカの森戦闘\", @volume=90, @pitch=100)"])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ControlVariables([24, 24, 0, 2, 0, 18])
+    ConditionalBranch([1, 24, 0, 3, 2])
+      BattleProcessing([0, 109, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 0, 1])
+        ControlVariables([29, 29, 1, 0, 1])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([439])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 24, 0, 6, 2])
+        BattleProcessing([0, 110, true, true])
+        IfWin([])
+          ControlVariables([30, 30, 1, 2, 0, 1])
+          ControlVariables([29, 29, 1, 0, 1])
+          Empty([])
+        IfEscape([])
+          Empty([])
+        IfLose([])
+          CallCommonEvent([439])
+          Empty([])
+        BattleProcessingEnd([])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 24, 0, 9, 2])
+          BattleProcessing([0, 111, true, true])
+          IfWin([])
+            ControlVariables([30, 30, 1, 2, 0, 1])
+            ControlVariables([29, 29, 1, 0, 1])
+            Empty([])
+          IfEscape([])
+            Empty([])
+          IfLose([])
+            CallCommonEvent([431])
+            Empty([])
+          BattleProcessingEnd([])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 24, 0, 11, 2])
+            BattleProcessing([0, 112, true, true])
+            IfWin([])
+              ControlVariables([30, 30, 1, 2, 1, 2])
+              ControlVariables([29, 29, 1, 2, 0, 2])
+              Empty([])
+            IfEscape([])
+              Empty([])
+            IfLose([])
+              CallCommonEvent([439])
+              Empty([])
+            BattleProcessingEnd([])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 24, 0, 13, 2])
+              BattleProcessing([0, 113, true, true])
+              IfWin([])
+                ControlVariables([30, 30, 1, 2, 1, 2])
+                ControlVariables([29, 29, 1, 2, 0, 2])
+                Empty([])
+              IfEscape([])
+                Empty([])
+              IfLose([])
+                CallCommonEvent([439])
+                Empty([])
+              BattleProcessingEnd([])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 24, 0, 15, 2])
+                BattleProcessing([0, 114, true, true])
+                IfWin([])
+                  ControlVariables([30, 30, 1, 2, 1, 2])
+                  ControlVariables([29, 29, 1, 2, 0, 2])
+                  Empty([])
+                IfEscape([])
+                  Empty([])
+                IfLose([])
+                  CallCommonEvent([431])
+                  Empty([])
+                BattleProcessingEnd([])
+                Empty([])
+              Else([])
+                ConditionalBranch([1, 24, 0, 17, 2])
+                  BattleProcessing([0, 115, true, true])
+                  IfWin([])
+                    ControlVariables([30, 30, 1, 2, 1, 2])
+                    ControlVariables([29, 29, 1, 2, 0, 2])
+                    Empty([])
+                  IfEscape([])
+                    Empty([])
+                  IfLose([])
+                    CallCommonEvent([439])
+                    Empty([])
+                  BattleProcessingEnd([])
+                  Empty([])
+                Else([])
+                  ConditionalBranch([1, 24, 0, 18, 2])
+                    BattleProcessing([0, 108, true, true])
+                    IfWin([])
+                      ControlVariables([30, 30, 1, 2, 1, 10])
+                      ControlVariables([29, 29, 1, 2, 0, 5])
+                      Empty([])
+                    IfEscape([])
+                      Empty([])
+                    IfLose([])
+                      CallCommonEvent([439])
+                      Empty([])
+                    BattleProcessingEnd([])
+                    Empty([])
+                  Else([])
+                    Empty([])
+                  BranchEnd([])
+                  Empty([])
+                BranchEnd([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+CommonEvent 451
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 452
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 453
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 454
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 455
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 456
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 457
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 458
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 459
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 460
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 461
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 462
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 463
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 464
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 465
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 466
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 467
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 468
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 469
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 470
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 471
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 472
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 473
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 474
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 475
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 476
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 477
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 478
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 479
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 480
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 481
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 482
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 483
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 484
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 485
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 486
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 487
+Name = "ta"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([18, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["経験玉Ⅱを手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 488
+Name = "ta"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([14, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["レジストアップを手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 489
+Name = "ta"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeGold([0, 0, 500])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["500\\G 手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 490
+Name = "ta"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeGold([0, 0, 30])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["30\\G 手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 491
+Name = "ta"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([61, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["回復薬/大を手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 492
+Name = "ta"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([70, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["魔法薬/並を手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 493
+Name = "紋章"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeArmor([157, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["狩人の紋章を手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 494
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 495
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 496
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 497
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 498
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 499
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 500
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 501
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 502
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 503
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 504
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 505
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 506
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 507
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 508
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 509
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 510
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 511
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 512
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 513
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 514
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 515
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 516
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 517
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 518
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 519
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 520
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 521
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 522
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 523
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 524
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 525
+Name = "りんご"
+
+  Page 0
+    CallCommonEvent([982])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 526
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 527
+Name = "ホワイトベリー"
+
+  Page 0
+    CallCommonEvent([999])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 528
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 529
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 530
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 531
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 532
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 533
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 534
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 535
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 536
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 537
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 538
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 539
+Name = "クワガタ"
+
+  Page 0
+    CallCommonEvent([983])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])

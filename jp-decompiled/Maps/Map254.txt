@@ -1,0 +1,263 @@
+Display Name = "レムリア遺跡４"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 10
+Name = "モンスター"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    ControlSwitches([35, 35, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ControlSwitches([1, 1, 0])
+    ChangeBattleEndME(["RPG::ME(@name=\"\", @pitch=100, @volume=80)"])
+    ControlVariables([24, 24, 0, 2, 0, 100])
+    ConditionalBranch([1, 24, 0, 100, 2])
+      BattleProcessing([0, 226, true, true])
+      IfWin([])
+        ControlVariables([30, 30, 1, 2, 0, 1])
+        ControlVariables([29, 29, 1, 2, 0, 1])
+        Empty([])
+      IfEscape([])
+        ControlVariables([30, 30, 1, 2, -2, -1])
+        Empty([])
+      IfLose([])
+        CallCommonEvent([488])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([35, 35, 1])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Script(["rx_self_sw(254,"])
+    ScriptMore(["[1,2,3,4,5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 253, 19, 9, 0, 0])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    Script(["rx_self_sw(254,"])
+    ScriptMore(["[1,2,3,4,5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 253, 19, 10, 0, 0])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「うっ・・・ミミズばっかりじゃないのここ・・・」"])
+    ShotBalloonIcon([-1, 8, true])
+    ShowChoices([["経験値にする", "全裸で飛び込む"], 0])
+    When([0, "経験値にする"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「ここは経験値稼ぎに使えそうね」"])
+      ControlVariables([3, 3, 0, 0, 285])
+      Empty([])
+
+    When([1, "全裸で飛び込む"])
+      ControlSwitches([22, 22, 1])
+      PlaySE(["RPG::SE(@name=\"布が擦れるＳＥ（強）短\", @pitch=100, @volume=100)"])
+      Wait([60])
+      Wait([60])
+      ChangeActorGraphic([15, "ここなチビ２", 0, "", 0])
+      ErasePicture([10])
+      ErasePicture([9])
+      ShowPicture([10, "立ち絵E：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowPicture([11, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「にゃんだろ・・ここすごく良い気分になっちゃうにゃ～♥」"])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=44, @parameters=[\\\"RPG::SE(@name=\\\\\\\"Jump2\\\\\\\", @pitch=100, @volume=80)\\\"])\", \"RPG::MoveCommand(@code=14, @parameters=[0, 6])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=44, @parameters=[\"RPG::SE(@name=\\\"Jump2\\\", @pitch=100, @volume=80)\"])"])
+      Unnamed(["RPG::MoveCommand(@code=14, @parameters=[0, 6])"])
+      FadeoutScreen([])
+      Script(["rx_self_sw(254,"])
+      ScriptMore(["[1,2,3,4,5,6,7,8,9,10], \"A\", "])
+      ScriptMore(["\"on\") "])
+      CallCommonEvent([429])
+      PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+      ShotBalloonIcon([-1, 1, true])
+      ShowPicture([10, "立ち絵E：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowPicture([11, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「あれ？何してたんだろ・・・？」"])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[30])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=15, @parameters=[30])"])
+      ShotBalloonIcon([-1, 1, true])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+      ShowPicture([11, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「これはどんなツンツン猫も一発でアへ顔晒すネココロリ・・・」"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「誰がこんなものをココで炊いたのよ・・・"])
+      ShowText(["　まったくマナーが悪いわね！」"])
+      FadeoutScreen([])
+      ErasePicture([10])
+      ErasePicture([11])
+      ChangeActorGraphic([15, "ここなチビ２", 5, "", 0])
+      ControlSwitches([22, 22, 0])
+      FadeinScreen([])
+      ControlVariables([3, 3, 0, 0, 285])
+      ControlVariables([21, 21, 1, 0, 20])
+      ControlVariables([28, 28, 1, 0, 5])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Script(["rx_self_sw(254,"])
+    ScriptMore(["[1,2,3,4,5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 255, 1, 4, 0, 0])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    Script(["rx_self_sw(254,"])
+    ScriptMore(["[1,2,3,4,5,6,7,8,9,10], \"A\", "])
+    ScriptMore(["\"off\") "])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 255, 1, 5, 0, 0])
+    Empty([])

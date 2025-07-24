@@ -1,0 +1,5 @@
+CommonEvent 970
+Name = "傭兵の日記"
+
+  ControlSwitches([215, 215, 0])
+  Empty([])

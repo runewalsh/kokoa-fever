@@ -1,0 +1,5 @@
+CommonEvent 32
+Name = "　臨月描写へのワンクッション"
+
+  Wait([60])
+  Empty([])

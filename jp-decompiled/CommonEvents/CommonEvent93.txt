@@ -1,0 +1,6 @@
+CommonEvent 93
+Name = "ここなE立ち絵消し"
+
+  ErasePicture([9])
+  ErasePicture([10])
+  Empty([])

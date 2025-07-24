@@ -1,0 +1,16 @@
+CommonEvent 990
+Name = "☆星に願いを"
+
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["この周回を中断し、周回部屋に移行します"])
+  ShowText(["よろしいですか？"])
+  ShowChoices([["はい", "いいえ"], 2])
+  When([0, "はい"])
+    CallCommonEvent([991])
+    Empty([])
+
+  When([1, "いいえ"])
+    Empty([])
+
+  ChoicesEnd([])
+  Empty([])

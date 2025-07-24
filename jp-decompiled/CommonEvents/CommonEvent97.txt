@@ -1,0 +1,224 @@
+CommonEvent 97
+Name = "　右描写"
+
+  ConditionalBranch([1, 201, 0, 10, 2])
+    ConditionalBranch([1, 201, 0, 5, 2])
+      ConditionalBranch([1, 201, 0, 0, 0])
+        ShowPicture([9, "立ち絵E：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 201, 0, 1, 0])
+          ShowPicture([9, "立ち絵E：ここな普段着", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 2, 0])
+            ShowPicture([9, "立ち絵E：ここな普段着２", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 3, 0])
+              ShowPicture([9, "立ち絵E：ここなスク水", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 4, 0])
+                ShowPicture([9, "立ち絵E：ここなスク水２", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 201, 0, 5, 0])
+                  ShowPicture([9, "立ち絵E：ここな女戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 201, 0, 6, 0])
+        ShowPicture([9, "立ち絵E：ここな女戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 201, 0, 7, 0])
+          ShowPicture([9, "立ち絵E：ここな凛", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 8, 0])
+            ShowPicture([9, "立ち絵E：ここな凛２", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 9, 0])
+              ShowPicture([9, "立ち絵E：ここな軽戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 10, 0])
+                ShowPicture([9, "立ち絵E：ここな軽戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    Comment(["###########変数11以上##################33"])
+    ConditionalBranch([1, 201, 0, 16, 4])
+      ConditionalBranch([1, 201, 0, 11, 0])
+        ConditionalBranch([1, 201, 0, 11, 0])
+          ShowPicture([9, "立ち絵E：ここなマヨイ", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 201, 0, 12, 0])
+          ShowPicture([9, "立ち絵E：ここなマヨイ２", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 13, 0])
+            ShowPicture([9, "立ち絵E：ここなアイエフ", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 14, 0])
+              ShowPicture([9, "立ち絵E：ここなアイエフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 15, 0])
+                ShowPicture([9, "立ち絵E：ここなニンフ", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      Comment(["１６以上"])
+      ConditionalBranch([1, 201, 0, 23, 4])
+        ConditionalBranch([1, 201, 0, 16, 0])
+          ShowPicture([9, "立ち絵E：ここなニンフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 17, 0])
+            ShowPicture([9, "立ち絵E：ここなユニ", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 18, 0])
+              ShowPicture([9, "立ち絵E：ここなユニ２", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 19, 0])
+                ShowPicture([9, "立ち絵E：ここなアル", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 201, 0, 20, 0])
+                  ShowPicture([9, "立ち絵E：ここなアル２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 201, 0, 21, 0])
+                    ShowPicture([9, "立ち絵E：ここなレイン２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 201, 0, 22, 0])
+                      ShowPicture([9, "立ち絵E：ここなレイン３", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        Comment(["２３から"])
+        ConditionalBranch([1, 201, 0, 27, 2])
+          ConditionalBranch([1, 201, 0, 23, 0])
+            ShowPicture([9, "立ち絵E：ここなレイン", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        Else([])
+          Comment(["２８から"])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

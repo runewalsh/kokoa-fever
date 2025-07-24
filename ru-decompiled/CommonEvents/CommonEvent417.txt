@@ -1,0 +1,5 @@
+CommonEvent 417
+Name = "☆ひっかきウサギ"
+
+  CallCommonEvent([439])
+  Empty([])

@@ -1,0 +1,6 @@
+CommonEvent 99
+Name = "　ここな立ち絵再描写"
+
+  CallCommonEvent([102])
+  CallCommonEvent([105])
+  Empty([])

@@ -1,0 +1,56 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 9, 15, 39, 0, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["おじさん"])
+    ShowText(["「日ごろの疲れをマッサージで癒しませんか？"])
+    ShowText(["　一時間1000Yenです」"])
+    ShowChoices([["頼む", "今はいい"], 2])
+    When([0, "頼む"])
+      ConditionalBranch([7, 1000, 0])
+        CallCommonEvent([461])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["おじさん"])
+        ShowText(["「お金が足りないようですね・・・。」"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "今はいい"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「そうですか・・・またのご利用をお待ちしております」"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

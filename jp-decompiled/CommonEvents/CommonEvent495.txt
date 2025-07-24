@@ -1,0 +1,8 @@
+CommonEvent 495
+Name = "☆オークココア&ここな"
+
+  CallCommonEvent([398])
+  CallCommonEvent([496])
+  CallCommonEvent([497])
+  CallCommonEvent([498])
+  Empty([])

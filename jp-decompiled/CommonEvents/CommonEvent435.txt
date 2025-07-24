@@ -1,0 +1,20 @@
+CommonEvent 435
+Name = "☆ゲル"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 108, 0, 0, 0])
+      CallCommonEvent([436])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([437])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([438])
+  Empty([])

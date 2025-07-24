@@ -1,0 +1,8 @@
+CommonEvent 490
+Name = "　みみず２"
+
+  ShowPicture([1, "魔物H：ちんこミミズここな２", 0, 0, 0, 0, 100, 100, 255, 0])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ちんこミミズに犯され子宮に精子を出されました"])
+  Empty([])

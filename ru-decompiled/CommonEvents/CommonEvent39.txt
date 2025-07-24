@@ -1,0 +1,18 @@
+CommonEvent 39
+Name = "☆臨月経過"
+
+  ControlVariables([6, 6, 0, 3, 7, 3, 0])
+  ConditionalBranch([1, 27, 1, 6, 2])
+    Wait([60])
+    ShotBalloonIcon([-1, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「う・・・生まれ・・・・る」"])
+    FadeoutScreen([])
+    CallCommonEvent([40])
+    ControlSwitches([10, 10, 0])
+    Empty([])
+
+  BranchEnd([])
+  Wait([60])
+  Empty([])

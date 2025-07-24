@@ -1,0 +1,261 @@
+Display Name = "民家"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 10, 5, 6, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 215, 9, 12, 6, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "クロウ"
+
+  Page 0
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「どうした？少し休むか？」"])
+    ShowChoices([["休む", "まだいい！"], 0])
+    When([0, "休む"])
+      FadeoutScreen([])
+      RecoverAll([0, 0])
+      PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=80)"])
+      Wait([350])
+      TransferPlayer([0, 214, 9, 10, 6, 0])
+      ErasePicture([11])
+      FadeinScreen([])
+      Empty([])
+
+    When([1, "まだいい！"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["クロウ"])
+      ShowText(["「そうか」"])
+      ErasePicture([11])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「どうした？少し休むか？」"])
+    ShowChoices([["休む", "まだいい！"], 0])
+    When([0, "休む"])
+      FadeoutScreen([])
+      RecoverAll([0, 0])
+      PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=80)"])
+      Wait([350])
+      TransferPlayer([0, 214, 9, 10, 6, 0])
+      ErasePicture([11])
+      FadeinScreen([])
+      Empty([])
+
+    When([1, "まだいい！"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["クロウ"])
+      ShowText(["「そうか」"])
+      ErasePicture([11])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ErasePicture([11])
+    ControlSwitches([21, 21, 1])
+    ErasePicture([10])
+    Wait([60])
+    FadeinScreen([])
+    ShowPicture([10, "立ち絵：クロウ１", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「ここから入れるようだな・・・"])
+    ShowText(["　俺はギルド、魔法協会に応援を要請する"])
+    ShowText(["　お前らは先に潜入し調査をしてくれ」"])
+    ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「はいはーい」"])
+    ShowPicture([11, "立ち絵：ココア戦闘", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「うぃうぃ」"])
+    ShowPicture([11, "立ち絵：レモン通常", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["レモン"])
+    ShowText(["「まぁ適当にやるわ」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「まぁ先にある程度の部隊が潜入しているそうだから"])
+    ShowText(["　そこまで気張らなくていいが・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「気をつけてな」"])
+    FadeoutScreen([])
+    Wait([60])
+    TransferPlayer([0, 215, 9, 12, 6, 0])
+    ControlVariables([18, 18, 0, 0, 36])
+    ErasePicture([11])
+    ErasePicture([10])
+    ControlSwitches([21, 21, 0])
+    ChangePartyMember([15, 0, 0])
+    ChangePartyMember([18, 0, 0])
+    RecoverAll([0, 0])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowPicture([11, "立ち絵：ここな２１", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「うにゃ？そっちじゃないよ？」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+  Page 1
+    ShowPicture([11, "立ち絵：レモン通常２", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["レモン"])
+    ShowText(["「ちょっと！どこに行くのよ！！」"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ErasePicture([11])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([986, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["魔砲士の日記を手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「今日はどんな自分で行こうかな・・・」"])
+    ConditionalBranch([1, 4, 0, 1, 2])
+      ControlSwitches([43, 43, 0])
+      ControlSwitches([44, 44, 1])
+      ControlSwitches([45, 45, 1])
+      ControlSwitches([46, 46, 0])
+      ControlSwitches([47, 47, 1])
+      ControlSwitches([48, 48, 1])
+      ControlSwitches([49, 49, 0])
+      Script(["SceneManager.call(Scene_JobChange)"])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 4, 0, 2, 0])
+        ControlSwitches([43, 43, 1])
+        ControlSwitches([44, 44, 0])
+        ControlSwitches([45, 45, 1])
+        Script(["SceneManager.call(Scene_JobChange)"])
+        Empty([])
+      Else([])
+        ControlSwitches([43, 43, 1])
+        ControlSwitches([44, 44, 1])
+        ControlSwitches([45, 45, 0])
+        Script(["SceneManager.call(Scene_JobChange)"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「今日はどんな自分で行こうかな・・・」"])
+    ConditionalBranch([1, 4, 0, 1, 2])
+      ControlSwitches([43, 43, 0])
+      ControlSwitches([44, 44, 1])
+      ControlSwitches([45, 45, 1])
+      ControlSwitches([46, 46, 0])
+      ControlSwitches([47, 47, 1])
+      ControlSwitches([48, 48, 1])
+      ControlSwitches([49, 49, 1])
+      Script(["SceneManager.call(Scene_JobChange)"])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 4, 0, 2, 0])
+        ControlSwitches([43, 43, 1])
+        ControlSwitches([44, 44, 0])
+        ControlSwitches([45, 45, 1])
+        Script(["SceneManager.call(Scene_JobChange)"])
+        Empty([])
+      Else([])
+        ControlSwitches([43, 43, 1])
+        ControlSwitches([44, 44, 1])
+        ControlSwitches([45, 45, 0])
+        Script(["SceneManager.call(Scene_JobChange)"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Wait([60])
+    FadeinScreen([])
+    ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["クロウ"])
+    ShowText(["「すでにギルドと魔法協会の戦力が敵アジトに進攻している"])
+    ShowText(["　俺たちもコレに遅れず行動を開始する」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「うん」"])
+    FadeoutScreen([])
+    ErasePicture([11])
+    FadeinScreen([])
+    ControlVariables([3, 3, 0, 0, 331])
+    Empty([])
+
+  Page 1
+    Empty([])

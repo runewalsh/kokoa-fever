@@ -1,0 +1,22 @@
+CommonEvent 123
+Name = "１３アイエフ"
+
+  ConditionalBranch([1, 200, 0, 1, 1])
+    ControlVariables([214, 214, 1, 1, 200])
+    ControlVariables([200, 200, 0, 0, 0])
+    ConditionalBranch([1, 214, 0, 100, 1])
+      ChangeArmor([814, 0, 0, 1, false])
+      ChangeEquipment([15, 3, 814])
+      ChangeArmor([813, 1, 0, 1, true])
+      ControlVariables([214, 214, 0, 0, 0])
+      ControlVariables([215, 215, 0, 0, 0])
+      ControlVariables([201, 201, 1, 0, 1])
+      PlaySE(["RPG::SE(@name=\"Thunder3\", @pitch=130, @volume=80)"])
+      CallCommonEvent([99])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

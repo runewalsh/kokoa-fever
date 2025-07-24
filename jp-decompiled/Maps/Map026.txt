@@ -1,0 +1,74 @@
+Display Name = "紋章店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 6, 51, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["紋章屋のお姉さん"])
+    ShowText(["「あら、いらっしゃ～い」"])
+    ShopProcessing([2, 123, 0, 0, true])
+    ShopItem([2, 124, 0, 0])
+    ShopItem([2, 125, 0, 0])
+    ShopItem([2, 126, 0, 0])
+    ShopItem([2, 127, 0, 0])
+    ShopItem([2, 128, 0, 0])
+    ShopItem([2, 129, 0, 0])
+    ShopItem([2, 130, 0, 0])
+    ShopItem([2, 131, 0, 0])
+    ShopItem([2, 132, 0, 0])
+    ShopItem([2, 901, 0, 0])
+    ShopItem([2, 902, 0, 0])
+    ShopItem([2, 903, 0, 0])
+    ShopItem([2, 904, 0, 0])
+    ShopItem([2, 905, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["紋章屋のお姉さん"])
+      ShowText(["「あら、いらっしゃ～い」"])
+      ShopProcessing([2, 123, 0, 0, true])
+      ShopItem([2, 124, 0, 0])
+      ShopItem([2, 125, 0, 0])
+      ShopItem([2, 126, 0, 0])
+      ShopItem([2, 127, 0, 0])
+      ShopItem([2, 128, 0, 0])
+      ShopItem([2, 129, 0, 0])
+      ShopItem([2, 130, 0, 0])
+      ShopItem([2, 131, 0, 0])
+      ShopItem([2, 132, 0, 0])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["緑髪の少女"])
+    ShowText(["「紋章はある程度、魔法の才能が無いと装備出来ないそうよ"])
+    ShowText(["　この国じゃ装備できない段階で絶望的よね」"])
+    Empty([])

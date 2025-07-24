@@ -1,0 +1,9 @@
+CommonEvent 398
+Name = "☆エロ前処理（陵辱"
+
+  CallCommonEvent([400])
+  SaveBGM([])
+  FadeoutScreen([])
+  PlayBGM(["RPG::BGM(@name=\"02_master\", @volume=75, @pitch=100)"])
+  Wait([30])
+  Empty([])

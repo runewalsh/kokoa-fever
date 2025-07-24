@@ -1,0 +1,5 @@
+CommonEvent 973
+Name = "魔砲士の日記"
+
+  ControlSwitches([218, 218, 0])
+  Empty([])

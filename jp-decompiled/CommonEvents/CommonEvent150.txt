@@ -1,0 +1,8 @@
+CommonEvent 150
+Name = "☆戦闘開始処理"
+
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([13])
+  ControlVariables([200, 200, 0, 0, 0])
+  CallCommonEvent([9])
+  Empty([])

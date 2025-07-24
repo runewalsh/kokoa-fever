@@ -1,0 +1,14 @@
+CommonEvent 40
+Name = "　出産処理"
+
+  CallCommonEvent([400])
+  ConditionalBranch([0, 302, 0])
+    CallCommonEvent([41])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ControlSwitches([21, 21, 0])
+  Empty([])

@@ -1,0 +1,72 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 130, 9, 22, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["店員"])
+    ShowText(["「いらっしゃいませー」"])
+    ShopProcessing([0, 52, 0, 0, true])
+    ShopItem([0, 57, 0, 0])
+    ShopItem([0, 58, 0, 0])
+    ShopItem([0, 59, 0, 0])
+    ShopItem([0, 67, 0, 0])
+    ShopItem([0, 68, 0, 0])
+    ShopItem([0, 82, 0, 0])
+    ShopItem([0, 83, 0, 0])
+    ShopItem([0, 84, 0, 0])
+    ShopItem([0, 99, 0, 0])
+    ShopItem([0, 100, 0, 0])
+    ShopItem([0, 101, 0, 0])
+    ShopItem([2, 801, 0, 0])
+    ShopItem([2, 803, 0, 0])
+    ShopItem([2, 217, 0, 0])
+    ShopItem([2, 218, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["重戦士"])
+    ShowText(["「自然治癒でも問題ないのだが、やはり回復アイテムは余分に持っておくか」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["デブ"])
+    ShowText(["「ぐへへｗｗ店員さん可愛いんだなｗｗｗｗｗ」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ブス"])
+    ShowText(["「いま恋愛はお休み中なの、なんつーか疲れちゃってねぇ～」"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["猫娘"])
+    ShowText(["「にゃにゃ、いつか街で道具屋を開くのが夢なのにゃ」"])
+    Empty([])

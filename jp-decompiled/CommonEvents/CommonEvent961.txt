@@ -1,0 +1,5 @@
+CommonEvent 961
+Name = "踊り子の日記"
+
+  ControlSwitches([206, 206, 0])
+  Empty([])

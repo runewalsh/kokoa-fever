@@ -1,0 +1,13 @@
+CommonEvent 394
+Name = "☆サイコゥパス"
+
+  ConditionalBranch([0, 21, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["社会経験値 \\V[28]"])
+    ShowText(["性経験値 \\V[21]"])
+    ShowText(["名声値 \\V[30]"])
+    ShowText(["BP \\V[29]"])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

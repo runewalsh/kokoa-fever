@@ -1,0 +1,8 @@
+CommonEvent 482
+Name = "☆キノコの森敗北"
+
+  FadeoutScreen([])
+  RecoverAll([0, 0])
+  TransferPlayer([0, 148, 20, 5, 2, 0])
+  CallCommonEvent([483])
+  Empty([])

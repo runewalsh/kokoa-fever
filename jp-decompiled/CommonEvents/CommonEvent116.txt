@@ -1,0 +1,20 @@
+CommonEvent 116
+Name = "６女戦士"
+
+  ConditionalBranch([1, 200, 0, 1, 1])
+    ControlVariables([207, 207, 1, 1, 200])
+    ControlVariables([200, 200, 0, 0, 0])
+    ConditionalBranch([1, 207, 0, 50, 1])
+      ChangeEquipment([15, 3, 0])
+      ChangeArmor([806, 1, 0, 1, false])
+      ControlVariables([207, 207, 0, 0, 0])
+      ControlVariables([201, 201, 0, 0, 0])
+      PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=140, @volume=80)"])
+      CallCommonEvent([99])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

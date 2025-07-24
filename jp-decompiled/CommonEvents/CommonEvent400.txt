@@ -1,0 +1,11 @@
+CommonEvent 400
+Name = "☆立ち絵除去"
+
+  ControlSwitches([21, 21, 1])
+  ControlSwitches([22, 22, 1])
+  ControlSwitches([23, 23, 1])
+  ControlSwitches([24, 24, 1])
+  ControlSwitches([31, 31, 1])
+  ErasePicture([10])
+  ErasePicture([9])
+  Empty([])

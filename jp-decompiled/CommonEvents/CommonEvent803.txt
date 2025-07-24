@@ -1,0 +1,22 @@
+CommonEvent 803
+Name = "スライムの森２"
+
+  CallCommonEvent([398])
+  ShowPicture([1, "Hイベント：スライムの森で２", 0, 0, 0, 0, 100, 100, 255, 0])
+  ControlVariables([52, 52, 0, 0, 0])
+  ControlSwitches([68, 68, 0])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["女性"])
+  ShowText(["「はぁ・・はぁ・・・おまんこに精液いっぱい・・・"])
+  ShowText(["　・・・すごいの・・あったかくて・・・なんか幸せ・・♥」"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["女性"])
+  ShowText(["「はぁ・・・スライムも・・・結構いいかも・・"])
+  ShowText(["　・・・このまま・・はぁ・・・ずっとここに居てもいいかも♥」"])
+  ControlSwitches([68, 68, 1])
+  FadeoutScreen([])
+  ErasePicture([1])
+  FadeinScreen([])
+  ReplayBGM([])
+  Empty([])

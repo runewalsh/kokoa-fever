@@ -1,0 +1,6 @@
+CommonEvent 95
+Name = "☆ここなイベント用左"
+
+  ControlVariables([15, 15, 0, 0, 2])
+  CallCommonEvent([97])
+  Empty([])

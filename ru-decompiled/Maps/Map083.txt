@@ -1,0 +1,87 @@
+Display Name = "孤児院"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 82, 19, 20, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["シスター"])
+    ShowText(["「ここでは身寄りの無い子供たちを引き取っています」"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["女の子"])
+    ShowText(["「わたしこの本大好きなのー"])
+    ShowText(["　特に桃太郎が鬼を虐殺するシーンは何度見てもエクスタシー！」"])
+    ShotBalloonIcon([-1, 6, false])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["少年"])
+    ShowText(["「いつか立派な魔法使いになって"])
+    ShowText(["　この教会に恩返しをするんだ」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["少女"])
+    ShowText(["「うー・・眠たいよぉ・・」"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["イケメン"])
+    ShowText(["「この施設に寄付をしている者です」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["イケメン"])
+    ShowText(["「あぁ・・\\{\\{\\{やっぱり幼女は最高だぜ！！\\}\\}\\}」"])
+    ShotBalloonIcon([-1, 6, false])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["少女"])
+    ShowText(["「しーっ！！静かにしてよ！"])
+    ShowText(["　今一人かくれんぼしてるんだから！！」"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowPicture([1, "立ち絵：チョコ", 0, 0, -400, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["？？？"])
+    ShowText(["「お？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「お？」"])
+    ErasePicture([1])
+    Empty([])

@@ -1,0 +1,50 @@
+Display Name = "アクセサリー店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 34, 51, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["バイトの娘"])
+    ShowText(["「いらっしゃいませ～」"])
+    ShopProcessing([2, 192, 0, 0, true])
+    ShopItem([2, 193, 0, 0])
+    ShopItem([2, 194, 0, 0])
+    ShopItem([2, 195, 0, 0])
+    ShopItem([2, 196, 0, 0])
+    ShopItem([2, 197, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["デブス"])
+    ShowText(["「う～ん。ど・れ・に・し・よ・お・か・な♪」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["年老いた冒険者"])
+    ShowText(["「冒険者と言えども身なりにも気をつけなければいかん」"])
+    Empty([])

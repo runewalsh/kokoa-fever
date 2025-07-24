@@ -1,0 +1,115 @@
+Display Name = "１０６"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 10, 27, 6, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["他人の家に宝箱がある・・・"])
+    ShowChoices([["開ける", "開けない"], 2])
+    When([0, "開ける"])
+      PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+      Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+      ControlSelfSwitch(["A", 0])
+      ChangeItems([11, 0, 0, 1])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パワーアップを手に入れた！"])
+      ControlSwitches([21, 21, 1])
+      ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ココア"])
+      ShowText(["「お宝ゲットッ・・・！」"])
+      PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+      ShotBalloonIcon([3, 1, true])
+      SetMoveRoute([3, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「おいおい・・これはどういう事だい？"])
+      ShowText(["　おじさんびっくりだよ」"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「悪い子にはお仕置きしないといけないな。こっちに来なさい」"])
+      ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ココア"])
+      ShowText(["「・・・・。」"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「こら早く服を脱ぎなさい！悪い子に着る服はありません」"])
+      PlaySE(["RPG::SE(@name=\"布が擦れるＳＥ（強）短\", @pitch=100, @volume=100)"])
+      Wait([60])
+      ShowPicture([10, "立ち絵：ココア戦闘２裸", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ココア"])
+      ShowText(["「・・・・・。」"])
+      CallCommonEvent([456])
+      ControlVariables([93, 93, 0, 0, 1])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["おじさん"])
+      ShowText(["「これでココアも立派な良い子だ。"])
+      ShowText(["　だがまた悪い子になったらたっぷりお仕置きしてあげるから"])
+      ShowText(["　いつでも来なさい」"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ココア"])
+      ShowText(["「・・・うん」"])
+      Empty([])
+
+    When([1, "開けない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "おじさん"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["温厚そうなおじさん"])
+    ShowText(["「やぁいらっしゃい。どうしたんだい？」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["パパ"])
+    ShowText(["「どうした？悪い子にでもなったのか？」"])
+    ShowChoices([["お仕置きして♥", "まだ良い子だよ！"], 2])
+    When([0, "お仕置きして♥"])
+      CallCommonEvent([458])
+      Empty([])
+
+    When([1, "まだ良い子だよ！"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["パパ"])
+      ShowText(["「またいつでも来なさい」"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

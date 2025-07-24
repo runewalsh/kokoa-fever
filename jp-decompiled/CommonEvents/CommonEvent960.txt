@@ -1,0 +1,5 @@
+CommonEvent 960
+Name = "騎士の日記"
+
+  ControlSwitches([205, 205, 0])
+  Empty([])

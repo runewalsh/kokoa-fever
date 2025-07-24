@@ -1,0 +1,15 @@
+CommonEvent 4
+Name = "闘技場進行変数"
+
+  Comment(["０　何もなし"])
+  CommentMore(["１　Eランク１戦目突破"])
+  CommentMore(["２　　　　　２"])
+  CommentMore(["３　　　　　３"])
+  CommentMore(["４　Eランク突破後"])
+  Comment(["５　Dランク１戦目突破"])
+  Comment(["８　Dランク突破"])
+  CommentMore(["９　突破後イベント後"])
+  Comment(["２０　C一戦目突破"])
+  Comment(["２５　Cランク突破"])
+  Comment(["３０　闘技C終わり　"])
+  Empty([])

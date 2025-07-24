@@ -1,0 +1,10 @@
+CommonEvent 458
+Name = "　おじさん２"
+
+  CallCommonEvent([397])
+  ShowPicture([1, "Hイベント：平屋おやじ５", 0, 0, 0, 0, 100, 100, 255, 0])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["パパにたっぷり愛のお仕置きをしてもらいました"])
+  CallCommonEvent([457])
+  Empty([])

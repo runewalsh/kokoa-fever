@@ -1,0 +1,6822 @@
+Troop 1
+Name = "テスト用スライム"
+
+Page 0
+  CallCommonEvent([9])
+  Empty([])
+
+Troop 2
+Name = "こうもり*2"
+
+Page 0
+  Empty([])
+
+Troop 3
+Name = "ホーネット*2"
+
+Page 0
+  Empty([])
+
+Troop 4
+Name = "大グモ*3"
+
+Page 0
+  Empty([])
+
+Troop 5
+Name = "大ネズミ*3"
+
+Page 0
+  Empty([])
+
+Troop 6
+Name = "ウィスプ*3"
+
+Page 0
+  Empty([])
+
+Troop 7
+Name = "大蛇*2"
+
+Page 0
+  Empty([])
+
+Troop 8
+Name = "大サソリ*3"
+
+Page 0
+  Empty([])
+
+Troop 9
+Name = "大クラゲ*2"
+
+Page 0
+  Empty([])
+
+Troop 10
+Name = "食人花*3"
+
+Page 0
+  Empty([])
+
+Troop 11
+Name = "ゴースト*3"
+
+Page 0
+  Empty([])
+
+Troop 12
+Name = "スケルトン*2"
+
+Page 0
+  Empty([])
+
+Troop 13
+Name = "オーク*3"
+
+Page 0
+  Empty([])
+
+Troop 14
+Name = "インプ*2"
+
+Page 0
+  Empty([])
+
+Troop 15
+Name = "ゲイザー*3"
+
+Page 0
+  Empty([])
+
+Troop 16
+Name = "パペット*2"
+
+Page 0
+  Empty([])
+
+Troop 17
+Name = "ゾンビ*3"
+
+Page 0
+  Empty([])
+
+Troop 18
+Name = "コカトリス*2"
+
+Page 0
+  Empty([])
+
+Troop 19
+Name = "キマイラ"
+
+Page 0
+  Empty([])
+
+Troop 20
+Name = "ミミック"
+
+Page 0
+  Empty([])
+
+Troop 21
+Name = "ウェアウルフ*2"
+
+Page 0
+  Empty([])
+
+Troop 22
+Name = "サハギン*2"
+
+Page 0
+  Empty([])
+
+Troop 23
+Name = "オーガ"
+
+Page 0
+  Empty([])
+
+Troop 24
+Name = "ガーゴイル*2"
+
+Page 0
+  Empty([])
+
+Troop 25
+Name = "ラミア"
+
+Page 0
+  Empty([])
+
+Troop 26
+Name = "ヴァンパイア"
+
+Page 0
+  Empty([])
+
+Troop 27
+Name = "サキュバス"
+
+Page 0
+  Empty([])
+
+Troop 28
+Name = "デーモン"
+
+Page 0
+  Empty([])
+
+Troop 29
+Name = "魔王"
+
+Page 0
+  Empty([])
+
+Troop 30
+Name = "魔神"
+
+Page 0
+  Empty([])
+
+Troop 31
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 32
+Name = "ハーピー, アダンダラ"
+
+Page 0
+  Empty([])
+
+Page 1
+  CallCommonEvent([9])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 33
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 34
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 35
+Name = "ーーーーーーーー"
+
+Page 0
+  Empty([])
+
+Troop 36
+Name = "森スライム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 37
+Name = "森スライム*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 38
+Name = "ちんこミミズ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 39
+Name = "ちんこミミズ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 40
+Name = "森スライム*2, ちんこミミズ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 41
+Name = "プティン"
+
+Page 0
+  ControlSwitches([21, 21, 0])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Page 2
+  ControlSwitches([21, 21, 1])
+  ErasePicture([10])
+  Empty([])
+
+Page 3
+  ControlSwitches([21, 21, 1])
+  ErasePicture([10])
+  Empty([])
+
+Troop 42
+Name = "ゼリイヌ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 43
+Name = "ゼリイヌ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 44
+Name = "マネーバード"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 45
+Name = "ゼリイヌ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 46
+Name = "ひっかきウサギ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 47
+Name = "ひっかきウサギ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 48
+Name = "ひっかきウサギ*2, ゼリイヌ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 49
+Name = "ゼリイヌ*4"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 50
+Name = "ひっかきウサギ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 51
+Name = "ブータ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 52
+Name = "ブータ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 53
+Name = "ゼリイヌ２*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 54
+Name = "ブータ*5"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 55
+Name = "プティン"
+
+Page 0
+  ControlSwitches([21, 21, 0])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Page 2
+  ControlSwitches([21, 21, 1])
+  ErasePicture([10])
+  Empty([])
+
+Page 3
+  ControlSwitches([21, 21, 1])
+  Empty([])
+
+Troop 56
+Name = "＝＝＝カルボ鉱山＝＝＝＝＝"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 57
+Name = "イシノツブテ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 58
+Name = "イシノツブテ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 59
+Name = "ハンド"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 60
+Name = "ハンド*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 61
+Name = "ハンド, イシノツブテ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 62
+Name = "石の集まり"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 63
+Name = "イシノツブテ*2, 石の集まり"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 64
+Name = "ハンド*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 65
+Name = "イシノツブテ, 石の集まり"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 66
+Name = "石の集まり*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 67
+Name = "イービルストーン"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 68
+Name = "===スライムの森======="
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 69
+Name = "森スライム*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 70
+Name = "スライム娘"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 71
+Name = "スライム娘, 森スライム*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 72
+Name = "森スライム*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 73
+Name = "ゲル"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 74
+Name = "ゲル*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 75
+Name = "スライム娘, ゲル*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 76
+Name = "リーフスライム娘"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 77
+Name = "リーフスライム娘*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 78
+Name = "スライム娘, リーフスライム娘, ゲル"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 79
+Name = "リーフスライム娘*2, スライム娘*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 80
+Name = "ゲル*8"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 81
+Name = "地獄花"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 82
+Name = "===闘技Eランク==="
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 83
+Name = "チンピラ"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["チンピラ"])
+  ShowText(["「俺、最強ぅ～っ！！！ｗ」"])
+  ChangeEnemyState([-1, 0, 10])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["チンピラ"])
+  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 84
+Name = "僧侶っぽい何か"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["僧侶っぽい何か"])
+  ShowText(["「負けません・・・背負うものが違いますから」"])
+  ChangeEnemyState([-1, 0, 10])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["僧侶"])
+  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 85
+Name = "ネンドマン"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ネンドマン"])
+  ShowText(["「オッスおねがいしまーす」"])
+  ChangeEnemyState([-1, 0, 10])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ネンドマン"])
+  ShowText(["「負けって、はっきりわかんだよね」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 86
+Name = "＝＝キノコの森＝＝＝＝＝＝＝"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 87
+Name = "仏くん"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 88
+Name = "キノプオ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 89
+Name = "なめこねこ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 90
+Name = "マタンゴ, なめこねこ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 91
+Name = "緑の悪魔"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 92
+Name = "キノプオ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 93
+Name = "なめこねこ, マタンゴ, 緑の悪魔"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 94
+Name = "緑の悪魔*2, マタンゴ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 95
+Name = "なめこねこ*4"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 96
+Name = "キノプオ*4"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 97
+Name = "マタンゴ*2, 緑の悪魔"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 98
+Name = "=＝＝Dランク＝＝＝＝＝＝＝"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 99
+Name = "SAMURAI"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["SAMURAI"])
+  ShowText(["「いざ、尋常に勝負！」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["SAMURAI"])
+  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 100
+Name = "大剣使い"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["大剣使い"])
+  ShowText(["「俺のこの剣・・・受けてみろ！」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["大剣使い"])
+  ShowText(["「そんな・・・こんなところで」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 101
+Name = "女冒険者"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["女冒険者"])
+  ShowText(["「あなたが私の相手ね！」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["女冒険者"])
+  ShowText(["「くやしいよぉ」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 102
+Name = "ガイキング"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ガイキング"])
+  ShowText(["「俺・・・・強い。お前、倒す」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ガイキング"])
+  ShowText(["「いやぁ～参いったねぇ～」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 103
+Name = "＝＝＝悪夢＝＝＝＝＝＝－"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 104
+Name = "悪夢の亡霊"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 105
+Name = "＝＝＝＝＝＝＝＝＝＝＝"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 106
+Name = "警備兵士A"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["警備兵士A"])
+  ShowText(["「な、なんだ！？」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 107
+Name = "===カリッカの森======="
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 108
+Name = "マネーバード"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 109
+Name = "なごみだけ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 110
+Name = "ワイルドキャット"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 111
+Name = "ワイルドプシー"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 112
+Name = "なごみだけ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 113
+Name = "ワイルドキャット*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 114
+Name = "ワイルドプシー, ワイルドキャット*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 115
+Name = "なごみだけ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 116
+Name = "＝＝＝＝＝＝＝＝＝＝"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 117
+Name = "吸血鬼"
+
+Page 0
+  ControlSwitches([21, 21, 0])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 118
+Name = ""
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 119
+Name = ""
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 120
+Name = ""
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 121
+Name = ""
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 122
+Name = "==ヘタレ１=================-"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 123
+Name = "ヘタレブータ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 124
+Name = "ヘタレワタミン"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 125
+Name = "ヘタレゼリイヌ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 126
+Name = "ヘタレブータ*4"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 127
+Name = "==============="
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 128
+Name = "アダンダラ(ボス)"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 129
+Name = "==========-"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 130
+Name = "オーク"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 131
+Name = "オーク*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 132
+Name = "オーク*4, ハイオーク"
+
+Page 0
+  ChangeEnemyState([0, 0, 10])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  EnemyAppear([1])
+  ChangeEnemyState([0, 1, 10])
+  ChangeEnemyState([1, 0, 10])
+  Empty([])
+
+Page 2
+  EnemyAppear([2])
+  ChangeEnemyState([1, 1, 10])
+  ChangeEnemyState([2, 0, 10])
+  Empty([])
+
+Page 3
+  EnemyAppear([3])
+  ChangeEnemyState([2, 1, 10])
+  ChangeEnemyState([3, 0, 10])
+  Empty([])
+
+Page 4
+  EnemyAppear([4])
+  ChangeEnemyState([3, 1, 10])
+  Empty([])
+
+Troop 133
+Name = "=やり直しルート=============-----"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 134
+Name = "反魔法組織員, 反魔法組織員"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 135
+Name = "反魔法組織員, 反魔法組織員, 反魔法組織員"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 136
+Name = "反魔法組織員, 反魔法組織員, 反魔法組織員, 反魔法組織員"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 137
+Name = "反魔法組織員, 反魔法組織員"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 138
+Name = "反魔法組織員, 反魔法組織員, 反魔法組織員"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 139
+Name = "ベルデ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 140
+Name = "アディス"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["クロウ"])
+  ShowText(["「魔剣バルムンク・・・今日は機嫌が悪いらしくてな。痛いぞ。死ぬほど」"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["アディス"])
+  ShowText(["「えっ、魔剣て、えっ・・ちょっとまっ・・・えーいままよ！」"])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 141
+Name = "＝＝＝＝＝＝＝＝＝＝"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 142
+Name = "イービルストーン"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 143
+Name = "ベルデ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 144
+Name = "＝＝＝＝＝＝＝＝"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 145
+Name = "アルラウネ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 146
+Name = "デビルプラント"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 147
+Name = "にょろん*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 148
+Name = "にょろん*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 149
+Name = "にょろん*2, デビルプラント"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 150
+Name = "＝＝＝＝＝＝＝＝"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 151
+Name = "ヘタンダラ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 152
+Name = "ヘタレにょろん*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 153
+Name = "ヘタレザケルナヤー"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 154
+Name = "＝Cマッチ＝＝＝＝＝＝＝"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 155
+Name = "女戦士"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["女戦士"])
+  ShowText(["「容赦はしないんだからっ！」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["女戦士"])
+  ShowText(["「そんなことって・・」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 156
+Name = "斧戦士"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["斧戦士"])
+  ShowText(["「おっすオラ斧戦士！いっちょやってみっか！？」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["斧戦士"])
+  ShowText(["「おーのー」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 157
+Name = "二刀重戦士"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["二刀重戦士"])
+  ShowText(["「ふん・・・女が大会に出るなという」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["二刀重戦士"])
+  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 158
+Name = "＝＝＝＝＝＝＝－"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 159
+Name = "狂子ちゃん"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["狂子ちゃん"])
+  ShowText(["「ふひひひひひひっ！！！"])
+  ShowText(["　私を殺しに来たのね！！！"])
+  ShowText(["　でも残念～、死ぬのはあなたよ！！！！！！！！」"])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["狂子ちゃん"])
+  ShowText(["「ちっ・・・小ざかしい！！！」"])
+  Empty([])
+
+Troop 160
+Name = "ブータカスタム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 161
+Name = "陸戦型ブータ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 162
+Name = "ブータガードカスタム, 陸戦型ブータ, ブータカスタム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 163
+Name = "ブータガードカスタム, ブータカスタム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 164
+Name = "ブタスナイパー, ブータガードカスタム, 陸戦型ブータ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 165
+Name = "ブタスナイパー, ブータカスタム, ブータガードカスタム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 166
+Name = "＝＝＝＝＝＝＝＝＝"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 167
+Name = "フードの男"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["フードの男"])
+  ShowText(["「たまにいるんだよな。こういう事しちゃうお客さんが」"])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 168
+Name = "ちんこミミズ達"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 169
+Name = "キャンサー"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 170
+Name = "にゃだんだら"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["にゃだんだら"])
+  ShowText(["「にゃにゃっと解決！にゃにゃんだら！！」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 171
+Name = "にゃだんだら"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["にゃだんだら"])
+  ShowText(["「にゃにゃっと解決！にゃにゃんだら！！」"])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 172
+Name = "おたかいスキャラ"
+
+Page 0
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["おたかいスキャラ"])
+  ShowText(["「・・・・なによっ」"])
+  ChangeEnemyState([-1, 0, 10])
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Page 1
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["おたかいスキャラ"])
+  ShowText(["「べ、別に悔しくないんだからっ」"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 173
+Name = "＝＝＝＝＝＝＝＝＝"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 174
+Name = "オーク"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 175
+Name = "オーク*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 176
+Name = "ハイオーク"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 177
+Name = "==正規ルートラスト"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 178
+Name = "アディス"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 179
+Name = "==トリー湿原============"
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 180
+Name = "ヴェノム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 181
+Name = "サハギン"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 182
+Name = "ホットゼリイヌ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 183
+Name = "イービルガエル女"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 184
+Name = "イービルガエル女*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 185
+Name = "ホットゼリイヌ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 186
+Name = "蟹"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 187
+Name = "================="
+
+Page 0
+  ControlVariables([35, 35, 0, 0, 0])
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  Empty([])
+
+Troop 188
+Name = "ゼリイヌ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 189
+Name = "ゼリイヌ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 190
+Name = "ゼリイヌ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 191
+Name = "ブータ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 192
+Name = "ひっかきウサギ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 193
+Name = "===============-"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 194
+Name = "ちんこミミズ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 195
+Name = "ちんこミミズ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 196
+Name = "森スライム"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 197
+Name = "森スライム*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 198
+Name = "=============-"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 199
+Name = "ゼリイヌ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 200
+Name = "ゼリイヌ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 201
+Name = "ゼリイヌ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 202
+Name = "ひっかきウサギ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 203
+Name = "なごみだけ*2, ひっかきウサギ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 204
+Name = "ブータ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 205
+Name = "ゼリイヌ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 206
+Name = "ゼリイヌ*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 207
+Name = "ゼリイヌ*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 208
+Name = "==============="
+
+Page 0
+  Empty([])
+
+Troop 209
+Name = "ワイルドプシー"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 210
+Name = "なごみだけ"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 211
+Name = "ワイルドキャット"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 212
+Name = "=========="
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 213
+Name = "ホットスライム娘"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 214
+Name = "ワタミン*3"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 215
+Name = "カエル女"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 216
+Name = "ハーピー"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 217
+Name = "カーバンクルちゃん"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 218
+Name = "ホットスライム娘*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 219
+Name = "カエル女*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 220
+Name = "ワタミン"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 221
+Name = "＝＝＝＝＝＝＝＝＝"
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 222
+Name = "ポイズンスライム娘*2"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 223
+Name = "リザードカエル女"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 224
+Name = "カーバンクルちゃん"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 225
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 226
+Name = "ちんこミミズ達"
+
+Page 0
+  ChangeState([0, 0, 0, 30])
+  ControlSwitches([17, 17, 0])
+  Empty([])
+
+Troop 227
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 228
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 229
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 230
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 231
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 232
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 233
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 234
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 235
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 236
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 237
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 238
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 239
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 240
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 241
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 242
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 243
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 244
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 245
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 246
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 247
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 248
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 249
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 250
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 251
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 252
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 253
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 254
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 255
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 256
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 257
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 258
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 259
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 260
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 261
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 262
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 263
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 264
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 265
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 266
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 267
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 268
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 269
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 270
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 271
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 272
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 273
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 274
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 275
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 276
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 277
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 278
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 279
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 280
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 281
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 282
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 283
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 284
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 285
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 286
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 287
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 288
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 289
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 290
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 291
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 292
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 293
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 294
+Name = ""
+
+Page 0
+  CallCommonEvent([9])
+  ChangeState([0, 0, 0, 30])
+  ControlVariables([35, 35, 0, 0, 0])
+  Empty([])
+
+Troop 295
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 296
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 297
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 298
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 299
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 300
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 301
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 302
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 303
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 304
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 305
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 306
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 307
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 308
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 309
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 310
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 311
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 312
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 313
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 314
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 315
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 316
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 317
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 318
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 319
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 320
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 321
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 322
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 323
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 324
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 325
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 326
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 327
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 328
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 329
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 330
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 331
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 332
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 333
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 334
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 335
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 336
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 337
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 338
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 339
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 340
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 341
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 342
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 343
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 344
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 345
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 346
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 347
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 348
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 349
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 350
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 351
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 352
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 353
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 354
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 355
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 356
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 357
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 358
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 359
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 360
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 361
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 362
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 363
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 364
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 365
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 366
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 367
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 368
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 369
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 370
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 371
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 372
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 373
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 374
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 375
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 376
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 377
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 378
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 379
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 380
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 381
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 382
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 383
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 384
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 385
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 386
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 387
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 388
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 389
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 390
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 391
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 392
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 393
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 394
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 395
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 396
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 397
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 398
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 399
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 400
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 401
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 402
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 403
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 404
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 405
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 406
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 407
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 408
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 409
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 410
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 411
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 412
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 413
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 414
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 415
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 416
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 417
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 418
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 419
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 420
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 421
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 422
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 423
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 424
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 425
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 426
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 427
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 428
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 429
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 430
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 431
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 432
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 433
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 434
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 435
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 436
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 437
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 438
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 439
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 440
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 441
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 442
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 443
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 444
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 445
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 446
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 447
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 448
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 449
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 450
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 451
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 452
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 453
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 454
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 455
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 456
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 457
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 458
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 459
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 460
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 461
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 462
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 463
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 464
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 465
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 466
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 467
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 468
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 469
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 470
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 471
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 472
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 473
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 474
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 475
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 476
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 477
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 478
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 479
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 480
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 481
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 482
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 483
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 484
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 485
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 486
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 487
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 488
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 489
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 490
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 491
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 492
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 493
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 494
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 495
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 496
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 497
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 498
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 499
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 500
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 501
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 502
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 503
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 504
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 505
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 506
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 507
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 508
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 509
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 510
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 511
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 512
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 513
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 514
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 515
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 516
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 517
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 518
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 519
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 520
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 521
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 522
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 523
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 524
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 525
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 526
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 527
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 528
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 529
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 530
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 531
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 532
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 533
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 534
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 535
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 536
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 537
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 538
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 539
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 540
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 541
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 542
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 543
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 544
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 545
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 546
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 547
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 548
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 549
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 550
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 551
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 552
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 553
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 554
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 555
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 556
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 557
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 558
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 559
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 560
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 561
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 562
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 563
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 564
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 565
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 566
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 567
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 568
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 569
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 570
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 571
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 572
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 573
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 574
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 575
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 576
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 577
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 578
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 579
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 580
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 581
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 582
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 583
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 584
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 585
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 586
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 587
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 588
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 589
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 590
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 591
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 592
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 593
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 594
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 595
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 596
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 597
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 598
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 599
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 600
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 601
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 602
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 603
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 604
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 605
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 606
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 607
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 608
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 609
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 610
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 611
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 612
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 613
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 614
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 615
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 616
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 617
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 618
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 619
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 620
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 621
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 622
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 623
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 624
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 625
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 626
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 627
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 628
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 629
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 630
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 631
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 632
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 633
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 634
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 635
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 636
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 637
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 638
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 639
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 640
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 641
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 642
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 643
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 644
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 645
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 646
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 647
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 648
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 649
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 650
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 651
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 652
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 653
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 654
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 655
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 656
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 657
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 658
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 659
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 660
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 661
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 662
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 663
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 664
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 665
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 666
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 667
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 668
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 669
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 670
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 671
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 672
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 673
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 674
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 675
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 676
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 677
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 678
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 679
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 680
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 681
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 682
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 683
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 684
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 685
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 686
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 687
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 688
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 689
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 690
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 691
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 692
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 693
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 694
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 695
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 696
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 697
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 698
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 699
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 700
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 701
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 702
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 703
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 704
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 705
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 706
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 707
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 708
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 709
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 710
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 711
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 712
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 713
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 714
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 715
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 716
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 717
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 718
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 719
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 720
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 721
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 722
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 723
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 724
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 725
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 726
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 727
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 728
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 729
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 730
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 731
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 732
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 733
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 734
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 735
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 736
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 737
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 738
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 739
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 740
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 741
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 742
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 743
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 744
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 745
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 746
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 747
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 748
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 749
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 750
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 751
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 752
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 753
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 754
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 755
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 756
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 757
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 758
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 759
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 760
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 761
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 762
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 763
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 764
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 765
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 766
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 767
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 768
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 769
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 770
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 771
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 772
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 773
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 774
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 775
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 776
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 777
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 778
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 779
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 780
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 781
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 782
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 783
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 784
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 785
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 786
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 787
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 788
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 789
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 790
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 791
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 792
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 793
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 794
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 795
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 796
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 797
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 798
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 799
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 800
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 801
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 802
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 803
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 804
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 805
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 806
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 807
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 808
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 809
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 810
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 811
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 812
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 813
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 814
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 815
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 816
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 817
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 818
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 819
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 820
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 821
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 822
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 823
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 824
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 825
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 826
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 827
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 828
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 829
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 830
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 831
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 832
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 833
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 834
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 835
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 836
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 837
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 838
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 839
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 840
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 841
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 842
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 843
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 844
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 845
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 846
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 847
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 848
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 849
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 850
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 851
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 852
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 853
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 854
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 855
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 856
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 857
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 858
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 859
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 860
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 861
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 862
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 863
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 864
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 865
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 866
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 867
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 868
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 869
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 870
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 871
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 872
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 873
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 874
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 875
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 876
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 877
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 878
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 879
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 880
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 881
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 882
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 883
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 884
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 885
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 886
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 887
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 888
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 889
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 890
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 891
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 892
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 893
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 894
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 895
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 896
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 897
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 898
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 899
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 900
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 901
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 902
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 903
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 904
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 905
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 906
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 907
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 908
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 909
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 910
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 911
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 912
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 913
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 914
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 915
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 916
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 917
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 918
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 919
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 920
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 921
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 922
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 923
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 924
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 925
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 926
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 927
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 928
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 929
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 930
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 931
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 932
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 933
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 934
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 935
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 936
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 937
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 938
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 939
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 940
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 941
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 942
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 943
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 944
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 945
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 946
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 947
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 948
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 949
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 950
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 951
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 952
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 953
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 954
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 955
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 956
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 957
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 958
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 959
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 960
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 961
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 962
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 963
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 964
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 965
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 966
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 967
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 968
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 969
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 970
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 971
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 972
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 973
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 974
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 975
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 976
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 977
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 978
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 979
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 980
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 981
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 982
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 983
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 984
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 985
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 986
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 987
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 988
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 989
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 990
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 991
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 992
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 993
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 994
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 995
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 996
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 997
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 998
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 999
+Name = ""
+
+Page 0
+  Empty([])

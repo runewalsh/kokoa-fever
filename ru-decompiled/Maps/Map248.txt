@@ -1,0 +1,63 @@
+Display Name = "試練の洞窟４"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 247, 43, 42, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 247, 43, 43, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「こいつを倒せば・・・！」"])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=80)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"狂子ちゃん戦\", @volume=90, @pitch=100)"])
+    BattleProcessing([0, 159, true, true])
+    IfWin([])
+      ControlVariables([29, 29, 1, 0, 5])
+      ControlVariables([30, 30, 1, 0, 10])
+      ControlVariables([3, 3, 0, 0, 266])
+      Empty([])
+
+    IfEscape([])
+      Empty([])
+
+    IfLose([])
+      FadeoutScreen([])
+      Wait([60])
+      TransferPlayer([0, 67, 29, 5, 2, 0])
+      FadeinScreen([])
+      PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+      ShotBalloonIcon([-1, 1, true])
+      Empty([])
+
+    BattleProcessingEnd([])
+    ControlSwitches([17, 17, 1])
+    Empty([])
+
+  Page 1
+    ShotBalloonIcon([-1, 8, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「この人には申し訳ないけど、ココアの仕事だから・・」"])
+    ControlVariables([3, 3, 0, 0, 270])
+    Empty([])
+
+  Page 2
+    Empty([])

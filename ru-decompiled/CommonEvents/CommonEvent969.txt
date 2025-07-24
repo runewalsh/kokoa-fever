@@ -1,0 +1,5 @@
+CommonEvent 969
+Name = "歩兵の日記"
+
+  ControlSwitches([214, 214, 0])
+  Empty([])

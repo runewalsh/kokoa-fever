@@ -1,0 +1,1377 @@
+CommonEvent 105
+Name = "　描写"
+
+  ConditionalBranch([1, 201, 0, 10, 2])
+    ConditionalBranch([1, 201, 0, 5, 2])
+      ConditionalBranch([1, 201, 0, 0, 0])
+        ChangeActorGraphic([15, "ここなチビ２", 0, "", 0])
+        ConditionalBranch([1, 63, 0, 1, 0])
+          ShowPicture([9, "立ち絵E：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
+          ConditionalBranch([4, 15, 6, 27])
+            ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 63, 0, 2, 0])
+            ShowPicture([9, "立ち絵E：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 3, 0])
+              ShowPicture([9, "立ち絵E：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        ChangeActorGraphic([15, "ここなチビ２", 5, "", 0])
+        ConditionalBranch([1, 201, 0, 1, 0])
+          ConditionalBranch([1, 63, 0, 1, 0])
+            ShowPicture([9, "立ち絵E：ここな普段着", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 2, 0])
+              ShowPicture([9, "立ち絵E：ここな普段着", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 3, 0])
+                ShowPicture([9, "立ち絵E：ここな普段着", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          CallCommonEvent([111])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 2, 0])
+            ConditionalBranch([1, 63, 0, 1, 0])
+              ShowPicture([9, "立ち絵E：ここな普段着２", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 2, 0])
+                ShowPicture([9, "立ち絵E：ここな普段着２", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 3, 0])
+                  ShowPicture([9, "立ち絵E：ここな普段着２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            CallCommonEvent([112])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 3, 0])
+              ConditionalBranch([1, 63, 0, 1, 0])
+                ShowPicture([9, "立ち絵E：ここなスク水", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情１", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 2, 0])
+                  ShowPicture([9, "立ち絵E：ここなスク水", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 3, 0])
+                    ShowPicture([9, "立ち絵E：ここなスク水", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              CallCommonEvent([113])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 4, 0])
+                ConditionalBranch([1, 63, 0, 1, 0])
+                  ShowPicture([9, "立ち絵E：ここなスク水２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 2, 0])
+                    ShowPicture([9, "立ち絵E：ここなスク水２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 63, 0, 3, 0])
+                      ShowPicture([9, "立ち絵E：ここなスク水２", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                CallCommonEvent([114])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 201, 0, 5, 0])
+                  ConditionalBranch([1, 63, 0, 1, 0])
+                    ShowPicture([9, "立ち絵E：ここな女戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 63, 0, 2, 0])
+                      ShowPicture([9, "立ち絵E：ここな女戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    Else([])
+                      ConditionalBranch([1, 63, 0, 3, 0])
+                        ShowPicture([9, "立ち絵E：ここな女戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                        ConditionalBranch([4, 15, 6, 27])
+                          ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        Else([])
+                          ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                CallCommonEvent([115])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 201, 0, 6, 0])
+        ConditionalBranch([1, 63, 0, 1, 0])
+          ShowPicture([9, "立ち絵E：ここな女戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+          ConditionalBranch([4, 15, 6, 27])
+            ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 63, 0, 2, 0])
+            ShowPicture([9, "立ち絵E：ここな女戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 3, 0])
+              ShowPicture([9, "立ち絵E：ここな女戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        CallCommonEvent([116])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 201, 0, 7, 0])
+          ConditionalBranch([1, 63, 0, 1, 0])
+            ShowPicture([9, "立ち絵E：ここな凛", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 2, 0])
+              ShowPicture([9, "立ち絵E：ここな凛", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 3, 0])
+                ShowPicture([9, "立ち絵E：ここな凛", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          CallCommonEvent([117])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 8, 0])
+            ConditionalBranch([1, 63, 0, 1, 0])
+              ShowPicture([9, "立ち絵E：ここな凛２", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 2, 0])
+                ShowPicture([9, "立ち絵E：ここな凛２", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情１５-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 3, 0])
+                  ShowPicture([9, "立ち絵E：ここな凛２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            CallCommonEvent([118])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 9, 0])
+              ConditionalBranch([1, 63, 0, 1, 0])
+                ShowPicture([9, "立ち絵E：ここな軽戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情１", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 2, 0])
+                  ShowPicture([9, "立ち絵E：ここな軽戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 3, 0])
+                    ShowPicture([9, "立ち絵E：ここな軽戦士", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              CallCommonEvent([119])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 10, 0])
+                ConditionalBranch([1, 63, 0, 1, 0])
+                  ShowPicture([9, "立ち絵E：ここな軽戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 2, 0])
+                    ShowPicture([9, "立ち絵E：ここな軽戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情１１", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 63, 0, 3, 0])
+                      ShowPicture([9, "立ち絵E：ここな軽戦士２", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情２２", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              CallCommonEvent([120])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    Comment(["###########変数11以上##################33"])
+    ConditionalBranch([1, 201, 0, 16, 4])
+      ConditionalBranch([1, 201, 0, 11, 0])
+        ConditionalBranch([1, 201, 0, 11, 0])
+          ConditionalBranch([1, 63, 0, 1, 0])
+            ShowPicture([9, "立ち絵E：ここなマヨイ", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情１", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 2, 0])
+              ShowPicture([9, "立ち絵E：ここなマヨイ", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情１", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 3, 0])
+                ShowPicture([9, "立ち絵E：ここなマヨイ", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情１５", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        CallCommonEvent([121])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 201, 0, 12, 0])
+          ConditionalBranch([1, 63, 0, 1, 0])
+            ShowPicture([9, "立ち絵E：ここなマヨイ２", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 2, 0])
+              ShowPicture([9, "立ち絵E：ここなマヨイ２", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情１５-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 3, 0])
+                ShowPicture([9, "立ち絵E：ここなマヨイ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情２２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          CallCommonEvent([122])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 13, 0])
+            ConditionalBranch([1, 63, 0, 1, 0])
+              ShowPicture([9, "立ち絵E：ここなアイエフ", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 2, 0])
+                ShowPicture([9, "立ち絵E：ここなアイエフ", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 3, 0])
+                  ShowPicture([9, "立ち絵E：ここなアイエフ", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            CallCommonEvent([123])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 14, 0])
+              ConditionalBranch([1, 63, 0, 1, 0])
+                ShowPicture([9, "立ち絵E：ここなアイエフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 2, 0])
+                  ShowPicture([9, "立ち絵E：ここなアイエフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 3, 0])
+                    ShowPicture([9, "立ち絵E：ここなアイエフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              CallCommonEvent([124])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 15, 0])
+                ConditionalBranch([1, 63, 0, 1, 0])
+                  ShowPicture([9, "立ち絵E：ここなニンフ", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 2, 0])
+                    ShowPicture([9, "立ち絵E：ここなニンフ", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 63, 0, 3, 0])
+                      ShowPicture([9, "立ち絵E：ここなニンフ", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              CallCommonEvent([125])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      Comment(["１６以上"])
+      ConditionalBranch([1, 201, 0, 23, 4])
+        ConditionalBranch([1, 201, 0, 16, 0])
+          ConditionalBranch([1, 63, 0, 1, 0])
+            ShowPicture([9, "立ち絵E：ここなニンフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+            ConditionalBranch([4, 15, 6, 27])
+              ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 63, 0, 2, 0])
+              ShowPicture([9, "立ち絵E：ここなニンフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情１１", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 3, 0])
+                ShowPicture([9, "立ち絵E：ここなニンフ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情１５-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          CallCommonEvent([126])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 201, 0, 17, 0])
+            ConditionalBranch([1, 63, 0, 1, 0])
+              ShowPicture([9, "立ち絵E：ここなユニ", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 2, 0])
+                ShowPicture([9, "立ち絵E：ここなユニ", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 3, 0])
+                  ShowPicture([9, "立ち絵E：ここなユニ", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            CallCommonEvent([127])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 201, 0, 18, 0])
+              ConditionalBranch([1, 63, 0, 1, 0])
+                ShowPicture([9, "立ち絵E：ここなユニ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 2, 0])
+                  ShowPicture([9, "立ち絵E：ここなユニ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 3, 0])
+                    ShowPicture([9, "立ち絵E：ここなユニ２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情１５-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              CallCommonEvent([128])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 201, 0, 19, 0])
+                ConditionalBranch([1, 63, 0, 1, 0])
+                  ShowPicture([9, "立ち絵E：ここなアル", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情１", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 63, 0, 2, 0])
+                    ShowPicture([9, "立ち絵E：ここなアル", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 63, 0, 3, 0])
+                      ShowPicture([9, "立ち絵E：ここなアル", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                CallCommonEvent([129])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 201, 0, 20, 0])
+                  ConditionalBranch([1, 63, 0, 1, 0])
+                    ShowPicture([9, "立ち絵E：ここなアル２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ConditionalBranch([4, 15, 6, 27])
+                      ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    Else([])
+                      ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 63, 0, 2, 0])
+                      ShowPicture([9, "立ち絵E：ここなアル２", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    Else([])
+                      ConditionalBranch([1, 63, 0, 3, 0])
+                        ShowPicture([9, "立ち絵E：ここなアル２", 0, 0, 0, 0, 100, 100, 255, 0])
+                        ConditionalBranch([4, 15, 6, 27])
+                          ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        Else([])
+                          ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  CallCommonEvent([130])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 201, 0, 21, 0])
+                    ConditionalBranch([1, 63, 0, 1, 0])
+                      ShowPicture([9, "立ち絵E：ここなレイン２", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ConditionalBranch([4, 15, 6, 27])
+                        ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    Else([])
+                      ConditionalBranch([1, 63, 0, 2, 0])
+                        ShowPicture([9, "立ち絵E：ここなレイン２", 0, 0, 0, 0, 100, 100, 255, 0])
+                        ConditionalBranch([4, 15, 6, 27])
+                          ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        Else([])
+                          ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      Else([])
+                        ConditionalBranch([1, 63, 0, 3, 0])
+                          ShowPicture([9, "立ち絵E：ここなレイン２", 0, 0, 0, 0, 100, 100, 255, 0])
+                          ConditionalBranch([4, 15, 6, 27])
+                            ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                            Empty([])
+
+                          Else([])
+                            ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                            Empty([])
+
+                          BranchEnd([])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    CallCommonEvent([131])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 201, 0, 22, 0])
+                      ConditionalBranch([1, 63, 0, 1, 0])
+                        ShowPicture([9, "立ち絵E：ここなレイン３", 0, 0, 0, 0, 100, 100, 255, 0])
+                        ConditionalBranch([4, 15, 6, 27])
+                          ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        Else([])
+                          ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      Else([])
+                        ConditionalBranch([1, 63, 0, 2, 0])
+                          ShowPicture([9, "立ち絵E：ここなレイン３", 0, 0, 0, 0, 100, 100, 255, 0])
+                          ConditionalBranch([4, 15, 6, 27])
+                            ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                            Empty([])
+
+                          Else([])
+                            ShowPicture([10, "立ち絵E：ここな表情１-2", 0, 0, 0, 0, 100, 100, 255, 0])
+                            Empty([])
+
+                          BranchEnd([])
+                          Empty([])
+
+                        Else([])
+                          ConditionalBranch([1, 63, 0, 3, 0])
+                            ShowPicture([9, "立ち絵E：ここなレイン３", 0, 0, 0, 0, 100, 100, 255, 0])
+                            ConditionalBranch([4, 15, 6, 27])
+                              ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                              Empty([])
+
+                            Else([])
+                              ShowPicture([10, "立ち絵E：ここな表情１１", 0, 0, 0, 0, 100, 100, 255, 0])
+                              Empty([])
+
+                            BranchEnd([])
+                            Empty([])
+
+                          BranchEnd([])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      BranchEnd([])
+                      CallCommonEvent([132])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        Comment(["２３から"])
+        ConditionalBranch([1, 201, 0, 27, 2])
+          ConditionalBranch([1, 201, 0, 23, 0])
+            ConditionalBranch([1, 63, 0, 1, 0])
+              ShowPicture([9, "立ち絵E：ここなレイン", 0, 0, 0, 0, 100, 100, 255, 0])
+              ConditionalBranch([4, 15, 6, 27])
+                ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ShowPicture([10, "立ち絵E：ここな表情３", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 63, 0, 2, 0])
+                ShowPicture([9, "立ち絵E：ここなレイン", 0, 0, 0, 0, 100, 100, 255, 0])
+                ConditionalBranch([4, 15, 6, 27])
+                  ShowPicture([10, "立ち絵E：ここな表情２８", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                Else([])
+                  ShowPicture([10, "立ち絵E：ここな表情５", 0, 0, 0, 0, 100, 100, 255, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 63, 0, 3, 0])
+                  ShowPicture([9, "立ち絵E：ここなレイン", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ConditionalBranch([4, 15, 6, 27])
+                    ShowPicture([10, "立ち絵E：ここな表情２７", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ShowPicture([10, "立ち絵E：ここな表情２", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            CallCommonEvent([133])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        Else([])
+          Comment(["２８から"])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

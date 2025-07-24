@@ -1,0 +1,22 @@
+CommonEvent 121
+Name = "１１まよい"
+
+  ConditionalBranch([1, 200, 0, 1, 1])
+    ControlVariables([212, 212, 1, 1, 200])
+    ControlVariables([200, 200, 0, 0, 0])
+    ConditionalBranch([1, 212, 0, 100, 1])
+      ChangeArmor([812, 0, 0, 1, false])
+      ChangeEquipment([15, 3, 812])
+      ChangeArmor([811, 1, 0, 1, true])
+      ControlVariables([212, 212, 0, 0, 0])
+      ControlVariables([213, 213, 0, 0, 0])
+      ControlVariables([201, 201, 1, 0, 1])
+      PlaySE(["RPG::SE(@name=\"Thunder3\", @pitch=130, @volume=80)"])
+      CallCommonEvent([99])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

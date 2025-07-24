@@ -1,0 +1,20 @@
+CommonEvent 444
+Name = "☆触手１"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 110, 0, 0, 0])
+      CallCommonEvent([445])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([446])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([447])
+  Empty([])

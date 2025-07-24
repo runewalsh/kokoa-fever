@@ -1,0 +1,8 @@
+CommonEvent 397
+Name = "☆エロ前処理（合意"
+
+  CallCommonEvent([400])
+  SaveBGM([])
+  FadeoutScreen([])
+  PlayBGM(["RPG::BGM(@name=\"合意\", @volume=95, @pitch=100)"])
+  Empty([])

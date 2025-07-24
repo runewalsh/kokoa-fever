@@ -1,0 +1,82 @@
+Display Name = "防具屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 38, 44, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["防具屋のにいちゃん"])
+    ShowText(["「いらっしゃい！」"])
+    ShopProcessing([2, 69, 0, 0, true])
+    ShopItem([2, 70, 0, 0])
+    ShopItem([2, 71, 0, 0])
+    ShopItem([2, 72, 0, 0])
+    ShopItem([2, 73, 0, 0])
+    ShopItem([2, 74, 0, 0])
+    ShopItem([2, 75, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["真面目そうな冒険者"])
+    ShowText(["「ち、違いますよ！"])
+    ShowText(["　べべべつに女装に興味があるわけじゃ！？」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ConditionalBranch([6, -1, 4])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ナルシスト"])
+      ShowText(["「あー俺めっちゃカッコええわー。困っちゃうわーほんまー」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ナルシスト"])
+      ShowText(["「あー俺めっちゃカッコええわー。困っちゃうわーほんまー」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ConditionalBranch([6, -1, 6])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ナルシスト"])
+      ShowText(["「あー俺めっちゃカッコええわー。困っちゃうわーほんまー」"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])

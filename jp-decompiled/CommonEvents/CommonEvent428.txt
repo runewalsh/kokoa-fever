@@ -1,0 +1,12 @@
+CommonEvent 428
+Name = "☆アジト3人敗北時"
+
+  FadeoutScreen([])
+  RecoverAll([0, 0])
+  Wait([60])
+  TransferPlayer([0, 214, 5, 15, 6, 0])
+  FadeinScreen([])
+  PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+  ShotBalloonIcon([-1, 1, true])
+  CallCommonEvent([459])
+  Empty([])

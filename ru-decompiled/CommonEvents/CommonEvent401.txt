@@ -1,0 +1,20 @@
+CommonEvent 401
+Name = "☆森スライム"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 101, 0, 0, 0])
+      CallCommonEvent([402])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([403])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([408])
+  Empty([])

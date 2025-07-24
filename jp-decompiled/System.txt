@@ -1,0 +1,7 @@
+Game Title = "ココアちゃんフィーバー"
+Currency Unit = "Yen"
+Title 1 Name = "タイトル"
+Title 2 Name = ""
+Battleback 1 Name = "Grassland"
+Battleback 2 Name = "Grassland"
+Battler Name = "Skeleton"

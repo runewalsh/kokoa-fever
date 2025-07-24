@@ -1,0 +1,81 @@
+Display Name = "紋章印店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "店主"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["店主"])
+    ShowText(["「うふふ・・いらっしゃい」"])
+    ShopProcessing([2, 485, 0, 0, true])
+    ShopItem([2, 486, 0, 0])
+    ShopItem([2, 487, 0, 0])
+    ShopItem([2, 488, 0, 0])
+    ShopItem([2, 489, 0, 0])
+    ShopItem([2, 490, 0, 0])
+    ShopItem([2, 133, 0, 0])
+    ShopItem([2, 134, 0, 0])
+    ShopItem([2, 135, 0, 0])
+    ShopItem([2, 136, 0, 0])
+    ShopItem([2, 137, 0, 0])
+    ShopItem([2, 138, 0, 0])
+    ShopItem([2, 139, 0, 0])
+    ShopItem([2, 140, 0, 0])
+    ShopItem([2, 141, 0, 0])
+    ShopItem([2, 142, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 199, 32, 11, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ControlSwitches([21, 21, 1])
+    ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「クロウの紹介で来た！」"])
+    ShotBalloonIcon([2, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["店主"])
+    ShowText(["「あら・・そうなの・・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["店主"])
+    ShowText(["「へぇ～・・あなたの服が・・・そうなのね」"])
+    ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・・？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["店主"])
+    ShowText(["「ゆっくり見て行ってちょうだい・・」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「う、うぃ」"])
+    ErasePicture([10])
+    ControlSwitches([21, 21, 0])
+    ControlVariables([18, 18, 0, 0, 20])
+    Empty([])
+
+  Page 1
+    Empty([])

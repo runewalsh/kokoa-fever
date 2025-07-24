@@ -1,0 +1,8 @@
+CommonEvent 476
+Name = "　汎用２"
+
+  ShowPicture([1, "Hイベント：カルボ鉱山汎用ここな４", 0, 0, 0, 0, 100, 100, 255, 0])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ここなは魔物に腹パンでイカされ続けました"])
+  Empty([])

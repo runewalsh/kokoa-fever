@@ -1,0 +1,29 @@
+CommonEvent 380
+Name = "☆ピストン"
+
+  Loop([])
+    ConditionalBranch([1, 52, 0, 0, 0])
+      Comment(["スライム"])
+      PlaySE(["RPG::SE(@name=\"ぐちゅぐちゅ２\", @pitch=100, @volume=100)"])
+      Wait([60])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 52, 0, 1, 0])
+        Comment(["ピストン"])
+        PlaySE(["RPG::SE(@name=\"07\", @pitch=110, @volume=100)"])
+        Wait([60])
+        Wait([75])
+        Empty([])
+
+      Else([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  RepeatAbove([])
+  Empty([])

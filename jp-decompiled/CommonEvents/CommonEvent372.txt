@@ -1,0 +1,20 @@
+CommonEvent 372
+Name = "★立ち絵表示再開"
+
+  ConditionalBranch([1, 26, 0, 1, 0])
+    ControlSwitches([21, 21, 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 26, 0, 2, 0])
+      ControlSwitches([22, 22, 0])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

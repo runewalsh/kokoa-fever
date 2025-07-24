@@ -1,0 +1,2938 @@
+Display Name = "BP界"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【閃刃】"])
+    ShowText(["属性：物理"])
+    ShowText(["種類：単体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["威力は低いが素早く対象を攻撃できる初歩スキル"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["物理スキル"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["物魔複合スキル"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["魔法スキル"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["その他"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【クロスディバイダー】"])
+    ShowText(["属性：物理　覇"])
+    ShowText(["種類：単体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["速度と火力を両立させた安定度の高いスキル"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ダブルカウント】"])
+    ShowText(["属性：物理　斬"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：ディレイ"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["対象を２回攻撃する汎用スキル"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【強撃】"])
+    ShowText(["属性：物理　打"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：スタン　キャンセル"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["強力な打撃攻撃により敵スキルをキャンセルする事が可能"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【トリプルカウント】"])
+    ShowText(["属性：物理　斬"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：ディレイ"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ダブルカウントの上位スキル"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【連】"])
+    ShowText(["属性：物理　斬"])
+    ShowText(["種類：単体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["発生・硬直が長いスキルだがそれだけに威力が期待できる高火力スキル"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【殺】"])
+    ShowText(["属性：物理　突"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：キャンセル"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["高火力の尖剣スキル"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【五月雨】"])
+    ShowText(["属性：物理　突"])
+    ShowText(["種類：単体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["対象を滅多刺しにする尖剣多段スキル"])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ダッシュ斬り】"])
+    ShowText(["属性：物理"])
+    ShowText(["種類：全体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["素早く全体攻撃出来る汎用スキル"])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【クロススラッシュ】"])
+    ShowText(["属性：物理　覇"])
+    ShowText(["種類：全体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["覇属性による火力安定度の高い全体スキル"])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【乱舞斬】"])
+    ShowText(["属性：物理　斬"])
+    ShowText(["種類：範囲分散"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["非常に強力な長剣用範囲分散スキル"])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【フレイムエッジ】"])
+    ShowText(["属性：物魔　火"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：火傷"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["汎用性の高い初歩的な魔剣スキル"])
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【炎舞】"])
+    ShowText(["属性：物魔　火"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：火傷　MDF_DN"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フレイムエッジの強化版スキル"])
+    ShowText(["対象の魔法・物魔耐性を下げる事がある"])
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【デュアルエッジ】"])
+    ShowText(["属性：物魔"])
+    ShowText(["種類：単体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["汎用性の高い通常魔剣スキル"])
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【アイシクルブレード】"])
+    ShowText(["属性：物魔　水"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：凍結　AGI_DN"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["火力こそ低いものの相手の行動を制限する効果が期待できるスキル"])
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【インパルスアサルト】"])
+    ShowText(["属性：物魔　雷"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：感電"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["非常に火力が高い魔剣スキル。"])
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【一撃】"])
+    ShowText(["属性：物魔　"])
+    ShowText(["種類：全体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["敵全体を素早く攻撃する多段魔剣スキル"])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【凍刃招】"])
+    ShowText(["属性：物魔　水"])
+    ShowText(["種類：全体"])
+    ShowText(["付与：凍結"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["火力の高い物魔攻撃を繰り出す事が可能なスキル"])
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ショック】"])
+    ShowText(["属性：魔法　雷"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：感電"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["物理で言う所の通常攻撃のようなスキル"])
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ファイア】"])
+    ShowText(["属性：魔法　火"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：火傷"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["汎用性の高い基本魔法"])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【アイスニードル】"])
+    ShowText(["属性：魔法　水"])
+    ShowText(["種類：範囲分散"])
+    ShowText(["付与：凍結"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["非常にHIT回数が多い範囲分散型魔法"])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【サンダーボルト】"])
+    ShowText(["属性：魔法　雷"])
+    ShowText(["種類：範囲分散"])
+    ShowText(["付与：感電"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["アイスニードルと比べると火力こそ劣るものの"])
+    ShowText(["速度が安定している多段範囲分散魔法"])
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【フレイム】"])
+    ShowText(["属性：魔法　火"])
+    ShowText(["種類：単体"])
+    ShowText(["付与：火傷"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ファイアの上位魔法。その威力には安定感がある"])
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【暗黒】"])
+    ShowText(["属性：魔法　闇"])
+    ShowText(["種類：単体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココアの心の闇が開放された証となる魔法"])
+    ShowText(["威力と速さではフレイムを上回る"])
+    Empty([])
+
+CommonEvent 29
+Name = "EV029"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ファイアバースト】"])
+    ShowText(["属性：魔法　火"])
+    ShowText(["種類：全体"])
+    ShowText(["付与：火傷"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ダメージにムラがある安定度が低い全体魔法"])
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【テンライ】"])
+    ShowText(["属性：魔法　雷"])
+    ShowText(["種類：全体"])
+    ShowText(["付与：感電"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["天の裁きに相応しい性能を誇る全体魔法"])
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ダークネス】"])
+    ShowText(["属性：魔法　闇"])
+    ShowText(["種類：全体"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ダメージ・速度よりは使い勝手を採用した全体魔法"])
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ヒール】"])
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【アイシクルフィールド】"])
+    ShowText(["属性：魔法　水"])
+    ShowText(["種類：全体"])
+    ShowText(["付与：凍結"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["敵全体を襲う強力な魔法スキル"])
+    Empty([])
+
+CommonEvent 34
+Name = "EV034"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【メガヒール】"])
+    Empty([])
+
+CommonEvent 35
+Name = "EV035"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【ギガヒール】"])
+    Empty([])
+
+CommonEvent 36
+Name = "EV036"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【防御】"])
+    Empty([])
+
+CommonEvent 37
+Name = "EV037"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【複合防御】"])
+    Empty([])
+
+CommonEvent 38
+Name = "EV038"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【呼吸法】"])
+    Empty([])
+
+CommonEvent 39
+Name = "EV039"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【精神統一】"])
+    Empty([])
+
+CommonEvent 40
+Name = "EV040"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 151])
+        ChangeSkills([0, 12, 0, 152])
+        ControlVariables([222, 222, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 152])
+        ChangeSkills([0, 12, 0, 153])
+        ControlVariables([222, 222, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([222, 222, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 41
+Name = "EV041"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 154])
+        ChangeSkills([0, 12, 0, 155])
+        ControlVariables([223, 223, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 155])
+        ChangeSkills([0, 12, 0, 156])
+        ControlVariables([223, 223, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([223, 223, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 42
+Name = "EV042"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 157])
+        ChangeSkills([0, 12, 0, 158])
+        ControlVariables([224, 224, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 158])
+        ChangeSkills([0, 12, 0, 159])
+        ControlVariables([224, 224, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([224, 224, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 43
+Name = "EV043"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 160])
+        ChangeSkills([0, 12, 0, 161])
+        ControlVariables([225, 225, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 161])
+        ChangeSkills([0, 12, 0, 162])
+        ControlVariables([225, 225, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([225, 225, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 44
+Name = "EV044"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 163])
+        ChangeSkills([0, 12, 0, 164])
+        ControlVariables([226, 226, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 164])
+        ChangeSkills([0, 12, 0, 165])
+        ControlVariables([226, 226, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([226, 226, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 45
+Name = "EV045"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 166])
+        ChangeSkills([0, 12, 0, 167])
+        ControlVariables([227, 227, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 167])
+        ChangeSkills([0, 12, 0, 168])
+        ControlVariables([227, 227, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([227, 227, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 46
+Name = "EV046"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 169])
+        ChangeSkills([0, 12, 0, 170])
+        ControlVariables([228, 228, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 170])
+        ChangeSkills([0, 12, 0, 171])
+        ControlVariables([228, 228, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([228, 228, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 47
+Name = "EV047"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 172])
+        ChangeSkills([0, 12, 0, 173])
+        ControlVariables([229, 229, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 173])
+        ChangeSkills([0, 12, 0, 174])
+        ControlVariables([229, 229, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([229, 229, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 48
+Name = "EV048"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 202])
+        ChangeSkills([0, 12, 0, 203])
+        ControlVariables([235, 235, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 203])
+        ChangeSkills([0, 12, 0, 204])
+        ControlVariables([235, 235, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([235, 235, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 49
+Name = "EV049"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 205])
+        ChangeSkills([0, 12, 0, 206])
+        ControlVariables([236, 236, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 206])
+        ChangeSkills([0, 12, 0, 207])
+        ControlVariables([236, 236, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([236, 236, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 50
+Name = "EV050"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 223])
+        ChangeSkills([0, 12, 0, 224])
+        ControlVariables([239, 239, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 224])
+        ChangeSkills([0, 12, 0, 225])
+        ControlVariables([239, 239, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([239, 239, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 51
+Name = "EV051"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 175])
+        ChangeSkills([0, 12, 0, 176])
+        ControlVariables([230, 230, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 176])
+        ChangeSkills([0, 12, 0, 177])
+        ControlVariables([230, 230, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([230, 230, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 52
+Name = "EV052"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 178])
+        ChangeSkills([0, 12, 0, 179])
+        ControlVariables([231, 231, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 179])
+        ChangeSkills([0, 12, 0, 180])
+        ControlVariables([231, 231, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([231, 231, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 53
+Name = "EV053"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 181])
+        ChangeSkills([0, 12, 0, 182])
+        ControlVariables([232, 232, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 182])
+        ChangeSkills([0, 12, 0, 183])
+        ControlVariables([232, 232, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([232, 232, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 54
+Name = "EV054"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 184])
+        ChangeSkills([0, 12, 0, 185])
+        ControlVariables([233, 233, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 185])
+        ChangeSkills([0, 12, 0, 186])
+        ControlVariables([233, 233, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([233, 233, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 55
+Name = "EV055"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 187])
+        ChangeSkills([0, 12, 0, 188])
+        ControlVariables([234, 234, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 188])
+        ChangeSkills([0, 12, 0, 189])
+        ControlVariables([234, 234, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([234, 234, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 56
+Name = "EV056"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 208])
+        ChangeSkills([0, 12, 0, 209])
+        ControlVariables([237, 237, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 209])
+        ChangeSkills([0, 12, 0, 210])
+        ControlVariables([237, 237, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([237, 237, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 57
+Name = "EV057"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 211])
+        ChangeSkills([0, 12, 0, 212])
+        ControlVariables([238, 238, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 212])
+        ChangeSkills([0, 12, 0, 213])
+        ControlVariables([238, 238, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([238, 238, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 58
+Name = "EV058"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 252])
+        ChangeSkills([0, 12, 0, 253])
+        ControlVariables([250, 250, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 253])
+        ChangeSkills([0, 12, 0, 254])
+        ControlVariables([250, 250, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([250, 250, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 59
+Name = "EV059"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 255])
+        ChangeSkills([0, 12, 0, 256])
+        ControlVariables([251, 251, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 256])
+        ChangeSkills([0, 12, 0, 257])
+        ControlVariables([251, 251, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([251, 251, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 60
+Name = "EV060"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 258])
+        ChangeSkills([0, 12, 0, 259])
+        ControlVariables([252, 252, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 259])
+        ChangeSkills([0, 12, 0, 260])
+        ControlVariables([252, 252, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([252, 252, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 61
+Name = "EV061"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 131])
+        ChangeSkills([0, 12, 0, 132])
+        ControlVariables([255, 255, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([255, 255, 0, 0, 3])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 62
+Name = "EV062"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 133])
+        ChangeSkills([0, 12, 0, 134])
+        ControlVariables([256, 256, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([256, 256, 0, 0, 3])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 63
+Name = "EV063"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 353])
+        ChangeSkills([0, 12, 0, 354])
+        ControlVariables([253, 253, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 354])
+        ChangeSkills([0, 12, 0, 355])
+        ControlVariables([253, 253, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([253, 253, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 64
+Name = "EV064"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 356])
+        ChangeSkills([0, 12, 0, 357])
+        ControlVariables([254, 254, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 357])
+        ChangeSkills([0, 12, 0, 358])
+        ControlVariables([254, 254, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([254, 254, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 65
+Name = "EV065"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 279])
+        ChangeSkills([0, 12, 0, 280])
+        ControlVariables([240, 240, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 280])
+        ChangeSkills([0, 12, 0, 281])
+        ControlVariables([240, 240, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([240, 240, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 66
+Name = "EV066"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 282])
+        ChangeSkills([0, 12, 0, 283])
+        ControlVariables([241, 241, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 283])
+        ChangeSkills([0, 12, 0, 284])
+        ControlVariables([241, 241, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([241, 241, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 67
+Name = "EV067"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 285])
+        ChangeSkills([0, 12, 0, 286])
+        ControlVariables([242, 242, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 286])
+        ChangeSkills([0, 12, 0, 287])
+        ControlVariables([242, 242, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([242, 242, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 68
+Name = "EV068"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 288])
+        ChangeSkills([0, 12, 0, 289])
+        ControlVariables([243, 243, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 289])
+        ChangeSkills([0, 12, 0, 290])
+        ControlVariables([243, 243, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([243, 243, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 69
+Name = "EV069"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 291])
+        ChangeSkills([0, 12, 0, 292])
+        ControlVariables([244, 244, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 292])
+        ChangeSkills([0, 12, 0, 293])
+        ControlVariables([244, 244, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([244, 244, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 70
+Name = "EV070"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 294])
+        ChangeSkills([0, 12, 0, 295])
+        ControlVariables([245, 245, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 295])
+        ChangeSkills([0, 12, 0, 296])
+        ControlVariables([245, 245, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([245, 245, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 71
+Name = "EV071"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 318])
+        ChangeSkills([0, 12, 0, 319])
+        ControlVariables([246, 246, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 319])
+        ChangeSkills([0, 12, 0, 320])
+        ControlVariables([246, 246, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([246, 246, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 72
+Name = "EV072"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 321])
+        ChangeSkills([0, 12, 0, 322])
+        ControlVariables([247, 247, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 322])
+        ChangeSkills([0, 12, 0, 323])
+        ControlVariables([247, 247, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([247, 247, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 73
+Name = "EV073"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 324])
+        ChangeSkills([0, 12, 0, 325])
+        ControlVariables([248, 248, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 325])
+        ChangeSkills([0, 12, 0, 326])
+        ControlVariables([248, 248, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([248, 248, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 74
+Name = "EV074"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 327])
+        ChangeSkills([0, 12, 0, 328])
+        ControlVariables([249, 249, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 328])
+        ChangeSkills([0, 12, 0, 329])
+        ControlVariables([249, 249, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([249, 249, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 75
+Name = "EV075"
+
+  Page 0
+    ControlSwitches([11, 11, 1])
+    ShowAnimation([-1, 145, false])
+    Wait([60])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    Wait([60])
+    Wait([60])
+    FadeoutScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    TransferPlayer([1, 66, 67, 68, 2, 0])
+    ControlSwitches([17, 17, 1])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 76
+Name = "EV076"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["【クレイアーマー】"])
+    Empty([])
+
+CommonEvent 77
+Name = "EV077"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを10消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 10, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 10])
+        ChangeSkills([0, 12, 1, 271])
+        ChangeSkills([0, 12, 0, 272])
+        ControlVariables([257, 257, 0, 0, 2])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["BPを20消費してレベルを上げますか？"])
+    ShowText([" "])
+    ShowText(["(BP:\\V[29])"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ConditionalBranch([1, 29, 0, 20, 1])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["レベルが上がりました"])
+        ControlVariables([29, 29, 2, 0, 20])
+        ChangeSkills([0, 12, 1, 272])
+        ChangeSkills([0, 12, 0, 273])
+        ControlVariables([257, 257, 0, 0, 3])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["BPが足りません"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["フル強化ボーナス【スキルポイント】2PP手に入れた！"])
+    Script(["get_skillpoint(12, 2)"])
+    ControlVariables([257, 257, 0, 0, 4])
+    Empty([])
+
+  Page 3
+    Empty([])

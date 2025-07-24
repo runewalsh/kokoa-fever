@@ -1,0 +1,20 @@
+CommonEvent 452
+Name = "☆カエル女"
+
+  CallCommonEvent([399])
+  ConditionalBranch([1, 26, 0, 1, 0])
+    CallCommonEvent([398])
+    ConditionalBranch([1, 112, 0, 0, 0])
+      CallCommonEvent([453])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([454])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([455])
+  Empty([])

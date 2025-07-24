@@ -1,0 +1,17 @@
+CommonEvent 454
+Name = "　２"
+
+  ControlVariables([24, 24, 0, 2, 0, 1])
+  ConditionalBranch([1, 24, 0, 0, 0])
+    ShowPicture([1, "魔物H：カエル女１", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    ShowPicture([1, "魔物H：カエル女３", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  BranchEnd([])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["カエル女に卵を植え付けられました"])
+  Empty([])

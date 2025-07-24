@@ -1,0 +1,17 @@
+CommonEvent 415
+Name = "　ぜりいぬ２"
+
+  ControlVariables([24, 24, 0, 2, 0, 1])
+  ConditionalBranch([1, 24, 0, 0, 0])
+    ShowPicture([1, "魔物H：ゼリイヌ", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    ShowPicture([1, "魔物H：ゼリイヌ２", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  BranchEnd([])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ゼリー漬けにされてしまった！"])
+  Empty([])

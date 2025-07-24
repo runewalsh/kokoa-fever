@@ -1,0 +1,5 @@
+CommonEvent 972
+Name = "呪術師の日記"
+
+  ControlSwitches([217, 217, 0])
+  Empty([])

@@ -1,0 +1,5 @@
+CommonEvent 974
+Name = "将軍の日記"
+
+  ControlSwitches([219, 219, 0])
+  Empty([])

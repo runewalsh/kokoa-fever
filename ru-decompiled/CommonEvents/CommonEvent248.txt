@@ -1,0 +1,4 @@
+CommonEvent 248
+Name = ""
+
+  Empty([])

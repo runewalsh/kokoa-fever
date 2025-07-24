@@ -1,0 +1,25 @@
+CommonEvent 461
+Name = "☆マッサージ店"
+
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["おじさん"])
+  ShowText(["「ではでは、奥までお願いします・・・。」"])
+  ChangeGold([1, 0, 1000])
+  SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+  Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+  Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+  Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+  Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+  FadeoutScreen([])
+  CallCommonEvent([398])
+  ConditionalBranch([1, 113, 0, 0, 0])
+    CallCommonEvent([462])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([464])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([463])
+  Empty([])

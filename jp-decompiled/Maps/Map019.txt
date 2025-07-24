@@ -1,0 +1,71 @@
+Display Name = "武器屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 11, 45, 44, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "武器屋のおっさん"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["武器屋のおっさん"])
+    ShowText(["「いらっしゃい！」"])
+    ShopProcessing([1, 102, 0, 0, true])
+    ShopItem([1, 103, 0, 0])
+    ShopItem([1, 104, 0, 0])
+    ShopItem([1, 105, 0, 0])
+    ShopItem([1, 106, 0, 0])
+    ShopItem([1, 107, 0, 0])
+    ShopItem([1, 108, 0, 0])
+    ShopItem([1, 109, 0, 0])
+    ShopItem([1, 110, 0, 0])
+    ShopItem([1, 112, 0, 0])
+    ShopItem([1, 113, 0, 0])
+    ShopItem([1, 114, 0, 0])
+    ShopItem([1, 116, 0, 0])
+    ShopItem([1, 117, 0, 0])
+    ShopItem([1, 118, 0, 0])
+    ShopItem([1, 119, 0, 0])
+    ShopItem([1, 120, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "ここな用装備判定"
+
+  Page 0
+    Comment(["202に0を格納"])
+    CommentMore(["もしも12番が121の防具を装備していたら"])
+    CommentMore(["202は1を格納する"])
+    Script(["$game_variables[202] = 0"])
+    ScriptMore([" id_arr = $game_actors[12].armors.collect\\"])
+    ScriptMore([" {|obj| $game_party.turn_item_id(obj.id)}"])
+    ScriptMore([" $game_variables[202] =                     "])
+    ScriptMore(["1 if id_arr.include?(121)"])
+    ScriptMore([" "])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["長髪の魔法使い"])
+    ShowText(["「護身用でひとつ持っておこうか・・・"])
+    ShowText(["　いや、魔法使いだし剣なんていらないか・・・」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ヤンキー"])
+    ShowText(["「どれが一番えぇの？」"])
+    Empty([])

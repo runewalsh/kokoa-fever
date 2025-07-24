@@ -1,0 +1,62 @@
+CommonEvent 15
+Name = "　描写"
+
+  ConditionalBranch([1, 198, 0, 0, 0])
+    Comment(["全裸"])
+    ConditionalBranch([1, 63, 0, 1, 0])
+      ShowPicture([10, "立ち絵：ココア裸１", 0, 0, 0, 0, 100, 100, 255, 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 63, 0, 2, 0])
+        ShowPicture([10, "立ち絵：ココア戦闘全裸B", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 63, 0, 3, 0])
+          ShowPicture([10, "立ち絵：ココア戦闘B裸１", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 198, 0, 1, 0])
+      Comment(["通常服"])
+      ConditionalBranch([1, 63, 0, 1, 0])
+        ShowPicture([10, "立ち絵：ココア通常", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 63, 0, 2, 0])
+          ShowPicture([10, "立ち絵：ココア通常３", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 63, 0, 3, 0])
+            ShowPicture([10, "立ち絵：ココア通常２", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

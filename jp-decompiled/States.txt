@@ -1,0 +1,1500 @@
+State 1
+Icon Index = 17
+Message 1 = "は倒れた！"
+Message 2 = "を倒した！"
+Message 3 = ""
+Message 4 = "は立ち上がった！"
+Name = "戦闘不能"
+Description = nil
+Note = "ステート１番はＨＰが０になったときに自動的に付加されます。"
+
+State 2
+Icon Index = 18
+Message 1 = "は毒に冒された！"
+Message 2 = "は毒に冒された！"
+Message 3 = ""
+Message 4 = "の毒が消えた！"
+Name = "毒"
+Description = nil
+Note = ""
+
+State 3
+Icon Index = 19
+Message 1 = "は暗闇に閉ざされた！"
+Message 2 = "を暗闇に閉ざした！"
+Message 3 = ""
+Message 4 = "の暗闇が消えた！"
+Name = "暗闇"
+Description = nil
+Note = ""
+
+State 4
+Icon Index = 20
+Message 1 = "は魔法を封じ込まれた！"
+Message 2 = "の魔法を封じ込めた！"
+Message 3 = ""
+Message 4 = "の魔法封じが解けた！"
+Name = "沈黙"
+Description = nil
+Note = ""
+
+State 5
+Icon Index = 21
+Message 1 = "は混乱してしまった！"
+Message 2 = "を混乱させた！"
+Message 3 = ""
+Message 4 = "は我に返った！"
+Name = "混乱"
+Description = nil
+Note = ""
+
+State 6
+Icon Index = 22
+Message 1 = "は眠ってしまった！"
+Message 2 = "を眠らせた！"
+Message 3 = "は眠っている……"
+Message 4 = "は目を覚ました！"
+Name = "睡眠"
+Description = nil
+Note = ""
+
+State 7
+Icon Index = 23
+Message 1 = "はしびれて動けなくなった！"
+Message 2 = "を麻痺させた！"
+Message 3 = "は体がしびれて動けない！"
+Message 4 = "の麻痺が解けた！"
+Name = "麻痺"
+Description = nil
+Note = ""
+
+State 8
+Icon Index = 24
+Message 1 = "はバランスを崩した！"
+Message 2 = "はバランスを崩した！"
+Message 3 = "はバランスを崩している……"
+Message 4 = "は体勢を立て直した！"
+Name = "スタン"
+Description = nil
+Note = ""
+
+State 9
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "防御"
+Description = ""
+Note = ""
+
+State 10
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "不死身"
+Description = ""
+Note = ""
+
+State 11
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "かばう"
+Description = ""
+Note = ""
+
+State 12
+Icon Index = 25
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "挑発"
+Description = ""
+Note = ""
+
+State 13
+Icon Index = 28
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "隠れる"
+Description = ""
+Note = ""
+
+State 14
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "HP再生"
+Description = ""
+Note = ""
+
+State 15
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MP再生"
+Description = ""
+Note = ""
+
+State 16
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "TP再生"
+Description = ""
+Note = ""
+
+State 17
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "鉄壁"
+Description = ""
+Note = ""
+
+State 18
+Icon Index = 27
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "反撃"
+Description = ""
+Note = ""
+
+State 19
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "魔法回避"
+Description = ""
+Note = ""
+
+State 20
+Icon Index = 31
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "魔法反射"
+Description = ""
+Note = ""
+
+State 21
+Icon Index = 104
+Message 1 = "は炎の力を身にまとった。"
+Message 2 = "は炎の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "炎の力"
+Description = ""
+Note = ""
+
+State 22
+Icon Index = 105
+Message 1 = "は氷の力を身にまとった。"
+Message 2 = "は氷の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "氷の力"
+Description = ""
+Note = ""
+
+State 23
+Icon Index = 106
+Message 1 = "は雷の力を身にまとった。"
+Message 2 = "は雷の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "雷の力"
+Description = ""
+Note = ""
+
+State 24
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "異常防止"
+Description = ""
+Note = ""
+
+State 25
+Icon Index = 30
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "消費MP減"
+Description = ""
+Note = ""
+
+State 26
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ーーーーーーーー"
+Description = ""
+Note = ""
+
+State 27
+Icon Index = 122
+Message 1 = "は発情してしまった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "発情"
+Description = ""
+Note = ""
+
+State 28
+Icon Index = 1301
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "妊娠"
+Description = ""
+Note = ""
+
+State 29
+Icon Index = 1317
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "臨月"
+Description = ""
+Note = ""
+
+State 30
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "奥義封印"
+Description = ""
+Note = ""
+
+State 31
+Icon Index = 24
+Message 1 = "はバランスを崩した！"
+Message 2 = "はバランスを崩した！"
+Message 3 = "はバランスを崩している……"
+Message 4 = "は体勢を立て直した！"
+Name = "スタン"
+Description = nil
+Note = ""
+
+State 32
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 33
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "防御Lv2"
+Description = ""
+Note = ""
+
+State 34
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "複合防御"
+Description = ""
+Note = ""
+
+State 35
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "複合防御Lv2"
+Description = ""
+Note = ""
+
+State 36
+Icon Index = 96
+Message 1 = "は火の力を身にまとった。"
+Message 2 = "は火の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "エンチャントレッド"
+Description = ""
+Note = ""
+
+State 37
+Icon Index = 99
+Message 1 = "は水の力を身にまとった。"
+Message 2 = "は水の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "エンチャントブルー"
+Description = ""
+Note = ""
+
+State 38
+Icon Index = 100
+Message 1 = "は土の力を身にまとった。"
+Message 2 = "は土の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "エンチャントブラウン"
+Description = ""
+Note = ""
+
+State 39
+Icon Index = 101
+Message 1 = "は風の力を身にまとった。"
+Message 2 = "は風の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "エンチャントグリーン"
+Description = ""
+Note = ""
+
+State 40
+Icon Index = 32
+Message 1 = "の体力が上昇した！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MHP_UP"
+Description = ""
+Note = ""
+
+State 41
+Icon Index = 34
+Message 1 = "の攻撃力が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ATK_UP"
+Description = ""
+Note = ""
+
+State 42
+Icon Index = 35
+Message 1 = "の防御力が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "DEF_UP"
+Description = ""
+Note = ""
+
+State 43
+Icon Index = 36
+Message 1 = "の魔法力が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MAT_UP"
+Description = ""
+Note = ""
+
+State 44
+Icon Index = 37
+Message 1 = "の魔法防御が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MDF_UP"
+Description = ""
+Note = ""
+
+State 45
+Icon Index = 38
+Message 1 = "のすばやさが上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "AGI_UP"
+Description = ""
+Note = ""
+
+State 46
+Icon Index = 1118
+Message 1 = "の能力が引き上げられた！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ALL_UP"
+Description = ""
+Note = ""
+
+State 47
+Icon Index = 1118
+Message 1 = "の能力が引き上げられた！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ALL_UPⅡ"
+Description = ""
+Note = ""
+
+State 48
+Icon Index = 40
+Message 1 = "の体力が上昇した！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MHP_UP　Lv2"
+Description = ""
+Note = ""
+
+State 49
+Icon Index = 42
+Message 1 = "の攻撃力が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ATK_UP"
+Description = ""
+Note = ""
+
+State 50
+Icon Index = 43
+Message 1 = "の防御力が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "DEF_UP"
+Description = ""
+Note = ""
+
+State 51
+Icon Index = 44
+Message 1 = "の魔法力が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MAT_UP"
+Description = ""
+Note = ""
+
+State 52
+Icon Index = 45
+Message 1 = "の魔法防御が上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MDF_UP"
+Description = ""
+Note = ""
+
+State 53
+Icon Index = 46
+Message 1 = "のすばやさが上がった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "AGI_UP"
+Description = ""
+Note = ""
+
+State 54
+Icon Index = 1116
+Message 1 = "の能力が引き上げられた！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ALL_UP"
+Description = ""
+Note = ""
+
+State 55
+Icon Index = 1116
+Message 1 = "の能力が引き上げられた！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ALL_UPⅡ"
+Description = ""
+Note = ""
+
+State 56
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 57
+Icon Index = 48
+Message 1 = "の体力が下がった！"
+Message 2 = "の体力が下がった！"
+Message 3 = ""
+Message 4 = ""
+Name = "MHP_DN"
+Description = ""
+Note = ""
+
+State 58
+Icon Index = 50
+Message 1 = "の攻撃力が下がった！"
+Message 2 = "の攻撃力が下がった！"
+Message 3 = ""
+Message 4 = ""
+Name = "ATK_DN"
+Description = ""
+Note = ""
+
+State 59
+Icon Index = 51
+Message 1 = "の防御力が下がった！"
+Message 2 = "の防御力が下がった！"
+Message 3 = ""
+Message 4 = ""
+Name = "DEF_DN"
+Description = ""
+Note = ""
+
+State 60
+Icon Index = 52
+Message 1 = "の魔法力が下がった！"
+Message 2 = "の魔法力が下がった！"
+Message 3 = ""
+Message 4 = ""
+Name = "MAT_DN"
+Description = ""
+Note = ""
+
+State 61
+Icon Index = 53
+Message 1 = "の魔法防御が下がった！"
+Message 2 = "の魔法防御が下がった！"
+Message 3 = ""
+Message 4 = ""
+Name = "MDF_DN"
+Description = ""
+Note = ""
+
+State 62
+Icon Index = 54
+Message 1 = "のすばやさが下がった！"
+Message 2 = "のすばやさが下がった！"
+Message 3 = ""
+Message 4 = ""
+Name = "AGI_DN"
+Description = ""
+Note = ""
+
+State 63
+Icon Index = 1119
+Message 1 = "の能力が引き下げられた！"
+Message 2 = "の能力が引き下げられた！"
+Message 3 = ""
+Message 4 = ""
+Name = "ALL_DN"
+Description = ""
+Note = ""
+
+State 64
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 65
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 66
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 67
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "敵防御"
+Description = ""
+Note = ""
+
+State 68
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 69
+Icon Index = 14
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "タクティックアソー"
+Description = ""
+Note = ""
+
+State 70
+Icon Index = 1109
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = "の気合が解けた"
+Name = "気合"
+Description = ""
+Note = ""
+
+State 71
+Icon Index = 912
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "オムライス"
+Description = ""
+Note = ""
+
+State 72
+Icon Index = 912
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "そば"
+Description = ""
+Note = ""
+
+State 73
+Icon Index = 912
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "からあげ"
+Description = ""
+Note = ""
+
+State 74
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 75
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 76
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 77
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 78
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 79
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 80
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 81
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 82
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 83
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 84
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 85
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 86
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 87
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 88
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 89
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 90
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 91
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Vスラ"
+Description = ""
+Note = ""
+
+State 92
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "オメガヒール"
+Description = ""
+Note = ""
+
+State 93
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "瞬間回復"
+Description = ""
+Note = ""
+
+State 94
+Icon Index = 121
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ほくほく"
+Description = ""
+Note = ""
+
+State 95
+Icon Index = 505
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "クレイアーマーLv3"
+Description = ""
+Note = ""
+
+State 96
+Icon Index = 505
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "クレイアーマーLv2"
+Description = ""
+Note = ""
+
+State 97
+Icon Index = 505
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "クレイアーマーLv1"
+Description = ""
+Note = ""
+
+State 98
+Icon Index = 1114
+Message 1 = "の防御能力が下がった"
+Message 2 = "の防御能力が下がった"
+Message 3 = ""
+Message 4 = "の防御能力が戻った"
+Name = "衰退"
+Description = ""
+Note = "アイシクルブレード"
+
+State 99
+Icon Index = 1115
+Message 1 = "の防御能力が下がった"
+Message 2 = "の防御能力が大きく下がった"
+Message 3 = ""
+Message 4 = "の防御能力が戻った"
+Name = "衰弱Lv2"
+Description = ""
+Note = ""
+
+State 100
+Icon Index = 1115
+Message 1 = "の防御能力が下がった"
+Message 2 = "の防御能力が下がった"
+Message 3 = ""
+Message 4 = "の防御能力が戻った"
+Name = "衰弱"
+Description = ""
+Note = ""
+
+State 101
+Icon Index = 105
+Message 1 = "は凍結状態になった！"
+Message 2 = "は凍結状態になった！"
+Message 3 = ""
+Message 4 = "の凍結が治った"
+Name = "凍結"
+Description = ""
+Note = ""
+
+State 102
+Icon Index = 104
+Message 1 = "は火傷を負った！"
+Message 2 = "は火傷を負った！"
+Message 3 = ""
+Message 4 = "の火傷が治った！"
+Name = "火傷"
+Description = ""
+Note = ""
+
+State 103
+Icon Index = 106
+Message 1 = "は感電した！！"
+Message 2 = "は感電した！！"
+Message 3 = ""
+Message 4 = "の感電が治った！"
+Name = "感電"
+Description = ""
+Note = ""
+
+State 104
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 105
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "-----敵が使う--------------"
+Description = ""
+Note = ""
+
+State 106
+Icon Index = 1112
+Message 1 = "が流血状態になってしまった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = "の流血が治った！"
+Name = "流血"
+Description = ""
+Note = ""
+
+State 107
+Icon Index = 24
+Message 1 = "は感電した！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = "の感電が治った！"
+Name = "感電"
+Description = ""
+Note = ""
+
+State 108
+Icon Index = 104
+Message 1 = "は火傷をおった！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = "の火傷が治った！"
+Name = "火傷"
+Description = ""
+Note = ""
+
+State 109
+Icon Index = 24
+Message 1 = "はバランスを崩した！"
+Message 2 = "はバランスを崩した！"
+Message 3 = "はバランスを崩している……"
+Message 4 = "は体勢を立て直した！"
+Name = "スタン"
+Description = nil
+Note = ""
+
+State 110
+Icon Index = 51
+Message 1 = "の防御性能が低下した！"
+Message 2 = ""
+Message 3 = ""
+Message 4 = "の防御性能が回復した！"
+Name = "貫通"
+Description = ""
+Note = ""
+
+State 111
+Icon Index = 35
+Message 1 = ""
+Message 2 = "の物理耐性が上昇した！"
+Message 3 = ""
+Message 4 = ""
+Name = "ブレスー物理"
+Description = ""
+Note = ""
+
+State 112
+Icon Index = 1115
+Message 1 = "が衰弱状態になった！"
+Message 2 = "の防御能力が下がった"
+Message 3 = ""
+Message 4 = "の衰弱が治った！"
+Name = "衰弱"
+Description = ""
+Note = ""
+
+State 113
+Icon Index = 18
+Message 1 = "は毒に冒された！"
+Message 2 = "は毒に冒された！"
+Message 3 = ""
+Message 4 = "の毒が消えた！"
+Name = "毒"
+Description = nil
+Note = ""
+
+State 114
+Icon Index = 19
+Message 1 = "は暗闇に閉ざされた！"
+Message 2 = "を暗闇に閉ざした！"
+Message 3 = ""
+Message 4 = "の暗闇が消えた！"
+Name = "暗闇"
+Description = nil
+Note = ""
+
+State 115
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 116
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 117
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 118
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 119
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 120
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 121
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 122
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 123
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 124
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 125
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 126
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 127
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 128
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 129
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 130
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 131
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 132
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 133
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 134
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 135
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 136
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 137
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 138
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 139
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 140
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 141
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 142
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 143
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 144
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 145
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 146
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 147
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 148
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 149
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 150
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+

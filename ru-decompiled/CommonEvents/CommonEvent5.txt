@@ -1,0 +1,7 @@
+CommonEvent 5
+Name = "スラムルート変数"
+
+  Comment(["１　スラムルート開始"])
+  CommentMore(["　　迂回して進むか強行突破するか？"])
+  CommentMore(["２　迂回ルート進行"])
+  Empty([])

@@ -1,0 +1,21 @@
+CommonEvent 463
+Name = "後処理"
+
+  FadeoutScreen([])
+  ErasePicture([1])
+  ErasePicture([2])
+  ReplayBGM([])
+  ControlSwitches([21, 21, 0])
+  ControlVariables([113, 113, 1, 0, 1])
+  ControlVariables([21, 21, 1, 2, 5, 10])
+  ControlVariables([28, 28, 1, 2, 1, 2])
+  TransferPlayer([0, 274, 11, 15, 6, 0])
+  FadeinScreen([])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["おじさん"])
+  ShowText(["「またのご利用をお待ちしております」"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["ココア"])
+  ShowText(["「・・・・・。」"])
+  CallCommonEvent([24])
+  Empty([])

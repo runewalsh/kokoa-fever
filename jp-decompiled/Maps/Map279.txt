@@ -1,0 +1,269 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["森スライム系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([101, 101, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ちんこミミズ系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([104, 104, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ゼリイヌ系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([105, 105, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ブータ系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([106, 106, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ワイルドプシー系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([107, 107, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ゲル系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([108, 108, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["リーフスライム娘系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([109, 109, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["触手系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([110, 110, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ホットスライム娘系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([111, 111, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["カエル女系に負けた回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([112, 112, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["マッサージの回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([113, 113, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["アダンダラ系の負け回数をリセットしますか？"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([114, 114, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["カルボ鉱山で雑魚に負けた回数をリセットしますか？"])
+    ShowText(["(ここな)"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([115, 115, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["カルボ鉱山でボスに負けた回数をリセットしますか？"])
+    ShowText(["(ここな)"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([116, 116, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ちんこミミズ系に負けた回数をリセットしますか？"])
+    ShowText(["(ここな)"])
+    ShowChoices([["はい", "いいえ"], 2])
+    When([0, "はい"])
+      ControlVariables([117, 117, 0, 0, 0])
+      Empty([])
+
+    When([1, "いいえ"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 171, 9, 10, 0, 0])
+    Empty([])

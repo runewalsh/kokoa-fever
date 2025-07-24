@@ -1,0 +1,32 @@
+CommonEvent 17
+Name = "☆BP界転移"
+
+  ConditionalBranch([4, 12, 0])
+    ConditionalBranch([0, 11, 0])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["既にBP界に入っている"])
+      Empty([])
+
+    Else([])
+      ControlVariables([66, 66, 0, 3, 7, 0, 0])
+      ControlVariables([67, 67, 0, 3, 5, -1, 0])
+      ControlVariables([68, 68, 0, 3, 5, -1, 1])
+      ControlSwitches([11, 11, 0])
+      ShowAnimation([-1, 145, false])
+      Wait([60])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+      Wait([60])
+      Wait([60])
+      FadeoutScreen([])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+      TransferPlayer([0, 84, 47, 25, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

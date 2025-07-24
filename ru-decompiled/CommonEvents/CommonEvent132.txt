@@ -1,0 +1,9 @@
+CommonEvent 132
+Name = "２２レイン"
+
+  ConditionalBranch([1, 200, 0, 1, 1])
+    ControlVariables([200, 200, 0, 0, 0])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

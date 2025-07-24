@@ -1,0 +1,72 @@
+Display Name = "302"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 154, 19, 25, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ErasePicture([10])
+    ShowPicture([1, "Hイベント：プティン花嫁END１", 0, 0, 0, 0, 100, 100, 255, 0])
+    ScrollMap([4, 4, 4])
+    ControlVariables([52, 52, 0, 0, 1])
+    ControlSwitches([68, 68, 0])
+    Wait([120])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「あぁん♥もっと激しくしてくださいよ～♥"])
+    ShowText(["　私のまんこでもっとしてください～♥」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["デブ"])
+    ShowText(["「ぶひひｗｗｗプティンちゃんもすっかり淫乱さんだなぁ」"])
+    FadeinScreen([])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「だってこんなお腹になるまで犯されたんですよ♥"])
+    ShowText(["　もうご主人さまのおちんちん無しじゃ駄目ですよ～♥」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["デブ"])
+    ShowText(["「ブヒｗｗｗブヒヒｗｗｗｗ"])
+    ShowText(["　プティンちゃんはずっとｗｗ一緒なんだなｗｗｗｗ」"])
+    ShowPicture([1, "Hイベント：プティン花嫁END２", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「はい♥わたしはいつまでもご主人さまのおまんこ奴隷です♥」"])
+    ControlSwitches([68, 68, 1])
+    Wait([60])
+    Wait([60])
+    TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=255.0)", 500, false])
+    TintPicture([1, "Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=255.0)", 500, false])
+    Wait([200])
+    ShowPicture([2, "END２", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([300])
+    Wait([100])
+    Wait([500])
+    FadeoutScreen([])
+    ChangePartyMember([12, 0, 0])
+    ChangePartyMember([17, 1, 0])
+    TransferPlayer([0, 171, 19, 32, 2, 0])
+    PlayBGM(["RPG::BGM(@name=\"\", @volume=100, @pitch=100)"])
+    ControlSwitches([71, 71, 0])
+    Wait([300])
+    ControlSwitches([901, 901, 0])
+    ErasePicture([1])
+    ErasePicture([2])
+    TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+    TintPicture([1, "Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+    PlayBGM(["RPG::BGM(@name=\"次元の狭間\", @volume=100, @pitch=100)"])
+    Empty([])

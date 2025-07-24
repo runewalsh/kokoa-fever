@@ -1,0 +1,78 @@
+Display Name = "204"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 155, 19, 26, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["プティン"])
+      ShowText(["「何かをはめ込む穴がありますね・・」"])
+      ConditionalBranch([8, 903])
+        ConditionalBranch([8, 905])
+          ShotBalloonIcon([-1, 9, true])
+          ShowTextAttributes(["", 0, 0, 2])
+          ShowText(["プティン"])
+          ShowText(["「この欠片とこの欠片が合いそうです！」"])
+          PlaySE(["RPG::SE(@name=\"Switch1\", @pitch=100, @volume=80)"])
+          Wait([40])
+          PlaySE(["RPG::SE(@name=\"Switch1\", @pitch=100, @volume=80)"])
+          Wait([60])
+          PlaySE(["RPG::SE(@name=\"Flash2\", @pitch=100, @volume=80)"])
+          FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=255.0)", 150, false])
+          ControlSwitches([116, 116, 0])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeWeapons([230, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ハンドアックスを手に入れた！"])
+    ChangeActorClass([17, 192])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「これで一階に行けそうですね」"])
+    ControlVariables([3, 3, 0, 0, 49])
+    Empty([])
+
+  Page 1
+    Empty([])

@@ -1,0 +1,21 @@
+CommonEvent 38
+Name = "☆妊娠経過"
+
+  ControlVariables([6, 6, 0, 3, 7, 3, 0])
+  ConditionalBranch([1, 27, 1, 6, 2])
+    FadeoutScreen([])
+    ControlSwitches([28, 28, 0])
+    CallCommonEvent([32])
+    FadeinScreen([])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ココア"])
+    ShowText(["「・・・・お腹大きくなってきた・・・どうしよう・・」"])
+    ControlVariables([27, 27, 0, 3, 7, 3, 0])
+    ControlVariables([27, 27, 1, 2, 1500, 3000])
+    ControlSwitches([32, 32, 0])
+    ControlSwitches([27, 27, 1])
+    Empty([])
+
+  BranchEnd([])
+  Wait([60])
+  Empty([])

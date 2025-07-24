@@ -1,0 +1,64 @@
+Display Name = "301"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「ここは・・・・？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「とりあえず、ここから出てみようかな・・？」"])
+    ChangeActorClass([17, 195])
+    FadeoutScreen([])
+    ErasePicture([10])
+    ControlSwitches([24, 24, 0])
+    FadeinScreen([])
+    ControlVariables([3, 3, 0, 0, 42])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 154, 11, 25, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「少し休もうかな・・・？」"])
+    ShowChoices([["休む", "休まない"], 0])
+    When([0, "休む"])
+      FadeoutScreen([])
+      PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=80)"])
+      RecoverAll([0, 0])
+      Wait([400])
+      FadeinScreen([])
+      Empty([])
+
+    When([1, "休まない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["プティン"])
+    ShowText(["「ウエディングドレスみたいですね・・・"])
+    ShowText(["　なんでここにあるんでしょうか・・・？」"])
+    Empty([])

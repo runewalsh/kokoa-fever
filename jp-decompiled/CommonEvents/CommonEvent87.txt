@@ -1,0 +1,26 @@
+CommonEvent 87
+Name = "☆プティン立ち絵"
+
+  CallCommonEvent([88])
+  CallCommonEvent([103])
+  CallCommonEvent([89])
+  ConditionalBranch([0, 25, 0])
+    ShowPicture([10, "", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([90])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([1, 199, 0, 0, 0])
+    ChangeActorGraphic([17, "ちびキャラ：プティン２", 0, "", 0])
+    Empty([])
+
+  Else([])
+    ChangeActorGraphic([17, "ちびキャラ：プティン", 0, "", 0])
+    Empty([])
+
+  BranchEnd([])
+  Wait([60])
+  Empty([])

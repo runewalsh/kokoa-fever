@@ -1,0 +1,23 @@
+CommonEvent 12
+Name = "　ステータス変更"
+
+  ConditionalBranch([0, 27, 0])
+    ChangeState([0, 12, 0, 28])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([0, 28, 0])
+      ChangeState([0, 12, 0, 29])
+      ChangeState([0, 12, 1, 28])
+      Empty([])
+
+    Else([])
+      ChangeState([0, 12, 1, 28])
+      ChangeState([0, 12, 1, 29])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

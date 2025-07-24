@@ -1,0 +1,11 @@
+Display Name = "104"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 153, 19, 26, 0, 0])
+    Empty([])
