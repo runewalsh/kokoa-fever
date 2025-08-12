@@ -1,4 +1,4 @@
-Display Name = "街外れ東"
+Display Name = "Восточный пригород"
 Parallax Name = ""
 Note = ""
 
@@ -12,8 +12,8 @@ Name = "EV001"
 
   Page 1
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「課題をこなしに森に行かないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Мне нужно в лес, выполнить задание...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
     Empty([])
@@ -33,8 +33,8 @@ Name = "EV002"
 
   Page 1
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「課題をこなしに森に行かないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Мне нужно в лес, выполнить задание...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
     Empty([])
@@ -50,7 +50,7 @@ Name = "EV003"
   Page 0
     ConditionalBranch([0, 72, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「・・・・。」"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -61,7 +61,7 @@ Name = "EV003"
     ConditionalBranch([0, 22, 0])
       ConditionalBranch([1, 201, 0, 0, 0])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["ここな"])
+        ShowText(["\\C[18]Кокона\\C[0]"])
         ShowText(["「こんな格好じゃ帰れないわ・・・・」"])
         SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
         Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -87,7 +87,7 @@ Name = "EV003"
 
   Page 1
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「・・・・・留守？」"])
     Empty([])
 
@@ -184,7 +184,7 @@ Name = "EV011"
     Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
     ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["クロウ"])
+    ShowText(["\\C[7]Кроу\\C[0]"])
     ShowText(["「あぁ・・すまない。伝える事があるんだ」"])
     FadeoutScreen([])
     TransferPlayer([0, 4, 12, 17, 8, 0])
@@ -238,7 +238,7 @@ Name = "EV015"
     CallCommonEvent([399])
     ConditionalBranch([1, 26, 0, 1, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「・・・・・。」"])
       Empty([])
 
@@ -249,7 +249,7 @@ Name = "EV015"
     CallCommonEvent([399])
     ConditionalBranch([1, 26, 0, 1, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「・・・・・。」"])
       Empty([])
 
@@ -301,7 +301,7 @@ Name = "EV018"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -315,7 +315,7 @@ Name = "EV019"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -329,7 +329,7 @@ Name = "EV020"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
@@ -343,7 +343,7 @@ Name = "EV021"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
@@ -357,7 +357,7 @@ Name = "EV022"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「こっちじゃない・・・」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -371,7 +371,7 @@ Name = "EV023"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「こっちじゃない・・・」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])

@@ -1,7 +1,7 @@
 State 1
 Icon Index = 17
-Message 1 = "は倒れた！"
-Message 2 = "を倒した！"
+Message 1 = " падает!"
+Message 2 = " падает!"
 Message 3 = ""
 Message 4 = "は立ち上がった！"
 Name = "戦闘不能"
@@ -914,7 +914,7 @@ Message 1 = ""
 Message 2 = ""
 Message 3 = ""
 Message 4 = ""
-Name = "オメガヒール"
+Name = "Омега-лечение"
 Description = ""
 Note = ""
 

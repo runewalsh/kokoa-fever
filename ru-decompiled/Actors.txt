@@ -90,7 +90,7 @@ Actor 12
 Nickname = ""
 Character Name = "ココア１"
 Face Name = ""
-Name = "ココア"
+Name = "Кокоа"
 Description = "魔法使いになって安定した職に就くため\r\n都会に来た田舎娘"
 Note = "<先制攻撃率増減:100>\r\n<BATK:self.hp/10>\r\n<BDEF:-self.hp/10>\r\n<MHP:$game_variables[5]*20>\r\n<BMAT:$game_variables[21]/4>\r\n<BMDF:$game_variables[28]/3>\r\n<BATK:$game_variables[30]/8>\r\n<戦闘後回復 10,5>\r\n<転職画面許可 43>\r\n<転職画面表示 43>\r\n<キャンセル不可>\r\n<TP基本値 30>\r\n<TPLv補正 160>\r\n<開始時TP 50%>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>\r\n<二刀流装備スロット 0,0,2,3,5,4,4,4,6>"
 
@@ -130,7 +130,7 @@ Actor 17
 Nickname = ""
 Character Name = "ちびキャラ：プティン"
 Face Name = ""
-Name = "プティン"
+Name = "Путин"
 Description = "クロウに仕えている家政婦的な少女"
 Note = "<先制攻撃率増減:100>\r\n<BATK:self.hp/10>\r\n<BDEF:-self.hp/10>\r\n<戦闘後回復 20,10>\r\n<転職画面許可 48>\r\n<転職画面表示 48>\r\n<キャンセル不可>\r\n<TP基本値 70>\r\n<TPLv補正 400>\r\n<開始時TP 70%>\r\n<限界変動:0,15000>\r\n<限界変動:1,15000>\r\n<限界変動:2,15000>\r\n<限界変動:3,15000>\r\n<限界変動:4,15000>\r\n<限界変動:5,15000>\r\n<限界変動:6,15000>\r\n<限界変動:7,15000>\r\n<通常装備スロット 0,1,2,3,4,4,4>"
 
@@ -154,7 +154,7 @@ Actor 20
 Nickname = ""
 Character Name = "ココア１"
 Face Name = "Spiritual"
-Name = "ココア"
+Name = "Кокоа"
 Description = "魔法使いになって安定した職に就くため\r\n都会に来た田舎娘"
 Note = "\r\n<キャンセル不可>\r\n<TP基本値 100>\r\n<TPLv補正 300>\r\n<開始時TP 70%>"
 

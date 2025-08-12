@@ -28,8 +28,8 @@ module KURE
       #呼び出し方法　0=直接呼び出し　1=アクター選択
     
     #見本設定
-    ADD_MENU[7] = ["スキル設定", 0, "Scene_SkillMemorize", 0, 0, 1]
-    ADD_MENU[8] = ["ステータス振分", 0, "Scene_Statusdivide", 0, 0, 0]
+    ADD_MENU[7] = ["Выбрать навыки", 0, "Scene_SkillMemorize", 0, 0, 1]
+    ADD_MENU[8] = ["Распред. статы", 0, "Scene_Statusdivide", 0, 0, 0]
     
 
  

@@ -8,7 +8,7 @@ Name = "EV001"
   Page 0
     ConditionalBranch([1, 198, 0, 0, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「服を着ないと・・・」"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
@@ -27,7 +27,7 @@ Name = "EV002"
   Page 0
     ConditionalBranch([1, 198, 0, 1, 1])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「お風呂に入るときは服を脱がないと・・・」"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])

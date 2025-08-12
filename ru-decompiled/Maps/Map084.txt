@@ -7,11 +7,11 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【閃刃】"])
-    ShowText(["属性：物理"])
-    ShowText(["種類：単体"])
+    ShowText(["【Сверкающие клинки】"])
+    ShowText(["Элемент: физический"])
+    ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["威力は低いが素早く対象を攻撃できる初歩スキル"])
+    ShowText(["Базовый навык с низким уроном, но способный быстро атаковать цель."])
     Empty([])
 
 CommonEvent 2
@@ -382,7 +382,7 @@ Name = "EV032"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【ヒール】"])
+    ShowText(["【Лечение】"])
     Empty([])
 
 CommonEvent 33
@@ -403,7 +403,7 @@ Name = "EV034"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【メガヒール】"])
+    ShowText(["【Мега-лечение】"])
     Empty([])
 
 CommonEvent 35
@@ -411,7 +411,7 @@ Name = "EV035"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【ギガヒール】"])
+    ShowText(["【Гига-лечение】"])
     Empty([])
 
 CommonEvent 36

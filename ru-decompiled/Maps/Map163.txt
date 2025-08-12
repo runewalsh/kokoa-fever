@@ -236,7 +236,7 @@ Name = "EV017"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["プティン"])
+      ShowText(["\\C[10]Путин\\C[0]"])
       ShowText(["「スイッチですね・・・押してみましょうか」"])
       PlaySE(["RPG::SE(@name=\"Switch2\", @pitch=100, @volume=80)"])
       SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])

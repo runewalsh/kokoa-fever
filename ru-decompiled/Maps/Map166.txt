@@ -7,10 +7,10 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["プティン"])
+    ShowText(["\\C[10]Путин\\C[0]"])
     ShowText(["「ここは・・・・？」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["プティン"])
+    ShowText(["\\C[10]Путин\\C[0]"])
     ShowText(["「とりあえず、ここから出てみようかな・・？」"])
     ChangeActorClass([17, 195])
     FadeoutScreen([])
@@ -36,7 +36,7 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["プティン"])
+    ShowText(["\\C[10]Путин\\C[0]"])
     ShowText(["「少し休もうかな・・・？」"])
     ShowChoices([["休む", "休まない"], 0])
     When([0, "休む"])
@@ -58,7 +58,7 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["プティン"])
+    ShowText(["\\C[10]Путин\\C[0]"])
     ShowText(["「ウエディングドレスみたいですね・・・"])
     ShowText(["　なんでここにあるんでしょうか・・・？」"])
     Empty([])

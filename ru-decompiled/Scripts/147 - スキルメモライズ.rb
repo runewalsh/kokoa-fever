@@ -1116,7 +1116,7 @@ class Window_k_LearndSkill_SkillList < Window_Command
       end
     end
     
-    add_command("解除する", :ok)
+    add_command("Убрать", :ok)
   end
 end
 

@@ -1,4 +1,4 @@
-Display Name = "静かなる森１"
+Display Name = "Тихий лес 1"
 Parallax Name = ""
 Note = ""
 
@@ -246,7 +246,7 @@ Name = "EV009"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([121, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["初心者マークを手に入れた！"])
+    ShowText(["Достала значок вакабы!"])
     Empty([])
 
   Page 1
@@ -258,7 +258,7 @@ Name = "EV010"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -272,7 +272,7 @@ Name = "EV011"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -302,7 +302,7 @@ Name = "EV014"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -316,7 +316,7 @@ Name = "EV015"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -330,7 +330,7 @@ Name = "EV016"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -347,9 +347,9 @@ Name = "EV017"
     ScrollMap([4, 20, 5])
     ScrollMap([8, 15, 5])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「・・・・すごく広い・・。"])
-    ShowText(["　迷わないようにあまり奥に行かないようにしないと・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«...Он такой огромный..."])
+    ShowText([" Не стоит заходить слишком далеко, а то заблужусь."])
     ControlSelfSwitch(["A", 0])
     Empty([])
 
@@ -409,8 +409,8 @@ Name = "EV024"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「あまり奥に行かないようにしないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Не стоит заходить слишком далеко...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
     Empty([])
@@ -423,8 +423,8 @@ Name = "EV025"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「あまり奥に行かないようにしないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Не стоит заходить слишком далеко...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
     Empty([])
@@ -437,8 +437,8 @@ Name = "EV026"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「あまり奥に行かないようにしないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Не стоит заходить слишком далеко...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])
@@ -451,8 +451,8 @@ Name = "EV027"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「あまり奥に行かないようにしないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Не стоит заходить слишком далеко...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])

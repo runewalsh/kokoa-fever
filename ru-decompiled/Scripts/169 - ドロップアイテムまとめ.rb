@@ -6,7 +6,7 @@
 
 module Vocab
   # 戦闘終了メッセージ
-  ObtainItems     = "%sを %s個 手に入れた！"
+  ObtainItems     = "%s ×%s — у меня!"
 end
 #------------------------------------------------------------------------------
 module BattleManager

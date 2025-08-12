@@ -1,4 +1,4 @@
-Display Name = "風呂場"
+Display Name = "Ванная"
 Parallax Name = ""
 Note = ""
 

@@ -1,12 +1,12 @@
 CommonEvent 394
-Name = "☆サイコゥパス"
+Name = "☆Психопаспорт"
 
   ConditionalBranch([0, 21, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["社会経験値 \\V[28]"])
-    ShowText(["性経験値 \\V[21]"])
-    ShowText(["名声値 \\V[30]"])
-    ShowText(["BP \\V[29]"])
+    ShowText(["Социальный опыт \\V[28]"])
+    ShowText(["Сексуальный опыт \\V[21]"])
+    ShowText(["Репутация \\V[30]"])
+    ShowText(["Очки боя \\V[29]"])
     Empty([])
 
   BranchEnd([])

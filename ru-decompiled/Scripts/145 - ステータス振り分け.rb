@@ -15,7 +15,7 @@ module KURE
   GAME_CHARACTER_HEIGHT = 32
   
   #ステータスポイントの名前
-  STATUS_POINT_NAME = "Status Point"
+  STATUS_POINT_NAME = "Очки характеристик"
   
   #ステータスポイントの獲得に関する設定
   #LvUP時に獲得するステータスポイント
@@ -138,7 +138,7 @@ class Scene_Statusdivide < Scene_MenuBase
   #--------------------------------------------------------------------------
   def create_help_window
     @help_window = Window_Help.new(1)
-    @help_window.set_text("ステータスを振り分けるキャラクターを選択してください")
+    @help_window.set_text("Выберите персонажа для распределения характеристик.")
     @help_window.viewport = @viewport
   end
   #--------------------------------------------------------------------------
@@ -220,7 +220,7 @@ class Scene_Statusdivide < Scene_MenuBase
     @ptm_window.deactivate
     @devide_window.activate
     @devide_window.select(0)
-    @help_window.set_text("振り分けるステータスを選択してください")
+    @help_window.set_text("Выберите распределяемую характеристику.")
     
     #セーブデータ作成
     @save_data_param = Marshal.load(Marshal.dump(@ptm_window.current_ext.divide_param))
@@ -280,14 +280,14 @@ class Scene_Statusdivide < Scene_MenuBase
       close_task
       @devide_window.unselect
       @ptm_window.activate
-      @help_window.set_text("ステータスを振り分けるキャラクターを選択してください")
+      @help_window.set_text("Выберите персонажа для распределения характеристик.")
       
     when 1
       reset
       close_task
       @devide_window.unselect
       @ptm_window.activate
-      @help_window.set_text("ステータスを振り分けるキャラクターを選択してください")
+      @help_window.set_text("Выберите персонажа для распределения характеристик.")
       
       @info_window.refresh
       @param_window.refresh
@@ -302,7 +302,7 @@ class Scene_Statusdivide < Scene_MenuBase
   def task_cancel
     close_task
     @devide_window.activate
-    @help_window.set_text("振り分けるステータスを選択してください")
+    @help_window.set_text("Выберите распределяемую характеристику.")
     @info_window.refresh
     @param_window.refresh
     @devide_window.refresh    
@@ -635,11 +635,11 @@ class Window_k_Statusdivide_ParamWindow < Window_Base
     #共通描画
     draw_gauge(0,0, contents.width - 105, 1, mp_gauge_color2,crisis_color)
     change_color(normal_color)
-    draw_text(0,0, 200, line_height, "振分項目")
+    draw_text(0,0, 200, line_height, "Характеристика")
 
     draw_gauge(contents.width - 100,0, 100, 1, mp_gauge_color2,crisis_color)
     change_color(normal_color)
-    draw_text(contents.width - 100,0, 100, line_height, "必要ポイント")
+    draw_text(contents.width - 100,0, 100, line_height, "Треб. очки")
     
     return unless @actor
     
@@ -719,20 +719,20 @@ class Window_k_Statusdivide_Task_Command < Window_Command
     return unless @help_window
     case current_ext
     when 1
-      @help_window.set_text("振り分けを確定します。")
+      @help_window.set_text("Подтвердить распределение.")
     when 2
-      @help_window.set_text("振り分けをリセットします。")      
+      @help_window.set_text("Сбросить неподтверждённое распределение.")
     when 3
-      @help_window.set_text("振り分け画面に戻ります。")    
+      @help_window.set_text("Продолжить распределение.")    
     end    
   end
   #--------------------------------------------------------------------------
   # ● コマンドリストの作成
   #--------------------------------------------------------------------------
   def make_command_list
-    add_command("振り分け確定", :ok, true, 1)
-    add_command("振り分け中止", :ok, true, 2)
-    add_command("キャンセル", :ok, true, 3)
+    add_command("Подтвердить", :ok, true, 1)
+    add_command("Сбросить", :ok, true, 2)
+    add_command("Пораспределять ещё", :ok, true, 3)
   end
   #--------------------------------------------------------------------------
   # ● リフレッシュ

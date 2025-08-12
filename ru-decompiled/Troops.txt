@@ -255,7 +255,7 @@ Page 0
   Empty([])
 
 Troop 41
-Name = "プティン"
+Name = "Путин"
 
 Page 0
   ControlSwitches([21, 21, 0])
@@ -381,7 +381,7 @@ Page 0
   Empty([])
 
 Troop 55
-Name = "プティン"
+Name = "Путин"
 
 Page 0
   ControlSwitches([21, 21, 0])
@@ -1203,7 +1203,7 @@ Name = "アディス"
 Page 0
   ChangeState([0, 0, 0, 30])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["クロウ"])
+  ShowText(["\\C[7]Кроу\\C[0]"])
   ShowText(["「魔剣バルムンク・・・今日は機嫌が悪いらしくてな。痛いぞ。死ぬほど」"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["アディス"])

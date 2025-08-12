@@ -231,7 +231,7 @@ Name = "EV019"
     ErasePicture([10])
     ShowPicture([1, "汎用Ｅ：大衆浴場ココア入浴１", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「おっふろ♪おっふろ♪」"])
     RecoverAll([0, 0])
     ChangeState([0, 0, 0, 94])

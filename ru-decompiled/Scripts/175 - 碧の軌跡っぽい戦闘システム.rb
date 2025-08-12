@@ -68,7 +68,7 @@ module Saba
     DEBUG = false
     
     # デフォルトのスキル準備メッセージ
-    DEFAULT_PREPARE_MSG = "%sは%sの準備をしている！"
+    DEFAULT_PREPARE_MSG = "%s готовит %s!"
     
     # 駆動SE
     OPERATE_SE_FILE = "Audio/SE/Heal4"

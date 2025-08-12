@@ -18,28 +18,28 @@ module Vocab
   ExpNext         = "次の%sまで"
 
   # セーブ／ロード画面
-  SaveMessage     = "どのファイルにセーブしますか？"
-  LoadMessage     = "どのファイルをロードしますか？"
-  File            = "ファイル"
+  SaveMessage     = "В какой файл сохранить?"
+  LoadMessage     = "Какой файл загрузить?"
+  File            = "Файл"
 
   # 複数メンバーの場合の表示
   PartyName       = "%sたち"
 
   # 戦闘基本メッセージ
-  Emerge          = "%sが出現！"
+  Emerge          = "Против вас %s!"
   Preemptive      = "%sは先手を取った！"
   Surprise        = "%sは不意をつかれた！"
-  EscapeStart     = "%sは逃げ出した！"
+  EscapeStart     = "%s убегает!"
   EscapeFailure   = "しかし逃げることはできなかった！"
 
   # 戦闘終了メッセージ
-  Victory         = "%sの勝利！"
-  Defeat          = "%sは戦いに敗れた。"
-  ObtainExp       = "%s の経験値を獲得！"
-  ObtainGold      = "お金を %s\\G 手に入れた！"
-  ObtainItem      = "%sを手に入れた！"
-  LevelUp         = "%sは%s %s に上がった！"
-  ObtainSkill     = "%sを覚えた！"
+  Victory         = "%s побеждает!"
+  Defeat          = "%s терпит поражение."
+  ObtainExp       = "Получила %s опыта!"
+  ObtainGold      = "Получила %s\\G золота!"
+  ObtainItem      = "%s — у меня!"
+  LevelUp         = "%s теперь уровня %s!"
+  ObtainSkill     = "%s — изучила!"
 
   # アイテム使用
   UseItem         = "%sは%sを使った！"
@@ -49,22 +49,22 @@ module Vocab
   CriticalToActor = "痛恨の一撃！！"
 
   # アクター対象の行動結果
-  ActorDamage     = "%sは %s のダメージを受けた！"
-  ActorRecovery   = "%sの%sが %s 回復した！"
-  ActorGain       = "%sの%sが %s 増えた！"
-  ActorLoss       = "%sの%sが %s 減った！"
-  ActorDrain      = "%sは%sを %s 奪われた！"
-  ActorNoDamage   = "%sはダメージを受けていない！"
-  ActorNoHit      = "ミス！　%sはダメージを受けていない！"
+  ActorDamage     = "%s получает %s ед. урона!"
+  ActorRecovery   = "%s восстанавливает %s %s!"
+  ActorGain       = "%s получает %s %s!"
+  ActorLoss       = "%s теряет %s %s!"
+  ActorDrain      = "%s отдаёт %s %s!"
+  ActorNoDamage   = "%s не получает урона!"
+  ActorNoHit      = "Промах! %s не получает урона!"
 
   # 敵キャラ対象の行動結果
-  EnemyDamage     = "%sに %s のダメージを与えた！"
-  EnemyRecovery   = "%sの%sが %s 回復した！"
-  EnemyGain       = "%sの%sが %s 増えた！"
-  EnemyLoss       = "%sの%sが %s 減った！"
-  EnemyDrain      = "%sの%sを %s 奪った！"
-  EnemyNoDamage   = "%sにダメージを与えられない！"
-  EnemyNoHit      = "ミス！　%sにダメージを与えられない！"
+  EnemyDamage     = "%s получает %s ед. урона!"
+  EnemyRecovery   = "%s восстанавливает %s %s!"
+  EnemyGain       = "%s получает %s %s!"
+  EnemyLoss       = "%s теряет %s %s!"
+  EnemyDrain      = "%s отдаёт %s %s!"
+  EnemyNoDamage   = "%s не получает урона!"
+  EnemyNoHit      = "Промах! %s не получает урона!"
 
   # 回避／反射
   Evasion         = "%sは攻撃をかわした！"

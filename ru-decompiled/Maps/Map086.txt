@@ -57,7 +57,7 @@ Name = "EV007"
     ScrollMap([8, 10, 4])
     ScrollMap([2, 10, 4])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「着いたわね・・・・鉱山はどこかしら・・？」"])
     ControlVariables([3, 3, 0, 0, 14])
     Empty([])

@@ -48,7 +48,7 @@ Name = "EV003"
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["BP界への転移結晶を手に入れた！"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「これがクロウの言っていたものかな・・・？」"])
     ConditionalBranch([0, 109, 1])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])

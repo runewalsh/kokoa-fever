@@ -13,7 +13,7 @@ module KURE
     #表示に関する項目-----------------------------------------------------------
     #スロットタイプの表示名設定
     #SLOT_TYPE_NAME_LIST = [タイプ0,タイプ1,タイプ2,…]
-    SLOT_TYPE_NAME_LIST = ["武器","盾","頭","体","装飾品","紋章"]
+    SLOT_TYPE_NAME_LIST = ["Оружие","盾","頭","体","Аксессуар","Значок"]
     
     #表示するスロットタイプリストを保存している変数(設定しない場合は0)
     VIEW_SLOT_LIST_NUM = 0
@@ -1039,7 +1039,7 @@ class Window_k_Custom_Equip_Background < Window_Base
     change_color(normal_color)
     draw_text(0,0, 200, line_height, "強化項目")
         
-    draw_text(0, contents.height - line_height , contents.width, line_height, "←　→：表示切り替え ( " + (@command_index).to_s + " / " + @max_pages.to_s + " )" ,1)
+    draw_text(0, contents.height - line_height , contents.width, line_height, "←　→: Страница (" + (@command_index).to_s + " / " + @max_pages.to_s + ")" ,1)
     
     #ステータスの表記
     if @make_list != ([] or empty?)
@@ -1224,11 +1224,11 @@ class Window_k_Custom_Equip_Background < Window_Base
               draw_str = data_id
               case draw_str
               when 0
-                draw_str = "命中率"
+                draw_str = "Меткость"
               when 1
-                draw_str = "回避率"
+                draw_str = "Уворот"
               when 2
-                draw_str = "会心率"
+                draw_str = "Крит. шанс"
               when 3
                 draw_str = "会心回避"             
               when 4
@@ -1515,11 +1515,11 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           draw_str = data_id
           case draw_str
           when 0
-            draw_str = "命中率"
+            draw_str = "Меткость"
           when 1
-            draw_str = "回避率"
+            draw_str = "Уворот"
           when 2
-            draw_str = "会心率"
+            draw_str = "Крит. шанс"
           when 3
             draw_str = "会心回避"             
           when 4

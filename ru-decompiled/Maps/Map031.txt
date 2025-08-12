@@ -1,4 +1,4 @@
-Display Name = "静かなる森２－１"
+Display Name = "Тихий лес 2—1"
 Parallax Name = ""
 Note = ""
 
@@ -63,8 +63,8 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「あまり奥に行かないようにしないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Не стоит заходить слишком далеко...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
     Empty([])
@@ -77,8 +77,8 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「あまり奥に行かないようにしないと・・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Не стоит заходить слишком далеко...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
     Empty([])
@@ -136,7 +136,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -150,7 +150,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])

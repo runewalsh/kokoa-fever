@@ -437,7 +437,7 @@ class Game_Actor < Game_Battler
   #--------------------------------------------------------------------------
   def display_level_up(new_skills)
     $game_message.new_page
-    $game_message.add(sprintf(Vocab::LevelUp, @name, Vocab::level, @level))
+    $game_message.add(sprintf(Vocab::LevelUp, @name, @level))
     new_skills.each do |skill|
       $game_message.add(sprintf(Vocab::ObtainSkill, skill.name))
     end

@@ -81,7 +81,7 @@ Name = "EV008"
     ShowText(["？？？"])
     ShowText(["「お？」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「お？」"])
     ErasePicture([1])
     Empty([])

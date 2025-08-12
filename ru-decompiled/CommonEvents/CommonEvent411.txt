@@ -13,5 +13,5 @@ Name = "　通常2"
   BranchEnd([])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["チンコミミズに中出しされてしまった！"])
+  ShowText(["В меня накончал члено-червь!"])
   Empty([])

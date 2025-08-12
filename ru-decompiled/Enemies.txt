@@ -240,19 +240,19 @@ Note = ""
 
 Enemy 41
 Battler Name = "森スライム"
-Name = "森スライム"
+Name = "Лесной слизень"
 Description = ""
 Note = "[レベル非表示]\r\n2"
 
 Enemy 42
 Battler Name = "ちんこミミズ"
-Name = "ちんこミミズ"
+Name = "Члено-червь"
 Description = ""
 Note = "[レベル非表示]\r\n3"
 
 Enemy 43
 Battler Name = "バトラー：プティン"
-Name = "プティン"
+Name = "Путин"
 Description = ""
 Note = "[レベル非表示]\r\n15"
 
@@ -384,25 +384,25 @@ Note = ""
 
 Enemy 65
 Battler Name = "ちんこミミズ"
-Name = "ちんこミミズ"
+Name = "Члено-червь"
 Description = ""
 Note = "[レベル非表示]\r\n7"
 
 Enemy 66
 Battler Name = "ちんこミミズ"
-Name = "ちんこミミズ"
+Name = "Члено-червь"
 Description = ""
 Note = "[レベル非表示]\r\n15"
 
 Enemy 67
 Battler Name = "森スライム"
-Name = "森スライム"
+Name = "Лесной слизень"
 Description = ""
 Note = "[レベル非表示]\r\n5"
 
 Enemy 68
 Battler Name = "森スライム"
-Name = "森スライム"
+Name = "Лесной слизень"
 Description = ""
 Note = "[レベル非表示]\r\n10"
 
@@ -732,7 +732,7 @@ Note = "[レベル非表示]\r\n24"
 
 Enemy 123
 Battler Name = "バトラー：プティン"
-Name = "プティン"
+Name = "Путин"
 Description = ""
 Note = "[レベル非表示]\r\n16\r\n<ステータスポイント 5>"
 
@@ -1146,7 +1146,7 @@ Note = "[レベル非表示]\r\n<ステータスポイント 40>"
 
 Enemy 192
 Battler Name = "ちんこミミズ達"
-Name = "ちんこミミズ達"
+Name = "Члено-черви"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -1260,7 +1260,7 @@ Note = "[レベル非表示]"
 
 Enemy 211
 Battler Name = "ちんこミミズ達"
-Name = "ちんこミミズ達"
+Name = "Члено-черви"
 Description = ""
 Note = "[レベル非表示]"
 

@@ -33,7 +33,7 @@ module KURE
     #職業グレードに関する設定項目----------------------------------------------
     #●がついた項目は項目数を同じにしてください
     #●JOB_GRADE_LIST = [グレード1,グレード2,…]
-    JOB_GRADE_LIST = ["初級職","中級職","上級職","バラエティ"]
+    JOB_GRADE_LIST = ["Новичок","Любитель","Профи","Разное"]
     #選択開放スイッチ(常時許可は0)
     #●UNLOCK_JOB_GRADE = [スイッチID,スイッチID,…]
     UNLOCK_JOB_GRADE = [0,0,0,0,]
@@ -88,7 +88,7 @@ class Scene_JobChange < Scene_MenuBase
   #--------------------------------------------------------------------------
   def create_help_window
     @help_window = Window_Help.new(1)
-    @help_window.set_text("転職させるキャラクターを選択してください。")
+    @help_window.set_text("Выберите персонажа для смены рода деятельности.")
     @help_window.viewport = @viewport
   end
   #--------------------------------------------------------------------------
@@ -257,7 +257,7 @@ class Scene_JobChange < Scene_MenuBase
   # ● 職業グレード選択ウィンドウ[キャンセル]
   #--------------------------------------------------------------------------
   def on_job_grade_cancel
-    @help_window.set_text("転職させるキャラクターを選択してください。")
+    @help_window.set_text("Выберите персонажа для смены рода деятельности.")
     resize2
   end
   #--------------------------------------------------------------------------
@@ -266,7 +266,7 @@ class Scene_JobChange < Scene_MenuBase
   def pop_ok
     if @popup_window.index == 0
       change_job
-      @help_window.set_text("転職させるキャラクターを選択してください。")
+      @help_window.set_text("Выберите персонажа для смены рода деятельности.")
       resize2
     end
     pop_close
@@ -293,8 +293,8 @@ class Scene_JobChange < Scene_MenuBase
     @charactor_status_window.edit_actor_class_kind = @edit_actor_class_kind
     @popup_window.kind = @edit_actor_class_kind
     @charactor_status_window.refresh
-    @help_window.set_text(@actor.name + " の職業を選択してください。") if @edit_actor_class_kind == 0
-    @help_window.set_text(@actor.name + " のサブクラスを選択してください。") if @edit_actor_class_kind == 1
+    @help_window.set_text(@actor.name + ": выберите занятие.") if @edit_actor_class_kind == 0
+    @help_window.set_text(@actor.name + ": выберите подзанятие.") if @edit_actor_class_kind == 1
     task_close
     @charactor_list_window.deactivate 
   end
@@ -357,8 +357,8 @@ class Scene_JobChange < Scene_MenuBase
     @charactor_list_window.edit_actor_class_kind = @edit_actor_class_kind
     @charactor_status_window.edit_actor_class_kind = @edit_actor_class_kind
     @popup_window.kind = @edit_actor_class_kind
-    @help_window.set_text(@actor.name + " の職業を選択してください。") if @edit_actor_class_kind == 0
-    @help_window.set_text(@actor.name + " のサブクラスを選択してください。") if @edit_actor_class_kind == 1
+    @help_window.set_text(@actor.name + ": выберите занятие.") if @edit_actor_class_kind == 0
+    @help_window.set_text(@actor.name + ": выберите подзанятие.") if @edit_actor_class_kind == 1
     task_close
     @charactor_list_window.deactivate    
   end
@@ -512,15 +512,15 @@ class Window_k_Jobchange_Popup < Window_HorzCommand
   # ● コマンドリストの作成
   #--------------------------------------------------------------------------
   def make_command_list
-    add_command("決定", :ok)
-    add_command("やめる", :ok)
+    add_command("ОК", :ok)
+    add_command("Отмена", :ok)
   end
   #--------------------------------------------------------------------------
   # ● 描画処理
   #--------------------------------------------------------------------------
   def draw_contents
     draw_gauge(5 , 0, contents.width, 1, mp_gauge_color2,crisis_color)
-    draw_text(5, 0, 126, line_height, "転職確認")
+    draw_text(5, 0, 126, line_height, "Смена деятельности")
     
     return if @actor == nil
     draw_text(5, line_height * 1, contents.width / 2 - 20, line_height, @actor.name)
@@ -954,10 +954,10 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
     case @draw_index
     when 0,2,4,6,8
       draw_block1(x ,y + line_height * 4)
-      draw_text(0, contents.height - line_height , contents.width, line_height, "←　→：表示切り替え( 1 / 2 )" ,1)
+      draw_text(0, contents.height - line_height , contents.width, line_height, "←　→: Страница (1 / 2)" ,1)
     when 1,3,5,7,9
       draw_block2(x ,y + line_height * 4)
-      draw_text(0, contents.height - line_height , contents.width, line_height, "←　→：表示切り替え( 2 / 2 )" ,1)
+      draw_text(0, contents.height - line_height , contents.width, line_height, "←　→: Страница (2 / 2)" ,1)
     end
   end
   #--------------------------------------------------------------------------
@@ -982,7 +982,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
   #--------------------------------------------------------------------------
   def draw_exp_info(x, y)
     s2 = @actor.max_level? ? "-------" : @actor.next_level_exp - @actor.exp
-    s_next = "Next Lv"
+    s_next = "След. ур."
     change_color(system_color)
     draw_text(x, y , 60, line_height, s_next)
     change_color(normal_color)
@@ -993,7 +993,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
   #--------------------------------------------------------------------------
   def draw_block1(x,y)
     draw_gauge(x , y, contents.width - x, 1, mp_gauge_color2,crisis_color)
-    draw_text(x, y, 126, line_height, "能力値")
+    draw_text(x, y, 126, line_height, "Показатели")
     
     for param_id in 2..7
       case param_id
@@ -1019,7 +1019,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
   #--------------------------------------------------------------------------
   def draw_block2(x,y)
     draw_gauge(x , y, contents.width - x, 1, mp_gauge_color2,crisis_color)
-    draw_text(x, y, 126, line_height, "装備品")
+    draw_text(x, y, 126, line_height, "Экипировка")
     
     for i in 0..@actor.equips.size - 1
       case i
@@ -1038,7 +1038,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
   #--------------------------------------------------------------------------
   def draw_job_exp(x,y)
     draw_gauge(x , y, contents.width - x, 1, mp_gauge_color2,crisis_color)
-    text = @actor.name + " の " + KURE::JobChange::JOB_GRADE_LIST[@jobexp_index] + " 修練状況"
+    text = @actor.name + ", практика занятий категории " + KURE::JobChange::JOB_GRADE_LIST[@jobexp_index]
     draw_text(x, y, contents.width, line_height, text)
     
     #縦の描画項目数を取得
@@ -1085,7 +1085,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
         change_color(normal_color)
         change_color(tp_gauge_color2) if select_grade_job[i].id == @actor.class_id
         change_color(mp_gauge_color2) if select_grade_job[i].id == @actor.sub_class_id
-        lv = "Lv"
+        lv = "Ур."
         lv += " " if @actor.class_level_list[select_grade_job[i].id] < 10
         draw_text(x + draw_x_plus, y + line_height * draw_line, 130, line_height, select_grade_job[i].name)
         draw_text(x + draw_x_plus, y + line_height * draw_line, contents.width / 2 - 5, line_height, lv + @actor.class_level_list[select_grade_job[i].id].to_s, 2)
@@ -1117,7 +1117,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
     end    
     end
   
-    draw_text(0, contents.height - line_height , contents.width, line_height, "↓↑：表示切り替え ( " + (@draw_index + 1).to_s + "/" + max_page.to_s + " )" ,1)
+    draw_text(0, contents.height - line_height , contents.width, line_height, "↓↑: Страница (" + (@draw_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
   #--------------------------------------------------------------------------
   # ◎ 職業ステータスの描画
@@ -1138,18 +1138,18 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
     draw_horz_line(y + line_height * 1 - 8)
     
     #装備可能リスト
-    draw_text(x + 5, y + line_height * 1 + 8, 100, line_height, "使用武器：")
+    draw_text(x + 5, y + line_height * 1 + 8, 100, line_height, "Оружие:")
     get_equip_weapon
     draw_text(x + 100, y + line_height * 1 + 8, 280, line_height, @wep_str)
     get_equip_armor
-    draw_text(x + 5, y + line_height * 2 + 8, 100, line_height, "使用防具：")
+    draw_text(x + 5, y + line_height * 2 + 8, 100, line_height, "Броня:")
     draw_text(x + 100, y + line_height * 2 + 8, 280, line_height, @armor_str)
     draw_text(x + 100, y + line_height * 3 + 8, 280, line_height, @armor_str2)
     draw_text(x + 100, y + line_height * 4 + 8, 280, line_height, @armor_str3)
     draw_horz_line(y + line_height * 5)
     
     #ステータス評価
-    draw_text(x + 5, y + line_height * 6 - 8, 80, line_height, "能力値：")
+    draw_text(x + 5, y + line_height * 6 - 8, 80, line_height, "Показатели：")
     8.times {|i| draw_actor_valuation(x , y + line_height * (i + 7) - 8, i) }
     draw_horz_line(y + line_height * 9 + 8)
     
@@ -1263,7 +1263,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
   # ◎ 職業ステータスの描画(選択不可)
   #--------------------------------------------------------------------------
   def draw_job_status_false(x,y)
-    draw_text(x, y, contents_width, line_height, "転職条件が満たされていません")
+    draw_text(x, y, contents_width, line_height, "Не выполнены условия смены профессии.")
     draw_condition(x, y + line_height * 2)
     change_color(normal_color)
   end
@@ -1317,7 +1317,7 @@ class Window_k_Jobchange_Status_Jobexp < Window_Selectable
     change_color(normal_color)
     change_color(power_down_color) if @actor.level < job.need_jobchange_level[0]
     if job.need_jobchange_level[0] != 0
-      draw_text(x, y, contents_width, line_height, "要求レベル　" + job.need_jobchange_level[0].to_s)
+      draw_text(x, y, contents_width, line_height, "Требуется уровень " + job.need_jobchange_level[0].to_s)
       draw_line +=1
     end
     

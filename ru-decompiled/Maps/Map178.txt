@@ -27,10 +27,10 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「休む・・・？」"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Баиньки?..»"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ConditionalBranch([7, 0, 0])
         ChangeGold([1, 0, 0])
         FadeoutScreen([])
@@ -47,7 +47,7 @@ Name = "EV003"
       BranchEnd([])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -59,8 +59,8 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
-    ShowText(["「今日はどんな自分で行こうかな・・・」"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
+    ShowText(["«Какой же мне быть сегодня...»"])
     ConditionalBranch([1, 4, 0, 1, 2])
       ControlSwitches([43, 43, 0])
       ControlSwitches([44, 44, 1])

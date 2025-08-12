@@ -22,7 +22,7 @@ module KURE
     
   #装備スロット欄の表示設定----------------------------------------------------
   #装備スロット表示名を設定(EQUIP_SLOT_NAME = [スロット5表示名,…]
-  EQUIP_SLOT_NAME = ["紋章","拡張装備","スロット7","スロット8"]
+  EQUIP_SLOT_NAME = ["Значок","Расширенная","スロット7","スロット8"]
   
   #装備スロットを設定
   #通常のスロット
@@ -33,7 +33,7 @@ module KURE
   #ステータス欄の表示設定-------------------------------------------------------
   #ステータス変化に表示する文字列
   #Vocab_Ex1 = [命中率,回避率,会心率]
-  Vocab_Ex1 = ["命中率","回避率","会心率"]
+  Vocab_Ex1 = ["Меткость","Уворот","Крит. шанс"]
   
   #装備重量システム-------------------------------------------------------------
   #装備重量システムを利用する(0=利用しない 1=利用する)
@@ -1316,7 +1316,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
       draw_right_arrow(0, line_height * 2)
       draw_equip_after(20,line_height * 2)
     when 2,4,8,11
-      draw_text(0, 0, 126, contents.font.size, "装備品特徴")
+      draw_text(0, 0, 126, contents.font.size, "Особенности экипировки")
       case @draw_index
       when 2
         draw_equip_after(5,line_height * 1)
@@ -1328,7 +1328,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
         draw_item_name(@change_item, 5,line_height * 1) if @change_item
       end      
     when 3,7,10
-      draw_text(0, 0, 126, contents.font.size, "装備品能力")
+      draw_text(0, 0, 126, contents.font.size, "Показатели экипировки")
       case @draw_index
       when 3
         item = @base_item
@@ -1408,7 +1408,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     case @draw_index
     when 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15     
       change_color(normal_color)
-      draw_text(0, contents.height - contents.font.size, contents.width, contents.font.size, "← →:表示切り替え",1) 
+      draw_text(0, contents.height - contents.font.size, contents.width, contents.font.size, "← →: Страница",1) 
     end
     contents.font.size = last_font
   end
@@ -1586,7 +1586,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     #装備レベル利用時は要求レベルを描画
     if KURE::ExEquip::USE_EQUIPLV_SYSTEM == 1
       change_color(system_color)
-      draw_text(5, y, 90, contents.font.size, "要求レベル")
+      draw_text(5, y, 90, contents.font.size, "Треб. уровень")
       change_color(normal_color)
       draw_text(95, y, 20, contents.font.size, item.need_equip_level ,2)
     
@@ -1599,7 +1599,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     
     #特徴を描画
     change_color(system_color)
-    draw_text(5, y + contents.font.size, 126, contents.font.size, "特徴")
+    draw_text(5, y + contents.font.size, 126, contents.font.size, "Особые свойства")
     
     #配列数取得変数を初期化
     features_max = 0
@@ -1745,11 +1745,11 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           #ステータス名取得
           case drow
           when 0
-            draw_str = "命中率"
+            draw_str = "Меткость"
           when 1
-            draw_str = "回避率"
+            draw_str = "Уворот"
           when 2
-            draw_str = "会心率"
+            draw_str = "Крит. шанс"
           when 3
             draw_str = "会心回避"             
           when 4
@@ -2325,7 +2325,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     return unless item
     
     change_color(system_color)
-    draw_text(x, y + contents.font.size * 0, 100, contents.font.size, "装備タイプ")
+    draw_text(x, y + contents.font.size * 0, 100, contents.font.size, "Тип предмета")
     
     if item.is_a?(RPG::Weapon)
       str = $data_system.weapon_types[item.wtype_id]
@@ -2342,7 +2342,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     if KURE::BaseScript::USE_SortOut == 1 
       #装備経験値
       change_color(system_color)
-      draw_text(x, y + contents.font.size * 1, 100, contents.font.size, "装備Exp")
+      draw_text(x, y + contents.font.size * 1, 100, contents.font.size, "Опыт предмета")
       change_color(normal_color)
       draw_text(x + 110, y + contents.font.size * 1, contents.width - 140, contents.font.size, item.equip_exp)
       

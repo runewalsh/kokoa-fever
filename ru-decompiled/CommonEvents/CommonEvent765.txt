@@ -3,7 +3,7 @@ Name = "☆闘技負けイベント"
 
   ShotBalloonIcon([-1, 7, false])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ココア"])
+  ShowText(["\\C[25]Кокоа\\C[0]"])
   ShowText(["「負け・・ちゃった・・・」"])
   ControlSwitches([69, 69, 1])
   ControlSwitches([70, 70, 0])

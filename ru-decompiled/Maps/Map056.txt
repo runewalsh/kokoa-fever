@@ -3354,7 +3354,7 @@ Name = "EV045"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -3368,7 +3368,7 @@ Name = "EV046"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])

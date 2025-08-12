@@ -39,7 +39,7 @@ module MLV_CHANGE
   
   #そのスキルを覚えるレベルを設定する職業スキルメモ欄用キーワードを設定します。
   
-  WORD3  = "LV"
+  WORD3  = "УР."
   
 end
 class RPG::Class::Learning

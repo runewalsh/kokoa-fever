@@ -1,4 +1,4 @@
-Display Name = "転送の間"
+Display Name = "Зал телепортации"
 Parallax Name = ""
 Note = ""
 

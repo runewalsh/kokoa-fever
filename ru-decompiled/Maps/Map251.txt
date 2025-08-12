@@ -7,7 +7,7 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「ふっふ～ん♪」"])
     ControlSwitches([43, 43, 1])
     ControlSwitches([46, 46, 0])
@@ -42,7 +42,7 @@ Name = "EV003"
     ShowText(["ネコ耳の女性"])
     ShowText(["「にゃにゃ♪いらっしゃいにゃん♪」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「・・・・ここお店なの？」"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["ネコ耳の店員"])
@@ -54,7 +54,7 @@ Name = "EV003"
     ShowText(["「客が絶えないから商売安定にゃ♪」"])
     ShotBalloonIcon([0, 3, true])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「へー・・・」"])
     ControlSelfSwitch(["A", 0])
     Empty([])

@@ -17,7 +17,7 @@ Name = " 2"
   Wait([60])
   ShowPicture([1, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ここな"])
+  ShowText(["\\C[18]Кокона\\C[0]"])
   ShowText(["「気がついたようね。さっ行くわよ」"])
   ErasePicture([1])
   ControlVariables([91, 91, 1, 0, 1])

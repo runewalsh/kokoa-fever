@@ -1,4 +1,4 @@
-Display Name = "要塞都市ハーリス-中央"
+Display Name = "Город-крепость Харрис, центр"
 Parallax Name = ""
 Note = ""
 
@@ -98,7 +98,7 @@ Name = "EV009"
       ConditionalBranch([1, 201, 0, 0, 0])
         RecoverAll([0, 0])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["ここな"])
+        ShowText(["\\C[18]Кокона\\C[0]"])
         ShowText(["「ふっふ～ん♪」"])
         ChangeArmor([801, 0, 0, 1, false])
         ChangeEquipment([15, 3, 801])
@@ -243,7 +243,7 @@ Name = "EV017"
   Page 0
     ConditionalBranch([0, 27, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「・・・・こんなお腹じゃ入れない・・・・」"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -253,7 +253,7 @@ Name = "EV017"
     BranchEnd([])
     ConditionalBranch([0, 28, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「・・・・こんなお腹じゃ入れない・・・・」"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -521,7 +521,7 @@ Name = "EV047"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -535,7 +535,7 @@ Name = "EV048"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -549,7 +549,7 @@ Name = "EV049"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
@@ -567,28 +567,28 @@ Name = "EV050"
     Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
     ShowPicture([1, "新たなる旅立ちEND１", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「クロウ。次はどこに行くの？」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["クロウ"])
+    ShowText(["\\C[7]Кроу\\C[0]"])
     ShowText(["「あぁ・・・ルーベル地方に新しいダンジョンが発見されてな"])
     ShowText(["　そこに行って調査が今後の仕事になるな」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["クロウ"])
+    ShowText(["\\C[7]Кроу\\C[0]"])
     ShowText(["「怪我が治ったばかりだからな。お前らの力を頼ることも多くなる"])
     ShowText(["　その時は・・・・」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「うん。頑張る！」"])
     ShowPicture([1, "新たなる旅立ちEND２", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「二人とも早く行こうよー！」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["クロウ"])
+    ShowText(["\\C[7]Кроу\\C[0]"])
     ShowText(["「そういう訳でこれからもよろしく頼むぞ」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「うん！」"])
     Wait([60])
     TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=255.0)", 500, false])

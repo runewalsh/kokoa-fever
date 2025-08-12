@@ -15,7 +15,7 @@ Name = "後処理"
   ShowText(["おじさん"])
   ShowText(["「またのご利用をお待ちしております」"])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ココア"])
+  ShowText(["\\C[25]Кокоа\\C[0]"])
   ShowText(["「・・・・・。」"])
   CallCommonEvent([24])
   Empty([])

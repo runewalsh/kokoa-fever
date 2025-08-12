@@ -90,7 +90,7 @@ Name = "EV013"
   Page 0
     ShowPicture([11, "立ち絵：ここな３", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「まずは村長の家に行ってみましょ」"])
     ErasePicture([11])
     ControlVariables([3, 3, 0, 0, 34])
@@ -105,7 +105,7 @@ Name = "EV014"
   Page 0
     ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「ちょっと！そっちは違うわよ！！」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
@@ -118,7 +118,7 @@ Name = "EV015"
   Page 0
     ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「ちょっと！そっちは違うわよ！！」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
@@ -131,7 +131,7 @@ Name = "EV016"
   Page 0
     ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「ちょっと！そっちは違うわよ！！」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])

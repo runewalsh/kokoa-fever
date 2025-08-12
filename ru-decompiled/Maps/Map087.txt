@@ -48,7 +48,7 @@ Name = "EV006"
   Page 0
     Wait([60])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「さて、鍛冶屋に報告して帰ろうかしら」"])
     ControlVariables([3, 3, 0, 0, 21])
     Empty([])

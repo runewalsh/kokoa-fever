@@ -160,7 +160,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -174,7 +174,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -188,7 +188,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -202,7 +202,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -216,7 +216,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -230,7 +230,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -244,7 +244,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["薬草を手に入れた"])
+    ShowText(["Сорвала целебную траву."])
     ChangeItems([52, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])

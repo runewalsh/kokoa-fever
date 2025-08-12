@@ -100,7 +100,8 @@ class Game_Troop < Game_Unit
   # ● 敵キャラ名の後ろにつける文字の表を取得
   #--------------------------------------------------------------------------
   def letter_table
-    $game_system.japanese? ? LETTER_TABLE_FULL : LETTER_TABLE_HALF
+    # $game_system.japanese? ? LETTER_TABLE_FULL : LETTER_TABLE_HALF
+    LETTER_TABLE_HALF
   end
   #--------------------------------------------------------------------------
   # ● フレーム更新

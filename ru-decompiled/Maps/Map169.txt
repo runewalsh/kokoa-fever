@@ -351,7 +351,7 @@ Name = "EV032"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["プティン"])
+    ShowText(["\\C[10]Путин\\C[0]"])
     ShowText(["「あっ・・・針が下がってますね！」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])

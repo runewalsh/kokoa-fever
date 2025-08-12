@@ -71,7 +71,7 @@ Name = "EV005"
     Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
     Wait([60])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["クロウ"])
+    ShowText(["\\C[7]Кроу\\C[0]"])
     ShowText(["「よし、入るぞ」"])
     FadeoutScreen([])
     TransferPlayer([0, 108, 9, 23, 2, 0])

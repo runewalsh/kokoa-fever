@@ -98,14 +98,14 @@ module ShopStatus
   VOCAB_POINT_UNIT = ""
   
   VOCAB_PARAMS = {}
-  VOCAB_PARAMS[:mhp] = "最大ＨＰ"
-  VOCAB_PARAMS[:mmp] = "最大ＭＰ"
-  VOCAB_PARAMS[:atk] = "物理攻撃"
-  VOCAB_PARAMS[:def] = "物理防御"
-  VOCAB_PARAMS[:mat] = "魔法攻撃"
-  VOCAB_PARAMS[:mdf] = "魔法防御"
-  VOCAB_PARAMS[:agi] = "敏 捷 性"
-  VOCAB_PARAMS[:luk] = "　技量"
+  VOCAB_PARAMS[:mhp] = "Макс. HP"
+  VOCAB_PARAMS[:mmp] = "Макс. MP"
+  VOCAB_PARAMS[:atk] = "Физ. атк."
+  VOCAB_PARAMS[:def] = "Физ. защ."
+  VOCAB_PARAMS[:mat] = "Маг. атк."
+  VOCAB_PARAMS[:mdf] = "Маг. защ."
+  VOCAB_PARAMS[:agi] = "Скорость"
+  VOCAB_PARAMS[:luk] = "Удача"
   
 end # module ShopStatus
 end # module CAO

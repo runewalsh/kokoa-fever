@@ -594,7 +594,7 @@ Name = "EV041"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ここな"])
+      ShowText(["\\C[18]Кокона\\C[0]"])
       ShowText(["「ここの土砂が邪魔なようね」"])
       TransferPlayer([0, 92, 21, 12, 4, 0])
       Wait([60])
@@ -621,7 +621,7 @@ Name = "EV042"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ここな"])
+      ShowText(["\\C[18]Кокона\\C[0]"])
       ShowText(["「ここの土砂が邪魔なようね」"])
       TransferPlayer([0, 92, 21, 12, 4, 0])
       Wait([60])
@@ -648,7 +648,7 @@ Name = "EV043"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ここな"])
+      ShowText(["\\C[18]Кокона\\C[0]"])
       ShowText(["「ここの土砂が邪魔なようね」"])
       TransferPlayer([0, 92, 21, 12, 4, 0])
       Wait([60])

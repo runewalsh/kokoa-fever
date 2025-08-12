@@ -165,13 +165,13 @@ Name = "EV013"
     ShowChoices([["諦めて迂回する", "面倒だから突撃"], 0])
     When([0, "諦めて迂回する"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「面倒だけど・・・遠回りして行こう」"])
       Empty([])
 
     When([1, "面倒だから突撃"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ココア"])
+      ShowText(["\\C[25]Кокоа\\C[0]"])
       ShowText(["「ココアここ通る！」"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
@@ -182,7 +182,7 @@ Name = "EV013"
       IfWin([])
         ControlSwitches([17, 17, 1])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["ココア"])
+        ShowText(["\\C[25]Кокоа\\C[0]"])
         ShowText(["「ここを通して・・・・！」"])
         ShotBalloonIcon([-1, 1, false])
         ShowTextAttributes(["", 0, 0, 2])
@@ -254,7 +254,7 @@ Name = "EV013"
         SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
         Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["ココア"])
+        ShowText(["\\C[25]Кокоа\\C[0]"])
         ShowText(["「・・・・うぅ」"])
         SetEventLocation([18, 0, 28, 43, 6])
         SetMoveRoute([18, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[5])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
@@ -296,7 +296,7 @@ Name = "EV013"
         ShowText(["警備兵士A"])
         ShowText(["「どうだ！警備兵の力思い知ったか！！」"])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["ココア"])
+        ShowText(["\\C[25]Кокоа\\C[0]"])
         ShowText(["「ぷぎゅ～・・・」"])
         FadeoutScreen([])
         RecoverAll([0, 0])
@@ -408,7 +408,7 @@ Name = "EV022"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -422,7 +422,7 @@ Name = "EV023"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -436,7 +436,7 @@ Name = "EV024"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「おっと・・こっちじゃなかったわ」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])

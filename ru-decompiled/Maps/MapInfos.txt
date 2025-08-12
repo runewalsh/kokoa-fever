@@ -5,16 +5,16 @@ MapInfo 2
 Name = "実験場"
 
 MapInfo 3
-Name = "街外れ東"
+Name = "Восточный пригород"
 
 MapInfo 4
 Name = "？？？"
 
 MapInfo 5
-Name = "クロウの家"
+Name = "Дом Кроу"
 
 MapInfo 6
-Name = "ココアの部屋"
+Name = "Комната Кокоа"
 
 MapInfo 7
 Name = "小屋"
@@ -32,25 +32,25 @@ MapInfo 11
 Name = "中央"
 
 MapInfo 12
-Name = "魔法協会"
+Name = "Магическая организация"
 
 MapInfo 13
 Name = "学区"
 
 MapInfo 14
-Name = "魔法協会"
+Name = "Магическая организация"
 
 MapInfo 15
-Name = "ここなの部屋"
+Name = "Комната Коконы"
 
 MapInfo 16
-Name = "風呂場"
+Name = "Ванная"
 
 MapInfo 17
 Name = "オープニング"
 
 MapInfo 18
-Name = "静かなる森１"
+Name = "Тихий лес 1"
 
 MapInfo 19
 Name = "武器屋"
@@ -89,25 +89,25 @@ MapInfo 30
 Name = "ハーリス街道１"
 
 MapInfo 31
-Name = "静かなる森２－１"
+Name = "Тихий лес 2—1"
 
 MapInfo 32
-Name = "静かなる森２－２"
+Name = "Тихий лес 2—2"
 
 MapInfo 33
-Name = "静かなる森３"
+Name = "Тихий лес 3"
 
 MapInfo 34
 Name = "ハーリス街道２"
 
 MapInfo 35
-Name = "静かなる森４"
+Name = "Тихий лес 4"
 
 MapInfo 36
-Name = "静かなる森４－２"
+Name = "Тихий лес 4—2"
 
 MapInfo 37
-Name = "静かなる森４－１"
+Name = "Тихий лес 4—1"
 
 MapInfo 38
 Name = "ハーリス街道３"
@@ -434,7 +434,7 @@ MapInfo 145
 Name = "村の民家C：1F"
 
 MapInfo 146
-Name = "転送の間"
+Name = "Зал телепортации"
 
 MapInfo 147
 Name = "アイテムの店"

@@ -6,7 +6,7 @@ Name = "☆臨月経過"
     Wait([60])
     ShotBalloonIcon([-1, 1, false])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココア"])
+    ShowText(["\\C[25]Кокоа\\C[0]"])
     ShowText(["「う・・・生まれ・・・・る」"])
     FadeoutScreen([])
     CallCommonEvent([40])

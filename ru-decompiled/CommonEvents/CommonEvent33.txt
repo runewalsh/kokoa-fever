@@ -17,7 +17,7 @@ Name = "出産後処理"
   Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
   ShotBalloonIcon([-1, 2, true])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ココア"])
+  ShowText(["\\C[25]Кокоа\\C[0]"])
   ShowText(["「・・・・・・？」"])
   ControlSwitches([32, 32, 1])
   ControlSwitches([10, 10, 1])

@@ -462,7 +462,7 @@ Name = "EV038"
     ShowPicture([1, "立ち絵：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowPicture([2, "立ち絵：レモン通常", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここな"])
+    ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「これはテストだよ」"])
     Empty([])
 

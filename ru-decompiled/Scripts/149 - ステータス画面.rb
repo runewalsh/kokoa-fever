@@ -39,7 +39,7 @@ module KURE
     
   #1-1ページ目描画対応、ステータス表示方法--------------------------------------
     #Vocab_Ex1 = [命中率,回避率,会心率,会心回避率,魔法回避率,魔法反射率,反撃率,HP再生率,MP再生率,TP再生率]
-    Vocab_Ex1 = ["命中率","回避率","会心率","会心回避率","魔法回避率","魔法反射率","反撃率","HP再生率","MP再生率","TP再生率"]
+    Vocab_Ex1 = ["Меткость","Уворот","Крит. шанс","会心回避率","魔法回避率","魔法反射率","反撃率","HP再生率","MP再生率","TP再生率"]
     #表示、非表示切り替え(0=表示、1=非表示)
     VIEW_Ex1 = [0,0,0,0,0,0,0,0,0,0]
     
@@ -826,7 +826,7 @@ class Window_k_ExStatus_Draw < Window_Base
       draw_text(x + (contents.width - x)/2 + 45 + use_icon, y + line_height * count, 48, line_height, draw_str, 2)
       draw_text(x + (contents.width - x)/2 + 93 + use_icon, y + line_height * count, 62, line_height, draw_str2, 2)
     end
-    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →：表示切り替え ( " + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + " )" ,1)
+    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →: Страница (" + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
   #--------------------------------------------------------------------------
   # ● ステート耐性(1-5ページの描画)
@@ -918,7 +918,7 @@ class Window_k_ExStatus_Draw < Window_Base
             
       draw_text(x + (contents.width - x)/2 + 70 + use_icon, y + line_height * count, 50, line_height, draw_str, 2)
     end
-    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →：表示切り替え ( " + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + " )" ,1)
+    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →: Страница (" + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
   #--------------------------------------------------------------------------
   # ● 習得中スキルリスト(1-6ページの描画)
@@ -968,7 +968,7 @@ class Window_k_ExStatus_Draw < Window_Base
     end
     
     max_page = 1 if max_page == 0
-    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →：表示切り替え ( " + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + " )" ,1)
+    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →: Страница (" + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
   #--------------------------------------------------------------------------
   # ● 個人能力リスト(1-7ページの描画)
@@ -1056,7 +1056,7 @@ class Window_k_ExStatus_Draw < Window_Base
         change_color(normal_color)
         change_color(tp_gauge_color2) if select_grade_job[i].id == @actor.class_id
         change_color(mp_gauge_color2) if select_grade_job[i].id == @actor.sub_class_id
-        lv = "Lv"
+        lv = "Ур."
         lv += " " if @actor.class_level_list[select_grade_job[i].id] < 10
         draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), 130, line_height, select_grade_job[i].name)
         draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), (contents.width - 160) / 2 - 5, line_height, lv + @actor.class_level_list[select_grade_job[i].id].to_s, 2)
@@ -1089,7 +1089,7 @@ class Window_k_ExStatus_Draw < Window_Base
     end
     
     max_page = 1 if max_page == 0
-    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →：表示切り替え ( " + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + " )" ,1)
+    draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →: Страница (" + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
   #--------------------------------------------------------------------------
   # ▲ 基本情報(3ページの描画)
@@ -1117,12 +1117,12 @@ class Window_k_ExStatus_Draw < Window_Base
       end
       
       if KURE::BaseScript::USE_SortOut == 0
-        draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 1 / 2 )",1)
+        draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (1 / 2)",1)
       else
         if KURE::SortOut::USE_SLOT_EQUIP == 1
-          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 1 / 3 )",1)
+          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (1 / 3)",1)
         else
-          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 1 / 2 )",1) 
+          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (1 / 2)",1) 
         end
       end
     when 1
@@ -1130,19 +1130,19 @@ class Window_k_ExStatus_Draw < Window_Base
       draw_equipments_features(160,line_height * 1)
       
       if KURE::BaseScript::USE_SortOut == 0
-        draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 2 / 2 )",1)
+        draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (2 / 2)",1)
       else
         if KURE::SortOut::USE_SLOT_EQUIP == 1
-          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 2 / 3 )",1)
+          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (2 / 3)",1)
         else
-          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 2 / 2 )",1) 
+          draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (2 / 2)",1) 
         end
       end
     when 2
       draw_text(160, 0, 200, line_height, "装備スロット")
       draw_equipments_slot(160,line_height * 1)
       
-      draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →：表示切り替え( 3 / 3 )",1)
+      draw_text(160, contents.height - line_height, contents.width - 160, line_height, "← →: Страница (3 / 3)",1)
     end
   end
   #--------------------------------------------------------------------------
@@ -1389,11 +1389,11 @@ class Window_k_ExStatus_Draw < Window_Base
           #ステータス名取得
           case drow
           when 0
-            draw_str = "命中率"
+            draw_str = "Меткость"
           when 1
-            draw_str = "回避率"
+            draw_str = "Уворот"
           when 2
-            draw_str = "会心率"
+            draw_str = "Крит. шанс"
           when 3
             draw_str = "会心回避"             
           when 4
@@ -1938,10 +1938,10 @@ class Window_k_ExStatus_Draw < Window_Base
     case @draw_index
     when 0
       page_4_1_draw
-      draw_text(280, contents.height - line_height, contents.width - 280, line_height, "← →：表示切り替え( 1 / 2 )",1) if KURE::ExStatus::PROFILE2[@actor.id] != nil
+      draw_text(280, contents.height - line_height, contents.width - 280, line_height, "← →: Страница (1 / 2)",1) if KURE::ExStatus::PROFILE2[@actor.id] != nil
     when 1
       page_4_2_draw
-      draw_text(280, contents.height - line_height, contents.width - 280, line_height, "← →：表示切り替え( 2 / 2 )",1)
+      draw_text(280, contents.height - line_height, contents.width - 280, line_height, "← →: Страница (2 / 2)",1)
     end
   end
   #--------------------------------------------------------------------------
