@@ -207,7 +207,7 @@ class Window__k_Custom_MenuCommand < Window_MenuCommand
     rect = item_rect(index)
     rect.x += 4
     rect.x += 24 if KURE::Custom_Menu::USE_ICON == 1
-    rect.width -= (rect.x + 4)
+    rect.width -= (rect.x + 4) - 10
     rect
   end
 end

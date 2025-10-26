@@ -121,7 +121,7 @@ Name = "EV008"
     ControlSelfSwitch(["A", 0])
     ChangeItems([12, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ガードアップを手に入れた！"])
+    ShowText(["Нашла бонус защиты!"])
     Empty([])
 
   Page 1
@@ -141,7 +141,7 @@ Name = "EV009"
     ControlSelfSwitch(["A", 0])
     ChangeItems([14, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["レジストアップを手に入れた！"])
+    ShowText(["Нашла бонус сопротивления!"])
     Empty([])
 
   Page 1
@@ -161,7 +161,7 @@ Name = "EV010"
     ControlSelfSwitch(["A", 0])
     ChangeItems([11, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["パワーアップを手に入れた！"])
+    ShowText(["Нашла бонус силы!"])
     Empty([])
 
   Page 1
@@ -181,7 +181,7 @@ Name = "EV011"
     ControlSelfSwitch(["A", 0])
     ChangeItems([13, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マジックアップを手に入れた！"])
+    ShowText(["Нашла бонус магии!"])
     Empty([])
 
   Page 1

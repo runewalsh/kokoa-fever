@@ -20,7 +20,7 @@ module KURE
   #メインメニュー選択肢の設定---------------------------------------------------
     #メインメニューの表示名設定（後ろの数字はページ振り分けに使用します。）
     #EX_MAIN_STATUS_MENU = ["基本情報(0)","職業履歴(1)","装備情報(2)","プロフィール(3)"]
-    EX_MAIN_STATUS_MENU = ["基本情報","職業履歴","装備情報",]
+    EX_MAIN_STATUS_MENU = ["Характеристики","Работа","Экипировка",]
     
     #表示ページのリスト(選択肢に表示される項目)
     VIEW_MAIN_MENU = [0,1,2,]
@@ -32,20 +32,20 @@ module KURE
     
     #サブメニューの選択肢の表示名
     #EX_SUB_STATUS_MENU[1] = ["基本能力値(0)","特殊能力(1)","パーティー能力(2)","属性耐性(3)","ステート耐性(4)","習得中スキル(5)","フリースペース(6)"]
-    EX_SUB_STATUS_MENU[1] = ["基本能力値","特殊能力","パーティー能力","属性耐性","ステート耐性","習得中スキル","フリースペース"]
+    EX_SUB_STATUS_MENU[1] = ["Основные","Специальные","Групповые","Сопр. элементам","Сопр. эффектам","Изучаемые навыки","Свободно"]
     
     #サブメニューのページリスト(選択肢に表示される項目)
     VIEW_SUB_MENU[1] = [0,1,2,3,4]
     
   #1-1ページ目描画対応、ステータス表示方法--------------------------------------
     #Vocab_Ex1 = [命中率,回避率,会心率,会心回避率,魔法回避率,魔法反射率,反撃率,HP再生率,MP再生率,TP再生率]
-    Vocab_Ex1 = ["Меткость","Уворот","Крит. шанс","会心回避率","魔法回避率","魔法反射率","反撃率","HP再生率","MP再生率","TP再生率"]
+    Vocab_Ex1 = ["Меткость","Уворот","Крит. шанс","Крит. уворот","Маг. уворот","Маг. отражение","Контратака","Реген. HP","Реген. MP","Реген. TP"]
     #表示、非表示切り替え(0=表示、1=非表示)
     VIEW_Ex1 = [0,0,0,0,0,0,0,0,0,0]
     
   #1-2ページ目描画対応、特殊能力値の表示方法------------------------------------
     #Vocab_Ex2 = [狙われ率,防御効果率,回復効果率,薬の知識,MP消費率,TPチャージ率,物理ダメージ率,魔法ダメージ率,床ダメージ率,経験獲得率]
-    Vocab_Ex2 = ["狙われ率","防御効果率","回復効果率","薬の知識","MP消費率","TPチャージ率","物理ダメージ率","魔法ダメージ率","床ダメージ率","経験獲得率"]
+    Vocab_Ex2 = ["Точность","Эфф. защиты","Эфф. лечения","Эфф. зелий","Затраты MP","Зарядка TP","Физ. урон","Маг. урон","Урон ловушек","Опыт"]
     #表示、非表示切り替え(0=表示、1=非表示)
     VIEW_Ex2 = [0,0,0,0,0,0,0,0,0,0,0]
 
@@ -549,7 +549,7 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_draw    
     draw_gauge(0,0, 155, 1, mp_gauge_color2,crisis_color)
-    draw_text(0, 0, 126, line_height,KURE::ExStatus::EX_MAIN_STATUS_MENU[KURE::ExStatus::VIEW_MAIN_MENU[@main_command_index]])
+    draw_text(0, 0, 126 + 40, line_height,KURE::ExStatus::EX_MAIN_STATUS_MENU[KURE::ExStatus::VIEW_MAIN_MENU[@main_command_index]])
     
     case KURE::ExStatus::VIEW_SUB_MENU[1][@sub_command_index]
     when 0
@@ -573,12 +573,12 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_1_draw
     draw_gauge(160,0, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, 0, 200, line_height, "基本能力値")
+    draw_text(160, 0, 200, line_height, "Осн. характеристики")
     
     8.times {|i| draw_actor_param(@actor, 160, line_height * 1, i) }
     
     draw_gauge(160,line_height * 5, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, line_height * 5, 200, line_height, "追加能力値")    
+    draw_text(160, line_height * 5, 200, line_height, "Доп. характеристики")
 
     @draw_postion_xparam = 0
     10.times {|i| draw_actor_param(@actor, 160, line_height * 6, i + 9) }
@@ -588,13 +588,13 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_2_draw
     draw_gauge(160,0, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, 0, 200, line_height, "特殊能力値")
+    draw_text(160, 0, 300, line_height, "Спец. характеристики")
     
     @draw_postion_sparam = 0
     10.times {|i| draw_actor_param(@actor, 160, line_height * 1, i + 20) }
     
     draw_gauge(160,line_height * 7, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, line_height * 7, 200, line_height, "アクター能力")
+    draw_text(160, line_height * 7, 300, line_height, "Способности персонажа")
     
     draw_actor_self_features(@actor, 160, line_height * 8)
   end 
@@ -605,12 +605,12 @@ class Window_k_ExStatus_Draw < Window_Base
     case param_id
     when 0,2,4,6
       change_color(system_color)
-      draw_text(x, y + line_height * (param_id / 2), 120, line_height, Vocab::param(param_id))
+      draw_text(x, y + line_height * (param_id / 2), 120 + 80, line_height, Vocab::param(param_id))
       change_color(normal_color)
       draw_text(x + 120, y + line_height * (param_id / 2), 50, line_height, actor.param(param_id), 2)
     when 1,3,5,7  
       change_color(system_color)
-      draw_text(x + (contents.width - x)/2, y + line_height * ((param_id - 1)/ 2), 120, line_height, Vocab::param(param_id))
+      draw_text(x + (contents.width - x)/2, y + line_height * ((param_id - 1)/ 2), 120 + 80, line_height, Vocab::param(param_id))
       change_color(normal_color)
       draw_text(x + (contents.width - x)/2 + 120, y + line_height * ((param_id - 1)/ 2), 50, line_height, actor.param(param_id), 2)    
 
@@ -625,12 +625,12 @@ class Window_k_ExStatus_Draw < Window_Base
         case draw_pos_xparam
         when 0,2,4,6,8
           change_color(system_color)
-          draw_text(x, y + line_height * (draw_pos_xparam / 2), 120, line_height, KURE::ExStatus::Vocab_Ex1[param_id - 9])
+          draw_text(x, y + line_height * (draw_pos_xparam / 2), 120 + 80, line_height, KURE::ExStatus::Vocab_Ex1[param_id - 9])
           change_color(normal_color)
           draw_text(x + 120, y + line_height * (draw_pos_xparam / 2), 50, line_height, draw_str, 2)        
         when 1,3,5,7,9
           change_color(system_color)
-          draw_text(x + (contents.width - x)/2, y + line_height * ((draw_pos_xparam - 1)/ 2), 120, line_height, KURE::ExStatus::Vocab_Ex1[param_id - 9])
+          draw_text(x + (contents.width - x)/2, y + line_height * ((draw_pos_xparam - 1)/ 2), 120 + 80, line_height, KURE::ExStatus::Vocab_Ex1[param_id - 9])
           change_color(normal_color)
           draw_text(x + (contents.width - x)/2 + 120, y + line_height * ((draw_pos_xparam - 1)/ 2), 50, line_height, draw_str, 2)
         end
@@ -647,12 +647,12 @@ class Window_k_ExStatus_Draw < Window_Base
         case draw_pos_sparam
         when 0,2,4,6,8
           change_color(system_color)
-          draw_text(x, y + line_height * (draw_pos_sparam / 2), 120, line_height, KURE::ExStatus::Vocab_Ex2[param_id - 20])
+          draw_text(x, y + line_height * (draw_pos_sparam / 2), 120 + 80, line_height, KURE::ExStatus::Vocab_Ex2[param_id - 20])
           change_color(normal_color)
           draw_text(x + 120, y + line_height * (draw_pos_sparam / 2), 50, line_height, draw_str, 2)        
         when 1,3,5,7,9
           change_color(system_color)
-          draw_text(x + (contents.width - x)/2, y + line_height * ((draw_pos_sparam - 1)/ 2), 120, line_height, KURE::ExStatus::Vocab_Ex2[param_id - 20])
+          draw_text(x + (contents.width - x)/2, y + line_height * ((draw_pos_sparam - 1)/ 2), 120 + 80, line_height, KURE::ExStatus::Vocab_Ex2[param_id - 20])
           change_color(normal_color)
           draw_text(x + (contents.width - x)/2 + 120, y + line_height * ((draw_pos_sparam - 1)/ 2), 50, line_height, draw_str, 2)
         end
@@ -668,9 +668,9 @@ class Window_k_ExStatus_Draw < Window_Base
       #二刀流チェック
       if @actor.all_features[i].code == 55
         if draw_counter < 3
-          draw_text(x + ((contents.width - x)/3) * draw_counter, y + line_height * 0,(contents.width - 10)/3,line_height,"二刀流")
+          draw_text(x + ((contents.width - x)/3) * draw_counter, y + line_height * 0,(contents.width - 10)/3,line_height,"Два клинка")
         else
-          draw_text(x + ((contents.width - x)/3) * (draw_counter - 3), y + line_height * 1,(contents.width - 10)/3,line_height,"二刀流")
+          draw_text(x + ((contents.width - x)/3) * (draw_counter - 3), y + line_height * 1,(contents.width - 10)/3,line_height,"Два клинка")
         end
         draw_counter += 1
       end
@@ -713,7 +713,7 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_3_draw
     draw_gauge(160,0, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, 0, 200, line_height, "パーティ能力")
+    draw_text(160, 0, 300, line_height, "Характеристики группы")
         
     draw_actor_party_features(@actor, 160, line_height * 1)
   end 
@@ -748,17 +748,17 @@ class Window_k_ExStatus_Draw < Window_Base
       if @actor.party_add_ability(j) != 1
         case j
         when 0
-          value = "獲得金額" + @actor.party_add_ability(j).to_s + "倍"
+          value = "Получ. деньги ×" + @actor.party_add_ability(j).to_s
         when 1
-          value = "アイテム入手率" + @actor.party_add_ability(j).to_s + "倍"
+          value = "Получ. предметы ×" + @actor.party_add_ability(j).to_s
         when 2
-          value = "エンカウント率" + @actor.party_add_ability(j).to_s + "倍"
+          value = "Шанс нападения ×" + @actor.party_add_ability(j).to_s + "倍"
         when 3
-          value = "獲得経験値倍率" + @actor.party_add_ability(j).to_s + "倍"
+          value = "Получ. опыт ×" + @actor.party_add_ability(j).to_s + "倍"
         when 4
-          value = "獲得職業経験値倍率" + @actor.party_add_ability(j).to_s + "倍"
+          value = "Получ. опыт работы ×" + @actor.party_add_ability(j).to_s + "倍"
         when 5
-          value = "獲得装備経験値倍率" + @actor.party_add_ability(j).to_s + "倍"
+          value = "Получ. опыт предметов ×" + @actor.party_add_ability(j).to_s + "倍"
         end
         draw_text(x , y + line_height * draw_counter, contents.width / 2,line_height,value)
         draw_counter += 1      
@@ -770,7 +770,7 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_4_draw
     draw_gauge(160,0, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, 0, 200, line_height, "属性耐性(属性吸収)")
+    draw_text(160, 0, 300, line_height, "Сопротивление (поглощение)")
     
     #1ページの最大描画数、ページ数を取得
     elements = KURE::ExStatus::VIEW_ELEMENT_REGIST.size
@@ -804,10 +804,10 @@ class Window_k_ExStatus_Draw < Window_Base
       change_color(system_color)
       count = (pos - 1) / 2
       draw_icon(KURE::ExStatus::ELEMENT_ICON_LIST[element_id - 1], x, y + line_height * count) if KURE::ExStatus::ELEMENT_ICON == 1 
-      draw_text(x + use_icon, y + line_height * count, 45, line_height, $data_system.elements[KURE::ExStatus::VIEW_ELEMENT_REGIST[element_id - 1]])
+      draw_text(x + use_icon, y + line_height * count, 100, line_height, $data_system.elements[KURE::ExStatus::VIEW_ELEMENT_REGIST[element_id - 1]])
       change_color(normal_color)
-      draw_text(x + 45 + use_icon, y + line_height * count, 48, line_height, draw_str, 2)
-      draw_text(x + 93 + use_icon, y + line_height * count, 62, line_height, draw_str2, 2)
+      draw_text(x + 100 - 10 + use_icon, y + line_height * count, 48, line_height, draw_str, 2)
+      draw_text(x + 100 - 10 + 48 + use_icon, y + line_height * count, 62, line_height, draw_str2, 2)
     else
       value = 100 - (@actor.element_rate(KURE::ExStatus::VIEW_ELEMENT_REGIST[element_id - 1])*100).to_i
       draw_str = draw_value_s(value,0)
@@ -821,10 +821,10 @@ class Window_k_ExStatus_Draw < Window_Base
       count = (pos - 2) / 2
       change_color(system_color)
       draw_icon(KURE::ExStatus::ELEMENT_ICON_LIST[element_id - 1], x + (contents.width - x)/2, y + line_height * count) if KURE::ExStatus::ELEMENT_ICON == 1
-      draw_text(x + (contents.width - x)/2 + use_icon, y + line_height * count, 45, line_height, $data_system.elements[KURE::ExStatus::VIEW_ELEMENT_REGIST[element_id - 1]])
+      draw_text(x + (contents.width - x)/2 + use_icon, y + line_height * count, 100, line_height, $data_system.elements[KURE::ExStatus::VIEW_ELEMENT_REGIST[element_id - 1]])
       change_color(normal_color)
-      draw_text(x + (contents.width - x)/2 + 45 + use_icon, y + line_height * count, 48, line_height, draw_str, 2)
-      draw_text(x + (contents.width - x)/2 + 93 + use_icon, y + line_height * count, 62, line_height, draw_str2, 2)
+      draw_text(x + (contents.width - x)/2 + 100 - 10 + use_icon, y + line_height * count, 48, line_height, draw_str, 2)
+      draw_text(x + (contents.width - x)/2 + 100 - 10 + 48 + use_icon, y + line_height * count, 62, line_height, draw_str2, 2)
     end
     draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →: Страница (" + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
@@ -833,7 +833,7 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_5_draw
     draw_gauge(160,0, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, 0, 200, line_height, "ステート耐性")
+    draw_text(160, 0, 300, line_height, "Сопротивление эффектам")
         
     #1ページの最大描画数、ページ数を取得
     state = KURE::ExStatus::VIEW_STATE_REGIST.size
@@ -882,10 +882,10 @@ class Window_k_ExStatus_Draw < Window_Base
       change_color(system_color)
       count = (pos - 1) / 2
       draw_icon($data_states[KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]].icon_index, x, y + line_height * count) if KURE::ExStatus::STATE_ICON == 1
-      draw_text(x + use_icon, y + line_height * count, 70, line_height, $data_states[KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]].name)
+      draw_text(x + use_icon, y + line_height * count, 130, line_height, $data_states[KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]].name)
       change_color(normal_color)
       
-      draw_text(x + 70 + use_icon, y + line_height * count, 50, line_height, draw_str, 2)
+      draw_text(x + 130 - 25 + use_icon, y + line_height * count, 50, line_height, draw_str, 2)
     else
       #無効化をチェック
       flag = 0
@@ -913,10 +913,10 @@ class Window_k_ExStatus_Draw < Window_Base
       count = (pos - 2) / 2
       change_color(system_color)
       draw_icon($data_states[KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]].icon_index, x + (contents.width - x)/2, y + line_height * count) if KURE::ExStatus::STATE_ICON == 1
-      draw_text(x + (contents.width - x)/2 + use_icon, y + line_height * count, 70, line_height, $data_states[KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]].name)
+      draw_text(x + (contents.width - x)/2 + use_icon, y + line_height * count, 130, line_height, $data_states[KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]].name)
       change_color(normal_color)
             
-      draw_text(x + (contents.width - x)/2 + 70 + use_icon, y + line_height * count, 50, line_height, draw_str, 2)
+      draw_text(x + (contents.width - x)/2 + 130 - 25 + use_icon, y + line_height * count, 50, line_height, draw_str, 2)
     end
     draw_text(160, contents.height - line_height , contents.width - 160, line_height, "← →: Страница (" + (@draw_sub_command_index + 1).to_s + " / " + max_page.to_s + ")" ,1)
   end
@@ -1000,7 +1000,7 @@ class Window_k_ExStatus_Draw < Window_Base
     if KURE::BaseScript::USE_JOBLv == 1
       draw_text(160, 0, 200, line_height, KURE::JobChange::JOB_GRADE_LIST[@sub_command_index] + " の職業履歴")
     else
-      draw_text(160, 0, 200, line_height, "職業履歴")
+      draw_text(160, 0, 200, line_height, "История работы")
     end
     draw_job_exp(160,line_height * 1)
   end
@@ -1058,13 +1058,13 @@ class Window_k_ExStatus_Draw < Window_Base
         change_color(mp_gauge_color2) if select_grade_job[i].id == @actor.sub_class_id
         lv = "Ур."
         lv += " " if @actor.class_level_list[select_grade_job[i].id] < 10
-        draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), 130, line_height, select_grade_job[i].name)
+        draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), 170, line_height, select_grade_job[i].name)
         draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), (contents.width - 160) / 2 - 5, line_height, lv + @actor.class_level_list[select_grade_job[i].id].to_s, 2)
         change_color(normal_color)
       else
         change_color(normal_color, false)
         if select_grade_job[i].view_class_name == true
-          draw_text(x + draw_x_plus, y + line_height * (draw_line -1), 130, line_height, select_grade_job[i].name)
+          draw_text(x + draw_x_plus, y + line_height * (draw_line -1), 170, line_height, select_grade_job[i].name)
         else
           exp_flag = 0
           for k in 0..$data_actors[@actor.id].exp_jobchange_class.size - 1
@@ -1074,7 +1074,7 @@ class Window_k_ExStatus_Draw < Window_Base
           end
           
           if exp_flag == 1
-            draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), 130, line_height, select_grade_job[i].name)
+            draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), 170, line_height, select_grade_job[i].name)
           else
             draw_text(x + draw_x_plus, y + line_height * (draw_line - 1), (contents.width - 160) / 2 - 5, line_height, "？？？？？")
           end
@@ -1107,12 +1107,12 @@ class Window_k_ExStatus_Draw < Window_Base
     
     case @draw_sub_command_index
     when 0
-      draw_text(160, 0, 200, line_height, "装備アイテム詳細")
+      draw_text(160, 0, 300, line_height, "Подробности о предмете")
       draw_equipments_status(160,line_height * 1)
       
       if KURE::BaseScript::USE_ExEquip == 1
         draw_gauge(160,line_height * 6, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-        draw_text(160, line_height * 6, 200, line_height, "装備アイテム追加情報")
+        draw_text(160, line_height * 6, 200, line_height, "Дополнительно")
         draw_equipments_add_status(160,line_height * 7)
       end
       
@@ -1126,7 +1126,7 @@ class Window_k_ExStatus_Draw < Window_Base
         end
       end
     when 1
-      draw_text(160, 0, 200, line_height, "装備アイテム特徴")
+      draw_text(160, 0, 300, line_height, "Особенности предмета")
       draw_equipments_features(160,line_height * 1)
       
       if KURE::BaseScript::USE_SortOut == 0
@@ -1199,14 +1199,14 @@ class Window_k_ExStatus_Draw < Window_Base
     #装備Lvの判定
     if KURE::ExEquip::USE_EQUIPLV_SYSTEM == 1
       change_color(system_color)
-      draw_text(x, y + line_height * counter, 120, line_height, "装備レベル")
+      draw_text(x, y + line_height * counter, 120 + 30, line_height, "Треб. уровень")
       if @actor.equips[@sub_command_index] != nil
         change_color(normal_color)
         draw_text(x + 120, y + line_height * counter, 50, line_height, @actor.equips[@sub_command_index].need_equip_level, 2)
       end
     
       change_color(system_color)
-      draw_text(x + (contents.width - x)/2, y + line_height * counter, 120, line_height, "装備職業レベル")
+      draw_text(x + (contents.width - x)/2, y + line_height * counter, 120 + 30, line_height, "Треб. ур. работы")
       if @actor.equips[@sub_command_index] != nil
         change_color(normal_color)
         draw_text(x + (contents.width - x)/2 + 120, y + line_height * counter, 50, line_height, @actor.equips[@sub_command_index].need_equip_joblevel, 2) 
@@ -1268,7 +1268,7 @@ class Window_k_ExStatus_Draw < Window_Base
       for drow in 0..keep.size - 1
         if keep[drow]
           draw_str  = $data_system.elements[keep[drow]]
-          draw_list[draw_counter] = draw_str + "属性 "
+          draw_list[draw_counter] = "Элемент: " + draw_str
           draw_counter += 1
         end
       end
@@ -1284,7 +1284,7 @@ class Window_k_ExStatus_Draw < Window_Base
          
       for drow in 0..keep.size - 1
         if keep[drow]
-          draw_str = $data_system.elements[drow]+ "耐性"
+          draw_str = $data_system.elements[drow]+ " (сопр.) "
           value = 100 - (keep[drow] * 100).to_i
           if value != 0
             draw_list[draw_counter] = draw_str + value.to_s + "% "
@@ -1324,7 +1324,7 @@ class Window_k_ExStatus_Draw < Window_Base
          
       for drow in 0..keep.size - 1
         if keep[drow]
-          draw_str = $data_states[drow].name + "耐性"
+          draw_str = $data_states[drow].name + " (сопр.) "
           value = 100 - (keep[drow] * 100).to_i
           if value != 0
             draw_list[draw_counter] = draw_str + value.to_s + "% "
@@ -1366,7 +1366,7 @@ class Window_k_ExStatus_Draw < Window_Base
           draw_str = Vocab::param(drow)
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = "+" + value.to_s
+              value = " +" + value.to_s
             end
           if value != 0
             draw_list[draw_counter] = draw_str + value.to_s + "% "
@@ -1395,23 +1395,23 @@ class Window_k_ExStatus_Draw < Window_Base
           when 2
             draw_str = "Крит. шанс"
           when 3
-            draw_str = "会心回避"             
+            draw_str = "Крит. уворот"
           when 4
-            draw_str = "魔法回避"
+            draw_str = "Маг. уворот"
           when 5
-            draw_str = "魔法反射"
+            draw_str = "Маг. отражение"
           when 6
-            draw_str = "反撃率"
+            draw_str = "Контратака"
           when 7
-            draw_str = "毎ﾀｰﾝHP回復"
+            draw_str = "Реген. HP/ход"
           when 8
-            draw_str = "毎ﾀｰﾝMP回復"
+            draw_str = "Реген. MP/ход"
           when 9
-            draw_str = "毎ﾀｰﾝTP回復"
+            draw_str = "Реген. TP/ход"
           end
           value = (keep[drow] * 100).to_i
             if value > 0
-              value = "+" + value.to_s
+              value = " +" + value.to_s
             end
           if value != 0
             draw_list[draw_counter] = draw_str + value.to_s + "% "
@@ -1434,29 +1434,29 @@ class Window_k_ExStatus_Draw < Window_Base
           #ステータス名取得
           case drow
           when 0
-            draw_str = "狙われ率" 
+            draw_str = "Точность"
           when 1
-            draw_str = "防御効果"
+            draw_str = "Эфф. защиты"
           when 2
-            draw_str = "回復効果"
+            draw_str = "Эфф. лечения"
           when 3
-            draw_str = "薬知識"
+            draw_str = "Эфф. зелий"
           when 4
-            draw_str = "MP消費率"
+            draw_str = "Затраты MP"
           when 5
-            draw_str = "TP上昇率"
+            draw_str = "Зарядка TP"
           when 6
-            draw_str = "被物理Dmg"
+            draw_str = "Получ. физ. урон"
           when 7
-            draw_str = "被魔法Dmg"
+            draw_str = "Получ. маг. урон"
           when 8
-            draw_str = "床Dmg"
+            draw_str = "Урон ловушек"
           when 9
-            draw_str = "経験値"
+            draw_str = "Опыт"
           end
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = "+" + value.to_s
+              value = " +" + value.to_s
             end
           if value != 0
             draw_list[draw_counter] = draw_str + value.to_s + "% "
@@ -1633,17 +1633,17 @@ class Window_k_ExStatus_Draw < Window_Base
         if item.party_add_ability(add) != 100
           case add
           when 0
-            value = "獲得金額" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. деньги ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 1
-            value = "Drop率" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. предметы ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 2
-            value = "遭遇率" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Шанс нападения ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 3
-            value = "獲得EXP" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. опыт ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 4
-            value = "獲得JEXP" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. опыт работы ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 5
-            value = "獲得EEXP" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. опыт предметов ×" + (item.party_add_ability(add).to_f / 100).to_s
           end
           draw_list[draw_counter] = value
           draw_counter += 1
@@ -1680,7 +1680,7 @@ class Window_k_ExStatus_Draw < Window_Base
         when 4
           if item.battler_add_ability(add) != []
             for state in 0..item.battler_add_ability(add).size - 1
-              value = $data_states[item.battler_add_ability(add)[state]].name + "発動"
+              value = "Вызывает: " + $data_states[item.battler_add_ability(add)[state]].name
               draw_list[draw_counter] = value
               draw_counter += 1
             end

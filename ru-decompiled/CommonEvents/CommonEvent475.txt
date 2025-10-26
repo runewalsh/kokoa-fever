@@ -8,7 +8,7 @@ Name = "　汎用１"
   ShowText(["「わ、わたしにこんな事して後がひどいんだからっ・・！」"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["魔物"])
-  ShowText(["「・・・・・。」"])
+  ShowText(["«...»"])
   PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=100, @volume=80)"])
   ShowPicture([1, "Hイベント：カルボ鉱山汎用ここな２", 0, 0, 0, 0, 100, 100, 255, 0])
   ShowTextAttributes(["", 0, 0, 2])

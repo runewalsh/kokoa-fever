@@ -90,7 +90,7 @@ class Window_ItemList < Window_Selectable
     if item
       rect = item_rect(index)
       rect.width -= 4
-      draw_item_name(item, rect.x, rect.y, enable?(item))
+      draw_item_name(item, rect.x, rect.y, enable?(item), 240)
       draw_item_number(rect, item)
     end
   end

@@ -1,4 +1,4 @@
-Display Name = "教会"
+Display Name = "Церковь"
 Parallax Name = ""
 Note = ""
 
@@ -25,8 +25,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["神父"])
-    ShowText(["「何か御用ですか？」"])
+    ShowText(["\\C[7]Священник\\C[0]"])
+    ShowText(["«Чем могу служить?»"])
     Empty([])
 
 CommonEvent 3
@@ -34,8 +34,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ばあさん"])
-    ShowText(["「毎日祈りに来ております」"])
+    ShowText(["\\C[8]Старушка\\C[0]"])
+    ShowText(["«Каждый день прихожу сюда помолиться»."])
     Empty([])
 
 CommonEvent 4
@@ -43,8 +43,8 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["じいさん"])
-    ShowText(["「・・・はて、何をしにきたんじゃったかのぉ・・・」"])
+    ShowText(["\\C[8]Старик\\C[0]"])
+    ShowText(["«...Так, и зачем же я сюда пришёл...»"])
     Empty([])
 
 CommonEvent 5
@@ -52,10 +52,10 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["少年"])
-    ShowText(["「天国って本当にあるのかな？"])
-    ShowText(["　あったら地獄もあるって事だよね？"])
-    ShowText(["　それはやだなー」"])
+    ShowText(["\\C[9]Юноша\\C[0]"])
+    ShowText(["«Рай действительно существует?"])
+    ShowText([" Ведь если существует, значит, существует и Ад?"])
+    ShowText([" А этого бы не хотелось...»"])
     Empty([])
 
 CommonEvent 6
@@ -63,9 +63,9 @@ Name = "EV006"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おばさん"])
-    ShowText(["「とある宗教は自殺はいけない事だと教えてるんですって"])
-    ShowText(["　まぁ自殺しようと思わない事に越したことは無いわよね」"])
+    ShowText(["\\C[21]Тётка\\C[0]"])
+    ShowText(["«Одна религия учит, что самоубийство — тяжкий грех."])
+    ShowText([" Ну, лучше всего вообще о нём не думать»."])
     Empty([])
 
 CommonEvent 7
@@ -90,7 +90,7 @@ Name = "EV008"
     ControlSelfSwitch(["A", 0])
     ChangeItems([991, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["愚者の日記を手に入れた！"])
+    ShowText(["Нашла дневник глупца!"])
     Empty([])
 
   Page 1

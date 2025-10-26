@@ -349,7 +349,7 @@ Name = "EV015"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 120])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["120\\G 手に入れた！"])
+    ShowText(["120\\G — мои!"])
     Empty([])
 
   Page 1
@@ -428,7 +428,7 @@ Name = "EV017"
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「・・・・・。」"])
+    ShowText(["«...»"])
     ShowPicture([11, "立ち絵E：ここな表情１５-2", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])

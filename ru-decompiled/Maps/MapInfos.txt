@@ -20,7 +20,7 @@ MapInfo 7
 Name = "小屋"
 
 MapInfo 8
-Name = "要塞都市ハーリス"
+Name = "Город-крепость Харрис"
 
 MapInfo 9
 Name = "西（風俗街"
@@ -86,7 +86,7 @@ MapInfo 29
 Name = "ギルド２階"
 
 MapInfo 30
-Name = "ハーリス街道１"
+Name = "Дорога к Харрису 1"
 
 MapInfo 31
 Name = "Тихий лес 2—1"
@@ -98,7 +98,7 @@ MapInfo 33
 Name = "Тихий лес 3"
 
 MapInfo 34
-Name = "ハーリス街道２"
+Name = "Дорога к Харрису 2"
 
 MapInfo 35
 Name = "Тихий лес 4"
@@ -110,7 +110,7 @@ MapInfo 37
 Name = "Тихий лес 4—1"
 
 MapInfo 38
-Name = "ハーリス街道３"
+Name = "Дорога к Харрису 3"
 
 MapInfo 39
 Name = "ハーリス山道１"
@@ -137,13 +137,13 @@ MapInfo 46
 Name = "カリッカの森１"
 
 MapInfo 47
-Name = "ハーリス街道４"
+Name = "Дорога к Харрису 4"
 
 MapInfo 48
-Name = "ハーリス街道５"
+Name = "Дорога к Харрису 5"
 
 MapInfo 49
-Name = "ハーリス街道５－１"
+Name = "Дорога к Харрису 5－1"
 
 MapInfo 50
 Name = "街・村"
@@ -152,7 +152,7 @@ MapInfo 51
 Name = "ダンジョン"
 
 MapInfo 52
-Name = "ハーリス街道５－２"
+Name = "Дорога к Харрису 5－2"
 
 MapInfo 53
 Name = "スラム"
@@ -179,7 +179,7 @@ MapInfo 60
 Name = "カリッカの森２－１"
 
 MapInfo 61
-Name = "ハーリス街道スラム前"
+Name = "Дорога к Харрису, трущобы"
 
 MapInfo 62
 Name = "カリッカの森３"
@@ -356,7 +356,7 @@ MapInfo 119
 Name = "闘技場２階"
 
 MapInfo 120
-Name = "ハーリス街道"
+Name = "Дорога к Харрису"
 
 MapInfo 121
 Name = "メリオス街道"
@@ -605,13 +605,13 @@ MapInfo 202
 Name = "武具屋"
 
 MapInfo 203
-Name = "民家"
+Name = "Жилой дом"
 
 MapInfo 204
-Name = "民家"
+Name = "Жилой дом"
 
 MapInfo 205
-Name = "民家"
+Name = "Жилой дом"
 
 MapInfo 206
 Name = "紋章印店"
@@ -719,7 +719,7 @@ MapInfo 240
 Name = "ココアのお部屋"
 
 MapInfo 241
-Name = "平屋"
+Name = "Бунгало"
 
 MapInfo 242
 Name = "所長室"
@@ -788,10 +788,10 @@ MapInfo 263
 Name = "トリー湿原４"
 
 MapInfo 264
-Name = "飯屋"
+Name = "Закусочная"
 
 MapInfo 265
-Name = "１０６"
+Name = "106"
 
 MapInfo 266
 Name = "平屋１～３"

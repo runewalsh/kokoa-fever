@@ -1,4 +1,4 @@
-Display Name = "飯屋"
+Display Name = "Закусочная"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おばちゃん"])
-    ShowText(["「いらっしゃい！なんにするよ」"])
+    ShowText(["\\C[23]Хозяйка\\C[0]"])
+    ShowText(["«Добро пожаловать! Что будете?»"])
     ShopProcessing([0, 135, 0, 0, true])
     ShopItem([0, 138, 0, 0])
     ShopItem([0, 140, 0, 0])
@@ -28,9 +28,9 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["銀髪の青年"])
-    ShowText(["「いやー僕の日課なんですよね朝飯をここで食べるの"])
-    ShowText(["　一日のパワーを補充するんですよ」"])
+    ShowText(["\\C[8]Юноша с серебристыми волосами\\C[0]"])
+    ShowText(["«Уа, каждый день здесь завтракаю."])
+    ShowText([" Заряжает энергией на весь день»."])
     Empty([])
 
 CommonEvent 4
@@ -38,8 +38,8 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじさん"])
-    ShowText(["「おー朝から飲む酒は美味いなぁ・・・」"])
+    ShowText(["\\C[21]Мужик\\C[0]"])
+    ShowText(["«Ох, как же хорошо бухнуть с утра...»"])
     Empty([])
 
 CommonEvent 5
@@ -47,9 +47,9 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「もぐもぐもぐ・・・」"])
+    ShowText(["\\C[13]Девушка\\C[0]"])
+    ShowText(["«Ням-ням-ням...»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「あら、どうしたんですか？（ﾍﾟﾁｬｸﾁｬ」"])
+    ShowText(["\\C[13]Девушка\\C[0]"])
+    ShowText(["«А, что такое?» *вытирает рот*"])
     Empty([])

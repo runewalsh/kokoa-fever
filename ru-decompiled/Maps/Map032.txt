@@ -218,7 +218,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -232,7 +232,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -246,7 +246,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -260,7 +260,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -274,7 +274,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -288,7 +288,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -302,7 +302,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -316,7 +316,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -330,7 +330,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -344,7 +344,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -519,7 +519,7 @@ Name = "EV030"
     ControlSelfSwitch(["A", 0])
     ChangeItems([13, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マジックアップを手に入れた！"])
+    ShowText(["Нашла бонус магии!"])
     Empty([])
 
   Page 1
@@ -539,7 +539,7 @@ Name = "EV031"
     ControlSelfSwitch(["A", 0])
     ChangeItems([13, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マジックアップを手に入れた！"])
+    ShowText(["Нашла бонус магии!"])
     Empty([])
 
   Page 1
@@ -559,7 +559,7 @@ Name = "EV032"
     ControlSelfSwitch(["A", 0])
     ChangeItems([13, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マジックアップを手に入れた！"])
+    ShowText(["Нашла бонус магии!"])
     Empty([])
 
   Page 1
@@ -579,7 +579,7 @@ Name = "EV033"
     ControlSelfSwitch(["A", 0])
     ChangeItems([13, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マジックアップを手に入れた！"])
+    ShowText(["Нашла бонус магии!"])
     Empty([])
 
   Page 1

@@ -405,7 +405,7 @@ Name = "EV012"
     ShowText(["　その人は消滅してしまうんじゃないんですか！？」"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
-    ShowText(["「・・・・」"])
+    ShowText(["«...»"])
     ShowPicture([10, "立ち絵：クロウ１", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])

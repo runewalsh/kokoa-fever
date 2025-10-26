@@ -310,7 +310,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 1000])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["1000\\G 手に入れた！"])
+    ShowText(["1000\\G — мои!"])
     Empty([])
 
   Page 1
@@ -330,7 +330,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 10])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["10\\G 手に入れた！"])
+    ShowText(["10\\G — мои!"])
     Empty([])
 
   Page 1
@@ -350,7 +350,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 30])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["30\\G 手に入れた！"])
+    ShowText(["30\\G — мои!"])
     Empty([])
 
   Page 1
@@ -370,7 +370,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 200])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["200\\G 手に入れた！"])
+    ShowText(["200\\G — мои!"])
     Empty([])
 
   Page 1
@@ -390,7 +390,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 40])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["40\\G 手に入れた！"])
+    ShowText(["40\\G — мои!"])
     Empty([])
 
   Page 1
@@ -410,7 +410,7 @@ Name = "た"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 500])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["500\\G 手に入れた！"])
+    ShowText(["500\\G — мои!"])
     Empty([])
 
   Page 1
@@ -430,7 +430,7 @@ Name = "宝"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 200])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["200\\G 手に入れた！"])
+    ShowText(["200\\G — мои!"])
     Empty([])
 
   Page 1
@@ -450,7 +450,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["0\\G 手に入れた！"])
+    ShowText(["0\\G — мои!"])
     Empty([])
 
   Page 1
@@ -470,7 +470,7 @@ Name = "た"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 70])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["70\\G 手に入れた！"])
+    ShowText(["70\\G — мои!"])
     Empty([])
 
   Page 1
@@ -490,7 +490,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 20])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["20\\G 手に入れた！"])
+    ShowText(["20\\G — мои!"])
     Empty([])
 
   Page 1

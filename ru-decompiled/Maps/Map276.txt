@@ -1,4 +1,4 @@
-Display Name = "女性更衣室"
+Display Name = "Женская раздевалка"
 Parallax Name = ""
 Note = ""
 
@@ -9,7 +9,7 @@ Name = "EV001"
     ConditionalBranch([1, 198, 0, 0, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["「服を着ないと・・・」"])
+      ShowText(["«Надо одеться...»"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
       ExitEventProcessing([])
@@ -28,7 +28,7 @@ Name = "EV002"
     ConditionalBranch([1, 198, 0, 1, 1])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["「お風呂に入るときは服を脱がないと・・・」"])
+      ShowText(["«Когда входишь в баню, нужно раздеться...»"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
       ExitEventProcessing([])
@@ -44,9 +44,9 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["金髪のお姉さん"])
-    ShowText(["「家のお風呂が壊れちゃってね・・・"])
-    ShowText(["　たまには大衆浴場も悪くないものね」"])
+    ShowText(["\\C[6]Блондинка\\C[0]"])
+    ShowText(["«Ванна дома сломалась..."])
+    ShowText([" Ничего, иногда можно и в публичную баню сходить»."])
     Empty([])
 
 CommonEvent 4

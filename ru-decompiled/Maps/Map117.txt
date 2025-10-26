@@ -365,7 +365,7 @@ Name = "EV017"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["変な物を被った人"])
-    ShowText(["「・・・・」"])
+    ShowText(["«...»"])
     Empty([])
 
 CommonEvent 18
@@ -710,7 +710,7 @@ Name = "C突破"
     ShowText(["「一流の職場ですよ☆」"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「・・・・・。」"])
+    ShowText(["«...»"])
     ShowChoices([["クロウといる", "闘技で上を目指す", "魔法協会で働く"], 0])
     When([0, "クロウといる"])
       ControlVariables([16, 16, 0, 0, 26])
@@ -804,7 +804,7 @@ Name = "EV040"
     ShowPicture([11, "立ち絵：マル２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["マル"])
-    ShowText(["「・・・・・・・。」"])
+    ShowText(["«... ...»"])
     ShowPicture([11, "立ち絵：クロウ4", 0, 0, -450, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])

@@ -234,7 +234,7 @@ Name = "EV016"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["素材お売り下さい！！"])
+    ShowText(["Продайте нам свой хлам!!"])
     Empty([])
 
 CommonEvent 17
@@ -332,8 +332,8 @@ Name = "EV025"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ろくでなし"])
-    ShowText(["「あーどっかに楽して儲かる仕事ねぇかなぁ～」"])
+    ShowText(["\\C[25]Бездельник\\C[0]"])
+    ShowText(["«Эх, где бы найти халявную работёнку, чтобы бабки капали～»."])
     Empty([])
 
 CommonEvent 26
@@ -347,9 +347,10 @@ Name = "EV027"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年"])
-    ShowText(["「ここは要塞都市ハーリスの中央です"])
-    ShowText(["　南と東には住宅街が、西には歓楽街が広がっています」"])
+    ShowText(["\\C[24]Юноша\\C[0]"])
+    ShowText(["«Это центр города-крепости Харрис."])
+    ShowText([" На юг и восток — жилые районы,"])
+    ShowText([" а на запад — квартал красных фонарей»."])
     Empty([])
 
 CommonEvent 28
@@ -366,8 +367,8 @@ Name = "EV029"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ょぅι゛ょ"])
-    ShowText(["「きゃっきゃきゃっきゃ」"])
+    ShowText(["\\C[27]Девчушка\\C[0]"])
+    ShowText(["«Тра-ля-ля-ля»."])
     Empty([])
 
 CommonEvent 30
@@ -375,9 +376,9 @@ Name = "EV030"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年"])
-    ShowText(["「僕はこの町を出た事が無いんだけれど"])
-    ShowText(["　いつかは他の土地も見てみたいんだ」"])
+    ShowText(["\\C[21]Юноша\\C[0]"])
+    ShowText(["«Никогда не покидал этот город,"])
+    ShowText([" но когда-нибудь хочу повидать и другие места»."])
     Empty([])
 
 CommonEvent 31
@@ -385,9 +386,9 @@ Name = "EV031"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["冒険者"])
-    ShowText(["「魔法学校・・・"])
-    ShowText(["　僕が小さい頃にもあったら良かったんですが・・・。」"])
+    ShowText(["\\C[22]Авантюрист\\C[0]"])
+    ShowText(["«Школа магии..."])
+    ShowText([" Жаль, что её не было, когда я был маленьким»."])
     Empty([])
 
 CommonEvent 32
@@ -411,9 +412,9 @@ Name = "EV034"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女冒険者"])
-    ShowText(["「ここトーレスは森や山に囲まれた天然の要塞なの"])
-    ShowText(["　交通は不便だけど攻められにくいって利点があるそうよ」"])
+    ShowText(["\\C[3]Женщина-авантюрист\\C[0]"])
+    ShowText(["«Наш Торрес — природная крепость, окружённая лесами и горами."])
+    ShowText([" Добраться сюда нелегко, зато, говорят, и штурмовать — тоже»."])
     Empty([])
 
 CommonEvent 35
@@ -435,8 +436,8 @@ Name = "EV037"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["少女"])
-    ShowText(["「あじさいきれいー」"])
+    ShowText(["\\C[27]Девочка\\C[0]"])
+    ShowText(["«Красивые гортензии»."])
     Empty([])
 
 CommonEvent 38
@@ -444,8 +445,8 @@ Name = "EV038"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年"])
-    ShowText(["「なんか良いことないかなー」"])
+    ShowText(["\\C[12]Юноша\\C[0]"])
+    ShowText(["«Хочется чего-нибудь классного, ничего нет»."])
     Empty([])
 
 CommonEvent 39

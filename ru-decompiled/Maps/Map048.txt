@@ -1,4 +1,4 @@
-Display Name = "ハーリス街道５"
+Display Name = "Дорога к Харрису 5"
 Parallax Name = ""
 Note = ""
 
@@ -208,7 +208,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -222,7 +222,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -236,7 +236,7 @@ Name = "白い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["白い花を手に入れた"])
+    ShowText(["Сорвала белый цветок."])
     ChangeItems([244, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -250,7 +250,7 @@ Name = "白い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["白い花を手に入れた"])
+    ShowText(["Сорвала белый цветок."])
     ChangeItems([244, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -264,7 +264,7 @@ Name = "白い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["白い花を手に入れた"])
+    ShowText(["Сорвала белый цветок."])
     ChangeItems([244, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -278,7 +278,7 @@ Name = "白い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["白い花を手に入れた"])
+    ShowText(["Сорвала белый цветок."])
     ChangeItems([244, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])

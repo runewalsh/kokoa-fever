@@ -1075,7 +1075,7 @@ Name = "宝箱"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 180])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["180\\G 手に入れた！"])
+    ShowText(["180\\G — мои!"])
     Empty([])
 
   Page 1

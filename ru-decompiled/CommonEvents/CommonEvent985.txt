@@ -5,7 +5,7 @@ Name = "レッドベリー呼び出し"
   ConditionalBranch([1, 24, 0, 400, 2])
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["レッドベリーを手に入れた"])
+    ShowText(["Сорвала красную ягоду."])
     ChangeItems([246, 0, 0, 1])
     Empty([])
 
@@ -13,7 +13,7 @@ Name = "レッドベリー呼び出し"
     ConditionalBranch([1, 24, 0, 700, 2])
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["レッドベリーを２つ手に入れた"])
+      ShowText(["Сорвала две красные ягоды."])
       ChangeItems([246, 0, 0, 2])
       Empty([])
 
@@ -21,7 +21,7 @@ Name = "レッドベリー呼び出し"
       ConditionalBranch([1, 24, 0, 950, 2])
         PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["レッドベリーを３つ手に入れた"])
+        ShowText(["Сорвала три красные ягоды."])
         ChangeItems([246, 0, 0, 3])
         Empty([])
 
@@ -29,7 +29,7 @@ Name = "レッドベリー呼び出し"
         ConditionalBranch([1, 24, 0, 1000, 2])
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
-          ShowText(["レッドベリーを４つ手に入れた"])
+          ShowText(["Сорвала четыре красные ягоды."])
           ChangeItems([246, 0, 0, 4])
           Empty([])
 

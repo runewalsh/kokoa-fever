@@ -13,5 +13,5 @@ Name = "　ぜりいぬ２"
   BranchEnd([])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ゼリー漬けにされてしまった！"])
+  ShowText(["Ой, я вся в желе!"])
   Empty([])

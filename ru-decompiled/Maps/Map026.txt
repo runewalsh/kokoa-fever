@@ -1,4 +1,4 @@
-Display Name = "紋章店"
+Display Name = "Магазин значков"
 Parallax Name = ""
 Note = ""
 
@@ -21,8 +21,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["紋章屋のお姉さん"])
-    ShowText(["「あら、いらっしゃ～い」"])
+    ShowText(["\\C[31]Продавщица значков\\C[0]"])
+    ShowText(["«О, добро пожаловать～»."])
     ShopProcessing([2, 123, 0, 0, true])
     ShopItem([2, 124, 0, 0])
     ShopItem([2, 125, 0, 0])
@@ -46,8 +46,8 @@ Name = "EV004"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["紋章屋のお姉さん"])
-      ShowText(["「あら、いらっしゃ～い」"])
+      ShowText(["\\C[31]Продавщица значков\\C[0]"])
+      ShowText(["«О, добро пожаловать～»."])
       ShopProcessing([2, 123, 0, 0, true])
       ShopItem([2, 124, 0, 0])
       ShopItem([2, 125, 0, 0])
@@ -68,7 +68,8 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["緑髪の少女"])
-    ShowText(["「紋章はある程度、魔法の才能が無いと装備出来ないそうよ"])
-    ShowText(["　この国じゃ装備できない段階で絶望的よね」"])
+    ShowText(["\\C[24]Зеленоволосая девушка\\C[0]"])
+    ShowText(["«Слышала, значок нельзя надеть,"])
+    ShowText([" если не обладаешь минимальными магическими способностями."])	
+    ShowText([" В этой стране неспособность его надеть — считай, приговор»."])
     Empty([])

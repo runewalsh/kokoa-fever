@@ -1,4 +1,4 @@
-Display Name = "魔法商店"
+Display Name = "Алхимическая лавка"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["店のお姉さん"])
-    ShowText(["「いらっしゃいませー」"])
+    ShowText(["\\C[17]Продавщица\\C[0]"])
+    ShowText(["«Добро пожаловать!»"])
     ShopProcessing([0, 85, 0, 0, true])
     ShopItem([0, 86, 0, 0])
     ShopItem([0, 87, 0, 0])
@@ -33,24 +33,24 @@ Name = "EV003"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「ここからだと店員の死角になってる・・・」"])
+    ShowText(["«Здесь слепая зона продавца...»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["万引きする・・・？"])
-    ShowChoices([["する", "しない"], 0])
-    When([0, "する"])
+    ShowText(["Стырить?.."])
+    ShowChoices([["Да", "Не надо"], 0])
+    When([0, "Да"])
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["加速薬(全)を万引きした！"])
+      ShowText(["Украла стимулятор (полный)!"])
       ChangeItems([91, 0, 0, 1])
       ControlSwitches([57, 57, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["「・・・・・・・・。」"])
+      ShowText(["«...»"])
       ControlVariables([28, 28, 1, 0, 5])
       ControlSelfSwitch(["A", 0])
       Empty([])
 
-    When([1, "しない"])
+    When([1, "Не надо"])
       ControlVariables([28, 28, 1, 0, 1])
       ControlSwitches([58, 58, 0])
       ControlSelfSwitch(["B", 0])
@@ -68,7 +68,7 @@ Name = "EV003"
   Page 3
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「万引きは・・よくない」"])
+    ShowText(["«Воровать из магазинов... это плохо»."])
     Empty([])
 
 CommonEvent 4
@@ -76,9 +76,8 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["エルフのお姉さん"])
-    ShowText(["「ブースト系のアイテムは高価なだけに"])
-    ShowText(["　それなりの効果があるわ」"])
+    ShowText(["\\C[24]Эльфийка\\C[0]"])
+    ShowText(["«Стимуляторы дорогие, но и эффект соответствующий»."])
     Empty([])
 
 CommonEvent 5
@@ -86,6 +85,6 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["真面目そうな冒険者"])
-    ShowText(["「妖精を入れておいたら自動復活とかしないもんかな・・」"])
+    ShowText(["\\C[16]Авантюрист, выглядящий серьёзным\\C[0]"])
+    ShowText(["«Интересно, если запихнуть фею внутрь,\r\n получится ли автовоскрешалка или ещё что-нибудь...»"])
     Empty([])

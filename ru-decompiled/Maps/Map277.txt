@@ -1,4 +1,4 @@
-Display Name = "浴場"
+Display Name = "Баня"
 Parallax Name = ""
 Note = ""
 
@@ -18,11 +18,11 @@ Name = "EV002"
   Page 0
     ShowPicture([20, "汎用イベント：大衆浴場まんぐり", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女の子"])
-    ShowText(["「まんぐりがえしー」"])
+    ShowText(["\\C[27]Девочка\\C[0]"])
+    ShowText(["«Поза наковальни!»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女の子"])
-    ShowText(["「あははあはは、お風呂たのしー♪」"])
+    ShowText(["\\C[27]Девочка\\C[0]"])
+    ShowText(["«А-ха-ха, а-ха-ха, в бане так весело♪»"])
     ErasePicture([20])
     Empty([])
 
@@ -31,9 +31,9 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「妹と一緒に来ました。この子一人だと勝手に男湯の方に"])
-    ShowText(["　行ってしまうんですよ・・・困りました」"])
+    ShowText(["\\C[23]Девушка\\C[0]"])
+    ShowText(["«Я пришла с младшей сестрёнкой. Если оставить её одну,"])
+    ShowText([" она самостоятельно идёт в мужскую баню... Вот забота»."])
     Empty([])
 
 CommonEvent 4
@@ -41,8 +41,8 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「ふぅ・・・良い湯加減だわ・・・」"])
+    ShowText(["\\C[14]Девушка\\C[0]"])
+    ShowText(["«Хух... Температура в самый раз...»"])
     Empty([])
 
 CommonEvent 5
@@ -50,8 +50,8 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青い髪のお姉さん"])
-    ShowText(["「ゆったり・・」"])
+    ShowText(["\\C[23]Девушка с голубыми волосами\\C[0]"])
+    ShowText(["«Хорошо...»"])
     Empty([])
 
 CommonEvent 6
@@ -232,7 +232,7 @@ Name = "EV019"
     ShowPicture([1, "汎用Ｅ：大衆浴場ココア入浴１", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「おっふろ♪おっふろ♪」"])
+    ShowText(["«Банька♪ Банька♪»"])
     RecoverAll([0, 0])
     ChangeState([0, 0, 0, 94])
     ErasePicture([1])

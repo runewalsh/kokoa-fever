@@ -1,4 +1,4 @@
-Display Name = "宿屋"
+Display Name = "Трактир"
 Parallax Name = ""
 Note = ""
 
@@ -47,9 +47,9 @@ Name = "EV006"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["「一泊 100\\G です。お泊まりですか？\\$"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["«Желаете снять комнату? Сто иен за ночь».\\$"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ConditionalBranch([7, 100, 0])
         ChangeGold([1, 0, 100])
         FadeoutScreen([])
@@ -61,12 +61,12 @@ Name = "EV006"
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["「お金が足りません。"])
+        ShowText(["«У вас не хватает»."])
         Empty([])
       BranchEnd([])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -77,8 +77,8 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おっちゃん"])
-    ShowText(["「おう、いらっしゃい」"])
+    ShowText(["\\C[2]Дядя\\C[0]"])
+    ShowText(["«Эй, заходи»."])
     ShopProcessing([0, 134, 0, 0, true])
     ShopItem([0, 135, 0, 0])
     ShopItem([0, 136, 0, 0])
@@ -89,8 +89,8 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["体格の良いお兄さん"])
-    ShowText(["「一人のみってハマるとやめられないんだよなぁ・・」"])
+    ShowText(["\\C[18]Крепкий парень\\C[0]"])
+    ShowText(["«Когда начал глушить в одного, трудно остановиться...»"])
     Empty([])
 
 CommonEvent 9
@@ -98,8 +98,8 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マントを着た冒険者"])
-    ShowText(["「朝から酒が飲める冒険者家業さいこー↑」"])
+    ShowText(["\\C[12]Авантюрист в мантии\\C[0]"])
+    ShowText(["«Бухать с утра — вот за что люблю наше дело↑»."])
     ShotBalloonIcon([-1, 6, false])
     Empty([])
 
@@ -108,8 +108,8 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["バンダナの冒険者"])
-    ShowText(["「俺・・酒弱いんだけどなぁ・・・」"])
+    ShowText(["\\C[21]Авантюрист в бандане\\C[0]"])
+    ShowText(["«Я, знаешь ли... легко напиваюсь...»"])
     Empty([])
 
 CommonEvent 11
@@ -117,9 +117,10 @@ Name = "EV011"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["渋い冒険者"])
-    ShowText(["「備えよ。常に・・・"])
-    ShowText(["　だから俺はいつ食糧難になって良いようにたらふく食すのだ！」"])
+    ShowText(["\\C[29]Суровый авантюрист\\C[0]"])
+    ShowText(["«Будь наготове. Всегда..."])
+    ShowText([" Поэтому я всегда готов к голоду —"])
+    ShowText([" я до отвала наедаюсь впрок!»"])
     Empty([])
 
 CommonEvent 12

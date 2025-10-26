@@ -53,7 +53,7 @@ Name = "　ココア１"
         PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["Навык"])
-        ShowText(["【ダブルカウント】を習得した！"])
+        ShowText(["Освоила 【Двойной удар】!"])
         ChangeSkills([0, 12, 0, 157])
         ControlVariables([224, 224, 0, 0, 1])
         Empty([])
@@ -67,7 +67,7 @@ Name = "　ココア１"
         PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["Навык"])
-        ShowText(["【トリプルカウント】を習得した！"])
+        ShowText(["Освоила 【Тройной удар】!"])
         ChangeSkills([0, 12, 0, 163])
         ControlVariables([226, 226, 0, 0, 1])
         ControlSwitches([12, 12, 0])
@@ -171,7 +171,7 @@ Name = "　ココア１"
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
             ShowText(["Навык"])
-            ShowText(["【集気法】を習得した！"])
+            ShowText(["Освоила 【Концентрацию энергии】!"])
             ChangeSkills([0, 12, 0, 144])
             Empty([])
 
@@ -259,7 +259,7 @@ Name = "　ココア１"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Навык"])
-          ShowText(["【エルストラフ】を習得した！"])
+          ShowText(["Освоила 【Эль-Страф】!"])
           ChangeSkills([0, 12, 0, 139])
           Empty([])
 
@@ -290,7 +290,7 @@ Name = "　ココア１"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Навык"])
-          ShowText(["【バリストラフ】を習得した！"])
+          ShowText(["Освоила 【Вари-Страф】!"])
           ChangeSkills([0, 12, 0, 140])
           Empty([])
 
@@ -313,7 +313,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【悪い子】を習得した！"])
+      ShowText(["Я теперь 【Плохой ребёнок】!"])
       ChangeSkills([0, 12, 0, 410])
       Empty([])
 
@@ -361,7 +361,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【良い子】を習得した！"])
+      ShowText(["Я теперь 【Хороший ребёнок】!"])
       ChangeSkills([0, 12, 0, 409])
       Empty([])
 
@@ -393,7 +393,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【慎重】を習得した！"])
+      ShowText(["Я теперь 【Осторожная】!"])
       ChangeSkills([0, 12, 0, 359])
       Empty([])
 
@@ -565,7 +565,7 @@ Name = "　ココア１"
         PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["Пассивный навык"])
-        ShowText(["【駆け出し冒険者】を習得した！"])
+        ShowText(["Я теперь 【Начинающий авантюрист】!"])
         ChangeSkills([0, 12, 0, 411])
         Empty([])
 

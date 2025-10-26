@@ -39,73 +39,73 @@ Description = "ＨＰとＭＰを完全に回復する。"
 Note = ""
 
 Item 9
-Name = "ライフアップ"
-Description = "最大HPを３上げる"
+Name = "Бонус жизни"
+Description = "Увеличивает максимум HP на 3."
 Note = ""
 
 Item 10
-Name = "マナアップ"
-Description = "最大MPを２上げる"
+Name = "Бонус маны"
+Description = "Увеличивает максимум MP на 2."
 Note = ""
 
 Item 11
-Name = "パワーアップ"
-Description = "攻撃力を２あげる"
+Name = "Бонус силы"
+Description = "Увеличивает атаку на 2."
 Note = ""
 
 Item 12
-Name = "ガードアップ"
-Description = "防御力を１あげる"
+Name = "Бонус защиты"
+Description = "Увеличивает защиту на 1."
 Note = ""
 
 Item 13
-Name = "マジックアップ"
-Description = "魔法力を３あげる"
+Name = "Бонус магии"
+Description = "Увеличивает магическую атаку на 3."
 Note = ""
 
 Item 14
-Name = "レジストアップ"
-Description = "魔法防御を２あげる"
+Name = "Бонус сопротивления"
+Description = "Увеличивает защиту от магии на 2."
 Note = ""
 
 Item 15
-Name = "スピードアップ"
-Description = "敏捷性を１あげる"
+Name = "Бонус ловкости"
+Description = "Увеличивает ловкость на 1."
 Note = ""
 
 Item 16
-Name = "スキルアップ"
-Description = "技量を１あげる"
+Name = "Бонус удачи"
+Description = "Увеличивает удачу на 1."
 Note = ""
 
 Item 17
-Name = "経験玉"
-Description = "経験値を100得る"
+Name = "Шарик опыта"
+Description = "Даёт 100 опыта."
 Note = ""
 
 Item 18
-Name = "経験玉Ⅱ"
-Description = "経験値を300得る"
+Name = "Шарик опыта Ⅱ"
+Description = "Даёт 300 опыта."
 Note = ""
 
 Item 19
-Name = "経験玉Ⅲ"
-Description = "経験値を500得る"
+Name = "Шарик опыта Ⅲ"
+Description = "Даёт 500 опыта."
 Note = ""
 
 Item 20
-Name = "経験玉Ⅳ"
-Description = "経験値を800得る"
+Name = "Шарик опыта Ⅳ"
+Description = "Даёт 800 опыта."
 Note = ""
 
 Item 21
-Name = "経験玉Ⅴ"
-Description = "経験値を1200得る"
+Name = "Шарик опыта Ⅴ"
+Description = "Даёт 1200 опыта."
 Note = ""
 
 Item 22
-Name = "経験玉Ⅵ"
-Description = "経験値を2000得る"
+Name = "Шарик опыта Ⅵ"
+Description = "Даёт 2000 опыта."
 Note = ""
 
 Item 23
@@ -279,33 +279,33 @@ Description = ""
 Note = ""
 
 Item 57
-Name = "回復薬/微量"
-Description = "基本回復量50のHP回復薬"
+Name = "Зелье лечения/крошечное"
+Description = "Зелье с базовым исцелением 50 HP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 58
-Name = "回復薬/少量"
-Description = "基本回復量90のHP回復薬"
+Name = "Зелье лечения/миниатюрное"
+Description = "Зелье с базовым исцелением 90 HP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 59
-Name = "回復薬/小"
-Description = "基本回復量130のHP回復薬"
+Name = "Зелье лечения/маленькое"
+Description = "Зелье с базовым исцелением 130 HP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 60
-Name = "回復薬/並"
-Description = "基本回復量200のHP回復薬"
+Name = "Зелье лечения/обычное"
+Description = "Зелье с базовым исцелением 200 HP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 61
-Name = "回復薬/大"
-Description = "基本回復量350のHP回復薬"
+Name = "Зелье лечения/большое"
+Description = "Зелье с базовым исцелением 350 HP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 62
-Name = "回復薬/特"
-Description = "基本回復量500のHP回復薬"
+Name = "Зелье лечения/огромное"
+Description = "Зелье с базовым исцелением 500 HP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 63
@@ -329,138 +329,138 @@ Description = ""
 Note = ""
 
 Item 67
-Name = "魔法薬/微量"
-Description = "基本回復量20のMP回復薬"
+Name = "Зелье маны/крошечное"
+Description = "Зелье с базовым восстановлением 20 MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 68
-Name = "魔法薬/少量"
-Description = "基本回復量40のMP回復薬"
+Name = "Зелье маны/миниатюрное"
+Description = "Зелье с базовым восстановлением 40 MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 69
-Name = "魔法薬/小"
-Description = "基本回復量70のMP回復薬"
+Name = "Зелье маны/маленькое"
+Description = "Зелье с базовым восстановлением 70 MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 70
-Name = "魔法薬/並"
-Description = "基本回復量120のMP回復薬"
+Name = "Зелье маны/обычное"
+Description = "Зелье с базовым восстановлением 120 MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 71
-Name = "魔法薬/大"
-Description = "基本回復量180のMP回復薬"
+Name = "Зелье маны/большое"
+Description = "Зелье с базовым восстановлением 180 MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 72
-Name = "魔法薬/特"
-Description = "基本回復量250のMP回復薬"
+Name = "Зелье маны/огромное"
+Description = "Зелье с базовым восстановлением 250 MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 73
-Name = "リポビダンZ/小"
-Description = "TPをある程度回復させる栄養ドリンク"
+Name = "Липовидан Z/маленький"
+Description = "Энергетический напиток, восстанавливающий часть TP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 74
-Name = "リポビダンZ/中"
-Description = "TPをある程度回復させる栄養ドリンク"
+Name = "Липовидан Z/средний"
+Description = "Энергетический напиток, восстанавливающий часть TP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 75
-Name = "リポビダンZ/大"
-Description = "TPをある程度回復させる栄養ドリンク"
+Name = "Липовидан Z/большой"
+Description = "Энергетический напиток, восстанавливающий часть TP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 76
-Name = "エリクサー/微量"
-Description = "基本回復量\r\nHP100　MP50　のエリクサー"
+Name = "Эликсир/крошечный"
+Description = "Эликсир с базовым восстановлением\r\nHP100　MP50."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 77
-Name = "エリクサー/少量"
-Description = "基本回復量\r\nHP150　MP80　のエリクサー"
+Name = "Эликсир/миниатюрный"
+Description = "Эликсир с базовым восстановлением\r\nHP150　MP80."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 78
-Name = "エリクサー/小"
-Description = "基本回復量\r\nHP300　MP100　のエリクサー"
+Name = "Эликсир/маленький"
+Description = "Эликсир с базовым восстановлением\r\nHP300　MP100."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 79
-Name = "エリクサー/並"
-Description = "基本回復量\r\nHP500　MP150　のエリクサー"
+Name = "Эликсир/обычный"
+Description = "Эликсир с базовым восстановлением\r\nHP500　MP150."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 80
-Name = "エリクサー/大"
-Description = "基本回復量\r\nHP800　MP300　のエリクサー"
+Name = "Эликсир/большой"
+Description = "Эликсир с базовым восстановлением\r\nHP800　MP300."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 81
-Name = "エリクサー/特"
-Description = "エリクサー"
+Name = "Эликсир/огромный"
+Description = "Эликсир."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 82
-Name = "解毒薬"
-Description = "解毒効果のある薬\r\nすげーにがいの"
+Name = "Противоядие"
+Description = "Лекарство, избавляющее от отравления.\r\nНу очень горькое."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 83
-Name = "目薬"
-Description = "おめめがスッキリする\r\nｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!!!"
+Name = "Глазные капли"
+Description = "И ваши глазки как новенькие.\r\nｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!!!"
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 84
-Name = "鎮静剤"
-Description = "とらんきらいざー・・・？"
+Name = "Успокоительное"
+Description = "Транквилизатор?.."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 85
-Name = "加速薬(体力)"
-Description = "戦闘中しばらくの間、最大HPが上がる魔法の薬\r\nついでにMPも上がる。ヽ(＾ω＾)ﾉやったー"
+Name = "Стимулятор (выносливости)"
+Description = "Волшебное зелье, временно повышающее максимальный HP в бою.\r\nMP, кстати, тоже. ヽ(＾ω＾)ﾉ Ура-а!"
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 86
-Name = "加速薬(攻撃)"
-Description = "戦闘中しばらくの間、攻撃力が上がる魔法の薬"
+Name = "Стимулятор (атаки)"
+Description = "Волшебное зелье, временно повышающее силу атаки в бою."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 87
-Name = "加速薬(防御)"
-Description = "戦闘中しばらくの間、防御力が上がる魔法の薬"
+Name = "Стимулятор (защиты)"
+Description = "Волшебное зелье, временно повышающее защиту в бою."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 88
-Name = "加速薬(魔力)"
-Description = "戦闘中しばらくの間、魔法力が上がる魔法の薬"
+Name = "Стимулятор (магии)"
+Description = "Волшебное зелье, временно повышающее магическую атаку в бою."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 89
-Name = "加速薬(精神)"
-Description = "戦闘中しばらくの間、魔法防御が上がる魔法の薬"
+Name = "Стимулятор (духа)"
+Description = "Волшебное зелье, временно повышающее защиту от магии в бою."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 90
-Name = "加速薬(速)"
-Description = "戦闘中しばらくの間、速さが上がる魔法の薬"
+Name = "Стимулятор (скорости)"
+Description = "Волшебное зелье, временно повышающее скорость в бою."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 91
-Name = "加速薬(全)"
-Description = "戦闘中しばらくの間、HP/MP以外の全能力値が上がる魔法の薬"
+Name = "Стимулятор (полный)"
+Description = "Волшебное зелье, временно повышающее в бою\r\nвсе характеристики, кроме HP/MP."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 92
-Name = "加速薬(全Ⅱ)"
-Description = "戦闘中しばらくの間、全能力値が上がる魔法の薬"
+Name = "Стимулятор (абсолютный)"
+Description = "Волшебное зелье, временно повышающее\r\nвсе характеристики в бою."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 93
-Name = "Pエリクサー"
-Description = "パーフェクトエリクサー\r\n"
+Name = "А-эликсир"
+Description = "Абсолютный эликсир."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 94
@@ -469,23 +469,23 @@ Description = ""
 Note = ""
 
 Item 95
-Name = "発情ジュース"
-Description = "女性を発情させるジュース"
+Name = "Возбуждающий сок"
+Description = "Сок, вызывающий у женщин сексуальное возбуждение."
 Note = ""
 
 Item 96
-Name = "胎児成長薬"
-Description = "魔科学により作られた胎児の成長を早める薬"
+Name = "Стимулятор роста зародыша"
+Description = "Созданный магической наукой препарат,\r\nускоряющий внутриутробное развитие."
 Note = ""
 
 Item 97
-Name = "エッチな本"
-Description = "性経験を得る"
+Name = "Порно-книжка"
+Description = "Даёт сексуальный опыт."
 Note = ""
 
 Item 98
-Name = "情報誌"
-Description = "社会経験値を得る"
+Name = "Информационный журнал"
+Description = "Даёт социальный опыт."
 Note = ""
 
 Item 99
@@ -664,38 +664,38 @@ Description = ""
 Note = ""
 
 Item 134
-Name = "パン"
-Description = "ブレットとか洒落た言い方はしないのだ"
+Name = "Хлеб"
+Description = "Не надо называть это модными западными словечками\r\nвроде «брэад»."
 Note = ""
 
 Item 135
-Name = "おにぎり"
+Name = "Онигири"
 Description = "／■＼"
 Note = ""
 
 Item 136
-Name = "オムライス"
-Description = "トマトケチャップのシンプルなオムライス"
+Name = "Омлет"
+Description = "Простой омлет с томатным кетчупом."
 Note = ""
 
 Item 137
-Name = "青汁"
-Description = "にがい"
+Name = "Капустный сок"
+Description = "Аодзиру. Горький."
 Note = ""
 
 Item 138
-Name = "ピラフ"
-Description = "どうも冷食な気がして仕方ない"
+Name = "Плов"
+Description = "Кажется остывшим, но тут уж ничего не поделать."
 Note = ""
 
 Item 139
-Name = "そば"
-Description = "腹持ちが良い"
+Name = "Суп с лапшой"
+Description = "Соба. Сытная вещь."
 Note = ""
 
 Item 140
-Name = "からあげ"
-Description = "鳥胸肉のからあげ"
+Name = "Хрустящая курочка"
+Description = "Карааге из куриной грудки."
 Note = ""
 
 Item 141
@@ -704,8 +704,8 @@ Description = ""
 Note = ""
 
 Item 142
-Name = "お冷"
-Description = "要はただの水\r\n冷やかしなら帰ってんかー"
+Name = "Стакан холодной воды"
+Description = "Просто попросить воды.\r\nЕсли так ничего и не закажешь, налью за шиворот."
 Note = ""
 
 Item 143
@@ -1019,13 +1019,13 @@ Description = "Удобрение, падающее из члено-червей
 Note = ""
 
 Item 205
-Name = "ゼリー"
-Description = "ゼリイヌは体内にゼリーを蓄える習性がある\r\n・・・・らしい"
+Name = "Желе"
+Description = "Желе-псам свойственно накапливать желе внутри своего тела.\r\n...Видимо."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 80 / 100),1].max"
 
 Item 206
-Name = "ウサギ肉"
-Description = "ひっかきウサギの肉\r\nあんまり美味しくない"
+Name = "Кроличье мясо"
+Description = "Мясо кролика-царапки.\r\nНа вкус так себе."
 Note = ""
 
 Item 207
@@ -1204,28 +1204,28 @@ Description = "イービルガエルの無精卵"
 Note = ""
 
 Item 242
-Name = "赤い花"
-Description = "赤い花。"
+Name = "Красный цветок"
+Description = "Красный цветок。"
 Note = ""
 
 Item 243
-Name = "黄色い花"
-Description = "黄色い花。"
+Name = "Жёлтый цветок"
+Description = "Жёлтый цветок."
 Note = ""
 
 Item 244
-Name = "白い花"
-Description = "白い花。"
+Name = "Белый цветок"
+Description = "Белый цветок."
 Note = ""
 
 Item 245
-Name = "ブルーベリー"
-Description = "様々な用途に使われる素材\r\n駆け出し冒険者の金策に使われる事もある"
+Name = "Голубика"
+Description = "Ингредиент со множеством применений. В том числе и\r\nспособ подзаработать начинающему искателю приключений."
 Note = ""
 
 Item 246
 Name = "レッドベリー"
-Description = "様々な用途に使われる素材\r\n駆け出し冒険者の金策に使われる事もある"
+Description = "Ингредиент со множеством применений. В том числе и\r\nспособ подзаработать начинающему искателю приключений."
 Note = "<硬直>[((1000 - ( (a.agi+ 0) * a.spd / 10 )) * 30 / 100),1].max"
 
 Item 247
@@ -4949,8 +4949,8 @@ Description = "使う事で歩兵の精神を知ることが出来る"
 Note = ""
 
 Item 991
-Name = "愚者の日記"
-Description = "使う事で愚者の精神を知ることが出来る"
+Name = "Дневник глупца"
+Description = "Использование позволяет понять душу глупца."
 Note = ""
 
 Item 992

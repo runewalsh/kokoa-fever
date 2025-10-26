@@ -1,5 +1,5 @@
 Game Title = "ココアちゃんフィーバー"
-Currency Unit = "Yen"
+Currency Unit = "¥"
 Title 1 Name = "タイトル"
 Title 2 Name = ""
 Battleback 1 Name = "Grassland"

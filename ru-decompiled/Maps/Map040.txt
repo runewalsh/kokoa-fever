@@ -611,7 +611,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -625,7 +625,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -639,7 +639,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -653,7 +653,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -667,7 +667,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -681,7 +681,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -703,7 +703,7 @@ Name = "EV072"
     ControlSelfSwitch(["A", 0])
     ChangeItems([15, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["スピードアップを手に入れた！"])
+    ShowText(["Нашла бонус ловкости!"])
     Empty([])
 
   Page 1
@@ -723,7 +723,7 @@ Name = "EV073"
     ControlSelfSwitch(["A", 0])
     ChangeItems([10, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マナアップを手に入れた！"])
+    ShowText(["Нашла бонус маны!"])
     Empty([])
 
   Page 1

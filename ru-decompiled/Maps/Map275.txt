@@ -1,4 +1,4 @@
-Display Name = "大衆浴場"
+Display Name = "Общественная баня"
 Parallax Name = ""
 Note = ""
 
@@ -46,29 +46,30 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「お嬢ちゃんなら利用料は120Yenだよ。」"])
-    ShowChoices([["入浴する", "今はいい"], 2])
-    When([0, "入浴する"])
+    ShowText(["\\C[8]Администратор\\C[0]"])
+    ShowText(["«Для юной леди плата за вход — 120 иен»."])
+    ShowChoices([["Войти в баню", "Не сейчас"], 2])
+    When([0, "Войти в баню"])
       ConditionalBranch([7, 120, 0])
         ChangeGold([1, 0, 120])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["受付"])
-        ShowText(["「女湯は向かって右手だよ。お父ちゃんと来たなら左が男湯さ」"])
+        ShowText(["\\C[8]Администратор\\C[0]"])
+        ShowText(["«Женская баня — направо."])
+        ShowText([" Если вы пришли с папой, то мужская — налево»."])
         ControlSwitches([142, 142, 0])
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["受付"])
-        ShowText(["「お金が足りないみたいだね・・・」"])
+        ShowText(["\\C[8]Администратор\\C[0]"])
+        ShowText(["«Кажется, у вас не хватает денег...»"])
         Empty([])
       BranchEnd([])
       Empty([])
 
-    When([1, "今はいい"])
+    When([1, "Не сейчас"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「そうかい？また来なよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Вот как? Ну, заходите в другой раз»."])
       Empty([])
 
     ChoicesEnd([])
@@ -76,8 +77,9 @@ Name = "EV005"
 
   Page 1
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「女湯は向かって右手だよ。お父ちゃんと来たなら左が男湯さ」"])
+    ShowText(["\\C[8]Администратор\\C[0]"])
+    ShowText(["«Женская баня — направо."])
+    ShowText([" Если вы пришли с папой, то мужская — налево»."])
     Empty([])
 
 CommonEvent 6
@@ -86,8 +88,8 @@ Name = "EV006"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「こらこら、先にお金を払うんだよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Эй-эй, деньги вперёд»."])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
       Empty([])
@@ -104,8 +106,8 @@ Name = "EV007"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「こらこら、先にお金を払うんだよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Эй-эй, деньги вперёд»."])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
       Empty([])
@@ -122,8 +124,8 @@ Name = "EV008"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「こらこら、先にお金を払うんだよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Эй-эй, деньги вперёд»."])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
       Empty([])
@@ -140,8 +142,8 @@ Name = "EV009"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「こらこら、先にお金を払うんだよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Эй-эй, деньги вперёд»."])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
       Empty([])
@@ -158,8 +160,8 @@ Name = "EV010"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「こらこら、先にお金を払うんだよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Эй-эй, деньги вперёд»."])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
       Empty([])
@@ -176,8 +178,8 @@ Name = "EV011"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["受付"])
-      ShowText(["「こらこら、先にお金を払うんだよ」"])
+      ShowText(["\\C[8]Администратор\\C[0]"])
+      ShowText(["«Эй-эй, деньги вперёд»."])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
       Empty([])

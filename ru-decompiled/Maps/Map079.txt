@@ -1,4 +1,4 @@
-Display Name = "宿屋２階"
+Display Name = "Трактир, 2-й этаж"
 Parallax Name = ""
 Note = ""
 
@@ -23,8 +23,9 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青い冒険者"])
-    ShowText(["「おかしい・・４人で泊まったはずなのに起きたら自分しかいない・・。」"])
+    ShowText(["\\C[12]Авантюрист в синем\\C[0]"])
+    ShowText(["«Странно... Мы снимали комнату вчетвером,"])
+    ShowText([" просыпаюсь — кроме меня никого...»"])
     Empty([])
 
 CommonEvent 4
@@ -33,7 +34,7 @@ Name = "EV004"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【たい焼き】を手に入れた！"])
+    ShowText(["Нашла печенье-рыбку!"])
     ChangeArmor([509, 0, 0, 1, false])
     ControlSelfSwitch(["A", 0])
     Empty([])

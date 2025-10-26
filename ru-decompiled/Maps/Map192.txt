@@ -1,4 +1,4 @@
-Display Name = "売春宿"
+Display Name = "Бордель"
 Parallax Name = ""
 Note = ""
 
@@ -46,8 +46,8 @@ Name = "EV006"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「ここは売春宿ですがご利用ですか・・？」"])
+    ShowText(["\\C[25]Администратор\\C[0]"])
+    ShowText(["«Это бордель, вы за нашими услугами?..»"])
     ShotBalloonIcon([-1, 1, true])
     Empty([])
 
@@ -59,8 +59,8 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「お客様？まずは受付をお済ませください」"])
+    ShowText(["\\C[25]Администратор\\C[0]"])
+    ShowText(["«Вы клиент? Сначала пройдите регистрацию»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])
@@ -70,8 +70,8 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「お客様？まずは受付をお済ませください」"])
+    ShowText(["\\C[25]Администратор\\C[0]"])
+    ShowText(["«Вы клиент? Сначала пройдите регистрацию»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])
@@ -81,8 +81,8 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「お客様？まずは受付をお済ませください」"])
+    ShowText(["\\C[25]Администратор\\C[0]"])
+    ShowText(["«Вы клиент? Сначала пройдите регистрацию»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])
@@ -92,8 +92,8 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「お客様？まずは受付をお済ませください」"])
+    ShowText(["\\C[25]Администратор\\C[0]"])
+    ShowText(["«Вы клиент? Сначала пройдите регистрацию»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])
@@ -103,8 +103,8 @@ Name = "EV011"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["受付"])
-    ShowText(["「お客様？まずは受付をお済ませください」"])
+    ShowText(["\\C[25]Администратор\\C[0]"])
+    ShowText(["«Вы клиент? Сначала пройдите регистрацию»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])

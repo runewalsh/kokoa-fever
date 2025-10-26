@@ -67,10 +67,10 @@ class Window_Base < Window
   def draw_exp_info(x, y)
     s1 = @actor.max_level? ? "-------" : @actor.next_level_exp - @actor.exp
     s2 = @actor.max_joblevel? ? "-------" : @actor.next_joblevel_exp - @actor.jobexp if KURE::BaseScript::USE_JobChange == 1 && KURE::BaseScript::USE_JOBLv == 1
-    s_next = "Next"
+    s_next = "След."
     change_color(system_color)
     if KURE::BaseScript::USE_JOBLv == 1
-      draw_text(x, y , 40, line_height, s_next)
+      draw_text(x, y , 60, line_height, s_next)
       change_color(tp_gauge_color2)
       draw_text(x + 40, y , 40, line_height, "Base")
       change_color(normal_color)
@@ -81,7 +81,7 @@ class Window_Base < Window
       change_color(normal_color)
       draw_text(x + 185, y , 60, line_height, s2, 2)
     else
-      draw_text(x + 100, y , 45, line_height, s_next)
+      draw_text(x + 100, y , 65, line_height, s_next)
       change_color(normal_color)
       draw_text(x + 140, y , 85, line_height, s1, 2)
     end

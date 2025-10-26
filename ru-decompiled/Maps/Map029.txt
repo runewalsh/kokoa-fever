@@ -1,4 +1,4 @@
-Display Name = "ギルド２階"
+Display Name = "Гильдия, 2-й этаж"
 Parallax Name = ""
 Note = ""
 

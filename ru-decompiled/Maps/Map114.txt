@@ -32,7 +32,7 @@ Name = "EV003"
     ControlSelfSwitch(["A", 0])
     ChangeItems([11, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["パワーアップを手に入れた！"])
+    ShowText(["Нашла бонус силы!"])
     Empty([])
 
   Page 1

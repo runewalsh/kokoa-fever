@@ -1,4 +1,4 @@
-Display Name = "防具屋"
+Display Name = "Магазин брони"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["防具屋のにいちゃん"])
-    ShowText(["「いらっしゃい！」"])
+    ShowText(["\\C[18]Продавец брони\\C[0]"])
+    ShowText(["«Добро пожаловать!»"])
     ShopProcessing([2, 69, 0, 0, true])
     ShopItem([2, 70, 0, 0])
     ShopItem([2, 71, 0, 0])
@@ -31,9 +31,9 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["真面目そうな冒険者"])
-    ShowText(["「ち、違いますよ！"])
-    ShowText(["　べべべつに女装に興味があるわけじゃ！？」"])
+    ShowText(["\\C[23]Благовоспитанный авантюрист\\C[0]"])
+    ShowText(["«Н-нет-нет-нет! Это не то, о чём вы подумали!"])
+    ShowText([" П-п-переодевание в женское м-меня вовсе не интересует,\r\n вы за кого меня принимаете?!»"])
     Empty([])
 
 CommonEvent 4
@@ -48,8 +48,8 @@ Name = "EV005"
   Page 0
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ナルシスト"])
-      ShowText(["「あー俺めっちゃカッコええわー。困っちゃうわーほんまー」"])
+      ShowText(["\\C[29]Нарцисс\\C[0]"])
+      ShowText(["«Ах, как же я бесподобен. Право, даже как-то неловко»."])
       Empty([])
 
     BranchEnd([])
@@ -61,8 +61,8 @@ Name = "EV006"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ナルシスト"])
-      ShowText(["「あー俺めっちゃカッコええわー。困っちゃうわーほんまー」"])
+      ShowText(["\\C[29]Нарцисс\\C[0]"])
+      ShowText(["«Ах, как же я бесподобен. Право, даже как-то неловко»."])
       Empty([])
 
     BranchEnd([])
@@ -74,8 +74,8 @@ Name = "EV007"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["ナルシスト"])
-      ShowText(["「あー俺めっちゃカッコええわー。困っちゃうわーほんまー」"])
+      ShowText(["\\C[29]Нарцисс\\C[0]"])
+      ShowText(["«Ах, как же я бесподобен. Право, даже как-то неловко»."])
       Empty([])
 
     BranchEnd([])

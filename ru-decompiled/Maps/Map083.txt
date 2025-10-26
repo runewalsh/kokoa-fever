@@ -1,4 +1,4 @@
-Display Name = "孤児院"
+Display Name = "Сиротский приют"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["シスター"])
-    ShowText(["「ここでは身寄りの無い子供たちを引き取っています」"])
+    ShowText(["\\C[16]Сестра\\C[0]"])
+    ShowText(["«Мы даём приют деткам, у которых никого не осталось»."])
     Empty([])
 
 CommonEvent 3
@@ -24,9 +24,10 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女の子"])
-    ShowText(["「わたしこの本大好きなのー"])
-    ShowText(["　特に桃太郎が鬼を虐殺するシーンは何度見てもエクスタシー！」"])
+    ShowText(["\\C[2]Девочка\\C[0]"])
+    ShowText(["«Мне так нравится эта книга!"])
+    ShowText([" Особенно сцена, где Момотаро устраивает резню демонам!"])
+    ShowText([" Каждый раз, когда перечитываю, прихожу в экстаз!»"])
     ShotBalloonIcon([-1, 6, false])
     Empty([])
 
@@ -35,9 +36,9 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["少年"])
-    ShowText(["「いつか立派な魔法使いになって"])
-    ShowText(["　この教会に恩返しをするんだ」"])
+    ShowText(["\\C[27]Мальчик\\C[0]"])
+    ShowText(["«Однажды я стану великим волшебником"])
+    ShowText([" и верну свой долг этой церкви»."])
     Empty([])
 
 CommonEvent 5
@@ -45,8 +46,8 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["少女"])
-    ShowText(["「うー・・眠たいよぉ・・」"])
+    ShowText(["\\C[5]Девочка\\C[0]"])
+    ShowText(["«Уа... Спать хочу...»"])
     Empty([])
 
 CommonEvent 6
@@ -54,11 +55,11 @@ Name = "EV006"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["イケメン"])
-    ShowText(["「この施設に寄付をしている者です」"])
+    ShowText(["\\C[31]Красавчик\\C[0]"])
+    ShowText(["«Я являюсь спонсором этого заведения»."])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["イケメン"])
-    ShowText(["「あぁ・・\\{\\{\\{やっぱり幼女は最高だぜ！！\\}\\}\\}」"])
+    ShowText(["\\C[31]Красавчик\\C[0]"])
+    ShowText(["«Ах... \\{\\{\\{ЛОЛИЧКИ ЛУЧШИЕ!!\\}\\}\\}»"])
     ShotBalloonIcon([-1, 6, false])
     Empty([])
 
@@ -67,9 +68,9 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["少女"])
-    ShowText(["「しーっ！！静かにしてよ！"])
-    ShowText(["　今一人かくれんぼしてるんだから！！」"])
+    ShowText(["\\C[23]Девочка\\C[0]"])
+    ShowText(["«Тс-с!! Потише!"])
+    ShowText([" Я играю в одиночные прятки!!»"])
     Empty([])
 
 CommonEvent 8

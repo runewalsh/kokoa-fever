@@ -8,10 +8,10 @@
 module Vocab
 
   # ショップ画面
-  ShopBuy         = "購入する"
-  ShopSell        = "売却する"
-  ShopCancel      = "やめる"
-  Possession      = "持っている数"
+  ShopBuy         = "Купить"
+  ShopSell        = "Продать"
+  ShopCancel      = "До свидания"
+  Possession      = "У меня"
 
   # ステータス画面
   ExpTotal        = "現在の経験値"
@@ -36,17 +36,17 @@ module Vocab
   Victory         = "%s побеждает!"
   Defeat          = "%s терпит поражение."
   ObtainExp       = "Получила %s опыта!"
-  ObtainGold      = "Получила %s\\G золота!"
+  ObtainGold      = "Получила %s\\G!"
   ObtainItem      = "%s — у меня!"
   LevelUp         = "%s теперь уровня %s!"
   ObtainSkill     = "%s — изучила!"
 
   # アイテム使用
-  UseItem         = "%sは%sを使った！"
+  UseItem         = "%s использует %s!"
 
   # クリティカルヒット
-  CriticalToEnemy = "会心の一撃！！"
-  CriticalToActor = "痛恨の一撃！！"
+  CriticalToEnemy = "Точный удар!!"
+  CriticalToActor = "Болючий удар!!"
 
   # アクター対象の行動結果
   ActorDamage     = "%s получает %s ед. урона!"

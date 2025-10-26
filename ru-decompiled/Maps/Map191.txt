@@ -261,7 +261,7 @@ Name = "EV016"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 3000])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["3000\\G 手に入れた！"])
+    ShowText(["3000\\G — мои!"])
     Empty([])
 
   Page 1

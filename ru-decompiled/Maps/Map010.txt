@@ -1,4 +1,4 @@
-Display Name = "要塞都市ハーリス-東住宅区"
+Display Name = "Город-крепость Харрис, восточный жилой район"
 Parallax Name = ""
 Note = ""
 

@@ -36,7 +36,7 @@ Name = "　１"
   ShowText(["「ふあぁぁぁぁ・・・・んんっ♥」"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["おじさん"])
-  ShowText(["「・・・・・。」"])
+  ShowText(["«...»"])
   ShowPicture([2, "Ｈイベント：マッサージ店３", 0, 0, 0, 0, 100, 100, 255, 0])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[25]Кокоа\\C[0]"])

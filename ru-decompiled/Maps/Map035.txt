@@ -516,7 +516,7 @@ Name = "EV041"
     ControlSelfSwitch(["A", 0])
     ChangeItems([16, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["スキルアップを手に入れた！"])
+    ShowText(["Нашла бонус удачи!"])
     Empty([])
 
   Page 1
@@ -536,7 +536,7 @@ Name = "EV042"
     ControlSelfSwitch(["A", 0])
     ChangeItems([15, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["スピードアップを手に入れた！"])
+    ShowText(["Нашла бонус ловкости!"])
     Empty([])
 
   Page 1
@@ -556,7 +556,7 @@ Name = "EV043"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 16])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["16\\G 手に入れた！"])
+    ShowText(["16\\G — мои!"])
     Empty([])
 
   Page 1

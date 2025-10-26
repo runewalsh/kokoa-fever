@@ -88,7 +88,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeItems([10, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マナアップを手に入れた！"])
+    ShowText(["Нашла бонус маны!"])
     Empty([])
 
   Page 1
@@ -108,7 +108,7 @@ Name = "EV008"
     ControlSelfSwitch(["A", 0])
     ChangeItems([9, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ライフアップを手に入れた！"])
+    ShowText(["Нашла бонус жизни!"])
     Empty([])
 
   Page 1

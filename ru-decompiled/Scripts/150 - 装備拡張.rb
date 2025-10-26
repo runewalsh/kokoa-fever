@@ -22,7 +22,7 @@ module KURE
     
   #装備スロット欄の表示設定----------------------------------------------------
   #装備スロット表示名を設定(EQUIP_SLOT_NAME = [スロット5表示名,…]
-  EQUIP_SLOT_NAME = ["Значок","Расширенная","スロット7","スロット8"]
+  EQUIP_SLOT_NAME = ["Значок","Расшир.","スロット7","スロット8"]
   
   #装備スロットを設定
   #通常のスロット
@@ -1311,12 +1311,12 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     
     case @draw_index
     when 1
-      draw_text(0, 0, 126, contents.font.size, "ステータス変化")    
+      draw_text(0, 0, 126 + 60, contents.font.size, "Изменение характеристик")
       draw_equip_before(0,line_height * 1)
       draw_right_arrow(0, line_height * 2)
       draw_equip_after(20,line_height * 2)
     when 2,4,8,11
-      draw_text(0, 0, 126, contents.font.size, "Особенности экипировки")
+      draw_text(0, 0, 126, contents.font.size, "Особые")
       case @draw_index
       when 2
         draw_equip_after(5,line_height * 1)
@@ -1328,7 +1328,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
         draw_item_name(@change_item, 5,line_height * 1) if @change_item
       end      
     when 3,7,10
-      draw_text(0, 0, 126, contents.font.size, "Показатели экипировки")
+      draw_text(0, 0, 126, contents.font.size, "Свойства")
       case @draw_index
       when 3
         item = @base_item
@@ -1536,7 +1536,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
   #--------------------------------------------------------------------------
   def draw_need_equip_condition(x,y)
     change_color(normal_color)
-    draw_text(x + 5, y, contents.width, contents.font.size, "装備条件を満たしていません")
+    draw_text(x + 5, y, contents.width, contents.font.size, "Условия для экипирования не выполнены.")
     change_color(power_down_color)
     count = 1
     
@@ -1586,14 +1586,14 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     #装備レベル利用時は要求レベルを描画
     if KURE::ExEquip::USE_EQUIPLV_SYSTEM == 1
       change_color(system_color)
-      draw_text(5, y, 90, contents.font.size, "Треб. уровень")
+      draw_text(5, y, 110, contents.font.size, "Треб. уровень")
       change_color(normal_color)
-      draw_text(95, y, 20, contents.font.size, item.need_equip_level ,2)
+      draw_text(110, y, 20, contents.font.size, item.need_equip_level ,2)
     
       #職業レベルを導入していれば要求レベルを表示
       if KURE::BaseScript::USE_JOBLv == 1 
-        draw_text(115, y, 10, contents.font.size, "/" )
-        draw_text(125, y, 20, contents.font.size, item.need_equip_joblevel ,2)
+        draw_text(130, y, 10, contents.font.size, "/" )
+        draw_text(140, y, 20, contents.font.size, item.need_equip_joblevel ,2)
       end
     end         
     
@@ -1624,7 +1624,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
       for drow in 0..keep.size - 1
         if keep[drow]
           draw_str  = $data_system.elements[keep[drow]]
-          draw_list[@draw_counter] = draw_str + "属性 "
+          draw_list[@draw_counter] = "Элемент: " + draw_str
           @draw_counter += 1
         end
       end
@@ -1640,7 +1640,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
          
       for drow in 0..keep.size - 1
         if keep[drow]
-          draw_str = $data_system.elements[drow]+ "耐性"
+          draw_str = $data_system.elements[drow]+ " (сопр.) "
           value = 100 - (keep[drow] * 100).to_i
           if value != 0
             draw_list[@draw_counter] = draw_str + value.to_s + "% "
@@ -1680,7 +1680,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
          
       for drow in 0..keep.size - 1
         if keep[drow]
-          draw_str = $data_states[drow].name + "耐性"
+          draw_str = $data_states[drow].name + " (сопр.) "
           value = 100 - (keep[drow] * 100).to_i
           if value != 0
             draw_list[@draw_counter] = draw_str + value.to_s + "% "
@@ -1722,7 +1722,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           draw_str = Vocab::param(drow)
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = "+" + value.to_s
+              value = " +" + value.to_s
             end
           if value != 0
             draw_list[@draw_counter] = draw_str + value.to_s + "% "
@@ -1751,23 +1751,23 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           when 2
             draw_str = "Крит. шанс"
           when 3
-            draw_str = "会心回避"             
+            draw_str = "Крит уворот"
           when 4
-            draw_str = "魔法回避"
+            draw_str = "Маг. уворот"
           when 5
-            draw_str = "魔法反射"
+            draw_str = "Маг. отражение"
           when 6
-            draw_str = "反撃率"
+            draw_str = "Контратака"
           when 7
-            draw_str = "毎ﾀｰﾝHP回復"
+            draw_str = "Реген. HP/ход"
           when 8
-            draw_str = "毎ﾀｰﾝMP回復"
+            draw_str = "Реген. MP/ход"
           when 9
-            draw_str = "毎ﾀｰﾝTP回復"
+            draw_str = "Реген. TP/ход"
           end
           value = (keep[drow] * 100).to_i
             if value > 0
-              value = "+" + value.to_s
+              value = " +" + value.to_s
             end
           if value != 0
             draw_list[@draw_counter] = draw_str + value.to_s + "% "
@@ -1790,29 +1790,29 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           #ステータス名取得
           case drow
           when 0
-            draw_str = "狙われ率" 
+            draw_str = "Точность"
           when 1
-            draw_str = "防御効果"
+            draw_str = "Эфф. защиты"
           when 2
-            draw_str = "回復効果"
+            draw_str = "Эфф. лечения"
           when 3
-            draw_str = "薬知識"
+            draw_str = "Эфф. зелий"
           when 4
-            draw_str = "MP消費率"
+            draw_str = "Затраты MP"
           when 5
-            draw_str = "TP上昇率"
+            draw_str = "Зарядка TP"
           when 6
-            draw_str = "被物理Dmg"
+            draw_str = "Физ. урон"
           when 7
-            draw_str = "被魔法Dmg"
+            draw_str = "Маг. урон"
           when 8
-            draw_str = "床Dmg"
+            draw_str = "Урон ловушек"
           when 9
-            draw_str = "経験値"
+            draw_str = "Опыт"
           end
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = "+" + value.to_s
+              value = " +" + value.to_s
             end
           if value != 0
             draw_list[@draw_counter] = draw_str + value.to_s + "% "
@@ -1989,13 +1989,13 @@ class Window_Ex_EquipStatus < Window_EquipStatus
         if item.party_add_ability(add) != 100
           case add
           when 0
-            value = "獲得金額" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. золото ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 1
-            value = "Drop率" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. предметы ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 2
-            value = "遭遇率" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Шанс нападения ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 3
-            value = "獲得EXP" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
+            value = "Получ. опыт ×" + (item.party_add_ability(add).to_f / 100).to_s
           when 4
             value = "獲得JEXP" + (item.party_add_ability(add).to_f / 100).to_s + "倍"
           when 5
@@ -2036,7 +2036,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
         when 4
           if item.battler_add_ability(add) != []
             for state in 0..item.battler_add_ability(add).size - 1
-              value = $data_states[item.battler_add_ability(add)[state]].name + "発動"
+              value = "Вызывает: " + $data_states[item.battler_add_ability(add)[state]].name
               draw_list[@draw_counter] = value
               @draw_counter += 1
             end

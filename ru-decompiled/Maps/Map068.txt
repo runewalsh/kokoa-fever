@@ -1,4 +1,4 @@
-Display Name = "ラウエル平原３"
+Display Name = "Равнина Рауэль 3"
 Parallax Name = ""
 Note = ""
 

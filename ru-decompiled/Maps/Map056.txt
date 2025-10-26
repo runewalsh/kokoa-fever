@@ -1,4 +1,4 @@
-Display Name = "ラウエル平原２"
+Display Name = "Равнина Рауэль 2"
 Parallax Name = ""
 Note = ""
 
@@ -3515,7 +3515,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3529,7 +3529,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3543,7 +3543,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3557,7 +3557,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3571,7 +3571,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3585,7 +3585,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3599,7 +3599,7 @@ Name = "黄色い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["黄色い花を手に入れた"])
+    ShowText(["Сорвала жёлтый цветок."])
     ChangeItems([243, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -3621,7 +3621,7 @@ Name = "EV066"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 300])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["300\\G 手に入れた！"])
+    ShowText(["300\\G — мои!"])
     Empty([])
 
   Page 1

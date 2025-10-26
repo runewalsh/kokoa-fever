@@ -1,4 +1,4 @@
-Display Name = "ハーリス街道３"
+Display Name = "Дорога к Харрису 3"
 Parallax Name = ""
 Note = ""
 
@@ -176,7 +176,7 @@ Name = "EV015"
     ControlSelfSwitch(["A", 0])
     ChangeItems([16, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["スキルアップを手に入れた！"])
+    ShowText(["Нашла бонус удачи!"])
     Empty([])
 
   Page 1
@@ -196,7 +196,7 @@ Name = "EV016"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 330])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["330\\G 手に入れた！"])
+    ShowText(["330\\G — мои!"])
     Empty([])
 
   Page 1
@@ -216,7 +216,7 @@ Name = "EV017"
     ControlSelfSwitch(["A", 0])
     ChangeItems([86, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["加速薬(攻撃)を手に入れた！"])
+    ShowText(["Нашла стимулятор (атаки)!"])
     Empty([])
 
   Page 1
@@ -227,7 +227,7 @@ Name = "EV018"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Сохраниться"])
+    ShowText(["Сохранись"])
     ShotBalloonIcon([-1, 2, false])
     Empty([])
 

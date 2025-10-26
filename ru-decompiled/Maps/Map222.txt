@@ -74,7 +74,7 @@ Name = "EV006"
     ControlSelfSwitch(["A", 0])
     ChangeItems([13, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マジックアップを手に入れた！"])
+    ShowText(["Нашла бонус магии!"])
     Empty([])
 
   Page 1

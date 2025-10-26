@@ -1,4 +1,4 @@
-Display Name = "信長服店"
+Display Name = "Ателье Нобунага"
 Parallax Name = ""
 Note = ""
 
@@ -7,8 +7,8 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["店員"])
-    ShowText(["「いらっしゃいである」"])
+    ShowText(["\\C[30]Продавец\\C[0]"])
+    ShowText(["«Приветствую вас»."])
     ShopProcessing([2, 801, 0, 0, true])
     ShopItem([2, 803, 0, 0])
     ShopItem([2, 805, 0, 0])

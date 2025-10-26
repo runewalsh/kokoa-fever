@@ -1,4 +1,4 @@
-Display Name = "信長服店２階"
+Display Name = "Ателье Нобунага, 2-й этаж"
 Parallax Name = ""
 Note = ""
 
@@ -23,8 +23,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["無口なバイト"])
-    ShowText(["「・・・。」"])
+    ShowText(["\\C[12]Молчаливый сменщик\\C[0]"])
+    ShowText(["«...»"])
     ShopProcessing([2, 736, 0, 0, true])
     ShopItem([2, 737, 0, 0])
     ShopItem([2, 738, 0, 0])

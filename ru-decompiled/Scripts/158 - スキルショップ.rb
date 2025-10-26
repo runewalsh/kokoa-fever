@@ -22,11 +22,11 @@ module WD_skillshop_ini
   Dislearnable = [] #この行は削除しないこと
   
   #ウィンドウに表示されるテキスト
-  Text_nonmastered  = "未修得"
-  Text_mastered     = "修得済み"
-  Text_dislearnable = "修得不可"
-  Text_buy          = "スキルを購入する"
-  Text_cancel       = "やめる"
+  Text_nonmastered  = "Не владеет"
+  Text_mastered     = "Владеет"
+  Text_dislearnable = "Невозможно"
+  Text_buy          = "Приобрести навык"
+  Text_cancel       = "До свидания"
   
   #ゴールドの代わりに変数を表示する場合の設定
   Gold_variable_use  = false #ゴールドの代わりに変数を利用する場合true

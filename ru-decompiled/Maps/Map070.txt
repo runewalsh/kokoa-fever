@@ -1,4 +1,4 @@
-Display Name = "ラウエル平原４－１"
+Display Name = "Равнина Рауэль 4—1"
 Parallax Name = ""
 Note = ""
 
@@ -179,7 +179,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -193,7 +193,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -207,7 +207,7 @@ Name = "赤い花"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤い花を手に入れた"])
+    ShowText(["Сорвала красный цветок."])
     ChangeItems([242, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -410,7 +410,7 @@ Name = "EV031"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 100])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["100\\G 手に入れた！"])
+    ShowText(["100\\G — мои!"])
     Empty([])
 
   Page 1

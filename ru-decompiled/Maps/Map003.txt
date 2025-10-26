@@ -239,7 +239,7 @@ Name = "EV015"
     ConditionalBranch([1, 26, 0, 1, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["「・・・・・。」"])
+      ShowText(["«...»"])
       Empty([])
 
     BranchEnd([])
@@ -250,7 +250,7 @@ Name = "EV015"
     ConditionalBranch([1, 26, 0, 1, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["「・・・・・。」"])
+      ShowText(["«...»"])
       Empty([])
 
     BranchEnd([])

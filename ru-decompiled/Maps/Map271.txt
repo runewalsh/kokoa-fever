@@ -1,4 +1,4 @@
-Display Name = "民家"
+Display Name = "Жилой дом"
 Parallax Name = ""
 Note = ""
 
@@ -18,7 +18,7 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「この区画だけは常夜の魔法が掛けられているんだけど"])
-    ShowText(["　朝が分かりにくいのよね」"])
+    ShowText(["\\C[21]Девушка\\C[0]"])
+    ShowText(["«На этот район наложена магия вечной ночи,"])
+    ShowText([" поэтому сложно определить, когда наступает утро»."])
     Empty([])

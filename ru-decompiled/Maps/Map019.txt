@@ -1,4 +1,4 @@
-Display Name = "武器屋"
+Display Name = "Оружейный магазин"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "武器屋のおっさん"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["武器屋のおっさん"])
-    ShowText(["「いらっしゃい！」"])
+    ShowText(["\\C[20]Продавец оружия\\C[0]"])
+    ShowText(["«Добро пожаловать!»"])
     ShopProcessing([1, 102, 0, 0, true])
     ShopItem([1, 103, 0, 0])
     ShopItem([1, 104, 0, 0])
@@ -56,9 +56,9 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["長髪の魔法使い"])
-    ShowText(["「護身用でひとつ持っておこうか・・・"])
-    ShowText(["　いや、魔法使いだし剣なんていらないか・・・」"])
+    ShowText(["\\C[4]Длинноволосый маг\\C[0]"])
+    ShowText(["«Может, прикупить один для самообороны..."])
+    ShowText([" Хотя я же маг, зачем мне меч?..»"])
     Empty([])
 
 CommonEvent 5
@@ -66,6 +66,6 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ヤンキー"])
-    ShowText(["「どれが一番えぇの？」"])
+    ShowText(["\\C[17]Хулиган\\C[0]"])
+    ShowText(["«Какой самый заебатый?»"])
     Empty([])

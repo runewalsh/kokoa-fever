@@ -1,4 +1,4 @@
-Display Name = "宿屋"
+Display Name = "Трактир"
 Parallax Name = ""
 Note = ""
 
@@ -7,9 +7,9 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["「一泊 300\\G です。お泊まりですか？\\$"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["«Желаете снять комнату? Триста иен за ночь».\\$"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ConditionalBranch([7, 300, 0])
         ChangeGold([1, 0, 300])
         FadeoutScreen([])
@@ -20,12 +20,12 @@ Name = "EV001"
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["「お金が足りません。"])
+        ShowText(["«У вас не хватает»."])
         Empty([])
       BranchEnd([])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])

@@ -86,13 +86,13 @@ module ShopStatus
   #--------------------------------------------------------------------------
   # ◇ テキスト
   #--------------------------------------------------------------------------
-  VOCAB_EFFECT_SCOPE = ["効果範囲", "なし", "単体", "複数", "全体"]
+  VOCAB_EFFECT_SCOPE = ["Зона эффекта", "Нет", "Одиночная цель", "Неск. целей", "На всех"]
   VOCAB_USABLE_OCCASION =
-    ["使用可能時", "常時", "バトル", "メニュー", "使用不可"]
-  VOCAB_EFFECT_HP = "ＨＰ回復量"
-  VOCAB_EFFECT_MP = "ＭＰ回復量"
-  VOCAB_EFFECT_TP = "ＴＰ増加量"
-  VOCAB_CHANGE_STATE = "ステート変化"
+    ["Использование", "В любое время", "В бою", "Вне боя", "Не исп."]
+  VOCAB_EFFECT_HP = "Восстановление HP"
+  VOCAB_EFFECT_MP = "Восстановление MP"
+  VOCAB_EFFECT_TP = "Восстановление TP"
+  VOCAB_CHANGE_STATE = "Изменения состояния"
   
   VOCAB_RATE_UNIT = "%"
   VOCAB_POINT_UNIT = ""
@@ -104,7 +104,7 @@ module ShopStatus
   VOCAB_PARAMS[:def] = "Физ. защ."
   VOCAB_PARAMS[:mat] = "Маг. атк."
   VOCAB_PARAMS[:mdf] = "Маг. защ."
-  VOCAB_PARAMS[:agi] = "Скорость"
+  VOCAB_PARAMS[:agi] = "Ловкость"
   VOCAB_PARAMS[:luk] = "Удача"
   
 end # module ShopStatus
@@ -295,7 +295,7 @@ class Window_ShopStatus
     draw_states_icon(x, y, eass, erss.size, ICON_ADD_STATES) if SHOW_ADD_STATES
     unless !erss.empty? || (SHOW_ADD_STATES && !eass.empty?)
       change_color(normal_color)
-      draw_text(x, y, contents_width - 4 - x, line_height, "なし")
+      draw_text(x, y, contents_width - 4 - x, line_height, "Нет")
     end
     icon_line_max = (contents_width - 4 - x) / 24   # １行に表示できる数
     @param_y = y + line_height / 2

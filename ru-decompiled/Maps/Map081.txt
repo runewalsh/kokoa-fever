@@ -1,4 +1,4 @@
-Display Name = "食事処"
+Display Name = "Столовая"
 Parallax Name = ""
 Note = ""
 
@@ -13,8 +13,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おばちゃん"])
-    ShowText(["「いらっしゃい」"])
+    ShowText(["\\C[21]Хозяйка\\C[0]"])
+    ShowText(["«Приветствую! Чего желаете?»"])
     ShopProcessing([0, 135, 0, 0, true])
     ShopItem([0, 137, 0, 0])
     ShopItem([0, 138, 0, 0])
@@ -34,8 +34,8 @@ Name = "EV004"
   Page 0
     ConditionalBranch([6, -1, 2])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おじさん"])
-      ShowText(["「もぐもぐ」"])
+      ShowText(["\\C[21]Мужик\\C[0]"])
+      ShowText(["«Ням-ням»."])
       Empty([])
 
     BranchEnd([])
@@ -47,8 +47,8 @@ Name = "EV005"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おじさん"])
-      ShowText(["「もぐもぐ」"])
+      ShowText(["\\C[21]Мужик\\C[0]"])
+      ShowText(["«Ням-ням»."])
       Empty([])
 
     BranchEnd([])
@@ -60,8 +60,8 @@ Name = "EV006"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おじさん"])
-      ShowText(["「もぐもぐ」"])
+      ShowText(["\\C[21]Мужик\\C[0]"])
+      ShowText(["«Ням-ням»."])
       Empty([])
 
     BranchEnd([])
@@ -72,8 +72,8 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["若い冒険者"])
-    ShowText(["「お酒臭いが駄目で向こうの酒場では食事しないの」"])
+    ShowText(["\\C[3]Молодая авантюристка\\C[0]"])
+    ShowText(["«Не переношу запах перегара,\r\n поэтому не ем в том трактире неподалёку»."])
     Empty([])
 
 CommonEvent 8
@@ -81,9 +81,9 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["元気な兄ちゃん"])
-    ShowText(["「しっかり食べて、しっかり動く！"])
-    ShowText(["　これが健康の秘訣さ！！」"])
+    ShowText(["\\C[18]Бодрый парень\\C[0]"])
+    ShowText(["«Много есть, много двигаться!"])
+    ShowText([" Это и есть секрет здоровья!!»"])
     Empty([])
 
 CommonEvent 9
@@ -91,9 +91,9 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["真面目な冒険者"])
-    ShowText(["「こういう４人がけの座席がある時ってどのポジションに座るか悩むんだよ"])
-    ShowText(["　聞いたところによると恋人は正面よりも横に座った方が好印象らしい」"])
+    ShowText(["\\C[31]Серьёзная авантюристка\\C[0]"])
+    ShowText(["«Когда вижу такой 4-местный стол, не могу решить, куда сесть."])
+    ShowText([" Слышала, что влюблённым лучше не напротив друг друга,\r\n а рядом»."])
     Empty([])
 
 CommonEvent 10
@@ -101,8 +101,8 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["金髪の少女"])
-    ShowText(["「キャーキャー」"])
+    ShowText(["\\C[23]Светловолосая девочка\\C[0]"])
+    ShowText(["«Тра-ля-ля»."])
     Empty([])
 
 CommonEvent 11

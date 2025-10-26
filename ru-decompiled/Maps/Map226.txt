@@ -56,7 +56,7 @@ Name = "EV005"
     ShowPicture([10, "立ち絵：ここな５", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「・・・・・。」"])
+    ShowText(["«...»"])
     FadeoutScreen([])
     ControlSwitches([21, 21, 0])
     ControlSwitches([82, 82, 1])

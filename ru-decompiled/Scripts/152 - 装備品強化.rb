@@ -13,7 +13,7 @@ module KURE
     #表示に関する項目-----------------------------------------------------------
     #スロットタイプの表示名設定
     #SLOT_TYPE_NAME_LIST = [タイプ0,タイプ1,タイプ2,…]
-    SLOT_TYPE_NAME_LIST = ["Оружие","盾","頭","体","Аксессуар","Значок"]
+    SLOT_TYPE_NAME_LIST = ["Оружие","Щит","Голова","Тело","Украш.","Значок"]
     
     #表示するスロットタイプリストを保存している変数(設定しない場合は0)
     VIEW_SLOT_LIST_NUM = 0
@@ -26,7 +26,7 @@ module KURE
     
     #強化項目の表示内容
     #強化値の名称
-    REIN_FORCED_NAME = "精錬"
+    REIN_FORCED_NAME = "Качество"
   end
 end
 
@@ -262,7 +262,7 @@ class Scene_Custom_Equip < Scene_MenuBase
   #--------------------------------------------------------------------------
   def create_help_window
     @help_window = Window_Help.new(1)
-    @help_window.set_text("装備品カテゴリを選択してください")
+    @help_window.set_text("Выберите категорию предметов экипировки.")
     @help_window.viewport = @viewport
   end
   #--------------------------------------------------------------------------
@@ -363,7 +363,7 @@ class Scene_Custom_Equip < Scene_MenuBase
     @equip_type_window.deactivate
     @equip_list_window.activate
     @equip_list_window.select(0)
-    @help_window.set_text("装備品を選択してください")
+    @help_window.set_text("Выберите предмет экипировки.")
   end
   #--------------------------------------------------------------------------
   # ● 装備タイプ選択ウィンドウ[キャンセル]
@@ -378,7 +378,7 @@ class Scene_Custom_Equip < Scene_MenuBase
     @equip_list_window.deactivate
     @reinforced_window.activate
     @reinforced_window.select(0)
-    @help_window.set_text("強化する項目を選択してください")
+    @help_window.set_text("Выберите усиливаемый показатель.")
   end
   #--------------------------------------------------------------------------
   # ● 装備選択ウィンドウ[キャンセル]
@@ -388,7 +388,7 @@ class Scene_Custom_Equip < Scene_MenuBase
     @equip_list_window.deactivate
     @equip_list_window.unselect
     @reinforced_window.command_index = 1
-    @help_window.set_text("装備品カテゴリを選択してください")
+    @help_window.set_text("Выберите категорию предметов экипировки.")
   end
   #--------------------------------------------------------------------------
   # ● 強化ウィンドウ[決定]
@@ -403,7 +403,7 @@ class Scene_Custom_Equip < Scene_MenuBase
     @equip_list_window.activate
     @reinforced_window.deactivate
     @reinforced_window.unselect
-    @help_window.set_text("装備品を選択してください")
+    @help_window.set_text("Выберите предмет экипировки.")
   end
   #--------------------------------------------------------------------------
   # ● ポップアップを表示する
@@ -1037,7 +1037,7 @@ class Window_k_Custom_Equip_Background < Window_Base
     #共通描画
     draw_gauge(0,0, contents.width, 1, mp_gauge_color2,crisis_color)
     change_color(normal_color)
-    draw_text(0,0, 200, line_height, "強化項目")
+    draw_text(0,0, 200, line_height, "Усиливаемый показатель")
         
     draw_text(0, contents.height - line_height , contents.width, line_height, "←　→: Страница (" + (@command_index).to_s + " / " + @max_pages.to_s + ")" ,1)
     
@@ -1202,13 +1202,13 @@ class Window_k_Custom_Equip_Background < Window_Base
             
             case code
             when 11
-              draw_str = $data_system.elements[data_id]+ "耐性"
+              draw_str = $data_system.elements[data_id]+ " (сопр.) "
               value = (100 - (value * 100).to_i).to_s + "%"
             when 12
               draw_str = Vocab::param(data_id)+ "減少耐性"
               value = (100 - (value * 100).to_i).to_s + "%"        
             when 13
-              draw_str = $data_states[data_id].name+ "耐性"
+              draw_str = $data_states[data_id].name+ " (сопр.) "
               value = (100 - (value * 100).to_i).to_s + "%"   
             when 14
               draw_str = $data_states[data_id].name+ "無効"
@@ -1217,7 +1217,7 @@ class Window_k_Custom_Equip_Background < Window_Base
               draw_str = Vocab::param(data_id)
               value = (value * 100).to_i - 100
               if value > 0
-                value = "+" + value.to_s
+                value = " +" + value.to_s
               end
               value = value.to_s + "%"
             when 22
@@ -1230,52 +1230,52 @@ class Window_k_Custom_Equip_Background < Window_Base
               when 2
                 draw_str = "Крит. шанс"
               when 3
-                draw_str = "会心回避"             
+                draw_str = "Крит уворот"
               when 4
-                draw_str = "魔法回避"
+                draw_str = "Маг. уворот"
               when 5
-                draw_str = "魔法反射"
+                draw_str = "Маг. отражение"
               when 6
-                draw_str = "反撃率"
+                draw_str = "Контратака"
               when 7
-                draw_str = "毎ﾀｰﾝHP回復"
+                draw_str = "Реген. HP/ход"
               when 8
-                draw_str = "毎ﾀｰﾝMP回復"
+                draw_str = "Реген. MP/ход"
               when 9
-                draw_str = "毎ﾀｰﾝTP回復"
+                draw_str = "Реген. TP/ход"
               end
               value = (value * 100).to_i
               if value > 0
-                value = "+" + value.to_s
+                value = " +" + value.to_s
               end
               value = value.to_s + "%"
             when 23  
               draw_str = data_id
               case draw_str
               when 0
-                draw_str = "狙われ率" 
+                draw_str = "Точность"
               when 1
-                draw_str = "防御効果"
+                draw_str = "Эфф. защиты"
               when 2
-                draw_str = "回復効果"
+                draw_str = "Эфф. лечения"
               when 3
-                draw_str = "薬知識"
+                draw_str = "Эфф. зелий"
               when 4
-                draw_str = "MP消費率"
+                draw_str = "Затраты MP"
               when 5
-                draw_str = "TP上昇率"
+                draw_str = "Зарядка TP"
               when 6
-                draw_str = "被物理Dmg"
+                draw_str = "Физ. урон"
               when 7
-                draw_str = "被魔法Dmg"
+                draw_str = "Маг. урон"
               when 8
-                draw_str = "床Dmg"
+                draw_str = "Урон ловушек"
               when 9
-                draw_str = "経験値"
+                draw_str = "Опыт"
               end
               value = (value * 100).to_i - 100
               if value > 0
-                value = "+" + value.to_s
+                value = " +" + value.to_s
               end
               value = value.to_s + "%"
             when 31
@@ -1457,7 +1457,7 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
     draw_index = @back_ground_window.draw_index if @back_ground_window
     
     draw_gauge(5, 0, contents.width, 1, mp_gauge_color2,crisis_color)
-    draw_text(5, 0, contents.width, line_height, "強化項目確認")
+    draw_text(5, 0, contents.width, line_height, "Усиление показателя")
     
     if item
       draw_item_name(item, 5, line_height)
@@ -1465,11 +1465,11 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
       #描画用のLv設定
       case draw_index
       when 0
-        param_name = KURE::Custom_Equip::REIN_FORCED_NAME + "強化"
+        param_name = "Усиление: " + KURE::Custom_Equip::REIN_FORCED_NAME
         exp_value = item.reinforce_cost[draw_index][1]
         cost_text = item.reinforce_cost[draw_index][0]
       when 1..8
-        param_name = Vocab::param(draw_index - 1) + "強化"
+        param_name = "Усиление: " + Vocab::param(draw_index - 1)
         exp_value = item.reinforce_cost[draw_index][1]
         cost_text = item.reinforce_cost[draw_index][0]
       when 9..109
@@ -1493,13 +1493,13 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
         value = list[draw_index - 9][2]
         case list[draw_index - 9][0]
         when 11
-          draw_str = $data_system.elements[data_id]+ "耐性"
+          draw_str = $data_system.elements[data_id]+ " (сопр.) "
           value = (100 - (value * 100).to_i).to_s + "%"
         when 12
           draw_str = Vocab::param(data_id)+ "減少耐性"
           value = (100 - (value * 100).to_i).to_s + "%"        
         when 13
-          draw_str = $data_states[data_id].name+ "耐性"
+          draw_str = $data_states[data_id].name+ " (сопр.) "
           value = (100 - (value * 100).to_i).to_s + "%"   
         when 14
           draw_str = $data_states[data_id].name+ "無効"
@@ -1508,7 +1508,7 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           draw_str = Vocab::param(data_id)
           value = (value * 100).to_i - 100
           if value > 0
-            value = "+" + value.to_s
+            value = " +" + value.to_s
           end
           value = value.to_s + "%"
         when 22
@@ -1521,52 +1521,52 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           when 2
             draw_str = "Крит. шанс"
           when 3
-            draw_str = "会心回避"             
+            draw_str = "Крит уворот"
           when 4
-            draw_str = "魔法回避"
+            draw_str = "Маг. уворот"
           when 5
-            draw_str = "魔法反射"
+            draw_str = "Маг. отражение"
           when 6
-            draw_str = "反撃率"
+            draw_str = "Контратака"
           when 7
-            draw_str = "毎ﾀｰﾝHP回復"
+            draw_str = "Реген. HP/ход"
           when 8
-            draw_str = "毎ﾀｰﾝMP回復"
+            draw_str = "Реген. MP/ход"
           when 9
-            draw_str = "毎ﾀｰﾝTP回復"
+            draw_str = "Реген. TP/ход"
           end
           value = (value * 100).to_i
           if value > 0
-            value = "+" + value.to_s
+            value = " +" + value.to_s
           end
           value = value.to_s + "%"
         when 23  
           draw_str = data_id
           case draw_str
           when 0
-            draw_str = "狙われ率" 
+            draw_str = "Точность"
           when 1
-            draw_str = "防御効果"
+            draw_str = "Эфф. защиты"
           when 2
-            draw_str = "回復効果"
+            draw_str = "Эфф. лечения"
           when 3
-            draw_str = "薬知識"
+            draw_str = "Эфф. зелий"
           when 4
-            draw_str = "MP消費率"
+            draw_str = "Затраты MP"
           when 5
-            draw_str = "TP上昇率"
+            draw_str = "Зарядка TP"
           when 6
-            draw_str = "被物理Dmg"
+            draw_str = "Физ. урон"
           when 7
-            draw_str = "被魔法Dmg"
+            draw_str = "Маг. урон"
           when 8
-            draw_str = "床Dmg"
+            draw_str = "Урон ловушек"
           when 9
-            draw_str = "経験値"
+            draw_str = "Опыт"
           end
           value = (value * 100).to_i - 100
           if value > 0
-            value = "+" + value.to_s
+            value = " +" + value.to_s
           end
           value = value.to_s + "%"
         when 31
@@ -1651,18 +1651,15 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
         
         draw_text(85, line_height * 2, contents.width - 105, line_height, draw_str)
       end
-      draw_text(5, line_height * 2, 95, line_height, param_name)
+      draw_text(5, line_height * 2, 95 + 100, line_height, param_name)
       
       case cost_text
       when 0
-        draw_text(5, line_height * 3, contents.width - 5, line_height, "必要武器Exp")
-        draw_text(5, line_height * 3, contents.width - 5, line_height, exp_value, 2)
+        draw_text(5, line_height * 3, contents.width - 5, line_height, "Нужно опыта оружия: " + exp_value.to_s)
       when 1
-        draw_text(5, line_height * 3, contents.width - 5, line_height, "必要" + Vocab::currency_unit)
-        draw_text(5, line_height * 3, contents.width - 5, line_height, exp_value, 2)
+        draw_text(5, line_height * 3, contents.width - 5, line_height, "Нужно " + exp_value.to_s + Vocab::currency_unit)
       when 2
-        draw_text(5, line_height * 3, contents.width - 5, line_height, "必要アイテム")
-        draw_text(5, line_height * 3, contents.width - 5, line_height, $data_items[exp_value].name, 2)
+        draw_text(5, line_height * 3, contents.width - 5, line_height, "Нужно опыта предмета: " + $data_items[exp_value].name)
       end
         
     end  
@@ -1703,8 +1700,8 @@ class Window_k_Custom_Equip_DecideCommand < Window_Command
   # ● コマンドリストの作成
   #--------------------------------------------------------------------------
   def make_command_list
-    add_command("強化する" , :ok ,true)
-    add_command("やめる" , :ok ,true)
+    add_command("Усилить" , :ok ,true)
+    add_command("Отмена" , :ok ,true)
   end
 end
 

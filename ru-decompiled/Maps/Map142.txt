@@ -304,7 +304,7 @@ Name = "EV011"
     ControlSelfSwitch(["A", 0])
     ChangeItems([14, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["レジストアップを手に入れた！"])
+    ShowText(["Нашла бонус сопротивления!"])
     Empty([])
 
   Page 1

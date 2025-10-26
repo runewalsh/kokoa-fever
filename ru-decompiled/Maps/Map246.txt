@@ -40,7 +40,7 @@ Name = "EV004"
     ControlSelfSwitch(["A", 0])
     ChangeGold([0, 0, 2000])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["2000\\G 手に入れた！"])
+    ShowText(["2000\\G — мои!"])
     Empty([])
 
   Page 1

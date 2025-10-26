@@ -1,4 +1,4 @@
-Display Name = "雑貨屋"
+Display Name = "Универмаг"
 Parallax Name = ""
 Note = ""
 
@@ -7,8 +7,8 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["雑貨屋のお姉さん"])
-    ShowText(["「いらっしゃいませどうぞ～」"])
+    ShowText(["\\C[2]Продавщица универмага\\C[0]"])
+    ShowText(["«Добро пожаловать, милости прошу～»."])
     ShopProcessing([0, 57, 0, 0, true])
     ShopItem([0, 58, 0, 0])
     ShopItem([0, 59, 0, 0])
@@ -48,8 +48,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["淫乱ぴんく"])
-    ShowText(["「このぬいぐるみ、か・わ・いぃ♥」"])
+    ShowText(["\\C[27]Розовая непристойница\\C[0]"])
+    ShowText(["«МИ・ЛАШ・КА, а не игрушка♥»"])
     Empty([])
 
 CommonEvent 4
@@ -57,9 +57,9 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["イケメン"])
-    ShowText(["「・・・・。」"])
-    ShowText(["(イケメンは寡黙なのだ)"])
+    ShowText(["\\C[30]Красавчик\\C[0]"])
+    ShowText(["«...»"])
+    ShowText(["(Красавчик неразговорчив.)"])
     Empty([])
 
 CommonEvent 5
@@ -67,9 +67,8 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["普通の青年"])
-    ShowText(["「あのピンク髪の子"])
-    ShowText(["　大きな声でカワイイアピールしてるけど、きっと僕に対して"])
-    ShowText(["　やってるんだ」"])
+    ShowText(["\\C[23]Обычный парень\\C[0]"])
+    ShowText(["«Та девчонка с розовыми волосами кричит на весь магазин"])
+    ShowText([" \"МИ-ЛАШ-КА\", она точно про меня»."])
     ShotBalloonIcon([-1, 2, false])
     Empty([])

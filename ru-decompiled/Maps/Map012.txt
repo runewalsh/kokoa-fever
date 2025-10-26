@@ -170,7 +170,7 @@ Name = "EV012"
     ShowText(["　二つ隣の部屋だった！」"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
-    ShowText(["「・・・・」"])
+    ShowText(["«...»"])
     ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])

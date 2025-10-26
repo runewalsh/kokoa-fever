@@ -19,7 +19,7 @@ class Window_MapName < Window_Base
   # ● ウィンドウ幅の取得
   #--------------------------------------------------------------------------
   def window_width
-    return 240
+    return 600
   end
   #--------------------------------------------------------------------------
   # ● フレーム更新
@@ -67,8 +67,10 @@ class Window_MapName < Window_Base
   def refresh
     contents.clear
     unless $game_map.display_name.empty?
-      draw_background(contents.rect)
-      draw_text(contents.rect, $game_map.display_name, 1)
+      rect = contents.rect.clone
+      rect.width = [160, 2 * standard_padding + contents.text_size($game_map.display_name).width].max
+      draw_background(rect)
+      draw_text(rect, $game_map.display_name, 1)
     end
   end
   #--------------------------------------------------------------------------

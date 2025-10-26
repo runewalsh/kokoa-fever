@@ -182,7 +182,7 @@ class Window_Selectable < Window_Base
   def item_rect_for_text(index)
     rect = item_rect(index)
     rect.x += 4
-    rect.width -= 8
+    rect.width -= 8 - 10
     rect
   end
   #--------------------------------------------------------------------------

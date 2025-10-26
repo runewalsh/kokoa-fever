@@ -1,4 +1,4 @@
-Display Name = "銀行"
+Display Name = "Банк"
 Parallax Name = ""
 Note = ""
 
@@ -24,16 +24,16 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["銀行員"])
-    ShowText(["「いらっしゃいませ～♥」"])
+    ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+    ShowText(["«Добро пожаловать～♥»"])
     ShowText(["\\$"])
-    ShowChoices([["預ける", "引き出す"], 3])
-    When([0, "預ける"])
+    ShowChoices([["Внести деньги", "Снять деньги"], 3])
+    When([0, "Внести деньги"])
       ControlVariables([32, 32, 0, 3, 7, 2, 0])
       ControlVariables([33, 33, 0, 0, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["銀行員"])
-      ShowText(["「預ける金額を申請してくださいね♥」"])
+      ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+      ShowText(["«Укажите, пожалуйста, вносимую сумму♥»"])
       ShowText(["\\$"])
       InputNumber([33, 8])
       ConditionalBranch([1, 33, 0, 0, 0])
@@ -41,15 +41,15 @@ Name = "EV003"
       Else([])
         ConditionalBranch([1, 33, 1, 32, 3])
           ShowTextAttributes(["", 0, 0, 2])
-          ShowText(["銀行員"])
-          ShowText(["「所持金全てを預けるのですね。承りました」"])
+          ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+          ShowText(["«Внести все ваши деньги? Исполняю»."])
           ChangeGold([1, 1, 32])
           ControlVariables([31, 31, 1, 1, 32])
           Empty([])
         Else([])
           ShowTextAttributes(["", 0, 0, 2])
-          ShowText(["銀行員"])
-          ShowText(["「\\V[33]Yenお預かりいたします♥」"])
+          ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+          ShowText(["«Ваш счёт пополнен на \\V[33]\\G♥»"])
           ChangeGold([1, 1, 33])
           ControlVariables([31, 31, 1, 1, 33])
           Empty([])
@@ -58,15 +58,15 @@ Name = "EV003"
       BranchEnd([])
       Empty([])
 
-    When([1, "引き出す"])
+    When([1, "Снять деньги"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["銀行員"])
-      ShowText(["「現在お預かりしている金額は"])
-      ShowText(["　\\V[31]Yenです♥」"])
+      ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+      ShowText(["«Сейчас на вашем счету"])
+      ShowText([" \\V[31]\\G♥»."])
       ConditionalBranch([1, 31, 0, 0, 0])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["銀行員"])
-        ShowText(["「お預かりしている金額がないですね～♥」"])
+        ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+        ShowText(["«У вас нет денег на счету～♥»"])
         Empty([])
       Else([])
         InputNumber([34, 8])
@@ -75,16 +75,16 @@ Name = "EV003"
         Else([])
           ConditionalBranch([1, 34, 1, 31, 3])
             ShowTextAttributes(["", 0, 0, 2])
-            ShowText(["銀行員"])
-            ShowText(["「全額ですね。承りました」"])
+            ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+            ShowText(["«Все деньги. Исполняю»."])
             ChangeGold([0, 1, 31])
             ControlVariables([31, 31, 0, 0, 0])
             Empty([])
           Else([])
             ShowTextAttributes(["", 0, 0, 2])
-            ShowText(["銀行員"])
-            ShowText(["「はい。それではこちら"])
-            ShowText(["　\\V[34]Yenになります♥」"])
+            ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+            ShowText(["«Хорошо. Вот ваши"])
+            ShowText([" \\V[34]\\G♥»"])
             ChangeGold([0, 1, 34])
             ControlVariables([31, 31, 2, 1, 34])
             Empty([])
@@ -97,8 +97,8 @@ Name = "EV003"
 
     ChoicesEnd([])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["銀行員"])
-    ShowText(["「またのご利用をお待ちしております♥」"])
+    ShowText(["\\C[27]Сотрудница банка\\C[0]"])
+    ShowText(["«Будем рады видеть вас снова♥»"])
     Empty([])
 
 CommonEvent 4
@@ -119,11 +119,11 @@ Name = "EV006"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おっさん"])
-      ShowText(["「頼むわぁ～"])
-      ShowText(["　お金貸してくれやぁ～」"])
+      ShowText(["\\С[3]Мужик\\C[0]"])
+      ShowText(["«Пожалуйста～"])
+      ShowText([" Одолжите деньжат～»"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おっさんが融資の話をしているようだ・・"])
+      ShowText(["Похоже, мужчина ведёт переговоры о кредите..."])
       Empty([])
 
     BranchEnd([])
@@ -135,11 +135,11 @@ Name = "EV007"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おっさん"])
-      ShowText(["「頼むわぁ～"])
-      ShowText(["　お金貸してくれやぁ～」"])
+      ShowText(["\\С[3]Мужик\\C[0]"])
+      ShowText(["«Пожалуйста～"])
+      ShowText([" Одолжите деньжат～»"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["おっさんが融資の話をしているようだ・・"])
+      ShowText(["Похоже, мужчина ведёт переговоры о кредите..."])
       Empty([])
 
     BranchEnd([])
@@ -150,9 +150,9 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["冒険者の兄さん"])
-    ShowText(["「デスペナで所持金の１割持ってかれるからなー・・"])
-    ShowText(["　出来るだけ預けておくのがいいんだよなー・・・」"])
+    ShowText(["\\C[30]Братан-авантюрист\\C[0]"])
+    ShowText(["«За смерть отбирают 10% имеющейся наличности..."])
+    ShowText([" Поэтому лучше хранить деньги в банке...»"])
     Empty([])
 
 CommonEvent 9
@@ -160,6 +160,6 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ばあちゃん"])
-    ShowText(["「金が・・・金が欲しいねん・・・」"])
+    ShowText(["\\C[8]Бабка\\C[0]"])
+    ShowText(["«Денег... Денег хочу, вот...»"])
     Empty([])
