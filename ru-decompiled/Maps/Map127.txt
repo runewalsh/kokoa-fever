@@ -432,7 +432,7 @@ Name = "EV030"
     ControlSelfSwitch(["A", 0])
     ChangeItems([99, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["バイオレットハーブを手に入れた！"])
+    ShowText(["Нашла фиолетовую траву!"])
     Empty([])
 
   Page 1

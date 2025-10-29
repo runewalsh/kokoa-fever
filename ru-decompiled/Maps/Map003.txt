@@ -185,7 +185,7 @@ Name = "EV011"
     ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
-    ShowText(["「あぁ・・すまない。伝える事があるんだ」"])
+    ShowText(["«Э-э... Прости, хотел тебе кое-что сообщить»."])
     FadeoutScreen([])
     TransferPlayer([0, 4, 12, 17, 8, 0])
     ControlVariables([3, 3, 0, 0, 24])
@@ -302,7 +302,7 @@ Name = "EV018"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])
@@ -316,7 +316,7 @@ Name = "EV019"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])
@@ -330,7 +330,7 @@ Name = "EV020"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
     Empty([])
@@ -344,7 +344,7 @@ Name = "EV021"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
     Empty([])

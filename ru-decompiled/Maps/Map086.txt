@@ -1,4 +1,4 @@
-Display Name = "鉱山村カルボ"
+Display Name = "Шахтёрская деревня Карбо"
 Parallax Name = ""
 Note = ""
 
@@ -58,7 +58,7 @@ Name = "EV007"
     ScrollMap([2, 10, 4])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「着いたわね・・・・鉱山はどこかしら・・？」"])
+    ShowText(["«Я добралась... Где же шахта?..»"])
     ControlVariables([3, 3, 0, 0, 14])
     Empty([])
 
@@ -110,8 +110,8 @@ Name = "EV013"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おばさん"])
-    ShowText(["「ここは鉱山で成り立っている村さね・・」"])
+    ShowText(["\\C[8]Пожилая женщина\\C[0]"])
+    ShowText(["«Эта деревня построена вокруг шахты...»"])
     Empty([])
 
 CommonEvent 14
@@ -119,8 +119,8 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじいちゃん"])
-    ShowText(["「ワシも昔は鉱山夫としてブイブイ言わしとったんじゃがのぉ」"])
+    ShowText(["\\C[8]Старик\\C[0]"])
+    ShowText(["«Раньше и обо мне ходила молва как о шахтёре...»"])
     Empty([])
 
 CommonEvent 15
@@ -128,7 +128,7 @@ Name = "EV015"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["鉱山村カルボ"])
+    ShowText(["Шахтёрская деревня Карбо"])
     Empty([])
 
 CommonEvent 16
@@ -136,8 +136,8 @@ Name = "EV016"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["デブ"])
-    ShowText(["「ここはカルボなんだなっ・・(:.;ﾟ;Д;ﾟ;.:)ﾊｧﾊｧ」"])
+    ShowText(["\\C[20]Толстяк\\C[0]"])
+    ShowText(["«Это Карбо... (:.;ﾟ;Д;ﾟ;.:) хах, хах»."])
     Empty([])
 
 CommonEvent 17

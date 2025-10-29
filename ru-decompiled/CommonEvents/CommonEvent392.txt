@@ -11,7 +11,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Навык"])
-      ShowText(["【フレイム】を習得した！"])
+      ShowText(["Освоила 【Пламя】!"])
       ChangeSkills([0, 15, 0, 626])
       Empty([])
 
@@ -27,7 +27,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【スピードスター】を習得した！"])
+      ShowText(["Освоила 【Сверхскорость】!"])
       ChangeSkills([0, 15, 0, 647])
       Empty([])
 
@@ -43,7 +43,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Навык"])
-      ShowText(["【ファイアーボール改】を習得した！"])
+      ShowText(["Освоила 【Улучш. огненный шар】!"])
       ChangeSkills([0, 15, 0, 631])
       Empty([])
 
@@ -59,7 +59,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【技量＋】を習得した！"])
+      ShowText(["Освоила 【Технику+】!"])
       ChangeSkills([0, 15, 0, 649])
       Empty([])
 
@@ -75,7 +75,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Навык"])
-      ShowText(["【月光】を習得した！"])
+      ShowText(["Освоила 【Лунный свет】!"])
       ChangeSkills([0, 15, 0, 633])
       Empty([])
 
@@ -91,7 +91,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Навык"])
-      ShowText(["【瞬間回復】を習得した！"])
+      ShowText(["Освоила 【Мгновенное лечение】!"])
       ChangeSkills([0, 15, 0, 609])
       Empty([])
 
@@ -123,7 +123,7 @@ Name = "　ここな"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【覚醒Ⅱ】を習得した！"])
+      ShowText(["Освоила 【Пробуждение Ⅱ】!"])
       ChangeSkills([0, 15, 0, 648])
       Empty([])
 

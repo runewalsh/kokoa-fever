@@ -330,19 +330,19 @@ Note = "[レベル非表示]\r\n20\r\n<追加ドロップ I,208,30>"
 
 Enemy 56
 Battler Name = "ブータ"
-Name = "ブータ"
+Name = "Свинья"
 Description = ""
 Note = "[レベル非表示]\r\n5"
 
 Enemy 57
 Battler Name = "ブータ"
-Name = "ブータ"
+Name = "Свинья"
 Description = ""
 Note = "[レベル非表示]\r\n12\r\n<追加ドロップ I,207,30>"
 
 Enemy 58
 Battler Name = "ブータ"
-Name = "ブータ"
+Name = "Свинья"
 Description = ""
 Note = "[レベル非表示]\r\n18\r\n<追加ドロップ I,207,60>"
 
@@ -414,7 +414,7 @@ Note = "[レベル非表示]"
 
 Enemy 70
 Battler Name = "ストーンゴーレム"
-Name = "石の集まり"
+Name = "Груда камней"
 Description = ""
 Note = "[レベル非表示]\r\n25"
 
@@ -432,7 +432,7 @@ Note = "[レベル非表示]"
 
 Enemy 73
 Battler Name = "ハンド"
-Name = "ハンド"
+Name = "Рука"
 Description = ""
 Note = "[レベル非表示]\r\n20"
 
@@ -450,7 +450,7 @@ Note = "[レベル非表示]"
 
 Enemy 76
 Battler Name = "イシノツブテ"
-Name = "イシノツブテ"
+Name = "Камушек"
 Description = ""
 Note = "\r\n24"
 
@@ -468,13 +468,13 @@ Note = ""
 
 Enemy 79
 Battler Name = "イービルストーン"
-Name = "イービルストーン"
+Name = "Злобный камень"
 Description = ""
 Note = "[レベル非表示]\r\n30\r\n<ステータスポイント 10>"
 
 Enemy 80
 Battler Name = "イービルストーン２"
-Name = "イービルストーン"
+Name = "Злобный камень"
 Description = ""
 Note = "[レベル非表示]\r\n30\r\n<ステータスポイント 20>"
 
@@ -912,19 +912,19 @@ Note = "[レベル非表示]"
 
 Enemy 153
 Battler Name = "ブータ"
-Name = "ヘタレブータ"
+Name = "Свинья для лохов"
 Description = ""
 Note = "[レベル非表示]\r\n5"
 
 Enemy 154
 Battler Name = "ワタミン"
-Name = "ヘタレワタミン"
+Name = "Ватамин для лохов"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 155
 Battler Name = "ゼリイヌ"
-Name = "Дохлый желе-пёс"
+Name = "Желе-пёс для лохов"
 Description = ""
 Note = "[レベル非表示]\r\n1"
 
@@ -1032,7 +1032,7 @@ Note = "[レベル非表示]"
 
 Enemy 173
 Battler Name = "にょろん"
-Name = "にょろん"
+Name = "Нёрон"
 Description = ""
 Note = "[レベル非表示]\r\n<追加ドロップ W,260,2%>\r\n<追加ドロップ W,261,1%>\r\n<追加ドロップ W,262,1%>\r\n<追加ドロップ W,263,1%>\r\n<追加ドロップ W,264,1%>"
 
@@ -1062,7 +1062,7 @@ Note = "[レベル非表示]\r\n20"
 
 Enemy 178
 Battler Name = "にょろん"
-Name = "ヘタレにょろん"
+Name = "Нёрон для лохов"
 Description = ""
 Note = "[レベル非表示]"
 

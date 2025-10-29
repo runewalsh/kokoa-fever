@@ -1,4 +1,4 @@
-Display Name = "レクタン"
+Display Name = "Прямоград"
 Parallax Name = ""
 Note = ""
 
@@ -169,7 +169,7 @@ Name = "EV019"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([217, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["星のピアスを手に入れた！"])
+    ShowText(["Нашла серьгу-звезду!"])
     Empty([])
 
   Page 1
@@ -220,8 +220,8 @@ Name = "EV025"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女冒険者"])
-    ShowText(["「この街は本当に治安が良くて良いところだわ」"])
+    ShowText(["\\C[20]Женщина-авантюрист\\C[0]"])
+    ShowText(["«Это ну очень спокойный и приятный город»."])
     Empty([])
 
 CommonEvent 26
@@ -229,8 +229,8 @@ Name = "EV026"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ガキ"])
-    ShowText(["「かめかめはうつぞー」"])
+    ShowText(["\\C[2]Сорванец\\C[0]"])
+    ShowText(["«Камекамеха, удар!»"])
     Empty([])
 
 CommonEvent 27
@@ -238,8 +238,8 @@ Name = "EV027"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ガキその２"])
-    ShowText(["「ちげーよーはめはめはだよー」"])
+    ShowText(["\\C[12]Сорванец-2\\C[0]"])
+    ShowText(["«Ты неправильно сказал, надо \"хамехамеха\"!»"])
     Empty([])
 
 CommonEvent 28

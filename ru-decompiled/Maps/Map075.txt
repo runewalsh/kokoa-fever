@@ -104,7 +104,7 @@ Name = "EV009"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["↑"])
-    ShowText(["レクタン"])
+    ShowText(["Прямоград"])
     Empty([])
 
 CommonEvent 10
@@ -113,7 +113,7 @@ Name = "EV010"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -127,7 +127,7 @@ Name = "EV011"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -141,7 +141,7 @@ Name = "EV012"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -155,7 +155,7 @@ Name = "EV013"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -461,7 +461,7 @@ Name = "EV035"
     ControlSelfSwitch(["A", 0])
     ChangeItems([100, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["蘇生薬を手に入れた！"])
+    ShowText(["Нашла отвар воскрешения!"])
     Empty([])
 
   Page 1

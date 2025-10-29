@@ -1,4 +1,4 @@
-Display Name = "鉱山入口"
+Display Name = "Вход в шахту"
 Parallax Name = ""
 Note = ""
 
@@ -39,7 +39,7 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["カルボ鉱山"])
+    ShowText(["Шахта Карбо"])
     Empty([])
 
 CommonEvent 6
@@ -49,7 +49,7 @@ Name = "EV006"
     Wait([60])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「さて、鍛冶屋に報告して帰ろうかしら」"])
+    ShowText(["«Так, отчитаюсь кузнецу и возвращаюсь домой»."])
     ControlVariables([3, 3, 0, 0, 21])
     Empty([])
 

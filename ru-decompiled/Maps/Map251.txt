@@ -8,7 +8,7 @@ Name = "EV001"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「ふっふ～ん♪」"])
+    ShowText(["«Ху-ху～м♪»"])
     ControlSwitches([43, 43, 1])
     ControlSwitches([46, 46, 0])
     ControlSwitches([47, 47, 1])

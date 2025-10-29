@@ -45,7 +45,7 @@ module KURE
     
   #1-2ページ目描画対応、特殊能力値の表示方法------------------------------------
     #Vocab_Ex2 = [狙われ率,防御効果率,回復効果率,薬の知識,MP消費率,TPチャージ率,物理ダメージ率,魔法ダメージ率,床ダメージ率,経験獲得率]
-    Vocab_Ex2 = ["Точность","Эфф. защиты","Эфф. лечения","Эфф. зелий","Затраты MP","Зарядка TP","Физ. урон","Маг. урон","Урон ловушек","Опыт"]
+    Vocab_Ex2 = ["Точность","Эфф. защиты","Эфф. лечения","Эфф. зелий","Затраты MP","Зарядка TP","Получ. физ. урон","Получ. маг. урон","Урон ловушек","Опыт"]
     #表示、非表示切り替え(0=表示、1=非表示)
     VIEW_Ex2 = [0,0,0,0,0,0,0,0,0,0,0]
 
@@ -1366,10 +1366,10 @@ class Window_k_ExStatus_Draw < Window_Base
           draw_str = Vocab::param(drow)
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = " +" + value.to_s
+              value = "+" + value.to_s
             end
           if value != 0
-            draw_list[draw_counter] = draw_str + value.to_s + "% "
+            draw_list[draw_counter] = draw_str + " " + value.to_s + "% "
             draw_counter += 1
           end
         end
@@ -1411,10 +1411,10 @@ class Window_k_ExStatus_Draw < Window_Base
           end
           value = (keep[drow] * 100).to_i
             if value > 0
-              value = " +" + value.to_s
+              value = "+" + value.to_s
             end
           if value != 0
-            draw_list[draw_counter] = draw_str + value.to_s + "% "
+            draw_list[draw_counter] = draw_str + " " + value.to_s + "% "
             draw_counter += 1
           end
         end
@@ -1456,10 +1456,10 @@ class Window_k_ExStatus_Draw < Window_Base
           end
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = " +" + value.to_s
+              value = "+" + value.to_s
             end
           if value != 0
-            draw_list[draw_counter] = draw_str + value.to_s + "% "
+            draw_list[draw_counter] = draw_str + " " + value.to_s + "% "
             draw_counter += 1
           end
         end

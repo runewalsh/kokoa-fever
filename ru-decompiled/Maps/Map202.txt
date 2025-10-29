@@ -1,4 +1,4 @@
-Display Name = "武具屋"
+Display Name = "Магазин боевого снаряжения"
 Parallax Name = ""
 Note = ""
 

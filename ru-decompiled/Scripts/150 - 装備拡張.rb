@@ -1542,7 +1542,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     
     case @can_equip
     when 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31
-      draw_text(x + 5, y + contents.font.size * count, contents.width, contents.font.size, "要求Lv未達成")
+      draw_text(x + 5, y + contents.font.size * count, contents.width, contents.font.size, "Не достигнут требуемый уровень.")
       count += 1
     end
     
@@ -1722,10 +1722,10 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           draw_str = Vocab::param(drow)
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = " +" + value.to_s
+              value = "+" + value.to_s
             end
           if value != 0
-            draw_list[@draw_counter] = draw_str + value.to_s + "% "
+            draw_list[@draw_counter] = draw_str + " " + value.to_s + "% "
             @draw_counter += 1
           end
         end
@@ -1751,7 +1751,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           when 2
             draw_str = "Крит. шанс"
           when 3
-            draw_str = "Крит уворот"
+            draw_str = "Крит. уворот"
           when 4
             draw_str = "Маг. уворот"
           when 5
@@ -1767,10 +1767,10 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           end
           value = (keep[drow] * 100).to_i
             if value > 0
-              value = " +" + value.to_s
+              value = "+" + value.to_s
             end
           if value != 0
-            draw_list[@draw_counter] = draw_str + value.to_s + "% "
+            draw_list[@draw_counter] = draw_str + " " + value.to_s + "% "
             @draw_counter += 1
           end
         end
@@ -1812,10 +1812,10 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           end
           value = (keep[drow] * 100).to_i - 100
             if value > 0
-              value = " +" + value.to_s
+              value = "+" + value.to_s
             end
           if value != 0
-            draw_list[@draw_counter] = draw_str + value.to_s + "% "
+            draw_list[@draw_counter] = draw_str + " " + value.to_s + "% "
             @draw_counter += 1
           end
         end

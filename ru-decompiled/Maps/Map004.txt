@@ -1,4 +1,4 @@
-Display Name = "？？？"
+Display Name = "???"
 Parallax Name = ""
 Note = ""
 
@@ -72,7 +72,7 @@ Name = "EV005"
     Wait([60])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
-    ShowText(["「よし、入るぞ」"])
+    ShowText(["«Так, пошли»."])
     FadeoutScreen([])
     TransferPlayer([0, 108, 9, 23, 2, 0])
     ControlVariables([3, 3, 0, 0, 25])

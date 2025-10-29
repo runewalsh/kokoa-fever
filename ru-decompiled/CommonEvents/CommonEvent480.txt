@@ -4,5 +4,5 @@ Name = "　処理２"
   ShowPicture([1, "魔物H：イービルストーンここな４", 0, 0, 0, 0, 100, 100, 255, 0])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ここなはイービルストーンに中出しされました"])
+  ShowText(["Злобный камень кончил внутрь Коконы."])
   Empty([])

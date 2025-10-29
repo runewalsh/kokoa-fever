@@ -66,7 +66,7 @@ Name = "EV004"
     ControlSelfSwitch(["A", 0])
     ChangeWeapons([230, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ハンドアックスを手に入れた！"])
+    ShowText(["Нашла ручной топор!"])
     ChangeActorClass([17, 192])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])

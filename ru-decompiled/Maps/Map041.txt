@@ -786,7 +786,7 @@ Name = "EV076"
     ControlSelfSwitch(["A", 0])
     ChangeItems([58, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["回復薬/少量を手に入れた！"])
+    ShowText(["Нашла зелье лечения/миниатюрное!"])
     Empty([])
 
   Page 1

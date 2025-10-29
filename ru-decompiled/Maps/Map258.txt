@@ -77,7 +77,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeItems([701, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["経験値スクロールを手に入れた！"])
+    ShowText(["«Нашла свиток опыта!»"])
     Empty([])
 
   Page 1

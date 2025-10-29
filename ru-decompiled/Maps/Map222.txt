@@ -94,7 +94,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeItems([19, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["経験玉Ⅲを手に入れた！"])
+    ShowText(["Нашла шарик опыта Ⅲ!"])
     Empty([])
 
   Page 1

@@ -112,7 +112,7 @@ module Vocab
   ObtainJobExp    = "%s の職業経験値を獲得！"
   ObtainEquipExp  = "%s の装備経験値を獲得！"
   ObtainAP        = "%s のアビリティポイントを獲得！"
-  ObtainStatus    = "%s のステータスポイントを獲得！"
+  ObtainStatus    = "Получила %s очков характеристик!"
   ObtainSkillP    = "%s のスキルポイントを獲得！"
   
   ObtainSkill_AP  = "%sは%sを覚えた！"

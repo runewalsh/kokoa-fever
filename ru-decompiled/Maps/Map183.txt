@@ -1,4 +1,4 @@
-Display Name = "武具屋"
+Display Name = "Магазин боевого снаряжения"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["看板娘"])
-    ShowText(["「しっかり見て行ってくださいね！」"])
+    ShowText(["\\C[2]Девочка-промоутер\\C[0]"])
+    ShowText(["«Хорошенько присмотритесь к нашим товарам!»"])
     ShopProcessing([1, 122, 0, 0, true])
     ShopItem([1, 123, 0, 0])
     ShopItem([1, 124, 0, 0])
@@ -42,8 +42,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["亭主"])
-    ShowText(["「いやーウチの娘が店を手伝ってくれて大助かりなんだよー」"])
+    ShowText(["\\C[3]Хозяин магазина\\C[0]"])
+    ShowText(["«Ох, моя дочь очень меня выручает, помогая по магазину»."])
     Empty([])
 
 CommonEvent 4
@@ -60,7 +60,7 @@ Name = "EV004"
     ControlSelfSwitch(["A", 0])
     ChangeItems([996, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["超人の日記を手に入れた！"])
+    ShowText(["Нашла дневник сверхчеловека!"])
     Empty([])
 
   Page 1

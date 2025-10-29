@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おばあさん"])
-    ShowText(["「おじいさんはどこに行ったんでしょうか・・・」"])
+    ShowText(["\\C[8]Старушка\\C[0]"])
+    ShowText(["«Куда же запропастился старик...»"])
     Empty([])
 
 CommonEvent 3
@@ -32,6 +32,6 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["冒険者"])
-    ShowText(["「鉱山の方から嫌な気配がしますね・・」"])
+    ShowText(["\\C[23]Авантюрист\\C[0]"])
+    ShowText(["«Из шахты веет чем-то зловещим...»"])
     Empty([])

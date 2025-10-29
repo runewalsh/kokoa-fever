@@ -1,4 +1,4 @@
-Display Name = "Магазин украшений"
+Display Name = "Магазин аксессуаров"
 Parallax Name = ""
 Note = ""
 
@@ -16,7 +16,7 @@ Name = "EV002"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[27]Девушка на подработке\\C[0]"])
-    ShowText(["«Добро пожаловать～»."])
+    ShowText(["«Добро пожаловать～»"])
     ShopProcessing([2, 192, 0, 0, true])
     ShopItem([2, 193, 0, 0])
     ShopItem([2, 194, 0, 0])

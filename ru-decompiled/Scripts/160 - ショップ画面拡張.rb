@@ -105,7 +105,7 @@ module ShopStatus
   VOCAB_PARAMS[:mat] = "Маг. атк."
   VOCAB_PARAMS[:mdf] = "Маг. защ."
   VOCAB_PARAMS[:agi] = "Ловкость"
-  VOCAB_PARAMS[:luk] = "Удача"
+  VOCAB_PARAMS[:luk] = "Техника"
   
 end # module ShopStatus
 end # module CAO

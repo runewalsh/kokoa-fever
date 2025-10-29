@@ -99,7 +99,7 @@ Name = "EV009"
         RecoverAll([0, 0])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["\\C[18]Кокона\\C[0]"])
-        ShowText(["「ふっふ～ん♪」"])
+        ShowText(["«Ху-ху～м♪»"])
         ChangeArmor([801, 0, 0, 1, false])
         ChangeEquipment([15, 3, 801])
         Empty([])
@@ -333,7 +333,7 @@ Name = "EV025"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Бездельник\\C[0]"])
-    ShowText(["«Эх, где бы найти халявную работёнку, чтобы бабки капали～»."])
+    ShowText(["«Эх, где бы найти халявную работёнку, чтобы бабки капали～»"])
     Empty([])
 
 CommonEvent 26
@@ -523,7 +523,7 @@ Name = "EV047"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])
@@ -537,7 +537,7 @@ Name = "EV048"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])
@@ -551,7 +551,7 @@ Name = "EV049"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「おっと・・こっちじゃなかったわ」"])
+    ShowText(["«Ой... Мне не сюда»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])

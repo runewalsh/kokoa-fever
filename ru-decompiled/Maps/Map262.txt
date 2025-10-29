@@ -290,7 +290,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeItems([705, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["経験値スクロールⅤを手に入れた！"])
+    ShowText(["«Нашла свиток опыта Ⅴ!»"])
     Empty([])
 
   Page 1

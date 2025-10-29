@@ -14,7 +14,7 @@ Name = "EV002"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["眠っているようだ"])
+      ShowText(["Похоже, она спит."])
       Empty([])
 
     BranchEnd([])
@@ -26,7 +26,7 @@ Name = "EV003"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["眠っているようだ"])
+      ShowText(["Похоже, она спит."])
       Empty([])
 
     BranchEnd([])
@@ -38,7 +38,7 @@ Name = "EV004"
   Page 0
     ConditionalBranch([6, -1, 2])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["眠っているようだ"])
+      ShowText(["Похоже, она спит."])
       Empty([])
 
     BranchEnd([])
@@ -49,8 +49,8 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじさん"])
-    ShowText(["「妻はいつも寝ているんだ。本当に昔からでね」"])
+    ShowText(["\\C[2]Мужчина\\C[0]"])
+    ShowText(["«Моя жена постоянно спит. Уже очень давно»."])
     Empty([])
 
 CommonEvent 6

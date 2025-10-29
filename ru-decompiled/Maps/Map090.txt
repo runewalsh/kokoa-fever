@@ -1,4 +1,4 @@
-Display Name = "カルボ鉱山２"
+Display Name = "Шахта Карбо 2"
 Parallax Name = ""
 Note = ""
 
@@ -59,7 +59,7 @@ Name = "EV005"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([503, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["気合ハチマキを手に入れた！"])
+    ShowText(["Нашла повязку боевого духа!"])
     Empty([])
 
   Page 1
@@ -99,7 +99,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeItems([58, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["回復薬/少量を手に入れた！"])
+    ShowText(["Нашла зелье лечения/миниатюрное!"])
     Empty([])
 
   Page 1
@@ -211,7 +211,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -225,7 +225,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -239,7 +239,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -253,7 +253,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -267,7 +267,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -281,7 +281,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -295,7 +295,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])
@@ -309,7 +309,7 @@ Name = "薬草"
   Page 0
     PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【上薬草】を手に入れた"])
+    ShowText(["Сорвала сильную целебную траву."])
     ChangeItems([53, 0, 0, 1])
     ControlSelfSwitch(["A", 0])
     Empty([])

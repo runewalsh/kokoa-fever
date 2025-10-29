@@ -1,11 +1,11 @@
 Basic
 Level = "Уровень"
 Level (Short) = "Ур."
-HP = "ＨＰ"
+HP = "HP"
 HP (Short) = "HP"
-MP = "ＭＰ"
+MP = "MP"
 MP (Short) = "MP"
-TP = "ＴＰ"
+TP = "TP"
 TP (Short) = "TP"
 
 Params
@@ -16,7 +16,7 @@ Defense = "Защита"
 Magic Power = "Маг. атк."
 Magic Defense = "Маг. защ."
 Agility = "Ловкость"
-Luck = "Удача"
+Luck = "Техника"
 
 ETypes
 Weapon = "Оружие"

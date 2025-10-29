@@ -1217,9 +1217,9 @@ class Window_k_Custom_Equip_Background < Window_Base
               draw_str = Vocab::param(data_id)
               value = (value * 100).to_i - 100
               if value > 0
-                value = " +" + value.to_s
+                value = "+" + value.to_s
               end
-              value = value.to_s + "%"
+              value = " " + value.to_s + "%"
             when 22
               draw_str = data_id
               case draw_str
@@ -1230,7 +1230,7 @@ class Window_k_Custom_Equip_Background < Window_Base
               when 2
                 draw_str = "Крит. шанс"
               when 3
-                draw_str = "Крит уворот"
+                draw_str = "Крит. уворот"
               when 4
                 draw_str = "Маг. уворот"
               when 5
@@ -1246,9 +1246,9 @@ class Window_k_Custom_Equip_Background < Window_Base
               end
               value = (value * 100).to_i
               if value > 0
-                value = " +" + value.to_s
+                value = "+" + value.to_s
               end
-              value = value.to_s + "%"
+              value = " " + value.to_s + "%"
             when 23  
               draw_str = data_id
               case draw_str
@@ -1275,9 +1275,9 @@ class Window_k_Custom_Equip_Background < Window_Base
               end
               value = (value * 100).to_i - 100
               if value > 0
-                value = " +" + value.to_s
+                value = "+" + value.to_s
               end
-              value = value.to_s + "%"
+              value = " " + value.to_s + "%"
             when 31
               draw_str  = $data_system.elements[data_id] + "属性付与"
               value = ""
@@ -1508,9 +1508,9 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           draw_str = Vocab::param(data_id)
           value = (value * 100).to_i - 100
           if value > 0
-            value = " +" + value.to_s
+            value = "+" + value.to_s
           end
-          value = value.to_s + "%"
+          value = " " + value.to_s + "%"
         when 22
           draw_str = data_id
           case draw_str
@@ -1521,7 +1521,7 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           when 2
             draw_str = "Крит. шанс"
           when 3
-            draw_str = "Крит уворот"
+            draw_str = "Крит. уворот"
           when 4
             draw_str = "Маг. уворот"
           when 5
@@ -1537,9 +1537,9 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           end
           value = (value * 100).to_i
           if value > 0
-            value = " +" + value.to_s
+            value = "+" + value.to_s
           end
-          value = value.to_s + "%"
+          value = " " + value.to_s + "%"
         when 23  
           draw_str = data_id
           case draw_str
@@ -1566,9 +1566,9 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           end
           value = (value * 100).to_i - 100
           if value > 0
-            value = " +" + value.to_s
+            value = "+" + value.to_s
           end
-          value = value.to_s + "%"
+          value = " " + value.to_s + "%"
         when 31
           draw_str  = $data_system.elements[data_id] + "属性付与"
           value = ""

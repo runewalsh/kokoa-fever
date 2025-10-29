@@ -379,7 +379,7 @@ Name = "EV017"
     ControlSelfSwitch(["A", 0])
     ChangeItems([16, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Нашла бонус удачи!"])
+    ShowText(["Нашла бонус техники!"])
     Empty([])
 
   Page 1

@@ -67,16 +67,16 @@ module Vocab
   EnemyNoHit      = "Промах! %s не получает урона!"
 
   # 回避／反射
-  Evasion         = "%sは攻撃をかわした！"
+  Evasion         = "%s уворачивается от атаки!"
   MagicEvasion    = "%sは魔法を打ち消した！"
   MagicReflection = "%sは魔法を跳ね返した！"
   CounterAttack   = "%sの反撃！"
   Substitute      = "%sが%sをかばった！"
 
   # 能力強化／弱体
-  BuffAdd         = "%sの%sが上がった！"
-  DebuffAdd       = "%sの%sが下がった！"
-  BuffRemove      = "%sの%sが元に戻った！"
+  BuffAdd         = "%s: %s растёт!"
+  DebuffAdd       = "%s: %s снижается!"
+  BuffRemove      = "%s: %s возвращается к норме!"
 
   # スキル、アイテムの効果がなかった
   ActionFailure   = "%sには効かなかった！"

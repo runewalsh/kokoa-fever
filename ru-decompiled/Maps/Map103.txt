@@ -1,4 +1,4 @@
-Display Name = "武具屋"
+Display Name = "Магазин боевого снаряжения"
 Parallax Name = ""
 Note = ""
 
@@ -7,8 +7,8 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["武具屋の店主？"])
-    ShowText(["「いらっしゃいませ！」"])
+    ShowText(["\\C[21]Владелец магазина снаряжения?\\C[0]"])
+    ShowText(["«Добро пожаловать!»"])
     ShopProcessing([1, 230, 0, 0, true])
     ShopItem([1, 231, 0, 0])
     ShopItem([1, 232, 0, 0])
@@ -34,6 +34,6 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["とある冒険者"])
-    ShowText(["「ここの武具屋はマニアックな品揃えだな・・・」"])
+    ShowText(["\\C[1]Какой-то авантюрист\\C[0]"])
+    ShowText(["«В этом магазине очень нишевый ассортимент снаряжения...»"])
     Empty([])

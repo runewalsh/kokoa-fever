@@ -1,4 +1,4 @@
-Display Name = "靴屋"
+Display Name = "Обувная лавка"
 Parallax Name = ""
 Note = ""
 
@@ -7,8 +7,8 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["バイト中の冒険者"])
-    ShowText(["「いらっしゃいませ」"])
+    ShowText(["\\C[23]Авантюрист на подработке\\C[0]"])
+    ShowText(["«Добро пожаловать»."])
     ShopProcessing([2, 706, 0, 0, true])
     ShopItem([2, 707, 0, 0])
     ShopItem([2, 709, 0, 0])
@@ -22,8 +22,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女の子"])
-    ShowText(["「お姉ちゃんと新しい靴買いに来たのー」"])
+    ShowText(["\\C[2]Девочка\\C[0]"])
+    ShowText(["«Я пришла со старшей сестрой купить новые туфли»."])
     Empty([])
 
 CommonEvent 3
@@ -31,9 +31,9 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["娘"])
-    ShowText(["「妹と新しい靴を見に来ました。"])
-    ShowText(["　子供は足が大きくなるのが早いですね」"])
+    ShowText(["\\C[29]Девушка\\C[0]"])
+    ShowText(["«Привела младшую сестру посмотреть новые туфли."])
+    ShowText([" Ноги-то у детей растут быстро»."])
     Empty([])
 
 CommonEvent 4

@@ -1,4 +1,4 @@
-Display Name = "カルボ鉱山４"
+Display Name = "Шахта Карбо 4"
 Parallax Name = ""
 Note = ""
 
@@ -383,7 +383,7 @@ Name = "EV034"
     ControlSelfSwitch(["A", 0])
     ChangeItems([16, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Нашла бонус удачи!"])
+    ShowText(["Нашла бонус техники!"])
     Empty([])
 
   Page 1
@@ -542,7 +542,7 @@ Name = "EV038"
     ControlSelfSwitch(["A", 0])
     ChangeItems([70, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔法薬/並を手に入れた！"])
+    ShowText(["Нашла зелье маны/обычное!"])
     Empty([])
 
   Page 1
@@ -562,7 +562,7 @@ Name = "EV039"
     ControlSelfSwitch(["A", 0])
     ChangeItems([76, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["エリクサー/微量を手に入れた！"])
+    ShowText(["Нашла эликсир/крошечный!"])
     Empty([])
 
   Page 1
@@ -582,7 +582,7 @@ Name = "EV040"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([513, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["つるはしを手に入れた！"])
+    ShowText(["Нашла кирку!"])
     Empty([])
 
   Page 1
@@ -595,7 +595,7 @@ Name = "EV041"
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[18]Кокона\\C[0]"])
-      ShowText(["「ここの土砂が邪魔なようね」"])
+      ShowText(["«Этот завал преграждает путь»."])
       TransferPlayer([0, 92, 21, 12, 4, 0])
       Wait([60])
       ScrollMap([4, 5, 4])
@@ -622,7 +622,7 @@ Name = "EV042"
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[18]Кокона\\C[0]"])
-      ShowText(["「ここの土砂が邪魔なようね」"])
+      ShowText(["«Этот завал преграждает путь»."])
       TransferPlayer([0, 92, 21, 12, 4, 0])
       Wait([60])
       ScrollMap([4, 5, 4])
@@ -649,7 +649,7 @@ Name = "EV043"
     ConditionalBranch([6, -1, 4])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[18]Кокона\\C[0]"])
-      ShowText(["「ここの土砂が邪魔なようね」"])
+      ShowText(["«Этот завал преграждает путь»."])
       TransferPlayer([0, 92, 21, 12, 4, 0])
       Wait([60])
       ScrollMap([4, 5, 4])

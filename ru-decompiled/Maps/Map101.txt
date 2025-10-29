@@ -1,4 +1,4 @@
-Display Name = "装飾品店"
+Display Name = "Магазин украшений"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["装飾品店のお姉さん"])
-    ShowText(["「いらっしゃいませ～」"])
+    ShowText(["\\C[23]Продавщица украшений\\C[0]"])
+    ShowText(["«Добро пожаловать～»"])
     ShopProcessing([2, 199, 0, 0, true])
     ShopItem([2, 200, 0, 0])
     ShopItem([2, 201, 0, 0])
@@ -30,6 +30,6 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["女冒険者"])
-    ShowText(["「あ～・・可愛すぎて困るわぁ～」"])
+    ShowText(["\\C[27]Женщина-авантюрист\\C[0]"])
+    ShowText(["«Ах～... Какая же милота, не могу～»"])
     Empty([])

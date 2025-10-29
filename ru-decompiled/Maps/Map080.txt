@@ -119,7 +119,7 @@ Name = "EV006"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["\\С[3]Мужик\\C[0]"])
+      ShowText(["\\C[3]Мужик\\C[0]"])
       ShowText(["«Пожалуйста～"])
       ShowText([" Одолжите деньжат～»"])
       ShowTextAttributes(["", 0, 0, 2])
@@ -135,7 +135,7 @@ Name = "EV007"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["\\С[3]Мужик\\C[0]"])
+      ShowText(["\\C[3]Мужик\\C[0]"])
       ShowText(["«Пожалуйста～"])
       ShowText([" Одолжите деньжат～»"])
       ShowTextAttributes(["", 0, 0, 2])
