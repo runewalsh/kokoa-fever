@@ -624,8 +624,8 @@ Name = "チンピラ"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["チンピラ"])
-  ShowText(["「俺、最強ぅ～っ！！！ｗ」"])
+  ShowText(["\\C[3]Гопник\\C[0]"])
+  ShowText(["«Я сильнее всех～!!!хд»"])
   ChangeEnemyState([-1, 0, 10])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
@@ -633,8 +633,8 @@ Page 0
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["チンピラ"])
-  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ShowText(["\\C[3]Гопник\\C[0]"])
+  ShowText(["«Пгхра-»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -643,8 +643,8 @@ Name = "僧侶っぽい何か"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["僧侶っぽい何か"])
-  ShowText(["「負けません・・・背負うものが違いますから」"])
+  ShowText(["\\C[4]Нечто похожее на священника\\C[0]"])
+  ShowText(["«Я не проиграю... У нас разные ценности за душой»."])
   ChangeEnemyState([-1, 0, 10])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
@@ -652,8 +652,8 @@ Page 0
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["僧侶"])
-  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ShowText(["\\C[4]Священник\\C[0]"])
+  ShowText(["«Пгхра-»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -662,8 +662,8 @@ Name = "ネンドマン"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ネンドマン"])
-  ShowText(["「オッスおねがいしまーす」"])
+  ShowText(["\\C[20]Глиномес\\C[0]"])
+  ShowText(["«Приветик, а вот и я!»"])
   ChangeEnemyState([-1, 0, 10])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
@@ -671,8 +671,8 @@ Page 0
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ネンドマン"])
-  ShowText(["「負けって、はっきりわかんだよね」"])
+  ShowText(["\\C[20]Глиномес\\C[0]"])
+  ShowText(["«Я проиграл... это совершенно очевидно»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -797,7 +797,7 @@ Page 0
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["SAMURAI"])
-  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ShowText(["«Пгхра-»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -1380,7 +1380,7 @@ Page 0
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["二刀重戦士"])
-  ShowText(["「ﾌﾟｹﾞﾗｯ」"])
+  ShowText(["«Пгхра-»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 

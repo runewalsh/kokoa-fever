@@ -65,3 +65,5 @@ wipe_files = \
 for file_rel in wipe_files:
 	with suppress(OSError):
 		os.remove(path.join(game_inout, file_rel))
+
+link_or_copy(path.join(repo, "scaled\\bin\\Game (scaled).exe"), path.join(game_inout, "Game (scaled).exe"))

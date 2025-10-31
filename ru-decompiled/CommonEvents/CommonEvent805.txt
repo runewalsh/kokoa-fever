@@ -42,7 +42,7 @@ Name = "　２"
   ShowText(["「こんなの・・・望んでなかった」"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["ベルデ"])
-  ShowText(["「・・・・・・。」"])
+  ShowText(["«... ...»"])
   SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
   Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
   ShowTextAttributes(["", 0, 0, 2])

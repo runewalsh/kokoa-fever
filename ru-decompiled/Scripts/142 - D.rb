@@ -1451,7 +1451,14 @@ module BattleManager
     
     #ステータスポイント
     if $game_troop.status_exp_total > 0
-      text5 = sprintf(Vocab::ObtainStatus, $game_troop.status_exp_total)
+      if $game_troop.status_exp_total % 10 == 0 or $game_troop.status_exp_total % 10 > 4 or $game_troop.status_exp_total / 10 % 10 == 1
+        fmt = Vocab::ObtainStatus
+      elsif $game_troop.status_exp_total % 10 == 1
+        fmt = Vocab::ObtainStatus1
+      else
+        fmt = Vocab::ObtainStatus234
+      end
+      text5 = sprintf(fmt, $game_troop.status_exp_total)
       $game_message.add('\.' + text5)
     end    
     

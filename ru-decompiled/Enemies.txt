@@ -486,7 +486,7 @@ Note = "[レベル非表示]"
 
 Enemy 82
 Battler Name = "ゲル"
-Name = "ゲル"
+Name = "Гель"
 Description = ""
 Note = "[レベル非表示]\r\n8"
 
@@ -504,7 +504,7 @@ Note = "[レベル非表示]"
 
 Enemy 85
 Battler Name = "スライム娘A"
-Name = "スライム娘"
+Name = "Слизнедевочка"
 Description = ""
 Note = "[レベル非表示]\r\n5"
 
@@ -522,7 +522,7 @@ Note = "[レベル非表示]"
 
 Enemy 88
 Battler Name = "リーフスライム娘"
-Name = "リーフスライム娘"
+Name = "Лиственная слизнедевочка"
 Description = ""
 Note = "[レベル非表示]\r\n10"
 
@@ -540,7 +540,7 @@ Note = "[レベル非表示]"
 
 Enemy 91
 Battler Name = "imgbb51072a14a33eb"
-Name = "地獄花"
+Name = "Адский цветок"
 Description = ""
 Note = "[レベル非表示]\r\n15\r\n<ステータスポイント 10>"
 
@@ -558,7 +558,7 @@ Note = "[レベル非表示]"
 
 Enemy 94
 Battler Name = "Rogue"
-Name = "チンピラ"
+Name = "Гопник"
 Description = ""
 Note = "[レベル非表示]\r\n3"
 
@@ -576,7 +576,7 @@ Note = "[レベル非表示]"
 
 Enemy 97
 Battler Name = "bt_Actor5-5_b"
-Name = "僧侶っぽい何か"
+Name = "Нечто похожее на священника"
 Description = ""
 Note = "[レベル非表示]\r\n5"
 
@@ -594,7 +594,7 @@ Note = "[レベル非表示]"
 
 Enemy 100
 Battler Name = "Grappler_m"
-Name = "ネンドマン"
+Name = "Глиномес"
 Description = ""
 Note = "[レベル非表示]\r\n10\r\n<ステータスポイント 3>"
 

@@ -45,7 +45,7 @@ Name = "☆課題用ここな"
       ShowText(["«Только смотри там не надрывайся»."])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[18]Кокона\\C[0]"])
-      ShowText(["«Хорошо-о!»"])
+      ShowText(["«Хорошо-о»."])
       ControlVariables([3, 3, 0, 0, 12])
       Empty([])
 

@@ -89,7 +89,7 @@ Name = "☆パッシブ２"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【ゲルボディ】を習得した！"])
+      ShowText(["У меня теперь 【Тело из геля】!"])
       ChangeSkills([0, 12, 0, 437])
       Empty([])
 
@@ -105,7 +105,7 @@ Name = "☆パッシブ２"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【スライムボディ】を習得した！"])
+      ShowText(["У меня теперь 【Тело слизня】!"])
       ChangeSkills([0, 12, 0, 438])
       Empty([])
 
@@ -121,7 +121,7 @@ Name = "☆パッシブ２"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【触手っ子】を習得した！"])
+      ShowText(["Я теперь 【Щупальцевая】!"])
       ChangeSkills([0, 12, 0, 439])
       Empty([])
 
@@ -134,7 +134,7 @@ Name = "☆パッシブ２"
         PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["Пассивный навык"])
-        ShowText(["【触手好き娘】を習得した！"])
+        ShowText(["Я теперь 【Любительница щупалец】!"])
         ChangeSkills([0, 12, 0, 440])
         Empty([])
 
@@ -147,7 +147,7 @@ Name = "☆パッシブ２"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Пассивный навык"])
-          ShowText(["【触手大好き！】を習得した！"])
+          ShowText(["Я теперь 【Фанатка щупалец!】!"])
           ChangeSkills([0, 12, 0, 441])
           Empty([])
 

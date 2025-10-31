@@ -1010,21 +1010,21 @@ Note = ""
 
 State 102
 Icon Index = 104
-Message 1 = "は火傷を負った！"
-Message 2 = "は火傷を負った！"
+Message 1 = " получает ожог!"
+Message 2 = " получает ожог!"
 Message 3 = ""
-Message 4 = "の火傷が治った！"
-Name = "火傷"
+Message 4 = ": ожог проходит!"
+Name = "Ожог"
 Description = ""
 Note = ""
 
 State 103
 Icon Index = 106
-Message 1 = "は感電した！！"
-Message 2 = "は感電した！！"
+Message 1 = " получает электрический шок!"
+Message 2 = " получает электрический шок!"
 Message 3 = ""
-Message 4 = "の感電が治った！"
-Name = "感電"
+Message 4 = " оправляется от электрического шока!"
+Name = "Электрический шок"
 Description = ""
 Note = ""
 
@@ -1060,11 +1060,11 @@ Note = ""
 
 State 107
 Icon Index = 24
-Message 1 = "は感電した！"
+Message 1 = " получает электрический шок!"
 Message 2 = ""
 Message 3 = ""
-Message 4 = "の感電が治った！"
-Name = "感電"
+Message 4 = " оправляется от электрического шока!"
+Name = "Электрический шок"
 Description = ""
 Note = ""
 
@@ -1090,10 +1090,10 @@ Note = ""
 
 State 110
 Icon Index = 51
-Message 1 = "の防御性能が低下した！"
+Message 1 = ": защита снижена!"
 Message 2 = ""
 Message 3 = ""
-Message 4 = "の防御性能が回復した！"
+Message 4 = ": защита восстановлена!"
 Name = "貫通"
 Description = ""
 Note = ""

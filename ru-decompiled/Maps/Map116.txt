@@ -1,4 +1,4 @@
-Display Name = "スライムの森７"
+Display Name = "Лес слизней 7"
 Parallax Name = ""
 Note = ""
 
@@ -46,10 +46,10 @@ Name = "EV003"
 
     BranchEnd([])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["BP界への転移結晶を手に入れた！"])
+    ShowText(["Нашла кристалл переноса в мир ОБ!"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「これがクロウの言っていたものかな・・・？」"])
+    ShowText(["«Это та вещь, о которой говорил Кроу?..»"])
     ConditionalBranch([0, 109, 1])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])

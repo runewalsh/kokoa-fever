@@ -4,5 +4,5 @@ Name = "　ゲル２"
   ShowPicture([1, "魔物H：ゲル３", 0, 0, 0, 0, 100, 100, 255, 0])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ゲルに弄ばれました"])
+  ShowText(["Я побыла игрушкой геля."])
   Empty([])

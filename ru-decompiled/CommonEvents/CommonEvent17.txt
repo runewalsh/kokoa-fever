@@ -4,7 +4,7 @@ Name = "☆BP界転移"
   ConditionalBranch([4, 12, 0])
     ConditionalBranch([0, 11, 0])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["既にBP界に入っている"])
+      ShowText(["Вы уже находитесь в измерении ОБ."])
       Empty([])
 
     Else([])

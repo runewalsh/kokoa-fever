@@ -4,5 +4,5 @@ Name = "　触手２"
   ShowPicture([1, "魔物H：触手３", 0, 0, 0, 0, 100, 100, 255, 0])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["触手にたくさん犯されました"])
+  ShowText(["Щупальца долго меня насиловали."])
   Empty([])

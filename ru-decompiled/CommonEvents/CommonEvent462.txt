@@ -49,7 +49,7 @@ Name = "　１"
   ShowText(["「そ・・んっ、、、そう、なの？・・あんっ♥」"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["おじさん"])
-  ShowText(["「・・・・・・。」"])
+  ShowText(["«... ...»"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[25]Кокоа\\C[0]"])
   ShowText(["「はぁ・・・んっ♥あっ、、、んんっ♥はぁ・・・はぁ・・♥」"])

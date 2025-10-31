@@ -1,4 +1,4 @@
-Display Name = "スライムの森４"
+Display Name = "Лес слизней 4"
 Parallax Name = ""
 Note = ""
 
@@ -94,7 +94,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([514, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["小さい靴を手に入れた！"])
+    ShowText(["Нашла маленькие туфельки!"])
     Empty([])
 
   Page 1

@@ -84,7 +84,7 @@ Name = "☆パッシブ１"
         PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["Пассивный навык"])
-        ShowText(["【百合】を習得した！"])
+        ShowText(["Я теперь 【Юрийная】!"])
         ChangeSkills([0, 12, 0, 447])
         Empty([])
 
@@ -152,7 +152,7 @@ Name = "☆パッシブ１"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Пассивный навык"])
-          ShowText(["【ドＭ】を習得した！"])
+          ShowText(["Я теперь 【Конченая мазохистка】!"])
           ChangeSkills([0, 12, 0, 452])
           Empty([])
 
@@ -246,7 +246,7 @@ Name = "☆パッシブ１"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Пассивный навык"])
-          ShowText(["Я теперь 【Развратница】!"])
+          ShowText(["Я теперь 【Пошлячка】!"])
           ChangeSkills([0, 12, 0, 455])
           Empty([])
 
@@ -259,7 +259,7 @@ Name = "☆パッシブ１"
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
             ShowText(["Пассивный навык"])
-            ShowText(["【エロい子】を習得した！"])
+            ShowText(["Я теперь 【Секси-малышка】!"])
             ChangeSkills([0, 12, 0, 456])
             Empty([])
 
@@ -272,7 +272,7 @@ Name = "☆パッシブ１"
               PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
               ShowTextAttributes(["", 0, 0, 2])
               ShowText(["Пассивный навык"])
-              ShowText(["【どすけべ】を習得した！"])
+              ShowText(["Я теперь 【Развратница】!"])
               ChangeSkills([0, 12, 0, 457])
               Empty([])
 
@@ -285,7 +285,7 @@ Name = "☆パッシブ１"
                 PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
                 ShowTextAttributes(["", 0, 0, 2])
                 ShowText(["Пассивный навык"])
-                ShowText(["【淫乱娘】を習得した！"])
+                ShowText(["Я теперь 【Нимфоманка】!"])
                 ChangeSkills([0, 12, 0, 458])
                 Empty([])
 

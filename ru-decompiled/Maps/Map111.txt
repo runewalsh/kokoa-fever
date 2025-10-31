@@ -1,4 +1,4 @@
-Display Name = "スライムの森２"
+Display Name = "Лес слизней 2"
 Parallax Name = ""
 Note = ""
 
@@ -64,7 +64,7 @@ Name = "EV005"
     ControlSelfSwitch(["A", 0])
     ChangeItems([67, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔法薬/微量を手に入れた！"])
+    ShowText(["Нашла зелье маны/крошечное!"])
     Empty([])
 
   Page 1

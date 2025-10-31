@@ -13,5 +13,5 @@ Name = "　２"
   BranchEnd([])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["リーフスライム娘におまんこを弄られました"])
+  ShowText(["Лиственная слизнедевочка потрогала мою киску."])
   Empty([])

@@ -325,7 +325,7 @@ Name = "EV017"
     ControlSelfSwitch(["A", 0])
     ChangeItems([701, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["«Нашла свиток опыта!»"])
+    ShowText(["Нашла свиток опыта!"])
     Empty([])
 
   Page 1

@@ -38,8 +38,8 @@ Name = "EV003"
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])
     ShowText(["「少し休もうかな・・・？」"])
-    ShowChoices([["休む", "休まない"], 0])
-    When([0, "休む"])
+    ShowChoices([["Отдохнуть", "Не отдыхать"], 0])
+    When([0, "Отдохнуть"])
       FadeoutScreen([])
       PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=80)"])
       RecoverAll([0, 0])
@@ -47,7 +47,7 @@ Name = "EV003"
       FadeinScreen([])
       Empty([])
 
-    When([1, "休まない"])
+    When([1, "Не отдыхать"])
       Empty([])
 
     ChoicesEnd([])

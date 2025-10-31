@@ -112,7 +112,7 @@ Name = "EV009"
     ShowPicture([10, "立ち絵：ここな", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「はーい」"])
+    ShowText(["«Хорошо-о»."])
     ShowPicture([11, "立ち絵：ココア戦闘", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])

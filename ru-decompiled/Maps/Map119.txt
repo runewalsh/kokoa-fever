@@ -1,4 +1,4 @@
-Display Name = "闘技場２階"
+Display Name = "Арена, 2-й этаж"
 Parallax Name = ""
 Note = ""
 
@@ -49,8 +49,8 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["警備兵"])
-    ShowText(["「恐れ入ります、ただいま清掃中のため立ち入りを禁じています」"])
+    ShowText(["\\C[8]Стражник\\C[0]"])
+    ShowText(["«Простите, но сейчас идёт уборка, сюда нельзя»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -60,8 +60,8 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["警備兵"])
-    ShowText(["「恐れ入ります、ただいま清掃中のため立ち入りを禁じています」"])
+    ShowText(["\\C[8]Стражник\\C[0]"])
+    ShowText(["«Простите, но сейчас идёт уборка, сюда нельзя»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -71,8 +71,8 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["警備兵"])
-    ShowText(["「恐れ入ります、ただいま清掃中のため立ち入りを禁じています」"])
+    ShowText(["\\C[8]Стражник\\C[0]"])
+    ShowText(["«Простите, но сейчас идёт уборка, сюда нельзя»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -82,8 +82,8 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["バニーガール"])
-    ShowText(["「お客様、お飲み物はいかがですか？」"])
+    ShowText(["\\C[6]Девочка-кролик\\C[0]"])
+    ShowText(["«Сударыня, не желаете выпить?»"])
     ShopProcessing([0, 142, 0, 0, true])
     ShopItem([0, 143, 0, 0])
     ShopItem([0, 144, 0, 0])
@@ -151,8 +151,8 @@ Name = "EV020"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["エルフの女性"])
-    ShowText(["「こういう所を一人で入るって何かもぞもぞするわ・・」"])
+    ShowText(["\\C[24]Эльфийка\\C[0]"])
+    ShowText(["«Как-то неприятно заходить в такие места одной...»"])
     Empty([])
 
 CommonEvent 21
@@ -160,10 +160,10 @@ Name = "EV021"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["血走った目のおばさん"])
-    ShowText(["「あーうまいわー。このスープ・・・。"])
-    ShowText(["　一体どうやって作ってるのかしら・・・。"])
-    ShowText(["　あー勿体無い最後の一滴までちゃんと舐めとらないと・・・・。」"])
+    ShowText(["\\C[18]Женщина с налитыми кровью глазами\\C[0]"])
+    ShowText(["«Ах, ну и вкуснотища. Этот суп..."])
+    ShowText([" Как они вообще его готовят..."])
+    ShowText([" Такому добру нельзя пропадать, я вылижу всё до капли...»"])
     Empty([])
 
 CommonEvent 22
@@ -171,8 +171,8 @@ Name = "EV022"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじさん"])
-    ShowText(["「・・・・・ウチの家内が怖いんだが･･ｶﾞﾀｶﾞﾀッ」"])
+    ShowText(["\\C[20]Мужчина\\C[0]"])
+    ShowText(["«...Моя жена меня пугает...» *дрожит*"])
     Empty([])
 
 CommonEvent 23
@@ -180,8 +180,8 @@ Name = "EV023"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["緑髪の戦士"])
-    ShowText(["「ふーっ・・・戦いの前に軽く入れとかないとな」"])
+    ShowText(["\\C[3]Зеленоволосый воин\\C[0]"])
+    ShowText(["«Фух... Нужно чуть подкрепиться перед сражением»."])
     Empty([])
 
 CommonEvent 24
@@ -204,7 +204,7 @@ Name = "EV025"
     ControlSelfSwitch(["A", 0])
     ChangeItems([994, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ハンターの日記を手に入れた！"])
+    ShowText(["Нашла дневник охотника!"])
     Empty([])
 
   Page 1

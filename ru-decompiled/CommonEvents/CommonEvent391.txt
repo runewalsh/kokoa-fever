@@ -329,7 +329,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【剣闘士】を習得した！"])
+      ShowText(["Я теперь 【Гладиатор】!"])
       ChangeSkills([0, 12, 0, 414])
       Empty([])
 
@@ -345,7 +345,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【Dランカー】を習得した！"])
+      ShowText(["Я теперь 【Ранг D】!"])
       ChangeSkills([0, 12, 0, 415])
       Empty([])
 
@@ -425,7 +425,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【当然の流れ】を習得した！"])
+      ShowText(["Я теперь следую 【Естественному ходу вещей】!"])
       ChangeSkills([0, 12, 0, 413])
       Empty([])
 
@@ -441,7 +441,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【冷静な判断】を習得した！"])
+      ShowText(["Я теперь принимаю 【Хладнокровное решение】!"])
       ChangeSkills([0, 12, 0, 412])
       Empty([])
 

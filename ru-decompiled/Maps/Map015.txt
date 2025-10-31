@@ -63,7 +63,7 @@ Name = "EV004"
     ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「今日も良いことないかなー」"])
+    ShowText(["«Вот бы и сегодня случилось что-нибудь хорошее»."])
     ErasePicture([11])
     Empty([])
 

@@ -1,4 +1,4 @@
-Display Name = "スライムの森６"
+Display Name = "Лес слизней 6"
 Parallax Name = ""
 Note = ""
 
