@@ -1392,7 +1392,7 @@ Name = "EV025"
     ControlSelfSwitch(["A", 0])
     ChangeItems([70, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔法薬/並を手に入れた！"])
+    ShowText(["Нашла зелье маны/обычное!"])
     Empty([])
 
   Page 1

@@ -1,4 +1,4 @@
-Display Name = "スラム"
+Display Name = "Трущобы"
 Parallax Name = ""
 Note = ""
 
@@ -95,10 +95,10 @@ Name = "EV013"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ガタイの良い男性"])
-    ShowText(["「別にプライドさえ捨てれば色んな仕事にはありつける"])
-    ShowText(["　ここにいる奴らは別に仕事が無くてこうなった訳じゃねーんだよ"])
-    ShowText(["　元はそれなりの地位を持っていた奴も多いんだ」"])
+    ShowText(["\\C[10]Крепкий мужчина\\C[0]"])
+    ShowText(["«Вообще, если отбросить гордость, можно найти разную работу."])
+    ShowText([" Здешние ребята стали такими не от безработицы."])
+    ShowText([" Многие раньше имели приличный статус»."])
     Empty([])
 
 CommonEvent 14
@@ -118,8 +118,8 @@ Name = "EV015"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじさん"])
-    ShowText(["「ここは夢破れた者たちが集まる掃き溜めさ・・・」"])
+    ShowText(["\\C[21]Мужчина\\C[0]"])
+    ShowText(["«Это помойка, где собираются люди с разрушенными мечтами...»"])
     Empty([])
 
 CommonEvent 16
@@ -152,7 +152,7 @@ Name = "EV018"
     ControlSelfSwitch(["A", 0])
     ChangeItems([989, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["傭兵の日記を手に入れた！"])
+    ShowText(["Нашла дневник наёмника!"])
     Empty([])
 
   Page 1

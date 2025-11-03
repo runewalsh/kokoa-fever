@@ -1,4 +1,4 @@
-Display Name = "キノコの森４－２"
+Display Name = "Грибной лес 4—2"
 Parallax Name = ""
 Note = ""
 
@@ -419,7 +419,7 @@ Name = "EV021"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([704, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["スリッパを手に入れた！"])
+    ShowText(["Нашла тапочки!"])
     Empty([])
 
   Page 1

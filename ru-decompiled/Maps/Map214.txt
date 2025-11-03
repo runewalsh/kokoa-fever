@@ -1,4 +1,4 @@
-Display Name = "民家"
+Display Name = "Жилой дом"
 Parallax Name = ""
 Note = ""
 
@@ -26,7 +26,7 @@ Name = "クロウ"
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
     ShowText(["«Что такое? Хочешь передохнуть?»"])
-    ShowChoices([["Отдохнуть", "まだいい！"], 0])
+    ShowChoices([["Отдохнуть", "Пока терпимо!"], 0])
     When([0, "Отдохнуть"])
       FadeoutScreen([])
       RecoverAll([0, 0])
@@ -37,7 +37,7 @@ Name = "クロウ"
       FadeinScreen([])
       Empty([])
 
-    When([1, "まだいい！"])
+    When([1, "Пока терпимо!"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[7]Кроу\\C[0]"])
       ShowText(["「そうか」"])

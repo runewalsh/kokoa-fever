@@ -1,4 +1,4 @@
-Display Name = "Трактир"
+Display Name = "Гостиница"
 Parallax Name = ""
 Note = ""
 

@@ -1,4 +1,4 @@
-Display Name = "民家"
+Display Name = "Жилой дом"
 Parallax Name = ""
 Note = ""
 
@@ -15,11 +15,10 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「わたしも昔はギルドでブイブイ言わせてたのよ？"])
-    ShowText(["　ちなみにこのブイブイって言う擬音は男性器を女性器に突っ込む"])
-    ShowText(["　時の擬音から来ているそうよ」"])
+    ShowText(["\\C[23]Девушка\\C[0]"])
+    ShowText(["«Было время, когда и я двигалась в гильдии, заявляла о себе."])
+    ShowText([" Прямо как пенис, проникая в вагину,\r\n двигается и заявляет о себе»."])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「ちょっとエッチよね♥」"])
+    ShowText(["\\C[23]Девушка\\C[0]"])
+    ShowText(["«Пошловато звучит♥»"])
     Empty([])

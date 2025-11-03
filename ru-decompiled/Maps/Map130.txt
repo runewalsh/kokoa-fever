@@ -1,4 +1,4 @@
-Display Name = "山奥の村チミテール"
+Display Name = "Дальняя горная деревня Чимитейл"
 Parallax Name = ""
 Note = ""
 
@@ -91,7 +91,7 @@ Name = "EV013"
     ShowPicture([11, "立ち絵：ここな３", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「まずは村長の家に行ってみましょ」"])
+    ShowText(["«Давай сначала заглянем в дом старосты»."])
     ErasePicture([11])
     ControlVariables([3, 3, 0, 0, 34])
     Empty([])
@@ -106,7 +106,7 @@ Name = "EV014"
     ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「ちょっと！そっちは違うわよ！！」"])
+    ShowText(["«Эй! Мы не туда идём!!»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     ErasePicture([11])
@@ -119,7 +119,7 @@ Name = "EV015"
     ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「ちょっと！そっちは違うわよ！！」"])
+    ShowText(["«Эй! Мы не туда идём!!»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     ErasePicture([11])
@@ -132,7 +132,7 @@ Name = "EV016"
     ShowPicture([11, "立ち絵：ここな２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「ちょっと！そっちは違うわよ！！」"])
+    ShowText(["«Эй! Мы не туда идём!!»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     ErasePicture([11])
@@ -175,9 +175,9 @@ Name = "EV021"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじさん"])
-    ShowText(["「魔法文化が取り入れられてからは若者が街に行ってしまって"])
-    ShowText(["　村には年寄りばかり・・・この先が心配になります」"])
+    ShowText(["\\C[21]Мужчина\\C[0]"])
+    ShowText(["«С перенятием магической культуры молодёжь"])
+    ShowText([" устремилась в город, а в деревне остались одни старики...\r\n Неспокойно за будущее»."])
     Empty([])
 
 CommonEvent 22
@@ -203,9 +203,9 @@ Name = "EV025"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["熟練の冒険者"])
-    ShowText(["「この村も少子高齢化が進んでおるの・・"])
-    ShowText(["　一冒険者のワシにはどうする事もできんが・・・」"])
+    ShowText(["\\C[12]Опытный авантюрист\\C[0]"])
+    ShowText(["«И эта деревня вымирает..."])
+    ShowText([" Один авантюрист вроде меня\r\n ничего не сможет с этим сделать...»"])
     Empty([])
 
 CommonEvent 26
@@ -258,6 +258,6 @@ Name = "EV030"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["若い女性"])
-    ShowText(["「もうじきキノコの出荷なのに、まさかあんなことになるなんて」"])
+    ShowText(["\\C[2]Молодая женщина\\C[0]"])
+    ShowText(["«Скоро надо будет отправлять грибы на продажу,\r\n и никто не мог подумать, что случится такое»."])
     Empty([])

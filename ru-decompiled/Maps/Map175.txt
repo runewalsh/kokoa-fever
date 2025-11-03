@@ -1,4 +1,4 @@
-Display Name = "教会"
+Display Name = "Церковь"
 Parallax Name = ""
 Note = ""
 
@@ -15,6 +15,6 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["神父"])
-    ShowText(["「ここは教会です・・・」"])
+    ShowText(["\\C[25]Священник\\C[0]"])
+    ShowText(["«Это церковь...»"])
     Empty([])

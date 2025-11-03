@@ -1,4 +1,4 @@
-Display Name = "民家"
+Display Name = "Жилой дом"
 Parallax Name = ""
 Note = ""
 
@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「あら・・いらっしゃい」"])
+    ShowText(["\\C[31]Женщина\\C[0]"])
+    ShowText(["«О... заходите»."])
     Empty([])
 
 CommonEvent 3
@@ -24,6 +24,6 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじいさん"])
-    ShowText(["「ふぅ・・金はあっても年齢には勝てんのぉ」"])
+    ShowText(["\\C[8]Дедушка\\C[0]"])
+    ShowText(["«Эх... Деньги есть, а молодость ими не вернуть»."])
     Empty([])

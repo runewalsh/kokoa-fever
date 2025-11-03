@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["お姉さん"])
-    ShowText(["「メイドのコス作ってみたんだけど、どうかなー」"])
+    ShowText(["\\C[2]Девушка\\C[0]"])
+    ShowText(["«Сделала себе костюм горничной, как тебе?»"])
     Empty([])
 
 CommonEvent 3
@@ -24,7 +24,7 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ガキ"])
-    ShowText(["「お姉ちゃんと二人暮らしなんだ。"])
-    ShowText(["　両親は居ないけど、ボクはお姉ちゃんがいるから幸せなんだ」"])
+    ShowText(["\\C[1]Маленький мальчик\\C[0]"])
+    ShowText(["«Мы живём вдвоём с сестрой."])
+    ShowText([" У нас нет родителей, но я счастлив, что у меня есть сестра»."])
     Empty([])

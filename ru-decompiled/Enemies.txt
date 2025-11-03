@@ -312,19 +312,19 @@ Note = ""
 
 Enemy 53
 Battler Name = "なごみだけ"
-Name = "なごみだけ"
+Name = "Спокойный гриб"
 Description = ""
 Note = "[レベル非表示]\r\n5"
 
 Enemy 54
 Battler Name = "なごみだけ"
-Name = "なごみだけ"
+Name = "Спокойный гриб"
 Description = ""
 Note = "[レベル非表示]\r\n10"
 
 Enemy 55
 Battler Name = "なごみだけ"
-Name = "なごみだけ"
+Name = "Спокойный гриб"
 Description = ""
 Note = "[レベル非表示]\r\n20\r\n<追加ドロップ I,208,30>"
 
@@ -348,13 +348,13 @@ Note = "[レベル非表示]\r\n18\r\n<追加ドロップ I,207,60>"
 
 Enemy 59
 Battler Name = "ワイルドキャットオス"
-Name = "ワイルドキャット"
+Name = "Дикий кот"
 Description = ""
 Note = "[レベル非表示]\r\n3"
 
 Enemy 60
 Battler Name = "ワイルドキャットオス"
-Name = "ワイルドキャット"
+Name = "Дикий кот"
 Description = ""
 Note = "<追加ドロップ W,260,1%>\r\n<追加ドロップ W,261,1%>\r\n<追加ドロップ W,262,1%>\r\n<追加ドロップ W,263,1%>\r\n<追加ドロップ W,264,1%>\r\n[レベル非表示]\r\n22\r\n"
 
@@ -366,13 +366,13 @@ Note = ""
 
 Enemy 62
 Battler Name = "ワイルドキャットメス"
-Name = "ワイルドプシー"
+Name = "Дикая киска"
 Description = ""
 Note = "[レベル非表示]\r\n8"
 
 Enemy 63
 Battler Name = "ワイルドキャットメス"
-Name = "ワイルドプシー"
+Name = "Дикая киска"
 Description = ""
 Note = "[レベル非表示]\r\n24\r\n<追加ドロップ A,519,25>"
 
@@ -612,7 +612,7 @@ Note = "[レベル非表示]"
 
 Enemy 103
 Battler Name = "キノプオ"
-Name = "キノプオ"
+Name = "Грибуккио"
 Description = ""
 Note = "[レベル非表示]\r\n10"
 
@@ -630,7 +630,7 @@ Note = "[レベル非表示]"
 
 Enemy 106
 Battler Name = "ねこなめこ"
-Name = "なめこねこ"
+Name = "Котопёнок"
 Description = ""
 Note = "[レベル非表示]\r\n13"
 
@@ -648,7 +648,7 @@ Note = "[レベル非表示]"
 
 Enemy 109
 Battler Name = "マタンゴ"
-Name = "マタンゴ"
+Name = "Девочка-мухомор"
 Description = ""
 Note = "[レベル非表示]\r\n15"
 
@@ -666,7 +666,7 @@ Note = "[レベル非表示]"
 
 Enemy 112
 Battler Name = "緑の悪魔"
-Name = "緑の悪魔"
+Name = "Зелёный дьявол"
 Description = ""
 Note = "[レベル非表示]\r\n18"
 
@@ -684,7 +684,7 @@ Note = "[レベル非表示]"
 
 Enemy 115
 Battler Name = "仏くん"
-Name = "仏くん"
+Name = "Робо-Будда"
 Description = ""
 Note = "[レベル非表示]\r\n25\r\n<ステータスポイント 5>"
 
@@ -708,19 +708,19 @@ Note = "[レベル非表示]\r\n15\r\n<ステータスポイント 3>"
 
 Enemy 119
 Battler Name = "bt_Actor4-1Eric_b"
-Name = "大剣使い"
+Name = "Человек с большим мечом"
 Description = ""
 Note = "[レベル非表示]\r\n18\r\n<ステータスポイント 3>"
 
 Enemy 120
 Battler Name = "2_2bl"
-Name = "女冒険者"
+Name = "Авантюристка"
 Description = ""
 Note = "[レベル非表示]\r\n22\r\n<ステータスポイント 3>"
 
 Enemy 121
 Battler Name = "General2"
-Name = "ガイキング"
+Name = "Гайкинг"
 Description = ""
 Note = "[レベル非表示]\r\n24\r\n<ステータスポイント 3>"
 

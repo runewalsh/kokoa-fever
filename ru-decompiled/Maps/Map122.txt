@@ -1,4 +1,4 @@
-Display Name = "メリオス街道１"
+Display Name = "Дорога к Мелиосу 1"
 Parallax Name = ""
 Note = ""
 

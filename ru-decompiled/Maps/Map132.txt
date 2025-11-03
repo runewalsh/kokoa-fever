@@ -1,4 +1,4 @@
-Display Name = "キノコの森１"
+Display Name = "Грибной лес 1"
 Parallax Name = ""
 Note = ""
 

@@ -14,6 +14,8 @@
 {$warn 4055 off: Conversion between ordinals and pointers is not portable}
 {$warn 5024 off: Parameter not used}
 {$warn 5057 off: Local variable does not seem to be initialized}
+{$warn 5058 off: Local variable does not seem to be initialized}
+{$warn 5090 off: Variable of a managed type does not seem to be initialized}
 
 uses
 	Windows;
@@ -79,12 +81,17 @@ type
 		SetCodePage(rawbytestring(result), CP_ACP, false);
 	end;
 
+{$ifdef Debug}
 	function RectStr(const r: RECT): string;
 	begin
 		WriteStr(result, r.Left, ' ', r.Top, ' ', r.Right, ' ', r.Bottom, ' (', r.Right - r.Left, ' x ', r.Bottom - r.Top, ')');
 	end;
+{$endif}
 
 	function AdjustGameWindowSize(gameWindow: HWND; const desktopRect: RECT): boolean;
+	const
+		OrigW = 640;
+		OrigH = 480;
 	var
 		wr, dCli: RECT;
 		maxSizeX, maxSizeY, scale, scaleY, dSize: int32;
@@ -99,6 +106,7 @@ type
 		begin
 			style := style or WS_SIZEBOX;
 			SetWindowLongPtrW(gameWindow, GWL_STYLE, style or WS_SIZEBOX);
+			dline('WS_SIZEBOX added to style.');
 			result := true;
 		end;
 		FillChar(dCli, sizeof(dCli), 0);
@@ -109,27 +117,31 @@ type
 		maxSizeY := desktopRect.Bottom - desktopRect.Top - (dCli.Bottom - dCli.Top);
 		if (maxSizeX <= 0) or (maxSizeY <= 0) then exit;
 		// Если окно достаточного размера или, наоборот, слишком маленькое, ничего не делать.
-		if (wr.Right - wr.Left >= int32(uint32(maxSizeX) div 2))
-			or (wr.Bottom - wr.Top >= int32(uint32(maxSizeY) div 2))
+		if (wr.Right - wr.Left > int32(uint32(maxSizeX) div 2))
+			or (wr.Bottom - wr.Top > int32(uint32(maxSizeY) div 2))
 			or (wr.Right - wr.Left < 1)
 			or (wr.Bottom - wr.Top < 1)
 		then
 			exit;
 
-		scale := maxSizeX div (wr.Right - wr.Left);
-		scaleY := maxSizeY div (wr.Bottom - wr.Top);
+		dline('Window client rect: ', RectStr(wr), ', non-client margin: ', RectStr(dCli), '.');
+		scale := uint32(maxSizeX) div OrigW;
+		scaleY := uint32(maxSizeY) div OrigH;
 		if scale > scaleY then scale := scaleY;
 		if scale <= 1 then exit;
-		dSize := (wr.Right - wr.Left) * (scale - 1);
+		dSize := scale * OrigW - (wr.Right - wr.Left);
 		wr.Left -= (dSize + 1) div 2;
 		wr.Right += dSize div 2;
-		dSize := (wr.Bottom - wr.Top) * (scale - 1);
+		dSize := scale * OrigH - (wr.Bottom - wr.Top);
 		wr.Top -= (dSize + 1) div 2;
 		wr.Bottom += dSize div 2;
 
 		for i := 0 to 3 do pInt32(@wr)[i] += pInt32(@dCli)[i];
 		if SetWindowPos(gameWindow, 0, wr.Left, wr.Top, wr.Right - wr.Left, wr.Bottom - wr.Top, SWP_NOZORDER or SWP_FRAMECHANGED) then
+		begin
+			dline('SetWindowPos to ', RectStr(wr), '.');
 			result := true;
+		end;
 	end;
 
 var
@@ -185,25 +197,25 @@ begin
 		if gameWindow = 0 then Fail.Silently;
 
 		if not GetWindowRect(GetDesktopWindow, desktopRect) then Fail.Throw('Не удалось получить размер рабочего стола.');
+		dline('Desktop rect: ', RectStr(desktopRect), '.');
 
 		nAdjusts := 0;
 		repeat
 			if AdjustGameWindowSize(gameWindow, desktopRect) then
 			begin
 				lastAdjust := QPC;
-				dline('adj');
 				nAdjusts += 1;
 				if nAdjusts >= 3 then
 				begin
 					// Если размер изменён уже больше трёх раз (ну, у меня где-то столько меняется), наверное, всё хорошо.
-					dline('ok 1'); readln;
+					dline('Done (succeed 3 times).'); readln;
 					exit;
 				end;
 			end
 			else if (nAdjusts > 0) and (QPC - lastAdjust >= 5 * qpf) then
 			begin
 				// Если размер не менялся уже 5 секунд, наверное, всё хорошо.
-				dline('ok 2'); readln;
+				dline('Done (nothing to do for 5 seconds).'); readln;
 				exit;
 			end;
 			Sleep(100);

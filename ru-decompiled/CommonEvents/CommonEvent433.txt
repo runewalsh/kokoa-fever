@@ -13,5 +13,5 @@ Name = "　ぷしー２"
   BranchEnd([])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ワイルドプシーとおまんこを擦り合わせました"])
+  ShowText(["Мы потёрлись писечками с дикой киской."])
   Empty([])

@@ -10,10 +10,10 @@ Note = "ステート１番はＨＰが０になったときに自動的に付加
 
 State 2
 Icon Index = 18
-Message 1 = "は毒に冒された！"
-Message 2 = "は毒に冒された！"
+Message 1 = " отравляется!"
+Message 2 = " отравляется!"
 Message 3 = ""
-Message 4 = "の毒が消えた！"
+Message 4 = " избавляется от яда!"
 Name = "Яд"
 Description = nil
 Note = ""
@@ -1050,11 +1050,11 @@ Note = ""
 
 State 106
 Icon Index = 1112
-Message 1 = "が流血状態になってしまった！"
+Message 1 = " истекает кровью!"
 Message 2 = ""
 Message 3 = ""
-Message 4 = "の流血が治った！"
-Name = "流血"
+Message 4 = " останавливает кровотечение!"
+Name = "Кровотечение"
 Description = ""
 Note = ""
 
@@ -1120,10 +1120,10 @@ Note = ""
 
 State 113
 Icon Index = 18
-Message 1 = "は毒に冒された！"
-Message 2 = "は毒に冒された！"
+Message 1 = " отравляется!"
+Message 2 = " отравляется!"
 Message 3 = ""
-Message 4 = "の毒が消えた！"
+Message 4 = " избавляется от яда!"
 Name = "毒"
 Description = nil
 Note = ""

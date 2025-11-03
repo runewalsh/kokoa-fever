@@ -15,8 +15,8 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おばさん"])
-    ShowText(["「あたたっ・・・腰が痛いわね・・」"])
+    ShowText(["\\C[21]Тётя\\C[0]"])
+    ShowText(["«Ой-ёй-ёй... Спина болит...»"])
     Empty([])
 
 CommonEvent 3
@@ -24,6 +24,6 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["おじさん"])
-    ShowText(["「ふぅ・・最近妻が元気でヘトヘトだよ」"])
+    ShowText(["\\C[8]Дядя\\C[0]"])
+    ShowText(["«Фух... Моя супруга в последнее время стала такой активной,\r\n что я полностью вымотан»."])
     Empty([])

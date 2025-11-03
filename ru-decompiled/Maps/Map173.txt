@@ -23,8 +23,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["武器屋の少し疲れた感じがする店主"])
-    ShowText(["「こういう場所とは言え、武器が必要なこともあるんですよ・・ははは」"])
+    ShowText(["\\C[3]Продавец оружия, кажущийся подуставшим\\C[0]"])
+    ShowText(["«Даже в таком месте иногда нужно оружие... Ха-ха-ха»."])
     ShopProcessing([1, 145, 0, 0, true])
     ShopItem([1, 146, 0, 0])
     ShopItem([1, 147, 0, 0])
@@ -42,8 +42,8 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["デブ"])
-    ShowText(["「ぶへへｗｗｗｗ」"])
+    ShowText(["\\C[12]Толстяк\\C[0]"])
+    ShowText(["«Бхе-хе-хе))))»"])
     ShopProcessing([0, 59, 0, 0, true])
     ShopItem([0, 69, 0, 0])
     ShopItem([0, 74, 0, 0])

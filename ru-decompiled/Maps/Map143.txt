@@ -22,8 +22,8 @@ Name = "EV003"
   Page 0
     ConditionalBranch([6, -1, 6])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["青年"])
-      ShowText(["「き、キノコが襲ってくる・・・」"])
+      ShowText(["\\C[3]Парень\\C[0]"])
+      ShowText(["«Г-грибы наступают...»"])
       Empty([])
 
     BranchEnd([])

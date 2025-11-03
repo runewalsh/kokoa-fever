@@ -89,12 +89,12 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【トリプルカウント】"])
-    ShowText(["Элемент: физический　斬"])
+    ShowText(["【Тройной удар】"])
+    ShowText(["Элемент: физический, режущий"])
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: задержку"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ダブルカウントの上位スキル"])
+    ShowText(["Старший брат двойного удара."])
     Empty([])
 
 CommonEvent 10
@@ -103,7 +103,7 @@ Name = "EV010"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["【連】"])
-    ShowText(["Элемент: физический　斬"])
+    ShowText(["Элемент: физический, режущий"])
     ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["発生・硬直が長いスキルだがそれだけに威力が期待できる高火力スキル"])
@@ -164,7 +164,7 @@ Name = "EV015"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["【乱舞斬】"])
-    ShowText(["Элемент: физический　斬"])
+    ShowText(["Элемент: физический, режущий"])
     ShowText(["Цель: 範囲分散"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["非常に強力な長剣用範囲分散スキル"])

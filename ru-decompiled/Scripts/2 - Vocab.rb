@@ -23,7 +23,7 @@ module Vocab
   File            = "Файл"
 
   # 複数メンバーの場合の表示
-  PartyName       = "%sたち"
+  PartyName       = "%s с друзьями"
 
   # 戦闘基本メッセージ
   Emerge          = "Против вас %s!"
@@ -45,8 +45,8 @@ module Vocab
   UseItem         = "%s использует %s!"
 
   # クリティカルヒット
-  CriticalToEnemy = "Точный удар!!"
-  CriticalToActor = "Болючий удар!!"
+  CriticalToEnemy = "Точный критический удар!!"
+  CriticalToActor = "Болючий критический удар!!"
 
   # アクター対象の行動結果
   ActorDamage     = "%s получает %s ед. урона!"

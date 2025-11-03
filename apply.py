@@ -60,10 +60,12 @@ wipe_files = \
 	#'頂いた素材.txt',
 	'Game.rgss3a',
 	'Game.rgss3a.old',
+	'Graphics\\Pictures.zip'
 ]
 
 for file_rel in wipe_files:
 	with suppress(OSError):
 		os.remove(path.join(game_inout, file_rel))
 
-link_or_copy(path.join(repo, "scaled\\bin\\Game (scaled).exe"), path.join(game_inout, "Game (scaled).exe"))
+with suppress(OSError):
+	link_or_copy(path.join(repo, "scaled\\bin\\Game (scaled).exe"), path.join(game_inout, "Game (scaled).exe"))

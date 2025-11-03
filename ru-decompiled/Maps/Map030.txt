@@ -211,7 +211,7 @@ Name = "EV018"
     ControlSelfSwitch(["A", 0])
     ChangeItems([53, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Сорвала качественную целебную траву!"])
+    ShowText(["Нашла качественную целебную траву!"])
     Empty([])
 
   Page 1

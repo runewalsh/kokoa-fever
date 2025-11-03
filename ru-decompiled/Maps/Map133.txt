@@ -1,4 +1,4 @@
-Display Name = "キノコの森２"
+Display Name = "Грибной лес 2"
 Parallax Name = ""
 Note = ""
 
@@ -359,7 +359,7 @@ Name = "EV016"
     ControlSelfSwitch(["A", 0])
     ChangeWeapons([106, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["鉄剣を手に入れた！"])
+    ShowText(["Нашла железный меч!"])
     Empty([])
 
   Page 1

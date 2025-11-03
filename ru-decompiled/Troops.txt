@@ -625,7 +625,7 @@ Name = "チンピラ"
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[3]Гопник\\C[0]"])
-  ShowText(["«Я сильнее всех～!!!хд»"])
+  ShowText(["«Я сильнее всех～!!!)»"])
   ChangeEnemyState([-1, 0, 10])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
@@ -789,7 +789,7 @@ Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["SAMURAI"])
-  ShowText(["「いざ、尋常に勝負！」"])
+  ShowText(["«Да начнётся честный бой!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
@@ -807,16 +807,16 @@ Name = "大剣使い"
 Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["大剣使い"])
-  ShowText(["「俺のこの剣・・・受けてみろ！」"])
+  ShowText(["\\C[4]Человек с большим мечом\\C[0]"])
+  ShowText(["«Попробуй выстоять... против моего меча!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["大剣使い"])
-  ShowText(["「そんな・・・こんなところで」"])
+  ShowText(["\\C[4]Человек с большим мечом\\C[0]"])
+  ShowText(["«Не может быть... Вот так»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -826,16 +826,16 @@ Name = "女冒険者"
 Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["女冒険者"])
-  ShowText(["「あなたが私の相手ね！」"])
+  ShowText(["\\C[27]Авантюристка\\C[0]"])
+  ShowText(["«Ты мой соперник!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["女冒険者"])
-  ShowText(["「くやしいよぉ」"])
+  ShowText(["\\C[27]Авантюристка\\C[0]"])
+  ShowText(["«Обидно-о»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -845,16 +845,16 @@ Name = "ガイキング"
 Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ガイキング"])
-  ShowText(["「俺・・・・強い。お前、倒す」"])
+  ShowText(["\\C[13]Гайкинг\\C[0]"])
+  ShowText(["«Я... сильный. Тебя, повергну»."])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["ガイキング"])
-  ShowText(["「いやぁ～参いったねぇ～」"])
+  ShowText(["\\C[13]Гайкинг\\C[0]"])
+  ShowText(["«Ох～ Сдаюсь～»"])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 

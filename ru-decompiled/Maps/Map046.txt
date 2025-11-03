@@ -1,4 +1,4 @@
-Display Name = "カリッカの森１"
+Display Name = "Лес Карикка 1"
 Parallax Name = ""
 Note = ""
 
@@ -3494,7 +3494,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeItems([61, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["回復薬/大を手に入れた！"])
+    ShowText(["Нашла зелье лечения/большое!"])
     Empty([])
 
   Page 1
@@ -3514,7 +3514,7 @@ Name = "ta"
     ControlSelfSwitch(["A", 0])
     ChangeItems([70, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔法薬/並を手に入れた！"])
+    ShowText(["Нашла зелье маны/обычное!"])
     Empty([])
 
   Page 1
@@ -3534,7 +3534,7 @@ Name = "紋章"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([157, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["狩人の紋章を手に入れた！"])
+    ShowText(["Нашла значок охотника!"])
     Empty([])
 
   Page 1

@@ -1,4 +1,4 @@
-Display Name = "森の町ドゥ"
+Display Name = "Лесной город Ду"
 Parallax Name = ""
 Note = ""
 
@@ -58,15 +58,15 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年"])
-    ShowText(["「歳をとると時間が短く感じるそうだ」"])
+    ShowText(["\\C[16]Юноша\\C[0]"])
+    ShowText(["«Говорят, с возрастом ощущение времени ускоряется»."])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年"])
-    ShowText(["「だったらこの看板持ちのバイト代わってくれ！！"])
-    ShowText(["　すげー長く感じるんだわ！！！」"])
+    ShowText(["\\C[16]Юноша\\C[0]"])
+    ShowText(["«Так подмени меня на этой подработке держателем таблички!!"])
+    ShowText([" Время ощущается чертовски медленно!!!»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年"])
-    ShowText(["「あっ・・・ここは森の町ドゥです」"])
+    ShowText(["\\C[16]Юноша\\C[0]"])
+    ShowText(["«А... Это лесной город Ду»."])
     ShotBalloonIcon([-1, 6, false])
     Empty([])
 
@@ -75,8 +75,8 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ネコ"])
-    ShowText(["「にゃ～」"])
+    ShowText(["Кот"])
+    ShowText(["«Мяу～»"])
     Empty([])
 
 CommonEvent 9
@@ -84,8 +84,8 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ロリ"])
-    ShowText(["「子供は遊ぶのが仕事なのー♪」"])
+    ShowText(["\\C[2]Лоли\\C[0]"])
+    ShowText(["«Работа у детей такая — играть♪»"])
     Empty([])
 
 CommonEvent 10
@@ -93,8 +93,8 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ショタ"])
-    ShowText(["「子供は風の子なんだぜ！！！！」"])
+    ShowText(["\\C[4]Шота\\C[0]"])
+    ShowText(["«Детям погода нипочём!!!!»"])
     Empty([])
 
 CommonEvent 11
@@ -102,8 +102,8 @@ Name = "EV011"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["青年の冒険者"])
-    ShowText(["「ここはどう見ても村なのにどうして町なんだろう・・」"])
+    ShowText(["\\C[23]Юный авантюрист\\C[0]"])
+    ShowText(["«Как ни посмотри, а это деревня,\r\n почему её называют городом...»"])
     Empty([])
 
 CommonEvent 12
@@ -111,8 +111,8 @@ Name = "EV012"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ロリコン"])
-    ShowText(["「べ、別に怪しいことはしてないですよっ」"])
+    ShowText(["\\C[22]Педофил\\C[0]"])
+    ShowText(["«Н-ничем я таким подозрительным не занимаюсь»."])
     Empty([])
 
 CommonEvent 13
@@ -120,9 +120,9 @@ Name = "EV013"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ロリ"])
-    ShowText(["「えへへー今から楽しい事するのー"])
-    ShowText(["　いいでしょー」"])
+    ShowText(["\\C[27]Лоли\\C[0]"])
+    ShowText(["«Э-хе-хе-е, сейчас будем заниматься весёлыми вещами-и."])
+    ShowText([" Дава-ай»."])
     Empty([])
 
 CommonEvent 14
@@ -130,8 +130,8 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ウシ"])
-    ShowText(["「モ？」"])
+    ShowText(["Корова"])
+    ShowText(["«Му?»"])
     Empty([])
 
   Page 1
@@ -182,8 +182,8 @@ Name = "EV017"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["エルフの女性"])
-    ShowText(["「ふぅ・・やっぱり森が落ち着くわ」"])
+    ShowText(["\\C[24]Эльфийка\\C[0]"])
+    ShowText(["«Фух... Лес всё же успокаивает»"])
     Empty([])
 
 CommonEvent 18
@@ -215,6 +215,6 @@ Name = "EV021"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["少女"])
-    ShowText(["「この間の誕生日たのしかったー♪」"])
+    ShowText(["\\C[31]Девочка\\C[0]"])
+    ShowText(["«Я классно отметила день рождения♪»"])
     Empty([])
