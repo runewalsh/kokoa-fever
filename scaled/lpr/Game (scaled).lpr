@@ -94,7 +94,7 @@ type
 		OrigH = 480;
 	var
 		wr, dCli: RECT;
-		maxSizeX, maxSizeY, scale, scaleY, dSize: int32;
+		maxSizeX, maxSizeY, scale, scaleY, dSizeX, dSizeY: int32;
 		i: SizeInt;
 		style: PtrUint;
 	begin
@@ -117,24 +117,20 @@ type
 		maxSizeY := desktopRect.Bottom - desktopRect.Top - (dCli.Bottom - dCli.Top);
 		if (maxSizeX <= 0) or (maxSizeY <= 0) then exit;
 		// Если окно достаточного размера или, наоборот, слишком маленькое, ничего не делать.
-		if (wr.Right - wr.Left > int32(uint32(maxSizeX) div 2))
-			or (wr.Bottom - wr.Top > int32(uint32(maxSizeY) div 2))
-			or (wr.Right - wr.Left < 1)
-			or (wr.Bottom - wr.Top < 1)
-		then
-			exit;
+		if (wr.Right - wr.Left < 1) or (wr.Bottom - wr.Top < 1) then exit;
 
-		dline('Window client rect: ', RectStr(wr), ', non-client margin: ', RectStr(dCli), '.');
 		scale := uint32(maxSizeX) div OrigW;
 		scaleY := uint32(maxSizeY) div OrigH;
 		if scale > scaleY then scale := scaleY;
 		if scale <= 1 then exit;
-		dSize := scale * OrigW - (wr.Right - wr.Left);
-		wr.Left -= (dSize + 1) div 2;
-		wr.Right += dSize div 2;
-		dSize := scale * OrigH - (wr.Bottom - wr.Top);
-		wr.Top -= (dSize + 1) div 2;
-		wr.Bottom += dSize div 2;
+		dSizeX := scale * OrigW - (wr.Right - wr.Left);
+		dSizeY := scale * OrigH - (wr.Bottom - wr.Top);
+		if (dSizeX <= 0) or (dSizeY <= 0) then exit;
+		dline('Window client rect: ', RectStr(wr), ', non-client margin: ', RectStr(dCli), '.');
+		wr.Left -= (dSizeX + 1) div 2;
+		wr.Right += dSizeX div 2;
+		wr.Top -= (dSizeY + 1) div 2;
+		wr.Bottom += dSizeY div 2;
 
 		for i := 0 to 3 do pInt32(@wr)[i] += pInt32(@dCli)[i];
 		if SetWindowPos(gameWindow, 0, wr.Left, wr.Top, wr.Right - wr.Left, wr.Bottom - wr.Top, SWP_NOZORDER or SWP_FRAMECHANGED) then

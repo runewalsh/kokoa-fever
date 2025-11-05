@@ -7,13 +7,13 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["森スライム系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от лесных слизней?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([101, 101, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -24,13 +24,13 @@ Name = "EV002"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ちんこミミズ系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от члено-червей?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([104, 104, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -41,13 +41,13 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ゼリイヌ系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от желе-псов?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([105, 105, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -58,13 +58,13 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ブータ系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от свиней?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([106, 106, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -75,13 +75,13 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ワイルドプシー系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от диких кисок?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([107, 107, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -92,13 +92,13 @@ Name = "EV006"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ゲル系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от гелей?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([108, 108, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -109,13 +109,13 @@ Name = "EV007"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["リーフスライム娘系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от лиственных слизнедевочек?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([109, 109, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -126,13 +126,13 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["触手系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от щупалец?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([110, 110, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -143,13 +143,13 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ホットスライム娘系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от горячих слизнедевочек?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([111, 111, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -160,13 +160,13 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["カエル女系に負けた回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от лягушкодевочек?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([112, 112, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -177,13 +177,13 @@ Name = "EV011"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["マッサージの回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число массажей?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([113, 113, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -194,13 +194,13 @@ Name = "EV012"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["アダンダラ系の負け回数をリセットしますか？"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от Адандар?"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([114, 114, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -211,14 +211,14 @@ Name = "EV013"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["カルボ鉱山で雑魚に負けた回数をリセットしますか？"])
-    ShowText(["(ここな)"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от камушков в шахте Карбо?"])
+    ShowText(["(Кокона)"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([115, 115, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -229,14 +229,14 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["カルボ鉱山でボスに負けた回数をリセットしますか？"])
-    ShowText(["(ここな)"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от босса в шахте Карбо?"])
+    ShowText(["(Кокона)"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([116, 116, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])
@@ -247,14 +247,14 @@ Name = "EV015"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ちんこミミズ系に負けた回数をリセットしますか？"])
-    ShowText(["(ここな)"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["Сбросить число поражений от члено-червей?"])
+    ShowText(["(Кокона)"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ControlVariables([117, 117, 0, 0, 0])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])

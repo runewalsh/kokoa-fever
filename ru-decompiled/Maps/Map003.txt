@@ -290,7 +290,7 @@ Name = "EV017"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([147, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★覚醒の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок пробуждения!"])
     Empty([])
 
   Page 1

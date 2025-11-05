@@ -726,7 +726,7 @@ Note = "[レベル非表示]\r\n24\r\n<ステータスポイント 3>"
 
 Enemy 122
 Battler Name = "m1_7b"
-Name = "悪夢の亡霊"
+Name = "Призрак кошмара"
 Description = ""
 Note = "[レベル非表示]\r\n24"
 
@@ -750,7 +750,7 @@ Note = "[レベル非表示]"
 
 Enemy 126
 Battler Name = "Soldier"
-Name = "警備兵士A"
+Name = "Стражник A"
 Description = ""
 Note = "<ステータスポイント 10>\r\n[レベル非表示]"
 

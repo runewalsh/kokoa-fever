@@ -19,13 +19,13 @@ Name = "EV002"
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])
-    ShowText(["「・・・・。」"])
+    ShowText(["«...»"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])
-    ShowText(["「ここはクロウさんのお仕事で着いて行ったマンション・・？」"])
+    ShowText(["«Это особняк, куда Кроу прибыл по работе\r\n и взял меня с собой?..»"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])
-    ShowText(["「とにかく、マンションから出てみよう」"])
+    ShowText(["«Ну-ка попробую выйти наружу»."])
     ControlVariables([3, 3, 0, 0, 43])
     Empty([])
 
@@ -37,7 +37,7 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["３０１"])
+    ShowText(["301"])
     Empty([])
 
 CommonEvent 4
@@ -45,7 +45,7 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["３０２"])
+    ShowText(["302"])
     Empty([])
 
 CommonEvent 5
@@ -53,7 +53,7 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["３０３"])
+    ShowText(["303"])
     Empty([])
 
 CommonEvent 6

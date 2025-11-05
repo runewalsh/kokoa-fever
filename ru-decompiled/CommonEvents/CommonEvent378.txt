@@ -333,7 +333,7 @@ Name = "☆パッシブ１"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Пассивный навык"])
-          ShowText(["【ベテラン】を習得した！"])
+          ShowText(["Я теперь 【Ветеран】!"])
           ChangeSkills([0, 12, 0, 465])
           Empty([])
 

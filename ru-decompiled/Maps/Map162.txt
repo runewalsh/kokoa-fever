@@ -24,7 +24,7 @@ Name = "EV002"
     ControlSelfSwitch(["A", 0])
     ChangeItems([903, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["謎の欠片を手に入れた！"])
+    ShowText(["Нашла загадочный фрагмент!"])
     Empty([])
 
   Page 1
@@ -44,7 +44,7 @@ Name = "EV003"
     ControlSelfSwitch(["A", 0])
     ChangeItems([904, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["101の鍵を手に入れた！"])
+    ShowText(["Нашла ключ от 101!"])
     Empty([])
 
   Page 1
@@ -55,7 +55,7 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ｺﾉｾ－ｶｲﾊ－ｱｲﾃﾑｶﾞﾋｶ－ﾗﾅｲﾓﾉ－ﾓｱﾙ"])
+    ShowText(["В эТоМ мИ / рЕ пРеДмЕ / тЫ мОгУт Не / БлЕсТеТь."])
     Empty([])
 
 CommonEvent 5
@@ -68,12 +68,12 @@ Name = "EV005"
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])
-    ShowText(["「何か書いてますね・・・」"])
+    ShowText(["«Что-то написано...»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ｺﾉｾ－ｶｲﾊ－ｱｲﾃﾑｶﾞﾋｶ－ﾗﾅｲﾓﾉ－ﾓｱﾙ"])
+    ShowText(["В эТоМ мИ / рЕ пРеДмЕ / тЫ мОгУт Не / БлЕсТеТь."])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[10]Путин\\C[0]"])
-    ShowText(["「・・・？」"])
+    ShowText(["«?..»"])
     ControlVariables([3, 3, 0, 0, 47])
     Empty([])
 

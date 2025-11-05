@@ -160,7 +160,7 @@ Name = "EV006"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([518, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["技量達磨を手に入れた！"])
+    ShowText(["Нашла даруму техники!"])
     Empty([])
 
   Page 1

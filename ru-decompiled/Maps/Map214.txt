@@ -98,7 +98,7 @@ Name = "EV004"
     ShowText(["「うぃうぃ」"])
     ShowPicture([11, "立ち絵：レモン通常", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["レモン"])
+    ShowText(["\\C[17]Лемон\\C[0]"])
     ShowText(["「まぁ適当にやるわ」"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
@@ -139,7 +139,7 @@ Name = "EV005"
   Page 1
     ShowPicture([11, "立ち絵：レモン通常２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["レモン"])
+    ShowText(["\\C[17]Лемон\\C[0]"])
     ShowText(["「ちょっと！どこに行くのよ！！」"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])

@@ -211,7 +211,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeItems([906, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["203の鍵を手に入れた！"])
+    ShowText(["Нашла ключ от 203!"])
     Empty([])
 
   Page 2
@@ -222,5 +222,5 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["せいかいのあおいぬいぐるみをはめよ"])
+    ShowText(["Поставь правильную синюю игрушку на место."])
     Empty([])

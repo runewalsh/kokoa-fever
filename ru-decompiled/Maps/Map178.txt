@@ -1,4 +1,4 @@
-Display Name = "小屋"
+Display Name = "Лачуга"
 Parallax Name = ""
 Note = ""
 
@@ -42,7 +42,7 @@ Name = "EV003"
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["「お金が足りません。"])
+        ShowText(["«Не хватает денег»."])
         Empty([])
       BranchEnd([])
       Empty([])
@@ -105,7 +105,7 @@ Name = "EV005"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([146, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★返し刃の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок двустороннего лезвия!"])
     Empty([])
 
   Page 1

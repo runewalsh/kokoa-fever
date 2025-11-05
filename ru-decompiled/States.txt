@@ -60,20 +60,20 @@ Note = ""
 
 State 7
 Icon Index = 23
-Message 1 = "はしびれて動けなくなった！"
-Message 2 = "を麻痺させた！"
-Message 3 = "は体がしびれて動けない！"
-Message 4 = "の麻痺が解けた！"
+Message 1 = " не может двигаться!"
+Message 2 = " получает паралич!"
+Message 3 = " всё ещё не может двигаться!"
+Message 4 = " снова может двигаться!"
 Name = "Паралич"
 Description = nil
 Note = ""
 
 State 8
 Icon Index = 24
-Message 1 = "はバランスを崩した！"
-Message 2 = "はバランスを崩した！"
-Message 3 = "はバランスを崩している……"
-Message 4 = "は体勢を立て直した！"
+Message 1 = " теряет равновесие!"
+Message 2 = " теряет равновесие!"
+Message 3 = " всё ещё не может вернуть равновесие..."
+Message 4 = " восстанавливает равновесие!"
 Name = "Оглушение"
 Description = nil
 Note = ""

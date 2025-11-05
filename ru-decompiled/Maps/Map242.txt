@@ -540,7 +540,7 @@ Name = "EV009"
     ShowPicture([10, "立ち絵：ココア通常", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「・・・おはよう」"])
+    ShowText(["«...Доброе утро»."])
     ShowPicture([12, "立ち絵：メイリー", 0, 0, -150, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["メイリー"])

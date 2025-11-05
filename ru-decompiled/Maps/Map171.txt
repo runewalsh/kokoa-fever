@@ -7,14 +7,14 @@ Name = "EV001"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ここから新しい世界に移動することができます"])
-    ShowChoices([["移動する", "移動しない"], 0])
-    When([0, "移動する"])
+    ShowText(["Отсюда можно переместиться в новый мир."])
+    ShowChoices([["Переместиться", "Не перемещаться"], 0])
+    When([0, "Переместиться"])
       ControlSwitches([17, 17, 1])
       CallCommonEvent([997])
       Empty([])
 
-    When([1, "移動しない"])
+    When([1, "Не перемещаться"])
       ControlSwitches([17, 17, 1])
       Empty([])
 
@@ -43,7 +43,7 @@ Name = "EV003"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([821, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["美人副官服・通常を手に入れた！"])
+    ShowText(["Нашла форму красавицы-адъютанта (обычную)!"])
     Empty([])
 
   Page 1
@@ -63,7 +63,7 @@ Name = "EV004"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([822, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["美人副官服・上着を手に入れた！"])
+    ShowText(["Нашла форму красавицы-адъютанта (жакет)!"])
     Empty([])
 
   Page 1
@@ -83,7 +83,7 @@ Name = "EV005"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([823, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["美人副官服・フルを手に入れた！"])
+    ShowText(["Нашла форму красавицы-адъютанта (полную)!"])
     Empty([])
 
   Page 1
@@ -103,7 +103,7 @@ Name = "EV006"
     ControlSelfSwitch(["A", 0])
     ChangeItems([913, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["クロウの部屋の鍵を手に入れた！"])
+    ShowText(["Нашла ключ от комнаты Кроу!"])
     Empty([])
 
   Page 1
@@ -123,7 +123,7 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["開放条件：３週目をクリアする"])
+    ShowText(["Условие открытия: пройти игру трижды."])
     Empty([])
 
   Page 1
@@ -134,7 +134,7 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["開放条件：４週目をクリアする"])
+    ShowText(["Условие открытия: пройти игру четырежды."])
     Empty([])
 
   Page 1
@@ -145,7 +145,7 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["開放条件：ここなのレベルが40以上"])
+    ShowText(["Условие открытия: уровень Коконы 40+."])
     Empty([])
 
   Page 1
@@ -220,7 +220,7 @@ Name = "EV020"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["開放条件：２週目をクリアする"])
+      ShowText(["Условие открытия: пройти игру дважды."])
       Empty([])
 
     BranchEnd([])
@@ -235,7 +235,7 @@ Name = "EV021"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["開放条件：３週目をクリアする"])
+      ShowText(["Условие открытия: пройти игру трижды."])
       Empty([])
 
     BranchEnd([])
@@ -250,7 +250,7 @@ Name = "EV022"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["開放条件：４週目をクリアする"])
+      ShowText(["Условие открытия пройти игру четырежды."])
       Empty([])
 
     BranchEnd([])
@@ -265,7 +265,7 @@ Name = "EV023"
   Page 0
     ConditionalBranch([6, -1, 8])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["開放条件：ここなのレベルが40以上"])
+      ShowText(["Условие открытия: уровень Коконы 40+."])
       Empty([])
 
     BranchEnd([])
@@ -301,7 +301,7 @@ Name = "EV027"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["イベントのカウントを初期化する部屋"])
+    ShowText(["В этой комнате можно сбросить счётчики событий."])
     Empty([])
 
 CommonEvent 28
@@ -318,7 +318,7 @@ Name = "EV028"
     ControlSelfSwitch(["A", 0])
     ChangeItems([915, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★星に願いをを手に入れた！"])
+    ShowText(["Нашла ★Желание звёздам!"])
     ControlSwitches([982, 982, 0])
     Empty([])
 
@@ -332,8 +332,8 @@ CommonEvent 29
 Name = "クロウ課題用"
 
   Page 0
-    ShowChoices([["特訓する！", "特に用はない"], 2])
-    When([0, "特訓する！"])
+    ShowChoices([["Спецкурс!", "Ничего особо не нужно"], 2])
+    When([0, "Спецкурс!"])
       ConditionalBranch([1, 4, 0, 1, 2])
         Script(["add_skilluseable(12,1)"])
         ScriptMore(["add_skilluseable(12,2)"])
@@ -373,7 +373,7 @@ Name = "クロウ課題用"
       BranchEnd([])
       Empty([])
 
-    When([1, "特に用はない"])
+    When([1, "Ничего особо не нужно"])
       Empty([])
 
     ChoicesEnd([])

@@ -889,8 +889,8 @@ Name = "警備兵士A"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["警備兵士A"])
-  ShowText(["「な、なんだ！？」"])
+  ShowText(["\\C[8]Стражник A\\C[0]"])
+  ShowText(["«Ч-чего?!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])

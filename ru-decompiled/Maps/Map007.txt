@@ -1,4 +1,4 @@
-Display Name = "小屋"
+Display Name = "Лачуга"
 Parallax Name = ""
 Note = ""
 
@@ -31,7 +31,7 @@ Name = "EV002"
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["「お金が足りません。"])
+        ShowText(["«Не хватает денег»."])
         Empty([])
       BranchEnd([])
       Empty([])

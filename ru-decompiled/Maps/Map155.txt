@@ -23,7 +23,7 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["２０１　野口"])
+    ShowText(["201 Ногучи"])
     Empty([])
 
 CommonEvent 4
@@ -31,7 +31,7 @@ Name = "EV004"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["２０２"])
+    ShowText(["202"])
     Empty([])
 
 CommonEvent 5
@@ -39,7 +39,7 @@ Name = "EV005"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["２０３"])
+    ShowText(["203"])
     Empty([])
 
 CommonEvent 6

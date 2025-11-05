@@ -1,4 +1,4 @@
-Display Name = "Прямоград"
+Display Name = "Кубоград"
 Parallax Name = ""
 Note = ""
 

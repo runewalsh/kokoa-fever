@@ -86,7 +86,7 @@ Name = "EV005"
     ShowPicture([11, "立ち絵：ここな", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「今日も頑張るぞー♪」"])
+    ShowText(["«Сегодня снова выложусь на полную♪»"])
     ErasePicture([11])
     Empty([])
 

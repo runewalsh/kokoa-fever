@@ -16,7 +16,7 @@ Name = "ココア奥義"
     ConditionalBranch([1, 24, 0, 1, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["«...Козырь в рукаве!»"])
+      ShowText(["«...У меня есть козырь в рукаве!»"])
       Empty([])
 
     Else([])

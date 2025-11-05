@@ -49,7 +49,7 @@ Name = "EV005"
     Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
     ShowPicture([10, "立ち絵：レモン通常", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["レモン"])
+    ShowText(["\\C[17]Лемон\\C[0]"])
     ShowText(["「本当に面倒だったわね。けどこれで今回の依頼は達成になるわ"])
     ShowText(["　次は新しいダンジョンの調査をしないといけないのよ"])
     ShowText(["　さっさと片付けましょう」"])
