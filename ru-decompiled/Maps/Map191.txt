@@ -1,4 +1,4 @@
-Display Name = "ヘタレダンジョン"
+Display Name = "Подземелье для лохов"
 Parallax Name = ""
 Note = ""
 

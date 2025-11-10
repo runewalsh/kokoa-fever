@@ -318,7 +318,7 @@ Name = "EV028"
     ControlSelfSwitch(["A", 0])
     ChangeItems([915, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Нашла ★Желание звёздам!"])
+    ShowText(["Нашла ★желание звёздам!"])
     ControlSwitches([982, 982, 0])
     Empty([])
 

@@ -1,4 +1,4 @@
-Display Name = "アジト４"
+Display Name = "База повстанцев 4"
 Parallax Name = ""
 Note = ""
 
@@ -198,7 +198,7 @@ Name = "EV013"
     ControlSelfSwitch(["A", 0])
     ChangeItems([987, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["呪術師の日記を手に入れた！"])
+    ShowText(["Нашла дневник шамана!"])
     Empty([])
 
   Page 1

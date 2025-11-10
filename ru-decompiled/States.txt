@@ -300,11 +300,11 @@ Note = ""
 
 State 31
 Icon Index = 24
-Message 1 = "はバランスを崩した！"
-Message 2 = "はバランスを崩した！"
-Message 3 = "はバランスを崩している……"
-Message 4 = "は体勢を立て直した！"
-Name = "スタン"
+Message 1 = " теряет равновесие!"
+Message 2 = " теряет равновесие!"
+Message 3 = " всё ещё не может вернуть равновесие..."
+Message 4 = " восстанавливает равновесие!"
+Name = "Оглушение"
 Description = nil
 Note = ""
 
@@ -1000,10 +1000,10 @@ Note = ""
 
 State 101
 Icon Index = 105
-Message 1 = "は凍結状態になった！"
-Message 2 = "は凍結状態になった！"
+Message 1 = " покрывается льдом!"
+Message 2 = " покрывается льдом!"
 Message 3 = ""
-Message 4 = "の凍結が治った"
+Message 4 = " освобождается ото льда!"
 Name = "凍結"
 Description = ""
 Note = ""
@@ -1080,11 +1080,11 @@ Note = ""
 
 State 109
 Icon Index = 24
-Message 1 = "はバランスを崩した！"
-Message 2 = "はバランスを崩した！"
-Message 3 = "はバランスを崩している……"
-Message 4 = "は体勢を立て直した！"
-Name = "スタン"
+Message 1 = " теряет равновесие!"
+Message 2 = " теряет равновесие!"
+Message 3 = " всё ещё не может вернуть равновесие..."
+Message 4 = " восстанавливает равновесие!"
+Name = "Оглушение"
 Description = nil
 Note = ""
 

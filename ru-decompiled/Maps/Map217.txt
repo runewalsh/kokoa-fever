@@ -1,4 +1,4 @@
-Display Name = "アジト１"
+Display Name = "База повстанцев 1"
 Parallax Name = ""
 Note = ""
 
@@ -312,8 +312,8 @@ Name = "EV013"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["銀髪の戦士"])
-    ShowText(["「ここがこの街を脅かす犯罪者の巣窟ですか・・」"])
+    ShowText(["\\C[8]Сереброволосый воин\\C[0]"])
+    ShowText(["«Так это логово преступников, терроризирующих город...»"])
     Empty([])
 
   Page 1
@@ -324,8 +324,8 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["とろそうな冒険者"])
-    ShowText(["「あ～ん道に迷っちゃったよ～」"])
+    ShowText(["\\C[1]Тупенькая авантюристка\\C[0]"])
+    ShowText(["«А～хм, я сбилась с пути～»"])
     Empty([])
 
   Page 1

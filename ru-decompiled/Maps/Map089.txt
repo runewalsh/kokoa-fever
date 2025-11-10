@@ -83,7 +83,7 @@ Name = "EV005"
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[20]Дядя-шахтёр\\C[0]"])
     ShowText(["«Чтобы спасти людей, нужно спуститься на самый нижний уровень"])
-    ShowText([" и взорвать завал, преграждающий путь, этим динамитом."])
+    ShowText([" и взорвать завал, преграждающий путь, этим динамитом»."])
     SetMoveRoute([6, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])

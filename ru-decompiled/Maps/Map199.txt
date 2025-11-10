@@ -75,7 +75,7 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Кот"])
+    ShowText(["\\C[8]Кот\\C[0]"])
     ShowText(["«Мяу～»"])
     Empty([])
 
@@ -130,7 +130,7 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Корова"])
+    ShowText(["\\C[8]Корова\\C[0]"])
     ShowText(["«Му?»"])
     Empty([])
 

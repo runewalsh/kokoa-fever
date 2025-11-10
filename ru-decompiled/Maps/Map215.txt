@@ -23,8 +23,8 @@ Name = "EV003"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["商人"])
-    ShowText(["「いらっしゃい」"])
+    ShowText(["\\C[21]Торговец\\C[0]"])
+    ShowText(["«Добро пожаловать»."])
     ShopProcessing([1, 116, 0, 0, true])
     ShopItem([1, 117, 0, 0])
     ShopItem([1, 118, 0, 0])
@@ -58,8 +58,8 @@ Name = "EV003"
 
   Page 1
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["商人"])
-    ShowText(["「いらっしゃい」"])
+    ShowText(["\\C[21]Торговец\\C[0]"])
+    ShowText(["«Добро пожаловать»."])
     ShopProcessing([0, 99, 0, 0, true])
     ShopItem([0, 100, 0, 0])
     ShopItem([1, 133, 0, 0])

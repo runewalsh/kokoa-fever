@@ -1,4 +1,4 @@
-Display Name = "ヘタレワールド"
+Display Name = "Мир для лохов"
 Parallax Name = ""
 Note = ""
 

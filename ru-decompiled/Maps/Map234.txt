@@ -1,4 +1,4 @@
-Display Name = "触手の森２"
+Display Name = "Лес щупалец 2"
 Parallax Name = ""
 Note = ""
 

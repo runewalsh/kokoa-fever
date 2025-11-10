@@ -51,11 +51,11 @@ Name = "EV006"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【クロスディバイダー】"])
-    ShowText(["Элемент: физический　覇"])
+    ShowText(["【Поперечный разделитель】"])
+    ShowText(["Элемент: физический, подавление"])
     ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["速度と火力を両立させた安定度の高いスキル"])
+    ShowText(["Высоконадёжный навык, сочетающий скорость и урон."])
     Empty([])
 
 CommonEvent 7
@@ -76,12 +76,12 @@ Name = "EV008"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【強撃】"])
-    ShowText(["Элемент: физический　打"])
+    ShowText(["【Сокрушение】"])
+    ShowText(["Элемент: физический, дробящий"])
     ShowText(["Цель: одиночная"])
-    ShowText(["Накладывает: スタン　キャンセル"])
+    ShowText(["Накладывает: оглушение, отмена"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["強力な打撃攻撃により敵スキルをキャンセルする事が可能"])
+    ShowText(["Атака сокрушительным ударом может сорвать выполнение навыка\r\nпротивником."])
     Empty([])
 
 CommonEvent 9
@@ -151,11 +151,11 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【クロススラッシュ】"])
-    ShowText(["Элемент: физический　覇"])
+    ShowText(["【Перекрёстное рассечение】"])
+    ShowText(["Элемент: физический, подавление"])
     ShowText(["Цель: по всем"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["覇属性による火力安定度の高い全体スキル"])
+    ShowText(["Массовая атака элементом подавления с очень надёжным уроном."])
     Empty([])
 
 CommonEvent 15
@@ -175,12 +175,12 @@ Name = "EV016"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【フレイムエッジ】"])
-    ShowText(["Элемент: 物魔　火"])
+    ShowText(["【Огненное лезвие】"])
+    ShowText(["Элемент: физико-магический, огонь"])
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: ожог"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["汎用性の高い初歩的な魔剣スキル"])
+    ShowText(["Элементарный и высокоуниверсальный навык волшебного меча."])
     Empty([])
 
 CommonEvent 17
@@ -188,13 +188,13 @@ Name = "EV017"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【炎舞】"])
-    ShowText(["Элемент: 物魔　火"])
+    ShowText(["【Огненный танец】"])
+    ShowText(["Элемент: физико-магический, огонь"])
     ShowText(["Цель: одиночная"])
-    ShowText(["Накладывает: ожог　MDF_DN"])
+    ShowText(["Накладывает: ожог, снижение защиты от магии"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["フレイムエッジの強化版スキル"])
-    ShowText(["対象の魔法・物魔耐性を下げる事がある"])
+    ShowText(["Усиленный вариант огненного лезвия."])
+    ShowText(["Может понизить сопротивление магии и физико-магии."])
     Empty([])
 
 CommonEvent 18
@@ -202,11 +202,11 @@ Name = "EV018"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【デュアルエッジ】"])
-    ShowText(["Элемент: 物魔"])
+    ShowText(["【Парные лезвия】"])
+    ShowText(["Элемент: физико-магический"])
     ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["汎用性の高い通常魔剣スキル"])
+    ShowText(["Обычный высокоуниверсальный навык магического меча."])
     Empty([])
 
 CommonEvent 19
@@ -214,12 +214,12 @@ Name = "EV019"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【アイシクルブレード】"])
-    ShowText(["Элемент: 物魔　水"])
+    ShowText(["【Клинок-сосулька】"])
+    ShowText(["Элемент: физико-магический, вода"])
     ShowText(["Цель: одиночная"])
-    ShowText(["Накладывает: 凍結　AGI_DN"])
+    ShowText(["Накладывает: заморозку, снижение ловкости"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["火力こそ低いものの相手の行動を制限する効果が期待できるスキル"])
+    ShowText(["Навык с низким уроном,\r\nспособный ограничить действия противника."])
     Empty([])
 
 CommonEvent 20
@@ -228,7 +228,7 @@ Name = "EV020"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["【インパルスアサルト】"])
-    ShowText(["Элемент: 物魔　雷"])
+    ShowText(["Элемент: физико-магический, электро"])
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: электрошок"])
     ShowTextAttributes(["", 0, 0, 2])
@@ -252,12 +252,12 @@ Name = "EV022"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【凍刃招】"])
-    ShowText(["Элемент: 物魔　水"])
+    ShowText(["【Призыв ледяных лезвий】"])
+    ShowText(["Элемент: физико-магический, вода"])
     ShowText(["Цель: по всем"])
-    ShowText(["Накладывает: 凍結"])
+    ShowText(["Накладывает: заморозку"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["火力の高い物魔攻撃を繰り出す事が可能なスキル"])
+    ShowText(["Навык, позволяющий выполнять мощные физико-магические атаки."])
     Empty([])
 
 CommonEvent 23
@@ -266,7 +266,7 @@ Name = "EV023"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["【Шок】"])
-    ShowText(["Элемент: магия, электричество"])
+    ShowText(["Элемент: магия, электро"])
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: электрошок"])
     ShowTextAttributes(["", 0, 0, 2])
@@ -294,7 +294,7 @@ Name = "EV025"
     ShowText(["【アイスニードル】"])
     ShowText(["Элемент: 魔法　水"])
     ShowText(["Цель: 範囲分散"])
-    ShowText(["Накладывает: 凍結"])
+    ShowText(["Накладывает: заморозку"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["非常にHIT回数が多い範囲分散型魔法"])
     Empty([])
@@ -393,7 +393,7 @@ Name = "EV033"
     ShowText(["【アイシクルフィールド】"])
     ShowText(["Элемент: 魔法　水"])
     ShowText(["Цель: по всем"])
-    ShowText(["Накладывает: 凍結"])
+    ShowText(["Накладывает: заморозку"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["敵全体を襲う強力な魔法スキル"])
     Empty([])

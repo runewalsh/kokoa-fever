@@ -13,5 +13,5 @@ Name = "　ほっと２"
   BranchEnd([])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["スライム娘に膣を犯されました"])
+  ShowText(["Меня вагинально изнасиловала слизнедевочка."])
   Empty([])

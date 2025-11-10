@@ -16,7 +16,7 @@ Name = "EV001"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([149, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Нашла ★Значок рыцаря!"])
+    ShowText(["Нашла ★значок рыцаря!"])
     Empty([])
 
   Page 1

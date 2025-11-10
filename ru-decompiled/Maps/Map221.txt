@@ -1,4 +1,4 @@
-Display Name = "アジト３"
+Display Name = "База повстанцев 3"
 Parallax Name = ""
 Note = ""
 

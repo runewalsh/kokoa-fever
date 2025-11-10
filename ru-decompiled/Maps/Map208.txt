@@ -1,4 +1,4 @@
-Display Name = "オークの洞窟１"
+Display Name = "Пещера орков 1"
 Parallax Name = ""
 Note = ""
 
@@ -361,7 +361,7 @@ Name = "EV014"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([521, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["オークの紋章を手に入れた！"])
+    ShowText(["Нашла значок орка!"])
     Empty([])
 
   Page 1
@@ -447,14 +447,14 @@ Name = "EV018"
     ShowText(["「そこのオークさんオークさん！"])
     ShowText(["　私と交尾しませんか？」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["オーク"])
+    ShowText(["\\C[21]Орк\\C[0]"])
     ShowText(["「・・・・？」"])
     ShowPicture([1, "通常イベ：オーク誘惑２", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「もちろん種付けおっけー！孕むまでバンバンやっていいよ♥」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["オーク"])
+    ShowText(["\\C[21]Орк\\C[0]"])
     ShowText(["「これはまた物好きな淫乱メス豚が紛れこんだようだな」"])
     ErasePicture([1])
     SetMoveRoute([4, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
@@ -487,7 +487,7 @@ Name = "EV018"
     ShowText(["\\C[18]Кокона\\C[0]"])
     ShowText(["「もうオークさんのえっち♥」"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["オーク"])
+    ShowText(["\\C[21]Орк\\C[0]"])
     ShowText(["「へっへ・・たっぷり味わってやるからなぁ」"])
     ShowPicture([11, "立ち絵：ココア通常", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
@@ -545,7 +545,7 @@ Name = "EV018"
       ShowText(["\\C[18]Кокона\\C[0]"])
       ShowText(["「こうなったらやぶれかぶれよ！」"])
       ShowTextAttributes(["", 0, 0, 2])
-      ShowText(["オーク"])
+      ShowText(["\\C[21]Орк\\C[0]"])
       ShowText(["「・・・・？」"])
       FadeoutScreen([])
       PlaySE(["RPG::SE(@name=\"Slash1\", @pitch=100, @volume=80)"])

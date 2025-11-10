@@ -160,7 +160,7 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Сбросить число поражений от лягушкодевочек?"])
+    ShowText(["Сбросить число поражений от лягушкоженщин?"])
     ShowChoices([["Да", "Нет"], 2])
     When([0, "Да"])
       ControlVariables([112, 112, 0, 0, 0])

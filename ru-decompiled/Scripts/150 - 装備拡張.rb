@@ -1802,9 +1802,9 @@ class Window_Ex_EquipStatus < Window_EquipStatus
           when 5
             draw_str = "Зарядка TP"
           when 6
-            draw_str = "Физ. урон"
+            draw_str = "Получ. физ. урон"
           when 7
-            draw_str = "Маг. урон"
+            draw_str = "Получ. маг. урон"
           when 8
             draw_str = "Урон ловушек"
           when 9

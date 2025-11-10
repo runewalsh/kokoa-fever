@@ -19,6 +19,6 @@ Name = "　ぜりいぬ１"
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[25]Кокоа\\C[0]"])
-  ShowText(["«Э-хе... Э-хе-хе... ♥"])
-  ShowText([" Мои желейные пупсики... ♥»"])
+  ShowText(["«Э-хе... Э-хе-хе...♥"])
+  ShowText([" Мои желейные пупсики...♥»"])
   Empty([])

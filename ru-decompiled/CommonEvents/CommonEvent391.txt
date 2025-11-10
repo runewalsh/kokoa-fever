@@ -108,7 +108,7 @@ Name = "　ココア１"
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
             ShowText(["Пассивный навык"])
-            ShowText(["【必死避け】を習得した！"])
+            ShowText(["Освоила 【Отчаянный уворот】!"])
             ChangeSkills([0, 12, 0, 423])
             Empty([])
 
@@ -124,7 +124,7 @@ Name = "　ココア１"
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
             ShowText(["Пассивный навык"])
-            ShowText(["【命を大事に】を習得した！"])
+            ShowText(["Я теперь 【Ценю жизнь】!"])
             ChangeSkills([0, 12, 0, 425])
             Empty([])
 
@@ -140,7 +140,7 @@ Name = "　ココア１"
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
             ShowText(["Пассивный навык"])
-            ShowText(["【マイペース】を習得した！"])
+            ShowText(["Я теперь 【В своём темпе】!"])
             ChangeSkills([0, 12, 0, 421])
             Empty([])
 
@@ -156,7 +156,7 @@ Name = "　ココア１"
             ControlSwitches([204, 204, 0])
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
-            ShowText(["新しい可能性をひらめいた！"])
+            ShowText(["Замаячила новая возможность!"])
             Empty([])
 
           BranchEnd([])
@@ -187,7 +187,7 @@ Name = "　ココア１"
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
             ShowText(["Пассивный навык"])
-            ShowText(["【魔剣士の心得】を習得した！"])
+            ShowText(["Я теперь владею 【Навыками мага-мечника】!"])
             ChangeSkills([0, 12, 0, 424])
             Empty([])
 
@@ -203,7 +203,7 @@ Name = "　ココア１"
             ControlSwitches([221, 221, 0])
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
-            ShowText(["新しい可能性をひらめいた！"])
+            ShowText(["Замаячила новая возможность!"])
             Empty([])
 
           BranchEnd([])
@@ -218,7 +218,7 @@ Name = "　ココア１"
             ControlSwitches([222, 222, 0])
             PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
             ShowTextAttributes(["", 0, 0, 2])
-            ShowText(["新しい可能性をひらめいた！"])
+            ShowText(["Замаячила новая возможность!"])
             ControlSwitches([13, 13, 0])
             JumpToLabel(["40"])
             Empty([])
@@ -243,7 +243,7 @@ Name = "　ココア１"
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["Пассивный навык"])
-          ShowText(["【40↑】を習得した！"])
+          ShowText(["Я теперь 【40↑】!"])
           ChangeSkills([0, 12, 0, 429])
           Empty([])
 
@@ -274,7 +274,7 @@ Name = "　ココア１"
         Else([])
           PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
           ShowTextAttributes(["", 0, 0, 2])
-          ShowText(["新しい可能性を閃いた！"])
+          ShowText(["Замаячила новая возможность!"])
           ControlSwitches([223, 223, 0])
           Empty([])
 
@@ -377,7 +377,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【アダンダラキラー】を習得した！"])
+      ShowText(["Я теперь 【Убийца Адандары】!"])
       ChangeSkills([0, 12, 0, 427])
       Empty([])
 
@@ -409,7 +409,7 @@ Name = "　ココア１"
       PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["Пассивный навык"])
-      ShowText(["【無謀な子】を習得した！"])
+      ShowText(["Я теперь 【Безрассудный ребёнок】!"])
       ChangeSkills([0, 12, 0, 360])
       Empty([])
 

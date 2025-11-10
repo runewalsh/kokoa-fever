@@ -84,7 +84,7 @@ Name = "EV009"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([152, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★激怒の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок ярости!"])
     Empty([])
 
   Page 1

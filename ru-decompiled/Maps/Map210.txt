@@ -1,4 +1,4 @@
-Display Name = "繁殖場"
+Display Name = "Питомник"
 Parallax Name = ""
 Note = ""
 

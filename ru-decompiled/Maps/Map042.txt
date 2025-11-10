@@ -1,4 +1,4 @@
-Display Name = "ハーリス山道４－１"
+Display Name = "Харрисовская горная тропа 4—1"
 Parallax Name = ""
 Note = ""
 

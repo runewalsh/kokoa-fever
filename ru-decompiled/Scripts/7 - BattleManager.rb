@@ -315,7 +315,11 @@ module BattleManager
   #--------------------------------------------------------------------------
   def self.gain_gold
     if $game_troop.gold_total > 0
-      text = sprintf(Vocab::ObtainGold, $game_troop.gold_total)
+      obtain = Vocab::ObtainGold
+      if $game_party.name == "Кроу"
+        obtain = "Получил %s\\G!"
+      end
+      text = sprintf(obtain, $game_troop.gold_total)
       $game_message.add('\.' + text)
       $game_party.gain_gold($game_troop.gold_total)
     end

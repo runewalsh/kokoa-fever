@@ -1,4 +1,4 @@
-Display Name = "クロウの部屋"
+Display Name = "Комната Кроу"
 Parallax Name = ""
 Note = ""
 

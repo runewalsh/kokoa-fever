@@ -442,7 +442,7 @@ class Window_Base < Window
   #--------------------------------------------------------------------------
   # ● 職業の描画
   #--------------------------------------------------------------------------
-  def draw_actor_class(actor, x, y, width = 112)
+  def draw_actor_class(actor, x, y, width = 112 + 50)
     change_color(normal_color)
     draw_text(x, y, width, line_height, actor.class.name)
   end

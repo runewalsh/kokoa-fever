@@ -1,4 +1,4 @@
-Display Name = "紋章印店"
+Display Name = "Магазин печатей"
 Parallax Name = ""
 Note = ""
 
@@ -13,8 +13,8 @@ Name = "店主"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["店主"])
-    ShowText(["「うふふ・・いらっしゃい」"])
+    ShowText(["\\C[31]Хозяйка магазина\\C[0]"])
+    ShowText(["«У-ху-ху... Добро пожаловать»."])
     ShopProcessing([2, 485, 0, 0, true])
     ShopItem([2, 486, 0, 0])
     ShopItem([2, 487, 0, 0])
@@ -54,24 +54,24 @@ Name = "EV004"
     ShowPicture([10, "立ち絵：ココア戦闘", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「クロウの紹介で来た！」"])
+    ShowText(["«Я пришла по рекомендации Кроу!»"])
     ShotBalloonIcon([2, 1, false])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["店主"])
-    ShowText(["「あら・・そうなの・・・」"])
+    ShowText(["\\C[31]Хозяйка магазина\\C[0]"])
+    ShowText(["«О... Вот как...»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["店主"])
-    ShowText(["「へぇ～・・あなたの服が・・・そうなのね」"])
+    ShowText(["\\C[31]Хозяйка магазина\\C[0]"])
+    ShowText(["«Хэ-э～ ...Ваш костюм... Понятно»."])
     ShowPicture([10, "立ち絵：ココア戦闘２", 0, 0, 0, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「・・・・・？」"])
+    ShowText(["«... ..?»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["店主"])
-    ShowText(["「ゆっくり見て行ってちょうだい・・」"])
+    ShowText(["\\C[31]Хозяйка магазина\\C[0]"])
+    ShowText(["«Пожалуйста, осматривайтесь, не торопитесь...»"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「う、うぃ」"])
+    ShowText(["«У-угу»."])
     ErasePicture([10])
     ControlSwitches([21, 21, 0])
     ControlVariables([18, 18, 0, 0, 20])

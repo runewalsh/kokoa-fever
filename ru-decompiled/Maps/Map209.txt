@@ -1,4 +1,4 @@
-Display Name = "オークの洞窟２"
+Display Name = "Пещера орков 2"
 Parallax Name = ""
 Note = ""
 

@@ -1,4 +1,4 @@
-Display Name = "オークの洞窟３"
+Display Name = "Пещера орков 3"
 Parallax Name = ""
 Note = ""
 
@@ -327,7 +327,7 @@ Name = "EV016"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([155, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★木漏れ日の紋章を手に入れた！"])
+    ShowText(["★Нашла значок солнечных зайчиков!"])
     Empty([])
 
   Page 1
