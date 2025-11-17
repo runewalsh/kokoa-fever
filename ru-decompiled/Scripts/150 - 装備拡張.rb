@@ -1927,7 +1927,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
         if item.features[l].code == 61
           #項目を取得
           value = (item.features[l].value * 100).to_i
-          draw_list[@draw_counter] = "追加行動"+ value.to_s + "% "
+          draw_list[@draw_counter] = "Доп. действие " + value.to_s + "% "
           @draw_counter += 1
         end
       end

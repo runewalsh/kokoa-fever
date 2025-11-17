@@ -1070,11 +1070,11 @@ Note = ""
 
 State 108
 Icon Index = 104
-Message 1 = "は火傷をおった！"
+Message 1 = " получает ожог!"
 Message 2 = ""
 Message 3 = ""
-Message 4 = "の火傷が治った！"
-Name = "火傷"
+Message 4 = ": ожог проходит!"
+Name = "Ожог"
 Description = ""
 Note = ""
 
@@ -1101,7 +1101,7 @@ Note = ""
 State 111
 Icon Index = 35
 Message 1 = ""
-Message 2 = "の物理耐性が上昇した！"
+Message 2 = " устойчивее к физ. атакам!"
 Message 3 = ""
 Message 4 = ""
 Name = "ブレスー物理"
@@ -1110,11 +1110,11 @@ Note = ""
 
 State 112
 Icon Index = 1115
-Message 1 = "が衰弱状態になった！"
-Message 2 = "の防御能力が下がった"
+Message 1 = " ослабевает!"
+Message 2 = ": защита снижена!"
 Message 3 = ""
-Message 4 = "の衰弱が治った！"
-Name = "衰弱"
+Message 4 = " восстанавливается от слабости!"
+Name = "Слабость"
 Description = ""
 Note = ""
 

@@ -84,10 +84,10 @@ def search_executable(name, base_tries):
 	print("Нет " + name + ". Проверяемые пути:\n" + "\n".join(path.join(base, name) for base in base_tries))
 
 if (args.pngs or args.pngZ) and (oxipng_path := search_executable("oxipng.exe", [repo, "C:\\dev"])):
-	for base, folders, files in os.walk(path.normpath(path.join(game_inout, "Graphics"))):
+	for base, folders, files in os.walk(path.join(game_inout, "Graphics")):
 		for file_rel in files:
 			if not file_rel.endswith(".png"): continue
-			subprocess.run([oxipng_path, '-o6'] + (['-Z'] if args.pngZ else []) + [path.join(base, file_rel)])
+			subprocess.run([oxipng_path, '--strip', 'all', '-o6'] + (['-Z'] if args.pngZ else []) + [path.join(base, file_rel)])
 
 if args.wavs and (ffmpeg_path := search_executable("ffmpeg.exe", [repo])):
 	for old_fn_rel in ["Audio\\BGM\\04_Dance With Neo Age.wav"]:

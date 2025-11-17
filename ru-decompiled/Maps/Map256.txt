@@ -1,4 +1,4 @@
-Display Name = "レムリア遺跡６"
+Display Name = "Руины Лемурии 6"
 Parallax Name = ""
 Note = ""
 

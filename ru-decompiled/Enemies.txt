@@ -1032,7 +1032,7 @@ Note = "[レベル非表示]"
 
 Enemy 173
 Battler Name = "にょろん"
-Name = "Извивайшка"
+Name = "Извивайка"
 Description = ""
 Note = "[レベル非表示]\r\n<追加ドロップ W,260,2%>\r\n<追加ドロップ W,261,1%>\r\n<追加ドロップ W,262,1%>\r\n<追加ドロップ W,263,1%>\r\n<追加ドロップ W,264,1%>"
 
@@ -1080,19 +1080,19 @@ Note = "[レベル非表示]"
 
 Enemy 181
 Battler Name = "Warrior_f"
-Name = "女戦士"
+Name = "Воительница"
 Description = ""
 Note = "[レベル非表示]\r\n<ステータスポイント 3>"
 
 Enemy 182
 Battler Name = "Warrior_m"
-Name = "斧戦士"
+Name = "Воин с секирой"
 Description = ""
 Note = "[レベル非表示]\r\n<ステータスポイント 3>"
 
 Enemy 183
 Battler Name = "Captain"
-Name = "二刀重戦士"
+Name = "Тяжёлый воин с двумя мечами"
 Description = ""
 Note = "[レベル非表示]\r\n<ステータスポイント 10>"
 
@@ -1104,31 +1104,31 @@ Note = "[レベル非表示]"
 
 Enemy 185
 Battler Name = "狂子ちゃん"
-Name = "狂子ちゃん"
+Name = "Безумная Кёко"
 Description = ""
 Note = "[レベル非表示]\r\n<ステータスポイント 15>"
 
 Enemy 186
 Battler Name = "ブータカスタム"
-Name = "ブータカスタム"
+Name = "Спецсвинья"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 187
 Battler Name = "陸戦型ブータ"
-Name = "陸戦型ブータ"
+Name = "Свинья-пехотинец"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 188
 Battler Name = "ブータガードカスタム"
-Name = "ブータガードカスタム"
+Name = "Щитовая спецсвинья"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 189
 Battler Name = "ブタスナイパー"
-Name = "ブタスナイパー"
+Name = "Свинья-снайпер"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -1140,37 +1140,37 @@ Note = "[レベル非表示]"
 
 Enemy 191
 Battler Name = "Ghost"
-Name = "フードの男"
+Name = "Мужчина в капюшоне"
 Description = ""
 Note = "[レベル非表示]\r\n<ステータスポイント 40>"
 
 Enemy 192
 Battler Name = "ちんこミミズ達"
-Name = "Члено-черви"
+Name = "Клубок члено-червей"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 193
 Battler Name = "キャンサー"
-Name = "キャンサー"
+Name = "Опухоль"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 194
 Battler Name = "にゃだんだら"
-Name = "にゃだんだら"
+Name = "Нядандара"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 195
 Battler Name = "おたかいスキャラ"
-Name = "おたかいスキュラ"
+Name = "Надменная Сцилла"
 Description = ""
 Note = "<ステータスポイント 25>"
 
 Enemy 196
 Battler Name = "にゃだんだら"
-Name = "にゃだんだら"
+Name = "Нядандара"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -1212,7 +1212,7 @@ Note = "[レベル非表示]"
 
 Enemy 203
 Battler Name = "ヴェノム"
-Name = "ヴェノム"
+Name = "Веном"
 Description = ""
 Note = "[レベル非表示]\r\n<追加ドロップ W,276,2%>\r\n<追加ドロップ W,277,1%>\r\n<追加ドロップ W,278,1%>\r\n<追加ドロップ W,279,1%>\r\n<追加ドロップ W,280,1%>"
 
@@ -1236,7 +1236,7 @@ Note = "[レベル非表示]\r\n<追加ドロップ W,276,1%>\r\n<追加ドロ�
 
 Enemy 207
 Battler Name = "蟹"
-Name = "蟹"
+Name = "Краб"
 Description = ""
 Note = "[レベル非表示]\r\n<ステータスポイント 40>"
 
@@ -1260,7 +1260,7 @@ Note = "[レベル非表示]"
 
 Enemy 211
 Battler Name = "ちんこミミズ達"
-Name = "Члено-черви"
+Name = "Клубок члено-червей"
 Description = ""
 Note = "[レベル非表示]"
 

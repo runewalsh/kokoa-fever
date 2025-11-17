@@ -1,4 +1,4 @@
-Display Name = "試練の洞窟３"
+Display Name = "Пещера испытаний 3"
 Parallax Name = ""
 Note = ""
 

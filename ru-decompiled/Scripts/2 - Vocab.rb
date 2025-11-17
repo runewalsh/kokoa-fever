@@ -70,8 +70,8 @@ module Vocab
   Evasion         = "%s уворачивается от атаки!"
   MagicEvasion    = "%sは魔法を打ち消した！"
   MagicReflection = "%sは魔法を跳ね返した！"
-  CounterAttack   = "%sの反撃！"
-  Substitute      = "%sが%sをかばった！"
+  CounterAttack   = "%s атакует в ответ!"
+  Substitute      = "%s прикрывает собой (%s)."
 
   # 能力強化／弱体
   BuffAdd         = "%s: %s растёт!"

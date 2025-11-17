@@ -617,7 +617,7 @@ class Window_SPLearningList < Window_Base
           y = 24*(i-linemax+1)   if i >  linemax
           if i <= 2*linemax
             if WD_skillpoint_ini::Nolearn_display == false
-              draw_item_name($data_skills[skill_id], x + 2, y, enabled = true)
+              draw_item_name($data_skills[skill_id], x + 2, y, enabled = true, width = 172 - 8)
             else
               if (@actor.skill_learn?($data_skills[skill_id])) != true
                  self.contents.draw_text(x + 36, y, 172, 24, WD_skillpoint_ini::Nolearn_text, 0)

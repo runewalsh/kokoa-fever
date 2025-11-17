@@ -816,7 +816,7 @@ Page 0
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[4]Человек с большим мечом\\C[0]"])
-  ShowText(["«Не может быть... Вот так»."])
+  ShowText(["«Не может быть... Чтобы здесь...»"])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -1333,16 +1333,16 @@ Name = "女戦士"
 Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["女戦士"])
-  ShowText(["「容赦はしないんだからっ！」"])
+  ShowText(["\\C[2]Воительница\\C[0]"])
+  ShowText(["«Смотри, пощады не будет!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["女戦士"])
-  ShowText(["「そんなことって・・」"])
+  ShowText(["\\C[2]Воительница\\C[0]"])
+  ShowText(["«Да как же так...»"])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -1352,16 +1352,16 @@ Name = "斧戦士"
 Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["斧戦士"])
-  ShowText(["「おっすオラ斧戦士！いっちょやってみっか！？」"])
+  ShowText(["\\C[7]Воин с секирой\\C[0]"])
+  ShowText(["«Эй, у меня секира! Ну чё, помахаемся?!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["斧戦士"])
-  ShowText(["「おーのー」"])
+  ShowText(["\\C[7]Воин с секирой\\C[0]"])
+  ShowText(["«Кира... се...»"])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 
@@ -1371,15 +1371,15 @@ Name = "二刀重戦士"
 Page 0
   ChangeEnemyState([-1, 0, 10])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["二刀重戦士"])
-  ShowText(["「ふん・・・女が大会に出るなという」"])
+  ShowText(["\\C[22]Тяжёлый воин с двумя мечами\\C[0]"])
+  ShowText(["«Хм... Говорят, женщинам на соревнованиях не место»."])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["二刀重戦士"])
+  ShowText(["\\C[22]Тяжёлый воин с двумя мечами\\C[0]"])
   ShowText(["«Пгхра-»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
@@ -1398,10 +1398,10 @@ Name = "狂子ちゃん"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["狂子ちゃん"])
-  ShowText(["「ふひひひひひひっ！！！"])
-  ShowText(["　私を殺しに来たのね！！！"])
-  ShowText(["　でも残念～、死ぬのはあなたよ！！！！！！！！」"])
+  ShowText(["\\C[10]Безумная Кёко\\C[0]"])
+  ShowText(["«Фхи-хи-хи-хи-хи-хи!!!"])
+  ShowText([" Пришла убить меня, да!!!"])
+  ShowText([" Но какая жалость～, это ты умрёшь!!!»"])
   ControlSwitches([17, 17, 0])
   Empty([])
 
@@ -1411,8 +1411,8 @@ Page 1
 
 Page 2
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["狂子ちゃん"])
-  ShowText(["「ちっ・・・小ざかしい！！！」"])
+  ShowText(["\\C[10]Безумная Кёко\\C[0]"])
+  ShowText(["«Чёрт... Наглая мерзавка!!!»"])
   Empty([])
 
 Troop 160
@@ -1478,8 +1478,8 @@ Name = "フードの男"
 Page 0
   ChangeState([0, 0, 0, 30])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["フードの男"])
-  ShowText(["「たまにいるんだよな。こういう事しちゃうお客さんが」"])
+  ShowText(["\\C[25]Мужчина в капюшоне\\C[0]"])
+  ShowText(["«Да, иногда попадаются. Клиенты, выкидывающие подобное»."])
   ControlSwitches([17, 17, 0])
   Empty([])
 
@@ -1504,8 +1504,8 @@ Name = "にゃだんだら"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["にゃだんだら"])
-  ShowText(["「にゃにゃっと解決！にゃにゃんだら！！」"])
+  ShowText(["\\C[31]Нядандара\\C[0]"])
+  ShowText(["«Отняшу и всего делов! Я Отняндара!!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
@@ -1515,8 +1515,8 @@ Name = "にゃだんだら"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["にゃだんだら"])
-  ShowText(["「にゃにゃっと解決！にゃにゃんだら！！」"])
+  ShowText(["\\C[31]Нядандара\\C[0]"])
+  ShowText(["«Отняшу и всего делов! Я Отняндара!!»"])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
   Empty([])
@@ -1526,8 +1526,8 @@ Name = "おたかいスキャラ"
 
 Page 0
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["おたかいスキャラ"])
-  ShowText(["「・・・・なによっ」"])
+  ShowText(["\\C[31]Надменная Сцилла\\C[0]"])
+  ShowText(["«...Чего тебе?»"])
   ChangeEnemyState([-1, 0, 10])
   ChangeState([0, 0, 0, 30])
   ControlSwitches([17, 17, 0])
@@ -1535,8 +1535,8 @@ Page 0
 
 Page 1
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["おたかいスキャラ"])
-  ShowText(["「べ、別に悔しくないんだからっ」"])
+  ShowText(["\\C[31]Надменная Сцилла\\C[0]"])
+  ShowText(["«Я в-вовсе не расстроена, не думай»."])
   ChangeEnemyState([-1, 1, 10])
   Empty([])
 

@@ -10,4 +10,4 @@ else:
 for base, folders, files in os.walk(path.normpath(path.join(path.dirname(__file__), "..\\ru-root\\Graphics"))):
 	for file_rel in files:
 		if not file_rel.endswith(".png"): continue
-		subprocess.run([oxipng_path, '-o6'] + (['-Z'] if '-noZ' not in sys.argv[1:] else []) + [path.join(base, file_rel)])
+		subprocess.run([oxipng_path, '--strip', 'all', '-o6'] + (['-Z'] if '-noZ' not in sys.argv[1:] else []) + [path.join(base, file_rel)])

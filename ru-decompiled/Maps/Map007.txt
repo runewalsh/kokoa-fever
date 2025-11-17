@@ -31,7 +31,7 @@ Name = "EV002"
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["«Не хватает денег»."])
+        ShowText(["Не хватает денег."])
         Empty([])
       BranchEnd([])
       Empty([])

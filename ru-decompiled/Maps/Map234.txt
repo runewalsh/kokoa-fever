@@ -200,7 +200,7 @@ Name = "EV007"
     ControlSelfSwitch(["A", 0])
     ChangeItems([93, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Pエリクサーを手に入れた！"])
+    ShowText(["Нашла А-эликсир!"])
     Empty([])
 
   Page 1

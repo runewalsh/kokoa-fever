@@ -1,4 +1,4 @@
-Display Name = "レムリア遺跡５"
+Display Name = "Руины Лемурии 5"
 Parallax Name = ""
 Note = ""
 
@@ -230,7 +230,7 @@ Name = "EV027"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([527, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["猛獣ベルトを手に入れた！"])
+    ShowText(["Нашла пояс зверя!"])
     Empty([])
 
   Page 1

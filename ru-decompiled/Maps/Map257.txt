@@ -1,4 +1,4 @@
-Display Name = "レムリア遺跡７"
+Display Name = "Руины Лемурии 7"
 Parallax Name = ""
 Note = ""
 
@@ -38,10 +38,10 @@ Name = "EV004"
       FadeinScreen([])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[18]Кокона\\C[0]"])
-      ShowText(["「な・・なんとか勝てたわね・・・」"])
+      ShowText(["«Хух... Кое-как справилась...»"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[18]Кокона\\C[0]"])
-      ShowText(["「・・・・これで帰れる」"])
+      ShowText(["«...Теперь можно возвращаться»."])
       ShotBalloonIcon([-1, 6, true])
       ControlVariables([3, 3, 0, 0, 290])
       FadeoutScreen([])

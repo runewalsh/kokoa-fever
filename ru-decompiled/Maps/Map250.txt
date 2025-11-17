@@ -1,4 +1,4 @@
-Display Name = "レムリア遺跡入口"
+Display Name = "Вход в руины Лемурии"
 Parallax Name = ""
 Note = ""
 

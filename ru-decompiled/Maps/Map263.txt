@@ -1,4 +1,4 @@
-Display Name = "トリー湿原４"
+Display Name = "Топи Тори 4"
 Parallax Name = ""
 Note = ""
 
@@ -24,7 +24,7 @@ Name = "EV002"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([164, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★節約の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок экономии!"])
     Empty([])
 
   Page 1

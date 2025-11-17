@@ -32,7 +32,7 @@ Name = "EV004"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「このダンジョンを攻略するまで帰れないわ」"])
+    ShowText(["«Мне нельзя возвращаться, пока не пройду это подземелье»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
     Empty([])
@@ -74,11 +74,11 @@ Name = "EV007"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「ここが課題のダンジョン入り口ね・・・・・。"])
-    ShowText(["　奥にいるダンジョンボスを倒せばいいんだけど」"])
+    ShowText(["«Это вход в подземелье по заданию..."])
+    ShowText([" Мне нужно победить босса в его глубине»."])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「倒すまで帰れないのはキツイわね・・・」"])
+    ShowText(["«И до победы возвращаться нельзя, жесть..."])
     ShotBalloonIcon([-1, 6, true])
     ControlVariables([3, 3, 0, 0, 282])
     Empty([])

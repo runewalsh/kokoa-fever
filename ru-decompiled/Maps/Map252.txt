@@ -1,4 +1,4 @@
-Display Name = "レムリア遺跡２"
+Display Name = "Руины Лемурии 2"
 Parallax Name = ""
 Note = ""
 
@@ -1332,7 +1332,7 @@ Name = "EV022"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([913, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["赤盟の護符を手に入れた！"])
+    ShowText(["Нашла талисман Алого союза!"])
     Empty([])
 
   Page 1

@@ -81,7 +81,7 @@ Name = "EV008"
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: оглушение, отмена"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Атака сокрушительным ударом может сорвать выполнение навыка\r\nпротивником."])
+    ShowText(["Атака сокрушительным ударом может\r\nсорвать выполнение навыка противником."])
     Empty([])
 
 CommonEvent 9
@@ -102,11 +102,11 @@ Name = "EV010"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【連】"])
+    ShowText(["【Серия】"])
     ShowText(["Элемент: физический, режущий"])
     ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["発生・硬直が長いスキルだがそれだけに威力が期待できる高火力スキル"])
+    ShowText(["Мощный навык с долгим применением и высокой задержкой,\r\nно и соответствующей разрушительной силой."])
     Empty([])
 
 CommonEvent 11
@@ -163,11 +163,11 @@ Name = "EV015"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【乱舞斬】"])
+    ShowText(["【Буйный танец меча】"])
     ShowText(["Элемент: физический, режущий"])
-    ShowText(["Цель: 範囲分散"])
+    ShowText(["Цель: случайные"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["非常に強力な長剣用範囲分散スキル"])
+    ShowText(["Чрезвычайно сильный навык длинного меча,\r\nатакуюший случайные цели."])
     Empty([])
 
 CommonEvent 16
@@ -293,7 +293,7 @@ Name = "EV025"
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["【アイスニードル】"])
     ShowText(["Элемент: 魔法　水"])
-    ShowText(["Цель: 範囲分散"])
+    ShowText(["Цель: случайные"])
     ShowText(["Накладывает: заморозку"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["非常にHIT回数が多い範囲分散型魔法"])
@@ -306,7 +306,7 @@ Name = "EV026"
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["【サンダーボルト】"])
     ShowText(["Элемент: 魔法　雷"])
-    ShowText(["Цель: 範囲分散"])
+    ShowText(["Цель: случайные"])
     ShowText(["Накладывает: электрошок"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["アイスニードルと比べると火力こそ劣るものの"])

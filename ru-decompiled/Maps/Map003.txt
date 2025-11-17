@@ -88,7 +88,7 @@ Name = "EV003"
   Page 1
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「・・・・・留守？」"])
+    ShowText(["«... ...Никого нет?»"])
     Empty([])
 
 CommonEvent 4

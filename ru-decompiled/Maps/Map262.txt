@@ -1,4 +1,4 @@
-Display Name = "トリー湿原３"
+Display Name = "Топи Тори 3"
 Parallax Name = ""
 Note = ""
 
@@ -250,7 +250,7 @@ Name = "nikki"
     ControlSelfSwitch(["A", 0])
     ChangeItems([985, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["将軍の日記を手に入れた！"])
+    ShowText(["Нашла дневник генерала!"])
     Empty([])
 
   Page 1
