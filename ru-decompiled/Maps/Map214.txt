@@ -40,7 +40,7 @@ Name = "クロウ"
     When([1, "Пока держусь!"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[7]Кроу\\C[0]"])
-      ShowText(["«Понятно»."])
+      ShowText(["«Ну смотри»."])
       ErasePicture([11])
       Empty([])
 
@@ -66,7 +66,7 @@ Name = "クロウ"
     When([1, "Пока держусь!"])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[7]Кроу\\C[0]"])
-      ShowText(["«Понятно»."])
+      ShowText(["«Ну смотри»."])
       ErasePicture([11])
       Empty([])
 
@@ -160,7 +160,7 @@ Name = "EV006"
     ControlSelfSwitch(["A", 0])
     ChangeItems([986, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔砲士の日記を手に入れた！"])
+    ShowText(["Нашла дневник мага-артиллериста!"])
     Empty([])
 
   Page 1
@@ -246,11 +246,11 @@ Name = "EV008"
     ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
-    ShowText(["「すでにギルドと魔法協会の戦力が敵アジトに進攻している"])
-    ShowText(["　俺たちもコレに遅れず行動を開始する」"])
+    ShowText(["«Силы гильдии и магической организации уже штурмуют"])
+    ShowText([" базу врага. Мы тоже должны действовать по плану\r\n без промедления»."])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「うん」"])
+    ShowText(["«Угу»."])
     FadeoutScreen([])
     ErasePicture([11])
     FadeinScreen([])

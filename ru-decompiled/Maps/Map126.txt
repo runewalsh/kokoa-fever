@@ -1,4 +1,4 @@
-Display Name = "トリア森道１"
+Display Name = "Дорога в лесу Тория 1"
 Parallax Name = ""
 Note = ""
 
@@ -238,7 +238,7 @@ Name = "EV014"
     ControlSelfSwitch(["A", 0])
     ChangeItems([74, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["リポビダンZ/中を手に入れた！"])
+    ShowText(["Нашла липовидан Z/средний!"])
     Empty([])
 
   Page 1

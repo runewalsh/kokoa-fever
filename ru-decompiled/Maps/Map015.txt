@@ -31,9 +31,9 @@ Name = "EV003"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[18]Кокона\\C[0]"])
-    ShowText(["「休もうかな・・？」"])
-    ShowChoices([["はい", "いいえ"], 2])
-    When([0, "はい"])
+    ShowText(["«Поспать, что ли?..»"])
+    ShowChoices([["Да", "Нет"], 2])
+    When([0, "Да"])
       ConditionalBranch([7, 0, 0])
         ChangeGold([1, 0, 0])
         FadeoutScreen([])
@@ -45,12 +45,12 @@ Name = "EV003"
         Empty([])
       Else([])
         ShowTextAttributes(["", 0, 0, 2])
-        ShowText(["「お金が足りません。"])
+        ShowText(["Не хватает денег."])
         Empty([])
       BranchEnd([])
       Empty([])
 
-    When([1, "いいえ"])
+    When([1, "Нет"])
       Empty([])
 
     ChoicesEnd([])

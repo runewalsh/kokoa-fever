@@ -27,10 +27,10 @@ module Vocab
 
   # 戦闘基本メッセージ
   Emerge          = "Против вас %s!"
-  Preemptive      = "%sは先手を取った！"
-  Surprise        = "%sは不意をつかれた！"
+  Preemptive      = "%s застаёт противника врасплох!"
+  Surprise        = "%s застигнута врасплох!"
   EscapeStart     = "%s убегает!"
-  EscapeFailure   = "しかし逃げることはできなかった！"
+  EscapeFailure   = "...А нет, не убегает!"
 
   # 戦闘終了メッセージ
   Victory         = "%s побеждает!"

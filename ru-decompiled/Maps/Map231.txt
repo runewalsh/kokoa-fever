@@ -16,7 +16,7 @@ Name = "EV001"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([819, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔導精練服を手に入れた！"])
+    ShowText(["Нашла изящный волшебный костюм!"])
     Empty([])
 
   Page 1
@@ -36,7 +36,7 @@ Name = "EV002"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([820, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["魔導精練服Ⅱを手に入れた！"])
+    ShowText(["Нашла изящный волшебный костюм Ⅱ!"])
     Empty([])
 
   Page 1
@@ -56,7 +56,7 @@ Name = "EV003"
     ControlSelfSwitch(["A", 0])
     ChangeWeapons([66, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["偽りの永遠を手に入れた！"])
+    ShowText(["Нашла Поддельную Вечность!"])
     Empty([])
 
   Page 1

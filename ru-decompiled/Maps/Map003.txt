@@ -51,7 +51,7 @@ Name = "EV003"
     ConditionalBranch([0, 72, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[25]Кокоа\\C[0]"])
-      ShowText(["「・・・・。」"])
+      ShowText(["«...»"])
       SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
       ExitEventProcessing([])
@@ -62,7 +62,7 @@ Name = "EV003"
       ConditionalBranch([1, 201, 0, 0, 0])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["\\C[18]Кокона\\C[0]"])
-        ShowText(["「こんな格好じゃ帰れないわ・・・・」"])
+        ShowText(["«Я не могу вернуться в таком виде...»"])
         SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
         Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
         ExitEventProcessing([])
@@ -185,7 +185,7 @@ Name = "EV011"
     ShowPicture([11, "立ち絵：クロウ１", 0, 0, -450, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[7]Кроу\\C[0]"])
-    ShowText(["«Э-э... Прости, хотел тебе кое-что сообщить»."])
+    ShowText(["«А нет, прости, вспомнил. Идём, кое-что тебе покажу»."])
     FadeoutScreen([])
     TransferPlayer([0, 4, 12, 17, 8, 0])
     ControlVariables([3, 3, 0, 0, 24])
@@ -270,7 +270,7 @@ Name = "EV016"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([145, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★再生の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок регенерации!"])
     Empty([])
 
   Page 1
@@ -358,7 +358,7 @@ Name = "EV022"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「こっちじゃない・・・」"])
+    ShowText(["«Мне не сюда...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])
@@ -372,7 +372,7 @@ Name = "EV023"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「こっちじゃない・・・」"])
+    ShowText(["«Мне не сюда...»"])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
     Empty([])

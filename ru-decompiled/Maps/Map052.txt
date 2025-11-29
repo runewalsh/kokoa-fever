@@ -1,4 +1,4 @@
-Display Name = "Дорога к Харрису 5－2"
+Display Name = "Дорога к Харрису 5—2"
 Parallax Name = ""
 Note = ""
 

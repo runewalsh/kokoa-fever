@@ -98,7 +98,7 @@ Name = "EV009"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["\\C[12]Авантюрист в мантии\\C[0]"])
+    ShowText(["\\C[12]Авантюрист в плаще\\C[0]"])
     ShowText(["«Бухать с утра — вот за что люблю наше дело↑»."])
     ShotBalloonIcon([-1, 6, false])
     Empty([])

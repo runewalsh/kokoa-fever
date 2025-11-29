@@ -143,7 +143,7 @@ MapInfo 48
 Name = "Дорога к Харрису 5"
 
 MapInfo 49
-Name = "Дорога к Харрису 5－1"
+Name = "Дорога к Харрису 5—1"
 
 MapInfo 50
 Name = "街・村"
@@ -152,7 +152,7 @@ MapInfo 51
 Name = "ダンジョン"
 
 MapInfo 52
-Name = "Дорога к Харрису 5－2"
+Name = "Дорога к Харрису 5—2"
 
 MapInfo 53
 Name = "スラム"

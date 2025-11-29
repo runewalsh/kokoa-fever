@@ -33,17 +33,9 @@ if args.tl or not (args.pngs or args.pngZ or args.wavs):
 
 	ru_root = path.join(repo, 'ru-root')
 
-	for base, folders, files in os.walk(ru_root):
-		for folder_rel in folders:
-			with suppress(OSError):
-				os.mkdir(rebase_path(path.join(base, folder_rel), ru_root, game_inout))
-		for file_rel in files:
-			file_full = path.join(base, file_rel)
-			link_or_copy(file_full, rebase_path(file_full, ru_root, game_inout))
-
 	wipe_folders = \
 	[
-		#'パッチノート',
+		'パッチノート',
 		#'開発メモ\\メモです',
 		#'開発メモ',
 	]
@@ -57,22 +49,55 @@ if args.tl or not (args.pngs or args.pngZ or args.wavs):
 		with suppress(OSError):
 			os.rmdir(folder_full)
 
-	wipe_files = \
-	[
-		'error_log20140109.txt',
-		#'能力値について.txt',
-		#'頂いた素材.txt',
-		'Game.rgss3a',
-		'Game.rgss3a.old',
-		'Graphics\\Pictures.zip'
-	]
-
-	for file_rel in wipe_files:
+	for rename_src, rename_dst in [
+		("###こまめにセーブ###.txt", "### Сохраняйтесь почаще ###.txt"),
+		("開発メモ\\メモです", "開発メモ\\Заметки"),
+		("開発メモ", "Заметки разработчика"),
+		("Заметки разработчика\\Заметки\\MAPイメージ0.8.jpg", "Заметки разработчика\\Заметки\\Карта мира 0.8.jpg")]:
 		with suppress(OSError):
-			os.remove(path.join(game_inout, file_rel))
+			os.rename(path.join(game_inout, rename_src), path.join(game_inout, rename_dst))
 
-	with suppress(OSError):
-		os.rename(path.join(game_inout, "###こまめにセーブ###.txt"), path.join(game_inout, "### Сохраняйтесь почаще ###.txt"))
+	wipe_files = \
+	{
+		'': [
+			'error_log20140109.txt',
+			'能力値について.txt',
+			'頂いた素材.txt',
+			'Game.rgss3a',
+			'Game.rgss3a.old',
+			'Graphics\\Pictures.zip',
+			'Audio\\BGM\\AlbumArtSmall.jpg',
+			'Audio\\BGM\\Folder.jpg',
+		],
+		'Заметки разработчика\\Заметки': [
+			'シナリオチャートAルート.odg',
+			'シナリオチャートBルート.odg',
+			'ここなスキル.txt',
+			'スキルメモ　奥義.txt',
+			'スキルメモ　物理　範囲.txt',
+			'スキルメモ物理単体.txt',
+			'スキルメモ特殊.txt',
+			'スキルメモ魔法.txt',
+			'プティンスキル.txt',
+			'レモンスキル.txt',
+			'職.txt',
+			'計算式.txt',
+			'雑記.txt',
+		]
+	}
+
+	for base, files in wipe_files.items():
+		for file_rel in files:
+			with suppress(OSError):
+				os.remove(path.join(game_inout, base, file_rel))
+
+	for base, folders, files in os.walk(ru_root):
+		for folder_rel in folders:
+			with suppress(OSError):
+				os.mkdir(rebase_path(path.join(base, folder_rel), ru_root, game_inout))
+		for file_rel in files:
+			file_full = path.join(base, file_rel)
+			link_or_copy(file_full, rebase_path(file_full, ru_root, game_inout))
 
 	with suppress(OSError):
 		link_or_copy(path.join(repo, "scaled\\bin\\Game (scaled).exe"), path.join(game_inout, "Game (scaled).exe"))

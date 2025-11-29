@@ -151,7 +151,7 @@ Name = "EV015"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([153, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★結界の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок барьера!"])
     Empty([])
 
   Page 1
@@ -171,7 +171,7 @@ Name = "EV016"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([162, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★必中の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок абсолютной меткости!"])
     Empty([])
 
   Page 1
@@ -183,7 +183,7 @@ Name = "EV017"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[24]Эльфийка\\C[0]"])
-    ShowText(["«Фух... Лес всё же успокаивает»"])
+    ShowText(["«Фух... Лес всё же успокаивает»."])
     Empty([])
 
 CommonEvent 18

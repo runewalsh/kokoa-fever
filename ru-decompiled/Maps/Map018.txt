@@ -246,7 +246,7 @@ Name = "EV009"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([121, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["Достала значок вакабы!"])
+    ShowText(["Нашла значок вакабы!"])
     Empty([])
 
   Page 1

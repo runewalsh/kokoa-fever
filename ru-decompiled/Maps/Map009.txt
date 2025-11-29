@@ -226,7 +226,7 @@ Name = "EV013"
         SetEventLocation([16, 0, 47, 34, 2])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["\\C[8]Стражник C\\C[0]"])
-        ShowText(["«Поздновато ты спохватилась!»"])
+        ShowText(["«Поздно же ты спохватилась!»"])
         SetMoveRoute([16, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[5])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
         Unnamed(["RPG::MoveCommand(@code=29, @parameters=[5])"])
         Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
@@ -294,7 +294,7 @@ Name = "EV013"
         ControlSwitches([17, 17, 1])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["\\C[8]Стражник A\\C[0]"])
-        ShowText(["«Ну как? Познала силу стражника?!»"])
+        ShowText(["«Ну как? Познала силу стражи?!»"])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["\\C[25]Кокоа\\C[0]"])
         ShowText(["«Пугю～...»"])
@@ -397,7 +397,7 @@ Name = "EV021"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([148, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★かめの紋章を手に入れた！"])
+    ShowText(["Нашла ★значок черепахи!"])
     Empty([])
 
   Page 1

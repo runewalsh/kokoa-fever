@@ -13,5 +13,5 @@ Name = "　２"
   BranchEnd([])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["カエル女に卵を植え付けられました"])
+  ShowText(["Лягушкоженщина отложила в меня икру."])
   Empty([])

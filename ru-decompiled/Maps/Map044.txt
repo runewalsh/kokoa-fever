@@ -1,4 +1,4 @@
-Display Name = "ハーリス山　山頂"
+Display Name = "Харрисовская гора, пик"
 Parallax Name = "Mountains5"
 Note = ""
 
@@ -24,7 +24,7 @@ Name = "EV002"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([156, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★鋼の紋章を手に入れた！"])
+    ShowText(["Нашла ★стальной значок!"])
     Empty([])
 
   Page 1

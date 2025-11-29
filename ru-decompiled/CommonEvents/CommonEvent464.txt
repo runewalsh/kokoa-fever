@@ -5,5 +5,5 @@ Name = "　２"
   ShowPicture([2, "Ｈイベント：マッサージ店４", 0, 0, 0, 0, 100, 100, 255, 0])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["気持ち良いマッサージをしてもらいました"])
+  ShowText(["Мне сделали приятный расслабляющий массаж."])
   Empty([])

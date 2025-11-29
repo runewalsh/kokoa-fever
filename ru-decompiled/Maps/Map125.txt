@@ -1,4 +1,4 @@
-Display Name = "巨大滝"
+Display Name = "Гигантский водопад"
 Parallax Name = ""
 Note = ""
 
@@ -148,7 +148,7 @@ Name = "EV019"
     ControlSelfSwitch(["A", 0])
     ChangeItems([997, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["吟遊詩人の日記を手に入れた！"])
+    ShowText(["Нашла дневник барда!"])
     Empty([])
 
   Page 1

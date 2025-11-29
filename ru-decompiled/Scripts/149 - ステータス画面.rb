@@ -32,7 +32,7 @@ module KURE
     
     #サブメニューの選択肢の表示名
     #EX_SUB_STATUS_MENU[1] = ["基本能力値(0)","特殊能力(1)","パーティー能力(2)","属性耐性(3)","ステート耐性(4)","習得中スキル(5)","フリースペース(6)"]
-    EX_SUB_STATUS_MENU[1] = ["Основные","Специальные","Групповые","Сопр. элементам","Сопр. эффектам","Изучаемые навыки","Свободно"]
+    EX_SUB_STATUS_MENU[1] = ["Основные","Специальные","Командные","Сопр. элементам","Сопр. эффектам","Изучаемые навыки","Свободно"]
     
     #サブメニューのページリスト(選択肢に表示される項目)
     VIEW_SUB_MENU[1] = [0,1,2,3,4]
@@ -713,7 +713,7 @@ class Window_k_ExStatus_Draw < Window_Base
   #--------------------------------------------------------------------------
   def page_1_3_draw
     draw_gauge(160,0, contents.width - 160, 1, mp_gauge_color2,crisis_color)
-    draw_text(160, 0, 300, line_height, "Характеристики группы")
+    draw_text(160, 0, 300, line_height, "Характеристики команды")
         
     draw_actor_party_features(@actor, 160, line_height * 1)
   end 
@@ -869,7 +869,7 @@ class Window_k_ExStatus_Draw < Window_Base
       #描画
       if flag != 0
         if flag == KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]
-          draw_str = "無効"
+          draw_str = "иммун."
         else
           value = 100 - (@actor.state_rate(KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1])*100).to_i
           draw_str = draw_value_s(value,0)
@@ -900,7 +900,7 @@ class Window_k_ExStatus_Draw < Window_Base
       #描画
       if flag != 0
         if flag == KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1]
-          draw_str = "無効"
+          draw_str = "иммун."
         else
           value = 100 - (@actor.state_rate(KURE::ExStatus::VIEW_STATE_REGIST[state_id - 1])*100).to_i
           draw_str = draw_value_s(value,0)
@@ -1346,7 +1346,7 @@ class Window_k_ExStatus_Draw < Window_Base
       for drow in 0..keep.size - 1
         if keep[drow]
           draw_str  = $data_states[keep[drow]].name
-          draw_list[draw_counter] = draw_str + "無効"
+          draw_list[draw_counter] = draw_str + " (нейтр.)"
           draw_counter += 1
         end
       end

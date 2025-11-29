@@ -1,4 +1,4 @@
-Display Name = "学区"
+Display Name = "Территория школы"
 Parallax Name = ""
 Note = ""
 

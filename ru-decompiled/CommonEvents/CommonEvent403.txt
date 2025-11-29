@@ -4,5 +4,5 @@ Name = "　通常２"
   ShowPicture([1, "魔物H：森スライム５", 0, 0, 0, 0, 100, 100, 255, 0])
   FadeinScreen([])
   ShowTextAttributes(["", 0, 0, 2])
-  ShowText(["Меня изнасиловали слизни!"])
+  ShowText(["Меня изнасиловал слизень!"])
   Empty([])

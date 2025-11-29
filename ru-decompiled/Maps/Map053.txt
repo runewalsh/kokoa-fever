@@ -106,11 +106,11 @@ Name = "EV014"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["怪しい男"])
-    ShowText(["「・・・・・」"])
+    ShowText(["\\C[25]Подозрительный мужчина\\C[0]"])
+    ShowText(["«...»"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["怪しい男"])
-    ShowText(["「・・・いや、ボクここでこうしてるのが好きなんですよ」"])
+    ShowText(["\\C[25]Подозрительный мужчина\\C[0]"])
+    ShowText(["«...Нет, мне просто нравится здесь вот так стоять»."])
     Empty([])
 
 CommonEvent 15

@@ -1542,7 +1542,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
     
     case @can_equip
     when 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31
-      draw_text(x + 5, y + contents.font.size * count, contents.width, contents.font.size, "Не достигнут требуемый уровень.")
+      draw_text(x + 5, y + contents.font.size * count, contents.width, contents.font.size, "Не выполнены требования к уровню.")
       count += 1
     end
     
@@ -1702,7 +1702,7 @@ class Window_Ex_EquipStatus < Window_EquipStatus
       for drow in 0..keep.size - 1
         if keep[drow]
           draw_str  = $data_states[keep[drow]].name
-          draw_list[@draw_counter] = draw_str + "無効"
+          draw_list[@draw_counter] = draw_str + " (нейтр.)"
           @draw_counter += 1
         end
       end

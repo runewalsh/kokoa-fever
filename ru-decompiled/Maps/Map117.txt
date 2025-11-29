@@ -167,7 +167,7 @@ Name = "EV010"
       ShowPicture([11, "立ち絵：クロウ5", 0, 0, -450, 0, 100, 100, 255, 0])
       ShowTextAttributes(["", 0, 0, 2])
       ShowText(["\\C[7]Кроу\\C[0]"])
-      ShowText(["«Это пропускает ненужные сложности»."])
+      ShowText(["«Они пропускают ненужные сложности»."])
       ErasePicture([11])
       SetMoveRoute([29, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[60])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
       Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
@@ -261,7 +261,7 @@ Name = "EV012"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[8]Стражник\\C[0]"])
-    ShowText(["「選手の関係者以外の立ち入りは禁じられています」"])
+    ShowText(["«Вход разрешён только для спортсменов и их помощников»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])
@@ -282,7 +282,7 @@ Name = "EV012"
         Else([])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["\\C[8]Стражник\\C[0]"])
-          ShowText(["«Сейчас соревнование не идёт»."])
+          ShowText(["«Сейчас соревнований не идёт»."])
           SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
           Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
           Empty([])
@@ -300,7 +300,7 @@ Name = "EV013"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[8]Стражник\\C[0]"])
-    ShowText(["「選手の関係者以外の立ち入りは禁じられています」"])
+    ShowText(["«Вход разрешён только для спортсменов и их помощников»."])
     SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
     Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
     Empty([])
@@ -321,7 +321,7 @@ Name = "EV013"
         Else([])
           ShowTextAttributes(["", 0, 0, 2])
           ShowText(["\\C[8]Стражник\\C[0]"])
-          ShowText(["«Сейчас соревнование не идёт»."])
+          ShowText(["«Сейчас соревнований не идёт»."])
           SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
           Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
           Empty([])
@@ -357,7 +357,7 @@ Name = "EV016"
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[13]Длинноволосый маг-мечник\\C[0]"])
-    ShowText(["«Сегодня я снова блистательно повергну всех своим\r\n убийственным умением, демонически-королевским пылающе-адским\r\n гибельным клинком в стиле красочной ночи»."])
+    ShowText(["«Сегодня я снова блистательно повергну всех своим\r\n убийственным умением, демонически-королевским\r\n пылающе-адским гибельным клинком в стиле красочной ночи»."])
     Empty([])
 
 CommonEvent 17

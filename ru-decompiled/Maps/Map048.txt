@@ -196,7 +196,7 @@ Name = "EV019"
     ControlSelfSwitch(["A", 0])
     ChangeItems([998, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["踊り子の日記を手に入れた！"])
+    ShowText(["Нашла дневник танцовщицы!"])
     Empty([])
 
   Page 1

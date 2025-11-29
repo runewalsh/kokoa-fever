@@ -816,7 +816,7 @@ Note = "[レベル非表示]"
 
 Enemy 137
 Battler Name = "スライムべス"
-Name = "ホットスライム娘"
+Name = "Горячая слизнедевочка"
 Description = ""
 Note = "[レベル非表示]\r\n20"
 
@@ -828,13 +828,13 @@ Note = "[レベル非表示]\r\n19"
 
 Enemy 139
 Battler Name = "さきゅばちゅ"
-Name = "さきゅばちゅ"
+Name = "Суккубчик"
 Description = ""
 Note = "[レベル非表示]"
 
 Enemy 140
 Battler Name = "さきゅばちゅ２"
-Name = "さきゅばちゅ"
+Name = "Суккубчик"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -882,7 +882,7 @@ Note = "[レベル非表示]"
 
 Enemy 148
 Battler Name = "ワタミン"
-Name = "ワタミン"
+Name = "Агент ресторана"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -900,7 +900,7 @@ Note = ""
 
 Enemy 151
 Battler Name = "ドム子"
-Name = "ドム子"
+Name = "MS-09 Dom"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -918,7 +918,7 @@ Note = "[レベル非表示]\r\n5"
 
 Enemy 154
 Battler Name = "ワタミン"
-Name = "Ватамин для лохов"
+Name = "Агент ресторана для лохов"
 Description = ""
 Note = "[レベル非表示]"
 
@@ -1218,7 +1218,7 @@ Note = "[レベル非表示]\r\n<追加ドロップ W,276,2%>\r\n<追加ドロ�
 
 Enemy 204
 Battler Name = "サハギン"
-Name = "サハギン"
+Name = "Сахагин"
 Description = ""
 Note = "[レベル非表示]\r\n<追加ドロップ W,276,1%>\r\n<追加ドロップ W,277,2%>\r\n<追加ドロップ W,278,1%>\r\n<追加ドロップ W,279,1%>\r\n<追加ドロップ W,280,1%>"
 

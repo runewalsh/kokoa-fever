@@ -1940,7 +1940,7 @@ Name = "EV251"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([151, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["金運の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок удачи в деньгах!"])
     Empty([])
 
   Page 1

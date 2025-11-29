@@ -244,7 +244,7 @@ Name = "EV009"
         ShowPicture([10, "立ち絵：プティン裸２", 0, 0, 0, 0, 100, 100, 255, 0])
         ShowTextAttributes(["", 0, 0, 2])
         ShowText(["\\C[10]Путин\\C[0]"])
-        ShowText(["«Я-я не сдамся!!"])
+        ShowText(["«Я-я не могу сдаться!!"])
         ShowText([" Мне есть куда возвращаться!!!»"])
         ControlVariables([3, 3, 0, 0, 61])
         Empty([])

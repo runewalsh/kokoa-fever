@@ -3,7 +3,7 @@ Icon Index = 17
 Message 1 = " падает!"
 Message 2 = " падает!"
 Message 3 = ""
-Message 4 = "は立ち上がった！"
+Message 4 = " встаёт!"
 Name = "При смерти"
 Description = nil
 Note = "ステート１番はＨＰが０になったときに自動的に付加されます。"
@@ -20,10 +20,10 @@ Note = ""
 
 State 3
 Icon Index = 19
-Message 1 = "は暗闇に閉ざされた！"
-Message 2 = "を暗闇に閉ざした！"
+Message 1 = " погружается во тьму!"
+Message 2 = " погружается во тьму!"
 Message 3 = ""
-Message 4 = "の暗闇が消えた！"
+Message 4 = " освобождается от тьмы!"
 Name = "Тьма"
 Description = nil
 Note = ""
@@ -200,8 +200,8 @@ Note = ""
 
 State 21
 Icon Index = 104
-Message 1 = "は炎の力を身にまとった。"
-Message 2 = "は炎の力を身にまとった。"
+Message 1 = " окутывается силой огня."
+Message 2 = " окутывается силой огня."
 Message 3 = ""
 Message 4 = ""
 Name = "Усил огня"
@@ -210,8 +210,8 @@ Note = ""
 
 State 22
 Icon Index = 105
-Message 1 = "は氷の力を身にまとった。"
-Message 2 = "は氷の力を身にまとった。"
+Message 1 = " окутывается силой воды."
+Message 2 = " окутывается силой воды."
 Message 3 = ""
 Message 4 = ""
 Name = "Усил воды"
@@ -220,8 +220,8 @@ Note = ""
 
 State 23
 Icon Index = 106
-Message 1 = "は雷の力を身にまとった。"
-Message 2 = "は雷の力を身にまとった。"
+Message 1 = " окутывается силой молнии."
+Message 2 = " окутывается силой молнии."
 Message 3 = ""
 Message 4 = ""
 Name = "Усил молнии"
@@ -390,7 +390,7 @@ Note = ""
 
 State 40
 Icon Index = 32
-Message 1 = "の体力が上昇した！"
+Message 1 = ": максимум HP повышен!"
 Message 2 = ""
 Message 3 = ""
 Message 4 = ""
@@ -693,7 +693,7 @@ Icon Index = 1109
 Message 1 = ""
 Message 2 = ""
 Message 3 = ""
-Message 4 = "の気合が解けた"
+Message 4 = ": боевой дух иссяк..."
 Name = "気合"
 Description = ""
 Note = ""
@@ -1024,7 +1024,7 @@ Message 1 = " получает электрический шок!"
 Message 2 = " получает электрический шок!"
 Message 3 = ""
 Message 4 = " оправляется от электрического шока!"
-Name = "Электрический шок"
+Name = "Электрошок"
 Description = ""
 Note = ""
 
@@ -1064,7 +1064,7 @@ Message 1 = " получает электрический шок!"
 Message 2 = ""
 Message 3 = ""
 Message 4 = " оправляется от электрического шока!"
-Name = "Электрический шок"
+Name = "Электрошок"
 Description = ""
 Note = ""
 
@@ -1094,7 +1094,7 @@ Message 1 = ": защита снижена!"
 Message 2 = ""
 Message 3 = ""
 Message 4 = ": защита восстановлена!"
-Name = "貫通"
+Name = "Сниж. защиты"
 Description = ""
 Note = ""
 
@@ -1130,10 +1130,10 @@ Note = ""
 
 State 114
 Icon Index = 19
-Message 1 = "は暗闇に閉ざされた！"
-Message 2 = "を暗闇に閉ざした！"
+Message 1 = " погружается во тьму!"
+Message 2 = " погружается во тьму!"
 Message 3 = ""
-Message 4 = "の暗闇が消えた！"
+Message 4 = " освобождается от тьмы!"
 Name = "暗闇"
 Description = nil
 Note = ""

@@ -48,7 +48,7 @@ Name = "EV003"
     ShotBalloonIcon([2, 1, true])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[8]Староста\\C[0]"])
-    ShowText(["«Такие маленькие гостьи..."])
+    ShowText(["«Надо же, какие маленькие гостьи..."])
     ShowText([" Ещё и в качестве посланников магической организации...»"])
     ShowPicture([11, "立ち絵E：ここな表情２", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])

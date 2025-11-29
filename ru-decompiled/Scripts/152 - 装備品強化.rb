@@ -1211,7 +1211,7 @@ class Window_k_Custom_Equip_Background < Window_Base
               draw_str = $data_states[data_id].name+ " (сопр.) "
               value = (100 - (value * 100).to_i).to_s + "%"   
             when 14
-              draw_str = $data_states[data_id].name+ "無効"
+              draw_str = $data_states[data_id].name+ " (нейтр.)"
               value = ""
             when 21
               draw_str = Vocab::param(data_id)
@@ -1502,7 +1502,7 @@ class Window_k_Custom_Equip_PopupWindow < Window_Base
           draw_str = $data_states[data_id].name+ " (сопр.) "
           value = (100 - (value * 100).to_i).to_s + "%"   
         when 14
-          draw_str = $data_states[data_id].name+ "無効"
+          draw_str = $data_states[data_id].name+ " (нейтр.)"
           value = ""
         when 21
           draw_str = Vocab::param(data_id)

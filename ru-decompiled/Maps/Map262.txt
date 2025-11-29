@@ -270,7 +270,7 @@ Name = "宝"
     ControlSelfSwitch(["A", 0])
     ChangeArmor([161, 0, 0, 1])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["★大鷹の紋章を手に入れた！"])
+    ShowText(["Нашла ★значок ястреба!"])
     Empty([])
 
   Page 1

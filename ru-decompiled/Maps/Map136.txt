@@ -1,4 +1,4 @@
-Display Name = "Грибной лес 1(2)"
+Display Name = "Грибной лес 1—2"
 Parallax Name = ""
 Note = ""
 

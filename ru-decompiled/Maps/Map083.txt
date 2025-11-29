@@ -79,10 +79,10 @@ Name = "EV008"
   Page 0
     ShowPicture([1, "立ち絵：チョコ", 0, 0, -400, 0, 100, 100, 255, 0])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["？？？"])
-    ShowText(["「お？」"])
+    ShowText(["\\C[25]???\\C[0]"])
+    ShowText(["«О?»"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["\\C[25]Кокоа\\C[0]"])
-    ShowText(["「お？」"])
+    ShowText(["«О?»"])
     ErasePicture([1])
     Empty([])

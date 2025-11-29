@@ -79,7 +79,7 @@ Name = "EV008"
     ShowText(["【Сокрушение】"])
     ShowText(["Элемент: физический, дробящий"])
     ShowText(["Цель: одиночная"])
-    ShowText(["Накладывает: оглушение, отмена"])
+    ShowText(["Накладывает: оглушение, отмену"])
     ShowTextAttributes(["", 0, 0, 2])
     ShowText(["Атака сокрушительным ударом может\r\nсорвать выполнение навыка противником."])
     Empty([])
@@ -114,12 +114,12 @@ Name = "EV011"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【殺】"])
-    ShowText(["Элемент: физический　突"])
+    ShowText(["【Убийство】"])
+    ShowText(["Элемент: физический, колющий"])
     ShowText(["Цель: одиночная"])
-    ShowText(["Накладывает: キャンセル"])
+    ShowText(["Накладывает: отмену"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["高火力の尖剣スキル"])
+    ShowText(["Навык с высоким уроном, рассчитанный на колющие мечи."])
     Empty([])
 
 CommonEvent 12
@@ -127,11 +127,11 @@ Name = "EV012"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【五月雨】"])
-    ShowText(["Элемент: физический　突"])
+    ShowText(["【Июльский дождь】"])
+    ShowText(["Элемент: физический, колющий"])
     ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["対象を滅多刺しにする尖剣多段スキル"])
+    ShowText(["Многоэтапный навык для колющих мечей,\r\nпронзающий цель несколько раз."])
     Empty([])
 
 CommonEvent 13
@@ -227,12 +227,12 @@ Name = "EV020"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【インパルスアサルト】"])
+    ShowText(["【Импульсный натиск】"])
     ShowText(["Элемент: физико-магический, электро"])
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: электрошок"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["非常に火力が高い魔剣スキル。"])
+    ShowText(["Навык волшебного меча с огромным уроном."])
     Empty([])
 
 CommonEvent 21
@@ -240,7 +240,7 @@ Name = "EV021"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【Один взмах】"])
+    ShowText(["【Один штрих】"])
     ShowText(["Элемент: физико-магический"])
     ShowText(["Цель: по всем"])
     ShowTextAttributes(["", 0, 0, 2])
@@ -291,12 +291,12 @@ Name = "EV025"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【アイスニードル】"])
-    ShowText(["Элемент: 魔法　水"])
+    ShowText(["【Ледяные иглы】"])
+    ShowText(["Элемент: магия, вода"])
     ShowText(["Цель: случайные"])
     ShowText(["Накладывает: заморозку"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["非常にHIT回数が多い範囲分散型魔法"])
+    ShowText(["Заклинание, запускающее множество атак по случайным целям."])
     Empty([])
 
 CommonEvent 26
@@ -304,13 +304,13 @@ Name = "EV026"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【サンダーボルト】"])
-    ShowText(["Элемент: 魔法　雷"])
+    ShowText(["【Удар молнии】"])
+    ShowText(["Элемент: магия, электро"])
     ShowText(["Цель: случайные"])
     ShowText(["Накладывает: электрошок"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["アイスニードルと比べると火力こそ劣るものの"])
-    ShowText(["速度が安定している多段範囲分散魔法"])
+    ShowText(["Многоэтапное заклинание, атакующее случайные цели."])
+    ShowText(["Уступает \"Ледяным иглам\" по урону,\r\nно обладает более предсказуемой скоростью."])
     Empty([])
 
 CommonEvent 27
@@ -318,12 +318,12 @@ Name = "EV027"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【フレイム】"])
-    ShowText(["Элемент: 魔法　火"])
+    ShowText(["【Пламя】"])
+    ShowText(["Элемент: магия, огонь"])
     ShowText(["Цель: одиночная"])
     ShowText(["Накладывает: ожог"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ファイアの上位魔法。その威力には安定感がある"])
+    ShowText(["Улучшенная версия \"Огня\" со стабильным уроном."])
     Empty([])
 
 CommonEvent 28
@@ -331,12 +331,12 @@ Name = "EV028"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【暗黒】"])
-    ShowText(["Элемент: 魔法　闇"])
+    ShowText(["【Тёмная стрела】"])
+    ShowText(["Элемент: магия, тьма"])
     ShowText(["Цель: одиночная"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ココアの心の闇が開放された証となる魔法"])
-    ShowText(["威力と速さではフレイムを上回る"])
+    ShowText(["Магия, свидетельствующая о тьме, поселившейся в сердце Кокоа."])
+    ShowText(["Превосходит \"Пламя\" по силе и скорости."])
     Empty([])
 
 CommonEvent 29
@@ -344,12 +344,12 @@ Name = "EV029"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【ファイアバースト】"])
-    ShowText(["Элемент: 魔法　火"])
+    ShowText(["【Огненный взрыв】"])
+    ShowText(["Элемент: магия, огонь"])
     ShowText(["Цель: по всем"])
     ShowText(["Накладывает: ожог"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ダメージにムラがある安定度が低い全体魔法"])
+    ShowText(["Нестабильное массовое заклинание с большим разбросом урона."])
     Empty([])
 
 CommonEvent 30
@@ -357,12 +357,12 @@ Name = "EV030"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【テンライ】"])
-    ShowText(["Элемент: 魔法　雷"])
+    ShowText(["【Гнев небес】"])
+    ShowText(["Элемент: магия, электро"])
     ShowText(["Цель: по всем"])
     ShowText(["Накладывает: электрошок"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["天の裁きに相応しい性能を誇る全体魔法"])
+    ShowText(["Заклинание по области, сила которого соответствует\r\nпредставлению о небесной каре."])
     Empty([])
 
 CommonEvent 31
@@ -370,11 +370,11 @@ Name = "EV031"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【ダークネス】"])
-    ShowText(["Элемент: 魔法　闇"])
+    ShowText(["【Тьма】"])
+    ShowText(["Элемент: магия, тьма"])
     ShowText(["Цель: по всем"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["ダメージ・速度よりは使い勝手を採用した全体魔法"])
+    ShowText(["Массовое заклинание, выбираемое не за урон или скорость,\r\nа за удобство использования."])
     Empty([])
 
 CommonEvent 32
@@ -390,12 +390,12 @@ Name = "EV033"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【アイシクルフィールド】"])
-    ShowText(["Элемент: 魔法　水"])
+    ShowText(["【Поле сосулек】"])
+    ShowText(["Элемент: магия, вода"])
     ShowText(["Цель: по всем"])
     ShowText(["Накладывает: заморозку"])
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["敵全体を襲う強力な魔法スキル"])
+    ShowText(["Сильный магический навык, поражающий всех врагов."])
     Empty([])
 
 CommonEvent 34
@@ -427,7 +427,7 @@ Name = "EV037"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【複合防御】"])
+    ShowText(["【Гибридная защита】"])
     Empty([])
 
 CommonEvent 38
@@ -2864,7 +2864,7 @@ Name = "EV076"
 
   Page 0
     ShowTextAttributes(["", 0, 0, 2])
-    ShowText(["【クレイアーマー】"])
+    ShowText(["【Глиняная броня】"])
     Empty([])
 
 CommonEvent 77

@@ -15,7 +15,7 @@ Name = "　通常"
   PlaySE(["RPG::SE(@name=\"Slash5\", @pitch=145, @volume=80)"])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[25]Кокоа\\C[0]"])
-  ShowText(["«А... А-а-а-а-а... А-а-а-й-й-й»."])
+  ShowText(["«А... А-а-а-а-а... А-а-ай-й-й»."])
   ShowTextAttributes(["", 0, 0, 2])
   ShowText(["\\C[25]Кокоа\\C[0]"])
   ShowText(["«Не надо, Кокоа противно, ай♥ Нет, хватит уже-е»."])
