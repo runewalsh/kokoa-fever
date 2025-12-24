@@ -1205,7 +1205,7 @@ Note = ""
 
 Item 242
 Name = "Красный цветок"
-Description = "Красный цветок。"
+Description = "Красный цветок."
 Note = ""
 
 Item 243
