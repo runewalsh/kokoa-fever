@@ -1,0 +1,38 @@
+CommonEvent 996
+Name = "★MAP復帰"
+
+  Script(["$game_map.name_display = false"])
+  ConditionalBranch([1, 504, 0, 0, 0])
+    TransferPlayer([1, 501, 502, 503, 8, 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 504, 0, 1, 0])
+      TransferPlayer([1, 501, 502, 503, 6, 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 504, 0, 2, 0])
+        TransferPlayer([1, 501, 502, 503, 2, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 504, 0, 3, 0])
+          TransferPlayer([1, 501, 502, 503, 4, 0])
+          Empty([])
+
+        Else([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Script(["$game_map.name_display = true"])
+  Empty([])

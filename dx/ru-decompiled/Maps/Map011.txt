@@ -1,0 +1,225 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "女性"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    FadeinScreen([])
+    Wait([80])
+    ControlSwitches([203, 203, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は山賊達の住処に拉致監禁された。"])
+    ShowText(["服は剥ぎ取られ金目の物は奪われ、大事な････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["両親とおばあちゃんが残してくれた学費まで奪われてしまった･･･。"])
+    ControlSwitches([6, 6, 1])
+    ChangeItems([901, 1, 0, 1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["どうしよう････。"])
+    ControlVariables([301, 301, 0, 0, 51])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["抵抗する"], 0])
+    When([0, "抵抗する"])
+      ControlVariables([302, 302, 0, 0, 10])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "山賊１"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["抵抗･･･するしかない。やれる事をやるしかない。"])
+    ShowText(["このままじゃ････私は山賊達に良くないことをされるのは明白だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["けれど、一体何をすれば良いのだろう････。"])
+    SetEventLocation([7, 0, 14, 16, 8])
+    ControlVariables([302, 302, 0, 0, 11])
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    ControlSwitches([203, 203, 1])
+    CallCommonEvent([39])
+    ShotBalloonIcon([-1, 1, true])
+    SetEventLocation([2, 0, 34, 1, 0])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["へへっ･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["や･････。"])
+    SetMoveRoute([4, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["こ、来ないで･････"])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Wait([20])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["や、やめて････もう、いや････"])
+    CallCommonEvent([301])
+    TransferPlayer([0, 11, 8, 11, 2, 0])
+    SetEventLocation([7, 0, 14, 12, 8])
+    Wait([60])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["あっ････あぁぁ････はぁんッ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["隣から女性の淫らな声が響き渡る････。"])
+    ShowText(["その声はここに監禁された女達の行く末を暗示しているかのようだった。"])
+    ControlSwitches([15, 15, 0])
+    ControlVariables([104, 104, 0, 0, 1])
+    ControlSwitches([203, 203, 0])
+    ShotBalloonIcon([-1, 8, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["このままじゃ････ダメ。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["でも････どうすればいいのかな･･･。"])
+    SetEventLocation([9, 0, 8, 18, 8])
+    SetMoveRoute([9, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=110, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["ふんっ･･･まだ諦めてないって顔だな。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["いいぜ･･･お前みたいな奴は変態貴族たちに高く売れるからな。"])
+    ShowText(["特別に手を出さないでおいてやるぜ。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["だけど覚悟するんだな。"])
+    ShowText(["変態貴族たちに売られるより俺達の相手をする方が"])
+    ShowText(["良かったって思えるだろうからよっ･･･。"])
+    SetMoveRoute([9, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Wait([60])
+    SetEventLocation([9, 0, 33, 34, 0])
+    ShotBalloonIcon([-1, 8, true])
+    FadeoutScreen([])
+    Wait([60])
+    ControlVariables([302, 302, 0, 0, 20])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "山賊２"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ControlSwitches([15, 15, 1])
+    SetEventLocation([7, 0, 8, 14, 8])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["それから数日が経った････。"])
+    ShowText(["あの山賊が言ったように私は手出しされなかったけれど"])
+    ShowText(["もう少しすれば私はどこかに売られてしまうのだろう･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男の声\\C[0]"])
+    ShowText(["おい･････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["声････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男の声\\C[0]"])
+    ShowText(["おい･････起きろ！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["声が聞こえる････"])
+    ShowText(["そうか、私は眠っていたのか････目を、覚まさないと････。"])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["やっと目を覚ましたか。"])
+    ShowText(["ほら･･･ついて来い。出荷の時間だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["（･･････何だか騒がしい？）"])
+    FadeoutScreen([])
+    Wait([60])
+    ControlVariables([302, 302, 0, 0, 21])
+    TransferPlayer([0, 14, 12, 28, 8, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

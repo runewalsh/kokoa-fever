@@ -1,0 +1,176 @@
+Display Name = "ココアの部屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    CallCommonEvent([942])
+    ErasePicture([20])
+    ErasePicture([50])
+    ConditionalBranch([4, 1, 2, 2])
+      ChangeActorClass([1, 3])
+      ChangeSkills([0, 1, 0, 50])
+      ChangeSkills([0, 1, 0, 52])
+      ChangeSkills([0, 1, 0, 23])
+      Empty([])
+
+    BranchEnd([])
+    CallCommonEvent([942])
+    ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+    ControlSwitches([201, 201, 0])
+    Wait([60])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ControlVariables([302, 302, 0, 0, 31])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 20, 21, 12, 2, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["少し休んでいこうかな・・・・？"])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["休んでいく", "やめておく"], 0])
+    When([0, "休んでいく"])
+      FadeoutScreen([])
+      SaveBGM([])
+      FadeoutBGM([1])
+      PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=90)"])
+      RecoverAll([0, 0])
+      Wait([450])
+      CallCommonEvent([940])
+      CallCommonEvent([942])
+      TransferPlayer([0, 21, 13, 8, 2, 0])
+      FadeinScreen([])
+      ReplayBGM([])
+      Empty([])
+
+    When([1, "やめておく"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Wait([60])
+    CallCommonEvent([942])
+    SetEventLocation([5, 0, 13, 10, 8])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["････きて。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["起きて、ココア起きて。"])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････ここな？"])
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あ。起きた。　おはようココア。"])
+    ShowPicture([51, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["彼女はここな。"])
+    ShowText(["クロウの仕事のお手伝いをしている。"])
+    ShowText(["私と同じ人獣の女の子だ。"])
+    ControlSwitches([15, 15, 0])
+    ControlVariables([104, 104, 0, 0, 1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････どうしたの？"])
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["街に行くよ。"])
+    ShowText(["クロウに頼まれたのよ。街を案内してやれって。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･街ってハーリスの？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["もちろんよ。"])
+    ShowText(["それじゃあ家の外で待ってるからね～！"])
+    FadeoutScreen([])
+    ErasePicture([51])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　イベントMAP【ハーリス東森】が開放されました！"])
+    ControlSwitches([402, 402, 0])
+    ControlVariables([302, 302, 0, 0, 61])
+    ControlSwitches([15, 15, 1])
+    SetEventLocation([5, 0, 35, 0, 0])
+    Wait([60])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([302, 302, 0, 0, 340])
+    CallCommonEvent([942])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････朝。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･･････身体が重い。"])
+    ShowText(["昨日は何でも上手くいきそうな感じだったのに"])
+    ShowText(["クロウに断られてからは何をやってもダメという感覚が"])
+    ShowText(["私の周りに纏わり付いている････。"])
+    ControlSwitches([15, 15, 0])
+    ControlVariables([104, 104, 0, 0, 4])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["これから････どうしよう。"])
+    FadeoutScreen([])
+    ControlSwitches([15, 15, 1])
+    ControlVariables([302, 302, 0, 0, 510])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])

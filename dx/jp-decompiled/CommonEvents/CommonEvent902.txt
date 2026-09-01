@@ -1,0 +1,65 @@
+CommonEvent 902
+Name = "●いちごの援護"
+
+  ControlVariables([401, 401, 0, 3, 3, 1, 4])
+  ControlVariables([402, 402, 0, 3, 3, 1, 2])
+  ControlVariables([402, 402, 3, 0, 100])
+  ControlVariables([402, 402, 4, 1, 401])
+  ConditionalBranch([1, 402, 0, 75, 2])
+    ConditionalBranch([4, 1, 6, 1])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 1, 120, 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ControlVariables([401, 401, 0, 3, 3, 5, 4])
+  ControlVariables([402, 402, 0, 3, 3, 5, 2])
+  ControlVariables([402, 402, 3, 0, 100])
+  ControlVariables([402, 402, 4, 1, 401])
+  ConditionalBranch([1, 402, 0, 75, 2])
+    ConditionalBranch([4, 5, 6, 1])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 5, 120, 1])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 1, 6, 1])
+    ConditionalBranch([4, 5, 6, 1])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 5, 121, -2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([4, 5, 6, 1])
+      ForceAction([1, 1, 121, -2])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 1, 121, -2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

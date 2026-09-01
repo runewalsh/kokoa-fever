@@ -1,0 +1,21 @@
+CommonEvent 23
+Name = "敵３"
+
+  ConditionalBranch([5, 2, 1, 70])
+    ConditionalBranch([5, 2, 1, 74])
+      ForceAction([1, 1, 66, 2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([5, 2, 1, 74])
+      ForceAction([0, 2, 62, 2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

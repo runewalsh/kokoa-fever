@@ -1,0 +1,68 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeinScreen([])
+    Wait([60])
+    ShotBalloonIcon([-1, 2, true])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["あれ････私、何してたんだっけ････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["思い出せない････。"])
+    ShowText(["おばあちゃんの残してくれたお金でハーリスの魔法学校に"])
+    ShowText(["通う予定だったんだっけ････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["････おかしい。"])
+    ShowText(["もっと色々あったはずなのに思い出せない････。"])
+    ErasePicture([50])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    ControlSwitches([201, 201, 0])
+    FadeinScreen([])
+    ControlVariables([302, 302, 0, 0, 12000])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    CallCommonEvent([39])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 256, 28, 25, 8, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    CallCommonEvent([39])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 257, 17, 24, 8, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["次の周回に行きますか？"])
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["いいえ", "次の周回に行く"], 1])
+    When([0, "いいえ"])
+      Empty([])
+
+    When([1, "次の周回に行く"])
+      CallCommonEvent([1001])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

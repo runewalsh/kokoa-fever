@@ -1,0 +1,7 @@
+Game Title = "新生ココアちゃんフィーバーDX"
+Currency Unit = "Yen"
+Title 1 Name = "Hexagram"
+Title 2 Name = "Fire"
+Battleback 1 Name = "bb_006a"
+Battleback 2 Name = ""
+Battler Name = "Skeleton"

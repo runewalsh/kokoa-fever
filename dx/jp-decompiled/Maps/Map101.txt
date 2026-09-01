@@ -1,0 +1,64 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "村長"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["村長"])
+    ShowText(["「家が広いのに誰も尋ねにこん・・・・村長寂しい」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ChangePartyMember([5, 1, 0])
+    SetEventLocation([1, 0, 12, 17, 8])
+    ErasePicture([20])
+    ErasePicture([51])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]村長\\C[0]"])
+    ShowText(["この村は小さな村じゃがキノコが名産でなぁ～････"])
+    ShowText(["それだと言うのに怪しげな集団がそのキノコを魔物に変えておるのじゃ"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["キノコが魔物に････？"])
+    ShowPicture([51, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]村長\\C[0]"])
+    ShowText(["信じられぬかも知れんが本当の事じゃ････"])
+    ShowText(["森にはキノコ型の魔物が徘徊しておるし、"])
+    ShowText(["すでに怪我人も出ておる。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]村長\\C[0]"])
+    ShowText(["教団･･･と言うのか？"])
+    ShowText(["奴等が森でキノコを魔物に変えておるのは明白じゃ！"])
+    ShowText(["頼む。なんとかしておくれ！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["分かった！"])
+    ShowText(["ココア達に任せておいて！！"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私達は村長の言う森へと向かったのだった････。"])
+    ControlVariables([325, 325, 0, 0, 10])
+    ErasePicture([20])
+    ErasePicture([51])
+    TransferPlayer([0, 103, 4, 35, 6, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

@@ -1,0 +1,117 @@
+CommonEvent 18
+Name = "連追撃"
+
+  CallCommonEvent([10])
+  ChangeState([0, 1, 0, 72])
+  PlaySE(["RPG::SE(@name=\"Ice4\", @pitch=100, @volume=95)"])
+  FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=136.0)", 60, false])
+  ConditionalBranch([4, 1, 6, 36])
+    ShowPicture([20, "50_ココア戦闘立ち絵裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ControlVariables([401, 401, 0, 2, 1, 5])
+    ConditionalBranch([1, 401, 0, 1, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["うぅ････。"])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 401, 0, 2, 0])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]ココア\\C[0]"])
+        ShowText(["お願い････当たって･･･。"])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 401, 0, 3, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["\\C[20]ココア\\C[0]"])
+          ShowText(["いい加減にしてよ･･･"])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 401, 0, 4, 0])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["\\C[20]ココア\\C[0]"])
+            ShowText(["･････。"])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 401, 0, 5, 0])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["\\C[20]ココア\\C[0]"])
+              ShowText(["こっちに来ないで････！"])
+              Empty([])
+
+            Else([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ShowPicture([20, "50_ココア戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ControlVariables([401, 401, 0, 2, 1, 5])
+    ConditionalBranch([1, 401, 0, 1, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["まだ行ける････！"])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 401, 0, 2, 0])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]ココア\\C[0]"])
+        ShowText(["もう一つ････！"])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 401, 0, 3, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["\\C[20]ココア\\C[0]"])
+          ShowText(["まだだよ･･･！"])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 401, 0, 4, 0])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["\\C[20]ココア\\C[0]"])
+            ShowText(["これで終わりじゃない･･･"])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 401, 0, 5, 0])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["\\C[20]ココア\\C[0]"])
+              ShowText(["･･･逃げても無駄。"])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ErasePicture([20])
+  Empty([])

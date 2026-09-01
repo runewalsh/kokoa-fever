@@ -1,0 +1,205 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 32, 6, 33, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 32, 6, 34, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 32, 6, 35, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 32, 6, 36, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 34, 19, 38, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 34, 20, 38, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      CallCommonEvent([943])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      CallCommonEvent([943])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 9
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ControlVariables([302, 302, 0, 0, 70])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ControlVariables([302, 302, 0, 0, 70])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ControlVariables([302, 302, 0, 0, 70])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 36, 25, 27, 4, 0])
+    FadeinScreen([])
+    ShotBalloonIcon([9, 1, false])
+    SetMoveRoute([9, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あっ、来た来た♪ 街はこの先すぐだよ！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････ハーリスの街、楽しみ！"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([51])
+    ControlVariables([302, 302, 0, 0, 71])
+    TransferPlayer([0, 45, 6, 13, 4, 0])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["雑貨屋さんだよ！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････。"])
+    ErasePicture([20])
+    TransferPlayer([0, 37, 12, 13, 8, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["武器屋"])
+    TransferPlayer([0, 38, 13, 13, 4, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["防具屋"])
+    TransferPlayer([0, 40, 14, 14, 8, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["靴屋"])
+    TransferPlayer([0, 45, 10, 12, 8, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["雑貨屋！"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここなは案内が下手だった。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([51])
+    TransferPlayer([0, 17, 43, 44, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

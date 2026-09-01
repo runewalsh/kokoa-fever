@@ -1,0 +1,5 @@
+CommonEvent 72
+Name = "いちご"
+
+  CallCommonEvent([73])
+  Empty([])

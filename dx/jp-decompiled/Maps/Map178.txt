@@ -1,0 +1,127 @@
+Display Name = "ココアの部屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ControlVariables([336, 336, 0, 0, 2100])
+    RecoverAll([0, 0])
+    PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=100)"])
+    Wait([400])
+    ErasePicture([20])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "10_ココアベースA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowPicture([21, "11_ココア服_寝巻き", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowPicture([22, "20_ココア表情困りA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････おしっこ。"])
+    ErasePicture([20])
+    ErasePicture([21])
+    ErasePicture([22])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    TransferPlayer([0, 177, 21, 12, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ControlVariables([336, 336, 0, 0, 2500])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=90, @volume=80)"])
+    ShotBalloonIcon([-1, 2, true])
+    ShowPicture([20, "10_ココアベースA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowPicture([21, "11_ココア服_寝巻き", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowPicture([22, "20_ココア表情C1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["あれ、扉の鍵閉めたっけ･･･？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["驚きのあまりよく覚えていない････。"])
+    ShowText(["私はここなの部屋の扉の鍵を閉めただろうか････。"])
+    ConditionalBranch([0, 210, 0])
+      ControlVariables([336, 336, 0, 0, 3000])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["確認する", "確認しない"], 0])
+    When([0, "確認する"])
+      ControlVariables([336, 336, 0, 0, 10000])
+      Empty([])
+
+    When([1, "確認しない"])
+      ControlVariables([336, 336, 0, 0, 3000])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ControlVariables([336, 336, 0, 0, 3010])
+    ShowPicture([22, "20_ココア表情B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･うん。きっと閉めたの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["眠くて仕方ない････早く布団に入ろう。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([21])
+    ErasePicture([22])
+    PlayME(["RPG::ME(@name=\"SC_item2\", @pitch=100, @volume=100)"])
+    Wait([480])
+    ChangePartyMember([5, 0, 0])
+    ChangePartyMember([1, 1, 0])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 179, 15, 10, 2, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    Comment(["確認する"])
+    ControlVariables([336, 336, 0, 0, 11000])
+    ShowPicture([22, "20_ココア表情A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････こういうのはしっかり確認しておくの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["閉めたにせよ閉めてないにせよ"])
+    ShowText(["確認しておく事は大切な事だ。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([21])
+    ErasePicture([22])
+    TransferPlayer([0, 177, 27, 14, 2, 0])
+    Empty([])
+
+  Page 4
+    Empty([])

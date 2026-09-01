@@ -1,0 +1,12 @@
+CommonEvent 1000
+Name = "周回ルームへ移動"
+
+  ConditionalBranch([0, 98, 0])
+    TransferPlayer([0, 234, 17, 23, 8, 0])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

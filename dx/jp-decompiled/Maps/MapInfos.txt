@@ -1,0 +1,771 @@
+MapInfo 1
+Name = "テストMAP"
+
+MapInfo 2
+Name = "ココアのスキル界"
+
+MapInfo 3
+Name = "オープニング"
+
+MapInfo 4
+Name = "ココアの祖母の家"
+
+MapInfo 5
+Name = "おばあちゃんの家"
+
+MapInfo 6
+Name = "近所の森"
+
+MapInfo 7
+Name = "近所の森１"
+
+MapInfo 8
+Name = "近所の森５"
+
+MapInfo 9
+Name = "馬車"
+
+MapInfo 10
+Name = "山賊達の根城"
+
+MapInfo 11
+Name = "捕虜の間"
+
+MapInfo 12
+Name = "EV"
+
+MapInfo 13
+Name = "捕虜の間"
+
+MapInfo 14
+Name = "通路"
+
+MapInfo 15
+Name = "外"
+
+MapInfo 16
+Name = "要塞都市ハーリス"
+
+MapInfo 17
+Name = "中央"
+
+MapInfo 18
+Name = "ギルド"
+
+MapInfo 19
+Name = "町外れ"
+
+MapInfo 20
+Name = "クロウの家"
+
+MapInfo 21
+Name = "ココアの部屋"
+
+MapInfo 22
+Name = "ここなの部屋"
+
+MapInfo 23
+Name = "風呂場"
+
+MapInfo 24
+Name = "クロウの部屋"
+
+MapInfo 25
+Name = "クロウの家　EV"
+
+MapInfo 26
+Name = "フリーMAP"
+
+MapInfo 27
+Name = "静かな森"
+
+MapInfo 28
+Name = "イベントMAP"
+
+MapInfo 29
+Name = "ハーリス東森"
+
+MapInfo 30
+Name = "１　EV"
+
+MapInfo 31
+Name = "１"
+
+MapInfo 32
+Name = "２"
+
+MapInfo 33
+Name = "３"
+
+MapInfo 34
+Name = "４"
+
+MapInfo 35
+Name = "救出"
+
+MapInfo 36
+Name = "５"
+
+MapInfo 37
+Name = "武器屋"
+
+MapInfo 38
+Name = "防具屋"
+
+MapInfo 39
+Name = "合成屋"
+
+MapInfo 40
+Name = "靴屋"
+
+MapInfo 41
+Name = "アクセサリー店"
+
+MapInfo 42
+Name = "換金所"
+
+MapInfo 43
+Name = "紋章屋"
+
+MapInfo 44
+Name = "魔法商店"
+
+MapInfo 45
+Name = "雑貨屋"
+
+MapInfo 46
+Name = "ハーリス西平原"
+
+MapInfo 47
+Name = "１"
+
+MapInfo 48
+Name = "洞窟"
+
+MapInfo 49
+Name = "２"
+
+MapInfo 50
+Name = "くだらな洞窟"
+
+MapInfo 51
+Name = "1"
+
+MapInfo 52
+Name = "２"
+
+MapInfo 53
+Name = "外"
+
+MapInfo 54
+Name = "何も無い空間"
+
+MapInfo 55
+Name = "スライムの洞窟"
+
+MapInfo 56
+Name = "１"
+
+MapInfo 57
+Name = "２"
+
+MapInfo 58
+Name = "３"
+
+MapInfo 59
+Name = "３"
+
+MapInfo 60
+Name = "脱出モード"
+
+MapInfo 61
+Name = "２"
+
+MapInfo 62
+Name = "１"
+
+MapInfo 63
+Name = "４"
+
+MapInfo 64
+Name = "信長書服店"
+
+MapInfo 65
+Name = "ハーリス夜通り"
+
+MapInfo 66
+Name = "信長書服店２階"
+
+MapInfo 67
+Name = "エロ具店"
+
+MapInfo 68
+Name = "山賊の根城"
+
+MapInfo 69
+Name = "EV用"
+
+MapInfo 70
+Name = "１　EV"
+
+MapInfo 71
+Name = "２"
+
+MapInfo 72
+Name = "敗北MAP"
+
+MapInfo 73
+Name = "３"
+
+MapInfo 74
+Name = "４"
+
+MapInfo 75
+Name = "５"
+
+MapInfo 76
+Name = "２"
+
+MapInfo 77
+Name = "３"
+
+MapInfo 78
+Name = "２－１"
+
+MapInfo 79
+Name = "あとかたづけ（商人の館）"
+
+MapInfo 80
+Name = "商人の館：2F"
+
+MapInfo 81
+Name = "商人の館：1F"
+
+MapInfo 82
+Name = "商人の館：B1"
+
+MapInfo 83
+Name = "山賊狩り"
+
+MapInfo 84
+Name = "１"
+
+MapInfo 85
+Name = "脱出１"
+
+MapInfo 86
+Name = "脱出２"
+
+MapInfo 87
+Name = "商人の館：B1　EV"
+
+MapInfo 88
+Name = "トイレ"
+
+MapInfo 89
+Name = "商人の館：2F　EV"
+
+MapInfo 90
+Name = "とある娼館の一室"
+
+MapInfo 91
+Name = "闘技場"
+
+MapInfo 92
+Name = "決闘場"
+
+MapInfo 93
+Name = "馬車２"
+
+MapInfo 94
+Name = "洞窟"
+
+MapInfo 95
+Name = "魔法協会"
+
+MapInfo 96
+Name = "魔法協会2階"
+
+MapInfo 97
+Name = "支部長室"
+
+MapInfo 98
+Name = "チョコレット村"
+
+MapInfo 99
+Name = "街MAP"
+
+MapInfo 100
+Name = "山奥の村チミテールEV"
+
+MapInfo 101
+Name = "村長の家：1F"
+
+MapInfo 102
+Name = "キノコの森"
+
+MapInfo 103
+Name = "１"
+
+MapInfo 104
+Name = "道場"
+
+MapInfo 105
+Name = "２階"
+
+MapInfo 106
+Name = "教会"
+
+MapInfo 107
+Name = "個室"
+
+MapInfo 108
+Name = "食事処"
+
+MapInfo 109
+Name = "宿屋"
+
+MapInfo 110
+Name = "２階"
+
+MapInfo 111
+Name = "２階　中"
+
+MapInfo 112
+Name = "１"
+
+MapInfo 113
+Name = "敗北MAP"
+
+MapInfo 114
+Name = "２"
+
+MapInfo 115
+Name = "3"
+
+MapInfo 116
+Name = "4"
+
+MapInfo 117
+Name = "5"
+
+MapInfo 118
+Name = "6"
+
+MapInfo 119
+Name = "小屋"
+
+MapInfo 120
+Name = "２"
+
+MapInfo 121
+Name = "３"
+
+MapInfo 122
+Name = "ここなの部屋　EV"
+
+MapInfo 123
+Name = "ハーリス南街道"
+
+MapInfo 124
+Name = "１"
+
+MapInfo 125
+Name = "２"
+
+MapInfo 126
+Name = "２－１"
+
+MapInfo 127
+Name = "小屋"
+
+MapInfo 128
+Name = "３"
+
+MapInfo 129
+Name = "お化けキノコ討滅戦"
+
+MapInfo 130
+Name = "１"
+
+MapInfo 131
+Name = "敗北MAP"
+
+MapInfo 132
+Name = "３"
+
+MapInfo 133
+Name = "２"
+
+MapInfo 134
+Name = "3"
+
+MapInfo 135
+Name = "２"
+
+MapInfo 136
+Name = "１"
+
+MapInfo 137
+Name = "カルボ鉱山"
+
+MapInfo 138
+Name = "１"
+
+MapInfo 139
+Name = "敗北MAP"
+
+MapInfo 140
+Name = "左２"
+
+MapInfo 141
+Name = "右２"
+
+MapInfo 142
+Name = "３"
+
+MapInfo 143
+Name = "地下１F　１"
+
+MapInfo 144
+Name = "地下１F　２"
+
+MapInfo 145
+Name = "地下２F　１"
+
+MapInfo 146
+Name = "地下２F　２"
+
+MapInfo 147
+Name = "右２"
+
+MapInfo 148
+Name = "闘技場　闘技中"
+
+MapInfo 149
+Name = "イベントMAP"
+
+MapInfo 150
+Name = "アダンダラ討伐戦"
+
+MapInfo 151
+Name = "ハーリス山道"
+
+MapInfo 152
+Name = "１"
+
+MapInfo 153
+Name = "２"
+
+MapInfo 154
+Name = "３"
+
+MapInfo 155
+Name = "４"
+
+MapInfo 156
+Name = "１"
+
+MapInfo 157
+Name = "夢"
+
+MapInfo 158
+Name = "１"
+
+MapInfo 159
+Name = "敗北後MAP"
+
+MapInfo 160
+Name = "回想ルーム"
+
+MapInfo 161
+Name = "オーク殲滅作戦"
+
+MapInfo 162
+Name = "１"
+
+MapInfo 163
+Name = "２"
+
+MapInfo 164
+Name = "３"
+
+MapInfo 165
+Name = "４"
+
+MapInfo 166
+Name = "５"
+
+MapInfo 167
+Name = "６"
+
+MapInfo 168
+Name = "７　監禁室"
+
+MapInfo 169
+Name = "新オークの巣"
+
+MapInfo 170
+Name = "新オークの巣１"
+
+MapInfo 171
+Name = "新オークの巣２"
+
+MapInfo 172
+Name = "新オークの巣３"
+
+MapInfo 173
+Name = "新オークの巣４"
+
+MapInfo 174
+Name = "新オークの巣５"
+
+MapInfo 175
+Name = "新オークの巣６"
+
+MapInfo 176
+Name = "町外れ１"
+
+MapInfo 177
+Name = "クロウの家　ここな発情イベ"
+
+MapInfo 178
+Name = "ココアの部屋"
+
+MapInfo 179
+Name = "ここなの部屋　EV"
+
+MapInfo 180
+Name = "ハーリス夜通り"
+
+MapInfo 181
+Name = "プレイルームA"
+
+MapInfo 182
+Name = "１"
+
+MapInfo 183
+Name = "黒犬撃退戦"
+
+MapInfo 184
+Name = "２"
+
+MapInfo 185
+Name = "３"
+
+MapInfo 186
+Name = "４"
+
+MapInfo 187
+Name = "コボルト洞窟"
+
+MapInfo 188
+Name = "１"
+
+MapInfo 189
+Name = "２"
+
+MapInfo 190
+Name = "１"
+
+MapInfo 191
+Name = "３"
+
+MapInfo 192
+Name = "教団制圧大作戦"
+
+MapInfo 193
+Name = "１"
+
+MapInfo 194
+Name = "２"
+
+MapInfo 195
+Name = "３"
+
+MapInfo 196
+Name = "４"
+
+MapInfo 197
+Name = "ココアの部屋"
+
+MapInfo 198
+Name = "５"
+
+MapInfo 199
+Name = "６"
+
+MapInfo 200
+Name = "７"
+
+MapInfo 201
+Name = "８"
+
+MapInfo 202
+Name = "９"
+
+MapInfo 203
+Name = "地下道"
+
+MapInfo 204
+Name = "１"
+
+MapInfo 205
+Name = "２"
+
+MapInfo 206
+Name = "３"
+
+MapInfo 207
+Name = "南下"
+
+MapInfo 208
+Name = "１"
+
+MapInfo 209
+Name = "洞窟１"
+
+MapInfo 210
+Name = "洞窟２"
+
+MapInfo 211
+Name = "マスティア北東森林４"
+
+MapInfo 212
+Name = "マスティア北東森林３"
+
+MapInfo 213
+Name = "マスティア北東森林２"
+
+MapInfo 214
+Name = "マスティア北東森林１"
+
+MapInfo 215
+Name = "マスティア街道東４"
+
+MapInfo 216
+Name = "森の小屋工房　EV"
+
+MapInfo 217
+Name = "森の小屋工房"
+
+MapInfo 218
+Name = "教祖を追って"
+
+MapInfo 219
+Name = "港町"
+
+MapInfo 220
+Name = "酒場"
+
+MapInfo 221
+Name = "魔王の塔"
+
+MapInfo 222
+Name = "魔王の塔"
+
+MapInfo 223
+Name = "島"
+
+MapInfo 224
+Name = "１"
+
+MapInfo 225
+Name = "2"
+
+MapInfo 226
+Name = "3"
+
+MapInfo 227
+Name = "4"
+
+MapInfo 228
+Name = "5"
+
+MapInfo 229
+Name = "エラトゥス西部森林１"
+
+MapInfo 230
+Name = "エラトゥス街道５"
+
+MapInfo 231
+Name = "はじまりの草原"
+
+MapInfo 232
+Name = "周回ルーム"
+
+MapInfo 233
+Name = "周回ルーム　門"
+
+MapInfo 234
+Name = "周回ルーム"
+
+MapInfo 235
+Name = "周回ルーム　1週目"
+
+MapInfo 236
+Name = "杏子の店"
+
+MapInfo 237
+Name = "換金所"
+
+MapInfo 238
+Name = "銀行"
+
+MapInfo 239
+Name = "風呂屋"
+
+MapInfo 240
+Name = "女湯着替え室"
+
+MapInfo 241
+Name = "女風呂"
+
+MapInfo 242
+Name = "鍵の部屋"
+
+MapInfo 243
+Name = "準備中の店"
+
+MapInfo 244
+Name = "プレイルームA"
+
+MapInfo 245
+Name = "売春宿中"
+
+MapInfo 246
+Name = "売春宿大"
+
+MapInfo 247
+Name = "マンション"
+
+MapInfo 248
+Name = "1階"
+
+MapInfo 249
+Name = "２階"
+
+MapInfo 250
+Name = "３階"
+
+MapInfo 251
+Name = "部屋"
+
+MapInfo 252
+Name = "部屋"
+
+MapInfo 253
+Name = "部屋"
+
+MapInfo 254
+Name = "プレイルームB"
+
+MapInfo 255
+Name = "プレイルームC"
+
+MapInfo 256
+Name = "回想ルーム"
+
+MapInfo 257
+Name = "討伐ルーム"
+

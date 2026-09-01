@@ -1,0 +1,240 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 4, 10, 23, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 4, 11, 23, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 8, 9, 6, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 8, 10, 6, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["・・・森を抜けて街道に出よう。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["魔法学校がある街は私の家からは遠い。"])
+    ShowText(["･･･定期便の馬車はここから少し歩いた所を通る。拾ってもらおう。"])
+    ControlVariables([301, 301, 0, 0, 4])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 7, 13, 6, 2, 0])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["おばあちゃんが好きだったベリーの木だ。"])
+    ShowText(["・・・採っていこうかな？"])
+    ControlVariables([301, 301, 0, 0, 6])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ControlVariables([301, 301, 0, 0, 5])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "ベリー"
+
+  Page 0
+    CallCommonEvent([970])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "ベリー"
+
+  Page 0
+    CallCommonEvent([970])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ControlSwitches([15, 15, 0])
+    ShowPicture([50, "200_他立ち絵：スライム", 0, 0, 0, 0, 100, 100, 255, 0])
+    Script(["m_dictionary_encount_switch_on(2)"])
+    ScriptMore(["m_dictionary_victory_switch_on(2)"])
+    ScriptMore(["m_dictionary_drop_switch_on(2, 0)"])
+    ScriptMore(["m_dictionary_drop_switch_on(2, 1)"])
+    ScriptMore(["m_dictionary_drop_switch_on(2, 2)"])
+    ScriptMore(["i_dictionary_switch_on(122)"])
+    ScriptMore(["i_dictionary_switch_on(123)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["いよいよ行かれるのですね。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["・・・うん。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["寂しくなりますね････でも仕方ありません。"])
+    ShowText(["頑張ってください。応援しています！"])
+    ControlVariables([104, 104, 0, 0, 3])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["・・・うん。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["この子は魔物だ。"])
+    ShowText(["・・・ちょっと見た目はアレだけど人に害が無い温厚な魔物だ。"])
+    ShowText(["祖母に引き取られてからの私の数少ない友達だった。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["貴方はこれからどうするの･･･？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["私も少ししたらここを離れようと思います。"])
+    ShowText(["そうですね･･･小さな島国にでも行ってみようと思います。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["そっか････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["ここでお別れですね。それではお互い頑張りましょう！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん････ありがとう。"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeSkills([0, 1, 0, 580])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["        　パッシブスキル【スライムの友】を習得した！"])
+    ErasePicture([50])
+    ControlSwitches([15, 15, 1])
+    ControlVariables([301, 301, 0, 0, 10])
+    Empty([])
+
+  Page 1
+    ShowPicture([50, "200_他立ち絵：スライム", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["ここでお別れですね。それではお互い頑張りましょう！"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]スライム\\C[0]"])
+    ShowText(["無視しないでくださいよ～"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]スライム\\C[0]"])
+    ShowText(["無視しないでくださいよ～"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ControlVariables([301, 301, 0, 0, 5])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ControlVariables([301, 301, 0, 0, 5])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ControlVariables([301, 301, 0, 0, 5])
+    Empty([])
+
+  Page 1
+    Empty([])

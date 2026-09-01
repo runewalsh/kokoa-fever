@@ -1,0 +1,125 @@
+Display Name = "魔法商店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 11, 44, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]店員\\C[0]"])
+    ShowText(["いらっしゃいませー"])
+    ControlVariables([401, 401, 0, 3, 3, 1, 0])
+    ConditionalBranch([1, 302, 0, 1400, 1])
+      ShopProcessing([0, 490, 0, 0, true])
+      ShopItem([0, 492, 1, 800])
+      ShopItem([0, 497, 1, 3000])
+      ShopItem([0, 494, 1, 500])
+      ShopItem([0, 914, 1, 1000])
+      ShopItem([0, 500, 1, 3000])
+      ShopItem([0, 501, 1, 3000])
+      ShopItem([0, 502, 1, 2800])
+      ShopItem([0, 503, 1, 1500])
+      ShopItem([0, 505, 1, 5000])
+      ShopItem([0, 506, 0, 0])
+      ShopItem([0, 915, 1, 2000])
+      ShopItem([0, 918, 1, 2000])
+      ShopItem([0, 486, 1, 10000])
+      ShopItem([0, 902, 1, 100000])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 302, 0, 600, 1])
+        ShopProcessing([0, 490, 0, 0, true])
+        ShopItem([0, 494, 1, 500])
+        ShopItem([0, 914, 1, 1000])
+        ShopItem([0, 500, 1, 3000])
+        ShopItem([0, 501, 1, 3000])
+        ShopItem([0, 502, 1, 2800])
+        ShopItem([0, 503, 1, 1500])
+        ShopItem([0, 505, 1, 5000])
+        ShopItem([0, 506, 0, 0])
+        ShopItem([0, 915, 1, 2000])
+        ShopItem([0, 918, 1, 2000])
+        ShopItem([0, 486, 1, 10000])
+        ShopItem([0, 902, 1, 100000])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 10, 1])
+          ShopProcessing([0, 490, 0, 0, true])
+          ShopItem([0, 494, 1, 500])
+          ShopItem([0, 914, 1, 1000])
+          ShopItem([0, 500, 1, 3000])
+          ShopItem([0, 501, 1, 3000])
+          ShopItem([0, 502, 1, 2800])
+          ShopItem([0, 503, 1, 1500])
+          ShopItem([0, 505, 1, 5000])
+          ShopItem([0, 506, 0, 0])
+          ShopItem([0, 915, 1, 2000])
+          ShopItem([0, 918, 1, 2000])
+          ShopItem([0, 902, 1, 100000])
+          Empty([])
+        Else([])
+          ShopProcessing([0, 490, 0, 0, true])
+          ShopItem([0, 914, 1, 1000])
+          ShopItem([0, 500, 1, 3000])
+          ShopItem([0, 501, 1, 3000])
+          ShopItem([0, 502, 1, 2800])
+          ShopItem([0, 503, 1, 1500])
+          ShopItem([0, 505, 1, 5000])
+          ShopItem([0, 506, 0, 0])
+          ShopItem([0, 915, 1, 2000])
+          ShopItem([0, 918, 1, 2000])
+          ShopItem([0, 902, 1, 100000])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]エルフ女性\\C[0]"])
+      ShowText(["魔法使いの人ってそういう格好の人いるけど、"])
+      ShowText(["アナタもそうなの････？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]エルフ女性\\C[0]"])
+    ShowText(["魔法って便利よね。"])
+    ShowText(["使えないって考えただけでも利便性が良く分かるわ。"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["よ、妖精さん！？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["妖精を入れておいたら自動復活とかしないもんかな・・"])
+    Empty([])

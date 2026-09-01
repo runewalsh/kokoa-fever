@@ -1,0 +1,22 @@
+CommonEvent 310
+Name = "ウォーリア敗北A"
+
+  FadeoutScreen([])
+  SaveBGM([])
+  ControlVariables([421, 421, 0, 0, 0])
+  CallCommonEvent([39])
+  CallCommonEvent([997])
+  ConditionalBranch([0, 904, 0])
+    CallCommonEvent([313])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([311])
+    Empty([])
+
+  BranchEnd([])
+  FadeoutScreen([])
+  ErasePicture([90])
+  FadeoutBGM([1])
+  Wait([60])
+  Empty([])

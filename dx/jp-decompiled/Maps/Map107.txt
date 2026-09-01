@@ -1,0 +1,88 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 106, 19, 20, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]シスター\\C[0]"])
+      ShowText(["貴方は身寄り･･･ありますか？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]シスター\\C[0]"])
+    ShowText(["ここでは身寄りの無い子供達を引き取っているのです。"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["わたしこの本大好きなのー"])
+    ShowText(["特に桃太郎が鬼を虐殺するシーンは何度見てもエクスタシー！"])
+    ShotBalloonIcon([-1, 6, false])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["私、こう見えても女の子なんだよ。"])
+    ShowText(["ここには男の子は入れないんだって。"])
+    ShowText(["なんでだろー？"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["うー･･･眠たいよぉ････"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]イケメン\\C[0]"])
+      ShowText(["あぁ･･･やっぱり少女は素晴らしい！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]イケメン\\C[0]"])
+    ShowText(["この施設に寄付している者です。"])
+    ShowText(["あぁ･･･この少女達の空気、素晴らしい！"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["しーっ！！"])
+    ShowText(["静かにしてよ！"])
+    ShowText(["今一人かくれんぼしてるんだから！！"])
+    Empty([])

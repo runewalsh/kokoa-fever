@@ -1,0 +1,6 @@
+CommonEvent 10
+Name = "コンボキャンセル"
+
+  ChangeState([0, 1, 1, 72])
+  ChangeState([0, 1, 1, 73])
+  Empty([])

@@ -1,0 +1,66 @@
+CommonEvent 13
+Name = "奥義A"
+
+  ConditionalBranch([4, 1, 6, 60])
+    PlaySE(["RPG::SE(@name=\"Ice4\", @pitch=100, @volume=95)"])
+    FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=136.0)", 60, false])
+    ShowPicture([20, "50_ココア戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ControlVariables([401, 401, 0, 2, 1, 5])
+    ConditionalBranch([1, 401, 0, 1, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["･････行くよ。"])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 401, 0, 2, 0])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]ココア\\C[0]"])
+        ShowText(["必殺･･･なの。"])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 401, 0, 3, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["\\C[20]ココア\\C[0]"])
+          ShowText(["これは凄く痛いの。"])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 401, 0, 4, 0])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["\\C[20]ココア\\C[0]"])
+            ShowText(["･･･とっておき。"])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 401, 0, 5, 0])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["\\C[20]ココア\\C[0]"])
+              ShowText(["とっておき･･･なの！"])
+              Empty([])
+
+            Else([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ErasePicture([20])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

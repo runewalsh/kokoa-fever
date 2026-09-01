@@ -1,0 +1,10 @@
+CommonEvent 1002
+Name = "　初期化"
+
+  FadeoutScreen([])
+  Script(["adv_self_switches(\"all\", \"all\", \"all\", false)"])
+  CallCommonEvent([940])
+  ControlVariables([301, 1500, 0, 0, 0])
+  ControlSwitches([401, 1500, 1])
+  CallCommonEvent([39])
+  Empty([])

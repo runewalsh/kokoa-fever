@@ -1,0 +1,60 @@
+CommonEvent 803
+Name = "　コボルトA　ココア"
+
+  ConditionalBranch([1, 212, 0, 0, 0])
+    ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココアダウンA1", 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 212, 0, 1, 0])
+      ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココアダウンA1", 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 212, 0, 2, 0])
+        ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココアダウンA2", 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 212, 0, 3, 0])
+          ChangeActorGraphic([1, "1_ココア裸", 0, "51_コボルト2", 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 212, 0, 4, 0])
+            ChangeActorGraphic([1, "1_ココア裸", 0, "51_コボルト3", 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 212, 0, 6, 0])
+              ChangeActorGraphic([1, "1_ココア裸", 0, "51_コボルト4", 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 212, 0, 8, 0])
+                ChangeActorGraphic([1, "1_ココア裸", 0, "51_コボルト6", 0])
+                Empty([])
+
+              Else([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

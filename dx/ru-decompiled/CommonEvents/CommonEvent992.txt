@@ -1,0 +1,15 @@
+CommonEvent 992
+Name = "偽ゲームオーバー"
+
+  FadeoutScreen([])
+  SaveBGM([])
+  FadeoutBGM([1])
+  ShowPicture([100, "1000_ゲームオーバー", 0, 0, 0, 0, 100, 100, 255, 0])
+  PlayME(["RPG::ME(@name=\"Gameover1\", @pitch=100, @volume=100)"])
+  FlashScreen(["Color(@red=0.0, @green=0.0, @blue=0.0, @alpha=255.0)", 350, false])
+  FadeinScreen([])
+  Wait([300])
+  Wait([150])
+  FadeoutScreen([])
+  ErasePicture([100])
+  Empty([])

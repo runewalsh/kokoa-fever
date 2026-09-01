@@ -1,0 +1,30 @@
+CommonEvent 305
+Name = "ゼリイヌA"
+
+  FadeoutScreen([])
+  ControlVariables([421, 421, 0, 0, 0])
+  CallCommonEvent([39])
+  CallCommonEvent([997])
+  ControlVariables([221, 221, 1, 0, 1])
+  ConditionalBranch([1, 221, 0, 1, 0])
+    CallCommonEvent([306])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 221, 0, 2, 0])
+      CallCommonEvent([306])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([307])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  FadeoutScreen([])
+  ErasePicture([90])
+  FadeoutBGM([1])
+  Wait([60])
+  Empty([])

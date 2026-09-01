@@ -1,0 +1,14 @@
+CommonEvent 297
+Name = "くちゅくちゅ音"
+
+  ConditionalBranch([1, 12, 0, 0, 0])
+    PlaySE(["RPG::SE(@name=\"ぬっちょぬっちょ\", @pitch=100, @volume=100)"])
+    Wait([120])
+    StopSE([])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

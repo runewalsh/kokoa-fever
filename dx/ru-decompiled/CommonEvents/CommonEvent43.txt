@@ -1,0 +1,7 @@
+CommonEvent 43
+Name = "描写"
+
+  ShowPicture([20, "10_ココアベースA1", 0, 0, 0, 0, 100, 100, 255, 0])
+  CallCommonEvent([44])
+  CallCommonEvent([46])
+  Empty([])

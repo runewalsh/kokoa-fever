@@ -1,0 +1,146 @@
+CommonEvent 326
+Name = "　アニメ１"
+
+  ControlVariables([421, 421, 1, 0, 1])
+  ConditionalBranch([1, 421, 0, 10, 2])
+    ConditionalBranch([1, 421, 0, 5, 2])
+      ConditionalBranch([1, 421, 0, 1, 0])
+        ShowPicture([90, "1009a_あとかたづけモブA001", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 2, 0])
+          ShowPicture([90, "1009a_あとかたづけモブA002", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 3, 0])
+            ShowPicture([90, "1009a_あとかたづけモブA003", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 4, 0])
+              ShowPicture([90, "1009a_あとかたづけモブA004", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 5, 0])
+                ShowPicture([90, "1009a_あとかたづけモブA005", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 421, 0, 6, 0])
+        ShowPicture([90, "1009a_あとかたづけモブA006", 0, 0, 0, 0, 100, 100, 255, 0])
+        PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 7, 0])
+          ShowPicture([90, "1009a_あとかたづけモブA007", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 8, 0])
+            ShowPicture([90, "1009a_あとかたづけモブA008", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 9, 0])
+              ShowPicture([90, "1009a_あとかたづけモブA009", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 10, 0])
+                ShowPicture([90, "1009a_あとかたづけモブA010", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 421, 0, 20, 2])
+      ConditionalBranch([1, 421, 0, 15, 2])
+        ConditionalBranch([1, 421, 0, 11, 0])
+          ShowPicture([90, "1009a_あとかたづけモブA011", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 12, 0])
+            ShowPicture([90, "1009a_あとかたづけモブA012", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 13, 0])
+              ShowPicture([90, "1009a_あとかたづけモブA013", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 14, 0])
+                ShowPicture([90, "1009a_あとかたづけモブA014", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 421, 0, 15, 0])
+                  ShowPicture([90, "1009a_あとかたづけモブA015", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ControlVariables([421, 421, 0, 0, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

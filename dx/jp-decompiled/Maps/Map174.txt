@@ -1,0 +1,579 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ScrollMap([2, 13, 6])
+    ScrollMap([6, 7, 6])
+    Wait([90])
+    FadeinScreen([])
+    Wait([60])
+    ScrollMap([4, 7, 4])
+    Wait([60])
+    ScrollMap([8, 13, 4])
+    Wait([120])
+    ShotBalloonIcon([-1, 8, true])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["あれから数日が経ち、"])
+    ShowText(["完全にみんな変わってしまっていた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここな達と会話をしても全く話しが噛み合わなくなってしまっている。"])
+    ShowText(["他の人も同様だ･･･。"])
+    ShowText(["みんなオーク達の話ばかりするのだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そして、１つ気づいた事がある。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私以外の人達はオークの言葉を理解しているのだ。"])
+    ShowText(["もちろん私には何を言っているのか分からないけれど"])
+    ShowText(["ここなといちごはオークの言葉を理解している。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["それどころか会話までしているように思える。"])
+    ShowText(["しっかりと意思疎通が取れているのだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そのことが気になっていちごに聞いてみると"])
+    ShowText(["どうやら初めからそうだったらしい。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["だけど、他の人達がオークの声を理解できるようになったのは"])
+    ShowText(["つい最近らしい。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は一人、ここで疎外感を感じていた。"])
+    ShowText(["だけどまだ何か希望があると信じて彼女等の仲間になる気はしない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]声\\C[0]"])
+    ShowText(["･･･････ねぇ。"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=95, @volume=80)"])
+    ShotBalloonIcon([-1, 2, true])
+    SetMoveRoute([25, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    SetEventLocation([25, 0, 15, 16, 2])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    SetMoveRoute([25, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    ShotBalloonIcon([-1, 1, false])
+    SetMoveRoute([25, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[10])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[10])\", \"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[10])\", \"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=15, @parameters=[10])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[10])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[10])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[10])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[10])"])
+    ShowPicture([50, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["･･･貴方はまだ無事だったようね。"])
+    ShowPicture([20, "200_ココア裸A2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["レモン！"])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["レモン、助けてなの。"])
+    ShowText(["ここなといちごがおかしいの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["･･･そのようね。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････レモン？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["レモン････怒ってる？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["表情には出さないけれど、"])
+    ShowText(["その身に纏っている空気がピリピリしているように感じとれた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そしてレモンは私の言葉など聞かずに話を始める。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["貴方には２つの選択肢があるわ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["ここから脱出して一人で生きていく道と"])
+    ShowText(["ここに残ってここで生涯を終える道よ。"])
+    ShowPicture([20, "200_ココア裸A3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここから脱出できる････一瞬そう思い喜びそうになった。"])
+    ShowText(["だけど、それならおかしい。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["脱出できるならどうしてそれを実行しないのか？"])
+    ShowText(["選択するまでもなく脱出だろう。"])
+    ShowText(["そしてそれから一人で生きて行くという事だ。"])
+    ShowPicture([20, "200_ココア裸A4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["レモン･･･一人で生きていくってどういう事････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["そのままの意味よ。"])
+    ShowText(["ここから一人で脱出して、一人で生きていくのよ。"])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["で、でも････二人が････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["あの二人がもうダメだって見て分からない？"])
+    ShowText(["貴方が脱出する事を知られたら貴方だって脱出出来るか分からないわ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここな達の心はオーク達の方へ向いている････。"])
+    ShowText(["二人を連れて脱出するのは難しいのだ。"])
+    ShowText(["それどころか考えたくは無いけれど、"])
+    ShowText(["妨害だって受けるかも知れない････。"])
+    ShowPicture([20, "200_ココア裸A4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["で、でも脱出したらクロウが。"])
+    ShowText(["クロウなら何とかしてくれるの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そう、クロウなら。"])
+    ShowText(["クロウならこんな状況でも何とかしてくれるはずだ。"])
+    ErasePicture([20])
+    ErasePicture([50])
+    ShotBalloonIcon([25, 8, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しばしの沈黙････。"])
+    ShowText(["遠くからはここな達のあえぎ声が聞こえてくる。"])
+    ShowPicture([50, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["クロウは････死んだわ。"])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["え･･･？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["死んだのよクロウは。"])
+    ShowText(["組織に正式に加入していない貴方にこれ以上話す事は無いわ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["選びなさい。"])
+    ShowText(["ここから脱出するか残るか。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["脱出するなら、それぐらいは面倒みてあげるわ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･･･信じられないのはクロウの死だ。"])
+    ShowText(["あんなにも圧倒的な強さを持つ彼が死ぬなんて信じられない･･･。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["だけどレモンの様子がそれを真実だと証明していた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["レモンは冷静に話しているけれど"])
+    ShowText(["さっきよりも強張っているのだ･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ErasePicture([20])
+    ErasePicture([50])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ScrollMap([2, 6, 4])
+    Wait([100])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ありがとうなの････レモン。"])
+    ShowText(["だけど私はここに残る。"])
+    ShowText(["二人を置いて行けないの･････。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    ScrollMap([8, 6, 4])
+    ShowPicture([50, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["そう。良いのね。"])
+    ErasePicture([50])
+    ErasePicture([20])
+    SetMoveRoute([25, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[6])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[6])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[6])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[6])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=15, @parameters=[6])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[6])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[6])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[6])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[6])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[6])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そういうとレモンは姿を消し、"])
+    ShowText(["気配も完全に無くなった。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そういえばレモンは固有の透過魔法を扱えるんだっけ････。"])
+    ShowText(["あれを使って安全に脱出させてくれるつもりだったのだろうか。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShotBalloonIcon([-1, 8, true])
+    Wait([60])
+    FadeoutScreen([])
+    ControlVariables([334, 334, 0, 0, 10000])
+    TransferPlayer([0, 175, 15, 19, 4, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "オーク"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Monster5\", @pitch=120, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]オーク\\C[0]"])
+    ShowText(["グアァァァ"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 3
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["1_モブフェイス0001", 5, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["えへへ･･･交尾って良いですね･･･。"])
+    ShowText(["あぁ･･･もっとオーク様と交尾したいですよぉ････。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 4
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["お、おまんこって気持ち良いのかな････。"])
+    ShowText(["だって、みんな本当に気持ち良さそうな顔してるよっ！"])
+    Empty([])
+
+CommonEvent 5
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["早く･･･私も犯して欲しいですッ。"])
+    Empty([])
+
+CommonEvent 6
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["あっ･･･気持ち良いッ、気持ち良いよぉッッ\\I[122]"])
+    Empty([])
+
+CommonEvent 7
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["どんどん皆がおかしくなっていくわ･･･。"])
+    Empty([])
+
+CommonEvent 8
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["はぁ･･･はぁ･･･おまんこ、我慢出来ないのッ。"])
+    Empty([])
+
+CommonEvent 9
+Name = "オーク"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "女性"
+
+  Page 0
+    ShowTextAttributes(["1_モブフェイス0001", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["ねぇねぇ聞いてぇ～"])
+    ShowText(["私、生理止まったんだ～。"])
+    ShowText(["えへへ、いいでしょ♪"])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["う、うん････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 11
+Name = "オーク"
+
+  Page 0
+    ShowPicture([20, "1021_モブ娘とオークB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["や、やめてくださいッ"])
+    ShowText(["そんな所････広げないで････ッ。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["今の私には行為を止める力が無い････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 12
+Name = "ここな２"
+
+  Page 0
+    ShowPicture([50, "1022_ここなオークA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あっ･･･んっ･･･んんっ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["気持ちいいよぉ････オーク様ぁ\\I[122]"])
+    ShowText(["お願い、またイキそうなの･･･赤ちゃんの素、出してぇ\\I[122]"])
+    ShowPicture([50, "1022_ここなオークA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    PlaySE(["RPG::SE(@name=\"脈打つ音+射精①\", @pitch=100, @volume=100)"])
+    FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+    PlaySE(["RPG::SE(@name=\"脈打つ音+射精①\", @pitch=100, @volume=100)"])
+    FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ん、ん～～～～～～～～ッ\\I[122]"])
+    ShowPicture([50, "1022_ここなオークA4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["精子、来たぁ\\I[122]"])
+    Wait([20])
+    ErasePicture([50])
+    Wait([30])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ErasePicture([20])
+    ControlSelfSwitch(["A", 0])
+    ControlVariables([334, 334, 1, 0, 100])
+    Empty([])
+
+  Page 1
+    ShowPicture([50, "1022_ここなオークA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あっ･･･んっ･･･んんっ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["気持ちいいよぉ････オーク様ぁ\\I[122]"])
+    ShowText(["お願い、またイキそうなの･･･赤ちゃんの素、出してぇ\\I[122]"])
+    ShowPicture([50, "1022_ここなオークA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    PlaySE(["RPG::SE(@name=\"脈打つ音+射精①\", @pitch=100, @volume=100)"])
+    FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+    PlaySE(["RPG::SE(@name=\"脈打つ音+射精①\", @pitch=100, @volume=100)"])
+    FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ん、ん～～～～～～～～ッ\\I[122]"])
+    ShowPicture([50, "1022_ここなオークA4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["精子、来たぁ\\I[122]"])
+    Wait([20])
+    ErasePicture([50])
+    Wait([30])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 13
+Name = "オーク"
+
+  Page 0
+    ShowPicture([20, "1021_モブ娘とオークB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["や、やめてくださいッ"])
+    ShowText(["そんな所････広げないで････ッ。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["今の私には行為を止める力が無い････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 14
+Name = "オーク"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    Empty([])
+
+CommonEvent 17
+Name = "オーク"
+
+  Page 0
+    Empty([])
+
+CommonEvent 18
+Name = "オーク"
+
+  Page 0
+    ShowPicture([20, "1021_モブ娘とオークB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["や、やめてくださいッ"])
+    ShowText(["そんな所････広げないで････ッ。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["今の私には行為を止める力が無い････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 19
+Name = "オーク"
+
+  Page 0
+    ShowTextAttributes(["Monster1", 2, 1, 2])
+    ShowText(["\\C[20]オーク\\C[0]"])
+    ShowText(["グガァグガガァ"])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["なんて言ってるか分からないの。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 20
+Name = "オーク"
+
+  Page 0
+    ShowPicture([20, "1021_モブ娘とオークB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["や、やめてくださいッ"])
+    ShowText(["そんな所････広げないで････ッ。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["今の私には行為を止める力が無い････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 21
+Name = "オーク"
+
+  Page 0
+    ShowPicture([50, "1023_いちごオークA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["はにゃふぅ･････ザーメンたっぷりですよぉ･･･\\I[122]"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 22
+Name = "オーク"
+
+  Page 0
+    ShowPicture([20, "1021_モブ娘とオークB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["や、やめてくださいッ"])
+    ShowText(["そんな所････広げないで････ッ。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["今の私には行為を止める力が無い････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 23
+Name = "いちご２"
+
+  Page 0
+    ShowPicture([50, "1023_いちごオークA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["はにゃふぅ･････ザーメンたっぷりですよぉ･･･\\I[122]"])
+    ErasePicture([50])
+    ControlVariables([334, 334, 1, 0, 100])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    ShowPicture([50, "1023_いちごオークA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["はにゃふぅ･････ザーメンたっぷりですよぉ･･･\\I[122]"])
+    ErasePicture([50])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+CommonEvent 24
+Name = "オーク"
+
+  Page 0
+    ShowPicture([20, "1021_モブ娘とオークB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ネコミミ少女\\C[0]"])
+    ShowText(["や、やめてくださいッ"])
+    ShowText(["そんな所････広げないで････ッ。"])
+    ErasePicture([20])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["今の私には行為を止める力が無い････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 25
+Name = "レモン"
+
+  Page 0
+    Empty([])

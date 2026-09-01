@@ -1,0 +1,7495 @@
+Item 1
+Name = "ライフアップ"
+Description = "最大HPを１０上昇させます"
+Note = ""
+
+Item 2
+Name = "マナアップ"
+Description = "最大MPを４上昇させます"
+Note = ""
+
+Item 3
+Name = "アタックアップ"
+Description = "攻撃力を２上昇させます"
+Note = ""
+
+Item 4
+Name = "ディフェンスアップ"
+Description = "防御力を２上昇させます"
+Note = ""
+
+Item 5
+Name = "マジックアップ"
+Description = "魔法力を２上昇させます"
+Note = ""
+
+Item 6
+Name = "マインドアップ"
+Description = "回復力を２上昇させます"
+Note = ""
+
+Item 7
+Name = "スピードアップ"
+Description = "敏捷性を２上昇させます"
+Note = ""
+
+Item 8
+Name = "センスアップ"
+Description = "技量を２上昇させます"
+Note = ""
+
+Item 9
+Name = "ライフアップⅡ"
+Description = "最大HPを１００上昇させます"
+Note = ""
+
+Item 10
+Name = "マナアップⅡ"
+Description = "最大MPを４０上昇させます"
+Note = ""
+
+Item 11
+Name = "アタックアップⅡ"
+Description = "攻撃力を２０上昇させます"
+Note = ""
+
+Item 12
+Name = "ディフェンスアップⅡ"
+Description = "防御力を２０上昇させます"
+Note = ""
+
+Item 13
+Name = "マジックアップⅡ"
+Description = "魔法力を２０上昇させます"
+Note = ""
+
+Item 14
+Name = "マインドアップⅡ"
+Description = "回復力を２０上昇させます"
+Note = ""
+
+Item 15
+Name = ""
+Description = ""
+Note = ""
+
+Item 16
+Name = ""
+Description = ""
+Note = ""
+
+Item 17
+Name = ""
+Description = ""
+Note = ""
+
+Item 18
+Name = ""
+Description = ""
+Note = ""
+
+Item 19
+Name = ""
+Description = ""
+Note = ""
+
+Item 20
+Name = ""
+Description = ""
+Note = ""
+
+Item 21
+Name = ""
+Description = ""
+Note = ""
+
+Item 22
+Name = ""
+Description = ""
+Note = ""
+
+Item 23
+Name = ""
+Description = ""
+Note = ""
+
+Item 24
+Name = ""
+Description = ""
+Note = ""
+
+Item 25
+Name = "包帯"
+Description = "基本回復量1000の緊急治療アイテム。\r\n薬効が染みている。"
+Note = ""
+
+Item 26
+Name = ""
+Description = ""
+Note = ""
+
+Item 27
+Name = ""
+Description = ""
+Note = ""
+
+Item 28
+Name = ""
+Description = ""
+Note = ""
+
+Item 29
+Name = ""
+Description = ""
+Note = ""
+
+Item 30
+Name = "回復薬/微量"
+Description = "基本回復量300のHP回復薬"
+Note = ""
+
+Item 31
+Name = "回復薬/少量"
+Description = "基本回復量1200のHP回復薬"
+Note = ""
+
+Item 32
+Name = "回復薬/小"
+Description = "基本回復量2800のHP回復薬"
+Note = ""
+
+Item 33
+Name = "回復薬/並"
+Description = "基本回復量5000のHP回復薬"
+Note = ""
+
+Item 34
+Name = "回復薬/大"
+Description = "基本回復量15000のHP回復薬"
+Note = ""
+
+Item 35
+Name = "回復薬/特"
+Description = "基本回復量50000のHP回復薬"
+Note = ""
+
+Item 36
+Name = "魔法薬/微量"
+Description = "基本回復量50のMP回復薬"
+Note = ""
+
+Item 37
+Name = "魔法薬/少量"
+Description = "基本回復量150のMP回復薬"
+Note = ""
+
+Item 38
+Name = "魔法薬/小"
+Description = "基本回復量350のMP回復薬"
+Note = ""
+
+Item 39
+Name = "魔法薬/並"
+Description = "基本回復量800のMP回復薬"
+Note = ""
+
+Item 40
+Name = "魔法薬/大"
+Description = "基本回復量2000のMP回復薬"
+Note = ""
+
+Item 41
+Name = "魔法薬/特"
+Description = "基本回復量5000のMP回復薬"
+Note = ""
+
+Item 42
+Name = "スティミュラント"
+Description = "戦闘不能から復活させる。"
+Note = ""
+
+Item 43
+Name = "アンチドーテ"
+Description = "毒状態を治療する。"
+Note = ""
+
+Item 44
+Name = "目薬"
+Description = "暗闇を治す時はこれ一本！"
+Note = ""
+
+Item 45
+Name = "綺麗な水"
+Description = "香林製薬エッチその後に"
+Note = ""
+
+Item 46
+Name = "沈静剤"
+Description = "とらんき･･･ライザー？"
+Note = ""
+
+Item 47
+Name = ""
+Description = ""
+Note = ""
+
+Item 48
+Name = ""
+Description = ""
+Note = ""
+
+Item 49
+Name = ""
+Description = ""
+Note = ""
+
+Item 50
+Name = "精液"
+Description = "瓶に詰まった精液。\r\nなぜこれを瓶に入れたのか。"
+Note = ""
+
+Item 51
+Name = "＝＝素材＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Item 52
+Name = "ホワイトベリー"
+Description = "様々な用途に使われる素材\r\n駆け出し冒険者の金策に使われる事もある"
+Note = ""
+
+Item 53
+Name = "レッドベリー"
+Description = "様々な用途に使われる素材\r\n駆け出し冒険者の金策に使われる事もある"
+Note = ""
+
+Item 54
+Name = "ブルーベリー"
+Description = "様々な用途に使われる素材\r\n駆け出し冒険者の金策に使われる事もある"
+Note = ""
+
+Item 55
+Name = "ゴールドベリー"
+Description = "様々な用途に使われる素材\r\n駆け出し冒険者の金策に使われる事もある"
+Note = ""
+
+Item 56
+Name = ""
+Description = ""
+Note = ""
+
+Item 57
+Name = ""
+Description = ""
+Note = ""
+
+Item 58
+Name = ""
+Description = ""
+Note = ""
+
+Item 59
+Name = "雑草"
+Description = "特に効果の無い雑草。食べられる。\r\n毒に気をつけよう(-_-;)"
+Note = ""
+
+Item 60
+Name = "薬草"
+Description = "傷を癒す効果のある草。\r\nHP回復量：150"
+Note = ""
+
+Item 61
+Name = "上薬草"
+Description = "回復効果の高い薬草。\r\nHP回復量：800"
+Note = ""
+
+Item 62
+Name = "漢方薬"
+Description = "とても効果の高いありがたい草。\r\nHP回復量：1500"
+Note = ""
+
+Item 63
+Name = ""
+Description = ""
+Note = ""
+
+Item 64
+Name = "毒消し草"
+Description = "毒を消してくれそうな草。\r\n効果が出るまで食べよう！"
+Note = ""
+
+Item 65
+Name = "お目目草"
+Description = "おめめ草。目が良くなる。\r\n暗闇に掛かったらこれを食べまくろう･･･。"
+Note = ""
+
+Item 66
+Name = "毒々草"
+Description = "見るからに毒々しい草"
+Note = ""
+
+Item 67
+Name = "沈静草"
+Description = "とらんき･･･ライザー？"
+Note = ""
+
+Item 68
+Name = "夜光草"
+Description = "暗い場所でのみほんのり光る不思議な草"
+Note = ""
+
+Item 69
+Name = ""
+Description = ""
+Note = ""
+
+Item 70
+Name = ""
+Description = ""
+Note = ""
+
+Item 71
+Name = ""
+Description = ""
+Note = ""
+
+Item 72
+Name = ""
+Description = ""
+Note = ""
+
+Item 73
+Name = ""
+Description = ""
+Note = ""
+
+Item 74
+Name = ""
+Description = ""
+Note = ""
+
+Item 75
+Name = ""
+Description = ""
+Note = ""
+
+Item 76
+Name = ""
+Description = ""
+Note = ""
+
+Item 77
+Name = ""
+Description = ""
+Note = ""
+
+Item 78
+Name = ""
+Description = ""
+Note = ""
+
+Item 79
+Name = ""
+Description = ""
+Note = ""
+
+Item 80
+Name = "枝"
+Description = "ただの枝"
+Note = ""
+
+Item 81
+Name = "大きな木切れ"
+Description = "木材として使えそうな木材"
+Note = ""
+
+Item 82
+Name = "良質な木材"
+Description = "良い木材"
+Note = ""
+
+Item 83
+Name = ""
+Description = ""
+Note = ""
+
+Item 84
+Name = ""
+Description = ""
+Note = ""
+
+Item 85
+Name = ""
+Description = ""
+Note = ""
+
+Item 86
+Name = ""
+Description = ""
+Note = ""
+
+Item 87
+Name = "布きれ"
+Description = "布きれ･･･何かに使えるかな？"
+Note = ""
+
+Item 88
+Name = ""
+Description = ""
+Note = ""
+
+Item 89
+Name = ""
+Description = ""
+Note = ""
+
+Item 90
+Name = ""
+Description = ""
+Note = ""
+
+Item 91
+Name = ""
+Description = ""
+Note = ""
+
+Item 92
+Name = "くず石"
+Description = "小さな石ころ"
+Note = ""
+
+Item 93
+Name = "石材"
+Description = "石だ！"
+Note = ""
+
+Item 94
+Name = ""
+Description = ""
+Note = ""
+
+Item 95
+Name = ""
+Description = ""
+Note = ""
+
+Item 96
+Name = ""
+Description = ""
+Note = ""
+
+Item 97
+Name = ""
+Description = ""
+Note = ""
+
+Item 98
+Name = ""
+Description = ""
+Note = ""
+
+Item 99
+Name = "石炭"
+Description = "原始的な燃料。"
+Note = ""
+
+Item 100
+Name = ""
+Description = ""
+Note = ""
+
+Item 101
+Name = "鉛"
+Description = "錆びやすく柔らかい金属。武具に使うには少し頼りない。\r\n意外と鉄や銅よりも重い。"
+Note = ""
+
+Item 102
+Name = "錫"
+Description = "スズ。\r\n単体で扱う金属ではなく主に他の金属に混ぜて使用される"
+Note = ""
+
+Item 103
+Name = "銅"
+Description = "銅。安価な金属であるが非常に利用用途が多く\r\n汎用的に扱われている。ただし鉄の下位互換である。"
+Note = ""
+
+Item 104
+Name = "黄銅"
+Description = "銅に鉛を混ぜた合金。銅よりも硬く、\r\n魔伝導率も銅よりはマシである。しかし装飾品には適さない"
+Note = ""
+
+Item 105
+Name = "青銅"
+Description = "黄銅よりも硬く、粘性が高い。\r\n武器素材としても悪くなく、装飾品にしても味がある。"
+Note = ""
+
+Item 106
+Name = "鉄"
+Description = "強度、粘性に優れさらに加工もしやすく\r\n魔伝導率、魔力内包力も高い万能金属。意外と高価。"
+Note = ""
+
+Item 107
+Name = "骸炭"
+Description = "コークス。\r\n石炭を元に炭素だけを残した燃料"
+Note = ""
+
+Item 108
+Name = "鋼"
+Description = "武具用にさらに強度強化した鉄。\r\nかなりの良素材"
+Note = ""
+
+Item 109
+Name = "赤鉄"
+Description = "鏡鉄鉱とも呼ばれる主に装飾品に扱われる鉱石。\r\nブラックダイヤモンドと呼ばれる事もある。"
+Note = ""
+
+Item 110
+Name = ""
+Description = ""
+Note = ""
+
+Item 111
+Name = ""
+Description = ""
+Note = ""
+
+Item 112
+Name = ""
+Description = ""
+Note = ""
+
+Item 113
+Name = ""
+Description = ""
+Note = ""
+
+Item 114
+Name = ""
+Description = ""
+Note = ""
+
+Item 115
+Name = ""
+Description = ""
+Note = ""
+
+Item 116
+Name = ""
+Description = ""
+Note = ""
+
+Item 117
+Name = ""
+Description = ""
+Note = ""
+
+Item 118
+Name = ""
+Description = ""
+Note = ""
+
+Item 119
+Name = ""
+Description = ""
+Note = ""
+
+Item 120
+Name = "コウモリの牙"
+Description = "コウモリの牙。ほどほどに鋭い"
+Note = ""
+
+Item 121
+Name = "ねずみの皮"
+Description = "取ったねずみの革算用･･･。"
+Note = ""
+
+Item 122
+Name = "キモい目玉"
+Description = "キモイ････"
+Note = ""
+
+Item 123
+Name = "ブヨブヨの体液"
+Description = "キモイ･･･"
+Note = ""
+
+Item 124
+Name = "蛇革"
+Description = "森スネークから採れた革。そんなに良い物ではない"
+Note = ""
+
+Item 125
+Name = "蜘蛛の糸"
+Description = "蜘蛛の魔物から収集した糸。\r\n丈夫で価値はほどほどにありそう？"
+Note = ""
+
+Item 126
+Name = "ゼリー"
+Description = "おいしいゼリー"
+Note = ""
+
+Item 127
+Name = "頑丈な糸"
+Description = "蜘蛛の魔物から収集した糸を特殊な方法で\r\nより強固にした強化糸"
+Note = ""
+
+Item 128
+Name = "スライムジェル"
+Description = "おいしいゼリー"
+Note = ""
+
+Item 129
+Name = "しねじ"
+Description = "しめじっぽいけど、食べたら死にます"
+Note = ""
+
+Item 130
+Name = "きのこ"
+Description = "一般的なきのこです"
+Note = ""
+
+Item 131
+Name = "コボルトソード"
+Description = "はぐれコボルトが使っていた武器"
+Note = ""
+
+Item 132
+Name = "コボルトシールド"
+Description = "はぐれコボルトが使っていた盾"
+Note = ""
+
+Item 133
+Name = "赤蛇革"
+Description = "赤いヘビ革。頑丈でよく伸びる。"
+Note = ""
+
+Item 134
+Name = "赤蜘蛛の糸"
+Description = "赤蜘蛛の魔物から収集した糸。\r\n意外と価値はある･･･？"
+Note = ""
+
+Item 135
+Name = "オークの斧"
+Description = "ほとんど打撃目的の斧である。"
+Note = ""
+
+Item 136
+Name = "硬い木の皮"
+Description = "魔物の外殻を成していた木の皮。非常に硬く\r\n叩くとカンカンと音がする"
+Note = ""
+
+Item 137
+Name = "魔法の泥"
+Description = "マッドハンドが落とした泥。\r\n少しながら魔力を帯びている"
+Note = ""
+
+Item 138
+Name = ""
+Description = ""
+Note = ""
+
+Item 139
+Name = ""
+Description = ""
+Note = ""
+
+Item 140
+Name = ""
+Description = ""
+Note = ""
+
+Item 141
+Name = ""
+Description = ""
+Note = ""
+
+Item 142
+Name = ""
+Description = ""
+Note = ""
+
+Item 143
+Name = ""
+Description = ""
+Note = ""
+
+Item 144
+Name = ""
+Description = ""
+Note = ""
+
+Item 145
+Name = ""
+Description = ""
+Note = ""
+
+Item 146
+Name = ""
+Description = ""
+Note = ""
+
+Item 147
+Name = ""
+Description = ""
+Note = ""
+
+Item 148
+Name = ""
+Description = ""
+Note = ""
+
+Item 149
+Name = ""
+Description = ""
+Note = ""
+
+Item 150
+Name = ""
+Description = ""
+Note = ""
+
+Item 151
+Name = ""
+Description = ""
+Note = ""
+
+Item 152
+Name = ""
+Description = ""
+Note = ""
+
+Item 153
+Name = ""
+Description = ""
+Note = ""
+
+Item 154
+Name = ""
+Description = ""
+Note = ""
+
+Item 155
+Name = ""
+Description = ""
+Note = ""
+
+Item 156
+Name = ""
+Description = ""
+Note = ""
+
+Item 157
+Name = ""
+Description = ""
+Note = ""
+
+Item 158
+Name = ""
+Description = ""
+Note = ""
+
+Item 159
+Name = ""
+Description = ""
+Note = ""
+
+Item 160
+Name = ""
+Description = ""
+Note = ""
+
+Item 161
+Name = ""
+Description = ""
+Note = ""
+
+Item 162
+Name = ""
+Description = ""
+Note = ""
+
+Item 163
+Name = ""
+Description = ""
+Note = ""
+
+Item 164
+Name = ""
+Description = ""
+Note = ""
+
+Item 165
+Name = ""
+Description = ""
+Note = ""
+
+Item 166
+Name = ""
+Description = ""
+Note = ""
+
+Item 167
+Name = ""
+Description = ""
+Note = ""
+
+Item 168
+Name = ""
+Description = ""
+Note = ""
+
+Item 169
+Name = ""
+Description = ""
+Note = ""
+
+Item 170
+Name = ""
+Description = ""
+Note = ""
+
+Item 171
+Name = ""
+Description = ""
+Note = ""
+
+Item 172
+Name = ""
+Description = ""
+Note = ""
+
+Item 173
+Name = ""
+Description = ""
+Note = ""
+
+Item 174
+Name = ""
+Description = ""
+Note = ""
+
+Item 175
+Name = ""
+Description = ""
+Note = ""
+
+Item 176
+Name = ""
+Description = ""
+Note = ""
+
+Item 177
+Name = ""
+Description = ""
+Note = ""
+
+Item 178
+Name = ""
+Description = ""
+Note = ""
+
+Item 179
+Name = ""
+Description = ""
+Note = ""
+
+Item 180
+Name = ""
+Description = ""
+Note = ""
+
+Item 181
+Name = ""
+Description = ""
+Note = ""
+
+Item 182
+Name = ""
+Description = ""
+Note = ""
+
+Item 183
+Name = ""
+Description = ""
+Note = ""
+
+Item 184
+Name = ""
+Description = ""
+Note = ""
+
+Item 185
+Name = ""
+Description = ""
+Note = ""
+
+Item 186
+Name = ""
+Description = ""
+Note = ""
+
+Item 187
+Name = ""
+Description = ""
+Note = ""
+
+Item 188
+Name = ""
+Description = ""
+Note = ""
+
+Item 189
+Name = ""
+Description = ""
+Note = ""
+
+Item 190
+Name = ""
+Description = ""
+Note = ""
+
+Item 191
+Name = ""
+Description = ""
+Note = ""
+
+Item 192
+Name = ""
+Description = ""
+Note = ""
+
+Item 193
+Name = ""
+Description = ""
+Note = ""
+
+Item 194
+Name = ""
+Description = ""
+Note = ""
+
+Item 195
+Name = ""
+Description = ""
+Note = ""
+
+Item 196
+Name = ""
+Description = ""
+Note = ""
+
+Item 197
+Name = ""
+Description = ""
+Note = ""
+
+Item 198
+Name = ""
+Description = ""
+Note = ""
+
+Item 199
+Name = ""
+Description = ""
+Note = ""
+
+Item 200
+Name = ""
+Description = ""
+Note = ""
+
+Item 201
+Name = ""
+Description = ""
+Note = ""
+
+Item 202
+Name = ""
+Description = ""
+Note = ""
+
+Item 203
+Name = ""
+Description = ""
+Note = ""
+
+Item 204
+Name = ""
+Description = ""
+Note = ""
+
+Item 205
+Name = ""
+Description = ""
+Note = ""
+
+Item 206
+Name = ""
+Description = ""
+Note = ""
+
+Item 207
+Name = ""
+Description = ""
+Note = ""
+
+Item 208
+Name = ""
+Description = ""
+Note = ""
+
+Item 209
+Name = ""
+Description = ""
+Note = ""
+
+Item 210
+Name = ""
+Description = ""
+Note = ""
+
+Item 211
+Name = ""
+Description = ""
+Note = ""
+
+Item 212
+Name = ""
+Description = ""
+Note = ""
+
+Item 213
+Name = ""
+Description = ""
+Note = ""
+
+Item 214
+Name = ""
+Description = ""
+Note = ""
+
+Item 215
+Name = ""
+Description = ""
+Note = ""
+
+Item 216
+Name = ""
+Description = ""
+Note = ""
+
+Item 217
+Name = ""
+Description = ""
+Note = ""
+
+Item 218
+Name = ""
+Description = ""
+Note = ""
+
+Item 219
+Name = ""
+Description = ""
+Note = ""
+
+Item 220
+Name = ""
+Description = ""
+Note = ""
+
+Item 221
+Name = ""
+Description = ""
+Note = ""
+
+Item 222
+Name = ""
+Description = ""
+Note = ""
+
+Item 223
+Name = ""
+Description = ""
+Note = ""
+
+Item 224
+Name = ""
+Description = ""
+Note = ""
+
+Item 225
+Name = ""
+Description = ""
+Note = ""
+
+Item 226
+Name = ""
+Description = ""
+Note = ""
+
+Item 227
+Name = ""
+Description = ""
+Note = ""
+
+Item 228
+Name = ""
+Description = ""
+Note = ""
+
+Item 229
+Name = ""
+Description = ""
+Note = ""
+
+Item 230
+Name = ""
+Description = ""
+Note = ""
+
+Item 231
+Name = ""
+Description = ""
+Note = ""
+
+Item 232
+Name = ""
+Description = ""
+Note = ""
+
+Item 233
+Name = ""
+Description = ""
+Note = ""
+
+Item 234
+Name = ""
+Description = ""
+Note = ""
+
+Item 235
+Name = ""
+Description = ""
+Note = ""
+
+Item 236
+Name = ""
+Description = ""
+Note = ""
+
+Item 237
+Name = ""
+Description = ""
+Note = ""
+
+Item 238
+Name = ""
+Description = ""
+Note = ""
+
+Item 239
+Name = ""
+Description = ""
+Note = ""
+
+Item 240
+Name = ""
+Description = ""
+Note = ""
+
+Item 241
+Name = ""
+Description = ""
+Note = ""
+
+Item 242
+Name = ""
+Description = ""
+Note = ""
+
+Item 243
+Name = ""
+Description = ""
+Note = ""
+
+Item 244
+Name = ""
+Description = ""
+Note = ""
+
+Item 245
+Name = ""
+Description = ""
+Note = ""
+
+Item 246
+Name = ""
+Description = ""
+Note = ""
+
+Item 247
+Name = ""
+Description = ""
+Note = ""
+
+Item 248
+Name = ""
+Description = ""
+Note = ""
+
+Item 249
+Name = ""
+Description = ""
+Note = ""
+
+Item 250
+Name = ""
+Description = ""
+Note = ""
+
+Item 251
+Name = ""
+Description = ""
+Note = ""
+
+Item 252
+Name = ""
+Description = ""
+Note = ""
+
+Item 253
+Name = ""
+Description = ""
+Note = ""
+
+Item 254
+Name = ""
+Description = ""
+Note = ""
+
+Item 255
+Name = ""
+Description = ""
+Note = ""
+
+Item 256
+Name = ""
+Description = ""
+Note = ""
+
+Item 257
+Name = ""
+Description = ""
+Note = ""
+
+Item 258
+Name = ""
+Description = ""
+Note = ""
+
+Item 259
+Name = ""
+Description = ""
+Note = ""
+
+Item 260
+Name = ""
+Description = ""
+Note = ""
+
+Item 261
+Name = ""
+Description = ""
+Note = ""
+
+Item 262
+Name = ""
+Description = ""
+Note = ""
+
+Item 263
+Name = ""
+Description = ""
+Note = ""
+
+Item 264
+Name = ""
+Description = ""
+Note = ""
+
+Item 265
+Name = ""
+Description = ""
+Note = ""
+
+Item 266
+Name = ""
+Description = ""
+Note = ""
+
+Item 267
+Name = ""
+Description = ""
+Note = ""
+
+Item 268
+Name = ""
+Description = ""
+Note = ""
+
+Item 269
+Name = ""
+Description = ""
+Note = ""
+
+Item 270
+Name = ""
+Description = ""
+Note = ""
+
+Item 271
+Name = ""
+Description = ""
+Note = ""
+
+Item 272
+Name = ""
+Description = ""
+Note = ""
+
+Item 273
+Name = ""
+Description = ""
+Note = ""
+
+Item 274
+Name = ""
+Description = ""
+Note = ""
+
+Item 275
+Name = ""
+Description = ""
+Note = ""
+
+Item 276
+Name = ""
+Description = ""
+Note = ""
+
+Item 277
+Name = ""
+Description = ""
+Note = ""
+
+Item 278
+Name = ""
+Description = ""
+Note = ""
+
+Item 279
+Name = ""
+Description = ""
+Note = ""
+
+Item 280
+Name = ""
+Description = ""
+Note = ""
+
+Item 281
+Name = ""
+Description = ""
+Note = ""
+
+Item 282
+Name = ""
+Description = ""
+Note = ""
+
+Item 283
+Name = ""
+Description = ""
+Note = ""
+
+Item 284
+Name = ""
+Description = ""
+Note = ""
+
+Item 285
+Name = ""
+Description = ""
+Note = ""
+
+Item 286
+Name = ""
+Description = ""
+Note = ""
+
+Item 287
+Name = ""
+Description = ""
+Note = ""
+
+Item 288
+Name = ""
+Description = ""
+Note = ""
+
+Item 289
+Name = ""
+Description = ""
+Note = ""
+
+Item 290
+Name = ""
+Description = ""
+Note = ""
+
+Item 291
+Name = ""
+Description = ""
+Note = ""
+
+Item 292
+Name = ""
+Description = ""
+Note = ""
+
+Item 293
+Name = ""
+Description = ""
+Note = ""
+
+Item 294
+Name = ""
+Description = ""
+Note = ""
+
+Item 295
+Name = ""
+Description = ""
+Note = ""
+
+Item 296
+Name = ""
+Description = ""
+Note = ""
+
+Item 297
+Name = ""
+Description = ""
+Note = ""
+
+Item 298
+Name = ""
+Description = ""
+Note = ""
+
+Item 299
+Name = ""
+Description = ""
+Note = ""
+
+Item 300
+Name = "マラカイト"
+Description = "孔雀石とも呼ばれる緑色の鉱物。\r\nよく銅の周りで見つかる"
+Note = ""
+
+Item 301
+Name = "ヘリオライト"
+Description = "太陽石と呼ばれる澄んだ色の結晶。"
+Note = ""
+
+Item 302
+Name = ""
+Description = ""
+Note = ""
+
+Item 303
+Name = ""
+Description = ""
+Note = ""
+
+Item 304
+Name = ""
+Description = ""
+Note = ""
+
+Item 305
+Name = ""
+Description = ""
+Note = ""
+
+Item 306
+Name = ""
+Description = ""
+Note = ""
+
+Item 307
+Name = ""
+Description = ""
+Note = ""
+
+Item 308
+Name = ""
+Description = ""
+Note = ""
+
+Item 309
+Name = ""
+Description = ""
+Note = ""
+
+Item 310
+Name = ""
+Description = ""
+Note = ""
+
+Item 311
+Name = ""
+Description = ""
+Note = ""
+
+Item 312
+Name = ""
+Description = ""
+Note = ""
+
+Item 313
+Name = ""
+Description = ""
+Note = ""
+
+Item 314
+Name = ""
+Description = ""
+Note = ""
+
+Item 315
+Name = ""
+Description = ""
+Note = ""
+
+Item 316
+Name = ""
+Description = ""
+Note = ""
+
+Item 317
+Name = ""
+Description = ""
+Note = ""
+
+Item 318
+Name = ""
+Description = ""
+Note = ""
+
+Item 319
+Name = ""
+Description = ""
+Note = ""
+
+Item 320
+Name = ""
+Description = ""
+Note = ""
+
+Item 321
+Name = ""
+Description = ""
+Note = ""
+
+Item 322
+Name = ""
+Description = ""
+Note = ""
+
+Item 323
+Name = ""
+Description = ""
+Note = ""
+
+Item 324
+Name = ""
+Description = ""
+Note = ""
+
+Item 325
+Name = ""
+Description = ""
+Note = ""
+
+Item 326
+Name = ""
+Description = ""
+Note = ""
+
+Item 327
+Name = ""
+Description = ""
+Note = ""
+
+Item 328
+Name = ""
+Description = ""
+Note = ""
+
+Item 329
+Name = ""
+Description = ""
+Note = ""
+
+Item 330
+Name = "魔法師の石Lv1"
+Description = "いわゆる魔石である。\r\n魔石は生み出した魔法師の技量により性能が変化する。"
+Note = ""
+
+Item 331
+Name = ""
+Description = ""
+Note = ""
+
+Item 332
+Name = ""
+Description = ""
+Note = ""
+
+Item 333
+Name = ""
+Description = ""
+Note = ""
+
+Item 334
+Name = ""
+Description = ""
+Note = ""
+
+Item 335
+Name = ""
+Description = ""
+Note = ""
+
+Item 336
+Name = ""
+Description = ""
+Note = ""
+
+Item 337
+Name = ""
+Description = ""
+Note = ""
+
+Item 338
+Name = ""
+Description = ""
+Note = ""
+
+Item 339
+Name = ""
+Description = ""
+Note = ""
+
+Item 340
+Name = ""
+Description = ""
+Note = ""
+
+Item 341
+Name = ""
+Description = ""
+Note = ""
+
+Item 342
+Name = ""
+Description = ""
+Note = ""
+
+Item 343
+Name = ""
+Description = ""
+Note = ""
+
+Item 344
+Name = ""
+Description = ""
+Note = ""
+
+Item 345
+Name = ""
+Description = ""
+Note = ""
+
+Item 346
+Name = ""
+Description = ""
+Note = ""
+
+Item 347
+Name = ""
+Description = ""
+Note = ""
+
+Item 348
+Name = ""
+Description = ""
+Note = ""
+
+Item 349
+Name = ""
+Description = ""
+Note = ""
+
+Item 350
+Name = ""
+Description = ""
+Note = ""
+
+Item 351
+Name = ""
+Description = ""
+Note = ""
+
+Item 352
+Name = ""
+Description = ""
+Note = ""
+
+Item 353
+Name = ""
+Description = ""
+Note = ""
+
+Item 354
+Name = ""
+Description = ""
+Note = ""
+
+Item 355
+Name = ""
+Description = ""
+Note = ""
+
+Item 356
+Name = ""
+Description = ""
+Note = ""
+
+Item 357
+Name = ""
+Description = ""
+Note = ""
+
+Item 358
+Name = ""
+Description = ""
+Note = ""
+
+Item 359
+Name = ""
+Description = ""
+Note = ""
+
+Item 360
+Name = ""
+Description = ""
+Note = ""
+
+Item 361
+Name = ""
+Description = ""
+Note = ""
+
+Item 362
+Name = ""
+Description = ""
+Note = ""
+
+Item 363
+Name = ""
+Description = ""
+Note = ""
+
+Item 364
+Name = ""
+Description = ""
+Note = ""
+
+Item 365
+Name = ""
+Description = ""
+Note = ""
+
+Item 366
+Name = ""
+Description = ""
+Note = ""
+
+Item 367
+Name = ""
+Description = ""
+Note = ""
+
+Item 368
+Name = ""
+Description = ""
+Note = ""
+
+Item 369
+Name = ""
+Description = ""
+Note = ""
+
+Item 370
+Name = ""
+Description = ""
+Note = ""
+
+Item 371
+Name = ""
+Description = ""
+Note = ""
+
+Item 372
+Name = ""
+Description = ""
+Note = ""
+
+Item 373
+Name = ""
+Description = ""
+Note = ""
+
+Item 374
+Name = ""
+Description = ""
+Note = ""
+
+Item 375
+Name = ""
+Description = ""
+Note = ""
+
+Item 376
+Name = ""
+Description = ""
+Note = ""
+
+Item 377
+Name = ""
+Description = ""
+Note = ""
+
+Item 378
+Name = ""
+Description = ""
+Note = ""
+
+Item 379
+Name = ""
+Description = ""
+Note = ""
+
+Item 380
+Name = ""
+Description = ""
+Note = ""
+
+Item 381
+Name = ""
+Description = ""
+Note = ""
+
+Item 382
+Name = ""
+Description = ""
+Note = ""
+
+Item 383
+Name = ""
+Description = ""
+Note = ""
+
+Item 384
+Name = ""
+Description = ""
+Note = ""
+
+Item 385
+Name = ""
+Description = ""
+Note = ""
+
+Item 386
+Name = ""
+Description = ""
+Note = ""
+
+Item 387
+Name = ""
+Description = ""
+Note = ""
+
+Item 388
+Name = ""
+Description = ""
+Note = ""
+
+Item 389
+Name = ""
+Description = ""
+Note = ""
+
+Item 390
+Name = ""
+Description = ""
+Note = ""
+
+Item 391
+Name = ""
+Description = ""
+Note = ""
+
+Item 392
+Name = ""
+Description = ""
+Note = ""
+
+Item 393
+Name = ""
+Description = ""
+Note = ""
+
+Item 394
+Name = ""
+Description = ""
+Note = ""
+
+Item 395
+Name = ""
+Description = ""
+Note = ""
+
+Item 396
+Name = ""
+Description = ""
+Note = ""
+
+Item 397
+Name = ""
+Description = ""
+Note = ""
+
+Item 398
+Name = ""
+Description = ""
+Note = ""
+
+Item 399
+Name = ""
+Description = ""
+Note = ""
+
+Item 400
+Name = ""
+Description = ""
+Note = ""
+
+Item 401
+Name = ""
+Description = ""
+Note = ""
+
+Item 402
+Name = ""
+Description = ""
+Note = ""
+
+Item 403
+Name = ""
+Description = ""
+Note = ""
+
+Item 404
+Name = ""
+Description = ""
+Note = ""
+
+Item 405
+Name = ""
+Description = ""
+Note = ""
+
+Item 406
+Name = ""
+Description = ""
+Note = ""
+
+Item 407
+Name = ""
+Description = ""
+Note = ""
+
+Item 408
+Name = ""
+Description = ""
+Note = ""
+
+Item 409
+Name = ""
+Description = ""
+Note = ""
+
+Item 410
+Name = ""
+Description = ""
+Note = ""
+
+Item 411
+Name = ""
+Description = ""
+Note = ""
+
+Item 412
+Name = ""
+Description = ""
+Note = ""
+
+Item 413
+Name = ""
+Description = ""
+Note = ""
+
+Item 414
+Name = ""
+Description = ""
+Note = ""
+
+Item 415
+Name = ""
+Description = ""
+Note = ""
+
+Item 416
+Name = ""
+Description = ""
+Note = ""
+
+Item 417
+Name = ""
+Description = ""
+Note = ""
+
+Item 418
+Name = ""
+Description = ""
+Note = ""
+
+Item 419
+Name = ""
+Description = ""
+Note = ""
+
+Item 420
+Name = ""
+Description = ""
+Note = ""
+
+Item 421
+Name = ""
+Description = ""
+Note = ""
+
+Item 422
+Name = ""
+Description = ""
+Note = ""
+
+Item 423
+Name = ""
+Description = ""
+Note = ""
+
+Item 424
+Name = ""
+Description = ""
+Note = ""
+
+Item 425
+Name = ""
+Description = ""
+Note = ""
+
+Item 426
+Name = ""
+Description = ""
+Note = ""
+
+Item 427
+Name = ""
+Description = ""
+Note = ""
+
+Item 428
+Name = ""
+Description = ""
+Note = ""
+
+Item 429
+Name = ""
+Description = ""
+Note = ""
+
+Item 430
+Name = ""
+Description = ""
+Note = ""
+
+Item 431
+Name = ""
+Description = ""
+Note = ""
+
+Item 432
+Name = ""
+Description = ""
+Note = ""
+
+Item 433
+Name = ""
+Description = ""
+Note = ""
+
+Item 434
+Name = ""
+Description = ""
+Note = ""
+
+Item 435
+Name = ""
+Description = ""
+Note = ""
+
+Item 436
+Name = ""
+Description = ""
+Note = ""
+
+Item 437
+Name = ""
+Description = ""
+Note = ""
+
+Item 438
+Name = ""
+Description = ""
+Note = ""
+
+Item 439
+Name = ""
+Description = ""
+Note = ""
+
+Item 440
+Name = "おにぎり"
+Description = "基本回復量：1000\r\nおにぎり！"
+Note = ""
+
+Item 441
+Name = "たまご焼き"
+Description = "基本回復量：1500\r\nシンプルでおいしい卵焼き"
+Note = ""
+
+Item 442
+Name = "唐揚げ"
+Description = "基本回復量：3000\r\n冷めてもおいしい！"
+Note = ""
+
+Item 443
+Name = "水"
+Description = "基本MP回復量：1"
+Note = ""
+
+Item 444
+Name = "ボイルドエッグ"
+Description = "基本回復量：300\r\n詰まる所、ゆでたまごである。"
+Note = ""
+
+Item 445
+Name = ""
+Description = ""
+Note = ""
+
+Item 446
+Name = ""
+Description = ""
+Note = ""
+
+Item 447
+Name = ""
+Description = ""
+Note = ""
+
+Item 448
+Name = ""
+Description = ""
+Note = ""
+
+Item 449
+Name = ""
+Description = ""
+Note = ""
+
+Item 450
+Name = ""
+Description = ""
+Note = ""
+
+Item 451
+Name = ""
+Description = ""
+Note = ""
+
+Item 452
+Name = ""
+Description = ""
+Note = ""
+
+Item 453
+Name = ""
+Description = ""
+Note = ""
+
+Item 454
+Name = ""
+Description = ""
+Note = ""
+
+Item 455
+Name = ""
+Description = ""
+Note = ""
+
+Item 456
+Name = ""
+Description = ""
+Note = ""
+
+Item 457
+Name = ""
+Description = ""
+Note = ""
+
+Item 458
+Name = ""
+Description = ""
+Note = ""
+
+Item 459
+Name = ""
+Description = ""
+Note = ""
+
+Item 460
+Name = "きのこスープ"
+Description = "基本MP回復量：200\r\nきのこをメインに作られたスープ"
+Note = ""
+
+Item 461
+Name = ""
+Description = ""
+Note = ""
+
+Item 462
+Name = ""
+Description = ""
+Note = ""
+
+Item 463
+Name = ""
+Description = ""
+Note = ""
+
+Item 464
+Name = ""
+Description = ""
+Note = ""
+
+Item 465
+Name = ""
+Description = ""
+Note = ""
+
+Item 466
+Name = ""
+Description = ""
+Note = ""
+
+Item 467
+Name = ""
+Description = ""
+Note = ""
+
+Item 468
+Name = ""
+Description = ""
+Note = ""
+
+Item 469
+Name = ""
+Description = ""
+Note = ""
+
+Item 470
+Name = ""
+Description = ""
+Note = ""
+
+Item 471
+Name = ""
+Description = ""
+Note = ""
+
+Item 472
+Name = ""
+Description = ""
+Note = ""
+
+Item 473
+Name = ""
+Description = ""
+Note = ""
+
+Item 474
+Name = ""
+Description = ""
+Note = ""
+
+Item 475
+Name = ""
+Description = ""
+Note = ""
+
+Item 476
+Name = ""
+Description = ""
+Note = ""
+
+Item 477
+Name = ""
+Description = ""
+Note = ""
+
+Item 478
+Name = ""
+Description = ""
+Note = ""
+
+Item 479
+Name = ""
+Description = ""
+Note = ""
+
+Item 480
+Name = ""
+Description = ""
+Note = ""
+
+Item 481
+Name = ""
+Description = ""
+Note = ""
+
+Item 482
+Name = ""
+Description = ""
+Note = ""
+
+Item 483
+Name = ""
+Description = ""
+Note = ""
+
+Item 484
+Name = ""
+Description = ""
+Note = ""
+
+Item 485
+Name = ""
+Description = ""
+Note = ""
+
+Item 486
+Name = "爆発人形"
+Description = "投げて使うものだが扱いが難しく基本的に投げる前に爆発する"
+Note = ""
+
+Item 487
+Name = ""
+Description = ""
+Note = ""
+
+Item 488
+Name = ""
+Description = ""
+Note = ""
+
+Item 489
+Name = "石つぶて"
+Description = "石を砕いて小さくし、それを相手にぶつけます。\r\n範囲分散攻撃"
+Note = ""
+
+Item 490
+Name = "たいまつ"
+Description = "投げる事で火属性のダメージを与える事が出来る投擲用たいまつ。\r\nたいまつぽこ。"
+Note = ""
+
+Item 491
+Name = "投擲石"
+Description = "ぶつけたら痛いように工夫して加工しました"
+Note = ""
+
+Item 492
+Name = "強化たいまつ"
+Description = "投げる事で火属性のダメージを与える事が出来る。\r\nたいまつぽこ。たいまつぽこ。"
+Note = ""
+
+Item 493
+Name = "投擲石(毒)"
+Description = "先の尖った所に毒を塗りこみました。\r\n毒の効果は期待出来ないけどそれなりに威力は高まった。"
+Note = ""
+
+Item 494
+Name = "鉛の手裏剣"
+Description = "鉛製の手裏剣。体内に入ればそれなりに有毒です。"
+Note = ""
+
+Item 495
+Name = "銅の手裏剣"
+Description = "銅で作られた手裏剣。結構痛いです。"
+Note = ""
+
+Item 496
+Name = "黄銅のダーツ"
+Description = "黄銅で作られたダーツ。\r\n刺さると痛いので人に向けて投げないようにしよう。"
+Note = ""
+
+Item 497
+Name = "拡散たいまつ"
+Description = "小さな松明をばら撒くように投げます。\r\n敵全体は燃えるでしょう。"
+Note = ""
+
+Item 498
+Name = ""
+Description = ""
+Note = ""
+
+Item 499
+Name = ""
+Description = ""
+Note = ""
+
+Item 500
+Name = "ヒールの魔法札"
+Description = "ヒールの効果を持つ札。"
+Note = ""
+
+Item 501
+Name = "火の魔法札"
+Description = "ファイアーボールの効果を持つ札。"
+Note = ""
+
+Item 502
+Name = "風の魔法札"
+Description = "ウィンドウの効果を持つ札。"
+Note = ""
+
+Item 503
+Name = "氷爪の魔法札"
+Description = "氷爪の効果を持つ札。"
+Note = ""
+
+Item 504
+Name = ""
+Description = ""
+Note = ""
+
+Item 505
+Name = "ヒートアップの魔法札"
+Description = "強化の効果を持つ札。"
+Note = ""
+
+Item 506
+Name = "鷹の魔法札"
+Description = "命中を上昇させる効果を持つ札。"
+Note = ""
+
+Item 507
+Name = ""
+Description = ""
+Note = ""
+
+Item 508
+Name = ""
+Description = ""
+Note = ""
+
+Item 509
+Name = ""
+Description = ""
+Note = ""
+
+Item 510
+Name = ""
+Description = ""
+Note = ""
+
+Item 511
+Name = ""
+Description = ""
+Note = ""
+
+Item 512
+Name = ""
+Description = ""
+Note = ""
+
+Item 513
+Name = ""
+Description = ""
+Note = ""
+
+Item 514
+Name = ""
+Description = ""
+Note = ""
+
+Item 515
+Name = ""
+Description = ""
+Note = ""
+
+Item 516
+Name = ""
+Description = ""
+Note = ""
+
+Item 517
+Name = ""
+Description = ""
+Note = ""
+
+Item 518
+Name = ""
+Description = ""
+Note = ""
+
+Item 519
+Name = ""
+Description = ""
+Note = ""
+
+Item 520
+Name = ""
+Description = ""
+Note = ""
+
+Item 521
+Name = ""
+Description = ""
+Note = ""
+
+Item 522
+Name = ""
+Description = ""
+Note = ""
+
+Item 523
+Name = ""
+Description = ""
+Note = ""
+
+Item 524
+Name = ""
+Description = ""
+Note = ""
+
+Item 525
+Name = ""
+Description = ""
+Note = ""
+
+Item 526
+Name = ""
+Description = ""
+Note = ""
+
+Item 527
+Name = ""
+Description = ""
+Note = ""
+
+Item 528
+Name = ""
+Description = ""
+Note = ""
+
+Item 529
+Name = ""
+Description = ""
+Note = ""
+
+Item 530
+Name = ""
+Description = ""
+Note = ""
+
+Item 531
+Name = ""
+Description = ""
+Note = ""
+
+Item 532
+Name = ""
+Description = ""
+Note = ""
+
+Item 533
+Name = ""
+Description = ""
+Note = ""
+
+Item 534
+Name = ""
+Description = ""
+Note = ""
+
+Item 535
+Name = ""
+Description = ""
+Note = ""
+
+Item 536
+Name = ""
+Description = ""
+Note = ""
+
+Item 537
+Name = ""
+Description = ""
+Note = ""
+
+Item 538
+Name = ""
+Description = ""
+Note = ""
+
+Item 539
+Name = ""
+Description = ""
+Note = ""
+
+Item 540
+Name = ""
+Description = ""
+Note = ""
+
+Item 541
+Name = ""
+Description = ""
+Note = ""
+
+Item 542
+Name = ""
+Description = ""
+Note = ""
+
+Item 543
+Name = ""
+Description = ""
+Note = ""
+
+Item 544
+Name = ""
+Description = ""
+Note = ""
+
+Item 545
+Name = ""
+Description = ""
+Note = ""
+
+Item 546
+Name = ""
+Description = ""
+Note = ""
+
+Item 547
+Name = ""
+Description = ""
+Note = ""
+
+Item 548
+Name = ""
+Description = ""
+Note = ""
+
+Item 549
+Name = ""
+Description = ""
+Note = ""
+
+Item 550
+Name = ""
+Description = ""
+Note = ""
+
+Item 551
+Name = ""
+Description = ""
+Note = ""
+
+Item 552
+Name = ""
+Description = ""
+Note = ""
+
+Item 553
+Name = ""
+Description = ""
+Note = ""
+
+Item 554
+Name = ""
+Description = ""
+Note = ""
+
+Item 555
+Name = ""
+Description = ""
+Note = ""
+
+Item 556
+Name = ""
+Description = ""
+Note = ""
+
+Item 557
+Name = ""
+Description = ""
+Note = ""
+
+Item 558
+Name = ""
+Description = ""
+Note = ""
+
+Item 559
+Name = ""
+Description = ""
+Note = ""
+
+Item 560
+Name = ""
+Description = ""
+Note = ""
+
+Item 561
+Name = ""
+Description = ""
+Note = ""
+
+Item 562
+Name = ""
+Description = ""
+Note = ""
+
+Item 563
+Name = ""
+Description = ""
+Note = ""
+
+Item 564
+Name = ""
+Description = ""
+Note = ""
+
+Item 565
+Name = ""
+Description = ""
+Note = ""
+
+Item 566
+Name = ""
+Description = ""
+Note = ""
+
+Item 567
+Name = ""
+Description = ""
+Note = ""
+
+Item 568
+Name = ""
+Description = ""
+Note = ""
+
+Item 569
+Name = ""
+Description = ""
+Note = ""
+
+Item 570
+Name = ""
+Description = ""
+Note = ""
+
+Item 571
+Name = ""
+Description = ""
+Note = ""
+
+Item 572
+Name = ""
+Description = ""
+Note = ""
+
+Item 573
+Name = ""
+Description = ""
+Note = ""
+
+Item 574
+Name = ""
+Description = ""
+Note = ""
+
+Item 575
+Name = ""
+Description = ""
+Note = ""
+
+Item 576
+Name = ""
+Description = ""
+Note = ""
+
+Item 577
+Name = ""
+Description = ""
+Note = ""
+
+Item 578
+Name = ""
+Description = ""
+Note = ""
+
+Item 579
+Name = ""
+Description = ""
+Note = ""
+
+Item 580
+Name = ""
+Description = ""
+Note = ""
+
+Item 581
+Name = ""
+Description = ""
+Note = ""
+
+Item 582
+Name = ""
+Description = ""
+Note = ""
+
+Item 583
+Name = ""
+Description = ""
+Note = ""
+
+Item 584
+Name = ""
+Description = ""
+Note = ""
+
+Item 585
+Name = ""
+Description = ""
+Note = ""
+
+Item 586
+Name = ""
+Description = ""
+Note = ""
+
+Item 587
+Name = ""
+Description = ""
+Note = ""
+
+Item 588
+Name = ""
+Description = ""
+Note = ""
+
+Item 589
+Name = ""
+Description = ""
+Note = ""
+
+Item 590
+Name = ""
+Description = ""
+Note = ""
+
+Item 591
+Name = ""
+Description = ""
+Note = ""
+
+Item 592
+Name = ""
+Description = ""
+Note = ""
+
+Item 593
+Name = ""
+Description = ""
+Note = ""
+
+Item 594
+Name = ""
+Description = ""
+Note = ""
+
+Item 595
+Name = ""
+Description = ""
+Note = ""
+
+Item 596
+Name = ""
+Description = ""
+Note = ""
+
+Item 597
+Name = ""
+Description = ""
+Note = ""
+
+Item 598
+Name = ""
+Description = ""
+Note = ""
+
+Item 599
+Name = ""
+Description = ""
+Note = ""
+
+Item 600
+Name = "木の矢"
+Description = "木と石で作った矢"
+Note = ""
+
+Item 601
+Name = "毒の矢"
+Description = "先端に毒を塗りこんだ矢"
+Note = ""
+
+Item 602
+Name = "銅矢"
+Description = "先端を銅で加工した矢。ほどほどに鋭い"
+Note = ""
+
+Item 603
+Name = "猛毒矢"
+Description = "先端に猛毒を塗りこんだ矢"
+Note = ""
+
+Item 604
+Name = ""
+Description = ""
+Note = ""
+
+Item 605
+Name = ""
+Description = ""
+Note = ""
+
+Item 606
+Name = ""
+Description = ""
+Note = ""
+
+Item 607
+Name = ""
+Description = ""
+Note = ""
+
+Item 608
+Name = ""
+Description = ""
+Note = ""
+
+Item 609
+Name = ""
+Description = ""
+Note = ""
+
+Item 610
+Name = ""
+Description = ""
+Note = ""
+
+Item 611
+Name = ""
+Description = ""
+Note = ""
+
+Item 612
+Name = ""
+Description = ""
+Note = ""
+
+Item 613
+Name = ""
+Description = ""
+Note = ""
+
+Item 614
+Name = ""
+Description = ""
+Note = ""
+
+Item 615
+Name = ""
+Description = ""
+Note = ""
+
+Item 616
+Name = "ボウガンの矢"
+Description = "鉄で作られたボウガン専用の矢"
+Note = ""
+
+Item 617
+Name = ""
+Description = ""
+Note = ""
+
+Item 618
+Name = ""
+Description = ""
+Note = ""
+
+Item 619
+Name = ""
+Description = ""
+Note = ""
+
+Item 620
+Name = ""
+Description = ""
+Note = ""
+
+Item 621
+Name = ""
+Description = ""
+Note = ""
+
+Item 622
+Name = ""
+Description = ""
+Note = ""
+
+Item 623
+Name = ""
+Description = ""
+Note = ""
+
+Item 624
+Name = ""
+Description = ""
+Note = ""
+
+Item 625
+Name = ""
+Description = ""
+Note = ""
+
+Item 626
+Name = ""
+Description = ""
+Note = ""
+
+Item 627
+Name = ""
+Description = ""
+Note = ""
+
+Item 628
+Name = ""
+Description = ""
+Note = ""
+
+Item 629
+Name = ""
+Description = ""
+Note = ""
+
+Item 630
+Name = "鉛のペレット"
+Description = "弾薬の入っていない球状の弾"
+Note = ""
+
+Item 631
+Name = ""
+Description = ""
+Note = ""
+
+Item 632
+Name = ""
+Description = ""
+Note = ""
+
+Item 633
+Name = ""
+Description = ""
+Note = ""
+
+Item 634
+Name = ""
+Description = ""
+Note = ""
+
+Item 635
+Name = ""
+Description = ""
+Note = ""
+
+Item 636
+Name = ""
+Description = ""
+Note = ""
+
+Item 637
+Name = ""
+Description = ""
+Note = ""
+
+Item 638
+Name = ""
+Description = ""
+Note = ""
+
+Item 639
+Name = ""
+Description = ""
+Note = ""
+
+Item 640
+Name = ""
+Description = ""
+Note = ""
+
+Item 641
+Name = ""
+Description = ""
+Note = ""
+
+Item 642
+Name = ""
+Description = ""
+Note = ""
+
+Item 643
+Name = ""
+Description = ""
+Note = ""
+
+Item 644
+Name = ""
+Description = ""
+Note = ""
+
+Item 645
+Name = ""
+Description = ""
+Note = ""
+
+Item 646
+Name = ""
+Description = ""
+Note = ""
+
+Item 647
+Name = ""
+Description = ""
+Note = ""
+
+Item 648
+Name = ""
+Description = ""
+Note = ""
+
+Item 649
+Name = ""
+Description = ""
+Note = ""
+
+Item 650
+Name = ""
+Description = ""
+Note = ""
+
+Item 651
+Name = ""
+Description = ""
+Note = ""
+
+Item 652
+Name = ""
+Description = ""
+Note = ""
+
+Item 653
+Name = ""
+Description = ""
+Note = ""
+
+Item 654
+Name = ""
+Description = ""
+Note = ""
+
+Item 655
+Name = ""
+Description = ""
+Note = ""
+
+Item 656
+Name = ""
+Description = ""
+Note = ""
+
+Item 657
+Name = ""
+Description = ""
+Note = ""
+
+Item 658
+Name = ""
+Description = ""
+Note = ""
+
+Item 659
+Name = ""
+Description = ""
+Note = ""
+
+Item 660
+Name = ""
+Description = ""
+Note = ""
+
+Item 661
+Name = ""
+Description = ""
+Note = ""
+
+Item 662
+Name = ""
+Description = ""
+Note = ""
+
+Item 663
+Name = ""
+Description = ""
+Note = ""
+
+Item 664
+Name = ""
+Description = ""
+Note = ""
+
+Item 665
+Name = ""
+Description = ""
+Note = ""
+
+Item 666
+Name = ""
+Description = ""
+Note = ""
+
+Item 667
+Name = ""
+Description = ""
+Note = ""
+
+Item 668
+Name = ""
+Description = ""
+Note = ""
+
+Item 669
+Name = ""
+Description = ""
+Note = ""
+
+Item 670
+Name = ""
+Description = ""
+Note = ""
+
+Item 671
+Name = ""
+Description = ""
+Note = ""
+
+Item 672
+Name = ""
+Description = ""
+Note = ""
+
+Item 673
+Name = ""
+Description = ""
+Note = ""
+
+Item 674
+Name = ""
+Description = ""
+Note = ""
+
+Item 675
+Name = ""
+Description = ""
+Note = ""
+
+Item 676
+Name = ""
+Description = ""
+Note = ""
+
+Item 677
+Name = ""
+Description = ""
+Note = ""
+
+Item 678
+Name = ""
+Description = ""
+Note = ""
+
+Item 679
+Name = ""
+Description = ""
+Note = ""
+
+Item 680
+Name = ""
+Description = ""
+Note = ""
+
+Item 681
+Name = ""
+Description = ""
+Note = ""
+
+Item 682
+Name = ""
+Description = ""
+Note = ""
+
+Item 683
+Name = ""
+Description = ""
+Note = ""
+
+Item 684
+Name = ""
+Description = ""
+Note = ""
+
+Item 685
+Name = ""
+Description = ""
+Note = ""
+
+Item 686
+Name = ""
+Description = ""
+Note = ""
+
+Item 687
+Name = ""
+Description = ""
+Note = ""
+
+Item 688
+Name = ""
+Description = ""
+Note = ""
+
+Item 689
+Name = ""
+Description = ""
+Note = ""
+
+Item 690
+Name = ""
+Description = ""
+Note = ""
+
+Item 691
+Name = ""
+Description = ""
+Note = ""
+
+Item 692
+Name = ""
+Description = ""
+Note = ""
+
+Item 693
+Name = ""
+Description = ""
+Note = ""
+
+Item 694
+Name = ""
+Description = ""
+Note = ""
+
+Item 695
+Name = ""
+Description = ""
+Note = ""
+
+Item 696
+Name = ""
+Description = ""
+Note = ""
+
+Item 697
+Name = ""
+Description = ""
+Note = ""
+
+Item 698
+Name = ""
+Description = ""
+Note = ""
+
+Item 699
+Name = ""
+Description = ""
+Note = ""
+
+Item 700
+Name = ""
+Description = ""
+Note = ""
+
+Item 701
+Name = ""
+Description = ""
+Note = ""
+
+Item 702
+Name = ""
+Description = ""
+Note = ""
+
+Item 703
+Name = ""
+Description = ""
+Note = ""
+
+Item 704
+Name = ""
+Description = ""
+Note = ""
+
+Item 705
+Name = ""
+Description = ""
+Note = ""
+
+Item 706
+Name = ""
+Description = ""
+Note = ""
+
+Item 707
+Name = ""
+Description = ""
+Note = ""
+
+Item 708
+Name = ""
+Description = ""
+Note = ""
+
+Item 709
+Name = ""
+Description = ""
+Note = ""
+
+Item 710
+Name = ""
+Description = ""
+Note = ""
+
+Item 711
+Name = ""
+Description = ""
+Note = ""
+
+Item 712
+Name = ""
+Description = ""
+Note = ""
+
+Item 713
+Name = ""
+Description = ""
+Note = ""
+
+Item 714
+Name = ""
+Description = ""
+Note = ""
+
+Item 715
+Name = ""
+Description = ""
+Note = ""
+
+Item 716
+Name = ""
+Description = ""
+Note = ""
+
+Item 717
+Name = ""
+Description = ""
+Note = ""
+
+Item 718
+Name = ""
+Description = ""
+Note = ""
+
+Item 719
+Name = ""
+Description = ""
+Note = ""
+
+Item 720
+Name = ""
+Description = ""
+Note = ""
+
+Item 721
+Name = ""
+Description = ""
+Note = ""
+
+Item 722
+Name = ""
+Description = ""
+Note = ""
+
+Item 723
+Name = ""
+Description = ""
+Note = ""
+
+Item 724
+Name = ""
+Description = ""
+Note = ""
+
+Item 725
+Name = ""
+Description = ""
+Note = ""
+
+Item 726
+Name = ""
+Description = ""
+Note = ""
+
+Item 727
+Name = ""
+Description = ""
+Note = ""
+
+Item 728
+Name = ""
+Description = ""
+Note = ""
+
+Item 729
+Name = ""
+Description = ""
+Note = ""
+
+Item 730
+Name = ""
+Description = ""
+Note = ""
+
+Item 731
+Name = ""
+Description = ""
+Note = ""
+
+Item 732
+Name = ""
+Description = ""
+Note = ""
+
+Item 733
+Name = ""
+Description = ""
+Note = ""
+
+Item 734
+Name = ""
+Description = ""
+Note = ""
+
+Item 735
+Name = ""
+Description = ""
+Note = ""
+
+Item 736
+Name = ""
+Description = ""
+Note = ""
+
+Item 737
+Name = ""
+Description = ""
+Note = ""
+
+Item 738
+Name = ""
+Description = ""
+Note = ""
+
+Item 739
+Name = ""
+Description = ""
+Note = ""
+
+Item 740
+Name = ""
+Description = ""
+Note = ""
+
+Item 741
+Name = ""
+Description = ""
+Note = ""
+
+Item 742
+Name = ""
+Description = ""
+Note = ""
+
+Item 743
+Name = ""
+Description = ""
+Note = ""
+
+Item 744
+Name = ""
+Description = ""
+Note = ""
+
+Item 745
+Name = ""
+Description = ""
+Note = ""
+
+Item 746
+Name = ""
+Description = ""
+Note = ""
+
+Item 747
+Name = ""
+Description = ""
+Note = ""
+
+Item 748
+Name = ""
+Description = ""
+Note = ""
+
+Item 749
+Name = ""
+Description = ""
+Note = ""
+
+Item 750
+Name = ""
+Description = ""
+Note = ""
+
+Item 751
+Name = ""
+Description = ""
+Note = ""
+
+Item 752
+Name = ""
+Description = ""
+Note = ""
+
+Item 753
+Name = ""
+Description = ""
+Note = ""
+
+Item 754
+Name = ""
+Description = ""
+Note = ""
+
+Item 755
+Name = ""
+Description = ""
+Note = ""
+
+Item 756
+Name = ""
+Description = ""
+Note = ""
+
+Item 757
+Name = ""
+Description = ""
+Note = ""
+
+Item 758
+Name = ""
+Description = ""
+Note = ""
+
+Item 759
+Name = ""
+Description = ""
+Note = ""
+
+Item 760
+Name = ""
+Description = ""
+Note = ""
+
+Item 761
+Name = ""
+Description = ""
+Note = ""
+
+Item 762
+Name = ""
+Description = ""
+Note = ""
+
+Item 763
+Name = ""
+Description = ""
+Note = ""
+
+Item 764
+Name = ""
+Description = ""
+Note = ""
+
+Item 765
+Name = ""
+Description = ""
+Note = ""
+
+Item 766
+Name = ""
+Description = ""
+Note = ""
+
+Item 767
+Name = ""
+Description = ""
+Note = ""
+
+Item 768
+Name = ""
+Description = ""
+Note = ""
+
+Item 769
+Name = ""
+Description = ""
+Note = ""
+
+Item 770
+Name = ""
+Description = ""
+Note = ""
+
+Item 771
+Name = ""
+Description = ""
+Note = ""
+
+Item 772
+Name = ""
+Description = ""
+Note = ""
+
+Item 773
+Name = ""
+Description = ""
+Note = ""
+
+Item 774
+Name = ""
+Description = ""
+Note = ""
+
+Item 775
+Name = ""
+Description = ""
+Note = ""
+
+Item 776
+Name = ""
+Description = ""
+Note = ""
+
+Item 777
+Name = ""
+Description = ""
+Note = ""
+
+Item 778
+Name = ""
+Description = ""
+Note = ""
+
+Item 779
+Name = ""
+Description = ""
+Note = ""
+
+Item 780
+Name = ""
+Description = ""
+Note = ""
+
+Item 781
+Name = ""
+Description = ""
+Note = ""
+
+Item 782
+Name = ""
+Description = ""
+Note = ""
+
+Item 783
+Name = ""
+Description = ""
+Note = ""
+
+Item 784
+Name = ""
+Description = ""
+Note = ""
+
+Item 785
+Name = ""
+Description = ""
+Note = ""
+
+Item 786
+Name = ""
+Description = ""
+Note = ""
+
+Item 787
+Name = ""
+Description = ""
+Note = ""
+
+Item 788
+Name = ""
+Description = ""
+Note = ""
+
+Item 789
+Name = ""
+Description = ""
+Note = ""
+
+Item 790
+Name = ""
+Description = ""
+Note = ""
+
+Item 791
+Name = ""
+Description = ""
+Note = ""
+
+Item 792
+Name = ""
+Description = ""
+Note = ""
+
+Item 793
+Name = ""
+Description = ""
+Note = ""
+
+Item 794
+Name = ""
+Description = ""
+Note = ""
+
+Item 795
+Name = ""
+Description = ""
+Note = ""
+
+Item 796
+Name = ""
+Description = ""
+Note = ""
+
+Item 797
+Name = ""
+Description = ""
+Note = ""
+
+Item 798
+Name = ""
+Description = ""
+Note = ""
+
+Item 799
+Name = ""
+Description = ""
+Note = ""
+
+Item 800
+Name = ""
+Description = ""
+Note = ""
+
+Item 801
+Name = ""
+Description = ""
+Note = ""
+
+Item 802
+Name = ""
+Description = ""
+Note = ""
+
+Item 803
+Name = ""
+Description = ""
+Note = ""
+
+Item 804
+Name = ""
+Description = ""
+Note = ""
+
+Item 805
+Name = ""
+Description = ""
+Note = ""
+
+Item 806
+Name = ""
+Description = ""
+Note = ""
+
+Item 807
+Name = ""
+Description = ""
+Note = ""
+
+Item 808
+Name = ""
+Description = ""
+Note = ""
+
+Item 809
+Name = ""
+Description = ""
+Note = ""
+
+Item 810
+Name = ""
+Description = ""
+Note = ""
+
+Item 811
+Name = ""
+Description = ""
+Note = ""
+
+Item 812
+Name = ""
+Description = ""
+Note = ""
+
+Item 813
+Name = ""
+Description = ""
+Note = ""
+
+Item 814
+Name = ""
+Description = ""
+Note = ""
+
+Item 815
+Name = ""
+Description = ""
+Note = ""
+
+Item 816
+Name = ""
+Description = ""
+Note = ""
+
+Item 817
+Name = ""
+Description = ""
+Note = ""
+
+Item 818
+Name = ""
+Description = ""
+Note = ""
+
+Item 819
+Name = ""
+Description = ""
+Note = ""
+
+Item 820
+Name = ""
+Description = ""
+Note = ""
+
+Item 821
+Name = ""
+Description = ""
+Note = ""
+
+Item 822
+Name = ""
+Description = ""
+Note = ""
+
+Item 823
+Name = ""
+Description = ""
+Note = ""
+
+Item 824
+Name = ""
+Description = ""
+Note = ""
+
+Item 825
+Name = ""
+Description = ""
+Note = ""
+
+Item 826
+Name = ""
+Description = ""
+Note = ""
+
+Item 827
+Name = ""
+Description = ""
+Note = ""
+
+Item 828
+Name = ""
+Description = ""
+Note = ""
+
+Item 829
+Name = ""
+Description = ""
+Note = ""
+
+Item 830
+Name = ""
+Description = ""
+Note = ""
+
+Item 831
+Name = ""
+Description = ""
+Note = ""
+
+Item 832
+Name = ""
+Description = ""
+Note = ""
+
+Item 833
+Name = ""
+Description = ""
+Note = ""
+
+Item 834
+Name = ""
+Description = ""
+Note = ""
+
+Item 835
+Name = ""
+Description = ""
+Note = ""
+
+Item 836
+Name = ""
+Description = ""
+Note = ""
+
+Item 837
+Name = ""
+Description = ""
+Note = ""
+
+Item 838
+Name = ""
+Description = ""
+Note = ""
+
+Item 839
+Name = ""
+Description = ""
+Note = ""
+
+Item 840
+Name = ""
+Description = ""
+Note = ""
+
+Item 841
+Name = ""
+Description = ""
+Note = ""
+
+Item 842
+Name = ""
+Description = ""
+Note = ""
+
+Item 843
+Name = ""
+Description = ""
+Note = ""
+
+Item 844
+Name = ""
+Description = ""
+Note = ""
+
+Item 845
+Name = ""
+Description = ""
+Note = ""
+
+Item 846
+Name = ""
+Description = ""
+Note = ""
+
+Item 847
+Name = ""
+Description = ""
+Note = ""
+
+Item 848
+Name = ""
+Description = ""
+Note = ""
+
+Item 849
+Name = ""
+Description = ""
+Note = ""
+
+Item 850
+Name = ""
+Description = ""
+Note = ""
+
+Item 851
+Name = ""
+Description = ""
+Note = ""
+
+Item 852
+Name = ""
+Description = ""
+Note = ""
+
+Item 853
+Name = ""
+Description = ""
+Note = ""
+
+Item 854
+Name = ""
+Description = ""
+Note = ""
+
+Item 855
+Name = ""
+Description = ""
+Note = ""
+
+Item 856
+Name = ""
+Description = ""
+Note = ""
+
+Item 857
+Name = ""
+Description = ""
+Note = ""
+
+Item 858
+Name = ""
+Description = ""
+Note = ""
+
+Item 859
+Name = ""
+Description = ""
+Note = ""
+
+Item 860
+Name = ""
+Description = ""
+Note = ""
+
+Item 861
+Name = ""
+Description = ""
+Note = ""
+
+Item 862
+Name = ""
+Description = ""
+Note = ""
+
+Item 863
+Name = ""
+Description = ""
+Note = ""
+
+Item 864
+Name = ""
+Description = ""
+Note = ""
+
+Item 865
+Name = ""
+Description = ""
+Note = ""
+
+Item 866
+Name = ""
+Description = ""
+Note = ""
+
+Item 867
+Name = ""
+Description = ""
+Note = ""
+
+Item 868
+Name = ""
+Description = ""
+Note = ""
+
+Item 869
+Name = ""
+Description = ""
+Note = ""
+
+Item 870
+Name = ""
+Description = ""
+Note = ""
+
+Item 871
+Name = ""
+Description = ""
+Note = ""
+
+Item 872
+Name = ""
+Description = ""
+Note = ""
+
+Item 873
+Name = ""
+Description = ""
+Note = ""
+
+Item 874
+Name = ""
+Description = ""
+Note = ""
+
+Item 875
+Name = ""
+Description = ""
+Note = ""
+
+Item 876
+Name = ""
+Description = ""
+Note = ""
+
+Item 877
+Name = ""
+Description = ""
+Note = ""
+
+Item 878
+Name = ""
+Description = ""
+Note = ""
+
+Item 879
+Name = ""
+Description = ""
+Note = ""
+
+Item 880
+Name = ""
+Description = ""
+Note = ""
+
+Item 881
+Name = ""
+Description = ""
+Note = ""
+
+Item 882
+Name = ""
+Description = ""
+Note = ""
+
+Item 883
+Name = ""
+Description = ""
+Note = ""
+
+Item 884
+Name = ""
+Description = ""
+Note = ""
+
+Item 885
+Name = ""
+Description = ""
+Note = ""
+
+Item 886
+Name = ""
+Description = ""
+Note = ""
+
+Item 887
+Name = ""
+Description = ""
+Note = ""
+
+Item 888
+Name = ""
+Description = ""
+Note = ""
+
+Item 889
+Name = ""
+Description = ""
+Note = ""
+
+Item 890
+Name = ""
+Description = ""
+Note = ""
+
+Item 891
+Name = ""
+Description = ""
+Note = ""
+
+Item 892
+Name = ""
+Description = ""
+Note = ""
+
+Item 893
+Name = ""
+Description = ""
+Note = ""
+
+Item 894
+Name = "SM本"
+Description = "ハードな内容の本。痛そう････。\r\n心の闇上昇：10"
+Note = ""
+
+Item 895
+Name = "黒歴史ノート"
+Description = "とある人達の黒歴史が載せられたノート\r\n心の闇上昇：20"
+Note = ""
+
+Item 896
+Name = "聖書"
+Description = "心が綺麗になる神々の言葉を翻訳したありがたい聖書\r\n心の闇上昇：50"
+Note = ""
+
+Item 897
+Name = "デスノート"
+Description = "読むと死にたくなる本。名前を書いても死にはしない。\r\n心の闇上昇：100"
+Note = ""
+
+Item 898
+Name = ""
+Description = ""
+Note = ""
+
+Item 899
+Name = ""
+Description = ""
+Note = ""
+
+Item 900
+Name = "=========="
+Description = ""
+Note = ""
+
+Item 901
+Name = "学費"
+Description = "両親とおばあちゃんが残してくれた\r\n魔法学校に通うためのお金"
+Note = ""
+
+Item 902
+Name = "魔物図鑑"
+Description = "出会った魔物が自動的に記載されていく不思議な本\r\n････いやまぁ魔物以外も登録されますけどね。"
+Note = ""
+
+Item 903
+Name = "アイテム図鑑"
+Description = "手に入れたアイテムが自動的に記載されていく不思議な本"
+Note = ""
+
+Item 904
+Name = "幻影結晶"
+Description = "今着ている服に違う服を幻影としてすり替える事が出来る"
+Note = ""
+
+Item 905
+Name = "絆創膏の使い方"
+Description = "絆創膏について色々書かれている本"
+Note = ""
+
+Item 906
+Name = "薄い本"
+Description = "ちょっとエッチな薄い本"
+Note = ""
+
+Item 907
+Name = "月刊女の子の下着"
+Description = "第一号は可愛い女の子の下着を付録！\r\n現在は廃刊になった模様････。"
+Note = ""
+
+Item 908
+Name = ""
+Description = ""
+Note = ""
+
+Item 909
+Name = ""
+Description = ""
+Note = ""
+
+Item 910
+Name = "ギルド証"
+Description = "ハーリスの街にある冒険者ギルドで発行されたギルド証"
+Note = ""
+
+Item 911
+Name = "鏡の指輪"
+Description = "己の精神世界が反映されたスキル界に行く事が出来る。"
+Note = ""
+
+Item 912
+Name = ""
+Description = ""
+Note = ""
+
+Item 913
+Name = ""
+Description = ""
+Note = ""
+
+Item 914
+Name = "篝火の素"
+Description = "焚き火や篝火に癒し魔力が宿った火を灯す事が出来る。"
+Note = ""
+
+Item 915
+Name = "氷床の魔法札"
+Description = "水を一時的に凍結させる事が出来る札。"
+Note = ""
+
+Item 916
+Name = "ロープ"
+Description = "ぶら下げる事で通行できるようになる事もある"
+Note = ""
+
+Item 917
+Name = "溶氷の魔法札"
+Description = "氷を一時的に溶かし、温水に出来る札。"
+Note = ""
+
+Item 918
+Name = "おかえり香"
+Description = "篝火で使うとダンジョンなどで脱出する事が出来る魔法アイテム\r\n僕にはまだ帰れる場所がある･･･。"
+Note = ""
+
+Item 919
+Name = ""
+Description = ""
+Note = ""
+
+Item 920
+Name = ""
+Description = ""
+Note = ""
+
+Item 921
+Name = ""
+Description = ""
+Note = ""
+
+Item 922
+Name = ""
+Description = ""
+Note = ""
+
+Item 923
+Name = ""
+Description = ""
+Note = ""
+
+Item 924
+Name = ""
+Description = ""
+Note = ""
+
+Item 925
+Name = ""
+Description = ""
+Note = ""
+
+Item 926
+Name = ""
+Description = ""
+Note = ""
+
+Item 927
+Name = "レシピ書【黄銅】"
+Description = "銅と鉛を組み合わせた黄銅を扱えるようになる書籍"
+Note = ""
+
+Item 928
+Name = "レシピ書【青銅】"
+Description = "銅と錫を組み合わせた青銅を扱えるようになる書籍"
+Note = ""
+
+Item 929
+Name = "レシピ書【コボルト強化弓】"
+Description = "青銅を用いたコボルト族に伝わる強力な弓の製造レシピ\r\n"
+Note = ""
+
+Item 930
+Name = ""
+Description = ""
+Note = ""
+
+Item 931
+Name = ""
+Description = ""
+Note = ""
+
+Item 932
+Name = ""
+Description = ""
+Note = ""
+
+Item 933
+Name = ""
+Description = ""
+Note = ""
+
+Item 934
+Name = ""
+Description = ""
+Note = ""
+
+Item 935
+Name = ""
+Description = ""
+Note = ""
+
+Item 936
+Name = ""
+Description = ""
+Note = ""
+
+Item 937
+Name = ""
+Description = ""
+Note = ""
+
+Item 938
+Name = ""
+Description = ""
+Note = ""
+
+Item 939
+Name = ""
+Description = ""
+Note = ""
+
+Item 940
+Name = ""
+Description = ""
+Note = ""
+
+Item 941
+Name = ""
+Description = ""
+Note = ""
+
+Item 942
+Name = ""
+Description = ""
+Note = ""
+
+Item 943
+Name = ""
+Description = ""
+Note = ""
+
+Item 944
+Name = ""
+Description = ""
+Note = ""
+
+Item 945
+Name = ""
+Description = ""
+Note = ""
+
+Item 946
+Name = ""
+Description = ""
+Note = ""
+
+Item 947
+Name = ""
+Description = ""
+Note = ""
+
+Item 948
+Name = "捨てられた鍵"
+Description = "コボルト洞窟で拾ったどこで使うか分からない鍵"
+Note = ""
+
+Item 949
+Name = "鍵【悪徳商人の館】"
+Description = "悪徳商人の館を警備しているリーダーから手に入れた鍵"
+Note = ""
+
+Item 950
+Name = "銅の鍵"
+Description = "銅製の鍵。\r\nほどほどの扉なら開けることが可能になる"
+Note = ""
+
+Item 951
+Name = "黄銅の鍵"
+Description = "黄銅製の鍵。\r\n開けられない宝箱は無いですか？"
+Note = ""
+
+Item 952
+Name = "青銅の鍵"
+Description = "何かに使えるかも知れない？"
+Note = ""
+
+Item 953
+Name = ""
+Description = ""
+Note = ""
+
+Item 954
+Name = ""
+Description = ""
+Note = ""
+
+Item 955
+Name = ""
+Description = ""
+Note = ""
+
+Item 956
+Name = ""
+Description = ""
+Note = ""
+
+Item 957
+Name = ""
+Description = ""
+Note = ""
+
+Item 958
+Name = ""
+Description = ""
+Note = ""
+
+Item 959
+Name = ""
+Description = ""
+Note = ""
+
+Item 960
+Name = ""
+Description = ""
+Note = ""
+
+Item 961
+Name = ""
+Description = ""
+Note = ""
+
+Item 962
+Name = ""
+Description = ""
+Note = ""
+
+Item 963
+Name = ""
+Description = ""
+Note = ""
+
+Item 964
+Name = ""
+Description = ""
+Note = ""
+
+Item 965
+Name = ""
+Description = ""
+Note = ""
+
+Item 966
+Name = ""
+Description = ""
+Note = ""
+
+Item 967
+Name = ""
+Description = ""
+Note = ""
+
+Item 968
+Name = ""
+Description = ""
+Note = ""
+
+Item 969
+Name = ""
+Description = ""
+Note = ""
+
+Item 970
+Name = ""
+Description = ""
+Note = ""
+
+Item 971
+Name = ""
+Description = ""
+Note = ""
+
+Item 972
+Name = ""
+Description = ""
+Note = ""
+
+Item 973
+Name = ""
+Description = ""
+Note = ""
+
+Item 974
+Name = ""
+Description = ""
+Note = ""
+
+Item 975
+Name = ""
+Description = ""
+Note = ""
+
+Item 976
+Name = ""
+Description = ""
+Note = ""
+
+Item 977
+Name = ""
+Description = ""
+Note = ""
+
+Item 978
+Name = ""
+Description = ""
+Note = ""
+
+Item 979
+Name = ""
+Description = ""
+Note = ""
+
+Item 980
+Name = ""
+Description = ""
+Note = ""
+
+Item 981
+Name = ""
+Description = ""
+Note = ""
+
+Item 982
+Name = ""
+Description = ""
+Note = ""
+
+Item 983
+Name = ""
+Description = ""
+Note = ""
+
+Item 984
+Name = ""
+Description = ""
+Note = ""
+
+Item 985
+Name = ""
+Description = ""
+Note = ""
+
+Item 986
+Name = ""
+Description = ""
+Note = ""
+
+Item 987
+Name = ""
+Description = ""
+Note = ""
+
+Item 988
+Name = ""
+Description = ""
+Note = ""
+
+Item 989
+Name = ""
+Description = ""
+Note = ""
+
+Item 990
+Name = ""
+Description = ""
+Note = ""
+
+Item 991
+Name = ""
+Description = ""
+Note = ""
+
+Item 992
+Name = ""
+Description = ""
+Note = ""
+
+Item 993
+Name = ""
+Description = ""
+Note = ""
+
+Item 994
+Name = ""
+Description = ""
+Note = ""
+
+Item 995
+Name = ""
+Description = ""
+Note = ""
+
+Item 996
+Name = ""
+Description = ""
+Note = ""
+
+Item 997
+Name = ""
+Description = ""
+Note = ""
+
+Item 998
+Name = ""
+Description = ""
+Note = ""
+
+Item 999
+Name = ""
+Description = ""
+Note = ""
+
+Item 1000
+Name = ""
+Description = ""
+Note = ""
+
+Item 1001
+Name = ""
+Description = ""
+Note = ""
+
+Item 1002
+Name = ""
+Description = ""
+Note = ""
+
+Item 1003
+Name = ""
+Description = ""
+Note = ""
+
+Item 1004
+Name = ""
+Description = ""
+Note = ""
+
+Item 1005
+Name = ""
+Description = ""
+Note = ""
+
+Item 1006
+Name = ""
+Description = ""
+Note = ""
+
+Item 1007
+Name = ""
+Description = ""
+Note = ""
+
+Item 1008
+Name = ""
+Description = ""
+Note = ""
+
+Item 1009
+Name = ""
+Description = ""
+Note = ""
+
+Item 1010
+Name = ""
+Description = ""
+Note = ""
+
+Item 1011
+Name = ""
+Description = ""
+Note = ""
+
+Item 1012
+Name = ""
+Description = ""
+Note = ""
+
+Item 1013
+Name = ""
+Description = ""
+Note = ""
+
+Item 1014
+Name = "マキシマイズハイエリクサー"
+Description = "伝説級の回復アイテム"
+Note = ""
+
+Item 1015
+Name = ""
+Description = ""
+Note = ""
+
+Item 1016
+Name = ""
+Description = ""
+Note = ""
+
+Item 1017
+Name = ""
+Description = ""
+Note = ""
+
+Item 1018
+Name = ""
+Description = ""
+Note = ""
+
+Item 1019
+Name = ""
+Description = ""
+Note = ""
+
+Item 1020
+Name = ""
+Description = ""
+Note = ""
+
+Item 1021
+Name = ""
+Description = ""
+Note = ""
+
+Item 1022
+Name = ""
+Description = ""
+Note = ""
+
+Item 1023
+Name = ""
+Description = ""
+Note = ""
+
+Item 1024
+Name = ""
+Description = ""
+Note = ""
+
+Item 1025
+Name = ""
+Description = ""
+Note = ""
+
+Item 1026
+Name = ""
+Description = ""
+Note = ""
+
+Item 1027
+Name = ""
+Description = ""
+Note = ""
+
+Item 1028
+Name = ""
+Description = ""
+Note = ""
+
+Item 1029
+Name = ""
+Description = ""
+Note = ""
+
+Item 1030
+Name = ""
+Description = ""
+Note = ""
+
+Item 1031
+Name = ""
+Description = ""
+Note = ""
+
+Item 1032
+Name = ""
+Description = ""
+Note = ""
+
+Item 1033
+Name = ""
+Description = ""
+Note = ""
+
+Item 1034
+Name = ""
+Description = ""
+Note = ""
+
+Item 1035
+Name = ""
+Description = ""
+Note = ""
+
+Item 1036
+Name = ""
+Description = ""
+Note = ""
+
+Item 1037
+Name = ""
+Description = ""
+Note = ""
+
+Item 1038
+Name = ""
+Description = ""
+Note = ""
+
+Item 1039
+Name = ""
+Description = ""
+Note = ""
+
+Item 1040
+Name = ""
+Description = ""
+Note = ""
+
+Item 1041
+Name = ""
+Description = ""
+Note = ""
+
+Item 1042
+Name = ""
+Description = ""
+Note = ""
+
+Item 1043
+Name = ""
+Description = ""
+Note = ""
+
+Item 1044
+Name = ""
+Description = ""
+Note = ""
+
+Item 1045
+Name = ""
+Description = ""
+Note = ""
+
+Item 1046
+Name = ""
+Description = ""
+Note = ""
+
+Item 1047
+Name = ""
+Description = ""
+Note = ""
+
+Item 1048
+Name = ""
+Description = ""
+Note = ""
+
+Item 1049
+Name = ""
+Description = ""
+Note = ""
+
+Item 1050
+Name = ""
+Description = ""
+Note = ""
+
+Item 1051
+Name = ""
+Description = ""
+Note = ""
+
+Item 1052
+Name = ""
+Description = ""
+Note = ""
+
+Item 1053
+Name = ""
+Description = ""
+Note = ""
+
+Item 1054
+Name = ""
+Description = ""
+Note = ""
+
+Item 1055
+Name = ""
+Description = ""
+Note = ""
+
+Item 1056
+Name = ""
+Description = ""
+Note = ""
+
+Item 1057
+Name = ""
+Description = ""
+Note = ""
+
+Item 1058
+Name = ""
+Description = ""
+Note = ""
+
+Item 1059
+Name = ""
+Description = ""
+Note = ""
+
+Item 1060
+Name = ""
+Description = ""
+Note = ""
+
+Item 1061
+Name = ""
+Description = ""
+Note = ""
+
+Item 1062
+Name = ""
+Description = ""
+Note = ""
+
+Item 1063
+Name = ""
+Description = ""
+Note = ""
+
+Item 1064
+Name = ""
+Description = ""
+Note = ""
+
+Item 1065
+Name = ""
+Description = ""
+Note = ""
+
+Item 1066
+Name = ""
+Description = ""
+Note = ""
+
+Item 1067
+Name = ""
+Description = ""
+Note = ""
+
+Item 1068
+Name = ""
+Description = ""
+Note = ""
+
+Item 1069
+Name = ""
+Description = ""
+Note = ""
+
+Item 1070
+Name = ""
+Description = ""
+Note = ""
+
+Item 1071
+Name = ""
+Description = ""
+Note = ""
+
+Item 1072
+Name = ""
+Description = ""
+Note = ""
+
+Item 1073
+Name = ""
+Description = ""
+Note = ""
+
+Item 1074
+Name = ""
+Description = ""
+Note = ""
+
+Item 1075
+Name = ""
+Description = ""
+Note = ""
+
+Item 1076
+Name = ""
+Description = ""
+Note = ""
+
+Item 1077
+Name = ""
+Description = ""
+Note = ""
+
+Item 1078
+Name = ""
+Description = ""
+Note = ""
+
+Item 1079
+Name = ""
+Description = ""
+Note = ""
+
+Item 1080
+Name = ""
+Description = ""
+Note = ""
+
+Item 1081
+Name = ""
+Description = ""
+Note = ""
+
+Item 1082
+Name = ""
+Description = ""
+Note = ""
+
+Item 1083
+Name = ""
+Description = ""
+Note = ""
+
+Item 1084
+Name = ""
+Description = ""
+Note = ""
+
+Item 1085
+Name = ""
+Description = ""
+Note = ""
+
+Item 1086
+Name = ""
+Description = ""
+Note = ""
+
+Item 1087
+Name = ""
+Description = ""
+Note = ""
+
+Item 1088
+Name = ""
+Description = ""
+Note = ""
+
+Item 1089
+Name = ""
+Description = ""
+Note = ""
+
+Item 1090
+Name = ""
+Description = ""
+Note = ""
+
+Item 1091
+Name = ""
+Description = ""
+Note = ""
+
+Item 1092
+Name = ""
+Description = ""
+Note = ""
+
+Item 1093
+Name = ""
+Description = ""
+Note = ""
+
+Item 1094
+Name = ""
+Description = ""
+Note = ""
+
+Item 1095
+Name = ""
+Description = ""
+Note = ""
+
+Item 1096
+Name = ""
+Description = ""
+Note = ""
+
+Item 1097
+Name = ""
+Description = ""
+Note = ""
+
+Item 1098
+Name = ""
+Description = ""
+Note = ""
+
+Item 1099
+Name = ""
+Description = ""
+Note = ""
+
+Item 1100
+Name = ""
+Description = ""
+Note = ""
+
+Item 1101
+Name = ""
+Description = ""
+Note = ""
+
+Item 1102
+Name = ""
+Description = ""
+Note = ""
+
+Item 1103
+Name = ""
+Description = ""
+Note = ""
+
+Item 1104
+Name = ""
+Description = ""
+Note = ""
+
+Item 1105
+Name = ""
+Description = ""
+Note = ""
+
+Item 1106
+Name = ""
+Description = ""
+Note = ""
+
+Item 1107
+Name = ""
+Description = ""
+Note = ""
+
+Item 1108
+Name = ""
+Description = ""
+Note = ""
+
+Item 1109
+Name = ""
+Description = ""
+Note = ""
+
+Item 1110
+Name = ""
+Description = ""
+Note = ""
+
+Item 1111
+Name = ""
+Description = ""
+Note = ""
+
+Item 1112
+Name = ""
+Description = ""
+Note = ""
+
+Item 1113
+Name = ""
+Description = ""
+Note = ""
+
+Item 1114
+Name = ""
+Description = ""
+Note = ""
+
+Item 1115
+Name = ""
+Description = ""
+Note = ""
+
+Item 1116
+Name = ""
+Description = ""
+Note = ""
+
+Item 1117
+Name = ""
+Description = ""
+Note = ""
+
+Item 1118
+Name = ""
+Description = ""
+Note = ""
+
+Item 1119
+Name = ""
+Description = ""
+Note = ""
+
+Item 1120
+Name = ""
+Description = ""
+Note = ""
+
+Item 1121
+Name = ""
+Description = ""
+Note = ""
+
+Item 1122
+Name = ""
+Description = ""
+Note = ""
+
+Item 1123
+Name = ""
+Description = ""
+Note = ""
+
+Item 1124
+Name = ""
+Description = ""
+Note = ""
+
+Item 1125
+Name = ""
+Description = ""
+Note = ""
+
+Item 1126
+Name = ""
+Description = ""
+Note = ""
+
+Item 1127
+Name = ""
+Description = ""
+Note = ""
+
+Item 1128
+Name = ""
+Description = ""
+Note = ""
+
+Item 1129
+Name = ""
+Description = ""
+Note = ""
+
+Item 1130
+Name = ""
+Description = ""
+Note = ""
+
+Item 1131
+Name = ""
+Description = ""
+Note = ""
+
+Item 1132
+Name = ""
+Description = ""
+Note = ""
+
+Item 1133
+Name = ""
+Description = ""
+Note = ""
+
+Item 1134
+Name = ""
+Description = ""
+Note = ""
+
+Item 1135
+Name = ""
+Description = ""
+Note = ""
+
+Item 1136
+Name = ""
+Description = ""
+Note = ""
+
+Item 1137
+Name = ""
+Description = ""
+Note = ""
+
+Item 1138
+Name = ""
+Description = ""
+Note = ""
+
+Item 1139
+Name = ""
+Description = ""
+Note = ""
+
+Item 1140
+Name = ""
+Description = ""
+Note = ""
+
+Item 1141
+Name = ""
+Description = ""
+Note = ""
+
+Item 1142
+Name = ""
+Description = ""
+Note = ""
+
+Item 1143
+Name = ""
+Description = ""
+Note = ""
+
+Item 1144
+Name = ""
+Description = ""
+Note = ""
+
+Item 1145
+Name = ""
+Description = ""
+Note = ""
+
+Item 1146
+Name = ""
+Description = ""
+Note = ""
+
+Item 1147
+Name = ""
+Description = ""
+Note = ""
+
+Item 1148
+Name = ""
+Description = ""
+Note = ""
+
+Item 1149
+Name = ""
+Description = ""
+Note = ""
+
+Item 1150
+Name = ""
+Description = ""
+Note = ""
+
+Item 1151
+Name = ""
+Description = ""
+Note = ""
+
+Item 1152
+Name = ""
+Description = ""
+Note = ""
+
+Item 1153
+Name = ""
+Description = ""
+Note = ""
+
+Item 1154
+Name = ""
+Description = ""
+Note = ""
+
+Item 1155
+Name = ""
+Description = ""
+Note = ""
+
+Item 1156
+Name = ""
+Description = ""
+Note = ""
+
+Item 1157
+Name = ""
+Description = ""
+Note = ""
+
+Item 1158
+Name = ""
+Description = ""
+Note = ""
+
+Item 1159
+Name = ""
+Description = ""
+Note = ""
+
+Item 1160
+Name = ""
+Description = ""
+Note = ""
+
+Item 1161
+Name = ""
+Description = ""
+Note = ""
+
+Item 1162
+Name = ""
+Description = ""
+Note = ""
+
+Item 1163
+Name = ""
+Description = ""
+Note = ""
+
+Item 1164
+Name = ""
+Description = ""
+Note = ""
+
+Item 1165
+Name = ""
+Description = ""
+Note = ""
+
+Item 1166
+Name = ""
+Description = ""
+Note = ""
+
+Item 1167
+Name = ""
+Description = ""
+Note = ""
+
+Item 1168
+Name = ""
+Description = ""
+Note = ""
+
+Item 1169
+Name = ""
+Description = ""
+Note = ""
+
+Item 1170
+Name = ""
+Description = ""
+Note = ""
+
+Item 1171
+Name = ""
+Description = ""
+Note = ""
+
+Item 1172
+Name = ""
+Description = ""
+Note = ""
+
+Item 1173
+Name = ""
+Description = ""
+Note = ""
+
+Item 1174
+Name = ""
+Description = ""
+Note = ""
+
+Item 1175
+Name = ""
+Description = ""
+Note = ""
+
+Item 1176
+Name = ""
+Description = ""
+Note = ""
+
+Item 1177
+Name = ""
+Description = ""
+Note = ""
+
+Item 1178
+Name = ""
+Description = ""
+Note = ""
+
+Item 1179
+Name = ""
+Description = ""
+Note = ""
+
+Item 1180
+Name = ""
+Description = ""
+Note = ""
+
+Item 1181
+Name = ""
+Description = ""
+Note = ""
+
+Item 1182
+Name = ""
+Description = ""
+Note = ""
+
+Item 1183
+Name = ""
+Description = ""
+Note = ""
+
+Item 1184
+Name = ""
+Description = ""
+Note = ""
+
+Item 1185
+Name = ""
+Description = ""
+Note = ""
+
+Item 1186
+Name = ""
+Description = ""
+Note = ""
+
+Item 1187
+Name = ""
+Description = ""
+Note = ""
+
+Item 1188
+Name = ""
+Description = ""
+Note = ""
+
+Item 1189
+Name = ""
+Description = ""
+Note = ""
+
+Item 1190
+Name = ""
+Description = ""
+Note = ""
+
+Item 1191
+Name = ""
+Description = ""
+Note = ""
+
+Item 1192
+Name = ""
+Description = ""
+Note = ""
+
+Item 1193
+Name = ""
+Description = ""
+Note = ""
+
+Item 1194
+Name = ""
+Description = ""
+Note = ""
+
+Item 1195
+Name = ""
+Description = ""
+Note = ""
+
+Item 1196
+Name = ""
+Description = ""
+Note = ""
+
+Item 1197
+Name = ""
+Description = ""
+Note = ""
+
+Item 1198
+Name = ""
+Description = ""
+Note = ""
+
+Item 1199
+Name = ""
+Description = ""
+Note = ""
+
+Item 1200
+Name = ""
+Description = ""
+Note = ""
+
+Item 1201
+Name = ""
+Description = ""
+Note = ""
+
+Item 1202
+Name = ""
+Description = ""
+Note = ""
+
+Item 1203
+Name = ""
+Description = ""
+Note = ""
+
+Item 1204
+Name = ""
+Description = ""
+Note = ""
+
+Item 1205
+Name = ""
+Description = ""
+Note = ""
+
+Item 1206
+Name = ""
+Description = ""
+Note = ""
+
+Item 1207
+Name = ""
+Description = ""
+Note = ""
+
+Item 1208
+Name = ""
+Description = ""
+Note = ""
+
+Item 1209
+Name = ""
+Description = ""
+Note = ""
+
+Item 1210
+Name = ""
+Description = ""
+Note = ""
+
+Item 1211
+Name = ""
+Description = ""
+Note = ""
+
+Item 1212
+Name = ""
+Description = ""
+Note = ""
+
+Item 1213
+Name = ""
+Description = ""
+Note = ""
+
+Item 1214
+Name = ""
+Description = ""
+Note = ""
+
+Item 1215
+Name = ""
+Description = ""
+Note = ""
+
+Item 1216
+Name = ""
+Description = ""
+Note = ""
+
+Item 1217
+Name = ""
+Description = ""
+Note = ""
+
+Item 1218
+Name = ""
+Description = ""
+Note = ""
+
+Item 1219
+Name = ""
+Description = ""
+Note = ""
+
+Item 1220
+Name = ""
+Description = ""
+Note = ""
+
+Item 1221
+Name = ""
+Description = ""
+Note = ""
+
+Item 1222
+Name = ""
+Description = ""
+Note = ""
+
+Item 1223
+Name = ""
+Description = ""
+Note = ""
+
+Item 1224
+Name = ""
+Description = ""
+Note = ""
+
+Item 1225
+Name = ""
+Description = ""
+Note = ""
+
+Item 1226
+Name = ""
+Description = ""
+Note = ""
+
+Item 1227
+Name = ""
+Description = ""
+Note = ""
+
+Item 1228
+Name = ""
+Description = ""
+Note = ""
+
+Item 1229
+Name = ""
+Description = ""
+Note = ""
+
+Item 1230
+Name = ""
+Description = ""
+Note = ""
+
+Item 1231
+Name = ""
+Description = ""
+Note = ""
+
+Item 1232
+Name = ""
+Description = ""
+Note = ""
+
+Item 1233
+Name = ""
+Description = ""
+Note = ""
+
+Item 1234
+Name = ""
+Description = ""
+Note = ""
+
+Item 1235
+Name = ""
+Description = ""
+Note = ""
+
+Item 1236
+Name = ""
+Description = ""
+Note = ""
+
+Item 1237
+Name = ""
+Description = ""
+Note = ""
+
+Item 1238
+Name = ""
+Description = ""
+Note = ""
+
+Item 1239
+Name = ""
+Description = ""
+Note = ""
+
+Item 1240
+Name = ""
+Description = ""
+Note = ""
+
+Item 1241
+Name = ""
+Description = ""
+Note = ""
+
+Item 1242
+Name = ""
+Description = ""
+Note = ""
+
+Item 1243
+Name = ""
+Description = ""
+Note = ""
+
+Item 1244
+Name = ""
+Description = ""
+Note = ""
+
+Item 1245
+Name = ""
+Description = ""
+Note = ""
+
+Item 1246
+Name = ""
+Description = ""
+Note = ""
+
+Item 1247
+Name = ""
+Description = ""
+Note = ""
+
+Item 1248
+Name = ""
+Description = ""
+Note = ""
+
+Item 1249
+Name = ""
+Description = ""
+Note = ""
+
+Item 1250
+Name = ""
+Description = ""
+Note = ""
+
+Item 1251
+Name = ""
+Description = ""
+Note = ""
+
+Item 1252
+Name = ""
+Description = ""
+Note = ""
+
+Item 1253
+Name = ""
+Description = ""
+Note = ""
+
+Item 1254
+Name = ""
+Description = ""
+Note = ""
+
+Item 1255
+Name = ""
+Description = ""
+Note = ""
+
+Item 1256
+Name = ""
+Description = ""
+Note = ""
+
+Item 1257
+Name = ""
+Description = ""
+Note = ""
+
+Item 1258
+Name = ""
+Description = ""
+Note = ""
+
+Item 1259
+Name = ""
+Description = ""
+Note = ""
+
+Item 1260
+Name = ""
+Description = ""
+Note = ""
+
+Item 1261
+Name = ""
+Description = ""
+Note = ""
+
+Item 1262
+Name = ""
+Description = ""
+Note = ""
+
+Item 1263
+Name = ""
+Description = ""
+Note = ""
+
+Item 1264
+Name = ""
+Description = ""
+Note = ""
+
+Item 1265
+Name = ""
+Description = ""
+Note = ""
+
+Item 1266
+Name = ""
+Description = ""
+Note = ""
+
+Item 1267
+Name = ""
+Description = ""
+Note = ""
+
+Item 1268
+Name = ""
+Description = ""
+Note = ""
+
+Item 1269
+Name = ""
+Description = ""
+Note = ""
+
+Item 1270
+Name = ""
+Description = ""
+Note = ""
+
+Item 1271
+Name = ""
+Description = ""
+Note = ""
+
+Item 1272
+Name = ""
+Description = ""
+Note = ""
+
+Item 1273
+Name = ""
+Description = ""
+Note = ""
+
+Item 1274
+Name = ""
+Description = ""
+Note = ""
+
+Item 1275
+Name = ""
+Description = ""
+Note = ""
+
+Item 1276
+Name = ""
+Description = ""
+Note = ""
+
+Item 1277
+Name = ""
+Description = ""
+Note = ""
+
+Item 1278
+Name = ""
+Description = ""
+Note = ""
+
+Item 1279
+Name = ""
+Description = ""
+Note = ""
+
+Item 1280
+Name = ""
+Description = ""
+Note = ""
+
+Item 1281
+Name = ""
+Description = ""
+Note = ""
+
+Item 1282
+Name = ""
+Description = ""
+Note = ""
+
+Item 1283
+Name = ""
+Description = ""
+Note = ""
+
+Item 1284
+Name = ""
+Description = ""
+Note = ""
+
+Item 1285
+Name = ""
+Description = ""
+Note = ""
+
+Item 1286
+Name = ""
+Description = ""
+Note = ""
+
+Item 1287
+Name = ""
+Description = ""
+Note = ""
+
+Item 1288
+Name = ""
+Description = ""
+Note = ""
+
+Item 1289
+Name = ""
+Description = ""
+Note = ""
+
+Item 1290
+Name = ""
+Description = ""
+Note = ""
+
+Item 1291
+Name = ""
+Description = ""
+Note = ""
+
+Item 1292
+Name = ""
+Description = ""
+Note = ""
+
+Item 1293
+Name = ""
+Description = ""
+Note = ""
+
+Item 1294
+Name = ""
+Description = ""
+Note = ""
+
+Item 1295
+Name = ""
+Description = ""
+Note = ""
+
+Item 1296
+Name = ""
+Description = ""
+Note = ""
+
+Item 1297
+Name = ""
+Description = ""
+Note = ""
+
+Item 1298
+Name = ""
+Description = ""
+Note = ""
+
+Item 1299
+Name = ""
+Description = ""
+Note = ""
+
+Item 1300
+Name = ""
+Description = ""
+Note = ""
+
+Item 1301
+Name = ""
+Description = ""
+Note = ""
+
+Item 1302
+Name = ""
+Description = ""
+Note = ""
+
+Item 1303
+Name = ""
+Description = ""
+Note = ""
+
+Item 1304
+Name = ""
+Description = ""
+Note = ""
+
+Item 1305
+Name = ""
+Description = ""
+Note = ""
+
+Item 1306
+Name = ""
+Description = ""
+Note = ""
+
+Item 1307
+Name = ""
+Description = ""
+Note = ""
+
+Item 1308
+Name = ""
+Description = ""
+Note = ""
+
+Item 1309
+Name = ""
+Description = ""
+Note = ""
+
+Item 1310
+Name = ""
+Description = ""
+Note = ""
+
+Item 1311
+Name = ""
+Description = ""
+Note = ""
+
+Item 1312
+Name = ""
+Description = ""
+Note = ""
+
+Item 1313
+Name = ""
+Description = ""
+Note = ""
+
+Item 1314
+Name = ""
+Description = ""
+Note = ""
+
+Item 1315
+Name = ""
+Description = ""
+Note = ""
+
+Item 1316
+Name = ""
+Description = ""
+Note = ""
+
+Item 1317
+Name = ""
+Description = ""
+Note = ""
+
+Item 1318
+Name = ""
+Description = ""
+Note = ""
+
+Item 1319
+Name = ""
+Description = ""
+Note = ""
+
+Item 1320
+Name = ""
+Description = ""
+Note = ""
+
+Item 1321
+Name = ""
+Description = ""
+Note = ""
+
+Item 1322
+Name = ""
+Description = ""
+Note = ""
+
+Item 1323
+Name = ""
+Description = ""
+Note = ""
+
+Item 1324
+Name = ""
+Description = ""
+Note = ""
+
+Item 1325
+Name = ""
+Description = ""
+Note = ""
+
+Item 1326
+Name = ""
+Description = ""
+Note = ""
+
+Item 1327
+Name = ""
+Description = ""
+Note = ""
+
+Item 1328
+Name = ""
+Description = ""
+Note = ""
+
+Item 1329
+Name = ""
+Description = ""
+Note = ""
+
+Item 1330
+Name = ""
+Description = ""
+Note = ""
+
+Item 1331
+Name = ""
+Description = ""
+Note = ""
+
+Item 1332
+Name = ""
+Description = ""
+Note = ""
+
+Item 1333
+Name = ""
+Description = ""
+Note = ""
+
+Item 1334
+Name = ""
+Description = ""
+Note = ""
+
+Item 1335
+Name = ""
+Description = ""
+Note = ""
+
+Item 1336
+Name = ""
+Description = ""
+Note = ""
+
+Item 1337
+Name = ""
+Description = ""
+Note = ""
+
+Item 1338
+Name = ""
+Description = ""
+Note = ""
+
+Item 1339
+Name = ""
+Description = ""
+Note = ""
+
+Item 1340
+Name = ""
+Description = ""
+Note = ""
+
+Item 1341
+Name = ""
+Description = ""
+Note = ""
+
+Item 1342
+Name = ""
+Description = ""
+Note = ""
+
+Item 1343
+Name = ""
+Description = ""
+Note = ""
+
+Item 1344
+Name = ""
+Description = ""
+Note = ""
+
+Item 1345
+Name = ""
+Description = ""
+Note = ""
+
+Item 1346
+Name = ""
+Description = ""
+Note = ""
+
+Item 1347
+Name = ""
+Description = ""
+Note = ""
+
+Item 1348
+Name = ""
+Description = ""
+Note = ""
+
+Item 1349
+Name = ""
+Description = ""
+Note = ""
+
+Item 1350
+Name = ""
+Description = ""
+Note = ""
+
+Item 1351
+Name = ""
+Description = ""
+Note = ""
+
+Item 1352
+Name = ""
+Description = ""
+Note = ""
+
+Item 1353
+Name = ""
+Description = ""
+Note = ""
+
+Item 1354
+Name = ""
+Description = ""
+Note = ""
+
+Item 1355
+Name = ""
+Description = ""
+Note = ""
+
+Item 1356
+Name = ""
+Description = ""
+Note = ""
+
+Item 1357
+Name = ""
+Description = ""
+Note = ""
+
+Item 1358
+Name = ""
+Description = ""
+Note = ""
+
+Item 1359
+Name = ""
+Description = ""
+Note = ""
+
+Item 1360
+Name = ""
+Description = ""
+Note = ""
+
+Item 1361
+Name = ""
+Description = ""
+Note = ""
+
+Item 1362
+Name = ""
+Description = ""
+Note = ""
+
+Item 1363
+Name = ""
+Description = ""
+Note = ""
+
+Item 1364
+Name = ""
+Description = ""
+Note = ""
+
+Item 1365
+Name = ""
+Description = ""
+Note = ""
+
+Item 1366
+Name = ""
+Description = ""
+Note = ""
+
+Item 1367
+Name = ""
+Description = ""
+Note = ""
+
+Item 1368
+Name = ""
+Description = ""
+Note = ""
+
+Item 1369
+Name = ""
+Description = ""
+Note = ""
+
+Item 1370
+Name = ""
+Description = ""
+Note = ""
+
+Item 1371
+Name = ""
+Description = ""
+Note = ""
+
+Item 1372
+Name = ""
+Description = ""
+Note = ""
+
+Item 1373
+Name = ""
+Description = ""
+Note = ""
+
+Item 1374
+Name = ""
+Description = ""
+Note = ""
+
+Item 1375
+Name = ""
+Description = ""
+Note = ""
+
+Item 1376
+Name = ""
+Description = ""
+Note = ""
+
+Item 1377
+Name = ""
+Description = ""
+Note = ""
+
+Item 1378
+Name = ""
+Description = ""
+Note = ""
+
+Item 1379
+Name = ""
+Description = ""
+Note = ""
+
+Item 1380
+Name = ""
+Description = ""
+Note = ""
+
+Item 1381
+Name = ""
+Description = ""
+Note = ""
+
+Item 1382
+Name = ""
+Description = ""
+Note = ""
+
+Item 1383
+Name = ""
+Description = ""
+Note = ""
+
+Item 1384
+Name = ""
+Description = ""
+Note = ""
+
+Item 1385
+Name = ""
+Description = ""
+Note = ""
+
+Item 1386
+Name = ""
+Description = ""
+Note = ""
+
+Item 1387
+Name = ""
+Description = ""
+Note = ""
+
+Item 1388
+Name = ""
+Description = ""
+Note = ""
+
+Item 1389
+Name = ""
+Description = ""
+Note = ""
+
+Item 1390
+Name = ""
+Description = ""
+Note = ""
+
+Item 1391
+Name = ""
+Description = ""
+Note = ""
+
+Item 1392
+Name = ""
+Description = ""
+Note = ""
+
+Item 1393
+Name = ""
+Description = ""
+Note = ""
+
+Item 1394
+Name = ""
+Description = ""
+Note = ""
+
+Item 1395
+Name = ""
+Description = ""
+Note = ""
+
+Item 1396
+Name = ""
+Description = ""
+Note = ""
+
+Item 1397
+Name = ""
+Description = ""
+Note = ""
+
+Item 1398
+Name = ""
+Description = ""
+Note = ""
+
+Item 1399
+Name = ""
+Description = ""
+Note = ""
+
+Item 1400
+Name = ""
+Description = ""
+Note = ""
+
+Item 1401
+Name = ""
+Description = ""
+Note = ""
+
+Item 1402
+Name = ""
+Description = ""
+Note = ""
+
+Item 1403
+Name = ""
+Description = ""
+Note = ""
+
+Item 1404
+Name = ""
+Description = ""
+Note = ""
+
+Item 1405
+Name = ""
+Description = ""
+Note = ""
+
+Item 1406
+Name = ""
+Description = ""
+Note = ""
+
+Item 1407
+Name = ""
+Description = ""
+Note = ""
+
+Item 1408
+Name = ""
+Description = ""
+Note = ""
+
+Item 1409
+Name = ""
+Description = ""
+Note = ""
+
+Item 1410
+Name = ""
+Description = ""
+Note = ""
+
+Item 1411
+Name = ""
+Description = ""
+Note = ""
+
+Item 1412
+Name = ""
+Description = ""
+Note = ""
+
+Item 1413
+Name = ""
+Description = ""
+Note = ""
+
+Item 1414
+Name = ""
+Description = ""
+Note = ""
+
+Item 1415
+Name = ""
+Description = ""
+Note = ""
+
+Item 1416
+Name = ""
+Description = ""
+Note = ""
+
+Item 1417
+Name = ""
+Description = ""
+Note = ""
+
+Item 1418
+Name = ""
+Description = ""
+Note = ""
+
+Item 1419
+Name = ""
+Description = ""
+Note = ""
+
+Item 1420
+Name = ""
+Description = ""
+Note = ""
+
+Item 1421
+Name = ""
+Description = ""
+Note = ""
+
+Item 1422
+Name = ""
+Description = ""
+Note = ""
+
+Item 1423
+Name = ""
+Description = ""
+Note = ""
+
+Item 1424
+Name = ""
+Description = ""
+Note = ""
+
+Item 1425
+Name = ""
+Description = ""
+Note = ""
+
+Item 1426
+Name = ""
+Description = ""
+Note = ""
+
+Item 1427
+Name = ""
+Description = ""
+Note = ""
+
+Item 1428
+Name = ""
+Description = ""
+Note = ""
+
+Item 1429
+Name = ""
+Description = ""
+Note = ""
+
+Item 1430
+Name = ""
+Description = ""
+Note = ""
+
+Item 1431
+Name = ""
+Description = ""
+Note = ""
+
+Item 1432
+Name = ""
+Description = ""
+Note = ""
+
+Item 1433
+Name = ""
+Description = ""
+Note = ""
+
+Item 1434
+Name = ""
+Description = ""
+Note = ""
+
+Item 1435
+Name = ""
+Description = ""
+Note = ""
+
+Item 1436
+Name = ""
+Description = ""
+Note = ""
+
+Item 1437
+Name = ""
+Description = ""
+Note = ""
+
+Item 1438
+Name = ""
+Description = ""
+Note = ""
+
+Item 1439
+Name = ""
+Description = ""
+Note = ""
+
+Item 1440
+Name = ""
+Description = ""
+Note = ""
+
+Item 1441
+Name = ""
+Description = ""
+Note = ""
+
+Item 1442
+Name = ""
+Description = ""
+Note = ""
+
+Item 1443
+Name = ""
+Description = ""
+Note = ""
+
+Item 1444
+Name = ""
+Description = ""
+Note = ""
+
+Item 1445
+Name = ""
+Description = ""
+Note = ""
+
+Item 1446
+Name = ""
+Description = ""
+Note = ""
+
+Item 1447
+Name = ""
+Description = ""
+Note = ""
+
+Item 1448
+Name = ""
+Description = ""
+Note = ""
+
+Item 1449
+Name = ""
+Description = ""
+Note = ""
+
+Item 1450
+Name = ""
+Description = ""
+Note = ""
+
+Item 1451
+Name = ""
+Description = ""
+Note = ""
+
+Item 1452
+Name = ""
+Description = ""
+Note = ""
+
+Item 1453
+Name = ""
+Description = ""
+Note = ""
+
+Item 1454
+Name = ""
+Description = ""
+Note = ""
+
+Item 1455
+Name = ""
+Description = ""
+Note = ""
+
+Item 1456
+Name = ""
+Description = ""
+Note = ""
+
+Item 1457
+Name = ""
+Description = ""
+Note = ""
+
+Item 1458
+Name = ""
+Description = ""
+Note = ""
+
+Item 1459
+Name = ""
+Description = ""
+Note = ""
+
+Item 1460
+Name = ""
+Description = ""
+Note = ""
+
+Item 1461
+Name = ""
+Description = ""
+Note = ""
+
+Item 1462
+Name = ""
+Description = ""
+Note = ""
+
+Item 1463
+Name = ""
+Description = ""
+Note = ""
+
+Item 1464
+Name = ""
+Description = ""
+Note = ""
+
+Item 1465
+Name = ""
+Description = ""
+Note = ""
+
+Item 1466
+Name = ""
+Description = ""
+Note = ""
+
+Item 1467
+Name = ""
+Description = ""
+Note = ""
+
+Item 1468
+Name = ""
+Description = ""
+Note = ""
+
+Item 1469
+Name = ""
+Description = ""
+Note = ""
+
+Item 1470
+Name = ""
+Description = ""
+Note = ""
+
+Item 1471
+Name = ""
+Description = ""
+Note = ""
+
+Item 1472
+Name = ""
+Description = ""
+Note = ""
+
+Item 1473
+Name = ""
+Description = ""
+Note = ""
+
+Item 1474
+Name = ""
+Description = ""
+Note = ""
+
+Item 1475
+Name = ""
+Description = ""
+Note = ""
+
+Item 1476
+Name = ""
+Description = ""
+Note = ""
+
+Item 1477
+Name = ""
+Description = ""
+Note = ""
+
+Item 1478
+Name = ""
+Description = ""
+Note = ""
+
+Item 1479
+Name = ""
+Description = ""
+Note = ""
+
+Item 1480
+Name = ""
+Description = ""
+Note = ""
+
+Item 1481
+Name = ""
+Description = ""
+Note = ""
+
+Item 1482
+Name = ""
+Description = ""
+Note = ""
+
+Item 1483
+Name = ""
+Description = ""
+Note = ""
+
+Item 1484
+Name = ""
+Description = ""
+Note = ""
+
+Item 1485
+Name = ""
+Description = ""
+Note = ""
+
+Item 1486
+Name = ""
+Description = ""
+Note = ""
+
+Item 1487
+Name = ""
+Description = ""
+Note = ""
+
+Item 1488
+Name = ""
+Description = ""
+Note = ""
+
+Item 1489
+Name = ""
+Description = ""
+Note = ""
+
+Item 1490
+Name = ""
+Description = ""
+Note = ""
+
+Item 1491
+Name = ""
+Description = ""
+Note = ""
+
+Item 1492
+Name = ""
+Description = ""
+Note = ""
+
+Item 1493
+Name = ""
+Description = ""
+Note = ""
+
+Item 1494
+Name = ""
+Description = ""
+Note = ""
+
+Item 1495
+Name = ""
+Description = ""
+Note = ""
+
+Item 1496
+Name = ""
+Description = ""
+Note = ""
+
+Item 1497
+Name = ""
+Description = ""
+Note = ""
+
+Item 1498
+Name = ""
+Description = ""
+Note = ""
+
+Item 1499
+Name = ""
+Description = ""
+Note = ""
+

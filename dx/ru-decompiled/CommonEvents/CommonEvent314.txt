@@ -1,0 +1,31 @@
+CommonEvent 314
+Name = "スライム敗北A"
+
+  FadeoutScreen([])
+  SaveBGM([])
+  ControlVariables([421, 421, 0, 0, 0])
+  CallCommonEvent([39])
+  CallCommonEvent([997])
+  ControlVariables([223, 223, 1, 0, 1])
+  ConditionalBranch([1, 223, 0, 1, 0])
+    CallCommonEvent([315])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 223, 0, 2, 0])
+      CallCommonEvent([316])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([317])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  FadeoutScreen([])
+  ErasePicture([90])
+  FadeoutBGM([1])
+  Wait([60])
+  Empty([])

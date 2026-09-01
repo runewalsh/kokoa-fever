@@ -1,0 +1,805 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "ココア"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ControlVariables([320, 320, 0, 0, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ControlVariables([320, 320, 0, 0, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ControlVariables([320, 320, 0, 0, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ControlVariables([320, 320, 0, 0, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([320, 320, 0, 0, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=110, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([20, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ココア！！"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ChangePartyMember([1, 0, 0])
+    RecoverAll([0, 0])
+    ChangePartyMember([5, 1, 0])
+    TransferPlayer([0, 30, 38, 23, 4, 0])
+    ControlVariables([320, 320, 0, 0, 10])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 9
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 10
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 11
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 12
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 13
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 16
+Name = "モンスター"
+
+  Page 0
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[522])"])
+      ControlVariables([402, 402, 0, 3, 3, 1, 0])
+      ConditionalBranch([1, 402, 0, 7, 1])
+        ControlVariables([403, 403, 0, 2, 18, 33])
+        ChangeEXP([0, 0, 0, 1, 403, false])
+        PlaySE(["RPG::SE(@name=\"Slash2\", @pitch=100, @volume=100)"])
+        FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 60, false])
+        ControlSelfSwitch(["D", 0])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([120, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 2])
+        ChangeItems([121, 0, 1, 403])
+        ControlVariables([403, 403, 0, 2, 0, 1])
+        ChangeItems([124, 0, 1, 403])
+        ExitEventProcessing([])
+        Empty([])
+      Else([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=95)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"通常戦A\", @volume=95, @pitch=100)"])
+    ControlVariables([402, 402, 0, 2, 2, 10])
+    BattleProcessing([1, 402, true, true])
+    IfWin([])
+      ControlSelfSwitch(["C", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfEscape([])
+      ControlSelfSwitch(["B", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    IfLose([])
+      ControlSelfSwitch(["A", 0])
+      ExitEventProcessing([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    ShowPicture([20, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･･･ちょっと撤退！"])
+    FadeoutScreen([])
+    Wait([60])
+    SaveBGM([])
+    FadeoutBGM([1])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+    ErasePicture([20])
+    FadeoutScreen([])
+    ControlSelfSwitch(["D", 0])
+    ControlSelfSwitch(["A", 1])
+    Wait([60])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    TransferPlayer([0, 35, 15, 21, 6, 0])
+    ErasePicture([20])
+    ReplayBGM([])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Wait([120])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Monster3\", @pitch=115, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    ControlSelfSwitch(["D", 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ホワイトベリーなどは僅かながらMP回復効果があるぞ！"])
+    ShowPicture([20, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["懐かしいなぁ･･･"])
+    ShowText(["私も初めの頃はベリー集めしてたなぁ････。"])
+    ErasePicture([20])
+    Empty([])

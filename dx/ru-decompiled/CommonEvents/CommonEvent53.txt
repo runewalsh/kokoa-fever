@@ -1,0 +1,69 @@
+CommonEvent 53
+Name = "５：困り　笑顔"
+
+  ConditionalBranch([1, 103, 0, 1, 0])
+    ShowPicture([30, "20_ココア表情困りB1", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 103, 0, 2, 0])
+      ShowPicture([30, "20_ココア表情困りB2", 0, 0, 0, 0, 100, 100, 255, 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 103, 0, 3, 0])
+        ShowPicture([30, "20_ココア表情困りB1", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 103, 0, 4, 0])
+          ShowPicture([30, "20_ココア表情困りB3", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 103, 0, 5, 0])
+            ShowPicture([30, "20_ココア表情困りB2", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 103, 0, 6, 0])
+              ShowPicture([30, "20_ココア表情困りB1", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 103, 0, 7, 0])
+                ShowPicture([30, "20_ココア表情困りB2", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 103, 0, 8, 0])
+                  ShowPicture([30, "20_ココア表情困りB4", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ControlVariables([103, 103, 0, 0, 0])
+                  Empty([])
+
+                Else([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

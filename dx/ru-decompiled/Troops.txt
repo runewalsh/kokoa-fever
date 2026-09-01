@@ -1,0 +1,4989 @@
+Troop 1
+Name = ""
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 2
+Name = "森コウモリ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 3
+Name = "森ねずみ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 4
+Name = "森コウモリ*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 5
+Name = "森ねずみ*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 6
+Name = "森コウモリ, 森ねずみ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 7
+Name = "森スネーク"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 8
+Name = "森ねずみ*2, 森コウモリ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 9
+Name = "森スネーク, 森ねずみ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 10
+Name = "森スネーク, 森コウモリ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 11
+Name = "森スネーク*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 12
+Name = ""
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  Empty([])
+
+Troop 13
+Name = "黒犬"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  PlaySE(["RPG::SE(@name=\"Monster1\", @pitch=80, @volume=100)"])
+  FlashScreen(["Color(@red=0.0, @green=0.0, @blue=0.0, @alpha=255.0)", 60, true])
+  ChangeEnemyState([-1, 0, 381])
+  Empty([])
+
+Troop 14
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 15
+Name = "ビックスパイダー, 平原ラット"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 16
+Name = "ビックスパイダー, 平原ラット*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 17
+Name = "ビックスパイダー"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 18
+Name = "平原ラット*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 19
+Name = "ゼリイヌ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 20
+Name = "ビックスパイダー, ゼリイヌ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 21
+Name = "ウォーリア"
+
+Page 0
+  CallCommonEvent([100])
+  ConditionalBranch([0, 904, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男\\C[0]"])
+    ShowText(["へへっ････なんだぁ？"])
+    ShowText(["このあいだ犯してやったメスじゃねーかよぉ？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男\\C[0]"])
+    ShowText(["また犯されきたのかぁ？"])
+    ShowText(["犯してやるから大人しくしてるんだな！"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戦う", "大人しくやられる"], 1])
+    When([0, "戦う"])
+      Empty([])
+    When([1, "大人しくやられる"])
+      ChangeState([0, 0, 0, 35])
+      Empty([])
+    ChoicesEnd([])
+    ErasePicture([20])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 22
+Name = "ウォーリア　勝利後"
+
+Page 0
+  CallCommonEvent([100])
+  ConditionalBranch([0, 904, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男\\C[0]"])
+    ShowText(["へへっ････なんだぁ？"])
+    ShowText(["このあいだ犯してやったメスじゃねーかよぉ？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男\\C[0]"])
+    ShowText(["また犯されきたのかぁ？"])
+    ShowText(["犯してやるから大人しくしてるんだな！"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戦う", "大人しくやられる"], 1])
+    When([0, "戦う"])
+      Empty([])
+    When([1, "大人しくやられる"])
+      ChangeState([0, 0, 0, 35])
+      Empty([])
+    ChoicesEnd([])
+    ErasePicture([20])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 23
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 24
+Name = "Sスパイダー"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 25
+Name = "Sスパイダー, Sコウモリ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 26
+Name = "Sスパイダー"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 27
+Name = "Sスパイダー*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 28
+Name = "Sスパイダー, 洞窟ラット"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 29
+Name = "Sコウモリ*2, 洞窟ラット"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 30
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 31
+Name = "スライム"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 32
+Name = "スライム*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 33
+Name = "スライム*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 34
+Name = "スライム*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 35
+Name = "スライム*4"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 36
+Name = "スライム*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 37
+Name = "スライム"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 38
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 39
+Name = "巨大スライム"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 40
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 41
+Name = "山賊"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 42
+Name = "山賊*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 43
+Name = "山賊*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 44
+Name = "山賊*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 45
+Name = "山賊*4"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 46
+Name = "山賊*7"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  EnemyAppear([4])
+  Empty([])
+
+Page 3
+  EnemyAppear([5])
+  Empty([])
+
+Page 4
+  EnemyAppear([6])
+  Empty([])
+
+Troop 47
+Name = "テストスライム*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 48
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 49
+Name = "山賊"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 50
+Name = "山賊*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 51
+Name = "山賊*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 52
+Name = "山賊*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 53
+Name = "山賊*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 54
+Name = "山賊*8"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  EnemyAppear([6])
+  Empty([])
+
+Page 3
+  EnemyAppear([7])
+  Empty([])
+
+Page 4
+  EnemyAppear([1])
+  Empty([])
+
+Page 5
+  EnemyAppear([2])
+  Empty([])
+
+Page 6
+  EnemyAppear([3])
+  Empty([])
+
+Page 7
+  EnemyAppear([5])
+  Empty([])
+
+Page 8
+  EnemyAppear([4])
+  Empty([])
+
+Troop 55
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 56
+Name = "山賊*8イベ"
+
+Page 0
+  CallCommonEvent([60])
+  Empty([])
+
+Page 1
+  Wait([30])
+  PlaySE(["RPG::SE(@name=\"Ice4\", @pitch=100, @volume=95)"])
+  FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=170.0)", 60, false])
+  ShowPicture([20, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]クロウ\\C[0]"])
+  ShowText(["運が悪かったな。"])
+  ErasePicture([20])
+  ForceAction([1, 7, 999, -1])
+  Empty([])
+
+Troop 57
+Name = ""
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  Empty([])
+
+Troop 58
+Name = "熟練山賊"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 59
+Name = "山賊長"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 60
+Name = "山賊長"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 61
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 62
+Name = "雇われ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 63
+Name = "雇われ, 雇われ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 64
+Name = "雇われ, 雇われ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 65
+Name = "雇われ, 雇われ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 66
+Name = "雇われ, 雇われ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 67
+Name = "警備長"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 68
+Name = "ヴァンゼル先生（１"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  Wait([60])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ヴァンゼル\\C[0]"])
+  ShowText(["･･････待てや。"])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ココア\\C[0]"])
+  ShowText(["･････？"])
+  AbortBattle([])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 69
+Name = "ヴァンゼル先生（２"
+
+Page 0
+  ChangeEnemyState([-1, 0, 10])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([902])
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ヴァンゼル\\C[0]"])
+  ShowText(["くっ････やるやないか。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 70
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 71
+Name = "熟練山賊（ここな）"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 72
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 73
+Name = "ソードマン"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ソードマン\\C[0]"])
+  ShowText(["一戦目は君が相手か････悪いけど勝たせてもらうよっ！！"])
+  ChangeEnemyState([0, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ソードマン\\C[0]"])
+  ShowText(["くっ･････僕の負けだ･････。"])
+  ChangeEnemyState([0, 1, 10])
+  Empty([])
+
+Troop 74
+Name = "クレリック"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]クレリック\\C[0]"])
+  ShowText(["ふぉふぉふぉっ･････お主が相手なら楽そうじゃのぉ･･･"])
+  ChangeEnemyState([0, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]クレリック\\C[0]"])
+  ShowText(["ｱﾍﾞｼｯ"])
+  ChangeEnemyState([0, 1, 10])
+  Empty([])
+
+Troop 75
+Name = "デュエリスト"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]デュエリスト\\C[0]"])
+  ShowText(["貴方もここまで全勝のようね････悪いけどここで負けてもらうわ！"])
+  ChangeEnemyState([0, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]デュエリスト\\C[0]"])
+  ShowText(["ｸｯ･････"])
+  ChangeEnemyState([0, 1, 10])
+  Empty([])
+
+Troop 76
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 77
+Name = "シネシメジ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 78
+Name = "シネシメジ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 79
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 80
+Name = "ベルデ"
+
+Page 0
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ベルデ\\C[0]"])
+  ShowText(["貴方達に、本気は出さない････。"])
+  ChangeEnemyState([-1, 0, 10])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ベルデ\\C[0]"])
+  ShowText(["くっ･････。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 81
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 82
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 83
+Name = "ゼリイヌ*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 84
+Name = "ゼリイヌ*4"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 85
+Name = "ゼリイヌ*5"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 86
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 87
+Name = "シネシメジ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ConditionalBranch([4, 1, 6, 302])
+    ConditionalBranch([1, 212, 0, 0, 0])
+      ShowPicture([50, "50_ココア拘束A1", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["う、動けない･････。"])
+      ErasePicture([50])
+      Empty([])
+    Else([])
+      ConditionalBranch([1, 212, 0, 1, 0])
+        ShowPicture([50, "50_ココア拘束A1", 0, 0, 0, 0, 100, 100, 255, 0])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]ココア\\C[0]"])
+        ShowText(["早く何とかしないと････。"])
+        ErasePicture([50])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 212, 0, 2, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["シネシメジの触手がココアを襲う！"])
+          PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+          FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=187.0)", 60, false])
+          ShowPicture([50, "50_ココア拘束A2", 0, 0, 0, 0, 100, 100, 255, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["\\C[20]ココア\\C[0]"])
+          ShowText(["んっ･･････。"])
+          ErasePicture([50])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 212, 0, 3, 0])
+            ShowPicture([50, "50_ココア拘束A3", 0, 0, 0, 0, 100, 100, 255, 0])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["ココアはシネシメジの触手に犯されている！"])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["\\C[20]ココア\\C[0]"])
+            ShowText(["ぅ････あっ･････。"])
+            ErasePicture([50])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 212, 0, 4, 0])
+              ShowPicture([50, "50_ココア拘束A3", 0, 0, 0, 0, 100, 100, 255, 0])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["ココアはシネシメジの触手に犯されている！"])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["\\C[20]ココア\\C[0]"])
+              ShowText(["んっ･･･ん･･････。"])
+              ErasePicture([50])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 212, 0, 5, 0])
+                PlaySE(["RPG::SE(@name=\"脈打つ音+射精①\", @pitch=100, @volume=95)"])
+                ShowPicture([50, "50_ココア拘束A4", 0, 0, 0, 0, 100, 100, 255, 0])
+                FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                PlaySE(["RPG::SE(@name=\"脈打つ音+射精①\", @pitch=100, @volume=95)"])
+                FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                ShowTextAttributes(["", 0, 1, 2])
+                ShowText(["ココアはシネシメジに中出しされてしまった!!"])
+                ShowTextAttributes(["", 0, 1, 2])
+                ShowText(["\\C[20]ココア\\C[0]"])
+                ShowText(["うぅ･････ッ。"])
+                ErasePicture([50])
+                ControlVariables([401, 401, 0, 3, 3, 1, 5])
+                ControlVariables([401, 401, 4, 0, 5])
+                ChangeMP([0, 1, 0, 1, 401])
+                ControlVariables([5, 5, 1, 2, 6, 8])
+                ControlVariables([262, 262, 1, 0, 1])
+                ControlVariables([263, 263, 1, 0, 1])
+                ControlVariables([261, 261, 1, 0, 1])
+                Empty([])
+              Else([])
+                ConditionalBranch([1, 212, 0, 6, 0])
+                  ChangeState([0, 1, 1, 302])
+                  ChangeEnemyState([0, 1, 303])
+                  CallCommonEvent([60])
+                  ShowTextAttributes(["", 0, 1, 2])
+                  ShowText(["ココアは触手から開放された！"])
+                  ShowPicture([20, "50_ココア戦闘立ち絵裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ShowTextAttributes(["", 0, 1, 2])
+                  ShowText(["\\C[20]ココア\\C[0]"])
+                  ShowText(["･･････ッ。"])
+                  ErasePicture([20])
+                  Empty([])
+                Else([])
+                  Empty([])
+                BranchEnd([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ControlVariables([212, 212, 1, 0, 1])
+  Empty([])
+
+Troop 88
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 89
+Name = "ゾンビー*5"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 90
+Name = "ゾンビー*6"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 91
+Name = "ゾンビー*4"
+
+Page 0
+  Empty([])
+
+Troop 92
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 93
+Name = "ゴーレム"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 94
+Name = "ゴーレム"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 95
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 96
+Name = "マーシナリー"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]マーセナリー\\C[0]"])
+  ShowText(["より高みのステージに臨むため、お前を倒す!!"])
+  ChangeEnemyState([0, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]マーセナリー\\C[0]"])
+  ShowText(["ほぎゃー。"])
+  ChangeEnemyState([0, 1, 10])
+  Empty([])
+
+Troop 97
+Name = "クレリック"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]クレリック\\C[0]"])
+  ShowText(["貴方にはここで退場して頂きます!!"])
+  ChangeEnemyState([0, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]クレリック\\C[0]"])
+  ShowText(["ｻｲﾅﾗｰ"])
+  ChangeEnemyState([0, 1, 10])
+  Empty([])
+
+Troop 98
+Name = "ナイト"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ナイト\\C[0]"])
+  ShowText(["俺は本気だ････。"])
+  ChangeEnemyState([0, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ナイト\\C[0]"])
+  ShowText(["おうち帰りたい。"])
+  ChangeEnemyState([0, 1, 10])
+  Empty([])
+
+Troop 99
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 100
+Name = "はぐれコボルト, 山グモ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 101
+Name = "はぐれコボルト, レッドマウンテンスパイダー, レッドマウンテンスネーク"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 102
+Name = "レッドマウンテンスパイダー*2, レッドマウンテンスネーク"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 103
+Name = "はぐれコボルト, レッドマウンテンスパイダー, レッドマウンテンスネーク"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 104
+Name = "はぐれコボルト*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 105
+Name = "はぐれコボルト, レッドマウンテンスパイダー*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 106
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 107
+Name = "アダンダラ"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]アダンダラ\\C[0]"])
+  ShowText(["む････なんだお前。"])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 108
+Name = "アダンダラ"
+
+Page 0
+  CallCommonEvent([100])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]アダンダラ\\C[0]"])
+  ShowText(["む････なんだお前。"])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 109
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 110
+Name = "オーク*2"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 111
+Name = "オーク*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 112
+Name = "オーク*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 113
+Name = "オーク*4"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 114
+Name = "オーク*5"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 115
+Name = "オーク*6"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 116
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 117
+Name = "オーク"
+
+Page 0
+  ShowPicture([20, "50_ココア戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ココア\\C[0]"])
+  ShowText(["･････大きいの。"])
+  ShowPicture([20, "50_いちご戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["大型のオークのようですね････。"])
+  ShowPicture([20, "50_ここな戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ここな\\C[0]"])
+  ShowText(["立ち塞がるなら倒すだけだよ！"])
+  ErasePicture([20])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 118
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 119
+Name = "ナイトオーク"
+
+Page 0
+  ShowPicture([20, "50_ここな戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ここな\\C[0]"])
+  ShowText(["気をつけて二人とも。"])
+  ShowText(["真ん中の奴････普通のオークじゃないよ！"])
+  ShowPicture([20, "50_いちご戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["戦士長･････でしょうか。"])
+  ShowText(["かなり戦い慣れている印象を受けます。"])
+  ShowPicture([20, "50_ココア戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ココア\\C[0]"])
+  ShowText(["････全力を出すの。"])
+  ErasePicture([20])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  EnemyAppear([3])
+  Empty([])
+
+Page 3
+  EnemyAppear([4])
+  Empty([])
+
+Page 4
+  EnemyAppear([5])
+  Empty([])
+
+Troop 120
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 121
+Name = "黒犬"
+
+Page 0
+  TintScreen(["Tone(@red=-30.0, @green=-30.0, @blue=-20.0, @gray=0.0)", 60, true])
+  ControlSwitches([985, 985, 1])
+  ChangeState([0, 7, 0, 37])
+  ChangeState([0, 20, 0, 37])
+  ChangeState([0, 20, 0, 10])
+  ChangeState([0, 7, 0, 10])
+  ChangeEnemyState([-1, 0, 10])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  PlaySE(["RPG::SE(@name=\"Monster2\", @pitch=70, @volume=80)"])
+  Wait([140])
+  AbortBattle([])
+  Empty([])
+
+Page 3
+  ConditionalBranch([4, 1, 6, 1])
+    ShowPicture([20, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["ココア････!!"])
+    ControlSwitches([985, 985, 0])
+    ErasePicture([20])
+    AbortBattle([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])
+
+Page 4
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 156, -1])
+  ChangeState([0, 7, 0, 37])
+  ForceAction([0, 0, 904, 1])
+  ShowPicture([20, "200_魔法使いリリィ", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]リリィ\\C[0]"])
+  ShowText(["今日でその息の根を止めてあげるわ。観念しなさい！"])
+  ErasePicture([20])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 190, -1])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 962, 1])
+  Empty([])
+
+Page 5
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 142, -1])
+  ChangeState([0, 7, 0, 37])
+  ForceAction([0, 0, 909, 1])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 195, -1])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 962, 1])
+  Empty([])
+
+Page 6
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 140, -1])
+  ChangeState([0, 7, 0, 37])
+  ForceAction([0, 0, 959, 1])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 190, -1])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 963, 1])
+  ForceAction([0, 0, 924, 1])
+  Empty([])
+
+Page 7
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 138, -1])
+  ForceAction([1, 7, 137, 1])
+  ChangeState([0, 7, 0, 37])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 189, -1])
+  ForceAction([1, 20, 190, -2])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 964, 1])
+  Empty([])
+
+Page 8
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 140, -1])
+  ChangeState([0, 7, 0, 37])
+  ForceAction([0, 0, 909, 1])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 193, -1])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 963, 1])
+  Empty([])
+
+Page 9
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 142, -1])
+  ChangeState([0, 7, 0, 37])
+  ForceAction([0, 0, 904, 1])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 190, -1])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 962, 1])
+  Empty([])
+
+Page 10
+  ChangeState([0, 7, 1, 37])
+  ForceAction([1, 7, 140, -1])
+  ChangeState([0, 7, 0, 37])
+  ForceAction([0, 0, 904, -1])
+  ChangeState([0, 20, 1, 37])
+  ForceAction([1, 20, 190, -1])
+  ChangeState([0, 20, 0, 37])
+  ForceAction([0, 0, 962, 1])
+  Empty([])
+
+Troop 122
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 123
+Name = "コボルト戦士"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 124
+Name = "コボルト戦士*3"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 125
+Name = "デッドスポット"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 126
+Name = "コボルト下級戦士"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ConditionalBranch([4, 1, 6, 308])
+    ConditionalBranch([1, 212, 0, 0, 0])
+      ShowPicture([50, "50_ココアダウンA1", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["う･･･くっ･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["魔物の突進をまともに受けてしまった！"])
+      PlaySE(["RPG::SE(@name=\"Monster2\", @pitch=80, @volume=100)"])
+      Wait([30])
+      ForceAction([0, 0, 967, -1])
+      ErasePicture([50])
+      Empty([])
+    Else([])
+      ConditionalBranch([1, 212, 0, 1, 0])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["発情した魔物がゆっくりと距離を詰めてくる･････。"])
+        ShowPicture([50, "50_ココアダウンA2", 0, 0, 0, 0, 100, 100, 255, 0])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]ココア\\C[0]"])
+        ShowText(["こ、来ないで････"])
+        ErasePicture([50])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 212, 0, 2, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["コボルトがココアに覆いかぶさる！！"])
+          ShowPicture([50, "51_コボルト1", 0, 0, 0, 0, 100, 100, 255, 0])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["\\C[20]ココア\\C[0]"])
+          ShowText(["や、やっ･･･"])
+          PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+          FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=187.0)", 60, false])
+          ShowPicture([50, "51_コボルト2", 0, 0, 0, 0, 100, 100, 255, 0])
+          Wait([60])
+          ShowTextAttributes(["", 0, 1, 2])
+          ShowText(["\\C[20]ココア\\C[0]"])
+          ShowText(["んっ･････"])
+          ChangeState([0, 1, 1, 305])
+          ErasePicture([50])
+          ChangeState([0, 1, 0, 307])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 212, 0, 3, 0])
+            ShowPicture([50, "51_コボルト2", 0, 0, 0, 0, 100, 100, 255, 0])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["\\C[20]ココア\\C[0]"])
+            ShowText(["んっ････入ってこないで････ッ"])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["しかしコボルトのペニスはココアの奥へ奥へと突き進む"])
+            FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=187.0)", 60, false])
+            ShowPicture([50, "51_コボルト3", 0, 0, 0, 0, 100, 100, 255, 0])
+            Wait([60])
+            ShowTextAttributes(["", 0, 1, 2])
+            ShowText(["\\C[20]ココア\\C[0]"])
+            ShowText(["んぁ、あぁぁ････ッ"])
+            ErasePicture([50])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 212, 0, 4, 0])
+              ShowPicture([50, "51_コボルト3", 0, 0, 0, 0, 100, 100, 255, 0])
+              PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+              Wait([30])
+              PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+              Wait([30])
+              PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+              Wait([30])
+              PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["\\C[20]ココア\\C[0]"])
+              ShowText(["や････だめ････っ"])
+              ShowTextAttributes(["", 0, 1, 2])
+              ShowText(["抵抗するもコボルトは構わずココアの小さな穴を"])
+              ShowText(["そのペニスで犯し続ける。"])
+              ErasePicture([50])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 212, 0, 5, 0])
+                ShowPicture([50, "51_コボルト3", 0, 0, 0, 0, 100, 100, 255, 0])
+                PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+                Wait([30])
+                PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+                Wait([30])
+                PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+                Wait([30])
+                PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+                Wait([30])
+                PlaySE(["RPG::SE(@name=\"脈打つ音+射精③\", @pitch=100, @volume=100)"])
+                ShowPicture([50, "51_コボルト4", 0, 0, 0, 0, 100, 100, 255, 0])
+                FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                PlaySE(["RPG::SE(@name=\"脈打つ音+射精③\", @pitch=100, @volume=100)"])
+                FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                PlaySE(["RPG::SE(@name=\"脈打つ音+射精③\", @pitch=100, @volume=100)"])
+                FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                ShowTextAttributes(["", 0, 1, 2])
+                ShowText(["\\C[20]ココア\\C[0]"])
+                ShowText(["～～～～～～～～ッ。"])
+                ErasePicture([50])
+                ControlVariables([401, 401, 0, 3, 3, 1, 5])
+                ControlVariables([401, 401, 4, 0, 5])
+                ChangeMP([0, 1, 0, 1, 401])
+                ControlVariables([5, 5, 1, 2, 6, 8])
+                ControlVariables([262, 262, 1, 0, 1])
+                ControlVariables([263, 263, 1, 0, 1])
+                ControlVariables([261, 261, 1, 0, 1])
+                Empty([])
+              Else([])
+                ConditionalBranch([1, 212, 0, 6, 0])
+                  ShowPicture([50, "51_コボルト4", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ShowTextAttributes(["", 0, 1, 2])
+                  ShowText(["コボルトの射精はまだ続いている････！"])
+                  PlaySE(["RPG::SE(@name=\"脈打つ音+射精③\", @pitch=100, @volume=100)"])
+                  FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                  PlaySE(["RPG::SE(@name=\"脈打つ音+射精③\", @pitch=100, @volume=100)"])
+                  FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                  PlaySE(["RPG::SE(@name=\"脈打つ音+射精③\", @pitch=100, @volume=100)"])
+                  FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                  ErasePicture([50])
+                  Empty([])
+                Else([])
+                  ConditionalBranch([1, 212, 0, 7, 0])
+                    ShowPicture([50, "51_コボルト5", 0, 0, 0, 0, 100, 100, 255, 0])
+                    FlashScreen(["Color(@red=255.0, @green=255.0, @blue=255.0, @alpha=204.0)", 90, true])
+                    ShowTextAttributes(["", 0, 1, 2])
+                    ShowText(["\\C[20]ココア\\C[0]"])
+                    ShowText(["はぁ･････はぁ･････はぁ･･････。"])
+                    ShowTextAttributes(["", 0, 1, 2])
+                    ShowText(["\\C[20]ココア\\C[0]"])
+                    ShowText(["んっ･････"])
+                    ShowPicture([50, "51_コボルト6", 0, 0, 0, 0, 100, 100, 255, 0])
+                    ShowTextAttributes(["", 0, 1, 2])
+                    ShowText(["\\C[20]ココア\\C[0]"])
+                    ShowText(["･･･････。"])
+                    ShowTextAttributes(["", 0, 1, 2])
+                    ShowText(["ココアの中から納まりきらなかった精液が溢れ出る･････"])
+                    ErasePicture([50])
+                    ChangeState([0, 1, 1, 307])
+                    ChangeState([0, 1, 0, 309])
+                    ChangeEnemyState([0, 1, 306])
+                    ChangeEnemyState([0, 0, 310])
+                    Empty([])
+                  Else([])
+                    ConditionalBranch([1, 212, 0, 8, 0])
+                      ShowPicture([50, "51_コボルト6", 0, 0, 0, 0, 100, 100, 255, 0])
+                      ShowTextAttributes(["", 0, 1, 2])
+                      ShowText(["\\C[20]ココア\\C[0]"])
+                      ShowText(["･･･････。"])
+                      ErasePicture([50])
+                      Empty([])
+                    Else([])
+                      ConditionalBranch([1, 212, 0, 9, 0])
+                        Empty([])
+                      Else([])
+                        ConditionalBranch([1, 212, 0, 10, 0])
+                          ShowPicture([50, "50_ココア戦闘立ち絵裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+                          ShowTextAttributes(["", 0, 1, 2])
+                          ShowText(["\\C[20]ココア\\C[0]"])
+                          ShowText(["････た、闘わないと。"])
+                          ErasePicture([50])
+                          ForceAction([1, 1, 1759, -1])
+                          ChangeState([0, 1, 1, 308])
+                          Empty([])
+                        Else([])
+                          Empty([])
+                        BranchEnd([])
+                        Empty([])
+                      BranchEnd([])
+                      Empty([])
+                    BranchEnd([])
+                    Empty([])
+                  BranchEnd([])
+                  Empty([])
+                BranchEnd([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  ControlVariables([212, 212, 1, 0, 1])
+  CallCommonEvent([60])
+  Empty([])
+
+Troop 127
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 128
+Name = "教団員"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 129
+Name = "教団員"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 130
+Name = "教団員"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 131
+Name = "教団員"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 132
+Name = "教団員"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 133
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 134
+Name = "ベルデ"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 135
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 136
+Name = "炎の守護者"
+
+Page 0
+  PlaySE(["RPG::SE(@name=\"Fire8\", @pitch=100, @volume=100)"])
+  FlashScreen(["Color(@red=255.0, @green=51.0, @blue=34.0, @alpha=221.0)", 60, false])
+  Wait([40])
+  ShowPicture([20, "50_ココア戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ココア\\C[0]"])
+  ShowText(["･･････！"])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["突如、私達の目の前に魔物が姿を現す"])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]サーヴェン\\C[0]"])
+  ShowText(["神殿は炎の神を祀るモノでしてね･･･。"])
+  ShowText(["その漂う気は今もこうやって召喚に利用できるんですよ。"])
+  ShowPicture([20, "50_ここな戦闘立ち絵A1", 0, 0, 0, 0, 100, 100, 255, 0])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ここな\\C[0]"])
+  ShowText(["構う事は無いんだよ。倒すだけだよ！"])
+  ErasePicture([20])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 137
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 138
+Name = "マスティアトレント"
+
+Page 0
+  CallCommonEvent([100])
+  ChangeState([0, 7, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 139
+Name = "マスティアトレント*2"
+
+Page 0
+  CallCommonEvent([100])
+  ChangeState([0, 7, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 140
+Name = "マスティアトレント*2, 泥手まん"
+
+Page 0
+  CallCommonEvent([100])
+  ChangeState([0, 7, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 141
+Name = "マスティアトレント*2, 泥手まん*2"
+
+Page 0
+  CallCommonEvent([100])
+  ChangeState([0, 7, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 142
+Name = "マスティアトレント"
+
+Page 0
+  CallCommonEvent([100])
+  ChangeState([0, 7, 0, 10])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 143
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 144
+Name = "カカシ１０ターン"
+
+Page 0
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  ControlVariables([1003, 1003, 0, 0, 10])
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ControlVariables([1002, 1002, 0, 1, 1001])
+  ControlVariables([1002, 1002, 4, 0, 10])
+  PlaySE(["RPG::SE(@name=\"Bell2\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["与えたダメージ　\\V[1001]"])
+  ShowText(["１ターン当たり　\\V[1002]"])
+  AbortBattle([])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Troop 145
+Name = "カカシ２０ターン"
+
+Page 0
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  ControlVariables([1003, 1003, 0, 0, 20])
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ControlVariables([1002, 1002, 0, 1, 1001])
+  ControlVariables([1002, 1002, 4, 0, 20])
+  PlaySE(["RPG::SE(@name=\"Bell2\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["与えたダメージ　\\V[1001]"])
+  ShowText(["１ターン当たり　\\V[1002]"])
+  AbortBattle([])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Troop 146
+Name = "カカシ3０ターン"
+
+Page 0
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  ControlVariables([1003, 1003, 0, 0, 30])
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ControlVariables([1002, 1002, 0, 1, 1001])
+  ControlVariables([1002, 1002, 4, 0, 30])
+  PlaySE(["RPG::SE(@name=\"Bell2\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["与えたダメージ　\\V[1001]"])
+  ShowText(["１ターン当たり　\\V[1002]"])
+  AbortBattle([])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Troop 147
+Name = "カカシ4０ターン"
+
+Page 0
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  ControlVariables([1003, 1003, 0, 0, 40])
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ControlVariables([1002, 1002, 0, 1, 1001])
+  ControlVariables([1002, 1002, 4, 0, 40])
+  PlaySE(["RPG::SE(@name=\"Bell2\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["与えたダメージ　\\V[1001]"])
+  ShowText(["１ターン当たり　\\V[1002]"])
+  AbortBattle([])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Troop 148
+Name = "カカシ5０ターン"
+
+Page 0
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  ControlVariables([1003, 1003, 0, 0, 50])
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ControlVariables([1002, 1002, 0, 1, 1001])
+  ControlVariables([1002, 1002, 4, 0, 50])
+  PlaySE(["RPG::SE(@name=\"Bell2\", @pitch=100, @volume=80)"])
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["与えたダメージ　\\V[1001]"])
+  ShowText(["１ターン当たり　\\V[1002]"])
+  AbortBattle([])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Troop 149
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 150
+Name = "教祖"
+
+Page 0
+  ShowTextAttributes(["Monster1", 6, 1, 2])
+  ShowText(["\\C[20]教祖\\C[0]"])
+  ShowText(["やれやれ私も舐められたものですね。"])
+  ShowText(["このような小娘が追手とは･････。"])
+  ChangeEnemyState([0, 0, 10])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["Monster1", 6, 1, 2])
+  ShowText(["\\C[20]教祖\\C[0]"])
+  ShowText(["ぐ････はッ･･････。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 151
+Name = "教祖"
+
+Page 0
+  ShowTextAttributes(["Monster1", 6, 1, 2])
+  ShowText(["\\C[20]教祖\\C[0]"])
+  ShowText(["くっ･･･こうなったら全力を出すしかないようですね！"])
+  ForceAction([0, 0, 988, -1])
+  ChangeEnemyState([0, 0, 10])
+  ChangeState([0, 7, 0, 10])
+  ChangeState([0, 12, 0, 10])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["Monster1", 6, 1, 2])
+  ShowText(["\\C[20]教祖\\C[0]"])
+  ShowText(["く、糞が、糞がぁああああああああああああああああああ!!!!!!"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Troop 152
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 153
+Name = "貪欲者への戒め"
+
+Page 0
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 154
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 155
+Name = "いちご"
+
+Page 0
+  ForceAction([1, 1, 989, 0])
+  ChangeEnemyState([0, 0, 10])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["さーて、やりますよ～！"])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["うに････降参です････。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Page 3
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["ここは防御策です！"])
+  ForceAction([0, 0, 170, -1])
+  Empty([])
+
+Page 4
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["少しキツく攻めますよ！"])
+  ForceAction([0, 0, 169, -1])
+  Empty([])
+
+Page 5
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["はわわ、防御防御です。"])
+  ForceAction([0, 0, 170, -1])
+  Empty([])
+
+Page 6
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["攻めます！"])
+  ForceAction([0, 0, 169, -1])
+  Empty([])
+
+Page 7
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["もう終わりにしましょう。"])
+  ForceAction([0, 0, 994, -1])
+  Empty([])
+
+Troop 156
+Name = "いちご2"
+
+Page 0
+  ForceAction([1, 1, 989, -1])
+  ChangeEnemyState([0, 0, 10])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["さーて、やりますよ～！"])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["うに････降参です････。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Page 3
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["ここは防御策です！"])
+  ForceAction([0, 0, 170, -1])
+  Empty([])
+
+Page 4
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["少しキツく攻めますよ！"])
+  ForceAction([0, 0, 169, -1])
+  Empty([])
+
+Page 5
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["はわわ、防御防御です。"])
+  ForceAction([0, 0, 170, -1])
+  Empty([])
+
+Page 6
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["攻めます！"])
+  ForceAction([0, 0, 169, -1])
+  Empty([])
+
+Page 7
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]いちご\\C[0]"])
+  ShowText(["もう終わりにしましょう。"])
+  ForceAction([0, 0, 994, -1])
+  Empty([])
+
+Troop 157
+Name = "ヴァンゼル"
+
+Page 0
+  ForceAction([1, 1, 989, 0])
+  ControlVariables([1003, 1003, 0, 0, 10])
+  ChangeEnemyState([0, 0, 10])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]ヴァンゼル\\C[0]"])
+  ShowText(["１０ターンや、"])
+  ShowText(["１０ターン待ってやるで！"])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]ヴァンゼル\\C[0]"])
+  ShowText(["くっ････やるやないか････。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Page 4
+  ChangeEnemyState([0, 1, 385])
+  ChangeEnemyState([-1, 0, 386])
+  Empty([])
+
+Troop 158
+Name = "ヴァンゼル"
+
+Page 0
+  ForceAction([1, 1, 989, 0])
+  ControlVariables([1003, 1003, 0, 0, 10])
+  ChangeEnemyState([0, 0, 10])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]ヴァンゼル\\C[0]"])
+  ShowText(["１０ターンや、"])
+  ShowText(["１０ターン待ってやるで！"])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]ヴァンゼル\\C[0]"])
+  ShowText(["くっ････やるやないか････。"])
+  ChangeEnemyState([-1, 1, 10])
+  Empty([])
+
+Page 3
+  ControlVariables([1003, 1003, 2, 0, 1])
+  ForceAction([0, 0, 981, -1])
+  Empty([])
+
+Page 4
+  ChangeEnemyState([0, 1, 385])
+  ChangeEnemyState([-1, 0, 386])
+  Empty([])
+
+Troop 159
+Name = "バイオトレント"
+
+Page 0
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 160
+Name = "バイオトレント"
+
+Page 0
+  ForceAction([1, 1, 980, -1])
+  CallCommonEvent([100])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Troop 161
+Name = "カカシ先生"
+
+Page 0
+  ForceAction([1, 1, 980, -1])
+  ChangeEnemyState([0, 0, 10])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["我が出す課題をコナセ。"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["１００００ー２００００"])
+  CallCommonEvent([100])
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 10000, 1])
+    ConditionalBranch([1, 1001, 0, 20000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["１０００－４０００"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 3
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 1000, 1])
+    ConditionalBranch([1, 1001, 0, 4000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["２００００以上"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 4
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 20000, 1])
+    ConditionalBranch([1, 1001, 0, 9999999, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["５０００－１００００"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 5
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 5000, 1])
+    ConditionalBranch([1, 1001, 0, 10000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["８０００－１３０００"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 6
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 8000, 1])
+    ConditionalBranch([1, 1001, 0, 13000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["見事なリ"])
+      ChangeEnemyState([-1, 1, 10])
+      ChangeEnemyState([-1, 0, 1])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Troop 162
+Name = "カカシ先生"
+
+Page 0
+  ForceAction([1, 1, 980, -1])
+  ChangeEnemyState([0, 0, 10])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["我が出す課題をコナセ。"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["１００００ー２００００"])
+  CallCommonEvent([100])
+  ControlVariables([1001, 1001, 0, 3, 4, 0, 0])
+  Empty([])
+
+Page 1
+  CallCommonEvent([60])
+  CallCommonEvent([20])
+  Empty([])
+
+Page 2
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 10000, 1])
+    ConditionalBranch([1, 1001, 0, 20000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["１０００－４０００"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 3
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 1000, 1])
+    ConditionalBranch([1, 1001, 0, 4000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["２００００以上"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 4
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 20000, 1])
+    ConditionalBranch([1, 1001, 0, 9999999, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["５０００－１００００"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 5
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 5000, 1])
+    ConditionalBranch([1, 1001, 0, 10000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["８０００－１３０００"])
+      ControlVariables([1001, 1001, 0, 0, 100000])
+      ChangeEnemyHP([-1, 0, 0, 999999, false])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Page 6
+  ControlVariables([1001, 1001, 2, 3, 4, 0, 0])
+  ConditionalBranch([1, 1001, 0, 8000, 1])
+    ConditionalBranch([1, 1001, 0, 13000, 2])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=75, @volume=80)"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["課題クリア"])
+      ShowTextAttributes(["", 6, 1, 2])
+      ShowText(["\\C[20]カカシ\\C[0]"])
+      ShowText(["見事なリ"])
+      ChangeEnemyState([-1, 1, 10])
+      ChangeEnemyState([-1, 0, 1])
+      ExitEventProcessing([])
+      Empty([])
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=80, @volume=90)"])
+  ShowTextAttributes(["", 6, 1, 2])
+  ShowText(["\\C[20]カカシ\\C[0]"])
+  ShowText(["認めズ"])
+  ForceAction([0, 0, 997, -1])
+  Empty([])
+
+Troop 163
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 164
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 165
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 166
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 167
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 168
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 169
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 170
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 171
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 172
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 173
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 174
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 175
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 176
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 177
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 178
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 179
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 180
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 181
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 182
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 183
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 184
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 185
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 186
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 187
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 188
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 189
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 190
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 191
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 192
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 193
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 194
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 195
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 196
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 197
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 198
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 199
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 200
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 201
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 202
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 203
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 204
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 205
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 206
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 207
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 208
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 209
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 210
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 211
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 212
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 213
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 214
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 215
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 216
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 217
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 218
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 219
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 220
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 221
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 222
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 223
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 224
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 225
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 226
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 227
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 228
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 229
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 230
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 231
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 232
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 233
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 234
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 235
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 236
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 237
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 238
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 239
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 240
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 241
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 242
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 243
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 244
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 245
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 246
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 247
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 248
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 249
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 250
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 251
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 252
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 253
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 254
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 255
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 256
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 257
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 258
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 259
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 260
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 261
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 262
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 263
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 264
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 265
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 266
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 267
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 268
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 269
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 270
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 271
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 272
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 273
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 274
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 275
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 276
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 277
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 278
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 279
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 280
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 281
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 282
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 283
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 284
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 285
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 286
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 287
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 288
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 289
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 290
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 291
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 292
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 293
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 294
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 295
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 296
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 297
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 298
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 299
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 300
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 301
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 302
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 303
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 304
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 305
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 306
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 307
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 308
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 309
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 310
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 311
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 312
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 313
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 314
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 315
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 316
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 317
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 318
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 319
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 320
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 321
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 322
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 323
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 324
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 325
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 326
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 327
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 328
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 329
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 330
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 331
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 332
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 333
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 334
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 335
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 336
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 337
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 338
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 339
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 340
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 341
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 342
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 343
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 344
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 345
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 346
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 347
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 348
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 349
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 350
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 351
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 352
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 353
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 354
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 355
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 356
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 357
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 358
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 359
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 360
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 361
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 362
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 363
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 364
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 365
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 366
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 367
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 368
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 369
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 370
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 371
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 372
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 373
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 374
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 375
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 376
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 377
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 378
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 379
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 380
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 381
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 382
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 383
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 384
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 385
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 386
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 387
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 388
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 389
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 390
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 391
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 392
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 393
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 394
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 395
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 396
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 397
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 398
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 399
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 400
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 401
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 402
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 403
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 404
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 405
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 406
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 407
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 408
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 409
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 410
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 411
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 412
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 413
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 414
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 415
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 416
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 417
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 418
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 419
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 420
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 421
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 422
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 423
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 424
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 425
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 426
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 427
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 428
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 429
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 430
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 431
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 432
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 433
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 434
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 435
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 436
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 437
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 438
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 439
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 440
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 441
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 442
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 443
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 444
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 445
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 446
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 447
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 448
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 449
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 450
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 451
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 452
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 453
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 454
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 455
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 456
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 457
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 458
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 459
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 460
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 461
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 462
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 463
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 464
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 465
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 466
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 467
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 468
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 469
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 470
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 471
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 472
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 473
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 474
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 475
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 476
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 477
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 478
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 479
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 480
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 481
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 482
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 483
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 484
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 485
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 486
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 487
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 488
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 489
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 490
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 491
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 492
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 493
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 494
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 495
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 496
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 497
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 498
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 499
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 500
+Name = ""
+
+Page 0
+  Empty([])

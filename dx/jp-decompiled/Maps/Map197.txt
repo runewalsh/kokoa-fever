@@ -1,0 +1,72 @@
+Display Name = "ココアの部屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "マール"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ControlSwitches([1003, 1003, 1])
+    ChangePartyMember([5, 1, 0])
+    ChangePartyMember([10, 1, 0])
+    Wait([60])
+    FadeinScreen([])
+    Wait([60])
+    ShotBalloonIcon([-1, 1, true])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=14, @parameters=[-1, 0])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=14, @parameters=[-1, 0])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    ShowPicture([52, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["目が覚めたようですね。"])
+    ShowText(["ご気分はどうですか？"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉマール、おはようなの。"])
+    ShowPicture([50, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["どうしてマールがここにいるの？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["あー･･･それはですねー････"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["どうやら私は数日眠っていたらしい。"])
+    ShowText(["その間に教団のアジトは制圧され、作戦は成功した。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["マールがここに居たのは私の様子を見るのと"])
+    ShowText(["家の管理の為だったらしい。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["家の管理････そう、もうクロウ達はここに居なかった。"])
+    ShowText(["残されたのは私だけ････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["その流れから自然と私は魔法協会のメイリーの元で働く事になった。"])
+    ErasePicture([20])
+    ErasePicture([50])
+    ErasePicture([52])
+    CallCommonEvent([992])
+    TransferPlayer([0, 21, 13, 8, 2, 0])
+    ControlSwitches([201, 201, 0])
+    RecoverAll([0, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 5
+Name = "ここな"
+
+  Page 0
+    Empty([])

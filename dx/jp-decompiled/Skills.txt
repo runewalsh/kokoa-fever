@@ -1,0 +1,12593 @@
+Skill 1
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "攻撃"
+Description = "敵単体にダメージを与える。"
+Note = "スキル１番は［攻撃］コマンドを選択したときに使用されます。"
+
+Skill 2
+Message 1 = "は身を守っている。"
+Message 2 = ""
+Name = "防御"
+Description = "身を守ることに専念し、受けるダメージを抑える。"
+Note = "スキル２番は［防御］コマンドを選択したときに使用されます。"
+
+Skill 3
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "連続攻撃"
+Description = "敵単体に対して２回攻撃を行う。"
+Note = ""
+
+Skill 4
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "２回攻撃"
+Description = "敵２体にダメージを与える。"
+Note = ""
+
+Skill 5
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "３回攻撃"
+Description = "敵３体にダメージを与える。"
+Note = ""
+
+Skill 6
+Message 1 = "は逃げてしまった。"
+Message 2 = ""
+Name = "逃げる"
+Description = "敵キャラの行動用。使用者が戦闘から離脱する。"
+Note = ""
+
+Skill 7
+Message 1 = "は様子を見ている。"
+Message 2 = ""
+Name = "様子を見る"
+Description = "何もしない。"
+Note = ""
+
+Skill 8
+Message 1 = ""
+Message 2 = ""
+Name = "＝ココア＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Skill 9
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 10
+Message 1 = ""
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：70 (+\\v[38])\r\n二刀流時：150 (+\\v[39])"
+Note = "<NoName>\r\n<メモライズ不要>\r\n"
+
+Skill 11
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃１"
+Description = "威力：100\r\n二刀流時：200"
+Note = "<通常攻撃判定>"
+
+Skill 12
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃２"
+Description = "威力：100\r\n二刀流時：200"
+Note = "<通常攻撃判定>"
+
+Skill 13
+Message 1 = "は何も出来ず放心している"
+Message 2 = ""
+Name = "何もできない"
+Description = "放心状態で何も出来ない････。"
+Note = "<NoName>\r\n<メモライズ不要>\r\n"
+
+Skill 14
+Message 1 = "は何も出来ないでいる････。"
+Message 2 = ""
+Name = "なすがまま"
+Description = "大した抵抗も出来ず\r\n相手のなすがままになってしまう"
+Note = "<NoName>\r\n<メモライズ不要>\r\n"
+
+Skill 15
+Message 1 = "は様子をみている。"
+Message 2 = ""
+Name = "様子をみる"
+Description = "技量上昇：20%\r\n何もせず様子をみる。"
+Note = "<メモライズ不要>"
+
+Skill 16
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 17
+Message 1 = "は戦いを諦めた････。"
+Message 2 = ""
+Name = "諦める"
+Description = ""
+Note = ""
+
+Skill 18
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 19
+Message 1 = "のストラフ！"
+Message 2 = ""
+Name = "ストラフ"
+Description = "I 回復力：2000 (+\\v[21])　属性：回復\r\nCT：3　毒状態を治療する"
+Note = "<即時発動>\r\n<スキルディレイ 2>\r\n<メモライズ不要>\r\n"
+
+Skill 20
+Message 1 = "のストラフ！"
+Message 2 = ""
+Name = "ストラフ"
+Description = "I 回復力：2000 (+\\v[21])　属性：回復\r\nCT：3"
+Note = "<即時発動>\r\n<スキルディレイ 2>\r\n<メモライズ不要>"
+
+Skill 21
+Message 1 = "のエルストラフ！"
+Message 2 = ""
+Name = "エルストラフ"
+Description = "I 回復力：5000 (+\\v[22])　属性：回復\r\nCT：10"
+Note = "<即時発動>\r\n<スキルディレイ 9>\r\n<メモライズ不要>"
+
+Skill 22
+Message 1 = "のエルストラフ！"
+Message 2 = ""
+Name = "エルストラフ"
+Description = "I 回復力：5000 (+\\v[22])　属性：回復\r\nCT：10　毒・暗闇を解除"
+Note = "<即時発動>\r\n<スキルディレイ 9>\r\n<メモライズ不要>"
+
+Skill 23
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "威力：1000 (+\\v[23])　属性：回復\r\n"
+Note = "\r\n<メモライズ不要>"
+
+Skill 24
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "威力：1500 (+\\v[23])　属性：回復\r\n"
+Note = "\r\n<メモライズ不要>"
+
+Skill 25
+Message 1 = "は集気法を放った！"
+Message 2 = ""
+Name = "集気法"
+Description = "I MP回復力：100 (+\\v[24])\r\nCT：15"
+Note = "<即時発動>\r\n<スキルディレイ 14>\r\n<メモライズ不要>"
+
+Skill 26
+Message 1 = "は集気法を放った！"
+Message 2 = ""
+Name = "集気法"
+Description = "I MP回復力：100 (+\\v[24])  HP回復：10%\r\nCT：15"
+Note = "<即時発動>\r\n<スキルディレイ 14>\r\n<メモライズ不要>"
+
+Skill 27
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 28
+Message 1 = "は突撃戦法の体勢に入った！"
+Message 2 = ""
+Name = "タクティックアソー"
+Description = "I　攻撃力上昇：50%　\r\nCT：10　効果時間：3"
+Note = "<即時発動>\r\n<スキルディレイ 9>\r\n<メモライズ不要>\r\n"
+
+Skill 29
+Message 1 = "は突撃戦法の体勢に入った！"
+Message 2 = ""
+Name = "タクティックアソー"
+Description = "I　攻撃力上昇：50%  HP回復：10%\r\nCT：10　効果時間：3"
+Note = "<即時発動>\r\n<スキルディレイ 9>\r\n<メモライズ不要>\r\n"
+
+Skill 30
+Message 1 = "のランパード！！"
+Message 2 = ""
+Name = "ランパート"
+Description = "I 被ダメージ軽減：20%\r\nCT：8　効果時間：3"
+Note = "<即時発動>\r\n<スキルディレイ 7>\r\n<メモライズ不要>\r\n"
+
+Skill 31
+Message 1 = "のランパード！！"
+Message 2 = ""
+Name = "ランパート"
+Description = "I 被ダメージ軽減：20%　HP回復：10%\r\nCT：8　効果時間：3"
+Note = "<即時発動>\r\n<スキルディレイ 7>\r\n<メモライズ不要>\r\n"
+
+Skill 32
+Message 1 = "のランパード！！"
+Message 2 = ""
+Name = "ランパート"
+Description = "I 被ダメージ軽減：20%　HP回復：10%\r\nCT：8　効果時間：3"
+Note = "<即時発動>\r\n<スキルディレイ 7>\r\n<メモライズ不要>\r\n"
+
+Skill 33
+Message 1 = "のセンチネル！！"
+Message 2 = ""
+Name = "センチネル"
+Description = "I 被ダメージ軽減：30%\r\nCT：16　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 15>\r\n<メモライズ不要>\r\n"
+
+Skill 34
+Message 1 = "のセンチネル！！"
+Message 2 = ""
+Name = "センチネル"
+Description = "I 被ダメージ軽減：45%\r\nCT：16　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 15>\r\n<メモライズ不要>\r\n"
+
+Skill 35
+Message 1 = "のセンチネル！！"
+Message 2 = ""
+Name = "センチネル"
+Description = "I 被ダメージ軽減：45%　HP回復：20%\r\nCT：16　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 15>\r\n<メモライズ不要>\r\n"
+
+Skill 36
+Message 1 = "のセンチネル！！"
+Message 2 = ""
+Name = "センチネル"
+Description = "I 被ダメージ軽減：45%　HP回復：20%\r\nCT：16　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 15>\r\n<メモライズ不要>\r\n"
+
+Skill 37
+Message 1 = "のセンチネル！！"
+Message 2 = ""
+Name = "センチネル"
+Description = "I 被ダメージ軽減：60%　HP回復：20%\r\nCT：16　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 15>\r\n<メモライズ不要>\r\n"
+
+Skill 38
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃"
+Description = "威力：220 (+\\v[25])　属性：打\r\n対象にスタンを付与する"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>\r\n<発動前コモン 10>"
+
+Skill 39
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃"
+Description = "I 威力：220 (+\\v[25])　属性：打  CT：2\r\nランダム１体にスタンを付与する"
+Note = "<メモライズ不要>\r\n<即時発動>\r\n<要求装備タイプ 0>\r\n<スキルディレイ 1>\r\n"
+
+Skill 40
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃"
+Description = "威力：220 (+\\v[25])　属性：打\r\n敵全体にスタンを付与する"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>\r\n<発動前コモン 10>"
+
+Skill 41
+Message 1 = "は強撃を放った！"
+Message 2 = ""
+Name = "強撃"
+Description = "I 威力：220 (+\\v[25])　属性：打  CT：2\r\n敵全体にスタンを付与する"
+Note = "<メモライズ不要>\r\n<即時発動>\r\n<要求装備タイプ 0>\r\n<スキルディレイ 1>"
+
+Skill 42
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "威力：200 (+\\v[26])　属性：覇\r\n二刀流専用スキル"
+Note = "<二刀流要求>\r\n<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 43
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "威力：200 (+\\v[26])　属性：覇\r\n二刀流専用スキル"
+Note = "<二刀流要求>\r\n<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 44
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "威力：200 (+\\v[26])　属性：覇\r\n二刀流専用スキル"
+Note = "<二刀流要求>\r\n<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 45
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "威力：200 (+\\v[26])　属性：覇\r\n二刀流専用スキル"
+Note = "<二刀流要求>\r\n<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 46
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "威力：200 (+\\v[26])　属性：覇\r\n二刀流専用スキル"
+Note = "<二刀流要求>\r\n<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 47
+Message 1 = "はクロスディバイダーを放った！"
+Message 2 = ""
+Name = "クロスディバイダー"
+Description = "威力：200 (+\\v[26])　属性：覇\r\n二刀流専用スキル"
+Note = "<二刀流要求>\r\n<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 48
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 49
+Message 1 = "はダブルカウントを放った！"
+Message 2 = ""
+Name = "ダブルカウント"
+Description = "威力：200 (+\\v[40])　属性：斬"
+Note = "<メモライズ不要>\r\n<発動前コモン 7>\r\n<要求装備タイプ 0>"
+
+Skill 50
+Message 1 = "はダブルカウントを放った！"
+Message 2 = ""
+Name = "ダブルカウント"
+Description = "威力：200 (+\\v[40])　属性：斬"
+Note = "<メモライズ不要>\r\n<発動前コモン 7>\r\n<要求装備タイプ 0>"
+
+Skill 51
+Message 1 = "「・・・・・斬る！」"
+Message 2 = ""
+Name = "トリプルカウント"
+Description = "威力：240　コンボ時威力：360 (+\\v[41])　属性：斬\r\nコンボ条件：ダブルカウント　"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 52
+Message 1 = "「・・・・・斬る！」"
+Message 2 = ""
+Name = "トリプルカウント"
+Description = "威力：240　コンボ時威力：360 (+\\v[41])　属性：斬\r\nコンボ条件：ダブルカウント　"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 53
+Message 1 = "はトリプルカウントを放った！"
+Message 2 = ""
+Name = "トリプルカウント"
+Description = "威力：210　属性：物理\r\nコンボ条件：ダブルカウント　コンボ時威力：300"
+Note = ""
+
+Skill 54
+Message 1 = "はトリプルカウントを放った！"
+Message 2 = ""
+Name = "トリプルカウント+"
+Description = "威力：210　属性：物理\r\nコンボ条件：ダブルカウント　コンボ時威力：300"
+Note = ""
+
+Skill 55
+Message 1 = "はトリプルカウントを放った！"
+Message 2 = ""
+Name = "トリプルカウント+2"
+Description = "威力：210　属性：物理\r\nコンボ条件：ダブルカウント　コンボ時威力：300"
+Note = ""
+
+Skill 56
+Message 1 = "「・・・これは痛いよ！」"
+Message 2 = ""
+Name = "連"
+Description = "威力：300　コンボ時威力：500 (+\\v[42])　属性：斬\r\nコンボ条件：トリプルカウント"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 57
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連１"
+Description = ""
+Note = ""
+
+Skill 58
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連+"
+Description = ""
+Note = ""
+
+Skill 59
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連++"
+Description = ""
+Note = "<連鎖発動 60, 60%>"
+
+Skill 60
+Message 1 = "はダブルカウントを放った！"
+Message 2 = ""
+Name = "ダブルカウント(連から"
+Description = "威力：200 (+\\v[40])　属性：斬"
+Note = "<メモライズ不要>\r\n<発動前コモン 18>\r\n<要求装備タイプ 0>"
+
+Skill 61
+Message 1 = "はフレイムエッジを放った！"
+Message 2 = ""
+Name = "フレイムエッジ"
+Description = "威力：90　属性：火\r\n継続ダメージ：50 (+\\v[30])　効果時間：15"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>\r\n<発動前コモン 10>"
+
+Skill 62
+Message 1 = ""
+Message 2 = ""
+Name = "フレイムエッジ50"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 63
+Message 1 = "はフレイムエッジを放った！"
+Message 2 = ""
+Name = "フレイムエッジ"
+Description = "I 威力：90　継続ダメージ：50 (+\\v[30])　属性：火\r\nCT：2　効果時間：15　ランダム１体に攻撃"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>\r\n<即時発動>\r\n<スキルディレイ 1>"
+
+Skill 64
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃"
+Description = "威力：350 (+\\v[31])　属性：斬\r\n敵全体攻撃"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>\r\n<発動前コモン 10>"
+
+Skill 65
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃"
+Description = "威力：350 (+\\v[31])　属性：斬\r\n敵全体攻撃　中確率で魔法防御力低下付与"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>\r\n<発動前コモン 10>"
+
+Skill 66
+Message 1 = ""
+Message 2 = ""
+Name = "フレイムエッジ50味方用"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 67
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルト"
+Description = "威力：220 (+\\v[43])　属性：雷\r\n"
+Note = "<メモライズ不要>\r\n<発動前コモン 10>"
+
+Skill 68
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルト"
+Description = "威力：220 (+\\v[43])　属性：雷\r\n低確率で感電付与"
+Note = "<メモライズ不要>\r\n<発動前コモン 10>"
+
+Skill 69
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 70
+Message 1 = "はアイスニードルを唱えた！"
+Message 2 = ""
+Name = "アイスニードル"
+Description = "威力：320 (+\\v[44])　属性：水\r\n範囲分散：4"
+Note = "<メモライズ不要>\r\n<発動前コモン 10>"
+
+Skill 71
+Message 1 = "はアイスニードルを唱えた！"
+Message 2 = ""
+Name = "アイスニードル"
+Description = "威力：320 (+\\v[44])　属性：水\r\n範囲分散：4　低確率で凍結付与"
+Note = "<メモライズ不要>\r\n<発動前コモン 10>"
+
+Skill 72
+Message 1 = "はファイアバーストを唱えた！"
+Message 2 = ""
+Name = "ファイアバースト"
+Description = "威力：360 (+\\v[34])　属性：火\r\n敵全体攻撃"
+Note = "<メモライズ不要>\r\n<発動前コモン 10>"
+
+Skill 73
+Message 1 = "はファイアバーストを唱えた！"
+Message 2 = ""
+Name = "ファイアバースト"
+Description = "威力：360 (+\\v[34])　属性：火\r\n敵全体攻撃　中確率で火傷付与"
+Note = "<メモライズ不要>\r\n<発動前コモン 10>"
+
+Skill 74
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 75
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 76
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 77
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 78
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 79
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 80
+Message 1 = ""
+Message 2 = ""
+Name = "=奥義================="
+Description = ""
+Note = ""
+
+Skill 81
+Message 1 = "はVスラッシュを放った！"
+Message 2 = ""
+Name = "Vスラッシュ"
+Description = "威力：1500 (+\\v[35])　属性：斬\r\n"
+Note = "<発動前コモン 13>\r\n<要求装備タイプ 0>\r\n"
+
+Skill 82
+Message 1 = "はWスラッシュを放った！"
+Message 2 = ""
+Name = "Wスラッシュ"
+Description = "威力：1500 (+\\v[36])　属性：斬\r\nCT：5"
+Note = "<発動前コモン 13>\r\n<スキルディレイ 5>\r\n<要求装備タイプ 0>\r\n"
+
+Skill 83
+Message 1 = "は炎舞を放った！"
+Message 2 = ""
+Name = "炎舞"
+Description = "威力：2500 (+\\v[37])　属性：火\r\nCT：5"
+Note = "<発動前コモン 13>\r\n<スキルディレイ 5>\r\n<要求装備タイプ 0>\r\n<TP固定消費:150>"
+
+Skill 84
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 85
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 86
+Message 1 = ""
+Message 2 = ""
+Name = "＝ここな＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Skill 87
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：100 (+80)"
+Note = "<通常攻撃判定>\r\n<メモライズ不要>"
+
+Skill 88
+Message 1 = "は様子をみている。"
+Message 2 = ""
+Name = "様子をみる"
+Description = "技量上昇：20%\r\n何もせず様子をみる。"
+Note = "<メモライズ不要>"
+
+Skill 89
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 90
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "威力：1000 (+600)　属性：回復\r\n"
+Note = "<メモライズ不要>\r\n"
+
+Skill 91
+Message 1 = "はメガヒールを唱えた！"
+Message 2 = ""
+Name = "メガヒール"
+Description = "威力：2500 (+500)　属性：回復\r\n"
+Note = "<メモライズ不要>\r\n"
+
+Skill 92
+Message 1 = "は気合を使った！"
+Message 2 = ""
+Name = "気合"
+Description = "I 攻撃力上昇：15%  TP回復：100\r\n回復効果：500  CT：12　効果時間：6"
+Note = "<スキルディレイ 11>\r\n<即時発動>\r\n<メモライズ不要>"
+
+Skill 93
+Message 1 = "はフェザーステップを使った！"
+Message 2 = ""
+Name = "フェザーステップ"
+Description = "I ダメージ軽減：30%\r\nCT：8　効果時間：2"
+Note = "<スキルディレイ 7>\r\n<即時発動>\r\n<メモライズ不要>"
+
+Skill 94
+Message 1 = "は光速剣を使った！"
+Message 2 = ""
+Name = "光速剣"
+Description = "I 通常攻撃回数増加：3\r\nCT：20　効果時間：3"
+Note = "<スキルディレイ 19>\r\n<即時発動>\r\n<メモライズ不要>"
+
+Skill 95
+Message 1 = "は瞬刃を放った！"
+Message 2 = ""
+Name = "瞬刃"
+Description = "I 威力：150 (+150)　属性：斬\r\nCT：5  ランダム１体に攻撃"
+Note = "<メモライズ不要>\r\n<スキルディレイ 4>\r\n<即時発動>\r\n<要求装備タイプ 0>"
+
+Skill 96
+Message 1 = "は瞬刃を放った！"
+Message 2 = ""
+Name = "瞬牙"
+Description = "I 威力：250 (+150)　属性：斬\r\nCT：6  ランダム１体に攻撃"
+Note = "<メモライズ不要>\r\n<スキルディレイ 5>\r\n<即時発動>\r\n<要求装備タイプ 0>"
+
+Skill 97
+Message 1 = "は瞬刃を放った！"
+Message 2 = ""
+Name = "モアンソード"
+Description = "I 威力：120 (+30)　属性：斬\r\nCT：8　ランダム１体の対象の防御性能低下：25%　効果時間：3"
+Note = "<メモライズ不要>\r\n<スキルディレイ 9>\r\n<即時発動>\r\n<要求装備タイプ 0>"
+
+Skill 98
+Message 1 = "はボマーを放った！"
+Message 2 = ""
+Name = "ボマー"
+Description = "I 威力：250 (+140)　属性：火\r\nCT：5　範囲拡散：3"
+Note = "<メモライズ不要>\r\n<スキルディレイ 4>\r\n<即時発動>"
+
+Skill 99
+Message 1 = "はライトニングブレードを放った！"
+Message 2 = ""
+Name = "ライトニングブレード"
+Description = "威力：200 (+50)　属性：雷\r\n対象にスタンを付与する"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 100
+Message 1 = "は火炎斬りを放った！"
+Message 2 = ""
+Name = "火炎斬り"
+Description = "威力：220 (+130)　属性：火\r\n"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 101
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連"
+Description = "威力：400 (+250)　属性：斬\r\nCT：2"
+Note = "<メモライズ不要>\r\n<スキルディレイ 2>\r\n<要求装備タイプ 0>"
+
+Skill 102
+Message 1 = "は乱舞斬を放った！"
+Message 2 = ""
+Name = "乱舞斬"
+Description = "威力：600 (+300)　属性：斬"
+Note = "<メモライズ不要>\r\n<TP固定消費:190>\r\n<要求装備タイプ 0>"
+
+Skill 103
+Message 1 = "は紅蓮を放った！"
+Message 2 = ""
+Name = "紅蓮"
+Description = "威力：500 (+450)　属性：火\r\nCT：3"
+Note = "<メモライズ不要>\r\n<スキルディレイ 3>\r\n<要求装備タイプ 0>"
+
+Skill 104
+Message 1 = "はファイアーボールを放った！"
+Message 2 = ""
+Name = "ファイアーボール"
+Description = "威力：400 (+350)　属性：火\r\nCT：3"
+Note = "<メモライズ不要>\r\n<スキルディレイ 3>"
+
+Skill 105
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 106
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 107
+Message 1 = "はダッシュ斬りを放った！"
+Message 2 = ""
+Name = "ダッシュ斬り"
+Description = "威力：300 (+200)　属性：斬\r\n敵全体攻撃"
+Note = "<メモライズ不要>\r\n<要求装備タイプ 0>"
+
+Skill 108
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 109
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 110
+Message 1 = ""
+Message 2 = ""
+Name = "人獣"
+Description = "ヤリニャン族の血を濃く受け継いでいる･･･。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 111
+Message 1 = ""
+Message 2 = ""
+Name = "オールD適正保証"
+Description = "何をやっても大体は人並み以下には出来る。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 112
+Message 1 = ""
+Message 2 = ""
+Name = "魔法耐性D"
+Description = "魔法ダメージ軽減：10%"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 113
+Message 1 = ""
+Message 2 = ""
+Name = "スウィフト"
+Description = "物理ダメージ軽減：10%"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 114
+Message 1 = ""
+Message 2 = ""
+Name = "駆け抜け"
+Description = "戦闘開始時に【ダッシュ斬り】を発動させる。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 115
+Message 1 = ""
+Message 2 = ""
+Name = "早熟"
+Description = "早熟タイプである。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 116
+Message 1 = "はダッシュ斬りを放った！"
+Message 2 = ""
+Name = "ダッシュ斬り_駆け抜け用"
+Description = "威力：300 (+200)　属性：斬\r\n敵全体攻撃"
+Note = "<メモライズ不要>"
+
+Skill 117
+Message 1 = ""
+Message 2 = ""
+Name = "全裸トイレ猫"
+Description = "トイレは裸になってする！"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 118
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 119
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 120
+Message 1 = "いちごはヒールを唱えた！"
+Message 2 = ""
+Name = "いちごの援護ヒール"
+Description = ""
+Note = "<メモライズ不要>\r\n<使用者名表示無し>"
+
+Skill 121
+Message 1 = "いちごは尖刃烈破を放った！"
+Message 2 = ""
+Name = "尖刃烈破"
+Description = "威力：370　コンボ時威力：750　\r\nコンボ条件：流星剣"
+Note = "<使用者名表示無し>"
+
+Skill 122
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 123
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 124
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 125
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 126
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 127
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 128
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 129
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 130
+Message 1 = ""
+Message 2 = ""
+Name = "＝クロウ＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Skill 131
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：120 (+240)"
+Note = "<通常攻撃判定>\r\n<メモライズ不要>"
+
+Skill 132
+Message 1 = "は様子をみている。"
+Message 2 = ""
+Name = "様子をみる"
+Description = "技量上昇：20%\r\n何もせず様子をみる。"
+Note = "<メモライズ不要>"
+
+Skill 133
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 134
+Message 1 = "は集気法を放った！"
+Message 2 = ""
+Name = "集気法"
+Description = "I MP回復力：100 (+100)\r\nCT：15"
+Note = "<即時発動>\r\n<スキルディレイ 14>\r\n<メモライズ不要>"
+
+Skill 135
+Message 1 = "のエルストラフ！"
+Message 2 = ""
+Name = "エルストラフ"
+Description = "I 回復力：5000 (+7500)　属性：回復\r\nCT：10"
+Note = "<即時発動>\r\n<スキルディレイ 9>\r\n<メモライズ不要>"
+
+Skill 136
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 137
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "威力：1000 (+1300)　属性：回復\r\n"
+Note = "<メモライズ不要>\r\n"
+
+Skill 138
+Message 1 = "のシャドウウォール！！"
+Message 2 = ""
+Name = "シャドウウォール"
+Description = "I 被ダメージ軽減：35%　闇耐性上昇：20%\r\nCT：6　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 5>\r\n<メモライズ不要>\r\n"
+
+Skill 139
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 140
+Message 1 = "は連を放った！"
+Message 2 = ""
+Name = "連"
+Description = "威力：500 (+750)　属性：斬"
+Note = "<メモライズ不要>\r\n"
+
+Skill 141
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 142
+Message 1 = "は牙叡を放った！"
+Message 2 = ""
+Name = "牙叡"
+Description = "威力：600 (+300)　属性：覇\r\nCT：2"
+Note = "<メモライズ不要>\r\n<スキルディレイ 2>"
+
+Skill 143
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 144
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃"
+Description = "威力：700 (+700)　属性：斬\r\n敵全体攻撃"
+Note = "<メモライズ不要>\r\n"
+
+Skill 145
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 146
+Message 1 = "は闇黒を唱えた！"
+Message 2 = ""
+Name = "闇黒"
+Description = "威力：500 (+550)　属性：闇"
+Note = "<メモライズ不要>\r\n"
+
+Skill 147
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 148
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 149
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 150
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 151
+Message 1 = ""
+Message 2 = ""
+Name = "傭兵Lv2"
+Description = "傭兵としての素質と素養\r\n"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 152
+Message 1 = ""
+Message 2 = ""
+Name = "魔剣使い"
+Description = "魔剣バルムンクの使い手である"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 153
+Message 1 = ""
+Message 2 = ""
+Name = "理解力"
+Description = "固有能力により理解する力が高まっている。\r\n本人曰く、『なんとなく理解する能力』"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 154
+Message 1 = ""
+Message 2 = ""
+Name = "剣術Lv3"
+Description = "国や地方で１、２を争う程度の剣の実力者である。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 155
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 156
+Message 1 = "はアンリーシュを放った！"
+Message 2 = ""
+Name = "アンリーシュ"
+Description = "威力：300 敵全体攻撃　暗闇付与　効果時間：5  属性：闇\r\n被ターゲット率上昇　効果時間：10"
+Note = "<連鎖発動 157, 100%>\r\n<メモライズ不要>"
+
+Skill 157
+Message 1 = ""
+Message 2 = ""
+Name = "アンリーシュ追加効果"
+Description = "I　威力：300 敵全体攻撃　暗闇付与　効果時間：5\r\n被ターゲット率上昇：2000%　効果時間：10"
+Note = "<使用者名表示無し>\r\n<連鎖発動 754, 100%>"
+
+Skill 158
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 159
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 160
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 161
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 162
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 163
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 164
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 165
+Message 1 = ""
+Message 2 = ""
+Name = "==いちご===="
+Description = ""
+Note = ""
+
+Skill 166
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：220 (+220)\r\n夜桜による追加効果：対象に暗闇を付与"
+Note = "<通常攻撃判定>\r\n<メモライズ不要>"
+
+Skill 167
+Message 1 = "は様子をみている。"
+Message 2 = ""
+Name = "様子をみる"
+Description = "技量上昇：20%\r\n何もせず様子をみる。"
+Note = "<メモライズ不要>\r\n"
+
+Skill 168
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 169
+Message 1 = "はコンセントレイトを使った！"
+Message 2 = ""
+Name = "コンセントレイト"
+Description = "I 攻撃力上昇：35%　命中率上昇：30%\r\nCT：8　効果時間：3"
+Note = "<スキルディレイ 7>\r\n<即時発動>\r\n<メモライズ不要>"
+
+Skill 170
+Message 1 = "はスウィフトステップを使った！"
+Message 2 = ""
+Name = "スウィフトステップ"
+Description = "I ダメージ軽減：30%\r\nCT：10　効果時間：3"
+Note = "<スキルディレイ 9>\r\n<即時発動>\r\n<メモライズ不要>"
+
+Skill 171
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 172
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 173
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール"
+Description = "威力：1000 (+200)　属性：回復\r\n"
+Note = "<メモライズ不要>\r\n"
+
+Skill 174
+Message 1 = "は尖刃烈破を放った！"
+Message 2 = ""
+Name = "尖刃烈破"
+Description = "威力：550 (+200)　属性：突\r\n暗闇Lv2を付与　効果時間：3"
+Note = "<メモライズ不要>"
+
+Skill 175
+Message 1 = "は尖刃烈破を放った！"
+Message 2 = ""
+Name = "滅殺尖牙"
+Description = "威力：680 (+340)　属性：突\r\n防御力低下付与：20%　効果時間：5"
+Note = "<メモライズ不要>"
+
+Skill 176
+Message 1 = "は殺刃乱舞を放った！"
+Message 2 = ""
+Name = "殺刃乱舞"
+Description = "威力：880 (+440)　属性：斬\r\n攻撃力低下付与：20%　効果時間：5"
+Note = "<メモライズ不要>"
+
+Skill 177
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 178
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 179
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 180
+Message 1 = ""
+Message 2 = ""
+Name = "人獣"
+Description = "ヤリニャン族と淫魔の血を引き継いでいる。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 181
+Message 1 = ""
+Message 2 = ""
+Name = "密偵Lv1"
+Description = "密偵としての素質と素養"
+Note = "<メモライズ不要>"
+
+Skill 182
+Message 1 = ""
+Message 2 = ""
+Name = "努力家"
+Description = "とても頑張り屋です。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 183
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 184
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 185
+Message 1 = ""
+Message 2 = ""
+Name = "＝＝＝リリィ＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Skill 186
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：300 (+300)"
+Note = "<通常攻撃判定>\r\n<メモライズ不要>"
+
+Skill 187
+Message 1 = "は様子をみている。"
+Message 2 = ""
+Name = "様子をみる"
+Description = "技量上昇：20%\r\n何もせず様子をみる。"
+Note = "<メモライズ不要>\r\n"
+
+Skill 188
+Message 1 = "はメガヒールを唱えた！"
+Message 2 = ""
+Name = "メガヒール"
+Description = "威力：2500 (+1000)　属性：回復\r\n"
+Note = "<メモライズ不要>\r\n"
+
+Skill 189
+Message 1 = "のシャインシールド！！"
+Message 2 = ""
+Name = "シャインシールド"
+Description = "I 被ダメージ軽減：15%　闇耐性上昇：50%\r\nCT：8　効果時間：2"
+Note = "<即時発動>\r\n<スキルディレイ 7>\r\n<メモライズ不要>\r\n"
+
+Skill 190
+Message 1 = "はホーリィエクスプロージョンを唱えた！"
+Message 2 = ""
+Name = "ホーリィエクスプロージョン"
+Description = "威力：500 (+500)　属性：聖"
+Note = "<メモライズ不要>\r\n"
+
+Skill 191
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 192
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 193
+Message 1 = "はジャッジメントを唱えた！"
+Message 2 = ""
+Name = "ジャッジメント"
+Description = "威力：700 (+700)　属性：聖"
+Note = "<メモライズ不要>\r\n"
+
+Skill 194
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 195
+Message 1 = "はセイントレイを唱えた！"
+Message 2 = ""
+Name = "セイントレイ"
+Description = "威力：550 (+550)　属性：聖"
+Note = "<メモライズ不要>\r\n"
+
+Skill 196
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 197
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 198
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 199
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 200
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 201
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 202
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 203
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 204
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 205
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 206
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 207
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 208
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 209
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 210
+Message 1 = ""
+Message 2 = ""
+Name = "＝＝＝魔王＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Skill 211
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：100 (+150)"
+Note = "<通常攻撃判定>\r\n<メモライズ不要>"
+
+Skill 212
+Message 1 = "は様子をみている。"
+Message 2 = ""
+Name = "様子をみる"
+Description = "技量上昇：20%\r\n何もせず様子をみる。"
+Note = "<メモライズ不要>\r\n"
+
+Skill 213
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 214
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 215
+Message 1 = "は暗黒を唱えた！"
+Message 2 = ""
+Name = "暗黒"
+Description = "威力：500 (+500)　属性：闇"
+Note = "<メモライズ不要>\r\n"
+
+Skill 216
+Message 1 = "はエクスプロージョンを唱えた！"
+Message 2 = ""
+Name = "エクスプロージョン"
+Description = "威力：1000 (+500)　属性：闇"
+Note = "<メモライズ不要>\r\n"
+
+Skill 217
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 218
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 219
+Message 1 = "は闇の嵐を唱えた！"
+Message 2 = ""
+Name = "闇の嵐"
+Description = "威力：800 (+400)　属性：闇\r\n敵全体攻撃"
+Note = "<メモライズ不要>\r\n"
+
+Skill 220
+Message 1 = "はファイアピラーを唱えた！"
+Message 2 = ""
+Name = "ファイアピラー"
+Description = "威力：2500(+1250) 　属性：闇\r\nCT：30 　"
+Note = "<連続回数 15>\r\n<スキルディレイ 30>\r\n<メモライズ不要>\r\n"
+
+Skill 221
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 222
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 223
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 224
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 225
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 226
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 227
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 228
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 229
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 230
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 231
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 232
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 233
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 234
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 235
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 236
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 237
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 238
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 239
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 240
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 241
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 242
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 243
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 244
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 245
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 246
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 247
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 248
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 249
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 250
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 251
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 252
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 253
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 254
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 255
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 256
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 257
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 258
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 259
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 260
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 261
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 262
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 263
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 264
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 265
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 266
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 267
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 268
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 269
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 270
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 271
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 272
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 273
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 274
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 275
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 276
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 277
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 278
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 279
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 280
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 281
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 282
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 283
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 284
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 285
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 286
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 287
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 288
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 289
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 290
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 291
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 292
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 293
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 294
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 295
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 296
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 297
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 298
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 299
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 300
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 301
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 302
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 303
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 304
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 305
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 306
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 307
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 308
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 309
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 310
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 311
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 312
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 313
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 314
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 315
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 316
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 317
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 318
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 319
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 320
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 321
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 322
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 323
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 324
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 325
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 326
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 327
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 328
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 329
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 330
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 331
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 332
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 333
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 334
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 335
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 336
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 337
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 338
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 339
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 340
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 341
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 342
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 343
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 344
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 345
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 346
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 347
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 348
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 349
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 350
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 351
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 352
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 353
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 354
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 355
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 356
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 357
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 358
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 359
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 360
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 361
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 362
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 363
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 364
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 365
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 366
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 367
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 368
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 369
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 370
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 371
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 372
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 373
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 374
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 375
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 376
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 377
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 378
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 379
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 380
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 381
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 382
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 383
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 384
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 385
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 386
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 387
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 388
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 389
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 390
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 391
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 392
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 393
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 394
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 395
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 396
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 397
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 398
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 399
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 400
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 401
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 402
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 403
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 404
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 405
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 406
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 407
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 408
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 409
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 410
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 411
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 412
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 413
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 414
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 415
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 416
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 417
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 418
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 419
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 420
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 421
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 422
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 423
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 424
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 425
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 426
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 427
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 428
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 429
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 430
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 431
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 432
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 433
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 434
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 435
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 436
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 437
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 438
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 439
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 440
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 441
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 442
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 443
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 444
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 445
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 446
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 447
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 448
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 449
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 450
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 451
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 452
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 453
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 454
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 455
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 456
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 457
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 458
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 459
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 460
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 461
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 462
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 463
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 464
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 465
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 466
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 467
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 468
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 469
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 470
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 471
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 472
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 473
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 474
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 475
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 476
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 477
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 478
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 479
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 480
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 481
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 482
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 483
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 484
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 485
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 486
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 487
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 488
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 489
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 490
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 491
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 492
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 493
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 494
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 495
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 496
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 497
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 498
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 499
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 500
+Message 1 = ""
+Message 2 = ""
+Name = "==固有==========="
+Description = ""
+Note = ""
+
+Skill 501
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法"
+Description = "ターン毎HP回復上昇：1%"
+Note = "<パッシブ 501>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 502
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法Lv2"
+Description = "ターン毎HP回復上昇：2%"
+Note = "<パッシブ 502>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 503
+Message 1 = ""
+Message 2 = ""
+Name = "呼吸法Lv3"
+Description = "ターン毎HP回復上昇：3%"
+Note = "<パッシブ 503>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 504
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一"
+Description = "ターン毎MP回復上昇：1%"
+Note = "<パッシブ 504>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 505
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一Lv2"
+Description = "ターン毎MP回復上昇：2%"
+Note = "<パッシブ 505>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 506
+Message 1 = ""
+Message 2 = ""
+Name = "精神統一Lv3"
+Description = "ターン毎MP回復上昇：3%"
+Note = "<パッシブ 506>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 507
+Message 1 = ""
+Message 2 = ""
+Name = "アクションアップⅠ"
+Description = "与ダメージ上昇：1.5倍\r\nMP消費量上昇：2倍"
+Note = "<パッシブ能力職業 352>\r\n<パッシブ 507>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 508
+Message 1 = ""
+Message 2 = ""
+Name = "アクションアップⅡ"
+Description = "与ダメージ上昇：2倍\r\nMP消費量上昇：5倍"
+Note = "<パッシブ能力職業 353>\r\n<パッシブ 508>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 509
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 510
+Message 1 = ""
+Message 2 = ""
+Name = "冒険者Lv1"
+Description = "冒険者としての素質と素養\r\n最大HP+300"
+Note = "<パッシブ 510>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 511
+Message 1 = ""
+Message 2 = ""
+Name = "人獣"
+Description = "クルニャー族である。\r\n才能に恵まれている。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 512
+Message 1 = ""
+Message 2 = ""
+Name = "主人公補正"
+Description = "主人公として色々な補正が掛かっている･･･らしい。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 513
+Message 1 = ""
+Message 2 = ""
+Name = "両手利き"
+Description = "二刀流が生まれつき可能である。"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 514
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 515
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 516
+Message 1 = ""
+Message 2 = ""
+Name = "発掘師"
+Description = "一部のアイテムの入手量が増えるかも･･･？"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>\r\n"
+
+Skill 517
+Message 1 = ""
+Message 2 = ""
+Name = "採掘師"
+Description = "一部のアイテムの入手量が増えるかも･･･？"
+Note = "<戦闘中非表示>\r\n<メモライズ不要>\r\n"
+
+Skill 518
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 519
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 520
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 521
+Message 1 = ""
+Message 2 = ""
+Name = "破滅願望"
+Description = "心のどこかで破滅する事を望んでいます。"
+Note = ""
+
+Skill 522
+Message 1 = ""
+Message 2 = ""
+Name = "一閃"
+Description = "格下の雑魚を一撃で屠る"
+Note = ""
+
+Skill 523
+Message 1 = ""
+Message 2 = ""
+Name = "===パッシブ=========="
+Description = ""
+Note = ""
+
+Skill 524
+Message 1 = ""
+Message 2 = ""
+Name = "HP強化"
+Description = "最大HP上昇：10%"
+Note = "<パッシブ 524>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 525
+Message 1 = ""
+Message 2 = ""
+Name = "HP強化Lv2"
+Description = "最大HP上昇：20%"
+Note = "<パッシブ 525>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 526
+Message 1 = ""
+Message 2 = ""
+Name = "HP強化Lv3"
+Description = "最大HP上昇：30%"
+Note = "<パッシブ 526>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 527
+Message 1 = ""
+Message 2 = ""
+Name = "HP強化Lv4"
+Description = "最大HP上昇：40%"
+Note = "<パッシブ 527>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 528
+Message 1 = ""
+Message 2 = ""
+Name = "HP強化Lv5"
+Description = "最大HP上昇：50%"
+Note = "<パッシブ 528>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 529
+Message 1 = ""
+Message 2 = ""
+Name = "MP強化"
+Description = "最大MP上昇：10%"
+Note = "<パッシブ 529>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 530
+Message 1 = ""
+Message 2 = ""
+Name = "MP強化Lv2"
+Description = "最大MP上昇：20%"
+Note = "<パッシブ 530>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 531
+Message 1 = ""
+Message 2 = ""
+Name = "MP強化Lv3"
+Description = "最大MP上昇：30%"
+Note = "<パッシブ 531>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 532
+Message 1 = ""
+Message 2 = ""
+Name = "TP強化"
+Description = "最大TP上昇：10"
+Note = "<パッシブ能力職業 301>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 533
+Message 1 = ""
+Message 2 = ""
+Name = "TP強化Lv2"
+Description = "最大TP上昇：30"
+Note = "<パッシブ能力職業 302>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 534
+Message 1 = ""
+Message 2 = ""
+Name = "TP強化Lv3"
+Description = "最大TP上昇：50"
+Note = "<パッシブ能力職業 303>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 535
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃強化"
+Description = "攻撃力上昇：10%"
+Note = "<パッシブ 535>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 536
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃強化Lv2"
+Description = "攻撃力上昇：20%"
+Note = "<パッシブ 536>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 537
+Message 1 = ""
+Message 2 = ""
+Name = "攻撃強化Lv3"
+Description = "攻撃力上昇：30%"
+Note = "<パッシブ 537>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 538
+Message 1 = ""
+Message 2 = ""
+Name = "魔法力強化"
+Description = "魔法力上昇：10%"
+Note = "<パッシブ 538>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 539
+Message 1 = ""
+Message 2 = ""
+Name = "魔法力強化Lv2"
+Description = "魔法力上昇：20%"
+Note = "<パッシブ 539>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 540
+Message 1 = ""
+Message 2 = ""
+Name = "魔法力強化Lv3"
+Description = "魔法力上昇：30%"
+Note = "<パッシブ 540>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 541
+Message 1 = ""
+Message 2 = ""
+Name = "３属性強化"
+Description = "突・斬・打属性威力上昇：10%"
+Note = "<パッシブ能力職業 320>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 542
+Message 1 = ""
+Message 2 = ""
+Name = "３属性強化Lv2"
+Description = "突・斬・打属性威力上昇：20%"
+Note = "<パッシブ能力職業 321>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 543
+Message 1 = ""
+Message 2 = ""
+Name = "３属性強化Lv3"
+Description = "突・斬・打属性威力上昇：30%"
+Note = "<パッシブ能力職業 322>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 544
+Message 1 = ""
+Message 2 = ""
+Name = "元素強化"
+Description = "火・水・風・雷・土属性威力上昇：10%"
+Note = "<パッシブ能力職業 323>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 545
+Message 1 = ""
+Message 2 = ""
+Name = "元素強化Lv2"
+Description = "火・水・風・雷・土属性威力上昇：20%"
+Note = "<パッシブ能力職業 324>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 546
+Message 1 = ""
+Message 2 = ""
+Name = "元素強化Lv3"
+Description = "火・水・風・雷・土属性威力上昇：30%"
+Note = "<パッシブ能力職業 325>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 547
+Message 1 = ""
+Message 2 = ""
+Name = "冥属性強化"
+Description = "闇・覇属性威力上昇：10%"
+Note = "<パッシブ能力職業 326>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 548
+Message 1 = ""
+Message 2 = ""
+Name = "冥属性強化Lv2"
+Description = "闇・覇属性威力上昇：20%"
+Note = "<パッシブ能力職業 327>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 549
+Message 1 = ""
+Message 2 = ""
+Name = "冥属性強化Lv3"
+Description = "闇・覇属性威力上昇：30%"
+Note = "<パッシブ能力職業 328>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 550
+Message 1 = ""
+Message 2 = ""
+Name = "戦闘後治癒"
+Description = "戦闘後HP回復：3%\r\n戦闘後MP回復：3%"
+Note = "<パッシブ能力職業 330>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 551
+Message 1 = ""
+Message 2 = ""
+Name = "戦闘後治癒Lv2"
+Description = "戦闘後HP回復：5%\r\n戦闘後MP回復：5%"
+Note = "<パッシブ能力職業 331>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 552
+Message 1 = ""
+Message 2 = ""
+Name = "戦闘後治癒Lv3"
+Description = "戦闘後HP回復：8%\r\n戦闘後MP回復：8%"
+Note = "<パッシブ能力職業 332>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 553
+Message 1 = ""
+Message 2 = ""
+Name = "致命知識"
+Description = "クリティカル率上昇：5%"
+Note = "<パッシブ 553>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 554
+Message 1 = ""
+Message 2 = ""
+Name = "致命知識Lv2"
+Description = "クリティカル率上昇：10%"
+Note = "<パッシブ 554>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 555
+Message 1 = ""
+Message 2 = ""
+Name = "致命知識Lv3"
+Description = "クリティカル率上昇：15%"
+Note = "<パッシブ 555>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 556
+Message 1 = ""
+Message 2 = ""
+Name = "直感"
+Description = "確率でダメージを軽減\r\n発動確率：10%　軽減率：10%"
+Note = "<パッシブ能力職業 336>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 557
+Message 1 = ""
+Message 2 = ""
+Name = "直感Lv2"
+Description = "確率でダメージを軽減\r\n発動確率：20%　軽減率：10%"
+Note = "<パッシブ能力職業 337>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 558
+Message 1 = ""
+Message 2 = ""
+Name = "直感Lv3"
+Description = "確率でダメージを軽減\r\n発動確率：20%　軽減率：20%"
+Note = "<パッシブ能力職業 338>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 559
+Message 1 = ""
+Message 2 = ""
+Name = "底力"
+Description = "HP低下に伴い能力値を上昇させる。"
+Note = "<パッシブ能力職業 340>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 560
+Message 1 = ""
+Message 2 = ""
+Name = "底力Lv2"
+Description = "HP低下に伴い能力値を上昇させる。"
+Note = "<パッシブ能力職業 341>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 561
+Message 1 = ""
+Message 2 = ""
+Name = "底力Lv3"
+Description = "HP低下に伴い能力値を上昇させる。"
+Note = "<パッシブ能力職業 342>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 562
+Message 1 = ""
+Message 2 = ""
+Name = "カウンター"
+Description = "被攻撃時に低確率で反撃する。\r\n反撃確率：5%"
+Note = "<パッシブ 562>\r\n<パッシブ能力職業 343>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 563
+Message 1 = ""
+Message 2 = ""
+Name = "通常攻撃"
+Description = "威力：70 (+\\v[38])\r\n二刀流時：150 (+\\v[39])"
+Note = "<NoName>\r\n<メモライズ不要>\r\n"
+
+Skill 564
+Message 1 = ""
+Message 2 = ""
+Name = "カウンターLv2"
+Description = "被攻撃時に低確率で反撃する。\r\n反撃確率：10%　反撃攻撃力上昇：10%"
+Note = "<パッシブ 564>\r\n<パッシブ能力職業 344>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 565
+Message 1 = ""
+Message 2 = ""
+Name = "カウンターLv3"
+Description = "被攻撃時に低確率で反撃する。\r\n反撃確率：15%　反撃攻撃力上昇：30%"
+Note = "<パッシブ 565>\r\n<パッシブ能力職業 345>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 566
+Message 1 = ""
+Message 2 = ""
+Name = "小回復"
+Description = "ターン終了時にHPを回復する\r\n発動確率：10%　回復力：300"
+Note = "<パッシブ能力職業 348>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 567
+Message 1 = ""
+Message 2 = ""
+Name = "小回復Lv2"
+Description = "ターン終了時にHPを回復する\r\n発動確率：20%　回復力：300"
+Note = "<パッシブ能力職業 349>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 568
+Message 1 = ""
+Message 2 = ""
+Name = "小回復Lv3"
+Description = "ターン終了時にHPを回復する\r\n発動確率：30%　回復力：300"
+Note = "<パッシブ能力職業 350>\r\n<戦闘中非表示>\r\n<メモライズ不要>"
+
+Skill 569
+Message 1 = "の小回復が発動した！"
+Message 2 = ""
+Name = "小回復"
+Description = "回復力：300"
+Note = ""
+
+Skill 570
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 571
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 572
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 573
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 574
+Message 1 = ""
+Message 2 = ""
+Name = "経験値UP"
+Description = "獲得経験値上昇：20%"
+Note = "<パッシブ 574>\r\n<メモライズ不要>\r\n<価格:3000000>"
+
+Skill 575
+Message 1 = ""
+Message 2 = ""
+Name = "命中UP"
+Description = "命中率上昇：20%"
+Note = "<パッシブ 575>\r\n<メモライズ不要>\r\n<価格:100000>"
+
+Skill 576
+Message 1 = ""
+Message 2 = ""
+Name = "斬撃上昇"
+Description = "斬属性攻撃力上昇：20％"
+Note = "<パッシブ 576>\r\n<メモライズ不要>\r\n<価格:500000>"
+
+Skill 577
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 578
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 579
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 580
+Message 1 = ""
+Message 2 = ""
+Name = "スライムの友"
+Description = "見た目がちょっとアレな友達がいる\r\n最大HP＋120"
+Note = "<パッシブ 580>\r\n<メモライズ不要>\r\n"
+
+Skill 581
+Message 1 = ""
+Message 2 = ""
+Name = "スライムの愛人"
+Description = "スライムと肉体関係を持つ事が当たり前になった\r\n防御力+10"
+Note = "<パッシブ 581>\r\n<メモライズ不要>\r\n"
+
+Skill 582
+Message 1 = ""
+Message 2 = ""
+Name = "スライムの母"
+Description = "スライムを孕み。産んだ。\r\n回復力+10"
+Note = "<パッシブ 582>\r\n<メモライズ不要>\r\n"
+
+Skill 583
+Message 1 = ""
+Message 2 = ""
+Name = "スライムの苗床"
+Description = "スライムを産む為に生まれて来た母胎のような存在\r\n最大HP+300"
+Note = "<パッシブ 583>\r\n<メモライズ不要>\r\n"
+
+Skill 584
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 585
+Message 1 = ""
+Message 2 = ""
+Name = "ゼリイヌ猫"
+Description = "ゼリイヌプレイにハマってしまった\r\n最大MP+30"
+Note = "<パッシブ 585>\r\n<メモライズ不要>\r\n"
+
+Skill 586
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 587
+Message 1 = ""
+Message 2 = ""
+Name = "メス蜘蛛"
+Description = "蜘蛛のメスとしての一生を選びました\r\n防御力+15"
+Note = "<パッシブ 587>\r\n<メモライズ不要>\r\n"
+
+Skill 588
+Message 1 = ""
+Message 2 = ""
+Name = "剣闘士"
+Description = "Eランクマッチを制覇した\r\n最大HP＋300"
+Note = "<パッシブ 588>\r\n<メモライズ不要>\r\n"
+
+Skill 589
+Message 1 = ""
+Message 2 = ""
+Name = "期待のルーキー"
+Description = "Dランクマッチを制覇した\r\n最大MP+50"
+Note = "<パッシブ 589>\r\n<メモライズ不要>\r\n"
+
+Skill 590
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 591
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 592
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 593
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 594
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 595
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 596
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 597
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 598
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 599
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 600
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 601
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 602
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 603
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 604
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 605
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 606
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 607
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 608
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 609
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 610
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 611
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 612
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 613
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 614
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 615
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 616
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 617
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 618
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 619
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 620
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 621
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 622
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 623
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 624
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 625
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 626
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 627
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 628
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 629
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 630
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 631
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 632
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 633
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 634
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 635
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 636
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 637
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 638
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 639
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 640
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 641
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 642
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 643
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 644
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 645
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 646
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 647
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 648
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 649
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 650
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 651
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 652
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 653
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 654
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 655
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 656
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 657
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 658
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 659
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 660
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 661
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 662
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 663
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 664
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 665
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 666
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 667
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 668
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 669
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 670
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 671
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 672
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 673
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 674
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 675
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 676
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 677
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 678
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 679
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 680
+Message 1 = ""
+Message 2 = ""
+Name = "メス"
+Description = "女は生まれた時からメスなのである。\r\n最大MP+10"
+Note = "<パッシブ 680>\r\n<メモライズ不要>\r\n"
+
+Skill 681
+Message 1 = ""
+Message 2 = ""
+Name = "熟練者"
+Description = "その身体でオスの精を何度も受け取った\r\n最大MP+30"
+Note = "<パッシブ 681>\r\n<メモライズ不要>\r\n"
+
+Skill 682
+Message 1 = ""
+Message 2 = ""
+Name = "膣内射精好き"
+Description = "中で出されるのが好き\r\n防御力+30"
+Note = "<パッシブ 682>\r\n<メモライズ不要>\r\n"
+
+Skill 683
+Message 1 = ""
+Message 2 = ""
+Name = "ビッチ"
+Description = "たくさんのオスと交尾しています\r\n回復力+20"
+Note = "<パッシブ 683>\r\n<メモライズ不要>\r\n"
+
+Skill 684
+Message 1 = ""
+Message 2 = ""
+Name = "淫魔"
+Description = "その膣でたくさんのオスから精液を搾り取りました\r\n最大MP+50"
+Note = "<パッシブ 684>\r\n<メモライズ不要>\r\n"
+
+Skill 685
+Message 1 = ""
+Message 2 = ""
+Name = "傷モノ"
+Description = "犯された経験を持つ････。\r\n技量+5"
+Note = "<パッシブ 685>\r\n<メモライズ不要>\r\n"
+
+Skill 686
+Message 1 = ""
+Message 2 = ""
+Name = "中古"
+Description = "中古の身体になってしまった\r\n技量+10"
+Note = "<パッシブ 686>\r\n<メモライズ不要>\r\n"
+
+Skill 687
+Message 1 = ""
+Message 2 = ""
+Name = "させ子"
+Description = "かなりの回数使われている\r\n技量+20"
+Note = "<パッシブ 687>\r\n<メモライズ不要>\r\n"
+
+Skill 688
+Message 1 = ""
+Message 2 = ""
+Name = "便器"
+Description = "犯られまくってます\r\n技量+30"
+Note = "<パッシブ 688>\r\n<メモライズ不要>\r\n"
+
+Skill 689
+Message 1 = ""
+Message 2 = ""
+Name = "公衆便所"
+Description = "もはやフリーの肉便器\r\n技量+50"
+Note = "<パッシブ 689>\r\n<メモライズ不要>\r\n"
+
+Skill 690
+Message 1 = ""
+Message 2 = ""
+Name = "闇を知る者"
+Description = "心の闇を知った\r\n魔法力+30"
+Note = "<パッシブ 690>\r\n<メモライズ不要>\r\n"
+
+Skill 691
+Message 1 = ""
+Message 2 = ""
+Name = "闇潜り"
+Description = "心の闇を深く知っている\r\n魔法力+50"
+Note = "<パッシブ 691>\r\n<メモライズ不要>\r\n"
+
+Skill 692
+Message 1 = ""
+Message 2 = ""
+Name = "闇の者"
+Description = "心の闇を深く抱えた者\r\n魔法力+100"
+Note = "<パッシブ 692>\r\n<メモライズ不要>\r\n"
+
+Skill 693
+Message 1 = ""
+Message 2 = ""
+Name = "暗黒剣士"
+Description = "闇の中を生きる剣士\r\n攻撃力+50　魔法力+50"
+Note = "<パッシブ 693>\r\n<メモライズ不要>\r\n"
+
+Skill 694
+Message 1 = ""
+Message 2 = ""
+Name = "闇の友"
+Description = "闇と共に生きる者\r\n魔法力+150"
+Note = "<パッシブ 694>\r\n<メモライズ不要>\r\n"
+
+Skill 695
+Message 1 = ""
+Message 2 = ""
+Name = "経験済み"
+Description = "えっちな事しちゃいました･･･。\r\n最大HP+20"
+Note = "<パッシブ 695>\r\n<メモライズ不要>\r\n"
+
+Skill 696
+Message 1 = ""
+Message 2 = ""
+Name = "えっち猫"
+Description = "割とよくえっちな事をしました\r\n最大MP+20"
+Note = "<パッシブ 696>\r\n<メモライズ不要>\r\n"
+
+Skill 697
+Message 1 = ""
+Message 2 = ""
+Name = "eroiko"
+Description = "えっちしまくってますよこの娘\r\n最大HP+200"
+Note = "<パッシブ 697>\r\n<メモライズ不要>\r\n"
+
+Skill 698
+Message 1 = ""
+Message 2 = ""
+Name = "すけべ"
+Description = "ここまでしてたらただのすけべ\r\n最大MP+50"
+Note = "<パッシブ 698>\r\n<メモライズ不要>\r\n"
+
+Skill 699
+Message 1 = ""
+Message 2 = ""
+Name = "ドすけべ"
+Description = "もはやただのドすけべ\r\n最大HP+500"
+Note = "<パッシブ 699>\r\n<メモライズ不要>\r\n"
+
+Skill 700
+Message 1 = ""
+Message 2 = ""
+Name = "撃退者"
+Description = "黒犬を怯ませた強者の証\r\n攻撃力+50"
+Note = "<パッシブ 700>\r\n<メモライズ不要>\r\n"
+
+Skill 701
+Message 1 = ""
+Message 2 = ""
+Name = "PKK"
+Description = "初心者狩りの戦士を撃退した\r\n最大HP+20"
+Note = "<パッシブ 701>\r\n<メモライズ不要>\r\n"
+
+Skill 702
+Message 1 = ""
+Message 2 = ""
+Name = "ベリー職人"
+Description = "ベリー職人の朝は早い･････。\r\n最大HP+150"
+Note = "<パッシブ 702>\r\n<メモライズ不要>\r\n"
+
+Skill 703
+Message 1 = ""
+Message 2 = ""
+Name = "ベリー名人"
+Description = "ベリーをこれでもかと言うぐらい採りました\r\n最大HP+300"
+Note = "<パッシブ 703>\r\n<メモライズ不要>\r\n"
+
+Skill 704
+Message 1 = ""
+Message 2 = ""
+Name = "ベリー仙人"
+Description = "いくつもの山をハゲ山にする勢いでベリーを採っています\r\n最大HP+500"
+Note = "<パッシブ 704>\r\n<メモライズ不要>\r\n"
+
+Skill 705
+Message 1 = ""
+Message 2 = ""
+Name = "ベリー神"
+Description = "ベリー採集の神になりました（断定）\r\n最大HP+1000"
+Note = "<パッシブ 705>\r\n<メモライズ不要>\r\n"
+
+Skill 706
+Message 1 = ""
+Message 2 = ""
+Name = "初心者"
+Description = "戦闘勝利回数100突破!!\r\n攻撃力+50　魔法力+50"
+Note = "<パッシブ 706>\r\n<メモライズ不要>\r\n"
+
+Skill 707
+Message 1 = ""
+Message 2 = ""
+Name = "中級者"
+Description = "戦闘勝利回数500突破!!\r\n攻撃力+100　魔法力+100"
+Note = "<パッシブ 707>\r\n<メモライズ不要>\r\n"
+
+Skill 708
+Message 1 = ""
+Message 2 = ""
+Name = "上級者"
+Description = "戦闘勝利回数1000突破!!\r\n攻撃力+200　魔法力+200"
+Note = "<パッシブ 708>\r\n<メモライズ不要>\r\n"
+
+Skill 709
+Message 1 = ""
+Message 2 = ""
+Name = "超級者"
+Description = "戦闘勝利回数2000突破!!\r\n攻撃力+300　魔法力+300"
+Note = "<パッシブ 709>\r\n<メモライズ不要>\r\n"
+
+Skill 710
+Message 1 = ""
+Message 2 = ""
+Name = "超越者"
+Description = "戦闘勝利回数3000突破!!\r\n攻撃力+500　魔法力+500"
+Note = "<パッシブ 710>\r\n<メモライズ不要>\r\n"
+
+Skill 711
+Message 1 = ""
+Message 2 = ""
+Name = "逃走者"
+Description = "日夜 逃げ足を鍛える日々\r\n敏捷性+3"
+Note = "<パッシブ 711>\r\n<メモライズ不要>\r\n"
+
+Skill 712
+Message 1 = ""
+Message 2 = ""
+Name = "疾走者"
+Description = "逃げるが勝ち。三十六計逃げるに如かず\r\n敏捷性+5"
+Note = "<パッシブ 712>\r\n<メモライズ不要>\r\n"
+
+Skill 713
+Message 1 = ""
+Message 2 = ""
+Name = "激走者"
+Description = "その逃げ足は神速\r\n敏捷性+10"
+Note = "<パッシブ 713>\r\n<メモライズ不要>\r\n"
+
+Skill 714
+Message 1 = ""
+Message 2 = ""
+Name = "負け猫"
+Description = "敗北経験を持つ\r\n防御力+10"
+Note = "<パッシブ 714>\r\n<メモライズ不要>\r\n"
+
+Skill 715
+Message 1 = ""
+Message 2 = ""
+Name = "敗北者"
+Description = "負け戦から学ぶ事もある\r\n技量+10"
+Note = "<パッシブ 715>\r\n<メモライズ不要>\r\n"
+
+Skill 716
+Message 1 = ""
+Message 2 = ""
+Name = "弱者"
+Description = "さすがに負けすぎである。\r\n防御力+50"
+Note = "<パッシブ 716>\r\n<メモライズ不要>\r\n"
+
+Skill 717
+Message 1 = ""
+Message 2 = ""
+Name = "無謀者"
+Description = "これだけ負けるのは戦い方が悪いのかも知れない･･･。\r\n敏捷性+5"
+Note = "<パッシブ 717>\r\n<メモライズ不要>\r\n"
+
+Skill 718
+Message 1 = ""
+Message 2 = ""
+Name = "最弱"
+Description = "最弱の自分を使い尽くすんだ！\r\n攻撃力+300　魔法力+300"
+Note = "<パッシブ 718>\r\n<メモライズ不要>\r\n"
+
+Skill 719
+Message 1 = ""
+Message 2 = ""
+Name = "探索者"
+Description = "たくさん宝箱を開けました\r\n最大HP+50"
+Note = "<パッシブ 719>\r\n<メモライズ不要>\r\n"
+
+Skill 720
+Message 1 = ""
+Message 2 = ""
+Name = "トレジャーハンター"
+Description = "これでもかと言う数の宝箱を開けました\r\n回復力+50"
+Note = "<パッシブ 720>\r\n<メモライズ不要>\r\n"
+
+Skill 721
+Message 1 = ""
+Message 2 = ""
+Name = "トレジャーマスター"
+Description = "宝箱は任せろ！\r\n魔法力+100"
+Note = "<パッシブ 721>\r\n<メモライズ不要>\r\n"
+
+Skill 722
+Message 1 = ""
+Message 2 = ""
+Name = "トレハン神"
+Description = "冒険者の間からトレハンの神と密かに呼ばれています\r\n敏捷性+10"
+Note = "<パッシブ 722>\r\n<メモライズ不要>\r\n"
+
+Skill 723
+Message 1 = ""
+Message 2 = ""
+Name = "一殺屋"
+Description = "一閃により多くの敵を屠ってきた\r\n攻撃力+50"
+Note = "<パッシブ 723>\r\n<メモライズ不要>\r\n"
+
+Skill 724
+Message 1 = ""
+Message 2 = ""
+Name = "暗殺者"
+Description = "一撃で殺してくる暗殺者的存在\r\n技量+10"
+Note = "<パッシブ 724>\r\n<メモライズ不要>\r\n"
+
+Skill 725
+Message 1 = ""
+Message 2 = ""
+Name = "殺し屋"
+Description = "弱い魔物達にとっては恐ろしい存在と言える\r\n敏捷性+5"
+Note = "<パッシブ 725>\r\n<メモライズ不要>\r\n"
+
+Skill 726
+Message 1 = ""
+Message 2 = ""
+Name = "悪鬼羅刹"
+Description = "ひたすら殺して回る姿はまさにこれである。\r\n技量+50"
+Note = "<パッシブ 726>\r\n<メモライズ不要>\r\n"
+
+Skill 727
+Message 1 = ""
+Message 2 = ""
+Name = "捕らわれし者"
+Description = "敗北し捕まった者\r\n回復力+10"
+Note = "<パッシブ 727>\r\n<メモライズ不要>\r\n"
+
+Skill 728
+Message 1 = ""
+Message 2 = ""
+Name = "ぴんち姫"
+Description = "何度も何度も捕まって常にピンチに陥っている\r\n回復力+50"
+Note = "<パッシブ 728>\r\n<メモライズ不要>\r\n"
+
+Skill 729
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 730
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 731
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 732
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 733
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 734
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 735
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 736
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 737
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 738
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 739
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 740
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 741
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 742
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 743
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 744
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 745
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 746
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 747
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 748
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 749
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 750
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 751
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 752
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 753
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 754
+Message 1 = ""
+Message 2 = ""
+Name = "フラッシュ追加効果１"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 755
+Message 1 = "はフラッシュを放った！"
+Message 2 = ""
+Name = "フラッシュ"
+Description = "I　被ターゲット率上昇\r\nCT：3　効果時間：10"
+Note = "<即時発動>\r\n<スキルディレイ 2>\r\n<価格:5000>\r\n<連鎖発動 754, 100%>"
+
+Skill 756
+Message 1 = "は集中を使った！"
+Message 2 = ""
+Name = "集中"
+Description = "I　命中率上昇：30%\r\nCT：3　効果時間：10"
+Note = "<即時発動>\r\n<スキルディレイ 2>\r\n<価格:5000>"
+
+Skill 757
+Message 1 = "はハイペイリターンを使った！"
+Message 2 = ""
+Name = "ハイペイリターン"
+Description = "技量・防御力が著しく低下するが獲得経験値を大きく増やす\r\nCT：10　効果時間：6"
+Note = "<スキルディレイ 10>\r\n<価格:30000>"
+
+Skill 758
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 759
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 760
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 761
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 762
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 763
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 764
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 765
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 766
+Message 1 = "はサンダーブレードを放った！"
+Message 2 = ""
+Name = "サンダーブレード"
+Description = "威力：350　属性：雷\r\n中確率で感電付与"
+Note = "\r\n"
+
+Skill 767
+Message 1 = "は氷斬を放った！"
+Message 2 = ""
+Name = "氷斬"
+Description = "威力：580　属性：氷\r\n中確率で凍結付与"
+Note = "\r\n"
+
+Skill 768
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 769
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 770
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 771
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 772
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 773
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 774
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 775
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 776
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 777
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 778
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 779
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 780
+Message 1 = "は叩きつけを放った！"
+Message 2 = ""
+Name = "叩きつけ"
+Description = "威力：650　属性：打\r\n"
+Note = "\r\n"
+
+Skill 781
+Message 1 = "は振り回しを放った！"
+Message 2 = ""
+Name = "振り回し"
+Description = "威力：500　属性：斬\r\n敵全体攻撃"
+Note = "\r\n"
+
+Skill 782
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 783
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 784
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 785
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 786
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 787
+Message 1 = "は突き刺しを放った！"
+Message 2 = ""
+Name = "突き刺し"
+Description = "威力：580　属性：突\r\n"
+Note = "\r\n"
+
+Skill 788
+Message 1 = "は３連突きを放った！"
+Message 2 = ""
+Name = "３連突き"
+Description = "威力：750　属性：突\r\n"
+Note = "\r\n"
+
+Skill 789
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 790
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 791
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 792
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 793
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 794
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 795
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 796
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 797
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 798
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 799
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 800
+Message 1 = "は指弾を放った！"
+Message 2 = ""
+Name = "指弾"
+Description = "I　威力：150　属性：打\r\nCT：2　ランダム１体に攻撃"
+Note = "<即時発動>\r\n<スキルディレイ 1>\r\n"
+
+Skill 801
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 802
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 803
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 804
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 805
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 806
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 807
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 808
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 809
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 810
+Message 1 = "はブーメランを放った！"
+Message 2 = ""
+Name = "ブーメラン！"
+Description = "威力：150 (+\\v[51]%)　属性：斬"
+Note = ""
+
+Skill 811
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 812
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 813
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 814
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 815
+Message 1 = "はショットを放った！"
+Message 2 = ""
+Name = "ショット"
+Description = "威力：300 (+\\v[50]%)　属性：突\r\n消費：木の矢"
+Note = "<アイテム消費:600,1>\r\n"
+
+Skill 816
+Message 1 = "はポイズンシュートを放った！"
+Message 2 = ""
+Name = "ポイズンシュート"
+Description = "威力：350 (+\\v[50]%)　属性：突\r\n消費：毒の矢"
+Note = "<アイテム消費:601,1>\r\n"
+
+Skill 817
+Message 1 = "はショットⅡを放った！"
+Message 2 = ""
+Name = "ショットⅡ"
+Description = "威力：400 (+\\v[50]%)　属性：突\r\n消費：銅矢"
+Note = "<アイテム消費:602,1>\r\n"
+
+Skill 818
+Message 1 = "はデスシュートを放った！"
+Message 2 = ""
+Name = "デスシュート"
+Description = "威力：350 (+\\v[50]%)　属性：突\r\n消費：猛毒矢"
+Note = "<アイテム消費:603,1>\r\n"
+
+Skill 819
+Message 1 = "はダブルショットを放った！"
+Message 2 = ""
+Name = "ダブルショット"
+Description = "威力：460 (+\\v[50]%)　属性：突\r\n消費：木の矢×２　範囲分散：2"
+Note = "<アイテム消費:600,2>\r\n"
+
+Skill 820
+Message 1 = "はトリプルショットを放った！"
+Message 2 = ""
+Name = "トリプルショット"
+Description = "威力：600 (+\\v[50]%)　属性：突\r\n消費：木の矢×３　範囲分散：3"
+Note = "<アイテム消費:600,3>\r\n"
+
+Skill 821
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 822
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 823
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 824
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 825
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 826
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 827
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 828
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 829
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 830
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 831
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 832
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 833
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 834
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 835
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 836
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 837
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 838
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 839
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 840
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 841
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 842
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 843
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 844
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 845
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 846
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 847
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 848
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 849
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 850
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 851
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 852
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 853
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 854
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 855
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 856
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 857
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 858
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 859
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 860
+Message 1 = "はファイアーボールを放った！"
+Message 2 = ""
+Name = "ファイアーボール"
+Description = "威力：600 　属性：火\r\nCT：7 　"
+Note = "\r\n<スキルディレイ 7>"
+
+Skill 861
+Message 1 = "はハイヒールを唱えた！"
+Message 2 = ""
+Name = "ハイヒール"
+Description = "威力：3000　属性：回復\r\nCT：12 　"
+Note = "\r\n<スキルディレイ 12>\r\n"
+
+Skill 862
+Message 1 = "はストンスキンを唱えた！"
+Message 2 = ""
+Name = "ストンスキン"
+Description = "通常ダメージを7%カットする\r\n効果時間：30"
+Note = ""
+
+Skill 863
+Message 1 = "はウィンドウを唱えた！"
+Message 2 = ""
+Name = "ウィンドウ"
+Description = "威力：480　属性：風　　\r\nCT：4 　範囲分散：4"
+Note = "\r\n<スキルディレイ 4>\r\n"
+
+Skill 864
+Message 1 = "はサンダーボルトを唱えた！"
+Message 2 = ""
+Name = "サンダーボルト"
+Description = "威力：900 　属性：雷\r\nCT：10 　"
+Note = "<スキルディレイ 10>"
+
+Skill 865
+Message 1 = "はシャキアを唱えた！"
+Message 2 = ""
+Name = "シャキア"
+Description = "威力：350 　属性：水\r\n"
+Note = ""
+
+Skill 866
+Message 1 = "はファイアピラーを唱えた！"
+Message 2 = ""
+Name = "ファイアピラー"
+Description = "威力：2250 　属性：火\r\nCT：30 　"
+Note = "<連続回数 15>\r\n<連鎖発動 867, 100%>\r\n<スキルディレイ 30>"
+
+Skill 867
+Message 1 = ""
+Message 2 = ""
+Name = "ファイアピラー（封印）"
+Description = "威力：1500 　属性：火\r\nCT：30 　"
+Note = "<使用者名表示無し>"
+
+Skill 868
+Message 1 = "はロックを唱えた！"
+Message 2 = ""
+Name = "ロック"
+Description = "威力：600 　属性：土\r\nCT：3 　"
+Note = "\r\n<スキルディレイ 3>"
+
+Skill 869
+Message 1 = "はサイクロンを唱えた！"
+Message 2 = ""
+Name = "サイクロン"
+Description = "威力：1500　属性：風　　\r\nCT：15 　敵全体攻撃"
+Note = "<連鎖発動 870, 100%>\r\n<スキルディレイ 15>\r\n"
+
+Skill 870
+Message 1 = ""
+Message 2 = ""
+Name = "　封印"
+Description = "威力：1500 　属性：火\r\nCT：30 　"
+Note = "<使用者名表示無し>\r\n"
+
+Skill 871
+Message 1 = "はエンチャントライトニングを唱えた！"
+Message 2 = ""
+Name = "エンチャントライトニング"
+Description = "I 通常攻撃に雷属性付与　通常攻撃回数追加：1　\r\n攻撃力上昇：10%  魔法力上昇：10%　効果時間：40　CT：10"
+Note = "<即時発動>\r\n<スキルディレイ 9>"
+
+Skill 872
+Message 1 = "は光弾を唱えた！"
+Message 2 = ""
+Name = "光弾"
+Description = "威力：800 　属性：光\r\n"
+Note = ""
+
+Skill 873
+Message 1 = "は振り下ろしを放った！"
+Message 2 = ""
+Name = "振り下ろし"
+Description = "威力：1200　属性：打\r\nCT：3"
+Note = "<スキルディレイ 3>"
+
+Skill 874
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 875
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 876
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 877
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 878
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 879
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 880
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 881
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 882
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 883
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 884
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 885
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 886
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 887
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 888
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 889
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 890
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 891
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 892
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 893
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 894
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 895
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 896
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 897
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 898
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 899
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 900
+Message 1 = ""
+Message 2 = ""
+Name = "=============="
+Description = ""
+Note = ""
+
+Skill 901
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "殴り300"
+Description = "300"
+Note = ""
+
+Skill 902
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬300"
+Description = "300"
+Note = ""
+
+Skill 903
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "体当たり300"
+Description = "300"
+Note = ""
+
+Skill 904
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "体当たり700"
+Description = "700"
+Note = ""
+
+Skill 905
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬1200"
+Description = "800"
+Note = ""
+
+Skill 906
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "殴り1200"
+Description = "300"
+Note = ""
+
+Skill 907
+Message 1 = ""
+Message 2 = ""
+Name = "何もしない"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 908
+Message 1 = "は光弾を放った！"
+Message 2 = ""
+Name = "光弾"
+Description = "2000"
+Note = ""
+
+Skill 909
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "引っ搔き1000"
+Description = "800"
+Note = ""
+
+Skill 910
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 911
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 912
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 913
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 914
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 915
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 916
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 917
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 918
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 919
+Message 1 = "は何か\\C[30]スキルを発動しようとしている\\C[0]！"
+Message 2 = ""
+Name = "予兆（紫）"
+Description = ""
+Note = ""
+
+Skill 920
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "毒刺し"
+Description = "300"
+Note = ""
+
+Skill 921
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "殴り1200予兆付き"
+Description = "300"
+Note = "<連鎖発動 922, 30%>"
+
+Skill 922
+Message 1 = "は何か\\C[1]スキルを発動しようとしている\\C[0]！"
+Message 2 = ""
+Name = "予兆（青）"
+Description = ""
+Note = ""
+
+Skill 923
+Message 1 = "は何か\\C[20]スキルを発動しようとしている\\C[0]！"
+Message 2 = ""
+Name = "予兆（橙）"
+Description = ""
+Note = ""
+
+Skill 924
+Message 1 = "は何か\\C[10]スキルを発動しようとしている\\C[0]！"
+Message 2 = ""
+Name = "予兆（赤）"
+Description = ""
+Note = ""
+
+Skill 925
+Message 1 = ""
+Message 2 = ""
+Name = "予兆解除"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 926
+Message 1 = "は何か\\C[27]スキルを発動しようとしている\\C[0]！"
+Message 2 = ""
+Name = "予兆（ピンク）"
+Description = ""
+Note = ""
+
+Skill 927
+Message 1 = "はストレートパンチを放った！"
+Message 2 = ""
+Name = "ストレートパンチ"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 928
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃１　2回攻撃"
+Description = "800"
+Note = "<連鎖発動 929, 100%>"
+
+Skill 929
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃２"
+Description = "800"
+Note = "<連鎖発動 922, 30%>"
+
+Skill 930
+Message 1 = "はなぎ払いを放った！"
+Message 2 = ""
+Name = "なぎ払い"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 931
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃1200　橙100"
+Description = "1200"
+Note = "<連鎖発動 923, 100%>"
+
+Skill 932
+Message 1 = "は一刀両断を放った！"
+Message 2 = ""
+Name = "一刀両断 4700"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 933
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃1200*2　青100"
+Description = "1200"
+Note = "<連鎖発動 922, 100%>"
+
+Skill 934
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃１　2回攻撃"
+Description = "800"
+Note = ""
+
+Skill 935
+Message 1 = "は連続斬りを放った！"
+Message 2 = ""
+Name = "連続斬り 3500"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 936
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃 30青"
+Description = "1200"
+Note = "<連鎖発動 922, 30%>"
+
+Skill 937
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "打撃　30青"
+Description = "1200"
+Note = "<連鎖発動 922, 30%>"
+
+Skill 938
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール8000"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 939
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃2回　予兆橙"
+Description = "800"
+Note = "<連鎖発動 923, 100%>"
+
+Skill 940
+Message 1 = "は滅多斬りを放った！"
+Message 2 = ""
+Name = "滅多斬り 8500"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 941
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "毒刺し1500　30%"
+Description = "1500"
+Note = "<連鎖発動 922, 30%>"
+
+Skill 942
+Message 1 = "は連続触手ムチを放った！"
+Message 2 = ""
+Name = "連続触手ムチ"
+Description = "1500"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 943
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃１　２回"
+Description = "800"
+Note = "<連鎖発動 944, 100%>"
+
+Skill 944
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃１　２回目"
+Description = "800"
+Note = ""
+
+Skill 945
+Message 1 = "は触手で拘束してきた！"
+Message 2 = ""
+Name = "触手拘束A"
+Description = ""
+Note = "<連鎖発動 946, 100%>"
+
+Skill 946
+Message 1 = ""
+Message 2 = ""
+Name = "自分に拘束中付与"
+Description = ""
+Note = "<使用者名表示無し>\r\n<連鎖発動 925, 100%>"
+
+Skill 947
+Message 1 = "は触手で締め付ける！"
+Message 2 = ""
+Name = "締め付け"
+Description = ""
+Note = ""
+
+Skill 948
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "殴り1200 赤予兆付き"
+Description = "300"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 949
+Message 1 = "は激震を放った！"
+Message 2 = ""
+Name = "激震"
+Description = "300"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 950
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "毒刺し1500　30%"
+Description = "1500"
+Note = "<連鎖発動 926, 30%>"
+
+Skill 951
+Message 1 = "はヒールを唱えた！"
+Message 2 = ""
+Name = "ヒール10000"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 952
+Message 1 = "は光弾を放った！"
+Message 2 = ""
+Name = "光弾 100% 赤"
+Description = "2000"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 953
+Message 1 = "はファイアピラーを唱えた！"
+Message 2 = ""
+Name = "ファイアピラー"
+Description = "威力：2250 　属性：火\r\nCT：30 　"
+Note = "<連続回数 15>\r\n<連鎖発動 925, 100%>"
+
+Skill 954
+Message 1 = "はVスラッシュを放った！"
+Message 2 = ""
+Name = "Vスラッシュ"
+Description = "8000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 955
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃1200　赤100"
+Description = "1200"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 956
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "斬撃1200　青100"
+Description = "1200"
+Note = "<連鎖発動 922, 100%>"
+
+Skill 957
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "引っ搔き1000　青100"
+Description = "800"
+Note = "<連鎖発動 922, 100%>"
+
+Skill 958
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "引っ搔き1000　赤100"
+Description = "800"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 959
+Message 1 = "は雷爪を放った！"
+Message 2 = ""
+Name = "雷爪"
+Description = "300"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 960
+Message 1 = "は連続引っ搔きを放った！"
+Message 2 = ""
+Name = "連続引っ搔き"
+Description = "300"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 961
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "振り下ろし"
+Description = "2000"
+Note = ""
+
+Skill 962
+Message 1 = "はダークパニッシュを放った！"
+Message 2 = ""
+Name = "ダークパニッシュ"
+Description = "2000  "
+Note = ""
+
+Skill 963
+Message 1 = "はアイアンメイデンを放った！"
+Message 2 = ""
+Name = "アイアンメイデン"
+Description = "5000"
+Note = ""
+
+Skill 964
+Message 1 = "はダークフュージョンを放った！"
+Message 2 = ""
+Name = "ダークフュージョン"
+Description = "7000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 965
+Message 1 = "は咆哮を放った！"
+Message 2 = ""
+Name = "咆哮"
+Description = "300"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 966
+Message 1 = "は突進を放った！"
+Message 2 = ""
+Name = "突進"
+Description = ""
+Note = "<連鎖発動 925, 100%>"
+
+Skill 967
+Message 1 = ""
+Message 2 = ""
+Name = "自分に発情付与"
+Description = ""
+Note = "<使用者名表示無し>\r\n<連鎖発動 925, 100%>"
+
+Skill 968
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "体当たり700(ピンク35%)"
+Description = "700"
+Note = "<連鎖発動 926, 35%>"
+
+Skill 969
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "突1200"
+Description = "1200"
+Note = ""
+
+Skill 970
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "打1200"
+Description = "1200"
+Note = ""
+
+Skill 971
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "火打1200"
+Description = "1200"
+Note = ""
+
+Skill 972
+Message 1 = "はファイアを放った！"
+Message 2 = ""
+Name = "ファイア"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 973
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "火打1200　青"
+Description = "1200"
+Note = "<連鎖発動 922, 100%>"
+
+Skill 974
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "火打1200　橙"
+Description = "1200"
+Note = "<連鎖発動 923, 100%>"
+
+Skill 975
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "火打1200　赤"
+Description = "1200"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 976
+Message 1 = "は炎爪を放った！"
+Message 2 = ""
+Name = "炎爪"
+Description = "3500"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 977
+Message 1 = "は火炎撃を放った！"
+Message 2 = ""
+Name = "火炎撃"
+Description = "5500"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 978
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "突1200  青30"
+Description = "1200"
+Note = "<連鎖発動 922, 30%>"
+
+Skill 979
+Message 1 = "は連突きを放った！"
+Message 2 = ""
+Name = "連突き"
+Description = "3600"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 980
+Message 1 = ""
+Message 2 = ""
+Name = "TP回復"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 981
+Message 1 = "残りターン \\V[1003]"
+Message 2 = ""
+Name = "残りターン数宣言"
+Description = ""
+Note = "<使用者名表示無し>"
+
+Skill 982
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "突1200　青"
+Description = "1200"
+Note = "<連鎖発動 922, 100%>"
+
+Skill 983
+Message 1 = "はファイアを唱えた！"
+Message 2 = ""
+Name = "ファイア　2000"
+Description = "2000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 984
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "突1200　橙"
+Description = "1200"
+Note = "<連鎖発動 923, 100%>"
+
+Skill 985
+Message 1 = "の攻撃！"
+Message 2 = ""
+Name = "突1200　赤"
+Description = "1200"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 986
+Message 1 = "はエクスプローションを唱えた！"
+Message 2 = ""
+Name = "エクスプローション3500"
+Description = "3500"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 987
+Message 1 = "は火の嵐を唱えた！"
+Message 2 = ""
+Name = "火の嵐　5000魔"
+Description = "5000"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 988
+Message 1 = ""
+Message 2 = ""
+Name = "本気"
+Description = "本気付与。ステータスに変更無し"
+Note = "<使用者名表示無し>"
+
+Skill 989
+Message 1 = ""
+Message 2 = ""
+Name = "TP消費"
+Description = ""
+Note = "<使用者名表示無し>\r\n<TP固定消費:300>"
+
+Skill 990
+Message 1 = "は尖刃烈破を放った！"
+Message 2 = ""
+Name = "尖刃烈破"
+Description = "威力：550 (+200)　属性：突\r\n暗闇Lv2を付与　効果時間：3"
+Note = "<メモライズ不要>\r\n<連鎖発動 925, 100%>"
+
+Skill 991
+Message 1 = "は尖刃烈破を放った！"
+Message 2 = ""
+Name = "滅殺尖牙"
+Description = "威力：680 (+340)　属性：突\r\n防御力低下付与：20%　効果時間：5"
+Note = "\r\n<連鎖発動 925, 100%>"
+
+Skill 992
+Message 1 = "は殺刃乱舞を放った！"
+Message 2 = ""
+Name = "殺刃乱舞"
+Description = "威力：880 (+440)　属性：斬\r\n攻撃力低下付与：20%　効果時間：5"
+Note = "<連鎖発動 925, 100%>"
+
+Skill 993
+Message 1 = "は尖刃烈破を放った！"
+Message 2 = ""
+Name = "尖刃烈破　青"
+Description = "威力：550 (+200)　属性：突\r\n暗闇Lv2を付与　効果時間：3"
+Note = "<連鎖発動 995, 100%>\r\n"
+
+Skill 994
+Message 1 = "は一刀修羅を使った！"
+Message 2 = ""
+Name = "一刀修羅"
+Description = "I 攻撃力上昇：35%　命中率上昇：30%\r\nCT：8　効果時間：3"
+Note = "<スキルディレイ 7>\r\n<即時発動>\r\n<メモライズ不要>"
+
+Skill 995
+Message 1 = ""
+Message 2 = ""
+Name = "再予兆　青"
+Description = ""
+Note = "<使用者名表示無し>\r\n<連鎖発動 922, 100%>"
+
+Skill 996
+Message 1 = "は気迫を使った！"
+Message 2 = ""
+Name = "気迫"
+Description = "I 攻撃力上昇：15%  TP回復：100\r\n回復効果：500  CT：12　効果時間：6"
+Note = "<連鎖発動 924, 100%>"
+
+Skill 997
+Message 1 = "は制裁を放った！"
+Message 2 = ""
+Name = "制裁"
+Description = "8000"
+Note = ""
+
+Skill 998
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 999
+Message 1 = "は一撃を放った！"
+Message 2 = ""
+Name = "一撃イベント用"
+Description = "威力：350 (+\\v[31])　属性：斬\r\n敵全体攻撃"
+Note = ""
+
+Skill 1000
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1001
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1002
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1003
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1004
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1005
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1006
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1007
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1008
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1009
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1010
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1011
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1012
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1013
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1014
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1015
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1016
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1017
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1018
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1019
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1020
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1021
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1022
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1023
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1024
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1025
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1026
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1027
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1028
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1029
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1030
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1031
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1032
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1033
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1034
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1035
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1036
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1037
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1038
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1039
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1040
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1041
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1042
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1043
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1044
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1045
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1046
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1047
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1048
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1049
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1050
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1051
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1052
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1053
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1054
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1055
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1056
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1057
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1058
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1059
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1060
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1061
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1062
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1063
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1064
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1065
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1066
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1067
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1068
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1069
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1070
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1071
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1072
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1073
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1074
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1075
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1076
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1077
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1078
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1079
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1080
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1081
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1082
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1083
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1084
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1085
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1086
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1087
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1088
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1089
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1090
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1091
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1092
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1093
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1094
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1095
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1096
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1097
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1098
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1099
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1100
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1101
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1102
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1103
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1104
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1105
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1106
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1107
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1108
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1109
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1110
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1111
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1112
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1113
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1114
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1115
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1116
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1117
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1118
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1119
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1120
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1121
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1122
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1123
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1124
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1125
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1126
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1127
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1128
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1129
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1130
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1131
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1132
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1133
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1134
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1135
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1136
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1137
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1138
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1139
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1140
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1141
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1142
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1143
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1144
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1145
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1146
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1147
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1148
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1149
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1150
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1151
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1152
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1153
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1154
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1155
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1156
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1157
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1158
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1159
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1160
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1161
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1162
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1163
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1164
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1165
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1166
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1167
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1168
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1169
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1170
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1171
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1172
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1173
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1174
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1175
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1176
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1177
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1178
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1179
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1180
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1181
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1182
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1183
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1184
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1185
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1186
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1187
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1188
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1189
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1190
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1191
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1192
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1193
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1194
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1195
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1196
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1197
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1198
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1199
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1200
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1201
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1202
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1203
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1204
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1205
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1206
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1207
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1208
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1209
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1210
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1211
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1212
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1213
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1214
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1215
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1216
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1217
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1218
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1219
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1220
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1221
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1222
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1223
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1224
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1225
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1226
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1227
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1228
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1229
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1230
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1231
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1232
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1233
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1234
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1235
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1236
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1237
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1238
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1239
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1240
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1241
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1242
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1243
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1244
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1245
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1246
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1247
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1248
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1249
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1250
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1251
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1252
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1253
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1254
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1255
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1256
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1257
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1258
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1259
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1260
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1261
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1262
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1263
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1264
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1265
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1266
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1267
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1268
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1269
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1270
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1271
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1272
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1273
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1274
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1275
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1276
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1277
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1278
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1279
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1280
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1281
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1282
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1283
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1284
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1285
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1286
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1287
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1288
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1289
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1290
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1291
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1292
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1293
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1294
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1295
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1296
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1297
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1298
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1299
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1300
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1301
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1302
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1303
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1304
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1305
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1306
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1307
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1308
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1309
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1310
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1311
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1312
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1313
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1314
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1315
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1316
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1317
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1318
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1319
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1320
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1321
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1322
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1323
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1324
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1325
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1326
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1327
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1328
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1329
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1330
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1331
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1332
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1333
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1334
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1335
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1336
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1337
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1338
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1339
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1340
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1341
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1342
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1343
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1344
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1345
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1346
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1347
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1348
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1349
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1350
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1351
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1352
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1353
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1354
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1355
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1356
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1357
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1358
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1359
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1360
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1361
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1362
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1363
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1364
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1365
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1366
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1367
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1368
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1369
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1370
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1371
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1372
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1373
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1374
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1375
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1376
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1377
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1378
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1379
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1380
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1381
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1382
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1383
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1384
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1385
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1386
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1387
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1388
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1389
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1390
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1391
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1392
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1393
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1394
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1395
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1396
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1397
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1398
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1399
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1400
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1401
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1402
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1403
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1404
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1405
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1406
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1407
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1408
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1409
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1410
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1411
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1412
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1413
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1414
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1415
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1416
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1417
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1418
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1419
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1420
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1421
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1422
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1423
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1424
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1425
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1426
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1427
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1428
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1429
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1430
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1431
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1432
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1433
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1434
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1435
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1436
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1437
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1438
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1439
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1440
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1441
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1442
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1443
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1444
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1445
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1446
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1447
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1448
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1449
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1450
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1451
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1452
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1453
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1454
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1455
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1456
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1457
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1458
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1459
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1460
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1461
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1462
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1463
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1464
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1465
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1466
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1467
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1468
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1469
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1470
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1471
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1472
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1473
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1474
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1475
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1476
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1477
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1478
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1479
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1480
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1481
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1482
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1483
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1484
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1485
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1486
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1487
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1488
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1489
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1490
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1491
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1492
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1493
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1494
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1495
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1496
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1497
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1498
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1499
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1500
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1501
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1502
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1503
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1504
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1505
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1506
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1507
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1508
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1509
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1510
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1511
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1512
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1513
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1514
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1515
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1516
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1517
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1518
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1519
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1520
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1521
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1522
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1523
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1524
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1525
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1526
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1527
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1528
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1529
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1530
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1531
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1532
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1533
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1534
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1535
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1536
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1537
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1538
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1539
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1540
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1541
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1542
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1543
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1544
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1545
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1546
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1547
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1548
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1549
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1550
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1551
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1552
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1553
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1554
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1555
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1556
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1557
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1558
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1559
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1560
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1561
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1562
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1563
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1564
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1565
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1566
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1567
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1568
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1569
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1570
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1571
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1572
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1573
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1574
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1575
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1576
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1577
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1578
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1579
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1580
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1581
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1582
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1583
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1584
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1585
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1586
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1587
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1588
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1589
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1590
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1591
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1592
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1593
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1594
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1595
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1596
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1597
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1598
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1599
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1600
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1601
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1602
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1603
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1604
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1605
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1606
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1607
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1608
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1609
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1610
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1611
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1612
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1613
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1614
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1615
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1616
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1617
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1618
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1619
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1620
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1621
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1622
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1623
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1624
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1625
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1626
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1627
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1628
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1629
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1630
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1631
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1632
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1633
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1634
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1635
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1636
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1637
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1638
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1639
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1640
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1641
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1642
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1643
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1644
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1645
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1646
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1647
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1648
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1649
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1650
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1651
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1652
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1653
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1654
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1655
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1656
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1657
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1658
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1659
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1660
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1661
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1662
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1663
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1664
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1665
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1666
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1667
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1668
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1669
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1670
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1671
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1672
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1673
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1674
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1675
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1676
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1677
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1678
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1679
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1680
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1681
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1682
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1683
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1684
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1685
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1686
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1687
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1688
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1689
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1690
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1691
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1692
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1693
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1694
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1695
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1696
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1697
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1698
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1699
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1700
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1701
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1702
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1703
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1704
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1705
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1706
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1707
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1708
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1709
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1710
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1711
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1712
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1713
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1714
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1715
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1716
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1717
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1718
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1719
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1720
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1721
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1722
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1723
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1724
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1725
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1726
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1727
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1728
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1729
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1730
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1731
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1732
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1733
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1734
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1735
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1736
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1737
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1738
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1739
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1740
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1741
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1742
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1743
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1744
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1745
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1746
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1747
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1748
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1749
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1750
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1751
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1752
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1753
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1754
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1755
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1756
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1757
+Message 1 = "は何とか起き上がろうとするも力が上手く出ない"
+Message 2 = ""
+Name = "抵抗"
+Description = "強烈な突進を受けてしまい体勢を崩してしまった"
+Note = "<NoName>\r\n<メモライズ不要>\r\n"
+
+Skill 1758
+Message 1 = "は放心している････。"
+Message 2 = ""
+Name = "放心"
+Description = "犯されてしまい放心状態である"
+Note = "<NoName>\r\n<メモライズ不要>\r\n"
+
+Skill 1759
+Message 1 = "は起き上がった"
+Message 2 = ""
+Name = "起き上がる"
+Description = ""
+Note = "<メモライズ不要>\r\n"
+
+Skill 1760
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1761
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1762
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1763
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1764
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1765
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1766
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1767
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1768
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1769
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1770
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1771
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1772
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1773
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1774
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1775
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1776
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1777
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1778
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1779
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1780
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1781
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1782
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1783
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1784
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1785
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1786
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1787
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1788
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1789
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1790
+Message 1 = "はエクスプロージョンSを放った！"
+Message 2 = ""
+Name = "エクスプロージョンS"
+Description = "威力：5000＋　属性：爆\r\n敵全体攻撃"
+Note = "<メモライズ不要>\r\n"
+
+Skill 1791
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1792
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1793
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1794
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1795
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1796
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1797
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1798
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 1799
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+

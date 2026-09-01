@@ -1,0 +1,16 @@
+CommonEvent 308
+Name = "ゼリイヌモブA"
+
+  FadeoutScreen([])
+  SaveBGM([])
+  ControlVariables([421, 421, 0, 0, 0])
+  CallCommonEvent([39])
+  CallCommonEvent([997])
+  TransferPlayer([0, 48, 8, 28, 2, 0])
+  FadeinScreen([])
+  CallCommonEvent([309])
+  FadeoutScreen([])
+  ErasePicture([90])
+  FadeoutBGM([1])
+  Wait([60])
+  Empty([])

@@ -1,0 +1,120 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=12, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=12, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 5, 14, 19, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ControlSwitches([6, 6, 1])
+    ControlSwitches([202, 202, 0])
+    Wait([30])
+    Script(["m_dictionary_encount_switch_on(2)"])
+    ScriptMore(["m_dictionary_victory_switch_on(2)"])
+    FadeinScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おばあちゃん・・・行ってきます。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["5年前の疫病で私は両親を失い"])
+    ShowText(["家族を失った私は唯一の親戚である祖母に引き取られ"])
+    ShowText(["今まで大切に育てられた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["だけど祖母も先日寿命を迎えた。"])
+    ShowText(["・・・私は天涯孤独の身になってしまったのだ"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[20])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[20])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["・・・・・・・・・。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["両親とおばあちゃんは最後に私がこの国にある魔法学校に"])
+    ShowText(["通えるだけのお金を残してくれた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["魔法協会の疫病根絶により今の国は魔法使いを優遇する傾向にある。"])
+    ShowText(["逆に魔法を使えないと社会的地位が低いと言っても良い。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["・・そう、だからおばあちゃんは私にこのお金を残してくれたんだろう。"])
+    ShowText(["私が魔法学校に通い、魔法使いとして生きていけるように・・。"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeItems([901, 0, 0, 1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["『学費』を大事なものに入れた"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["さて、魔法学校に学費を提出して入学手続きを終わらせてしまおう。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["魔法学校はこの国のハーリスという街にある。"])
+    ShowText(["そこまでは定期便として馬車が出ているのでそれを利用しよう。"])
+    FadeoutScreen([])
+    FadeinScreen([])
+    ControlVariables([301, 301, 0, 0, 3])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 1, 8, 6, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 7, 14, 5, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 7, 13, 5, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ConditionalBranch([6, -1, 8])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["・・・行ってきます。"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])

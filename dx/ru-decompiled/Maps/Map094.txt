@@ -1,0 +1,177 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "商人"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "イベント"
+
+  Page 0
+    PlayBGS(["RPG::BGS(@name=\"Drips\", @volume=100, @pitch=100)"])
+    Wait([120])
+    TransferPlayer([0, 94, 13, 16, 2, 0])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    ChangeActorGraphic([1, "1_ココアダウン", 0, "", 0])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･････いけない。少し寝ていたみたいだ。"])
+    ShowText(["仕事中だと言うのに気を抜いてしまった。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかし、何だろう････身体を上手く動かせない。"])
+    ShowText(["それに何だか肌寒いような･････。"])
+    FadeinScreen([])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["目を覚ますと私は裸だった。"])
+    ShowText(["それだけではなく、私は見知らぬ男達に取り囲まれている･･･。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["だけど、その中に一人だけ見知った女性がいた。"])
+    ShowText(["椅子に座ってこちらの様子を静かに眺めている･･･そう今回の依頼主だ。"])
+    ErasePicture([20])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["目が覚めたようね････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["これは一体どういう････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は女性に今の状況を確認する。"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["貴方が今の状況を理解する必要は無いわ。"])
+    ShowText(["ただ、目の前の男達に犯されていればいいのよ。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["へへっ･･･お頭。もう我慢できねぇぜ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["じゅるり････と男は舌なめずりをする。"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["いいわよ。始めなさい。"])
+    ShowText(["いつも通りにズタボロにしちゃっていいから"])
+    ShowText(["好きなだけ犯しなさい。"])
+    ShowText(["壊れちゃったら適当に殺すなり売るなりするだけだから。"])
+    SetMoveRoute([5, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["へへへっ･････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["い、いや････"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["小さな少女に汚い男達が覆いかぶさる････"])
+    ShowText(["もう見慣れた光景だ。"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["（そう･･･見慣れてしまった光景だ。）"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私はこうやって女冒険者を騙して"])
+    ShowText(["子飼いの山賊達に犯させている。これはいつもの事だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["別に趣味でやっている訳でも特別利益があるわけでもない。"])
+    ShowText(["これは冒険者に対する復讐だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["あれから････もう随分と経った････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私がまだ駆け出しの頃、今もそうだけど冒険者達を護衛につけていた。"])
+    ShowText(["その一回目の仕事で私は護衛の冒険者達に襲われ犯されたのだ。"])
+    ShowText(["今でもその時の事は覚えている････。"])
+    ControlVariables([302, 302, 0, 0, 1100])
+    TransferPlayer([0, 93, 4, 13, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Wait([60])
+    SetEventLocation([5, 0, 13, 17, 8])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["お頭ぁ････コイツ、もうダメみたいですぜぇ"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["ふんっ･･･もうダメなの？"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["･･････。"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["いいわ。後は好きになさい。"])
+    ShowText(["売るなり殺すなり捨てるなりなさい。"])
+    ShowText(["別に奴隷にして孕ませてもいいわよ。"])
+    FadeoutScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["足りない････こんなのじゃ全然足りない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["あの時の怨みはまだまだ晴れそうにない。"])
+    ShowText(["私はこれからもこうして冒険者達に復讐していくだろう。"])
+    ConditionalBranch([0, 210, 0])
+      CallCommonEvent([996])
+      ChangePartyMember([1, 0, 0])
+      ChangePartyMember([5, 1, 0])
+      ChangePartyMember([10, 1, 0])
+      ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=42, @parameters=[255])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=42, @parameters=[255])"])
+      FadeinScreen([])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ControlVariables([5, 5, 1, 2, 15, 30])
+    ControlVariables([261, 261, 1, 2, 30, 55])
+    ControlVariables([262, 262, 1, 2, 55, 70])
+    ControlVariables([263, 263, 1, 2, 60, 120])
+    ControlVariables([264, 264, 1, 2, 12, 18])
+    CallCommonEvent([992])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["試合前に戻る", "Eランク戦前に戻る"], 0])
+    When([0, "試合前に戻る"])
+      ControlVariables([302, 302, 0, 0, 1000])
+      RecoverAll([0, 0])
+      ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+      TransferPlayer([0, 91, 19, 24, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    When([1, "Eランク戦前に戻る"])
+      ControlVariables([302, 302, 0, 0, 800])
+      TransferPlayer([0, 91, 19, 53, 8, 0])
+      ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+      RecoverAll([0, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "山賊左"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "山賊右"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "山賊下"
+
+  Page 0
+    Empty([])

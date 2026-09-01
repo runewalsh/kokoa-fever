@@ -1,0 +1,5 @@
+CommonEvent 995
+Name = "アイテム図鑑"
+
+  Script(["SceneManager.call(Scene_ItemDictionary)"])
+  Empty([])

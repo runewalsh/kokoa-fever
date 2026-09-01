@@ -1,0 +1,254 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「ふぅ・・・風が気持ちいいぜ。」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「・・・風が気持ちいいぜ。」"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["着いたの。"])
+    ShowPicture([51, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ここがマスティアの港なんだね。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["レモンとはパブで落ち合う事になっている。"])
+    ShowText(["まずはそこに向かうぞ。"])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["了解だよ！"])
+    ControlVariables([341, 341, 0, 0, 1100])
+    FadeoutScreen([])
+    ErasePicture([50])
+    ErasePicture([51])
+    TransferPlayer([0, 220, 17, 14, 6, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船長っぽい風格の男"])
+    ShowText(["「やっと西にも船を出せるようになった"])
+    ShowText(["　これで自由に航海できるって訳だぜ。」"])
+    Empty([])
+
+  Page 1
+    ShotBalloonIcon([0, 8, false])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["「毎日毎日さかなばっかりで嫌になるぜー」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["「冒険者って本当に自由な格好してるよなー。"])
+    ShowText(["　かあちゃんが冒険者の服装を指摘するのは人権問題がどうとか"])
+    ShowText(["　言ってたからとやかく言わないけどさー。」"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「風が騒がしいな・・・。」"])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["でもこの風・・・", "聞き流す"], 0])
+    When([0, "でもこの風・・・"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「でもこの風・・・少し泣いてるよ・・・」"])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+      ShotBalloonIcon([0, 3, true])
+      ConditionalBranch([2, "A", 1])
+        ControlSelfSwitch(["A", 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["船乗り"])
+        ShowText(["「これをあげよう。」"])
+        ChangeItems([1, 0, 0, 1])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["『ライフアップ』を貰った！"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "聞き流す"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["ここな"])
+      ShowText(["「そっかー・・・。」"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["「・・・お嬢ちゃん。"])
+    ShowText(["　冒険者でも服はちゃんとした方がいいんじゃないか？」"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「倉庫整理が面倒なんだよなぁ・・」"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「サボってるんだ。バレるからあっち行ってくれ。」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「なんだ。お前そんな格好で犯されたいのか？」"])
+    ConditionalBranch([0, 22, 0])
+      Comment(["選択肢位置(180,80)"])
+      ShowChoices([["はい", "いいえ"], 2])
+      When([0, "はい"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["ここな"])
+        ShowText(["「あの・・・買って・・ください・・・。」"])
+        ShotBalloonIcon([0, 8, true])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["船乗り"])
+        ShowText(["「・・・こっちへ来い！」"])
+        ControlVariables([81, 81, 0, 0, 1])
+        CallCommonEvent([565])
+        FadeinScreen([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["船乗り"])
+        ShowText(["「気持ちよかったぜ！　またよろしくな！！」"])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeGold([0, 0, 2000])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["2000Yenを手に入れました・・・。"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["ここな"])
+        ShowText(["「・・・・・・・・。」"])
+        ControlSelfSwitch(["A", 0])
+        Empty([])
+      When([1, "いいえ"])
+        Empty([])
+      ChoicesEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 2
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「またよろしく頼むぜ！」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「・・・・・。」"])
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["「山賊に襲われて大事な指輪を犠牲にして逃げたの・・。"])
+    ShowText(["　もし山賊に捕まっていたら私・・・。」"])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「スキルはセットしないとダメだぜ。忘れんなよ！」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「スキルもそうだけど、服も・・・ちゃんとしろよな・・。」"])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["「大陸に夢を見て生まれ育った島を出てきたは良いが、"])
+    ShowText(["　さっそく帰りたくなった。」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["ここな"])
+    ShowText(["「・・・・・・？」"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["「君も島の方から来たのか・・。"])
+    ShowText(["　この辺りの奴等は汚い奴が多いんだ・・・・"])
+    ShowText(["　とにかく気をつけたほうが良い。」"])
+    Empty([])
+
+  Page 1
+    ShotBalloonIcon([0, 8, false])
+    Empty([])

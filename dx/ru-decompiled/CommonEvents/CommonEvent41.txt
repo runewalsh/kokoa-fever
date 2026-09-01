@@ -1,0 +1,9 @@
+CommonEvent 41
+Name = "服更新"
+
+  Script(["if $game_actors[1].equips[2] == nil"])
+  ScriptMore([" $game_variables[101]=0"])
+  ScriptMore(["else"])
+  ScriptMore([" $game_variables[101]=$game_actors[1].equips[2].id"])
+  ScriptMore(["end"])
+  Empty([])

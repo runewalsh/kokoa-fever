@@ -1,0 +1,4 @@
+CommonEvent 40
+Name = "●ココア通常立ち絵"
+
+  Empty([])

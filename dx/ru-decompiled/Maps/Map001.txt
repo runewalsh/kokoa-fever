@@ -1,0 +1,227 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    RecoverAll([0, 0])
+    BattleProcessing([0, 47, true, true])
+    IfWin([])
+      Empty([])
+
+    IfEscape([])
+      Empty([])
+
+    IfLose([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ControlSelfSwitch(["A", 0])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=40, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=40, @parameters=[])"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["すべてのスキルを習得します"])
+    ChangeSkills([0, 1, 0, 20])
+    ChangeSkills([0, 1, 0, 21])
+    ChangeSkills([0, 1, 0, 23])
+    ChangeSkills([0, 1, 0, 24])
+    ChangeSkills([0, 1, 0, 28])
+    ChangeSkills([0, 1, 0, 31])
+    ChangeSkills([0, 1, 0, 32])
+    ChangeSkills([0, 1, 0, 50])
+    ChangeSkills([0, 1, 0, 52])
+    ChangeSkills([0, 1, 0, 56])
+    ChangeSkills([0, 1, 0, 61])
+    ChangeSkills([0, 1, 0, 65])
+    ChangeSkills([0, 1, 0, 71])
+    ChangeSkills([0, 1, 0, 73])
+    ChangeSkills([0, 1, 0, 39])
+    ChangeSkills([0, 1, 0, 42])
+    ChangeSkills([0, 1, 0, 17])
+    ChangeSkills([0, 1, 0, 558])
+    ChangeSkills([0, 1, 0, 568])
+    ChangeSkills([0, 1, 0, 565])
+    ChangeSkills([0, 1, 0, 537])
+    ChangeSkills([0, 1, 0, 524])
+    ChangeSkills([0, 1, 0, 503])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    BattleProcessing([0, 47, true, true])
+    IfWin([])
+      Empty([])
+
+    IfEscape([])
+      Empty([])
+
+    IfLose([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ControlSwitches([201, 201, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ChangeLevel([0, 0, 0, 0, 98, false])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Wind1\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    CallCommonEvent([930])
+    TransferPlayer([0, 2, 47, 22, 0, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeGold([0, 0, 999999])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["999999\\G 手に入れた！"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShopProcessing([2, 1, 0, 0, false])
+    ShopItem([2, 2, 0, 0])
+    ShopItem([2, 3, 0, 0])
+    ShopItem([2, 4, 0, 0])
+    ShopItem([2, 40, 0, 0])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    ChangeItems([999, 0, 0, 1])
+    ChangeArmor([1, 0, 0, 1])
+    ChangeArmor([2, 0, 0, 1, false])
+    ChangeArmor([3, 0, 0, 1, false])
+    ChangeArmor([4, 0, 0, 1, false])
+    ChangeArmor([5, 0, 0, 1, false])
+    ChangeArmor([6, 0, 0, 1, false])
+    ChangeArmor([7, 0, 0, 1, false])
+    ChangeArmor([8, 0, 0, 1, false])
+    ChangeArmor([9, 0, 0, 1, false])
+    ChangeArmor([10, 0, 0, 1, false])
+    ChangeArmor([11, 0, 0, 1, false])
+    ChangeArmor([12, 0, 0, 1, false])
+    ChangeArmor([13, 0, 0, 1, false])
+    ChangeArmor([14, 0, 0, 1, false])
+    ChangeArmor([15, 0, 0, 1, false])
+    ChangeArmor([16, 0, 0, 1, false])
+    ChangeArmor([17, 0, 0, 1, false])
+    ChangeArmor([18, 0, 0, 1, false])
+    ChangeArmor([19, 0, 0, 1, false])
+    ChangeArmor([40, 0, 0, 1, false])
+    ChangeArmor([41, 0, 0, 1, false])
+    ChangeArmor([42, 0, 0, 1, false])
+    ChangeArmor([43, 0, 0, 1, false])
+    ChangeArmor([44, 0, 0, 1, false])
+    ChangeArmor([45, 0, 0, 1, false])
+    ChangeArmor([46, 0, 0, 1, false])
+    ChangeArmor([47, 0, 0, 1, false])
+    ChangeArmor([48, 0, 0, 1, false])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ChangePartyMember([5, 0, 0])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ChangeLevel([0, 0, 1, 0, 98, false])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ChangeLevel([0, 0, 0, 0, 50, false])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowPicture([50, "200_クロウA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowPicture([60, "200_プティンA1", 0, 0, -200, 0, 100, 100, 255, 0])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 2, 47, 27, 0, 0])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ChangeSkills([0, 1, 0, 710])
+    Empty([])

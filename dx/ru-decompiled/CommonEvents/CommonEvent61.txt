@@ -1,0 +1,21 @@
+CommonEvent 61
+Name = "ココア"
+
+  ConditionalBranch([4, 1, 6, 302])
+    CallCommonEvent([63])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([4, 1, 6, 308])
+      CallCommonEvent([803])
+      Empty([])
+
+    Else([])
+      CallCommonEvent([62])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

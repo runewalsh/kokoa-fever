@@ -1,0 +1,25 @@
+CommonEvent 100
+Name = "●戦闘開始処理"
+
+  CallCommonEvent([60])
+  ConditionalBranch([4, 5, 0])
+    ConditionalBranch([4, 5, 6, 1])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([4, 5, 6, 36])
+        CallCommonEvent([102])
+        Empty([])
+
+      Else([])
+        CallCommonEvent([101])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

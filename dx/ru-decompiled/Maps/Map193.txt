@@ -1,0 +1,192 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "いちご"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "レモン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      ChangePartyMember([5, 1, 0])
+      ChangePartyMember([10, 1, 0])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      CallCommonEvent([943])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 10])
+    SetEventLocation([1, 0, 23, 30, 8])
+    SetEventLocation([2, 0, 24, 28, 2])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([51, "200_ここなA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["はにゃぁ～･･･民家の地下がこんな事になっていたなんてねぇ････"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私達はハーリスの街のとある民家、その地下に来ていた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["地下は改装されていて教団のアジトになっているようだ。"])
+    ShowText(["他にもこういった場所があるらしい。"])
+    ShowPicture([49, "200_いちごA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["すでに別の突入部隊は先行して作戦を開始しています。"])
+    ShowText(["また、他の役割の部隊も違う突入口から侵入したみたいですね。"])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["よーし、それじゃあ私達も頑張らないとね！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["はい！"])
+    ShowText(["私達の手で教祖を捕らえられるよう頑張りましょう！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おー･･･なの。"])
+    FadeoutScreen([])
+    SetEventLocation([1, 0, 49, 0, 0])
+    SetEventLocation([2, 0, 49, 1, 0])
+    ChangePartyMember([5, 0, 0])
+    ChangePartyMember([10, 0, 0])
+    RecoverAll([0, 0])
+    ErasePicture([49])
+    ErasePicture([50])
+    ErasePicture([51])
+    ErasePicture([52])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 100])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････古いの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["先ほどまでの部屋の雰囲気と違ってどうも壁の感じが古臭い。"])
+    ShowText(["その古さはもう何十年、"])
+    ShowText(["何百年も経っているのでは無いかと思うぐらいだ。"])
+    ShowPicture([49, "200_いちごA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["どうやら昔に作られた遺跡を基礎に拠点を築いているようですね。"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ほぇ～･･･なるほどねぇ･････。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([50])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 100])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････古いの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["先ほどまでの部屋の雰囲気と違ってどうも壁の感じが古臭い。"])
+    ShowText(["その古さはもう何十年、"])
+    ShowText(["何百年も経っているのでは無いかと思うぐらいだ。"])
+    ShowPicture([49, "200_いちごA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["どうやら昔に作られた遺跡を基礎に拠点を築いているようですね。"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ほぇ～･･･なるほどねぇ･････。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([50])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 194, 15, 16, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 194, 15, 17, 0, 0])
+    Empty([])

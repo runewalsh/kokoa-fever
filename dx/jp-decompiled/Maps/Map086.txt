@@ -1,0 +1,398 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 85, 42, 17, 4, 0])
+    Empty([])
+
+  Page 1
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["どこかに私の装備が無いかな････"])
+    ShowText(["ここを出る前に見つけておいた方がいいかも。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 2
+Name = "扉"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    Wait([30])
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    Wait([40])
+    ShotBalloonIcon([-1, 7, true])
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ふにゃぁ･････開かないよぉ･･････。"])
+    ErasePicture([20])
+    PlaySE(["RPG::SE(@name=\"Open3\", @pitch=135, @volume=90)"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ControlVariables([324, 324, 0, 0, 50])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ････開いた････。"])
+    ShowPicture([20, "200_ここな裸E1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["どうやら扉にガタが来てたみたい。ラッキー！"])
+    ControlSwitches([946, 946, 0])
+    ErasePicture([20])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    Wait([30])
+    PlaySE(["RPG::SE(@name=\"Open2\", @pitch=80, @volume=85)"])
+    Wait([40])
+    ShotBalloonIcon([-1, 7, true])
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ふにゃぁ･････開かないよぉ･･････。"])
+    ErasePicture([20])
+    PlaySE(["RPG::SE(@name=\"Open3\", @pitch=135, @volume=90)"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ControlVariables([324, 324, 0, 0, 50])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ････開いた････。"])
+    ShowPicture([20, "200_ここな裸E1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["まだ扉を直してなかったみたいね！"])
+    ErasePicture([20])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    TransferPlayer([0, 86, 30, 35, 2, 0])
+    ControlSwitches([943, 943, 1])
+    ChangeActorGraphic([1, "1_ココアダウン", 0, "", 0])
+    FadeinScreen([])
+    Wait([60])
+    SetEventLocation([7, 0, 24, 42, 6])
+    SetMoveRoute([7, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([20, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ココア！"])
+    ShowText(["助けに来たよ大丈････"])
+    ShowPicture([20, "200_ここなB5", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["･･･････ッ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここなの目の前には男達に犯され無残な姿になったココアが居た･･･。"])
+    ShowPicture([20, "200_ここなD3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["すぐにここから出してあげるからね！"])
+    ShowPicture([20, "200_ここなD1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["えーっと･･･この形状の扉は････"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    SetEventLocation([8, 0, 30, 40, 8])
+    Wait([60])
+    FadeinScreen([])
+    Wait([60])
+    ControlSwitches([943, 943, 0])
+    PlaySE(["RPG::SE(@name=\"Close3\", @pitch=115, @volume=80)"])
+    Wait([60])
+    ShowPicture([20, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["よし開いた！"])
+    ShowText(["すぐにここから連れ出してあげるからね～"])
+    ErasePicture([20])
+    ShowAnimation([7, 19, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ふにゃ！？"])
+    FadeoutScreen([])
+    TransferPlayer([0, 86, 10, 23, 2, 0])
+    ControlVariables([324, 324, 0, 0, 10])
+    ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+    ChangeActorGraphic([5, "ここなチビ２", 0, "", 0])
+    ControlVariables([210, 210, 1, 0, 1])
+    ControlVariables([5, 5, 1, 2, 25, 40])
+    ControlVariables([261, 261, 1, 2, 25, 35])
+    ControlVariables([262, 262, 1, 2, 35, 55])
+    ControlVariables([263, 263, 1, 2, 60, 90])
+    ControlVariables([264, 264, 1, 2, 15, 20])
+    ChangePartyMember([5, 0, 0])
+    ChangePartyMember([1, 1, 0])
+    Wait([60])
+    ControlSwitches([926, 926, 1])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV山賊"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "ココア"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ChangeMenuAccess([0])
+    RecoverAll([0, 0])
+    ChangeState([0, 5, 0, 36])
+    ControlSwitches([944, 944, 0])
+    ChangeActorGraphic([5, "1_ここなダウン", 0, "", 0])
+    FadeinScreen([])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=105, @volume=90)"])
+    ShotBalloonIcon([-1, 1, true])
+    FadeoutScreen([])
+    ChangeActorGraphic([5, "ここなチビ２", 0, "", 0])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ど、どうしよう････私も捕まったよぉ･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["････とにかく、なんとかして脱出しないと。"])
+    ErasePicture([20])
+    ControlVariables([324, 324, 0, 0, 20])
+    CallCommonEvent([940])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Empty([])
+
+CommonEvent 13
+Name = "山賊"
+
+  Page 0
+    Empty([])
+
+CommonEvent 14
+Name = "山賊"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShotBalloonIcon([-1, 1, false])
+    ScrollMap([2, 4, 4])
+    Wait([120])
+    ScrollMap([8, 4, 4])
+    Wait([60])
+    ShotBalloonIcon([-1, 8, true])
+    ShowPicture([20, "200_ここな裸D1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ････ココアを助けたいのに･････"])
+    ShowText(["ここはひとまず私だけでも脱出するしか無いみたい････。"])
+    ErasePicture([20])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ShotBalloonIcon([-1, 1, false])
+    ScrollMap([2, 4, 4])
+    Wait([120])
+    ScrollMap([8, 4, 4])
+    Wait([60])
+    ShotBalloonIcon([-1, 8, true])
+    ShowPicture([20, "200_ここな裸D1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ････ココアを助けたいのに･････"])
+    ShowText(["ここはひとまず私だけでも脱出するしか無いみたい････。"])
+    ErasePicture([20])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["女は好きに犯してよし！"])
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["･･････。"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSwitches([944, 944, 1])
+    ChangeMenuAccess([1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["失くした装備を取り戻した！"])
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["服は無いけど、これでなんとか脱出はできるかな････。"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　　　　　　メニューが開放されました"])
+    ErasePicture([20])
+    Empty([])
+
+CommonEvent 19
+Name = "山賊"
+
+  Page 0
+    Empty([])
+
+CommonEvent 20
+Name = "山賊"
+
+  Page 0
+    Empty([])
+
+CommonEvent 21
+Name = "山賊"
+
+  Page 0
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    ChangeMenuAccess([0])
+    RecoverAll([0, 0])
+    ChangeState([0, 5, 0, 36])
+    ControlSwitches([944, 944, 0])
+    ChangeActorGraphic([5, "1_ここなダウン", 0, "", 0])
+    FadeinScreen([])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=105, @volume=90)"])
+    ShotBalloonIcon([-1, 1, true])
+    FadeoutScreen([])
+    ChangeActorGraphic([5, "ここなチビ２", 0, "", 0])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うぅ･････また捕まっちゃったみたい････。"])
+    ErasePicture([20])
+    ControlVariables([324, 324, 0, 0, 20])
+    ControlSwitches([945, 945, 1])
+    CallCommonEvent([940])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    ShowPicture([20, "200_ここな裸B1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["早く脱出しないと･････。"])
+    ErasePicture([20])
+    Empty([])

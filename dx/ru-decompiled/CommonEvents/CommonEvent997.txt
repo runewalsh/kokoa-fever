@@ -1,0 +1,36 @@
+CommonEvent 997
+Name = "★MAP記憶"
+
+  ControlVariables([501, 501, 0, 3, 7, 0, 0])
+  ControlVariables([502, 502, 0, 3, 5, -1, 0])
+  ControlVariables([503, 503, 0, 3, 5, -1, 1])
+  ConditionalBranch([6, -1, 8])
+    ControlVariables([504, 504, 0, 0, 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([6, -1, 6])
+      ControlVariables([504, 504, 0, 0, 1])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([6, -1, 2])
+        ControlVariables([504, 504, 0, 0, 2])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([6, -1, 4])
+          ControlVariables([504, 504, 0, 0, 3])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

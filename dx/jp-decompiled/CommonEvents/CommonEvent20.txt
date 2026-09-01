@@ -1,0 +1,12 @@
+CommonEvent 20
+Name = "・DOTダメージ"
+
+  CallCommonEvent([21])
+  CallCommonEvent([22])
+  CallCommonEvent([23])
+  CallCommonEvent([24])
+  CallCommonEvent([25])
+  CallCommonEvent([26])
+  CallCommonEvent([27])
+  CallCommonEvent([28])
+  Empty([])

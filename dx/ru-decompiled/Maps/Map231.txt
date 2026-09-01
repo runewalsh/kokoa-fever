@@ -1,0 +1,128 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "レモン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "スライム"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    SetEventLocation([2, 0, 11, 18, 2])
+    SetEventLocation([3, 0, 10, 21, 8])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([52, "200_他立ち絵：スライム", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["いや～ありがとうございます！"])
+    ShowText(["島国に船を出して貰えるだけでなく、ここまで送って頂いて"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["良いの。私と貴方の仲なの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は彼を船で島国まで運び、"])
+    ShowText(["さらに彼が住みやすい森と草原が広がる場所へと見送りをしていた。"])
+    ShowPicture([52, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["ねぇ･･･本当にそんな気持ち悪いスライムをここに放流するの？"])
+    ShowText(["生態系とか壊れないかしら････。"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["するの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["そ、そう･････。"])
+    ErasePicture([52])
+    ErasePicture([50])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    ShotBalloonIcon([2, 1, true])
+    ShowPicture([52, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["ココア、私は少し用事を思い出したわ。"])
+    ShowText(["船は出せるように言ってあるから帰りは一人で帰って頂戴。"])
+    ShowPicture([50, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････？"])
+    ShowText(["分かったの。"])
+    ErasePicture([50])
+    ErasePicture([52])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=42, @parameters=[200])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=42, @parameters=[150])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=42, @parameters=[100])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=42, @parameters=[50])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=42, @parameters=[0])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[200])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[150])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[100])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[50])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=42, @parameters=[0])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    ShowPicture([52, "200_他立ち絵：スライム", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["それではこの辺りで失礼します。"])
+    ShowText(["お友達の女の子も見つかれば良いですね！"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ありがとうなの。またなの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]見た目がキモイスライム\\C[0]"])
+    ShowText(["えぇ････また会いましょう！"])
+    FadeoutScreen([])
+    Wait([60])
+    PlayBGM(["RPG::BGM(@name=\"Theme4\", @volume=100, @pitch=100)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["彼が言ったようにここなは無事だ。"])
+    ShowText(["無事なはずだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここなが見つかるまで、私はもっと腕を磨こう！"])
+    ShowText(["そしてびっくりさせてあげるのだ！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そう、きっと見つかる････そうだよね。ここな！"])
+    ErasePicture([50])
+    ErasePicture([52])
+    ShowPicture([50, "1000_END", 0, 0, 0, 0, 100, 100, 255, 0])
+    FadeinScreen([])
+    Wait([600])
+    ShowTextAttributes(["", 0, 2, 2])
+    ShowText([" "])
+    ControlVariables([341, 341, 0, 0, 20000])
+    ConditionalBranch([1, 302, 0, 7000, 2])
+      ControlVariables([302, 302, 0, 0, 8000])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([98, 98, 0])
+    FadeoutScreen([])
+    ErasePicture([50])
+    TransferPlayer([0, 233, 16, 16, 8, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

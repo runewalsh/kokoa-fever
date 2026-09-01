@@ -1,0 +1,146 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "馬車後ろ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "馬車前"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "行商人"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlayBGM(["RPG::BGM(@name=\"ハーリス東森\", @volume=100, @pitch=100)"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=true, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=true, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=true, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["あれから私は地方を転々とする冒険者として生きていた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["冒険者ギルドの仕事の中には今日のような地方から地方へと"])
+    ShowText(["移動する人の護衛をするものもある。"])
+    ShowText(["今の世の中、戦う術を持たない者は私のような護衛を雇って"])
+    ShowText(["街から街へと移動するのだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["････私はそれを良い事に遠くへ、遠くへと地方を転々としている。"])
+    ShowText(["別に遠くに行く理由も無いのだけれど"])
+    ShowText(["ただ、遠くへと行きたかった。"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["よろしくお願いしますよ。ココアさん。"])
+    ShowPicture([20, "200_ココアA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････任せといて。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は出来る限りの笑顔で応えた。"])
+    ShowTextAttributes(["Actor2", 3, 1, 2])
+    ShowText(["喉･･･渇きませんか？"])
+    ShowText(["お茶でもいかがですか？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････ありがとう。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は彼女から受け取ったお茶を頂いた。"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･････？"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["あれ････おかしいな････なんだか、眠く･･････"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    FadeoutBGM([1])
+    Wait([60])
+    Wait([60])
+    ControlVariables([302, 302, 0, 0, 1001])
+    TransferPlayer([0, 94, 13, 16, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    CallCommonEvent([332])
+    ControlVariables([302, 302, 0, 0, 1200])
+    TransferPlayer([0, 94, 13, 16, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "山賊１"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "山賊２"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "山賊３"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "女性１"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "男１"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "山賊４"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "山賊５"
+
+  Page 0
+    Empty([])

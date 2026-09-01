@@ -1,0 +1,58 @@
+Display Name = "合成屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 30, 44, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "合成士"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]合成士\\C[0]"])
+      ShowText(["･･･････その、ちょっと、格好が･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["合成士は顔を赤らめている。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]合成士\\C[0]"])
+    ShowText(["素材さえあれば無料で合成します。"])
+    Script(["SceneManager.call(Scene_ItemSynthesis)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]合成士\\C[0]"])
+    ShowText(["また来てくださいね。"])
+    Empty([])
+
+CommonEvent 4
+Name = "素材屋"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]素材屋\\C[0]"])
+      ShowText(["ここよりも先に防具屋に行った方がいいんじゃねーかぁ？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]素材屋\\C[0]"])
+    ShowText(["素材交換するよ！"])
+    Script(["start_item_make([1])"])
+    Empty([])

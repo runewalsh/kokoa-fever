@@ -1,0 +1,30 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Wait([60])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([20, "200_ココア裸A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["で･･･れた？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そこは外だった。"])
+    ShowText(["たぶん洞窟に入ってきた入り口とは別の場所だと思うけれど"])
+    ShowText(["間違いなく私は洞窟の外に出れたようだ。"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･････そこから私は無事に家にたどり着いた。"])
+    CallCommonEvent([943])
+    TransferPlayer([0, 21, 13, 8, 2, 0])
+    ErasePicture([20])
+    ChangeState([0, 0, 1, 36])
+    RecoverAll([0, 0])
+    ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+    Wait([60])
+    FadeinScreen([])
+    Empty([])

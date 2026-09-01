@@ -1,0 +1,5 @@
+CommonEvent 17
+Name = "ボマー封印"
+
+  ChangeState([0, 5, 0, 85])
+  Empty([])

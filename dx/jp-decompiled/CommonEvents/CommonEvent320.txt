@@ -1,0 +1,141 @@
+CommonEvent 320
+Name = "アニメ１"
+
+  ControlVariables([421, 421, 1, 0, 1])
+  ConditionalBranch([1, 421, 0, 10, 2])
+    ConditionalBranch([1, 421, 0, 5, 2])
+      ConditionalBranch([1, 421, 0, 1, 0])
+        ShowPicture([90, "1005a_ココア山賊敗北A001", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 2, 0])
+          ShowPicture([90, "1005a_ココア山賊敗北A002", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 3, 0])
+            ShowPicture([90, "1005a_ココア山賊敗北A003", 0, 0, 0, 0, 100, 100, 255, 0])
+            PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 4, 0])
+              ShowPicture([90, "1005a_ココア山賊敗北A004", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 5, 0])
+                ShowPicture([90, "1005a_ココア山賊敗北A005", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 421, 0, 6, 0])
+        ShowPicture([90, "1005a_ココア山賊敗北A006", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 7, 0])
+          ShowPicture([90, "1005a_ココア山賊敗北A007", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 8, 0])
+            ShowPicture([90, "1005a_ココア山賊敗北A008", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 9, 0])
+              ShowPicture([90, "1005a_ココア山賊敗北A009", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 10, 0])
+                ShowPicture([90, "1005a_ココア山賊敗北A010", 0, 0, 0, 0, 100, 100, 255, 0])
+                ControlVariables([421, 421, 0, 0, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 421, 0, 20, 2])
+      ConditionalBranch([1, 421, 0, 15, 2])
+        ConditionalBranch([1, 421, 0, 11, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 12, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 13, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 14, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 421, 0, 15, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

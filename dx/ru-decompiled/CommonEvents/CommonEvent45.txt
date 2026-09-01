@@ -1,0 +1,5 @@
+CommonEvent 45
+Name = "表情取得"
+
+  ControlVariables([104, 104, 0, 0, 3])
+  Empty([])

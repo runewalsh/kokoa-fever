@@ -1,0 +1,122 @@
+CommonEvent 334
+Name = "夜通りモブEanime２"
+
+  ControlVariables([421, 421, 1, 0, 2])
+  ConditionalBranch([1, 421, 0, 1, 0])
+    ShowPicture([50, "1037a_夜通りモブE001", 0, 0, 0, 0, 100, 100, 255, 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 421, 0, 2, 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 421, 0, 3, 0])
+        ShowPicture([50, "1037a_夜通りモブE003", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 4, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 5, 0])
+            ShowPicture([50, "1037a_夜通りモブE005", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 6, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 7, 0])
+                ShowPicture([50, "1037a_夜通りモブE007", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 421, 0, 8, 0])
+                  Empty([])
+
+                Else([])
+                  ConditionalBranch([1, 421, 0, 9, 0])
+                    ShowPicture([50, "1037a_夜通りモブE009", 0, 0, 0, 0, 100, 100, 255, 0])
+                    Empty([])
+
+                  Else([])
+                    ConditionalBranch([1, 421, 0, 10, 0])
+                      Empty([])
+
+                    Else([])
+                      ConditionalBranch([1, 421, 0, 11, 0])
+                        ShowPicture([50, "1037a_夜通りモブE011", 0, 0, 0, 0, 100, 100, 255, 0])
+                        Empty([])
+
+                      Else([])
+                        ConditionalBranch([1, 421, 0, 12, 0])
+                          Empty([])
+
+                        Else([])
+                          ConditionalBranch([1, 421, 0, 13, 0])
+                            ShowPicture([50, "1037a_夜通りモブE013", 0, 0, 0, 0, 100, 100, 255, 0])
+                            PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+                            Empty([])
+
+                          Else([])
+                            ConditionalBranch([1, 421, 0, 14, 0])
+                              Empty([])
+
+                            Else([])
+                              ConditionalBranch([1, 421, 0, 15, 0])
+                                ShowPicture([50, "1037a_夜通りモブE015", 0, 0, 0, 0, 100, 100, 255, 0])
+                                ControlVariables([421, 421, 0, 0, 1])
+                                Empty([])
+
+                              Else([])
+                                ControlVariables([421, 421, 0, 0, 1])
+                                Empty([])
+
+                              BranchEnd([])
+                              Empty([])
+
+                            BranchEnd([])
+                            Empty([])
+
+                          BranchEnd([])
+                          Empty([])
+
+                        BranchEnd([])
+                        Empty([])
+
+                      BranchEnd([])
+                      Empty([])
+
+                    BranchEnd([])
+                    Empty([])
+
+                  BranchEnd([])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Wait([1])
+  Empty([])

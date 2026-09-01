@@ -1,0 +1,5 @@
+CommonEvent 73
+Name = "　通常"
+
+  ChangeActorGraphic([10, "いちご2", 0, "50_いちご戦闘立ち絵A1", 0])
+  Empty([])

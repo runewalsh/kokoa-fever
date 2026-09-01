@@ -1,0 +1,109 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]おばちゃん\\C[0]"])
+      ShowText(["アンタみたいなのが来るとこじゃないよ！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]おばちゃん\\C[0]"])
+    ShowText(["いらっしゃい！"])
+    ShopProcessing([0, 440, 0, 0, true])
+    ShopItem([0, 441, 0, 0])
+    ShopItem([0, 442, 0, 0])
+    ShopItem([0, 443, 0, 0])
+    ShopItem([0, 444, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["食事バフがあると所得経験値にちょっとだけボーナスが乗るよ。"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 28, 59, 0, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 31, 61, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["ちゃんとした服を着なさいよ！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["料理アイテムは戦闘中に使えないから気をつけてね。"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]住民\\C[0]"])
+      ShowText(["ぶーッ!!!!!!"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]住民\\C[0]"])
+    ShowText(["しっかり食べて、しっかり動く！"])
+    ShowText(["これが健康の秘訣さ！"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["わっつざふぁっく！？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["４人掛けの座席では恋人の正面よりも横に座る方が"])
+    ShowText(["相手に対して好印象を与えやすいらしいぞ"])
+    Empty([])

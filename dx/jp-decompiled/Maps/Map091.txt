@@ -1,0 +1,817 @@
+Display Name = "闘技場"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "受付バニー"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["いらっしゃいませ～♪"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["いらっしゃいませ～♪"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["Eランクマッチに出場したい！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["そうですか～。"])
+    ShowText(["ギルド証はお持ち？"])
+    ShowText(["お預かりさせていただきま～す♪"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["これ！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私はギルド証を渡した。"])
+    ShotBalloonIcon([5, 8, true])
+    ShotBalloonIcon([5, 3, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["確認できました～♪"])
+    ShowText(["ではギルド証をお返ししますね～♪"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ココア、Eランク出れる？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["出れますよ～♪"])
+    ShowText(["手続きを済ませますので少々お待ちくださいね～♪"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    Wait([60])
+    FadeinScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["手続き完了で～す♪"])
+    ShowText(["ではあちらの出場選手控え室にお願いしま～す♪"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    ScrollMap([4, 4, 4])
+    Wait([60])
+    Wait([30])
+    ScrollMap([6, 4, 4])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    Wait([60])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["中はEランクの冒険者がいっぱい？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["Eランク戦以外もやってますからね～････"])
+    ShowText(["他への出場選手もたくさんいらっしゃいますよ～♪"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ControlVariables([302, 302, 0, 0, 810])
+    FadeinScreen([])
+    Empty([])
+
+  Page 2
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["選手控え室はあちらですよ～♪"])
+    Empty([])
+
+  Page 3
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["いらっしゃいませ～♪"])
+    Empty([])
+
+  Page 4
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["いらっしゃいませ～♪"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["現在、Dランクマッチを開催していま～す♪"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["ココアちゃんはDランクなので出場資格あるわよ～♪"])
+    ShowText(["出場しちゃう？"])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["出場しない", "出場する"], 1])
+    When([0, "出場しない"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]受付バニー\\C[0]"])
+      ShowText(["そっか～♪"])
+      Empty([])
+
+    When([1, "出場する"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]受付バニー\\C[0]"])
+      ShowText(["それじゃあ登録するわよ～♪"])
+      ShowText(["今回はCランクに手が届く出場者が多いの♪"])
+      ShowText(["結果次第でCランク冒険者になれるかも、だから頑張ってね～♪"])
+      FadeoutScreen([])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["それから私は選手控え室に通された。"])
+      ControlVariables([329, 329, 0, 0, 10])
+      TransferPlayer([0, 148, 8, 29, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 5
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["いらっしゃいませ～♪"])
+    Empty([])
+
+  Page 6
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["ココアちゃんいらっしゃ～い♪"])
+    ShowText(["今は出れそうな試合はないわよ～ごめんね～♪"])
+    Empty([])
+
+CommonEvent 6
+Name = "受付バニー"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["ここから先は観客席よ～♪"])
+    Empty([])
+
+CommonEvent 7
+Name = "兵士"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]兵士\\C[0]"])
+    ShowText(["ここから先は選手控え室である。"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]兵士\\C[0]"])
+    ShowText(["君はもうじき出場なのである。"])
+    ShowText(["控え室に戻るのである。"])
+    Empty([])
+
+  Page 2
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]兵士\\C[0]"])
+    ShowText(["ここから先は選手控え室である。"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["ここから先はチケットを買わないと通れないわよ～♪"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["ここから先はチケットを買わないと通れないわよ～♪"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]兵士\\C[0]"])
+    ShowText(["ここから先は選手控え室である。"])
+    ShowText(["関係者以外は立ち入り禁止である。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]兵士\\C[0]"])
+    ShowText(["もうじき試合が始まるのである。"])
+    ShowText(["出たらダメなのである。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Empty([])
+
+  Page 3
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]兵士\\C[0]"])
+    ShowText(["ここから先は選手控え室である。"])
+    ShowText(["関係者以外は立ち入り禁止である。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ControlVariables([302, 302, 0, 0, 820])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ControlVariables([302, 302, 0, 0, 820])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 91, 8, 29, 8, 0])
+    PlayBGM(["RPG::BGM(@name=\"闘技開催中\", @volume=100, @pitch=100)"])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ここが選手控え室････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････準備が出来たら奥から出ればいいんだっけ？"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    FadeinScreen([])
+    ControlVariables([302, 302, 0, 0, 850])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少年\\C[0]"])
+    ShowText(["この奥ってどうなってるんだろう････。"])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]銀髪の戦士\\C[0]"])
+    ShowText(["俺にも覇属性のスキルがあればなぁ・・・"])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]長髪の魔剣士\\C[0]"])
+    ShowText(["今日も俺の必殺、王魔炎地悪刃華夜式で華麗に決めてやるぜ"])
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]変な物を被った人\\C[0]"])
+    ShowText(["･････。"])
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]DQN\\C[0]"])
+    ShowText(["へっ･･･俺にかかればこんな闘技場すぐに制覇してやるぜ！"])
+    ShowText(["なんたって俺全一だしなっ！！"])
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]怯えた青年\\C[0]"])
+    ShowText(["ど、どうしましょう･･･勢いで参加してしまいましたが、"])
+    ShowText(["実は全然弱いんです･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]怯えた青年\\C[0]"])
+    ShowText(["だって今日のラッキーワードが闘技場への出場だったんですよ･･。"])
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ガタイの良いおっさん\\C[0]"])
+    ShowText(["あの隅の男･･･震えておるが大丈夫じゃろうか･･･。"])
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]腐った女戦士\\C[0]"])
+    ShowText(["あの向こう側の男の人・・・ずっと隅の青年を見ているわ"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]腐った女戦士\\C[0]"])
+    ShowText(["きっとホモなのね・・・。"])
+    ShowText(["あぁ・・闘技場で芽生える愛って奴なのかしら・・・♥"])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冴えない男\\C[0]"])
+    ShowText(["後の女の人がずっとこっちを見ているんです･･･。"])
+    ShowText(["きっと僕に惚れてしまったんじゃないのでしょうか･･･あぁ困った"])
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]僧侶\\C[0]"])
+    ShowText(["１対１ならば回復魔法が使える方が有利！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]僧侶\\C[0]"])
+    ShowText(["･･･だと思ってたのですが、アイテムも使えるルールなんですよねぇ。"])
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ローブの男\\C[0]"])
+    ShowText(["ふっふっふっ････。"])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女戦士\\C[0]"])
+    ShowText(["あーあ。どっかに良い男いないかしら・・。"])
+    ShowText(["闘技場なら見つかると思ったんだけどなぁ～・・・。"])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]年老いた冒険者\\C[0]"])
+    ShowText(["今日は気合を入れてきたのだが、腰が痛うなってしもた"])
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    ShotBalloonIcon([0, 10, false])
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]淫乱ピンク\\C[0]"])
+    ShowText(["触手系モンスターは女殺し属性を持っているのよね・・"])
+    ShowText(["だから女の子はみんな触手に弱いの・・・。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]淫乱ピンク\\C[0]"])
+    ShowText(["あっ・・・だめッ・・思い出しちゃう・・・♥"])
+    ShotBalloonIcon([0, 4, false])
+    ShotBalloonIcon([-1, 6, true])
+    Empty([])
+
+CommonEvent 29
+Name = "イベ用クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 92, 17, 25, 0, 0])
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 92, 18, 25, 0, 0])
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 91, 19, 25, 4, 0])
+    PlayBGM(["RPG::BGM(@name=\"闘技開催中\", @volume=100, @pitch=100)"])
+    SetEventLocation([29, 0, 17, 25, 6])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["クロウ見た？"])
+    ShowText(["私の活躍！ ココア頑張ったよ！"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["あぁ････この調子で頑張ればDランクにもなれるだろうな。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["じきに次の試合だ。気合入れていけよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん！ 頑張る！"])
+    FadeoutScreen([])
+    SetEventLocation([29, 0, 0, 0, 0])
+    ErasePicture([20])
+    ErasePicture([50])
+    ControlVariables([302, 302, 0, 0, 901])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    FadeoutScreen([])
+    PlayBGM(["RPG::BGM(@name=\"闘技開催中\", @volume=100, @pitch=100)"])
+    TransferPlayer([0, 91, 17, 26, 8, 0])
+    SetEventLocation([29, 0, 17, 24, 2])
+    SetEventLocation([39, 0, 18, 24, 2])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["クロウ見てた私の活躍？"])
+    ShowText(["凄い？ 凄い？"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["あぁ･･･しっかり見てたさ。"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････で隣は誰？"])
+    ShowPicture([52, "200_マールA1", 0, 0, -200, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["初めましてココアさん。私はマールと言います。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･マールよろしく！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["はい。よろしくお願いします。"])
+    ShowText(["いつもは魔法協会の受付で働いているのでいつでも来てくださいね！"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["マールとの挨拶もほどほどに次の試合に向かった。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そして、それからしばらくは順調に勝ち進んだ。"])
+    SetEventLocation([39, 0, 0, 1, 0])
+    ErasePicture([52])
+    ErasePicture([50])
+    ErasePicture([20])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["次はいよいよ最終戦だ。"])
+    ShowText(["ここで勝てば全勝。とりあえずこの分だとDランクは確定だろうな。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･頑張るの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Eランク戦はトーナメントではなく総当り戦だ。"])
+    ShowText(["ここまでは無敗なので次の試合に勝てば全勝。"])
+    ShowText(["別に１位にならなくても実力さえ示せればDランクに上がれる。"])
+    ShowText(["Dランクに上がるだけなら次に勝つ必要は無いかも知れない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["だけどクロウとの約束は1位になること。"])
+    ShowText(["全ての試合に勝利しなければならない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここまで来れたのだ。"])
+    ShowText(["次の試合は絶対に負けられない････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["クロウ、約束！"])
+    ShowText(["1位になったら･････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["あぁ･･･覚えているさ。勝ってこい。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん！"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["絶対に負けちゃいけない･････！"])
+    SetEventLocation([29, 0, 0, 0, 0])
+    ErasePicture([20])
+    ErasePicture([51])
+    ErasePicture([50])
+    RecoverAll([0, 0])
+    FadeinScreen([])
+    ControlVariables([302, 302, 0, 0, 1000])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 34
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 35
+Name = "EV035"
+
+  Page 0
+    Wait([40])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["おめでとうココアちゃん♪"])
+    ShowText(["これ、優勝賞金よ～♪"])
+    ChangeGold([0, 0, 200000])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=85)"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････いっぱい貰ったの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付バニー\\C[0]"])
+    ShowText(["Cランクに上がるかどうかは冒険者ギルドで検討されるから"])
+    ShowText(["今は分からないけど、この感じだとCランクは間違いなさそうよ～♪"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ありがとうなの！"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ControlVariables([329, 329, 0, 0, 100000])
+    ChangeSkills([0, 1, 0, 589])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　パッシブスキル【期待のルーキー】を獲得しました！"])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 39
+Name = "マル"
+
+  Page 0
+    Empty([])
+
+CommonEvent 43
+Name = "EV043"
+
+  Page 0
+    Empty([])
+
+CommonEvent 44
+Name = "EV044"
+
+  Page 0
+    Empty([])

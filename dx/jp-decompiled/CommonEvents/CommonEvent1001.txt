@@ -1,0 +1,8 @@
+CommonEvent 1001
+Name = "★次の周回処理"
+
+  PlayBGM(["RPG::BGM(@name=\"\", @volume=100, @pitch=80)"])
+  CallCommonEvent([1002])
+  ChangeActorGraphic([1, "1_ココア制服", 4, "", 0])
+  TransferPlayer([0, 3, 10, 10, 2, 0])
+  Empty([])

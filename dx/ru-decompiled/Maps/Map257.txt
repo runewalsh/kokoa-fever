@@ -1,0 +1,347 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    ControlSwitches([201, 201, 0])
+    TransferPlayer([0, 234, 24, 17, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    ControlSwitches([201, 201, 0])
+    TransferPlayer([0, 234, 24, 17, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    ControlSwitches([201, 201, 0])
+    TransferPlayer([0, 234, 24, 17, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "いちご"
+
+  Page 0
+    ShowPicture([52, "200_いちごA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["ようこそ地獄ルームへ！"])
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["用は無い", "地獄ルーム？"], 0])
+    When([0, "用は無い"])
+      Empty([])
+
+    When([1, "地獄ルーム？"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]いちご\\C[0]"])
+      ShowText(["ここではボス攻略のシミュレートが出来るんですよ！"])
+      ShowText(["勝てば報酬もあるので挑戦してみてくださいね！"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]いちご\\C[0]"])
+      ShowText(["もちろん本編とは全く関係ないので、"])
+      ShowText(["興味が無ければ無理にやる必要は無いですよ！"])
+      Empty([])
+
+    ChoicesEnd([])
+    ErasePicture([52])
+    Empty([])
+
+CommonEvent 5
+Name = "１"
+
+  Page 0
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：いちご"])
+      CommentMore(["まずは小手調べです！"])
+      CommentMore(["一週目がチュートリアルだと教えて差し上げますよ！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["bb_001b", ""])
+      ChangeBattleBGM(["RPG::BGM(@name=\"1000_いちご戦\", @volume=100, @pitch=100)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 155, true, true])
+      IfWin([])
+        ControlSwitches([321, 321, 0])
+        ChangeArmor([230, 0, 0, 1, false])
+        ChangeArmor([231, 0, 0, 1, false])
+        ChangeArmor([232, 0, 0, 1, false])
+        ChangeArmor([233, 0, 0, 1, false])
+        ChangeArmor([234, 0, 0, 1, false])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：いちご"])
+      CommentMore(["まずは小手調べです！"])
+      CommentMore(["一週目がチュートリアルだと教えて差し上げますよ！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["bb_001b", ""])
+      ChangeBattleBGM(["RPG::BGM(@name=\"1000_いちご戦\", @volume=100, @pitch=100)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 156, true, true])
+      IfWin([])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeItems([33, 0, 0, 3])
+        ChangeItems([38, 0, 0, 3])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 6
+Name = "１"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：ヴァンゼル"])
+      CommentMore(["力任せな彼が対戦相手です！"])
+      CommentMore(["物理に対して非常に高い耐性を持っているので気をつけてください！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["DecorativeTile", "Castle2"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"Battle5\", @volume=100, @pitch=100)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 157, true, true])
+      IfWin([])
+        ControlSwitches([322, 322, 0])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeArmor([619, 0, 0, 1, false])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：ヴァンゼル"])
+      CommentMore(["力任せな彼が対戦相手です！"])
+      CommentMore(["物理に対して非常に高い耐性を持っているので気をつけてください！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["DecorativeTile", "Castle2"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"Battle5\", @volume=100, @pitch=100)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 158, true, true])
+      IfWin([])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeItems([494, 0, 0, 3])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "１"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：バイオトレント"])
+      CommentMore(["魔科学により超回復の能力を植えつけられたトレントの魔物です！"])
+      CommentMore(["どうやって倒すかしっかりと考えてくださいね！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["DecorativeTile", "Factory"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"Battle4\", @volume=100, @pitch=100)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 159, true, true])
+      IfWin([])
+        ControlSwitches([323, 323, 0])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeWeapons([75, 0, 0, 1, false])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：バイオトレント"])
+      CommentMore(["魔科学により超回復の能力を植えつけられたトレントの魔物です！"])
+      CommentMore(["どうやって倒すかしっかりと考えてくださいね！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["DecorativeTile", "Factory"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"Battle4\", @volume=100, @pitch=100)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 160, true, true])
+      IfWin([])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeGold([0, 0, 3000])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "１"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：カカシ先生"])
+      CommentMore(["こちらに課題を出してくる不思議なカカシです。"])
+      CommentMore(["良く聞いてくださいね！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["DarkSpace", "DarkSpace"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"ボス曲A\", @volume=100, @pitch=80)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 161, true, true])
+      IfWin([])
+        ControlSwitches([324, 324, 0])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeItems([11, 0, 0, 1])
+        ChangeItems([106, 0, 0, 10])
+        ChangeItems([105, 0, 0, 20])
+        ChangeItems([104, 0, 0, 20])
+        ChangeItems([103, 0, 0, 40])
+        ChangeItems([102, 0, 0, 50])
+        ChangeItems([101, 0, 0, 50])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["戦う", "戦わない"], 2])
+    When([0, "戦う"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]戦闘相手：カカシ先生"])
+      CommentMore(["こちらに課題を出してくる不思議なカカシです。"])
+      CommentMore(["良く聞いてくださいね！"])
+      ControlSwitches([1, 1, 1])
+      ChangeBattleBack(["DarkSpace", "DarkSpace"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"ボス曲A\", @volume=100, @pitch=80)"])
+      ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+      RecoverAll([0, 0])
+      BattleProcessing([0, 162, true, true])
+      IfWin([])
+        ControlSwitches([324, 324, 0])
+        PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+        ChangeItems([105, 0, 0, 5])
+        ChangeItems([104, 0, 0, 5])
+        ChangeItems([103, 0, 0, 5])
+        ChangeItems([102, 0, 0, 5])
+        ChangeItems([101, 0, 0, 5])
+        Empty([])
+      IfEscape([])
+        Empty([])
+      IfLose([])
+        Empty([])
+      BattleProcessingEnd([])
+      Empty([])
+
+    When([1, "戦わない"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

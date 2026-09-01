@@ -1,0 +1,164 @@
+Display Name = "武器屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 45, 44, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "武器屋のおっさん"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]武器屋のおじさん\\C[0]"])
+      ShowText(["そんな格好で店の中うろつかれたらたまらねぇ！"])
+      ShowText(["早く出て行ってくれ！！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]武器屋のおじさん\\C[0]"])
+    ShowText(["いらっしゃい！"])
+    ControlVariables([401, 401, 0, 3, 3, 1, 0])
+    ConditionalBranch([1, 302, 0, 1900, 1])
+      ShopProcessing([1, 13, 0, 0, true])
+      ShopItem([1, 14, 0, 0])
+      ShopItem([1, 15, 0, 0])
+      ShopItem([1, 21, 1, 8000])
+      ShopItem([1, 22, 1, 8000])
+      ShopItem([1, 23, 1, 8000])
+      ShopItem([1, 28, 1, 20000])
+      ShopItem([1, 29, 1, 20000])
+      ShopItem([1, 30, 1, 20000])
+      ShopItem([1, 35, 1, 48000])
+      ShopItem([1, 36, 1, 48000])
+      ShopItem([1, 37, 1, 48000])
+      ShopItem([1, 43, 1, 78000])
+      ShopItem([1, 44, 1, 78000])
+      ShopItem([1, 45, 1, 78000])
+      ShopItem([1, 47, 1, 100000])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 302, 0, 600, 1])
+        ShopProcessing([1, 13, 0, 0, true])
+        ShopItem([1, 14, 0, 0])
+        ShopItem([1, 15, 0, 0])
+        ShopItem([1, 21, 1, 8000])
+        ShopItem([1, 22, 1, 8000])
+        ShopItem([1, 23, 1, 8000])
+        ShopItem([1, 28, 1, 20000])
+        ShopItem([1, 29, 1, 20000])
+        ShopItem([1, 30, 1, 20000])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 10, 1])
+          ShopProcessing([1, 13, 0, 0, true])
+          ShopItem([1, 14, 0, 0])
+          ShopItem([1, 15, 0, 0])
+          ShopItem([1, 21, 1, 8000])
+          ShopItem([1, 22, 1, 8000])
+          ShopItem([1, 23, 1, 8000])
+          ShopItem([1, 24, 1, 18000])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 401, 0, 0, 1])
+            ShopProcessing([1, 13, 0, 0, true])
+            ShopItem([1, 14, 0, 0])
+            ShopItem([1, 15, 0, 0])
+            Empty([])
+          Else([])
+            ShopProcessing([1, 13, 0, 0, true])
+            ShopItem([1, 14, 0, 0])
+            ShopItem([1, 15, 0, 0])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["女ってのは分からねぇなぁ････"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["店の店員も客を見て商品を出すからな。"])
+    ShowText(["それなりの奴にはそれなりの商品を出してくれるぜ。"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]魔法使い\\C[0]"])
+      ShowText(["ふえっ！？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]魔法使い\\C[0]"])
+    ShowText(["護身用でひとつ持っておこうか･･･"])
+    ShowText(["いや、魔法使いだし剣なんていらないか････。"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]DQN\\C[0]"])
+      ShowText(["うひょー！"])
+      ShowText(["まんこまんこ！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]DQN\\C[0]"])
+    ShowText(["どれが一番えぇの？"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([401, 401, 0, 3, 3, 1, 0])
+    ConditionalBranch([1, 401, 0, 10, 4])
+      ShopProcessing([1, 13, 0, 0, true])
+      ShopItem([1, 14, 0, 0])
+      ShopItem([1, 15, 0, 0])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])

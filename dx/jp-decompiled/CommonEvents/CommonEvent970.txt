@@ -1,0 +1,18 @@
+CommonEvent 970
+Name = "ベリー呼び出し"
+
+  PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+  ControlVariables([401, 401, 0, 2, 1, 4])
+  ChangeItems([52, 0, 1, 401])
+  ControlVariables([401, 401, 0, 2, 0, 4])
+  ChangeItems([53, 0, 1, 401])
+  ControlVariables([401, 401, 0, 2, 0, 4])
+  ChangeItems([54, 0, 1, 401])
+  ControlVariables([401, 401, 0, 2, 0, 100])
+  ConditionalBranch([1, 401, 0, 15, 2])
+    ChangeItems([55, 0, 0, 1])
+    Empty([])
+
+  BranchEnd([])
+  ControlVariables([201, 201, 1, 0, 1])
+  Empty([])

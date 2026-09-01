@@ -1,0 +1,28 @@
+CommonEvent 9
+Name = "連"
+
+  ConditionalBranch([4, 1, 6, 73])
+    ChangeState([0, 1, 1, 73])
+    ConditionalBranch([0, 54, 0])
+      ChangeState([0, 1, 0, 68])
+      Empty([])
+
+    BranchEnd([])
+    ConditionalBranch([0, 56, 0])
+      ForceAction([1, 1, 59, -2])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 1, 58, -2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([10])
+    ForceAction([1, 1, 57, -2])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

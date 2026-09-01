@@ -1,0 +1,9 @@
+CommonEvent 39
+Name = "立ち絵消去"
+
+  ControlSwitches([201, 204, 1])
+  Wait([5])
+  ErasePicture([20])
+  ErasePicture([25])
+  ErasePicture([30])
+  Empty([])

@@ -1,0 +1,62 @@
+Display Name = "信長書服店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]店長\\C[0]"])
+    ShowText(["いらっしゃいである。"])
+    ShopProcessing([0, 905, 1, 2800, true])
+    ShopItem([0, 906, 1, 1000])
+    ShopItem([0, 907, 1, 500])
+    ShopItem([0, 894, 1, 5000])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 15, 18, 2, 0])
+    ControlSwitches([201, 201, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 66, 4, 9, 8, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 66, 3, 9, 8, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]青年\\C[0]"])
+    ShowText(["べ、別にエッチな本を漁りに来たわけじゃないですよ！？"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性客\\C[0]"])
+    ShowText(["うーん、もっと良い画材はないかしら･････。"])
+    Empty([])

@@ -1,0 +1,61 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 249, 11, 15, 6, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ControlVariables([401, 401, 0, 0, 0])
+    SelectKeyItem([401])
+    ConditionalBranch([1, 401, 0, 949, 0])
+      ControlSelfSwitch(["A", 0])
+      PlaySE(["RPG::SE(@name=\"Open5\", @pitch=100, @volume=85)"])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Open2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["開かないようだ････。"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 253, 12, 23, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ControlVariables([401, 401, 0, 0, 0])
+    SelectKeyItem([401])
+    ConditionalBranch([1, 401, 0, 948, 0])
+      ControlSelfSwitch(["A", 0])
+      PlaySE(["RPG::SE(@name=\"Open5\", @pitch=100, @volume=85)"])
+      Empty([])
+
+    Else([])
+      PlaySE(["RPG::SE(@name=\"Open2\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["開かないようだ････。"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 253, 31, 23, 0, 0])
+    Empty([])

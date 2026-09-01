@@ -1,0 +1,214 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 215, 15, 19, 0, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "クロウ"
+
+  Page 0
+    ShowPicture([49, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["････ん。どうした？"])
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["何でもない", "何かやる事はない？"], 1])
+    When([0, "何でもない"])
+      ErasePicture([49])
+      Empty([])
+
+    When([1, "何かやる事はない？"])
+      ShowPicture([50, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["････退屈なの。"])
+      ShowPicture([49, "200_クロウA1", 0, 0, -350, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]クロウ\\C[0]"])
+      ShowText(["････ふむ。"])
+      ShowPicture([49, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]クロウ\\C[0]"])
+      ShowText(["分かった。少し外で動くとするか。"])
+      ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["やったの。クロウの訓練嬉しいの。"])
+      ControlSwitches([422, 422, 0])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=100)"])
+      ShowTextAttributes(["", 0, 1, 1])
+      ShowText([" "])
+      ShowText(["　　　　　　イベントMAP【訓練】が追加されました！"])
+      ControlVariables([302, 302, 0, 0, 6000])
+      ErasePicture([50])
+      ErasePicture([49])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 1
+    ShowPicture([49, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["準備が出来たら外に行くぞ。"])
+    ErasePicture([49])
+    Empty([])
+
+  Page 2
+    ShowPicture([49, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["･････ん？"])
+    ShowText(["どうかしたか？"])
+    ErasePicture([49])
+    Empty([])
+
+CommonEvent 3
+Name = "ここな"
+
+  Page 0
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["この小屋は武具を作れる工房なんだよ。"])
+    ShowText(["素材と職人さえ居ればここだけで装備を作れるんだよ。"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･凄いの。"])
+    ShowText(["ここなは一度ここに来た事があるの？"])
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あ～うん。最近ね。"])
+    ShowText(["ここなっくすはここで生まれたんだよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･。"])
+    ErasePicture([51])
+    ErasePicture([50])
+    Empty([])
+
+  Page 1
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["そういえば外のカカシは見た？"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･見たの。"])
+    ShowText(["クロウの訓練の時に使ったの。"])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["アレを使ってスキル回しなんかを確認するのがオススメだよ！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･使ってみるの。"])
+    ControlSwitches([423, 423, 0])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=100)"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　フリーMAP【カカシ殴り】が追加されました"])
+    ErasePicture([51])
+    ErasePicture([50])
+    ControlVariables([302, 302, 0, 0, 6200])
+    Empty([])
+
+  Page 2
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["【カカシ殴り】ぜひやってみて欲しいんだよ"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･やってみるの。"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["それにしてもあのカカシどうやって作ってるんだろう？"])
+    ShowText(["今度同じようなモノを作ってみようかなぁ･･･。"])
+    ErasePicture([51])
+    ErasePicture([50])
+    Empty([])
+
+  Page 3
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["この小屋は武具を作れる工房なんだよ。"])
+    ShowText(["素材と職人さえ居ればここだけで装備を作れるんだよ。"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･凄いの。"])
+    ShowText(["ここなは一度ここに来た事があるの？"])
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あ～うん。最近ね。"])
+    ShowText(["ここなっくすはここで生まれたんだよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･。"])
+    ErasePicture([51])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 4
+Name = "アオイ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    CallCommonEvent([981])
+    Empty([])
+
+  Page 1
+    SetEventLocation([1, 0, 5, 17, 0])
+    ShotBalloonIcon([-1, 1, false])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    SetEventLocation([6, 0, 6, 17, 8])
+    Wait([100])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････レモンなの。"])
+    ShowPicture([52, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["ふんっ････久しぶりね。"])
+    FadeoutScreen([])
+    ErasePicture([52])
+    ErasePicture([50])
+    ControlVariables([302, 302, 0, 0, 6400])
+    TransferPlayer([0, 216, 10, 11, 6, 0])
+    Empty([])
+
+  Page 2
+    CallCommonEvent([981])
+    Empty([])
+
+CommonEvent 6
+Name = "レモン"
+
+  Page 0
+    Empty([])

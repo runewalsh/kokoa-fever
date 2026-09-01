@@ -1,0 +1,32 @@
+Display Name = "ここなの部屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 20, 27, 14, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "ここな"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowPicture([51, "200_ここなB5", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ここな\\C[0]"])
+      ShowText(["わっ･･･何て格好してるのよ！？"])
+      ErasePicture([51])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["今日も１日頑張るぞー！"])
+    ErasePicture([51])
+    Empty([])

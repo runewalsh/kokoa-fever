@@ -1,0 +1,45 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 45, 55, 2, 0])
+    ControlSwitches([201, 201, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 45, 55, 2, 0])
+    ControlSwitches([201, 201, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]店主\\C[0]"])
+    ShowText(["すいませんね。まだ準備中なんですよ。"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]バイトメイド\\C[0]"])
+    ShowText(["派遣でお手伝いをさせて頂いております。"])
+    Empty([])

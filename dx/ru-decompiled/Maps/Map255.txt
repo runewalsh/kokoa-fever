@@ -1,0 +1,126 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 23, 42, 2, 0])
+    ControlSwitches([201, 201, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowPicture([50, "1035_夜通りモブC", 0, 0, 0, 0, 100, 100, 100, 0])
+    Wait([4])
+    ShowPicture([50, "1035_夜通りモブC", 0, 0, 0, 0, 100, 100, 200, 0])
+    Wait([4])
+    ShowPicture([50, "1035_夜通りモブC", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([40])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["はぁ･･･はぁ･･･いっぱい、せーえき貰ったのぉ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["少女はこちらに見せ付けるようにお尻をこちらに向けている。"])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowPicture([50, "1036_夜通りモブD", 0, 0, 0, 0, 100, 100, 100, 0])
+    Wait([4])
+    ShowPicture([50, "1036_夜通りモブD", 0, 0, 0, 0, 100, 100, 200, 0])
+    Wait([4])
+    ShowPicture([50, "1036_夜通りモブD", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([40])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["早く、早くぅ～････おまんこ期待して待ちきれないのぉ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["少女が男におねだりしている。"])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowPicture([50, "1036_夜通りモブD", 0, 0, 0, 0, 100, 100, 100, 0])
+    Wait([4])
+    ShowPicture([50, "1036_夜通りモブD", 0, 0, 0, 0, 100, 100, 200, 0])
+    Wait([4])
+    ShowPicture([50, "1036_夜通りモブD", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([40])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["早く、早くぅ～････おまんこ期待して待ちきれないのぉ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["少女が男におねだりしている。"])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ControlVariables([421, 421, 0, 0, 0])
+    ControlSwitches([1016, 1016, 0])
+    ShowTextAttributes(["", 0, 2, 2])
+    ShowText([" "])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["ふ、ふにゃぁ････おちんぽぉ･･\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["おちんぽもっと、もっとぉ･･･\\I[122]"])
+    ControlSwitches([1016, 1016, 1])
+    ControlVariables([421, 421, 0, 0, 1])
+    ControlSwitches([1017, 1017, 0])
+    ShowTextAttributes(["", 0, 2, 2])
+    ShowText([" "])
+    ControlSwitches([1017, 1017, 1])
+    Wait([3])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([421, 421, 0, 0, 0])
+    ControlSwitches([1016, 1016, 0])
+    ShowTextAttributes(["", 0, 2, 2])
+    ShowText([" "])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["ふ、ふにゃぁ････おちんぽぉ･･\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["おちんぽもっと、もっとぉ･･･\\I[122]"])
+    ControlSwitches([1016, 1016, 1])
+    ControlVariables([421, 421, 0, 0, 1])
+    ControlSwitches([1017, 1017, 0])
+    ShowTextAttributes(["", 0, 2, 2])
+    ShowText([" "])
+    ControlSwitches([1017, 1017, 1])
+    Wait([3])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["いいなぁ････。"])
+    Empty([])

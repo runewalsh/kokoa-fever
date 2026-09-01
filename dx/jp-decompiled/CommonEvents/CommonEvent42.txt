@@ -1,0 +1,28 @@
+CommonEvent 42
+Name = "・立ち絵　通常"
+
+  CallCommonEvent([41])
+  ConditionalBranch([0, 15, 0])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([45])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([0, 14, 0])
+    ConditionalBranch([11, 11])
+      ErasePicture([20])
+      ErasePicture([25])
+      ErasePicture([30])
+      Wait([2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([43])
+  Wait([2])
+  Empty([])

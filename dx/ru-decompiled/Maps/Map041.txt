@@ -1,0 +1,143 @@
+Display Name = "アクセサリー店"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 34, 51, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]店員\\C[0]"])
+      ShowText(["ふにゃにゃ！？"])
+      ShowText(["ここはそういうお店じゃないにゃ！！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]店員\\C[0]"])
+    ShowText(["いらっしゃいませ～"])
+    ControlVariables([401, 401, 0, 3, 3, 1, 0])
+    ConditionalBranch([1, 302, 0, 1900, 1])
+      ShopProcessing([2, 103, 1, 100, true])
+      ShopItem([2, 106, 1, 300])
+      ShopItem([2, 107, 1, 330])
+      ShopItem([2, 112, 1, 400])
+      ShopItem([2, 111, 1, 600])
+      ShopItem([2, 120, 1, 900])
+      ShopItem([2, 123, 1, 1000])
+      ShopItem([2, 124, 1, 1200])
+      ShopItem([2, 134, 1, 2000])
+      ShopItem([2, 135, 1, 1800])
+      ShopItem([2, 136, 1, 2800])
+      ShopItem([2, 145, 1, 3200])
+      ShopItem([2, 146, 1, 2700])
+      ShopItem([2, 160, 1, 12000])
+      ShopItem([2, 170, 1, 18000])
+      ShopItem([2, 171, 1, 19000])
+      ShopItem([2, 199, 1, 35000])
+      ShopItem([2, 200, 1, 42000])
+      ShopItem([2, 201, 1, 29000])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 302, 0, 600, 1])
+        ShopProcessing([2, 103, 1, 100, true])
+        ShopItem([2, 106, 1, 300])
+        ShopItem([2, 107, 1, 330])
+        ShopItem([2, 112, 1, 400])
+        ShopItem([2, 111, 1, 600])
+        ShopItem([2, 120, 1, 900])
+        ShopItem([2, 123, 1, 1000])
+        ShopItem([2, 124, 1, 1200])
+        ShopItem([2, 134, 1, 2000])
+        ShopItem([2, 135, 1, 1800])
+        ShopItem([2, 136, 1, 2800])
+        ShopItem([2, 145, 1, 3200])
+        ShopItem([2, 146, 1, 2700])
+        ShopItem([2, 160, 1, 12000])
+        ShopItem([2, 170, 1, 18000])
+        ShopItem([2, 171, 1, 19000])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 10, 1])
+          ShopProcessing([2, 103, 1, 100, true])
+          ShopItem([2, 106, 1, 300])
+          ShopItem([2, 107, 1, 330])
+          ShopItem([2, 112, 1, 400])
+          ShopItem([2, 111, 1, 600])
+          ShopItem([2, 120, 1, 900])
+          ShopItem([2, 123, 1, 1000])
+          ShopItem([2, 124, 1, 1200])
+          ShopItem([2, 134, 1, 2000])
+          ShopItem([2, 135, 1, 1800])
+          ShopItem([2, 136, 1, 2800])
+          ShopItem([2, 145, 1, 3200])
+          ShopItem([2, 146, 1, 2700])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 401, 0, 1, 1])
+            ShopProcessing([2, 103, 1, 100, true])
+            ShopItem([2, 106, 1, 300])
+            ShopItem([2, 107, 1, 330])
+            ShopItem([2, 112, 1, 400])
+            ShopItem([2, 111, 1, 600])
+            ShopItem([2, 120, 1, 900])
+            ShopItem([2, 123, 1, 1000])
+            ShopItem([2, 124, 1, 1200])
+            Empty([])
+          Else([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]デブス\\C[0]"])
+    ShowText(["う～ん。ど・れ・に・し・よ・お・か・な♪"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["冒険者と言えども身なりにも気をつけなければいかんが"])
+      ShowText(["ワシはそんな格好でもえぇと思う。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["冒険者の鼻からは血が出ていた。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["冒険者と言えども身なりにも気をつけなければいかん"])
+    Empty([])

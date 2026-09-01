@@ -1,0 +1,2500 @@
+Class 1
+Name = "●ココア"
+Description = ""
+Note = ""
+
+Class 2
+Name = "田舎娘"
+Description = ""
+Note = "<レベル限界増加:901>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>\r\n<必要経験値補正:900,level*level*level*level>\r\n<二刀流装備スロット 0,0,3,4,4,4,4,4,5>"
+
+Class 3
+Name = "双剣士"
+Description = ""
+Note = "<レベル限界増加:1201>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>\r\n<必要経験値補正:900,level*level*level*level>\r\n<二刀流装備スロット 0,0,3,4,4,4,4,4,5>"
+
+Class 4
+Name = "魔双剣士"
+Description = ""
+Note = "<レベル限界増加:1201>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>\r\n<必要経験値補正:900,level*level*level*level>\r\n<二刀流装備スロット 0,0,3,4,4,4,4,4,5,5>"
+
+Class 5
+Name = ""
+Description = ""
+Note = ""
+
+Class 6
+Name = "●ここな"
+Description = ""
+Note = ""
+
+Class 7
+Name = "見習いエージェント"
+Description = ""
+Note = "<通常装備スロット 0,1,3,4,4,4,4,4,4,4,5>"
+
+Class 8
+Name = "見習いエージェント"
+Description = ""
+Note = "<通常装備スロット 0,1,3,4,4,4,4,4,4,4,5>\r\n<レベル限界増加:901>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>"
+
+Class 9
+Name = ""
+Description = ""
+Note = ""
+
+Class 10
+Name = "●クロウ"
+Description = ""
+Note = ""
+
+Class 11
+Name = "エージェント"
+Description = ""
+Note = "<レベル限界増加:2001>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>\r\n<必要経験値補正:900,level*level*level*level>\r\n<装備固定 0,3,5>"
+
+Class 12
+Name = ""
+Description = ""
+Note = ""
+
+Class 13
+Name = ""
+Description = ""
+Note = ""
+
+Class 14
+Name = "●プティン"
+Description = ""
+Note = ""
+
+Class 15
+Name = ""
+Description = ""
+Note = ""
+
+Class 16
+Name = ""
+Description = ""
+Note = ""
+
+Class 17
+Name = ""
+Description = ""
+Note = ""
+
+Class 18
+Name = "●レモン"
+Description = ""
+Note = ""
+
+Class 19
+Name = ""
+Description = ""
+Note = ""
+
+Class 20
+Name = ""
+Description = ""
+Note = ""
+
+Class 21
+Name = ""
+Description = ""
+Note = ""
+
+Class 22
+Name = "●ベルデ"
+Description = ""
+Note = ""
+
+Class 23
+Name = ""
+Description = ""
+Note = ""
+
+Class 24
+Name = ""
+Description = ""
+Note = ""
+
+Class 25
+Name = ""
+Description = ""
+Note = ""
+
+Class 26
+Name = ""
+Description = ""
+Note = ""
+
+Class 27
+Name = ""
+Description = ""
+Note = ""
+
+Class 28
+Name = ""
+Description = ""
+Note = ""
+
+Class 29
+Name = ""
+Description = ""
+Note = ""
+
+Class 30
+Name = "●いちご"
+Description = ""
+Note = ""
+
+Class 31
+Name = "自称エリート密偵"
+Description = ""
+Note = "<通常装備スロット 0,3,4,4,4,4,4,5>\r\n<レベル限界増加:901>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>"
+
+Class 32
+Name = ""
+Description = ""
+Note = ""
+
+Class 33
+Name = ""
+Description = ""
+Note = ""
+
+Class 34
+Name = ""
+Description = ""
+Note = ""
+
+Class 35
+Name = ""
+Description = ""
+Note = ""
+
+Class 36
+Name = ""
+Description = ""
+Note = ""
+
+Class 37
+Name = ""
+Description = ""
+Note = ""
+
+Class 38
+Name = ""
+Description = ""
+Note = ""
+
+Class 39
+Name = ""
+Description = ""
+Note = ""
+
+Class 40
+Name = "●リリィ"
+Description = ""
+Note = ""
+
+Class 41
+Name = "魔法少女"
+Description = ""
+Note = "<通常装備スロット 0,1,4,4,5,5,5>\r\n<レベル限界増加:901>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>\r\n<必要経験値補正:900,level*level*level*level>\r\n<装備固定 0,1,2,3,4,5>"
+
+Class 42
+Name = ""
+Description = ""
+Note = ""
+
+Class 43
+Name = ""
+Description = ""
+Note = ""
+
+Class 44
+Name = ""
+Description = ""
+Note = ""
+
+Class 45
+Name = ""
+Description = ""
+Note = ""
+
+Class 46
+Name = ""
+Description = ""
+Note = ""
+
+Class 47
+Name = ""
+Description = ""
+Note = ""
+
+Class 48
+Name = ""
+Description = ""
+Note = ""
+
+Class 49
+Name = ""
+Description = ""
+Note = ""
+
+Class 50
+Name = "●魔王"
+Description = ""
+Note = ""
+
+Class 51
+Name = "魔王"
+Description = ""
+Note = "<レベル限界増加:2001>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>\r\n<必要経験値補正:900,level*level*level*level>\r\n<装備固定 0,3,5>"
+
+Class 52
+Name = ""
+Description = ""
+Note = ""
+
+Class 53
+Name = ""
+Description = ""
+Note = ""
+
+Class 54
+Name = ""
+Description = ""
+Note = ""
+
+Class 55
+Name = ""
+Description = ""
+Note = ""
+
+Class 56
+Name = ""
+Description = ""
+Note = ""
+
+Class 57
+Name = ""
+Description = ""
+Note = ""
+
+Class 58
+Name = ""
+Description = ""
+Note = ""
+
+Class 59
+Name = ""
+Description = ""
+Note = ""
+
+Class 60
+Name = ""
+Description = ""
+Note = ""
+
+Class 61
+Name = ""
+Description = ""
+Note = ""
+
+Class 62
+Name = ""
+Description = ""
+Note = ""
+
+Class 63
+Name = ""
+Description = ""
+Note = ""
+
+Class 64
+Name = ""
+Description = ""
+Note = ""
+
+Class 65
+Name = ""
+Description = ""
+Note = ""
+
+Class 66
+Name = ""
+Description = ""
+Note = ""
+
+Class 67
+Name = ""
+Description = ""
+Note = ""
+
+Class 68
+Name = ""
+Description = ""
+Note = ""
+
+Class 69
+Name = ""
+Description = ""
+Note = ""
+
+Class 70
+Name = ""
+Description = ""
+Note = ""
+
+Class 71
+Name = ""
+Description = ""
+Note = ""
+
+Class 72
+Name = ""
+Description = ""
+Note = ""
+
+Class 73
+Name = ""
+Description = ""
+Note = ""
+
+Class 74
+Name = ""
+Description = ""
+Note = ""
+
+Class 75
+Name = ""
+Description = ""
+Note = ""
+
+Class 76
+Name = ""
+Description = ""
+Note = ""
+
+Class 77
+Name = ""
+Description = ""
+Note = ""
+
+Class 78
+Name = ""
+Description = ""
+Note = ""
+
+Class 79
+Name = ""
+Description = ""
+Note = ""
+
+Class 80
+Name = ""
+Description = ""
+Note = ""
+
+Class 81
+Name = ""
+Description = ""
+Note = ""
+
+Class 82
+Name = ""
+Description = ""
+Note = ""
+
+Class 83
+Name = ""
+Description = ""
+Note = ""
+
+Class 84
+Name = ""
+Description = ""
+Note = ""
+
+Class 85
+Name = ""
+Description = ""
+Note = ""
+
+Class 86
+Name = ""
+Description = ""
+Note = ""
+
+Class 87
+Name = ""
+Description = ""
+Note = ""
+
+Class 88
+Name = ""
+Description = ""
+Note = ""
+
+Class 89
+Name = ""
+Description = ""
+Note = ""
+
+Class 90
+Name = ""
+Description = ""
+Note = ""
+
+Class 91
+Name = ""
+Description = ""
+Note = ""
+
+Class 92
+Name = ""
+Description = ""
+Note = ""
+
+Class 93
+Name = ""
+Description = ""
+Note = ""
+
+Class 94
+Name = ""
+Description = ""
+Note = ""
+
+Class 95
+Name = ""
+Description = ""
+Note = ""
+
+Class 96
+Name = ""
+Description = ""
+Note = ""
+
+Class 97
+Name = ""
+Description = ""
+Note = ""
+
+Class 98
+Name = ""
+Description = ""
+Note = ""
+
+Class 99
+Name = ""
+Description = ""
+Note = ""
+
+Class 100
+Name = ""
+Description = ""
+Note = ""
+
+Class 101
+Name = ""
+Description = ""
+Note = ""
+
+Class 102
+Name = ""
+Description = ""
+Note = ""
+
+Class 103
+Name = ""
+Description = ""
+Note = ""
+
+Class 104
+Name = ""
+Description = ""
+Note = ""
+
+Class 105
+Name = ""
+Description = ""
+Note = ""
+
+Class 106
+Name = ""
+Description = ""
+Note = ""
+
+Class 107
+Name = ""
+Description = ""
+Note = ""
+
+Class 108
+Name = ""
+Description = ""
+Note = ""
+
+Class 109
+Name = ""
+Description = ""
+Note = ""
+
+Class 110
+Name = ""
+Description = ""
+Note = ""
+
+Class 111
+Name = ""
+Description = ""
+Note = ""
+
+Class 112
+Name = ""
+Description = ""
+Note = ""
+
+Class 113
+Name = ""
+Description = ""
+Note = ""
+
+Class 114
+Name = ""
+Description = ""
+Note = ""
+
+Class 115
+Name = ""
+Description = ""
+Note = ""
+
+Class 116
+Name = ""
+Description = ""
+Note = ""
+
+Class 117
+Name = ""
+Description = ""
+Note = ""
+
+Class 118
+Name = ""
+Description = ""
+Note = ""
+
+Class 119
+Name = ""
+Description = ""
+Note = ""
+
+Class 120
+Name = ""
+Description = ""
+Note = ""
+
+Class 121
+Name = ""
+Description = ""
+Note = ""
+
+Class 122
+Name = ""
+Description = ""
+Note = ""
+
+Class 123
+Name = ""
+Description = ""
+Note = ""
+
+Class 124
+Name = ""
+Description = ""
+Note = ""
+
+Class 125
+Name = ""
+Description = ""
+Note = ""
+
+Class 126
+Name = ""
+Description = ""
+Note = ""
+
+Class 127
+Name = ""
+Description = ""
+Note = ""
+
+Class 128
+Name = ""
+Description = ""
+Note = ""
+
+Class 129
+Name = ""
+Description = ""
+Note = ""
+
+Class 130
+Name = ""
+Description = ""
+Note = ""
+
+Class 131
+Name = ""
+Description = ""
+Note = ""
+
+Class 132
+Name = ""
+Description = ""
+Note = ""
+
+Class 133
+Name = ""
+Description = ""
+Note = ""
+
+Class 134
+Name = ""
+Description = ""
+Note = ""
+
+Class 135
+Name = ""
+Description = ""
+Note = ""
+
+Class 136
+Name = ""
+Description = ""
+Note = ""
+
+Class 137
+Name = ""
+Description = ""
+Note = ""
+
+Class 138
+Name = ""
+Description = ""
+Note = ""
+
+Class 139
+Name = ""
+Description = ""
+Note = ""
+
+Class 140
+Name = ""
+Description = ""
+Note = ""
+
+Class 141
+Name = ""
+Description = ""
+Note = ""
+
+Class 142
+Name = ""
+Description = ""
+Note = ""
+
+Class 143
+Name = ""
+Description = ""
+Note = ""
+
+Class 144
+Name = ""
+Description = ""
+Note = ""
+
+Class 145
+Name = ""
+Description = ""
+Note = ""
+
+Class 146
+Name = ""
+Description = ""
+Note = ""
+
+Class 147
+Name = ""
+Description = ""
+Note = ""
+
+Class 148
+Name = ""
+Description = ""
+Note = ""
+
+Class 149
+Name = ""
+Description = ""
+Note = ""
+
+Class 150
+Name = ""
+Description = ""
+Note = ""
+
+Class 151
+Name = ""
+Description = ""
+Note = ""
+
+Class 152
+Name = ""
+Description = ""
+Note = ""
+
+Class 153
+Name = ""
+Description = ""
+Note = ""
+
+Class 154
+Name = ""
+Description = ""
+Note = ""
+
+Class 155
+Name = ""
+Description = ""
+Note = ""
+
+Class 156
+Name = ""
+Description = ""
+Note = ""
+
+Class 157
+Name = ""
+Description = ""
+Note = ""
+
+Class 158
+Name = ""
+Description = ""
+Note = ""
+
+Class 159
+Name = ""
+Description = ""
+Note = ""
+
+Class 160
+Name = ""
+Description = ""
+Note = ""
+
+Class 161
+Name = ""
+Description = ""
+Note = ""
+
+Class 162
+Name = ""
+Description = ""
+Note = ""
+
+Class 163
+Name = ""
+Description = ""
+Note = ""
+
+Class 164
+Name = ""
+Description = ""
+Note = ""
+
+Class 165
+Name = ""
+Description = ""
+Note = ""
+
+Class 166
+Name = ""
+Description = ""
+Note = ""
+
+Class 167
+Name = ""
+Description = ""
+Note = ""
+
+Class 168
+Name = ""
+Description = ""
+Note = ""
+
+Class 169
+Name = ""
+Description = ""
+Note = ""
+
+Class 170
+Name = ""
+Description = ""
+Note = ""
+
+Class 171
+Name = ""
+Description = ""
+Note = ""
+
+Class 172
+Name = ""
+Description = ""
+Note = ""
+
+Class 173
+Name = ""
+Description = ""
+Note = ""
+
+Class 174
+Name = ""
+Description = ""
+Note = ""
+
+Class 175
+Name = ""
+Description = ""
+Note = ""
+
+Class 176
+Name = ""
+Description = ""
+Note = ""
+
+Class 177
+Name = ""
+Description = ""
+Note = ""
+
+Class 178
+Name = ""
+Description = ""
+Note = ""
+
+Class 179
+Name = ""
+Description = ""
+Note = ""
+
+Class 180
+Name = ""
+Description = ""
+Note = ""
+
+Class 181
+Name = ""
+Description = ""
+Note = ""
+
+Class 182
+Name = ""
+Description = ""
+Note = ""
+
+Class 183
+Name = ""
+Description = ""
+Note = ""
+
+Class 184
+Name = ""
+Description = ""
+Note = ""
+
+Class 185
+Name = ""
+Description = ""
+Note = ""
+
+Class 186
+Name = ""
+Description = ""
+Note = ""
+
+Class 187
+Name = ""
+Description = ""
+Note = ""
+
+Class 188
+Name = ""
+Description = ""
+Note = ""
+
+Class 189
+Name = ""
+Description = ""
+Note = ""
+
+Class 190
+Name = ""
+Description = ""
+Note = ""
+
+Class 191
+Name = ""
+Description = ""
+Note = ""
+
+Class 192
+Name = ""
+Description = ""
+Note = ""
+
+Class 193
+Name = ""
+Description = ""
+Note = ""
+
+Class 194
+Name = ""
+Description = ""
+Note = ""
+
+Class 195
+Name = ""
+Description = ""
+Note = ""
+
+Class 196
+Name = ""
+Description = ""
+Note = ""
+
+Class 197
+Name = ""
+Description = ""
+Note = ""
+
+Class 198
+Name = ""
+Description = ""
+Note = ""
+
+Class 199
+Name = ""
+Description = ""
+Note = ""
+
+Class 200
+Name = ""
+Description = ""
+Note = ""
+
+Class 201
+Name = ""
+Description = ""
+Note = ""
+
+Class 202
+Name = ""
+Description = ""
+Note = ""
+
+Class 203
+Name = ""
+Description = ""
+Note = ""
+
+Class 204
+Name = ""
+Description = ""
+Note = ""
+
+Class 205
+Name = ""
+Description = ""
+Note = ""
+
+Class 206
+Name = ""
+Description = ""
+Note = ""
+
+Class 207
+Name = ""
+Description = ""
+Note = ""
+
+Class 208
+Name = ""
+Description = ""
+Note = ""
+
+Class 209
+Name = ""
+Description = ""
+Note = ""
+
+Class 210
+Name = ""
+Description = ""
+Note = ""
+
+Class 211
+Name = ""
+Description = ""
+Note = ""
+
+Class 212
+Name = ""
+Description = ""
+Note = ""
+
+Class 213
+Name = ""
+Description = ""
+Note = ""
+
+Class 214
+Name = ""
+Description = ""
+Note = ""
+
+Class 215
+Name = ""
+Description = ""
+Note = ""
+
+Class 216
+Name = ""
+Description = ""
+Note = ""
+
+Class 217
+Name = ""
+Description = ""
+Note = ""
+
+Class 218
+Name = ""
+Description = ""
+Note = ""
+
+Class 219
+Name = ""
+Description = ""
+Note = ""
+
+Class 220
+Name = ""
+Description = ""
+Note = ""
+
+Class 221
+Name = ""
+Description = ""
+Note = ""
+
+Class 222
+Name = ""
+Description = ""
+Note = ""
+
+Class 223
+Name = ""
+Description = ""
+Note = ""
+
+Class 224
+Name = ""
+Description = ""
+Note = ""
+
+Class 225
+Name = ""
+Description = ""
+Note = ""
+
+Class 226
+Name = ""
+Description = ""
+Note = ""
+
+Class 227
+Name = ""
+Description = ""
+Note = ""
+
+Class 228
+Name = ""
+Description = ""
+Note = ""
+
+Class 229
+Name = ""
+Description = ""
+Note = ""
+
+Class 230
+Name = ""
+Description = ""
+Note = ""
+
+Class 231
+Name = ""
+Description = ""
+Note = ""
+
+Class 232
+Name = ""
+Description = ""
+Note = ""
+
+Class 233
+Name = ""
+Description = ""
+Note = ""
+
+Class 234
+Name = ""
+Description = ""
+Note = ""
+
+Class 235
+Name = ""
+Description = ""
+Note = ""
+
+Class 236
+Name = ""
+Description = ""
+Note = ""
+
+Class 237
+Name = ""
+Description = ""
+Note = ""
+
+Class 238
+Name = ""
+Description = ""
+Note = ""
+
+Class 239
+Name = ""
+Description = ""
+Note = ""
+
+Class 240
+Name = ""
+Description = ""
+Note = ""
+
+Class 241
+Name = ""
+Description = ""
+Note = ""
+
+Class 242
+Name = ""
+Description = ""
+Note = ""
+
+Class 243
+Name = ""
+Description = ""
+Note = ""
+
+Class 244
+Name = ""
+Description = ""
+Note = ""
+
+Class 245
+Name = ""
+Description = ""
+Note = ""
+
+Class 246
+Name = ""
+Description = ""
+Note = ""
+
+Class 247
+Name = ""
+Description = ""
+Note = ""
+
+Class 248
+Name = ""
+Description = ""
+Note = ""
+
+Class 249
+Name = ""
+Description = ""
+Note = ""
+
+Class 250
+Name = ""
+Description = ""
+Note = ""
+
+Class 251
+Name = ""
+Description = ""
+Note = ""
+
+Class 252
+Name = ""
+Description = ""
+Note = ""
+
+Class 253
+Name = ""
+Description = ""
+Note = ""
+
+Class 254
+Name = ""
+Description = ""
+Note = ""
+
+Class 255
+Name = ""
+Description = ""
+Note = ""
+
+Class 256
+Name = ""
+Description = ""
+Note = ""
+
+Class 257
+Name = ""
+Description = ""
+Note = ""
+
+Class 258
+Name = ""
+Description = ""
+Note = ""
+
+Class 259
+Name = ""
+Description = ""
+Note = ""
+
+Class 260
+Name = ""
+Description = ""
+Note = ""
+
+Class 261
+Name = ""
+Description = ""
+Note = ""
+
+Class 262
+Name = ""
+Description = ""
+Note = ""
+
+Class 263
+Name = ""
+Description = ""
+Note = ""
+
+Class 264
+Name = ""
+Description = ""
+Note = ""
+
+Class 265
+Name = ""
+Description = ""
+Note = ""
+
+Class 266
+Name = ""
+Description = ""
+Note = ""
+
+Class 267
+Name = ""
+Description = ""
+Note = ""
+
+Class 268
+Name = ""
+Description = ""
+Note = ""
+
+Class 269
+Name = ""
+Description = ""
+Note = ""
+
+Class 270
+Name = ""
+Description = ""
+Note = ""
+
+Class 271
+Name = ""
+Description = ""
+Note = ""
+
+Class 272
+Name = ""
+Description = ""
+Note = ""
+
+Class 273
+Name = ""
+Description = ""
+Note = ""
+
+Class 274
+Name = ""
+Description = ""
+Note = ""
+
+Class 275
+Name = ""
+Description = ""
+Note = ""
+
+Class 276
+Name = ""
+Description = ""
+Note = ""
+
+Class 277
+Name = ""
+Description = ""
+Note = ""
+
+Class 278
+Name = ""
+Description = ""
+Note = ""
+
+Class 279
+Name = ""
+Description = ""
+Note = ""
+
+Class 280
+Name = ""
+Description = ""
+Note = ""
+
+Class 281
+Name = ""
+Description = ""
+Note = ""
+
+Class 282
+Name = ""
+Description = ""
+Note = ""
+
+Class 283
+Name = ""
+Description = ""
+Note = ""
+
+Class 284
+Name = ""
+Description = ""
+Note = ""
+
+Class 285
+Name = ""
+Description = ""
+Note = ""
+
+Class 286
+Name = ""
+Description = ""
+Note = ""
+
+Class 287
+Name = ""
+Description = ""
+Note = ""
+
+Class 288
+Name = ""
+Description = ""
+Note = ""
+
+Class 289
+Name = ""
+Description = ""
+Note = ""
+
+Class 290
+Name = ""
+Description = ""
+Note = ""
+
+Class 291
+Name = ""
+Description = ""
+Note = ""
+
+Class 292
+Name = ""
+Description = ""
+Note = ""
+
+Class 293
+Name = ""
+Description = ""
+Note = ""
+
+Class 294
+Name = ""
+Description = ""
+Note = ""
+
+Class 295
+Name = ""
+Description = ""
+Note = ""
+
+Class 296
+Name = ""
+Description = ""
+Note = ""
+
+Class 297
+Name = ""
+Description = ""
+Note = ""
+
+Class 298
+Name = ""
+Description = ""
+Note = ""
+
+Class 299
+Name = ""
+Description = ""
+Note = ""
+
+Class 300
+Name = "●パッシブ用"
+Description = ""
+Note = ""
+
+Class 301
+Name = "TP増加+10"
+Description = ""
+Note = "<最大TP増加 10>"
+
+Class 302
+Name = "TP増加+30"
+Description = ""
+Note = "<最大TP増加 30>"
+
+Class 303
+Name = "TP増加+50"
+Description = ""
+Note = "<最大TP増加 50>"
+
+Class 304
+Name = "HP増強"
+Description = ""
+Note = ""
+
+Class 305
+Name = "HP増強Lv2"
+Description = ""
+Note = ""
+
+Class 306
+Name = "HP増強Lv3"
+Description = ""
+Note = ""
+
+Class 307
+Name = "HP増強Lv4"
+Description = ""
+Note = ""
+
+Class 308
+Name = "HP増強Lv5"
+Description = ""
+Note = ""
+
+Class 309
+Name = "MP増強"
+Description = ""
+Note = ""
+
+Class 310
+Name = "MP増強Lv2"
+Description = ""
+Note = ""
+
+Class 311
+Name = "MP増強Lv3"
+Description = ""
+Note = ""
+
+Class 312
+Name = "攻撃強化"
+Description = ""
+Note = ""
+
+Class 313
+Name = "攻撃強化Lv2"
+Description = ""
+Note = ""
+
+Class 314
+Name = "攻撃強化Lv3"
+Description = ""
+Note = ""
+
+Class 315
+Name = "魔法力強化"
+Description = ""
+Note = ""
+
+Class 316
+Name = "魔法力強化Lv2"
+Description = ""
+Note = ""
+
+Class 317
+Name = "魔法力強化Lv3"
+Description = ""
+Note = ""
+
+Class 318
+Name = ""
+Description = ""
+Note = "<属性強化 1-10>"
+
+Class 319
+Name = ""
+Description = ""
+Note = ""
+
+Class 320
+Name = "三属性強化"
+Description = ""
+Note = "<属性強化 1-10,2-10,3-10>"
+
+Class 321
+Name = "三属性強化Lv2"
+Description = ""
+Note = "<属性強化 1-20,2-20,3-20>"
+
+Class 322
+Name = "三属性強化Lv3"
+Description = ""
+Note = "<属性強化 1-30,2-30,3-30>"
+
+Class 323
+Name = "元素強化"
+Description = ""
+Note = "<属性強化 4-10,5-10,6-10,7-10,8-10>"
+
+Class 324
+Name = "元素強化Lv2"
+Description = ""
+Note = "<属性強化 4-20,5-20,6-20,7-20,8-20>"
+
+Class 325
+Name = "元素強化Lv3"
+Description = ""
+Note = "<属性強化 4-30,5-30,6-30,7-30,8-30>"
+
+Class 326
+Name = "冥属性"
+Description = ""
+Note = "<属性強化 10-10,11-10>"
+
+Class 327
+Name = "冥属性Lv2"
+Description = ""
+Note = "<属性強化 10-20,11-20>"
+
+Class 328
+Name = "冥属性Lv3"
+Description = ""
+Note = "<属性強化 10-30,11-30>"
+
+Class 329
+Name = ""
+Description = ""
+Note = ""
+
+Class 330
+Name = "戦闘後治癒"
+Description = ""
+Note = "<戦闘後回復 3,3>"
+
+Class 331
+Name = "戦闘後治癒Lv2"
+Description = ""
+Note = "<戦闘後回復 5,5>"
+
+Class 332
+Name = "戦闘後治癒Lv3"
+Description = ""
+Note = "<戦闘後回復 8,8>"
+
+Class 333
+Name = "致命知識"
+Description = ""
+Note = ""
+
+Class 334
+Name = "致命知識Lv2"
+Description = ""
+Note = ""
+
+Class 335
+Name = "致命知識Lv3"
+Description = ""
+Note = ""
+
+Class 336
+Name = "直感"
+Description = ""
+Note = "<オートガード 10%,10%>"
+
+Class 337
+Name = "直感Lv2"
+Description = ""
+Note = "<オートガード 20%,10%>"
+
+Class 338
+Name = "直感Lv3"
+Description = ""
+Note = "<オートガード 20%,20%>"
+
+Class 339
+Name = ""
+Description = ""
+Note = ""
+
+Class 340
+Name = "底力"
+Description = ""
+Note = "<HP減少時強化 50,5%>\r\n<HP減少時強化 30,8%>\r\n<HP減少時強化 10,10%>"
+
+Class 341
+Name = "底力Lv2"
+Description = ""
+Note = "<HP減少時強化 70,5%>\r\n<HP減少時強化 50,8%>\r\n<HP減少時強化 30,10%>\r\n<HP減少時強化 10,15%>"
+
+Class 342
+Name = "底力Lv3"
+Description = ""
+Note = "<HP減少時強化 80,5%>\r\n<HP減少時強化 60,8%>\r\n<HP減少時強化 50,10%>\r\n<HP減少時強化 30,15%>\r\n<HP減少時強化 20,20%>\r\n<HP減少時強化 10,30%>"
+
+Class 343
+Name = "カウンター"
+Description = ""
+Note = "<物理反撃スキル 563>\r\n"
+
+Class 344
+Name = "カウンターLv2"
+Description = ""
+Note = "<物理反撃スキル 563>\r\n<反撃強化 10%>\r\n"
+
+Class 345
+Name = "カウンターLv3"
+Description = ""
+Note = "<反撃スキル 563>\r\n<反撃強化 30%>\r\n"
+
+Class 346
+Name = ""
+Description = ""
+Note = ""
+
+Class 347
+Name = ""
+Description = ""
+Note = ""
+
+Class 348
+Name = "小回復"
+Description = ""
+Note = "<ターン終了時発動 N,569,10%>"
+
+Class 349
+Name = "小回復Lv2"
+Description = ""
+Note = "<ターン終了時発動 N,569,20%>"
+
+Class 350
+Name = "小回復Lv3"
+Description = ""
+Note = "<ターン終了時発動 N,569,30%>"
+
+Class 351
+Name = ""
+Description = ""
+Note = ""
+
+Class 352
+Name = "アクションアップⅠ"
+Description = ""
+Note = "<スキルタイプ強化 1-50>"
+
+Class 353
+Name = "アクションアップ2"
+Description = ""
+Note = "<スキルタイプ強化 1-100>"
+
+Class 354
+Name = ""
+Description = ""
+Note = ""
+
+Class 355
+Name = ""
+Description = ""
+Note = ""
+
+Class 356
+Name = ""
+Description = ""
+Note = ""
+
+Class 357
+Name = ""
+Description = ""
+Note = ""
+
+Class 358
+Name = ""
+Description = ""
+Note = ""
+
+Class 359
+Name = ""
+Description = ""
+Note = ""
+
+Class 360
+Name = ""
+Description = ""
+Note = ""
+
+Class 361
+Name = ""
+Description = ""
+Note = ""
+
+Class 362
+Name = ""
+Description = ""
+Note = ""
+
+Class 363
+Name = ""
+Description = ""
+Note = ""
+
+Class 364
+Name = ""
+Description = ""
+Note = ""
+
+Class 365
+Name = ""
+Description = ""
+Note = ""
+
+Class 366
+Name = ""
+Description = ""
+Note = ""
+
+Class 367
+Name = ""
+Description = ""
+Note = ""
+
+Class 368
+Name = ""
+Description = ""
+Note = ""
+
+Class 369
+Name = ""
+Description = ""
+Note = ""
+
+Class 370
+Name = ""
+Description = ""
+Note = ""
+
+Class 371
+Name = ""
+Description = ""
+Note = ""
+
+Class 372
+Name = ""
+Description = ""
+Note = ""
+
+Class 373
+Name = ""
+Description = ""
+Note = ""
+
+Class 374
+Name = ""
+Description = ""
+Note = ""
+
+Class 375
+Name = ""
+Description = ""
+Note = ""
+
+Class 376
+Name = ""
+Description = ""
+Note = ""
+
+Class 377
+Name = ""
+Description = ""
+Note = ""
+
+Class 378
+Name = ""
+Description = ""
+Note = ""
+
+Class 379
+Name = ""
+Description = ""
+Note = ""
+
+Class 380
+Name = ""
+Description = ""
+Note = ""
+
+Class 381
+Name = ""
+Description = ""
+Note = ""
+
+Class 382
+Name = ""
+Description = ""
+Note = ""
+
+Class 383
+Name = ""
+Description = ""
+Note = ""
+
+Class 384
+Name = ""
+Description = ""
+Note = ""
+
+Class 385
+Name = ""
+Description = ""
+Note = ""
+
+Class 386
+Name = ""
+Description = ""
+Note = ""
+
+Class 387
+Name = ""
+Description = ""
+Note = ""
+
+Class 388
+Name = ""
+Description = ""
+Note = ""
+
+Class 389
+Name = ""
+Description = ""
+Note = ""
+
+Class 390
+Name = ""
+Description = ""
+Note = ""
+
+Class 391
+Name = ""
+Description = ""
+Note = ""
+
+Class 392
+Name = ""
+Description = ""
+Note = ""
+
+Class 393
+Name = ""
+Description = ""
+Note = ""
+
+Class 394
+Name = ""
+Description = ""
+Note = ""
+
+Class 395
+Name = ""
+Description = ""
+Note = ""
+
+Class 396
+Name = ""
+Description = ""
+Note = ""
+
+Class 397
+Name = ""
+Description = ""
+Note = ""
+
+Class 398
+Name = ""
+Description = ""
+Note = ""
+
+Class 399
+Name = ""
+Description = ""
+Note = ""
+
+Class 400
+Name = ""
+Description = ""
+Note = ""
+
+Class 401
+Name = ""
+Description = ""
+Note = ""
+
+Class 402
+Name = ""
+Description = ""
+Note = ""
+
+Class 403
+Name = ""
+Description = ""
+Note = ""
+
+Class 404
+Name = ""
+Description = ""
+Note = ""
+
+Class 405
+Name = ""
+Description = ""
+Note = ""
+
+Class 406
+Name = ""
+Description = ""
+Note = ""
+
+Class 407
+Name = ""
+Description = ""
+Note = ""
+
+Class 408
+Name = ""
+Description = ""
+Note = ""
+
+Class 409
+Name = ""
+Description = ""
+Note = ""
+
+Class 410
+Name = ""
+Description = ""
+Note = ""
+
+Class 411
+Name = ""
+Description = ""
+Note = ""
+
+Class 412
+Name = ""
+Description = ""
+Note = ""
+
+Class 413
+Name = ""
+Description = ""
+Note = ""
+
+Class 414
+Name = ""
+Description = ""
+Note = ""
+
+Class 415
+Name = ""
+Description = ""
+Note = ""
+
+Class 416
+Name = ""
+Description = ""
+Note = ""
+
+Class 417
+Name = ""
+Description = ""
+Note = ""
+
+Class 418
+Name = ""
+Description = ""
+Note = ""
+
+Class 419
+Name = ""
+Description = ""
+Note = ""
+
+Class 420
+Name = ""
+Description = ""
+Note = ""
+
+Class 421
+Name = ""
+Description = ""
+Note = ""
+
+Class 422
+Name = ""
+Description = ""
+Note = ""
+
+Class 423
+Name = ""
+Description = ""
+Note = ""
+
+Class 424
+Name = ""
+Description = ""
+Note = ""
+
+Class 425
+Name = ""
+Description = ""
+Note = ""
+
+Class 426
+Name = ""
+Description = ""
+Note = ""
+
+Class 427
+Name = ""
+Description = ""
+Note = ""
+
+Class 428
+Name = ""
+Description = ""
+Note = ""
+
+Class 429
+Name = ""
+Description = ""
+Note = ""
+
+Class 430
+Name = ""
+Description = ""
+Note = ""
+
+Class 431
+Name = ""
+Description = ""
+Note = ""
+
+Class 432
+Name = ""
+Description = ""
+Note = ""
+
+Class 433
+Name = ""
+Description = ""
+Note = ""
+
+Class 434
+Name = ""
+Description = ""
+Note = ""
+
+Class 435
+Name = ""
+Description = ""
+Note = ""
+
+Class 436
+Name = ""
+Description = ""
+Note = ""
+
+Class 437
+Name = ""
+Description = ""
+Note = ""
+
+Class 438
+Name = ""
+Description = ""
+Note = ""
+
+Class 439
+Name = ""
+Description = ""
+Note = ""
+
+Class 440
+Name = ""
+Description = ""
+Note = ""
+
+Class 441
+Name = ""
+Description = ""
+Note = ""
+
+Class 442
+Name = ""
+Description = ""
+Note = ""
+
+Class 443
+Name = ""
+Description = ""
+Note = ""
+
+Class 444
+Name = ""
+Description = ""
+Note = ""
+
+Class 445
+Name = ""
+Description = ""
+Note = ""
+
+Class 446
+Name = ""
+Description = ""
+Note = ""
+
+Class 447
+Name = ""
+Description = ""
+Note = ""
+
+Class 448
+Name = ""
+Description = ""
+Note = ""
+
+Class 449
+Name = ""
+Description = ""
+Note = ""
+
+Class 450
+Name = ""
+Description = ""
+Note = ""
+
+Class 451
+Name = ""
+Description = ""
+Note = ""
+
+Class 452
+Name = ""
+Description = ""
+Note = ""
+
+Class 453
+Name = ""
+Description = ""
+Note = ""
+
+Class 454
+Name = ""
+Description = ""
+Note = ""
+
+Class 455
+Name = ""
+Description = ""
+Note = ""
+
+Class 456
+Name = ""
+Description = ""
+Note = ""
+
+Class 457
+Name = ""
+Description = ""
+Note = ""
+
+Class 458
+Name = ""
+Description = ""
+Note = ""
+
+Class 459
+Name = ""
+Description = ""
+Note = ""
+
+Class 460
+Name = ""
+Description = ""
+Note = ""
+
+Class 461
+Name = ""
+Description = ""
+Note = ""
+
+Class 462
+Name = ""
+Description = ""
+Note = ""
+
+Class 463
+Name = ""
+Description = ""
+Note = ""
+
+Class 464
+Name = ""
+Description = ""
+Note = ""
+
+Class 465
+Name = ""
+Description = ""
+Note = ""
+
+Class 466
+Name = ""
+Description = ""
+Note = ""
+
+Class 467
+Name = ""
+Description = ""
+Note = ""
+
+Class 468
+Name = ""
+Description = ""
+Note = ""
+
+Class 469
+Name = ""
+Description = ""
+Note = ""
+
+Class 470
+Name = ""
+Description = ""
+Note = ""
+
+Class 471
+Name = ""
+Description = ""
+Note = ""
+
+Class 472
+Name = ""
+Description = ""
+Note = ""
+
+Class 473
+Name = ""
+Description = ""
+Note = ""
+
+Class 474
+Name = ""
+Description = ""
+Note = ""
+
+Class 475
+Name = ""
+Description = ""
+Note = ""
+
+Class 476
+Name = ""
+Description = ""
+Note = ""
+
+Class 477
+Name = ""
+Description = ""
+Note = ""
+
+Class 478
+Name = ""
+Description = ""
+Note = ""
+
+Class 479
+Name = ""
+Description = ""
+Note = ""
+
+Class 480
+Name = ""
+Description = ""
+Note = ""
+
+Class 481
+Name = ""
+Description = ""
+Note = ""
+
+Class 482
+Name = ""
+Description = ""
+Note = ""
+
+Class 483
+Name = ""
+Description = ""
+Note = ""
+
+Class 484
+Name = ""
+Description = ""
+Note = ""
+
+Class 485
+Name = ""
+Description = ""
+Note = ""
+
+Class 486
+Name = ""
+Description = ""
+Note = ""
+
+Class 487
+Name = ""
+Description = ""
+Note = ""
+
+Class 488
+Name = ""
+Description = ""
+Note = ""
+
+Class 489
+Name = ""
+Description = ""
+Note = ""
+
+Class 490
+Name = ""
+Description = ""
+Note = ""
+
+Class 491
+Name = ""
+Description = ""
+Note = ""
+
+Class 492
+Name = ""
+Description = ""
+Note = ""
+
+Class 493
+Name = ""
+Description = ""
+Note = ""
+
+Class 494
+Name = ""
+Description = ""
+Note = ""
+
+Class 495
+Name = ""
+Description = ""
+Note = ""
+
+Class 496
+Name = ""
+Description = ""
+Note = ""
+
+Class 497
+Name = ""
+Description = ""
+Note = ""
+
+Class 498
+Name = ""
+Description = ""
+Note = ""
+
+Class 499
+Name = ""
+Description = ""
+Note = ""
+
+Class 500
+Name = ""
+Description = ""
+Note = ""
+

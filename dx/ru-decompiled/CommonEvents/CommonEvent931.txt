@@ -1,0 +1,29 @@
+CommonEvent 931
+Name = "スキル界侵入"
+
+  ConditionalBranch([4, 1, 0])
+    Empty([])
+
+  Else([])
+    ExitEventProcessing([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([0, 16, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･････既にスキル界に入っている。"])
+    ExitEventProcessing([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([929])
+  CallCommonEvent([997])
+  CallCommonEvent([930])
+  ControlSwitches([16, 16, 0])
+  FadeoutScreen([])
+  SaveBGM([])
+  TransferPlayer([0, 2, 47, 22, 2, 0])
+  ControlSwitches([7, 7, 0])
+  PlayBGM(["RPG::BGM(@name=\"スキル界１\", @volume=85, @pitch=105)"])
+  FadeinScreen([])
+  Empty([])

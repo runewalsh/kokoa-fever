@@ -1,0 +1,28 @@
+CommonEvent 49
+Name = "・立ち絵　制服"
+
+  ControlVariables([101, 101, 0, 0, 2])
+  ConditionalBranch([0, 15, 0])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([45])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([0, 14, 0])
+    ConditionalBranch([11, 11])
+      ErasePicture([20])
+      ErasePicture([25])
+      ErasePicture([30])
+      Wait([2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([50])
+  Wait([2])
+  Empty([])

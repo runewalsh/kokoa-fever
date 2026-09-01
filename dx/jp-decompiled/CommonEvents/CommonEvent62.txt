@@ -1,0 +1,21 @@
+CommonEvent 62
+Name = "　通常"
+
+  ConditionalBranch([4, 1, 6, 36])
+    ConditionalBranch([4, 1, 6, 32])
+      ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココア戦闘立ち絵裸汁A1", 0])
+      Empty([])
+
+    Else([])
+      ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココア戦闘立ち絵裸A1", 0])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ChangeActorGraphic([1, "1_ココアベース", 0, "50_ココア戦闘立ち絵A1", 0])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

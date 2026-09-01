@@ -1,0 +1,323 @@
+Display Name = "魔法協会"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "マル"
+
+  Page 0
+    ShowPicture([50, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]受付メイド\\C[0]"])
+    ShowText(["いらっしゃいませ!"])
+    ShowText(["貴方の生活を応援する魔法協会へようこそ！"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 1
+    ShowPicture([50, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["いらっしゃいませ!"])
+    ShowText(["貴方の生活を応援する魔法協会へようこそ！"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 2
+    ShowPicture([50, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["２階の支部長室へどうぞ。"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 3
+    ShowPicture([50, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["いらっしゃいませ!"])
+    ShowText(["貴方の生活を応援する魔法協会へようこそ！"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 4
+    ShowPicture([50, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["２階の支部長室へどうぞ。"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 5
+    ShowPicture([50, "200_マールA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["いらっしゃいませ!"])
+    ShowText(["貴方の生活を応援する魔法協会へようこそ！"])
+    ErasePicture([50])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 15, 28, 0, 0])
+    ControlSwitches([201, 201, 0])
+    Empty([])
+
+  Page 1
+    ShowPicture([51, "200_ここなA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["二階の支部長室に行くんだよね？"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･そうだった。"])
+    ErasePicture([20])
+    ErasePicture([51])
+    Empty([])
+
+  Page 2
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 15, 28, 0, 0])
+    ControlSwitches([201, 201, 0])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+  Page 4
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 15, 28, 0, 0])
+    ControlSwitches([201, 201, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "受付メイド"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "受付メイド"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "受付メイド"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "受付メイド"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]住民\\C[0]"])
+    ShowText(["早くなんとかしてよぉ！"])
+    ShowText(["ウチの雨漏りが大変なのよ～"])
+    ShowText(["もう困っちゃう！"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]住民\\C[0]"])
+    ShowText(["早くなんとかしてよぉ！"])
+    ShowText(["ウチの雨漏りが大変なのよ～"])
+    ShowText(["もう困っちゃう！"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["････コイツの家はいつも雨漏りしてるな。"])
+    ErasePicture([50])
+    Empty([])
+
+  Page 2
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]住民\\C[0]"])
+    ShowText(["早くなんとかしてよぉ！"])
+    ShowText(["ウチの雨漏りが大変なのよ～"])
+    ShowText(["もう困っちゃう！"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]住民\\C[0]"])
+    ShowText(["ウチ大きくなったら魔法協会で働きたい！"])
+    ShowText(["でも魔法使えるエリートじゃないと無理だって"])
+    ShowText(["お母さん言ってるの････。"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 96, 16, 18, 8, 0])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 96, 17, 18, 8, 0])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 96, 18, 18, 8, 0])
+    Empty([])
+
+CommonEvent 13
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 14
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    FadeoutScreen([])
+    SetEventLocation([13, 0, 27, 23, 8])
+    SetEventLocation([14, 0, 28, 23, 8])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShotBalloonIcon([14, 1, true])
+    SetMoveRoute([14, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あっ！ ココア来た！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん。来たよ！"])
+    ErasePicture([51])
+    SetMoveRoute([13, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["ん･･･あぁ、話を聞きに来たのか。"])
+    ShowPicture([52, "200_マールA1", 0, 0, -200, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["こんにちわココアさん。"])
+    ShowText(["それでは皆様。２階の支部長室にお願います。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･マールなの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["はいマールです。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["それじゃあ二階に行くか。"])
+    ShowPicture([20, "200_ココアA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん････。"])
+    FadeoutScreen([])
+    ChangePartyMember([5, 0, 0])
+    ChangePartyMember([7, 0, 0])
+    RecoverAll([0, 0])
+    ControlVariables([302, 302, 0, 0, 1120])
+    ErasePicture([20])
+    ErasePicture([50])
+    ErasePicture([52])
+    SetEventLocation([13, 0, 49, 2, 0])
+    SetEventLocation([14, 0, 49, 3, 0])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    FadeoutScreen([])
+    CallCommonEvent([39])
+    SetEventLocation([13, 0, 27, 23, 8])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["クロウ！"])
+    ShotBalloonIcon([13, 1, false])
+    Wait([20])
+    SetMoveRoute([13, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["････来たか。"])
+    ShowPicture([52, "200_マールA1", 0, 0, -200, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["こんにちわココアさん。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･マールこんにちわなの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["･･･では２階の所長室にお願いします。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["あぁ･･･。"])
+    FadeoutScreen([])
+    SetEventLocation([13, 0, 49, 2, 0])
+    ControlVariables([302, 302, 0, 0, 3100])
+    ChangePartyMember([7, 0, 0])
+    ChangeState([0, 7, 0, 34])
+    ErasePicture([20])
+    ErasePicture([50])
+    ErasePicture([52])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])

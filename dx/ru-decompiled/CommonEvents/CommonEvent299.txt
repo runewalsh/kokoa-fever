@@ -1,0 +1,15 @@
+CommonEvent 299
+Name = "フェラ音"
+
+  ConditionalBranch([1, 11, 0, 0, 0])
+    PlaySE(["RPG::SE(@name=\"フェラＳＥ（弱）長\", @pitch=100, @volume=100)"])
+    Wait([600])
+    Wait([600])
+    Wait([180])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

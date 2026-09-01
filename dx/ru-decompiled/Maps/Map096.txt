@@ -1,0 +1,201 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=12, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=12, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 97, 15, 23, 0, 0])
+    Empty([])
+
+  Page 2
+    Empty([])
+
+  Page 3
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=12, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=12, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 97, 15, 23, 0, 0])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 95, 19, 22, 2, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 95, 20, 22, 2, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 95, 21, 22, 2, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【火の魔法】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["火の属性魔法はMPの燃費が良くMP消費に比べて威力や範囲の性能が高い。"])
+    ShowText(["威力がそこそこ高いため攻撃に適した属性魔法と言える。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["また植物や氷の属性に強く、スライムには特に効果的である。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかし、水の属性に弱く"])
+    ShowText(["例え対象がスライム系統だったとしても"])
+    ShowText(["そのスライムが水の属性ならば"])
+    ShowText(["通るダメージはそこそこになってしまう。"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 才能限界 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["この世界に存在する者は才能に限りがある。"])
+    ShowText(["それを才能限界という。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["例えば、とある人物の才能限界がレベル50だとするとその人物は"])
+    ShowText(["どれだけ努力を積んでも50レベルから上に上がれないというものだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["これは戦闘のレベルだけの話ではない。"])
+    ShowText(["剣術の腕や魔法の力、極論で言えば学問にも才能限界があると言える。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["才能限界を迎えればどれだけ努力しようが無駄なのである。"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 魔剣戦争 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["この世界は一度滅んでいる。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["第一次魔剣戦争。"])
+    ShowText(["神々やそれに従う者が神剣・魔剣・聖剣といった今で語られている"])
+    ShowText(["全ての伝説級の力を用いて行われた戦争である。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["この戦争によって多くの神や魔神が死に、そして世界は壊れた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["神々が争った第一次魔剣戦争後、世界は新生した。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["人々は畑を耕し、子を生み、育て、増殖し繁栄する。"])
+    ShowText(["その過程で人は人と衝突した。戦争である。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["のちに戦争は大きくなり、世界を２つの大きな陣営で分けた。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["この大戦で主に活躍したのは魔剣の使い手達であった。"])
+    ShowText(["魔剣・聖剣・神剣・聖宝剣・神槍・魔槍・魔弓・神槌・妖刀などの"])
+    ShowText(["伝説級の力の使い手達である。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["これが今から約2000年前。後に第二次魔剣戦争と言われる大戦だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["第二次魔剣戦争が早期終結しなければ世界はまた滅びていただろう。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかし大きな力のぶつかり合いによって世界は深く傷つき"])
+    ShowText(["文明は著しく後退した。生存した人類は1%にも満たないと言われている"])
+    ShowText(["現在の文明レベルは当時の文明に比べると"])
+    ShowText(["想像が出来ないほど劣っているのだ"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["大戦により人類はまた１からの歩みを進め現在に至る。"])
+    ShowText(["我々はこの歴史をしっかりと認識しておかなければならない･･･。"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【雷の魔法】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["雷の属性魔法はMPの燃費が全体的に悪い。"])
+    ShowText(["しかしその分、威力・範囲に優れ圧倒的な殲滅力を持つ。"])
+    ShowText(["よって火の属性よりもさらに攻撃に特化した属性魔法と言える"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["また水の属性に強く、火の属性が対処にしくい水属性の相手を"])
+    ShowText(["容易に処理する事が可能だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかしながら、やはり燃費が悪いため"])
+    ShowText(["雷の属性は優れた魔法の貯蔵力を持った者で無いと扱いは難しくなる。"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 最強の矛と最強の盾 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["どんな盾でも貫く矛、どんな矛でも防ぐ盾"])
+    ShowText(["この２つをぶつけるとどうなるだろうか？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["結果はより強い方が勝つ･･･である。"])
+    ShowText(["スキルにも同じ事が言え、効果がお互いに干渉し合うならば"])
+    ShowText(["より強い能力が勝つ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["例えばどんな魔法障壁も無効化できる【貫通魔法】の固有能力と"])
+    ShowText(["どんな魔法をも無効化できる【絶対障壁】の２つをぶつけると"])
+    ShowText(["よりスキルの性能が高い方が勝つのである。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["例え無効化の能力を相手が持っていたとしても"])
+    ShowText(["より強力な力で圧倒すれば問題はないのだ。"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 鉱物と宝石 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["質の高い鉱物や宝石はより高い魔力を宿す事が可能と言われている。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["本来、金は柔らかく武器や防具には向かないものだが"])
+    ShowText(["この金に魔力を宿すと鉄よりも丈夫で強力な武具と成り得る。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["もちろん鉄にも魔力は宿るが、金などの希少度が高い鉱物の方が"])
+    ShowText(["より内包力が高いとされている。"])
+    Empty([])

@@ -1,0 +1,667 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "ドラゴン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "アイテム獲得A"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ControlVariables([205, 205, 1, 0, 1])
+    ControlVariables([401, 401, 0, 2, 1, 2])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([92, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 0, 1])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([93, 0, 1, 401])
+    ControlSwitches([90, 90, 1])
+    Empty([])
+
+CommonEvent 3
+Name = "アイテム獲得B"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ControlVariables([205, 205, 1, 0, 1])
+    ControlVariables([401, 401, 0, 2, 1, 2])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([92, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 0, 2])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([93, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 0, 1])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([102, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 0, 100])
+    ConditionalBranch([1, 401, 0, 50, 2])
+      ControlVariables([401, 401, 0, 2, 0, 2])
+      ChangeItems([104, 0, 1, 401])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([91, 91, 1])
+    Empty([])
+
+CommonEvent 4
+Name = "アイテム獲得C"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ControlVariables([205, 205, 1, 0, 1])
+    ControlVariables([401, 401, 0, 2, 1, 3])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 1, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([92, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 1, 2])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 0, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([93, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 1, 2])
+    ConditionalBranch([12, "$game_actors[1].skill_memorize?($data_skills[517])"])
+      ControlVariables([401, 401, 1, 2, 1, 2])
+      Empty([])
+
+    BranchEnd([])
+    ChangeItems([102, 0, 1, 401])
+    ControlVariables([401, 401, 0, 2, 0, 100])
+    ConditionalBranch([1, 401, 0, 80, 2])
+      ControlVariables([401, 401, 0, 2, 0, 2])
+      ChangeItems([105, 0, 1, 401])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([92, 92, 1])
+    Empty([])
+
+CommonEvent 5
+Name = "アイテム獲得装備"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    ControlVariables([206, 206, 1, 0, 1])
+    ControlVariables([401, 401, 0, 2, 0, 1])
+    ConditionalBranch([1, 401, 0, 0, 0])
+      ControlSelfSwitch(["A", 0])
+      Empty([])
+
+    Else([])
+      ControlSelfSwitch(["B", 0])
+      Empty([])
+
+    BranchEnd([])
+    ControlSelfSwitch(["C", 0])
+    ControlSwitches([93, 93, 1])
+    Empty([])
+
+  Page 2
+    ControlVariables([401, 401, 0, 2, 0, 100])
+    ConditionalBranch([1, 401, 0, 50, 2])
+      ControlVariables([401, 401, 0, 2, 0, 1])
+      ConditionalBranch([1, 401, 0, 0, 0])
+        ControlSelfSwitch(["A", 0])
+        Empty([])
+      Else([])
+        ControlSelfSwitch(["B", 0])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSelfSwitch(["C", 1])
+    Empty([])
+
+  Page 3
+    ControlVariables([401, 401, 0, 2, 0, 1000])
+    ConditionalBranch([1, 401, 0, 100, 2])
+      ControlVariables([401, 401, 0, 2, 1, 3])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ChangeWeapons([49, 0, 0, 1, false])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 2, 0])
+          ChangeWeapons([44, 0, 0, 1, false])
+          Empty([])
+        Else([])
+          ChangeWeapons([49, 0, 0, 1, false])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ControlVariables([401, 401, 0, 2, 1, 5])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ChangeWeapons([20, 0, 0, 1, false])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 2, 0])
+          ChangeWeapons([30, 0, 0, 1, false])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 401, 0, 3, 0])
+            ChangeWeapons([39, 0, 0, 1, false])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 401, 0, 4, 0])
+              ChangeWeapons([29, 0, 0, 1, false])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 401, 0, 5, 0])
+                ChangeWeapons([45, 0, 0, 1, false])
+                Empty([])
+              Else([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSelfSwitch(["A", 1])
+    Empty([])
+
+  Page 4
+    ControlVariables([401, 401, 0, 2, 0, 1000])
+    ConditionalBranch([1, 401, 0, 100, 2])
+      ControlVariables([401, 401, 0, 2, 1, 2])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ChangeArmor([226, 0, 0, 1, false])
+        Empty([])
+      Else([])
+        ChangeArmor([202, 0, 0, 1, false])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ControlVariables([401, 401, 0, 2, 1, 5])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ChangeArmor([179, 0, 0, 1, false])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 2, 0])
+          ChangeArmor([180, 0, 0, 1, false])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 401, 0, 3, 0])
+            ChangeArmor([187, 0, 0, 1, false])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 401, 0, 4, 0])
+              ChangeArmor([135, 0, 0, 1, false])
+              Empty([])
+            Else([])
+              ConditionalBranch([1, 401, 0, 5, 0])
+                ChangeArmor([115, 0, 0, 1, false])
+                Empty([])
+              Else([])
+                Empty([])
+              BranchEnd([])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSelfSwitch(["B", 1])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ChangePartyMember([5, 1, 0])
+    ChangePartyMember([7, 1, 0])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=14, @parameters=[0, 0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=14, @parameters=[0, 0])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([50, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････ドラゴンなの。"])
+    ShowPicture([49, "200_クロウA2", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["あぁ･･･だが眠っているようだ。"])
+    ShowText(["刺激しないように静かに通り抜けるぞ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["『魔剣使いとは戦うな、ドラゴンからは逃げろ』"])
+    ShowText(["それは私がクロウから一番初めに教えられた事だ。"])
+    ShowPicture([51, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["な、なんでこんな所にドラゴンがいるんだよぉ･････。"])
+    ShowPicture([49, "200_クロウA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["最近住み着いたのだろう････。"])
+    ShowText(["どうやらいちごの情報は少し古かったようだな。"])
+    ShowPicture([51, "200_ここなD3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ふにゃぁ･･･。"])
+    ErasePicture([49])
+    ErasePicture([50])
+    ErasePicture([51])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=30, @parameters=[2])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=30, @parameters=[2])"])
+    ShowPicture([51, "200_ここなD1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["へくちっ！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここながくしゃみをした。"])
+    ShowPicture([50, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････ここな。"])
+    ShowPicture([51, "200_ここなD2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["えへへ･･･ごめんだよ。"])
+    ShowPicture([50, "200_ココアA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかし、ここならしいと言えばここならしい。"])
+    ShowText(["さすがにこんなくしゃみ程度ではドラゴンも起きないだろう。"])
+    ShowText(["私も緊張しすぎていた。"])
+    ShowPicture([49, "200_クロウA2", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["走れ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････？"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["･････どうしたのクロウ？"])
+    ShowPicture([49, "200_クロウA2", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["ドラゴンが起きた。走れ！"])
+    ShowPicture([50, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････!!"])
+    PlaySE(["RPG::SE(@name=\"Monster4\", @pitch=110, @volume=100)"])
+    ErasePicture([49])
+    ErasePicture([50])
+    ErasePicture([51])
+    Wait([120])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=29, @parameters=[5])\", \"RPG::MoveCommand(@code=30, @parameters=[4])\", \"RPG::MoveCommand(@code=14, @parameters=[0, 0])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[5])"])
+    Unnamed(["RPG::MoveCommand(@code=30, @parameters=[4])"])
+    Unnamed(["RPG::MoveCommand(@code=14, @parameters=[0, 0])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Wait([40])
+    FadeoutScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=30, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    Unnamed(["RPG::MoveCommand(@code=30, @parameters=[3])"])
+    TransferPlayer([0, 210, 34, 40, 8, 0])
+    ControlVariables([302, 302, 0, 0, 5500])
+    SetEventLocation([8, 0, 35, 40, 8])
+    SetEventLocation([7, 0, 36, 39, 8])
+    PlaySE(["RPG::SE(@name=\"Earth9\", @pitch=125, @volume=100)"])
+    PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=105, @volume=100)"])
+    Wait([4])
+    PlaySE(["RPG::SE(@name=\"Earth7\", @pitch=105, @volume=100)"])
+    Wait([2])
+    Wait([4])
+    PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=80, @volume=100)"])
+    Wait([4])
+    PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=135, @volume=100)"])
+    Wait([4])
+    Wait([4])
+    PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=115, @volume=100)"])
+    Wait([4])
+    Wait([4])
+    PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=105, @volume=100)"])
+    Wait([4])
+    Wait([4])
+    PlaySE(["RPG::SE(@name=\"Earth9\", @pitch=125, @volume=100)"])
+    PlaySE(["RPG::SE(@name=\"Earth1\", @pitch=85, @volume=100)"])
+    ShowAnimation([-1, 72, true])
+    Wait([60])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([51, "200_ここなG1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["はわわ････道が塞がっちゃった････。"])
+    ShowPicture([50, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････危なかったの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["起きたドラゴンが興奮して暴れた影響で洞窟が崩れてしまった。"])
+    ShowPicture([49, "200_クロウA2", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["全員無事････だな。"])
+    ShowText(["土砂に埋もれなくて良かった。"])
+    ShowPicture([51, "200_ここなD2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あはは･･･ちょっと土は被っちゃったけどね～･･･。"])
+    ShowPicture([50, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["お風呂に入りたいの････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここなと同様に私も結構な土を被ってしまっていた。"])
+    ShowText(["しかしクロウは一番遅れて来たのに被害は少ない。"])
+    ShowText(["････これも技量と言うものだろうか？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["もうじき目的地だ。"])
+    ShowText(["それまで辛抱してくれ。"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･頑張るの。"])
+    FadeoutScreen([])
+    ErasePicture([49])
+    ErasePicture([50])
+    ErasePicture([51])
+    SetEventLocation([8, 0, 69, 1, 0])
+    SetEventLocation([7, 0, 69, 0, 0])
+    ChangePartyMember([5, 0, 0])
+    ChangePartyMember([7, 0, 0])
+    RecoverAll([0, 0])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 7
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    Empty([])
+
+CommonEvent 29
+Name = "EV029"
+
+  Page 0
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    Empty([])
+
+CommonEvent 34
+Name = "EV034"
+
+  Page 0
+    Empty([])
+
+CommonEvent 35
+Name = "EV035"
+
+  Page 0
+    Empty([])
+
+CommonEvent 36
+Name = "EV036"
+
+  Page 0
+    Empty([])
+
+CommonEvent 37
+Name = "EV037"
+
+  Page 0
+    Empty([])
+
+CommonEvent 38
+Name = "EV038"
+
+  Page 0
+    Empty([])
+
+CommonEvent 39
+Name = "EV039"
+
+  Page 0
+    Empty([])
+
+CommonEvent 40
+Name = "EV040"
+
+  Page 0
+    Empty([])
+
+CommonEvent 41
+Name = "EV041"
+
+  Page 0
+    Empty([])
+
+CommonEvent 42
+Name = "EV042"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 211, 11, 8, 2, 0])
+    Empty([])

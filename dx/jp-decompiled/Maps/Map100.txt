@@ -1,0 +1,150 @@
+Display Name = "山奥の村チミテール"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ChangePartyMember([5, 0, 0])
+    CallCommonEvent([979])
+    RecoverAll([0, 0])
+    FadeinScreen([])
+    Wait([60])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["チミテールなの。"])
+    ShowPicture([51, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["のどかな所だね～･････。"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････それでどうするの？"])
+    ShowPicture([51, "200_ここなG1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["え、えーっと･････とりあえず聞き込みから始めよう"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここなと二人で村人に話を聞いていくと"])
+    ShowText(["どうやら村長が詳しく知っていると言う事だった。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["村長に魔法協会からの使者という事で話を伺う事になった。"])
+    ShowText(["初めは使者という事を信じて貰えなかったけれど"])
+    ShowText(["この間のEランクマッチの活躍を見ていたみたいで"])
+    ShowText(["割と簡単に信用してもらえた。"])
+    ControlVariables([325, 325, 0, 0, 1])
+    TransferPlayer([0, 101, 13, 17, 8, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["魔法文化が取り入れられてからは若者が街に行ってしまって"])
+    ShowText(["村には年寄りばかり･･･この先が心配になります"])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少年\\C[0]"])
+    ShowText(["ぴょん！ ぴょん！"])
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["ぴょんぴょん"])
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    ShotBalloonIcon([0, 10, false])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]熟練の冒険者\\C[0]"])
+    ShowText(["この村も少子高齢化が進んでおるの･･"])
+    ShowText(["一冒険者のワシにはどうする事もできんが････"])
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]若い女性\\C[0]"])
+    ShowText(["もうじきキノコの出荷なのに････まさかあんな事になるなんて････"])
+    Empty([])

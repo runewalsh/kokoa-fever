@@ -1,0 +1,15 @@
+CommonEvent 317
+Name = "　３"
+
+  Wait([60])
+  PlayBGM(["RPG::BGM(@name=\"陵辱B\", @volume=100, @pitch=100)"])
+  ShowPicture([90, "1003_ココアスライム敗北A3", 0, 0, 0, 0, 100, 100, 255, 0])
+  FadeinScreen([])
+  Wait([60])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["\\C[20]ココア\\C[0]"])
+  ShowText(["あぁ･･･うっ････んんッ"])
+  ShowTextAttributes(["", 0, 1, 2])
+  ShowText(["私はスライムに陵辱されてしまった････。"])
+  FadeoutScreen([])
+  Empty([])

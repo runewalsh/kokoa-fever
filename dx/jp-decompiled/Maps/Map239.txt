@@ -1,0 +1,249 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeoutScreen([])
+    ConditionalBranch([1, 802, 0, 300, 0])
+      ControlVariables([802, 802, 0, 0, 500])
+      Empty([])
+
+    BranchEnd([])
+    ConditionalBranch([1, 802, 0, 1000, 1])
+      ControlVariables([401, 401, 0, 2, 1, 3])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ControlVariables([802, 802, 0, 0, 2000])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 2, 0])
+          ControlVariables([802, 802, 0, 0, 3000])
+          Empty([])
+        Else([])
+          ControlVariables([401, 401, 0, 2, 1, 3])
+          ConditionalBranch([1, 401, 0, 1, 0])
+            ControlVariables([802, 802, 0, 0, 4000])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 401, 0, 2, 0])
+              ControlVariables([802, 802, 0, 0, 4000])
+              Empty([])
+            Else([])
+              ControlVariables([802, 802, 0, 0, 5000])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 32, 52, 2, 0])
+    ControlSwitches([201, 201, 0])
+    ControlSwitches([1013, 1013, 1])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    FadeoutScreen([])
+    ConditionalBranch([1, 802, 0, 300, 0])
+      ControlVariables([802, 802, 0, 0, 500])
+      Empty([])
+
+    BranchEnd([])
+    ConditionalBranch([1, 802, 0, 1000, 1])
+      ControlVariables([401, 401, 0, 2, 1, 3])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ControlVariables([802, 802, 0, 0, 2000])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 2, 0])
+          ControlVariables([802, 802, 0, 0, 3000])
+          Empty([])
+        Else([])
+          ControlVariables([401, 401, 0, 2, 1, 3])
+          ConditionalBranch([1, 401, 0, 1, 0])
+            ControlVariables([802, 802, 0, 0, 4000])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 401, 0, 2, 0])
+              ControlVariables([802, 802, 0, 0, 4000])
+              Empty([])
+            Else([])
+              ControlVariables([802, 802, 0, 0, 5000])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 32, 52, 2, 0])
+    ControlSwitches([201, 201, 0])
+    ControlSwitches([1013, 1013, 1])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    FadeoutScreen([])
+    ConditionalBranch([1, 802, 0, 300, 0])
+      ControlVariables([802, 802, 0, 0, 500])
+      Empty([])
+
+    BranchEnd([])
+    ConditionalBranch([1, 802, 0, 1000, 1])
+      ControlVariables([401, 401, 0, 2, 1, 3])
+      ConditionalBranch([1, 401, 0, 1, 0])
+        ControlVariables([802, 802, 0, 0, 2000])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 2, 0])
+          ControlVariables([802, 802, 0, 0, 3000])
+          Empty([])
+        Else([])
+          ControlVariables([401, 401, 0, 2, 1, 3])
+          ConditionalBranch([1, 401, 0, 1, 0])
+            ControlVariables([802, 802, 0, 0, 4000])
+            Empty([])
+          Else([])
+            ConditionalBranch([1, 401, 0, 2, 0])
+              ControlVariables([802, 802, 0, 0, 4000])
+              Empty([])
+            Else([])
+              ControlVariables([802, 802, 0, 0, 5000])
+              Empty([])
+            BranchEnd([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 32, 52, 2, 0])
+    ControlSwitches([201, 201, 0])
+    ControlSwitches([1013, 1013, 1])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 4
+Name = "受付"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]番台\\C[0]"])
+    ShowText(["はいはい、女の子１人１００Yenだよ。"])
+    ControlSwitches([7, 7, 0])
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["今はいい", "入る"], 1])
+    When([0, "今はいい"])
+      Empty([])
+
+    When([1, "入る"])
+      ConditionalBranch([7, 100, 0])
+        ControlSwitches([1013, 1013, 0])
+        PlaySE(["RPG::SE(@name=\"Coin\", @pitch=100, @volume=85)"])
+        ChangeGold([1, 0, 100])
+        Wait([30])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]番台\\C[0]"])
+        ShowText(["お金が足りないようだねぇ･･･。"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    ChoicesEnd([])
+    ControlSwitches([7, 7, 1])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]番台\\C[0]"])
+    ShowText(["お代はもう頂いてるよ。"])
+    Empty([])
+
+CommonEvent 5
+Name = "男番台"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]番台\\C[0]"])
+    ShowText(["こっちは男湯だよ。"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]番台\\C[0]"])
+    ShowText(["こっちは男湯だよ。お嬢ちゃん"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]番台\\C[0]"])
+    ShowText(["こっちは男湯だよ。お嬢ちゃん"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 240, 16, 24, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 240, 16, 25, 0, 0])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])

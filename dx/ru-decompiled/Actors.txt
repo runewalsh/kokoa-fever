@@ -1,0 +1,240 @@
+Actor 1
+Nickname = ""
+Character Name = "1_ココア制服"
+Face Name = ""
+Name = "ココア"
+Description = ""
+Note = "\r\n<TP基本値 100>\r\n"
+
+Actor 2
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 3
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 4
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 5
+Nickname = ""
+Character Name = "ここなチビ２"
+Face Name = ""
+Name = "ここな"
+Description = ""
+Note = "\r\n<TP基本値 950>\r\n<開始時TP 100%>\r\n<最大重量補正 30>"
+
+Actor 6
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 7
+Nickname = ""
+Character Name = "ちびキャラ：クロウ"
+Face Name = ""
+Name = "クロウ"
+Description = ""
+Note = "<通常装備スロット 0,3,4,4,4,5,5>\r\n<TP基本値 180>\r\n<レベル限界増加:2000>\r\n<限界突破後補正:level>\r\n<必要経験値補正:100,level*level*3>\r\n<必要経験値補正:150,level*level*5>\r\n<必要経験値補正:200,level*level*10>\r\n<必要経験値補正:300,level*level*20>\r\n<必要経験値補正:500,level*level*level>"
+
+Actor 8
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 9
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 10
+Nickname = ""
+Character Name = "いちご2"
+Face Name = ""
+Name = "いちご"
+Description = ""
+Note = "<TP基本値 50>\r\n"
+
+Actor 11
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 12
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = "魔王"
+Description = ""
+Note = ""
+
+Actor 13
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 14
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 15
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 16
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 17
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 18
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 19
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 20
+Nickname = ""
+Character Name = "魔法少女リリィ"
+Face Name = ""
+Name = "リリィ"
+Description = ""
+Note = ""
+
+Actor 21
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 22
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 23
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 24
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 25
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 26
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 27
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 28
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 29
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 30
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+

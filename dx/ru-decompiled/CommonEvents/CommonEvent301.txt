@@ -1,0 +1,15 @@
+CommonEvent 301
+Name = "モブお姉さんA"
+
+  FadeoutScreen([])
+  SaveBGM([])
+  ControlVariables([421, 421, 0, 0, 0])
+  CallCommonEvent([39])
+  CallCommonEvent([997])
+  TransferPlayer([0, 13, 10, 12, 6, 0])
+  CallCommonEvent([302])
+  FadeoutScreen([])
+  ErasePicture([90])
+  FadeoutBGM([1])
+  Wait([60])
+  Empty([])

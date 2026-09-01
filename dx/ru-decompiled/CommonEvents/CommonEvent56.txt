@@ -1,0 +1,27 @@
+CommonEvent 56
+Name = "・立ち絵　裸　銭湯"
+
+  ConditionalBranch([0, 15, 0])
+    Empty([])
+
+  Else([])
+    ControlVariables([104, 104, 0, 0, 1])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([0, 14, 0])
+    ConditionalBranch([11, 11])
+      ErasePicture([20])
+      ErasePicture([25])
+      ErasePicture([30])
+      Wait([2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  CallCommonEvent([55])
+  Wait([2])
+  Empty([])

@@ -1,0 +1,25 @@
+CommonEvent 929
+Name = "　スキル界侵入PT解散"
+
+  ControlSwitches([301, 301, 1])
+  ControlSwitches([302, 302, 1])
+  ControlSwitches([303, 303, 1])
+  ConditionalBranch([4, 5, 0])
+    ControlSwitches([301, 301, 0])
+    ChangePartyMember([5, 1, 0])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 7, 0])
+    ControlSwitches([302, 302, 0])
+    ChangePartyMember([7, 1, 0])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 10, 0])
+    ControlSwitches([303, 303, 0])
+    ChangePartyMember([10, 1, 0])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

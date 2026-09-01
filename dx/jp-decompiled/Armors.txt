@@ -1,0 +1,7495 @@
+Armor 1
+Name = "寝巻きぐるみ"
+Description = "着ぐるみみたいな寝巻き。かわいい。"
+Note = ""
+
+Armor 2
+Name = "魔法学校の制服"
+Description = "ココア用におばあちゃんが用意してくれた制服"
+Note = ""
+
+Armor 3
+Name = "スクール水着"
+Description = "どこの学校かは知らないが学校指定の水着"
+Note = ""
+
+Armor 4
+Name = "体操服"
+Description = "下がスパッツ仕様の体操服。\r\nパンツは穿かない。"
+Note = ""
+
+Armor 5
+Name = "ハードレザースーツ"
+Description = "冒険者仕様の丈夫なスーツ。"
+Note = ""
+
+Armor 6
+Name = "旧式戦闘服"
+Description = "旧式････？"
+Note = ""
+
+Armor 7
+Name = "セーラー服"
+Description = "海軍ではありふれた服"
+Note = ""
+
+Armor 8
+Name = "セーラースク水"
+Description = "セーラー服とスク水を合わせた服装"
+Note = ""
+
+Armor 9
+Name = "雷の妖精服"
+Description = "雷属性の妖精をイメージして作られた洋服"
+Note = ""
+
+Armor 10
+Name = "黒の洋服"
+Description = "女の子の一般的なお洋服"
+Note = ""
+
+Armor 11
+Name = "バニースーツ"
+Description = "うさぎさんの服"
+Note = ""
+
+Armor 12
+Name = "怪盗ゴロニャーゴ変身セット"
+Description = "伝説の大怪盗ゴロニャーゴのなりきりセット。"
+Note = ""
+
+Armor 13
+Name = "あんこうスーツ"
+Description = "頭の明かりは あ～いの証"
+Note = ""
+
+Armor 14
+Name = "巫女装束"
+Description = "巫女さんが着てたらいいなー"
+Note = ""
+
+Armor 15
+Name = "黒装束"
+Description = "黒い装束"
+Note = ""
+
+Armor 16
+Name = "星導館制服"
+Description = "幼馴染で可愛い子しか着る事が許されない制服"
+Note = ""
+
+Armor 17
+Name = "爆裂魔導服"
+Description = "爆属性魔法が上手く扱えそうに思える服\r\n母はゆいゆい、父はひょいざぶろ↑"
+Note = ""
+
+Armor 18
+Name = "ペンギンスーツ"
+Description = "前にしっぽがある おかしなスーツ"
+Note = ""
+
+Armor 19
+Name = "テイルバトルスーツ"
+Description = "赤が着てそうなバトルスーツ"
+Note = ""
+
+Armor 20
+Name = ""
+Description = ""
+Note = ""
+
+Armor 21
+Name = ""
+Description = ""
+Note = ""
+
+Armor 22
+Name = ""
+Description = ""
+Note = ""
+
+Armor 23
+Name = ""
+Description = ""
+Note = ""
+
+Armor 24
+Name = ""
+Description = ""
+Note = ""
+
+Armor 25
+Name = ""
+Description = ""
+Note = ""
+
+Armor 26
+Name = ""
+Description = ""
+Note = ""
+
+Armor 27
+Name = ""
+Description = ""
+Note = ""
+
+Armor 28
+Name = ""
+Description = ""
+Note = ""
+
+Armor 29
+Name = ""
+Description = ""
+Note = ""
+
+Armor 30
+Name = ""
+Description = ""
+Note = ""
+
+Armor 31
+Name = ""
+Description = ""
+Note = ""
+
+Armor 32
+Name = ""
+Description = ""
+Note = ""
+
+Armor 33
+Name = ""
+Description = ""
+Note = ""
+
+Armor 34
+Name = ""
+Description = ""
+Note = ""
+
+Armor 35
+Name = ""
+Description = ""
+Note = ""
+
+Armor 36
+Name = ""
+Description = ""
+Note = ""
+
+Armor 37
+Name = ""
+Description = ""
+Note = ""
+
+Armor 38
+Name = ""
+Description = ""
+Note = ""
+
+Armor 39
+Name = ""
+Description = ""
+Note = ""
+
+Armor 40
+Name = "黒塗り"
+Description = "黒で潰された幻影。これも幻影の応用だ\r\n（闇要求：999）"
+Note = "<装備要求変数 5,999>"
+
+Armor 41
+Name = "絆創膏"
+Description = "絆創膏にはこんな使い方もある!!\r\n（闇要求：900）"
+Note = "<装備要求変数 5,900>"
+
+Armor 42
+Name = "女の子な下着"
+Description = "女の子の下着が普通の生地で出来てると思った？\r\n（闇要求：300）"
+Note = "<装備要求変数 5,300>"
+
+Armor 43
+Name = "セクシー水着"
+Description = "sexyな水着\r\n（闇要求：200）"
+Note = "<装備要求変数 5,200>"
+
+Armor 44
+Name = "スケベスーツ"
+Description = "スケベなスーツ。\r\n丸見えじゃないか･･･ （闇要求：700）"
+Note = "<装備要求変数 5,700>"
+
+Armor 45
+Name = "スケベ水着"
+Description = "スケベな水着。\r\nうん。スケベだ。 （闇要求：800）"
+Note = "<装備要求変数 5,800>"
+
+Armor 46
+Name = "ラクガキ"
+Description = "ひどいラクガキ\r\n（闇要求：1500）"
+Note = "<装備要求変数 5,1500>"
+
+Armor 47
+Name = "色白シート"
+Description = "肌が白くなるシート。\r\n（闇要求：1200）"
+Note = "<装備要求変数 5,1200>"
+
+Armor 48
+Name = "透明マント"
+Description = "誰にも見えない高級マント\r\n（闇要求：1000）"
+Note = "<装備要求変数 5,1000>"
+
+Armor 49
+Name = ""
+Description = ""
+Note = ""
+
+Armor 50
+Name = ""
+Description = ""
+Note = ""
+
+Armor 51
+Name = ""
+Description = ""
+Note = ""
+
+Armor 52
+Name = ""
+Description = ""
+Note = ""
+
+Armor 53
+Name = ""
+Description = ""
+Note = ""
+
+Armor 54
+Name = ""
+Description = ""
+Note = ""
+
+Armor 55
+Name = ""
+Description = ""
+Note = ""
+
+Armor 56
+Name = ""
+Description = ""
+Note = ""
+
+Armor 57
+Name = ""
+Description = ""
+Note = ""
+
+Armor 58
+Name = ""
+Description = ""
+Note = ""
+
+Armor 59
+Name = ""
+Description = ""
+Note = ""
+
+Armor 60
+Name = ""
+Description = ""
+Note = ""
+
+Armor 61
+Name = ""
+Description = ""
+Note = ""
+
+Armor 62
+Name = ""
+Description = ""
+Note = ""
+
+Armor 63
+Name = ""
+Description = ""
+Note = ""
+
+Armor 64
+Name = ""
+Description = ""
+Note = ""
+
+Armor 65
+Name = ""
+Description = ""
+Note = ""
+
+Armor 66
+Name = ""
+Description = ""
+Note = ""
+
+Armor 67
+Name = ""
+Description = ""
+Note = ""
+
+Armor 68
+Name = ""
+Description = ""
+Note = ""
+
+Armor 69
+Name = ""
+Description = ""
+Note = ""
+
+Armor 70
+Name = ""
+Description = ""
+Note = ""
+
+Armor 71
+Name = ""
+Description = ""
+Note = ""
+
+Armor 72
+Name = ""
+Description = ""
+Note = ""
+
+Armor 73
+Name = ""
+Description = ""
+Note = ""
+
+Armor 74
+Name = ""
+Description = ""
+Note = ""
+
+Armor 75
+Name = ""
+Description = ""
+Note = ""
+
+Armor 76
+Name = ""
+Description = ""
+Note = ""
+
+Armor 77
+Name = ""
+Description = ""
+Note = ""
+
+Armor 78
+Name = ""
+Description = ""
+Note = ""
+
+Armor 79
+Name = ""
+Description = ""
+Note = ""
+
+Armor 80
+Name = ""
+Description = ""
+Note = ""
+
+Armor 81
+Name = ""
+Description = ""
+Note = ""
+
+Armor 82
+Name = ""
+Description = ""
+Note = ""
+
+Armor 83
+Name = ""
+Description = ""
+Note = ""
+
+Armor 84
+Name = ""
+Description = ""
+Note = ""
+
+Armor 85
+Name = ""
+Description = ""
+Note = ""
+
+Armor 86
+Name = ""
+Description = ""
+Note = ""
+
+Armor 87
+Name = ""
+Description = ""
+Note = ""
+
+Armor 88
+Name = ""
+Description = ""
+Note = ""
+
+Armor 89
+Name = ""
+Description = ""
+Note = ""
+
+Armor 90
+Name = ""
+Description = ""
+Note = ""
+
+Armor 91
+Name = ""
+Description = ""
+Note = ""
+
+Armor 92
+Name = ""
+Description = ""
+Note = ""
+
+Armor 93
+Name = ""
+Description = ""
+Note = ""
+
+Armor 94
+Name = ""
+Description = ""
+Note = ""
+
+Armor 95
+Name = ""
+Description = ""
+Note = ""
+
+Armor 96
+Name = ""
+Description = ""
+Note = ""
+
+Armor 97
+Name = ""
+Description = ""
+Note = ""
+
+Armor 98
+Name = ""
+Description = ""
+Note = ""
+
+Armor 99
+Name = ""
+Description = ""
+Note = ""
+
+Armor 100
+Name = "＝＝＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Armor 101
+Name = "ボロボロのサンダル"
+Description = "IL：1\r\nボロボロなサンダル。うーんゴミですねコレは･･･。"
+Note = ""
+
+Armor 102
+Name = "ボロ布"
+Description = "IL：1\r\nマント･･･だったのか原型を留めていない布きれ"
+Note = ""
+
+Armor 103
+Name = "鳥の羽"
+Description = "IL：1\r\n何かの鳥の羽。"
+Note = ""
+
+Armor 104
+Name = "薄い板"
+Description = "IL：3　capa：15\r\n盾とも言えなくも無い薄い板。"
+Note = "<装備重量 15>"
+
+Armor 105
+Name = "さんまブレード"
+Description = "IL：5　capa：5\r\nおもちゃのサンマ。"
+Note = "<装備重量 5>"
+
+Armor 106
+Name = "数珠"
+Description = "IL：5\r\n念珠とも呼ばれる法具"
+Note = ""
+
+Armor 107
+Name = "かんざし"
+Description = "IL：6\r\n女の子用の可愛いかんざし"
+Note = ""
+
+Armor 108
+Name = "しゃもじ"
+Description = "IL：6\r\nどうしてこれを装備しようと思ったのか？"
+Note = ""
+
+Armor 109
+Name = "しいたけ"
+Description = "IL：8\r\n装備用しいたけ。食べられません。"
+Note = ""
+
+Armor 110
+Name = "木の盾"
+Description = "IL：10  capa：15\r\n木製の盾。木なのでほとんど見た目装備である。"
+Note = "<装備重量 15>"
+
+Armor 111
+Name = "木のブローチ"
+Description = "IL：10\r\n通常は金属で作られる。よって格好だけである。"
+Note = ""
+
+Armor 112
+Name = "木の指輪"
+Description = "IL：10\r\n木製の指輪。ただの木のワッカである。"
+Note = ""
+
+Armor 113
+Name = "木の腕輪"
+Description = "IL：10\r\n木製の腕輪。ただの木のワッカである。"
+Note = ""
+
+Armor 114
+Name = "木靴"
+Description = "IL：10\r\n木を基礎にして作られた靴。長時間歩くと足の裏が痛くなる"
+Note = ""
+
+Armor 115
+Name = "木の胸当て"
+Description = "IL：12\r\n木製の胸当て。無いよりはマシである"
+Note = ""
+
+Armor 116
+Name = "木の護身剣"
+Description = "IL：15　capa：10\r\nいざという時に使う小刀。しかし木製って･･･。"
+Note = "<装備重量 10>"
+
+Armor 117
+Name = "捨てられたお袋"
+Description = "IL：18　capa：3\r\nすげえなあ!不思議な世界だな!一緒に冒険しましょう"
+Note = "<装備重量 3>"
+
+Armor 118
+Name = "草履"
+Description = "IL：19\r\n草で出来た履物。軽くて歩きやすいがちょっとチクチクする。"
+Note = ""
+
+Armor 119
+Name = "犬の首輪"
+Description = "IL：20\r\n犬用の首輪。"
+Note = ""
+
+Armor 120
+Name = "胡蝶蘭"
+Description = "IL：21\r\n胡蝶蘭の造花。僅かながらの魔力が篭っている"
+Note = ""
+
+Armor 121
+Name = "おもちゃの手裏剣"
+Description = "IL：22\r\n玩具の手裏剣。当たってもそんなに痛くない。"
+Note = ""
+
+Armor 122
+Name = "石のブローチ"
+Description = "IL：24\r\nこれをアクセと言うならば、その者は原始人である。"
+Note = ""
+
+Armor 123
+Name = "石の指輪"
+Description = "IL：24\r\n石で出来たただのワッカ"
+Note = ""
+
+Armor 124
+Name = "石の腕輪"
+Description = "IL：24\r\n遠くから見ると石を腕に巻いているだけなのでダサイ。"
+Note = ""
+
+Armor 125
+Name = "石靴"
+Description = "IL：24\r\n靴底が石になっている木靴。相変わらず足が痛くなる"
+Note = ""
+
+Armor 126
+Name = "石のブーツ"
+Description = "IL：24　capa：5\r\n石をメインに使ったブーツ。これで蹴ると結構痛そう。"
+Note = "<装備重量 5>"
+
+Armor 127
+Name = "石の胸当て"
+Description = "IL：24\r\n石製の胸当て。硬いが重い･･･。"
+Note = ""
+
+Armor 128
+Name = "石の丸盾"
+Description = "IL：24  capa：10\r\n石製の丸盾。石ゆえに硬いぞ！"
+Note = "<装備重量 10>"
+
+Armor 129
+Name = "石の中盾"
+Description = "IL：24  capa：25\r\n石を基礎に設計された普通サイズの盾"
+Note = "<装備重量 25>"
+
+Armor 130
+Name = "エンジンハウジング"
+Description = "IL：24　capa：65\r\n耐圧製の密閉容器。"
+Note = "<装備重量 65>"
+
+Armor 131
+Name = "シャベル"
+Description = "IL：30　capa：30\r\n発掘用のシャベル。調査隊仕様"
+Note = "<装備重量 30>"
+
+Armor 132
+Name = "石のスコップ"
+Description = "IL：30 \r\n木と石で作られたスコップ。132回ぐらい使えば壊れそうである。"
+Note = ""
+
+Armor 133
+Name = "石のつるはし"
+Description = "IL：30 \r\n木と石でT字を作ると完成します。"
+Note = ""
+
+Armor 134
+Name = "鉛のブローチ"
+Description = "IL：35\r\n黒いブローチ。もちろん錆びているからである"
+Note = ""
+
+Armor 135
+Name = "鉛の指輪"
+Description = "IL：35\r\nこれをプレゼントされて喜ぶ女性はあまり居ないだろう。"
+Note = ""
+
+Armor 136
+Name = "鉛の腕輪"
+Description = "IL：35\r\nあったほうがマシだと思える程度には有用である"
+Note = ""
+
+Armor 137
+Name = "鉛の靴"
+Description = "IL：35\r\n割とそれらしく見える靴。だが耐久性は期待できない"
+Note = ""
+
+Armor 138
+Name = "鉛のブーツ"
+Description = "IL：35　capa：5\r\n鉛で作られた防御用装備。へこみ易い"
+Note = "<装備重量 5>"
+
+Armor 139
+Name = "鉛の胸当て"
+Description = "IL：35\r\n石矢ぐらいなら弾けそうな胸当て。ほどほどである。"
+Note = ""
+
+Armor 140
+Name = "鉛の丸盾"
+Description = "IL：35  capa：10\r\n扱いやすいが痛みやすい。これを兵装とする国は貧乏である"
+Note = "<装備重量 10>"
+
+Armor 141
+Name = "鉛の中盾"
+Description = "IL：35 capa：25\r\nそれなりに扱いやすい盾。だが消耗も激しい"
+Note = "<装備重量 25>"
+
+Armor 142
+Name = "鉛の大盾"
+Description = "IL：35 capa：40\r\nとにかく大きくしてみました。質量で防御する！"
+Note = "<装備重量 40>"
+
+Armor 143
+Name = "鉛の護身剣"
+Description = "IL：35 capa：5\r\n護身用の短剣。持っていて損は無さそう。"
+Note = "<装備重量 5>"
+
+Armor 144
+Name = "鉛のロッド"
+Description = "IL：35 capa：5  \r\n守護の魔力が込められたロッド。【シャキア】を扱える"
+Note = "<装備重量 5>"
+
+Armor 145
+Name = "鉛のペンダント"
+Description = "IL：35 capa：15\r\n魔力増幅効果が込められた不思議なペンダント"
+Note = "<装備重量 15>"
+
+Armor 146
+Name = "鉛のイヤリング"
+Description = "IL：35\r\n回復力を高める効果のあるイヤリング"
+Note = ""
+
+Armor 147
+Name = "鉛のツルハシ"
+Description = "IL：35\r\n柔らかくてそんなに掘れないような気がする････。"
+Note = ""
+
+Armor 148
+Name = "鉛のスコップ"
+Description = "IL：35\r\n土を掘るぐらいならば鉛製でも十分･･･？"
+Note = ""
+
+Armor 149
+Name = "鉛の弓"
+Description = "IL：35\r\n矢を放つ事が出来る"
+Note = ""
+
+Armor 150
+Name = "鉛のブーメラン"
+Description = "IL：35\r\n角に鉛をあしらったブーメラン。もちろん投げれる。"
+Note = ""
+
+Armor 151
+Name = "セロリ"
+Description = "IL：35\r\n装備用セロリ。とっても心強いなー････。"
+Note = ""
+
+Armor 152
+Name = "ねこみみ"
+Description = "IL：35　capa上昇：30\r\n付けると誰でも可愛くなれる高性能ねこみみ"
+Note = "<最大重量増加 30>"
+
+Armor 153
+Name = "嫌な目の人形"
+Description = "IL：35　capa：120\r\nイヤらしい目つきをした人形。呪いとかは無さそう･･･。"
+Note = "<装備重量 120>"
+
+Armor 154
+Name = "鉛の特大剣"
+Description = "IL：35 capa：40\r\n鉛で作ったとても大きな剣。攻撃力が高まると思って作りました"
+Note = "<装備重量 40>"
+
+Armor 155
+Name = "鉛の腕輪＋1"
+Description = "IL：35\r\nあったほうがマシだと思える程度には有用である"
+Note = "<図鑑無効>"
+
+Armor 156
+Name = "鉛の腕輪＋2"
+Description = "IL：35\r\nあったほうがマシだと思える程度には有用である"
+Note = "<図鑑無効>"
+
+Armor 157
+Name = ""
+Description = ""
+Note = ""
+
+Armor 158
+Name = "勾玉"
+Description = "IL：48　祭具にも用いられる装身具の一つ。\r\n魔力を込めて首飾りにするのが一般的"
+Note = ""
+
+Armor 159
+Name = "池沼下駄"
+Description = "IL：48　capa：30\r\nパワー系になれる下駄。履くと馬鹿になる？"
+Note = "<装備重量 30>"
+
+Armor 160
+Name = "銅の指輪"
+Description = "IL：52\r\n銅で作られた綺麗な指輪。綺麗なのは初めだけである。"
+Note = ""
+
+Armor 161
+Name = "銅の腕輪"
+Description = "IL：52\r\n手入れさえしっかりとしておけば綺麗に見える腕輪"
+Note = ""
+
+Armor 162
+Name = "スピードサンダル"
+Description = "IL：52\r\nスポーツ仕様のサンダル"
+Note = ""
+
+Armor 163
+Name = "銅のブーツ"
+Description = "IL：52　capa：5\r\n銅で作られたそれなりに頑丈な防具"
+Note = "<装備重量 5>"
+
+Armor 164
+Name = "銅の胸当て"
+Description = "IL：52　あると嬉しい胸当て。\r\n結構な数の命を救ってきたと思われる装備"
+Note = ""
+
+Armor 165
+Name = "銅の丸盾"
+Description = "IL：52  capa：10\r\n小盾でもそれなりに頑丈である。"
+Note = "<装備重量 10>"
+
+Armor 166
+Name = "銅の中盾"
+Description = "IL：52 capa：25\r\n銅をメインに使った中盾。扱いやすく性能も納得の一品"
+Note = "<装備重量 25>"
+
+Armor 167
+Name = "銅の大盾"
+Description = "IL：52 capa：40\r\n銅を贅沢に使った大きな盾。質量で防御するぜ！"
+Note = "<装備重量 40>"
+
+Armor 168
+Name = "銅の特大剣"
+Description = "IL：52 capa：40\r\n非常に重い大きな剣。これで叩きつけるのは打撃である。"
+Note = "<装備重量 40>"
+
+Armor 169
+Name = "銅のロッド"
+Description = "IL：52 capa：5  \r\n駆け出しの魔法使いならば是非持っておきたい杖"
+Note = "<装備重量 5>"
+
+Armor 170
+Name = "銅のペンダント"
+Description = "IL：52 capa：20\r\n魔力増幅効果が込められた不思議なペンダント"
+Note = "<装備重量 20>"
+
+Armor 171
+Name = "銅のイヤリング"
+Description = "IL：52\r\n魔剣スタイルにはありがたい装備"
+Note = ""
+
+Armor 172
+Name = "銅の弓"
+Description = "IL：52\r\n銅で作った弓。もちろん矢があってこそである。"
+Note = ""
+
+Armor 173
+Name = "銅のブーメラン"
+Description = "IL：52\r\n銅のブーメラン。威力も上がり納得の一品。"
+Note = ""
+
+Armor 174
+Name = "銅のツルハシ"
+Description = "IL：52\r\n硬いものでもほどほどに任せろ！"
+Note = ""
+
+Armor 175
+Name = "銅のスコップ"
+Description = "IL：52\r\n石にぶつかっても痛んだりしないスコップ"
+Note = ""
+
+Armor 176
+Name = "会心鈴"
+Description = "IL：56 capa：40\r\nクリティカル率が上がる気がする鈴"
+Note = "<装備重量 40>"
+
+Armor 177
+Name = "プレイ用蝋燭"
+Description = "IL：56 capa：5\r\nとても攻撃的な気持ちになれる不思議な蝋燭"
+Note = "<装備重量 5>"
+
+Armor 178
+Name = "山賊長の隠しナイフ"
+Description = "IL：60\r\n通常攻撃を１回追加する"
+Note = ""
+
+Armor 179
+Name = "銅のダガー"
+Description = "IL：62\r\n銅製のダガー。痛みやすい。"
+Note = ""
+
+Armor 180
+Name = "銅のライトボウ"
+Description = "IL：62\r\n銅製の軽い弓。扱いやすく値段も比較的安価"
+Note = ""
+
+Armor 181
+Name = "エリンギ"
+Description = "IL：62\r\n装備用エリンギ。食用では無いので食べたら下痢になる。"
+Note = ""
+
+Armor 182
+Name = "盗賊のダガー"
+Description = "IL：75\r\n駆け出しには勿体無い上物のダガー"
+Note = ""
+
+Armor 183
+Name = "母の髪飾り"
+Description = "IL：75 capa：20\r\n母の愛情が詰まった髪飾り"
+Note = "<装備重量 20>"
+
+Armor 184
+Name = "黄銅の腕輪"
+Description = "IL：75\r\nあくまでも防具としての腕輪"
+Note = ""
+
+Armor 185
+Name = "黄銅のブーツ"
+Description = "IL：75　capa：5\r\n黄銅を使う事で銅よりもさらに頑丈になりました。"
+Note = "<装備重量 5>"
+
+Armor 186
+Name = "黄銅の胸当て"
+Description = "IL：75\r\n銅製よりも性能が上昇した胸当て"
+Note = ""
+
+Armor 187
+Name = "黄銅の丸盾"
+Description = "IL：75  capa：10\r\n割かし性能の高い小盾"
+Note = "<装備重量 10>"
+
+Armor 188
+Name = "黄銅の中盾"
+Description = "IL：75 capa：25\r\n扱いやすく頑丈なお利口盾"
+Note = "<装備重量 25>"
+
+Armor 189
+Name = "黄銅の大盾"
+Description = "IL：75 capa：40\r\n今度は黄銅を使って質量防御するぜよ！"
+Note = "<装備重量 40>"
+
+Armor 190
+Name = "黄銅の弓"
+Description = "IL：75\r\n矢を忘れないようにしよう！"
+Note = ""
+
+Armor 191
+Name = "黄銅のブーメラン"
+Description = "IL：75\r\n黄銅のブーメラン。ちょっと重い･･･。"
+Note = ""
+
+Armor 192
+Name = "駆け出し魔法士のピアス"
+Description = "IL：82\r\nとにかく魔法力を上げたい方にオススメ！"
+Note = ""
+
+Armor 193
+Name = "初心魔剣士の指輪"
+Description = "IL：82　capa：15\r\n物魔複合型の冒険者には嬉しい一品です。"
+Note = "<装備重量 15>"
+
+Armor 194
+Name = "駆け出し魔法士のロッド"
+Description = "IL：82 capa：40\r\n駆け出しの魔法士に持たすにしても贅沢なロッドです。"
+Note = "<装備重量 40>"
+
+Armor 195
+Name = "マラカイトロッド"
+Description = "IL：82 capa：5\r\nマラカイトを魔触媒とした魔法のロッドです。"
+Note = "<装備重量 5>"
+
+Armor 196
+Name = "☆黄銅の特大魔力剣"
+Description = "IL：82 capa：40\r\n魔石を核に扱った黄銅の塊です。"
+Note = "<装備重量 40>"
+
+Armor 197
+Name = "ヘスティアダガー"
+Description = "IL：82\r\n刀身の死んでいる押しても引いても切れないダガー。ガラクタである。"
+Note = ""
+
+Armor 198
+Name = "ヘリオライトロッド"
+Description = "IL：82\r\nヘリオライトを魔触媒とした魔法のロッド。光魔法を扱える。"
+Note = ""
+
+Armor 199
+Name = "ヘリオライトイヤリング"
+Description = "IL：82\r\n魔剣スタイルの冒険者用に作られたイヤリング"
+Note = ""
+
+Armor 200
+Name = "ヘリオライトペンダント"
+Description = "IL：82 capa：20\r\n魔力増幅効果を宝石により高めたペンダント"
+Note = "<装備重量 20>"
+
+Armor 201
+Name = "ヘリオライトリング"
+Description = "IL：82\r\nヘリオライトをあしらった綺麗な指輪。実用性もある。"
+Note = ""
+
+Armor 202
+Name = "☆ヘリオライトシールド"
+Description = "IL：82 capa：25\r\n黄銅の盾とヘリオライトを組み合わせた攻性盾。"
+Note = "<装備重量 25>"
+
+Armor 203
+Name = "錆びた赤銅のブーツ"
+Description = "IL：95　capa：15　銅と金の合金である赤銅製のブーツ。\r\n手入れがされておらず性能が下がっている。"
+Note = "<装備重量 15>"
+
+Armor 204
+Name = "青銅の腕輪"
+Description = "IL：95\r\nそれなりに優れた腕輪。立派な防具である。"
+Note = ""
+
+Armor 205
+Name = "青銅の胸当て"
+Description = "IL：95\r\n割と兵装として採用されている一般的な胸当て"
+Note = ""
+
+Armor 206
+Name = "青銅の篭手"
+Description = "IL：95　capa：5\r\n腕を守る優れた篭手です。"
+Note = "<装備重量 5>"
+
+Armor 207
+Name = "青銅のブーツ"
+Description = "IL：95　capa：5\r\n武具に適した青銅を扱うことで性能がグッと上昇しました"
+Note = "<装備重量 5>"
+
+Armor 208
+Name = "青銅の指輪"
+Description = "IL：95\r\n青銅を扱ったことで独自の味わいが出た指輪"
+Note = ""
+
+Armor 209
+Name = "青銅の丸盾"
+Description = "IL：95  capa：10\r\n歩兵の一般的装備。これの扱いようで助かる命も多い。"
+Note = "<装備重量 10>"
+
+Armor 210
+Name = "青銅の中盾"
+Description = "IL：95 capa：25\r\n上等兵が持つ少し大きめの盾。一人前な感じがする。"
+Note = "<装備重量 25>"
+
+Armor 211
+Name = "青銅の大盾"
+Description = "IL：95 capa：40\r\n重歩兵が扱う大きく重い盾。大体の攻撃は置いておくだけで防げる"
+Note = "<装備重量 40>"
+
+Armor 212
+Name = "青銅の短剣"
+Description = "IL：95\r\n青銅製の護身用短剣。持っているだけで効果がある。"
+Note = ""
+
+Armor 213
+Name = "青銅の斧"
+Description = "IL：95\r\n青銅で作ったやや重めの斧。"
+Note = ""
+
+Armor 214
+Name = "青銅の歩兵槍"
+Description = "IL：95\r\n兵装として作られた実戦向けの槍。"
+Note = ""
+
+Armor 215
+Name = "青銅のメイス"
+Description = "IL：95\r\n神官やPTの回復役が好んで扱う鈍器。結構痛い。"
+Note = ""
+
+Armor 216
+Name = "青銅のバトルメイス"
+Description = "IL：95 capa：20\r\n重歩兵が扱う殴り殺す事を目的に作られたメイス"
+Note = "<装備重量 20>"
+
+Armor 217
+Name = "青銅の特大剣"
+Description = "IL：95 capa：55\r\n扱いにくいもののその威力は絶大です"
+Note = "<装備重量 55>"
+
+Armor 218
+Name = "青銅のブーメラン"
+Description = "IL：95\r\n青銅のブーメラン。いっぱい投げよう。"
+Note = ""
+
+Armor 219
+Name = "青銅の弓"
+Description = "IL：95\r\nバランスが良く扱いやすい弓"
+Note = ""
+
+Armor 220
+Name = "青銅のツルハシ"
+Description = "IL：95\r\n結構掘れるぞ！"
+Note = ""
+
+Armor 221
+Name = "青銅のスコップ"
+Description = "IL：95\r\n穴掘りは任せろー！"
+Note = ""
+
+Armor 222
+Name = "運動靴"
+Description = "IL：95\r\n運動に適した動きやすいシューズです。"
+Note = ""
+
+Armor 223
+Name = "巨大棒"
+Description = "IL：100 capa：35\r\n大型オークが扱うただひたすらに大きな棍棒"
+Note = "<装備重量 35>"
+
+Armor 224
+Name = "☆オークディフェンダー"
+Description = "IL：100 capa：5\r\nオークの戦士長、その証とも言える立派な蛮族盾"
+Note = "<装備重量 5>"
+
+Armor 225
+Name = "☆ラクダドライブ"
+Description = "IL：100 \r\n原理が良く分からない古の遺物"
+Note = ""
+
+Armor 226
+Name = "コボルトレッドシールド"
+Description = "IL：100 \r\nコボルト族が扱う良質の小盾"
+Note = ""
+
+Armor 227
+Name = "☆青銅のコボルト強化弓"
+Description = "IL：105  capa：25\r\nバランスが良く扱いやすい弓。ちょっとデカイ"
+Note = "<装備重量 25>"
+
+Armor 228
+Name = "☆バーサクリング"
+Description = "IL：105　capa：35\r\nデッドスポットから獲得した力が漲ってくる腕輪"
+Note = "<装備重量 35>"
+
+Armor 229
+Name = "魔術士のマント"
+Description = "IL：110\r\n魔法使いに嬉しい魔法使い用のマントです"
+Note = ""
+
+Armor 230
+Name = "赤銅の腕輪"
+Description = "IL：110\r\n銅に金を混ぜた少しレアな合金。玄人仕様だ。"
+Note = ""
+
+Armor 231
+Name = "赤銅の胸当て"
+Description = "IL：110\r\n玄人仕様の胸当て。わざわざ赤銅を使う者は少ない。"
+Note = ""
+
+Armor 232
+Name = "赤銅のブーツ"
+Description = "IL：110　capa：5\r\n金を混ぜる事で魔力による強化度が高まっています。"
+Note = "<装備重量 5>"
+
+Armor 233
+Name = "赤銅の指輪"
+Description = "IL：110　赤銅独自の良さが出ている指輪。\r\n金を混ぜる事で通常の銅よりも魔力保有力が高くなっている"
+Note = ""
+
+Armor 234
+Name = "赤銅のダガー"
+Description = "IL：115\r\n赤銅製の短剣。魔力強化の差により銅製とは比べ物にならない"
+Note = ""
+
+Armor 235
+Name = ""
+Description = ""
+Note = ""
+
+Armor 236
+Name = ""
+Description = ""
+Note = ""
+
+Armor 237
+Name = ""
+Description = ""
+Note = ""
+
+Armor 238
+Name = ""
+Description = ""
+Note = ""
+
+Armor 239
+Name = ""
+Description = ""
+Note = ""
+
+Armor 240
+Name = "☆アサシンダガー"
+Description = "IL：120  capa：15\r\n人を殺害する事だけに特化した殺しのナイフ"
+Note = "<装備重量 15>"
+
+Armor 241
+Name = ""
+Description = ""
+Note = ""
+
+Armor 242
+Name = ""
+Description = ""
+Note = ""
+
+Armor 243
+Name = ""
+Description = ""
+Note = ""
+
+Armor 244
+Name = ""
+Description = ""
+Note = ""
+
+Armor 245
+Name = ""
+Description = ""
+Note = ""
+
+Armor 246
+Name = ""
+Description = ""
+Note = ""
+
+Armor 247
+Name = ""
+Description = ""
+Note = ""
+
+Armor 248
+Name = ""
+Description = ""
+Note = ""
+
+Armor 249
+Name = ""
+Description = ""
+Note = ""
+
+Armor 250
+Name = ""
+Description = ""
+Note = ""
+
+Armor 251
+Name = ""
+Description = ""
+Note = ""
+
+Armor 252
+Name = ""
+Description = ""
+Note = ""
+
+Armor 253
+Name = ""
+Description = ""
+Note = ""
+
+Armor 254
+Name = ""
+Description = ""
+Note = ""
+
+Armor 255
+Name = "鉄　130"
+Description = ""
+Note = ""
+
+Armor 256
+Name = ""
+Description = ""
+Note = ""
+
+Armor 257
+Name = ""
+Description = ""
+Note = ""
+
+Armor 258
+Name = ""
+Description = ""
+Note = ""
+
+Armor 259
+Name = ""
+Description = ""
+Note = ""
+
+Armor 260
+Name = ""
+Description = ""
+Note = ""
+
+Armor 261
+Name = ""
+Description = ""
+Note = ""
+
+Armor 262
+Name = ""
+Description = ""
+Note = ""
+
+Armor 263
+Name = ""
+Description = ""
+Note = ""
+
+Armor 264
+Name = ""
+Description = ""
+Note = ""
+
+Armor 265
+Name = ""
+Description = ""
+Note = ""
+
+Armor 266
+Name = ""
+Description = ""
+Note = ""
+
+Armor 267
+Name = ""
+Description = ""
+Note = ""
+
+Armor 268
+Name = ""
+Description = ""
+Note = ""
+
+Armor 269
+Name = ""
+Description = ""
+Note = ""
+
+Armor 270
+Name = ""
+Description = ""
+Note = ""
+
+Armor 271
+Name = ""
+Description = ""
+Note = ""
+
+Armor 272
+Name = ""
+Description = ""
+Note = ""
+
+Armor 273
+Name = ""
+Description = ""
+Note = ""
+
+Armor 274
+Name = ""
+Description = ""
+Note = ""
+
+Armor 275
+Name = ""
+Description = ""
+Note = ""
+
+Armor 276
+Name = ""
+Description = ""
+Note = ""
+
+Armor 277
+Name = ""
+Description = ""
+Note = ""
+
+Armor 278
+Name = ""
+Description = ""
+Note = ""
+
+Armor 279
+Name = ""
+Description = ""
+Note = ""
+
+Armor 280
+Name = ""
+Description = ""
+Note = ""
+
+Armor 281
+Name = ""
+Description = ""
+Note = ""
+
+Armor 282
+Name = ""
+Description = ""
+Note = ""
+
+Armor 283
+Name = ""
+Description = ""
+Note = ""
+
+Armor 284
+Name = ""
+Description = ""
+Note = ""
+
+Armor 285
+Name = ""
+Description = ""
+Note = ""
+
+Armor 286
+Name = ""
+Description = ""
+Note = ""
+
+Armor 287
+Name = ""
+Description = ""
+Note = ""
+
+Armor 288
+Name = ""
+Description = ""
+Note = ""
+
+Armor 289
+Name = ""
+Description = ""
+Note = ""
+
+Armor 290
+Name = ""
+Description = ""
+Note = ""
+
+Armor 291
+Name = ""
+Description = ""
+Note = ""
+
+Armor 292
+Name = ""
+Description = ""
+Note = ""
+
+Armor 293
+Name = ""
+Description = ""
+Note = ""
+
+Armor 294
+Name = ""
+Description = ""
+Note = ""
+
+Armor 295
+Name = ""
+Description = ""
+Note = ""
+
+Armor 296
+Name = ""
+Description = ""
+Note = ""
+
+Armor 297
+Name = ""
+Description = ""
+Note = ""
+
+Armor 298
+Name = ""
+Description = ""
+Note = ""
+
+Armor 299
+Name = ""
+Description = ""
+Note = ""
+
+Armor 300
+Name = ""
+Description = ""
+Note = ""
+
+Armor 301
+Name = ""
+Description = ""
+Note = ""
+
+Armor 302
+Name = ""
+Description = ""
+Note = ""
+
+Armor 303
+Name = ""
+Description = ""
+Note = ""
+
+Armor 304
+Name = ""
+Description = ""
+Note = ""
+
+Armor 305
+Name = ""
+Description = ""
+Note = ""
+
+Armor 306
+Name = ""
+Description = ""
+Note = ""
+
+Armor 307
+Name = ""
+Description = ""
+Note = ""
+
+Armor 308
+Name = ""
+Description = ""
+Note = ""
+
+Armor 309
+Name = ""
+Description = ""
+Note = ""
+
+Armor 310
+Name = ""
+Description = ""
+Note = ""
+
+Armor 311
+Name = ""
+Description = ""
+Note = ""
+
+Armor 312
+Name = ""
+Description = ""
+Note = ""
+
+Armor 313
+Name = ""
+Description = ""
+Note = ""
+
+Armor 314
+Name = ""
+Description = ""
+Note = ""
+
+Armor 315
+Name = ""
+Description = ""
+Note = ""
+
+Armor 316
+Name = ""
+Description = ""
+Note = ""
+
+Armor 317
+Name = ""
+Description = ""
+Note = ""
+
+Armor 318
+Name = ""
+Description = ""
+Note = ""
+
+Armor 319
+Name = ""
+Description = ""
+Note = ""
+
+Armor 320
+Name = ""
+Description = ""
+Note = ""
+
+Armor 321
+Name = ""
+Description = ""
+Note = ""
+
+Armor 322
+Name = ""
+Description = ""
+Note = ""
+
+Armor 323
+Name = ""
+Description = ""
+Note = ""
+
+Armor 324
+Name = ""
+Description = ""
+Note = ""
+
+Armor 325
+Name = ""
+Description = ""
+Note = ""
+
+Armor 326
+Name = ""
+Description = ""
+Note = ""
+
+Armor 327
+Name = ""
+Description = ""
+Note = ""
+
+Armor 328
+Name = ""
+Description = ""
+Note = ""
+
+Armor 329
+Name = ""
+Description = ""
+Note = ""
+
+Armor 330
+Name = ""
+Description = ""
+Note = ""
+
+Armor 331
+Name = ""
+Description = ""
+Note = ""
+
+Armor 332
+Name = ""
+Description = ""
+Note = ""
+
+Armor 333
+Name = ""
+Description = ""
+Note = ""
+
+Armor 334
+Name = ""
+Description = ""
+Note = ""
+
+Armor 335
+Name = ""
+Description = ""
+Note = ""
+
+Armor 336
+Name = ""
+Description = ""
+Note = ""
+
+Armor 337
+Name = ""
+Description = ""
+Note = ""
+
+Armor 338
+Name = ""
+Description = ""
+Note = ""
+
+Armor 339
+Name = ""
+Description = ""
+Note = ""
+
+Armor 340
+Name = ""
+Description = ""
+Note = ""
+
+Armor 341
+Name = ""
+Description = ""
+Note = ""
+
+Armor 342
+Name = ""
+Description = ""
+Note = ""
+
+Armor 343
+Name = ""
+Description = ""
+Note = ""
+
+Armor 344
+Name = ""
+Description = ""
+Note = ""
+
+Armor 345
+Name = ""
+Description = ""
+Note = ""
+
+Armor 346
+Name = ""
+Description = ""
+Note = ""
+
+Armor 347
+Name = ""
+Description = ""
+Note = ""
+
+Armor 348
+Name = ""
+Description = ""
+Note = ""
+
+Armor 349
+Name = ""
+Description = ""
+Note = ""
+
+Armor 350
+Name = ""
+Description = ""
+Note = ""
+
+Armor 351
+Name = ""
+Description = ""
+Note = ""
+
+Armor 352
+Name = ""
+Description = ""
+Note = ""
+
+Armor 353
+Name = ""
+Description = ""
+Note = ""
+
+Armor 354
+Name = ""
+Description = ""
+Note = ""
+
+Armor 355
+Name = ""
+Description = ""
+Note = ""
+
+Armor 356
+Name = ""
+Description = ""
+Note = ""
+
+Armor 357
+Name = ""
+Description = ""
+Note = ""
+
+Armor 358
+Name = ""
+Description = ""
+Note = ""
+
+Armor 359
+Name = ""
+Description = ""
+Note = ""
+
+Armor 360
+Name = ""
+Description = ""
+Note = ""
+
+Armor 361
+Name = ""
+Description = ""
+Note = ""
+
+Armor 362
+Name = ""
+Description = ""
+Note = ""
+
+Armor 363
+Name = ""
+Description = ""
+Note = ""
+
+Armor 364
+Name = ""
+Description = ""
+Note = ""
+
+Armor 365
+Name = ""
+Description = ""
+Note = ""
+
+Armor 366
+Name = ""
+Description = ""
+Note = ""
+
+Armor 367
+Name = ""
+Description = ""
+Note = ""
+
+Armor 368
+Name = ""
+Description = ""
+Note = ""
+
+Armor 369
+Name = ""
+Description = ""
+Note = ""
+
+Armor 370
+Name = ""
+Description = ""
+Note = ""
+
+Armor 371
+Name = ""
+Description = ""
+Note = ""
+
+Armor 372
+Name = ""
+Description = ""
+Note = ""
+
+Armor 373
+Name = ""
+Description = ""
+Note = ""
+
+Armor 374
+Name = ""
+Description = ""
+Note = ""
+
+Armor 375
+Name = ""
+Description = ""
+Note = ""
+
+Armor 376
+Name = ""
+Description = ""
+Note = ""
+
+Armor 377
+Name = ""
+Description = ""
+Note = ""
+
+Armor 378
+Name = ""
+Description = ""
+Note = ""
+
+Armor 379
+Name = ""
+Description = ""
+Note = ""
+
+Armor 380
+Name = ""
+Description = ""
+Note = ""
+
+Armor 381
+Name = ""
+Description = ""
+Note = ""
+
+Armor 382
+Name = ""
+Description = ""
+Note = ""
+
+Armor 383
+Name = ""
+Description = ""
+Note = ""
+
+Armor 384
+Name = ""
+Description = ""
+Note = ""
+
+Armor 385
+Name = ""
+Description = ""
+Note = ""
+
+Armor 386
+Name = ""
+Description = ""
+Note = ""
+
+Armor 387
+Name = ""
+Description = ""
+Note = ""
+
+Armor 388
+Name = ""
+Description = ""
+Note = ""
+
+Armor 389
+Name = ""
+Description = ""
+Note = ""
+
+Armor 390
+Name = ""
+Description = ""
+Note = ""
+
+Armor 391
+Name = ""
+Description = ""
+Note = ""
+
+Armor 392
+Name = ""
+Description = ""
+Note = ""
+
+Armor 393
+Name = ""
+Description = ""
+Note = ""
+
+Armor 394
+Name = ""
+Description = ""
+Note = ""
+
+Armor 395
+Name = ""
+Description = ""
+Note = ""
+
+Armor 396
+Name = ""
+Description = ""
+Note = ""
+
+Armor 397
+Name = ""
+Description = ""
+Note = ""
+
+Armor 398
+Name = ""
+Description = ""
+Note = ""
+
+Armor 399
+Name = ""
+Description = ""
+Note = ""
+
+Armor 400
+Name = ""
+Description = ""
+Note = ""
+
+Armor 401
+Name = ""
+Description = ""
+Note = ""
+
+Armor 402
+Name = ""
+Description = ""
+Note = ""
+
+Armor 403
+Name = ""
+Description = ""
+Note = ""
+
+Armor 404
+Name = ""
+Description = ""
+Note = ""
+
+Armor 405
+Name = ""
+Description = ""
+Note = ""
+
+Armor 406
+Name = ""
+Description = ""
+Note = ""
+
+Armor 407
+Name = ""
+Description = ""
+Note = ""
+
+Armor 408
+Name = ""
+Description = ""
+Note = ""
+
+Armor 409
+Name = ""
+Description = ""
+Note = ""
+
+Armor 410
+Name = ""
+Description = ""
+Note = ""
+
+Armor 411
+Name = ""
+Description = ""
+Note = ""
+
+Armor 412
+Name = ""
+Description = ""
+Note = ""
+
+Armor 413
+Name = ""
+Description = ""
+Note = ""
+
+Armor 414
+Name = ""
+Description = ""
+Note = ""
+
+Armor 415
+Name = ""
+Description = ""
+Note = ""
+
+Armor 416
+Name = ""
+Description = ""
+Note = ""
+
+Armor 417
+Name = ""
+Description = ""
+Note = ""
+
+Armor 418
+Name = ""
+Description = ""
+Note = ""
+
+Armor 419
+Name = ""
+Description = ""
+Note = ""
+
+Armor 420
+Name = ""
+Description = ""
+Note = ""
+
+Armor 421
+Name = ""
+Description = ""
+Note = ""
+
+Armor 422
+Name = ""
+Description = ""
+Note = ""
+
+Armor 423
+Name = ""
+Description = ""
+Note = ""
+
+Armor 424
+Name = ""
+Description = ""
+Note = ""
+
+Armor 425
+Name = ""
+Description = ""
+Note = ""
+
+Armor 426
+Name = ""
+Description = ""
+Note = ""
+
+Armor 427
+Name = ""
+Description = ""
+Note = ""
+
+Armor 428
+Name = ""
+Description = ""
+Note = ""
+
+Armor 429
+Name = ""
+Description = ""
+Note = ""
+
+Armor 430
+Name = ""
+Description = ""
+Note = ""
+
+Armor 431
+Name = ""
+Description = ""
+Note = ""
+
+Armor 432
+Name = ""
+Description = ""
+Note = ""
+
+Armor 433
+Name = ""
+Description = ""
+Note = ""
+
+Armor 434
+Name = ""
+Description = ""
+Note = ""
+
+Armor 435
+Name = ""
+Description = ""
+Note = ""
+
+Armor 436
+Name = ""
+Description = ""
+Note = ""
+
+Armor 437
+Name = ""
+Description = ""
+Note = ""
+
+Armor 438
+Name = ""
+Description = ""
+Note = ""
+
+Armor 439
+Name = ""
+Description = ""
+Note = ""
+
+Armor 440
+Name = ""
+Description = ""
+Note = ""
+
+Armor 441
+Name = ""
+Description = ""
+Note = ""
+
+Armor 442
+Name = ""
+Description = ""
+Note = ""
+
+Armor 443
+Name = ""
+Description = ""
+Note = ""
+
+Armor 444
+Name = ""
+Description = ""
+Note = ""
+
+Armor 445
+Name = ""
+Description = ""
+Note = ""
+
+Armor 446
+Name = ""
+Description = ""
+Note = ""
+
+Armor 447
+Name = ""
+Description = ""
+Note = ""
+
+Armor 448
+Name = ""
+Description = ""
+Note = ""
+
+Armor 449
+Name = ""
+Description = ""
+Note = ""
+
+Armor 450
+Name = ""
+Description = ""
+Note = ""
+
+Armor 451
+Name = ""
+Description = ""
+Note = ""
+
+Armor 452
+Name = ""
+Description = ""
+Note = ""
+
+Armor 453
+Name = ""
+Description = ""
+Note = ""
+
+Armor 454
+Name = ""
+Description = ""
+Note = ""
+
+Armor 455
+Name = ""
+Description = ""
+Note = ""
+
+Armor 456
+Name = ""
+Description = ""
+Note = ""
+
+Armor 457
+Name = ""
+Description = ""
+Note = ""
+
+Armor 458
+Name = ""
+Description = ""
+Note = ""
+
+Armor 459
+Name = ""
+Description = ""
+Note = ""
+
+Armor 460
+Name = ""
+Description = ""
+Note = ""
+
+Armor 461
+Name = ""
+Description = ""
+Note = ""
+
+Armor 462
+Name = ""
+Description = ""
+Note = ""
+
+Armor 463
+Name = ""
+Description = ""
+Note = ""
+
+Armor 464
+Name = ""
+Description = ""
+Note = ""
+
+Armor 465
+Name = ""
+Description = ""
+Note = ""
+
+Armor 466
+Name = ""
+Description = ""
+Note = ""
+
+Armor 467
+Name = ""
+Description = ""
+Note = ""
+
+Armor 468
+Name = ""
+Description = ""
+Note = ""
+
+Armor 469
+Name = ""
+Description = ""
+Note = ""
+
+Armor 470
+Name = ""
+Description = ""
+Note = ""
+
+Armor 471
+Name = ""
+Description = ""
+Note = ""
+
+Armor 472
+Name = ""
+Description = ""
+Note = ""
+
+Armor 473
+Name = ""
+Description = ""
+Note = ""
+
+Armor 474
+Name = ""
+Description = ""
+Note = ""
+
+Armor 475
+Name = ""
+Description = ""
+Note = ""
+
+Armor 476
+Name = ""
+Description = ""
+Note = ""
+
+Armor 477
+Name = ""
+Description = ""
+Note = ""
+
+Armor 478
+Name = ""
+Description = ""
+Note = ""
+
+Armor 479
+Name = ""
+Description = ""
+Note = ""
+
+Armor 480
+Name = ""
+Description = ""
+Note = ""
+
+Armor 481
+Name = ""
+Description = ""
+Note = ""
+
+Armor 482
+Name = ""
+Description = ""
+Note = ""
+
+Armor 483
+Name = ""
+Description = ""
+Note = ""
+
+Armor 484
+Name = ""
+Description = ""
+Note = ""
+
+Armor 485
+Name = ""
+Description = ""
+Note = ""
+
+Armor 486
+Name = ""
+Description = ""
+Note = ""
+
+Armor 487
+Name = ""
+Description = ""
+Note = ""
+
+Armor 488
+Name = ""
+Description = ""
+Note = ""
+
+Armor 489
+Name = ""
+Description = ""
+Note = ""
+
+Armor 490
+Name = ""
+Description = ""
+Note = ""
+
+Armor 491
+Name = ""
+Description = ""
+Note = ""
+
+Armor 492
+Name = ""
+Description = ""
+Note = ""
+
+Armor 493
+Name = ""
+Description = ""
+Note = ""
+
+Armor 494
+Name = ""
+Description = ""
+Note = ""
+
+Armor 495
+Name = ""
+Description = ""
+Note = ""
+
+Armor 496
+Name = ""
+Description = ""
+Note = ""
+
+Armor 497
+Name = ""
+Description = ""
+Note = ""
+
+Armor 498
+Name = ""
+Description = ""
+Note = ""
+
+Armor 499
+Name = ""
+Description = ""
+Note = ""
+
+Armor 500
+Name = ""
+Description = ""
+Note = ""
+
+Armor 501
+Name = ""
+Description = ""
+Note = ""
+
+Armor 502
+Name = ""
+Description = ""
+Note = ""
+
+Armor 503
+Name = ""
+Description = ""
+Note = ""
+
+Armor 504
+Name = ""
+Description = ""
+Note = ""
+
+Armor 505
+Name = ""
+Description = ""
+Note = ""
+
+Armor 506
+Name = ""
+Description = ""
+Note = ""
+
+Armor 507
+Name = ""
+Description = ""
+Note = ""
+
+Armor 508
+Name = ""
+Description = ""
+Note = ""
+
+Armor 509
+Name = ""
+Description = ""
+Note = ""
+
+Armor 510
+Name = ""
+Description = ""
+Note = ""
+
+Armor 511
+Name = ""
+Description = ""
+Note = ""
+
+Armor 512
+Name = ""
+Description = ""
+Note = ""
+
+Armor 513
+Name = ""
+Description = ""
+Note = ""
+
+Armor 514
+Name = ""
+Description = ""
+Note = ""
+
+Armor 515
+Name = ""
+Description = ""
+Note = ""
+
+Armor 516
+Name = ""
+Description = ""
+Note = ""
+
+Armor 517
+Name = ""
+Description = ""
+Note = ""
+
+Armor 518
+Name = ""
+Description = ""
+Note = ""
+
+Armor 519
+Name = ""
+Description = ""
+Note = ""
+
+Armor 520
+Name = ""
+Description = ""
+Note = ""
+
+Armor 521
+Name = ""
+Description = ""
+Note = ""
+
+Armor 522
+Name = ""
+Description = ""
+Note = ""
+
+Armor 523
+Name = ""
+Description = ""
+Note = ""
+
+Armor 524
+Name = ""
+Description = ""
+Note = ""
+
+Armor 525
+Name = ""
+Description = ""
+Note = ""
+
+Armor 526
+Name = ""
+Description = ""
+Note = ""
+
+Armor 527
+Name = ""
+Description = ""
+Note = ""
+
+Armor 528
+Name = ""
+Description = ""
+Note = ""
+
+Armor 529
+Name = ""
+Description = ""
+Note = ""
+
+Armor 530
+Name = ""
+Description = ""
+Note = ""
+
+Armor 531
+Name = ""
+Description = ""
+Note = ""
+
+Armor 532
+Name = ""
+Description = ""
+Note = ""
+
+Armor 533
+Name = ""
+Description = ""
+Note = ""
+
+Armor 534
+Name = ""
+Description = ""
+Note = ""
+
+Armor 535
+Name = ""
+Description = ""
+Note = ""
+
+Armor 536
+Name = ""
+Description = ""
+Note = ""
+
+Armor 537
+Name = ""
+Description = ""
+Note = ""
+
+Armor 538
+Name = ""
+Description = ""
+Note = ""
+
+Armor 539
+Name = ""
+Description = ""
+Note = ""
+
+Armor 540
+Name = ""
+Description = ""
+Note = ""
+
+Armor 541
+Name = ""
+Description = ""
+Note = ""
+
+Armor 542
+Name = ""
+Description = ""
+Note = ""
+
+Armor 543
+Name = ""
+Description = ""
+Note = ""
+
+Armor 544
+Name = ""
+Description = ""
+Note = ""
+
+Armor 545
+Name = ""
+Description = ""
+Note = ""
+
+Armor 546
+Name = ""
+Description = ""
+Note = ""
+
+Armor 547
+Name = ""
+Description = ""
+Note = ""
+
+Armor 548
+Name = ""
+Description = ""
+Note = ""
+
+Armor 549
+Name = ""
+Description = ""
+Note = ""
+
+Armor 550
+Name = ""
+Description = ""
+Note = ""
+
+Armor 551
+Name = ""
+Description = ""
+Note = ""
+
+Armor 552
+Name = ""
+Description = ""
+Note = ""
+
+Armor 553
+Name = ""
+Description = ""
+Note = ""
+
+Armor 554
+Name = ""
+Description = ""
+Note = ""
+
+Armor 555
+Name = ""
+Description = ""
+Note = ""
+
+Armor 556
+Name = ""
+Description = ""
+Note = ""
+
+Armor 557
+Name = ""
+Description = ""
+Note = ""
+
+Armor 558
+Name = ""
+Description = ""
+Note = ""
+
+Armor 559
+Name = ""
+Description = ""
+Note = ""
+
+Armor 560
+Name = ""
+Description = ""
+Note = ""
+
+Armor 561
+Name = ""
+Description = ""
+Note = ""
+
+Armor 562
+Name = ""
+Description = ""
+Note = ""
+
+Armor 563
+Name = ""
+Description = ""
+Note = ""
+
+Armor 564
+Name = ""
+Description = ""
+Note = ""
+
+Armor 565
+Name = ""
+Description = ""
+Note = ""
+
+Armor 566
+Name = ""
+Description = ""
+Note = ""
+
+Armor 567
+Name = ""
+Description = ""
+Note = ""
+
+Armor 568
+Name = ""
+Description = ""
+Note = ""
+
+Armor 569
+Name = ""
+Description = ""
+Note = ""
+
+Armor 570
+Name = "火の護符"
+Description = "火の力が宿った護符"
+Note = ""
+
+Armor 571
+Name = "雷鳴の護符"
+Description = "強い雷の力が宿った護符"
+Note = ""
+
+Armor 572
+Name = "炎の護符"
+Description = "強い火の力が宿った護符"
+Note = "@atk[600]"
+
+Armor 573
+Name = ""
+Description = ""
+Note = ""
+
+Armor 574
+Name = ""
+Description = ""
+Note = ""
+
+Armor 575
+Name = ""
+Description = ""
+Note = ""
+
+Armor 576
+Name = ""
+Description = ""
+Note = ""
+
+Armor 577
+Name = ""
+Description = ""
+Note = ""
+
+Armor 578
+Name = ""
+Description = ""
+Note = ""
+
+Armor 579
+Name = ""
+Description = ""
+Note = ""
+
+Armor 580
+Name = ""
+Description = ""
+Note = ""
+
+Armor 581
+Name = ""
+Description = ""
+Note = ""
+
+Armor 582
+Name = ""
+Description = ""
+Note = ""
+
+Armor 583
+Name = ""
+Description = ""
+Note = ""
+
+Armor 584
+Name = ""
+Description = ""
+Note = ""
+
+Armor 585
+Name = ""
+Description = ""
+Note = ""
+
+Armor 586
+Name = ""
+Description = ""
+Note = ""
+
+Armor 587
+Name = ""
+Description = ""
+Note = ""
+
+Armor 588
+Name = ""
+Description = ""
+Note = ""
+
+Armor 589
+Name = ""
+Description = ""
+Note = ""
+
+Armor 590
+Name = ""
+Description = ""
+Note = ""
+
+Armor 591
+Name = ""
+Description = ""
+Note = ""
+
+Armor 592
+Name = ""
+Description = ""
+Note = ""
+
+Armor 593
+Name = ""
+Description = ""
+Note = ""
+
+Armor 594
+Name = ""
+Description = ""
+Note = ""
+
+Armor 595
+Name = ""
+Description = ""
+Note = ""
+
+Armor 596
+Name = ""
+Description = ""
+Note = ""
+
+Armor 597
+Name = ""
+Description = ""
+Note = ""
+
+Armor 598
+Name = ""
+Description = ""
+Note = ""
+
+Armor 599
+Name = ""
+Description = ""
+Note = ""
+
+Armor 600
+Name = "＝＝紋章＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+Armor 601
+Name = "火の紋章"
+Description = "火の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 602
+Name = "水の紋章"
+Description = "水の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 603
+Name = "土の紋章"
+Description = "土の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 604
+Name = "風の紋章"
+Description = "風の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 605
+Name = "雷の紋章"
+Description = "雷の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 606
+Name = ""
+Description = ""
+Note = ""
+
+Armor 607
+Name = "山賊の紋章"
+Description = "山の男をイメージした紋章"
+Note = "<装備タイプ 5>"
+
+Armor 608
+Name = "狩人の紋章"
+Description = "狩人をイメージしたような紋章"
+Note = "<装備タイプ 5>"
+
+Armor 609
+Name = ""
+Description = ""
+Note = ""
+
+Armor 610
+Name = "炎の紋章"
+Description = "力強い炎の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 611
+Name = "氷水の紋章"
+Description = "癒しと氷の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 612
+Name = "大地の紋章"
+Description = "大地の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 613
+Name = "嵐の紋章"
+Description = "激しい嵐の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 614
+Name = "雷鳴の紋章"
+Description = "雷の力が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 615
+Name = ""
+Description = ""
+Note = ""
+
+Armor 616
+Name = "騎士の紋章"
+Description = "騎士の魂が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 617
+Name = "盗賊の紋章"
+Description = "厳しい世の中でも渡っていけそうな気がしてくる紋章"
+Note = "<装備タイプ 5>"
+
+Armor 618
+Name = "幸運の紋章"
+Description = "祝福を受けている紋章"
+Note = "<装備タイプ 5>"
+
+Armor 619
+Name = "重戦士の紋章"
+Description = "重戦士の魂が宿った紋章"
+Note = "<装備タイプ 5>"
+
+Armor 620
+Name = ""
+Description = ""
+Note = ""
+
+Armor 621
+Name = ""
+Description = ""
+Note = ""
+
+Armor 622
+Name = ""
+Description = ""
+Note = ""
+
+Armor 623
+Name = ""
+Description = ""
+Note = ""
+
+Armor 624
+Name = ""
+Description = ""
+Note = ""
+
+Armor 625
+Name = ""
+Description = ""
+Note = ""
+
+Armor 626
+Name = ""
+Description = ""
+Note = ""
+
+Armor 627
+Name = ""
+Description = ""
+Note = ""
+
+Armor 628
+Name = ""
+Description = ""
+Note = ""
+
+Armor 629
+Name = ""
+Description = ""
+Note = ""
+
+Armor 630
+Name = ""
+Description = ""
+Note = ""
+
+Armor 631
+Name = ""
+Description = ""
+Note = ""
+
+Armor 632
+Name = ""
+Description = ""
+Note = ""
+
+Armor 633
+Name = ""
+Description = ""
+Note = ""
+
+Armor 634
+Name = ""
+Description = ""
+Note = ""
+
+Armor 635
+Name = ""
+Description = ""
+Note = ""
+
+Armor 636
+Name = ""
+Description = ""
+Note = ""
+
+Armor 637
+Name = ""
+Description = ""
+Note = ""
+
+Armor 638
+Name = ""
+Description = ""
+Note = ""
+
+Armor 639
+Name = ""
+Description = ""
+Note = ""
+
+Armor 640
+Name = ""
+Description = ""
+Note = ""
+
+Armor 641
+Name = ""
+Description = ""
+Note = ""
+
+Armor 642
+Name = ""
+Description = ""
+Note = ""
+
+Armor 643
+Name = ""
+Description = ""
+Note = ""
+
+Armor 644
+Name = ""
+Description = ""
+Note = ""
+
+Armor 645
+Name = ""
+Description = ""
+Note = ""
+
+Armor 646
+Name = ""
+Description = ""
+Note = ""
+
+Armor 647
+Name = ""
+Description = ""
+Note = ""
+
+Armor 648
+Name = ""
+Description = ""
+Note = ""
+
+Armor 649
+Name = ""
+Description = ""
+Note = ""
+
+Armor 650
+Name = ""
+Description = ""
+Note = ""
+
+Armor 651
+Name = ""
+Description = ""
+Note = ""
+
+Armor 652
+Name = ""
+Description = ""
+Note = ""
+
+Armor 653
+Name = ""
+Description = ""
+Note = ""
+
+Armor 654
+Name = ""
+Description = ""
+Note = ""
+
+Armor 655
+Name = ""
+Description = ""
+Note = ""
+
+Armor 656
+Name = ""
+Description = ""
+Note = ""
+
+Armor 657
+Name = ""
+Description = ""
+Note = ""
+
+Armor 658
+Name = ""
+Description = ""
+Note = ""
+
+Armor 659
+Name = ""
+Description = ""
+Note = ""
+
+Armor 660
+Name = ""
+Description = ""
+Note = ""
+
+Armor 661
+Name = ""
+Description = ""
+Note = ""
+
+Armor 662
+Name = ""
+Description = ""
+Note = ""
+
+Armor 663
+Name = ""
+Description = ""
+Note = ""
+
+Armor 664
+Name = ""
+Description = ""
+Note = ""
+
+Armor 665
+Name = ""
+Description = ""
+Note = ""
+
+Armor 666
+Name = ""
+Description = ""
+Note = ""
+
+Armor 667
+Name = ""
+Description = ""
+Note = ""
+
+Armor 668
+Name = ""
+Description = ""
+Note = ""
+
+Armor 669
+Name = ""
+Description = ""
+Note = ""
+
+Armor 670
+Name = ""
+Description = ""
+Note = ""
+
+Armor 671
+Name = ""
+Description = ""
+Note = ""
+
+Armor 672
+Name = ""
+Description = ""
+Note = ""
+
+Armor 673
+Name = ""
+Description = ""
+Note = ""
+
+Armor 674
+Name = ""
+Description = ""
+Note = ""
+
+Armor 675
+Name = ""
+Description = ""
+Note = ""
+
+Armor 676
+Name = ""
+Description = ""
+Note = ""
+
+Armor 677
+Name = ""
+Description = ""
+Note = ""
+
+Armor 678
+Name = ""
+Description = ""
+Note = ""
+
+Armor 679
+Name = ""
+Description = ""
+Note = ""
+
+Armor 680
+Name = ""
+Description = ""
+Note = ""
+
+Armor 681
+Name = ""
+Description = ""
+Note = ""
+
+Armor 682
+Name = ""
+Description = ""
+Note = ""
+
+Armor 683
+Name = ""
+Description = ""
+Note = ""
+
+Armor 684
+Name = ""
+Description = ""
+Note = ""
+
+Armor 685
+Name = ""
+Description = ""
+Note = ""
+
+Armor 686
+Name = ""
+Description = ""
+Note = ""
+
+Armor 687
+Name = ""
+Description = ""
+Note = ""
+
+Armor 688
+Name = ""
+Description = ""
+Note = ""
+
+Armor 689
+Name = ""
+Description = ""
+Note = ""
+
+Armor 690
+Name = ""
+Description = ""
+Note = ""
+
+Armor 691
+Name = ""
+Description = ""
+Note = ""
+
+Armor 692
+Name = ""
+Description = ""
+Note = ""
+
+Armor 693
+Name = ""
+Description = ""
+Note = ""
+
+Armor 694
+Name = ""
+Description = ""
+Note = ""
+
+Armor 695
+Name = ""
+Description = ""
+Note = ""
+
+Armor 696
+Name = ""
+Description = ""
+Note = ""
+
+Armor 697
+Name = ""
+Description = ""
+Note = ""
+
+Armor 698
+Name = ""
+Description = ""
+Note = ""
+
+Armor 699
+Name = ""
+Description = ""
+Note = ""
+
+Armor 700
+Name = ""
+Description = ""
+Note = ""
+
+Armor 701
+Name = ""
+Description = ""
+Note = ""
+
+Armor 702
+Name = ""
+Description = ""
+Note = ""
+
+Armor 703
+Name = ""
+Description = ""
+Note = ""
+
+Armor 704
+Name = ""
+Description = ""
+Note = ""
+
+Armor 705
+Name = ""
+Description = ""
+Note = ""
+
+Armor 706
+Name = ""
+Description = ""
+Note = ""
+
+Armor 707
+Name = ""
+Description = ""
+Note = ""
+
+Armor 708
+Name = ""
+Description = ""
+Note = ""
+
+Armor 709
+Name = ""
+Description = ""
+Note = ""
+
+Armor 710
+Name = ""
+Description = ""
+Note = ""
+
+Armor 711
+Name = ""
+Description = ""
+Note = ""
+
+Armor 712
+Name = ""
+Description = ""
+Note = ""
+
+Armor 713
+Name = ""
+Description = ""
+Note = ""
+
+Armor 714
+Name = ""
+Description = ""
+Note = ""
+
+Armor 715
+Name = ""
+Description = ""
+Note = ""
+
+Armor 716
+Name = ""
+Description = ""
+Note = ""
+
+Armor 717
+Name = ""
+Description = ""
+Note = ""
+
+Armor 718
+Name = ""
+Description = ""
+Note = ""
+
+Armor 719
+Name = ""
+Description = ""
+Note = ""
+
+Armor 720
+Name = ""
+Description = ""
+Note = ""
+
+Armor 721
+Name = ""
+Description = ""
+Note = ""
+
+Armor 722
+Name = ""
+Description = ""
+Note = ""
+
+Armor 723
+Name = ""
+Description = ""
+Note = ""
+
+Armor 724
+Name = ""
+Description = ""
+Note = ""
+
+Armor 725
+Name = ""
+Description = ""
+Note = ""
+
+Armor 726
+Name = ""
+Description = ""
+Note = ""
+
+Armor 727
+Name = ""
+Description = ""
+Note = ""
+
+Armor 728
+Name = ""
+Description = ""
+Note = ""
+
+Armor 729
+Name = ""
+Description = ""
+Note = ""
+
+Armor 730
+Name = ""
+Description = ""
+Note = ""
+
+Armor 731
+Name = ""
+Description = ""
+Note = ""
+
+Armor 732
+Name = ""
+Description = ""
+Note = ""
+
+Armor 733
+Name = ""
+Description = ""
+Note = ""
+
+Armor 734
+Name = ""
+Description = ""
+Note = ""
+
+Armor 735
+Name = ""
+Description = ""
+Note = ""
+
+Armor 736
+Name = ""
+Description = ""
+Note = ""
+
+Armor 737
+Name = ""
+Description = ""
+Note = ""
+
+Armor 738
+Name = ""
+Description = ""
+Note = ""
+
+Armor 739
+Name = ""
+Description = ""
+Note = ""
+
+Armor 740
+Name = ""
+Description = ""
+Note = ""
+
+Armor 741
+Name = ""
+Description = ""
+Note = ""
+
+Armor 742
+Name = ""
+Description = ""
+Note = ""
+
+Armor 743
+Name = ""
+Description = ""
+Note = ""
+
+Armor 744
+Name = ""
+Description = ""
+Note = ""
+
+Armor 745
+Name = ""
+Description = ""
+Note = ""
+
+Armor 746
+Name = ""
+Description = ""
+Note = ""
+
+Armor 747
+Name = ""
+Description = ""
+Note = ""
+
+Armor 748
+Name = ""
+Description = ""
+Note = ""
+
+Armor 749
+Name = ""
+Description = ""
+Note = ""
+
+Armor 750
+Name = ""
+Description = ""
+Note = ""
+
+Armor 751
+Name = ""
+Description = ""
+Note = ""
+
+Armor 752
+Name = ""
+Description = ""
+Note = ""
+
+Armor 753
+Name = ""
+Description = ""
+Note = ""
+
+Armor 754
+Name = ""
+Description = ""
+Note = ""
+
+Armor 755
+Name = ""
+Description = ""
+Note = ""
+
+Armor 756
+Name = ""
+Description = ""
+Note = ""
+
+Armor 757
+Name = ""
+Description = ""
+Note = ""
+
+Armor 758
+Name = ""
+Description = ""
+Note = ""
+
+Armor 759
+Name = ""
+Description = ""
+Note = ""
+
+Armor 760
+Name = ""
+Description = ""
+Note = ""
+
+Armor 761
+Name = ""
+Description = ""
+Note = ""
+
+Armor 762
+Name = ""
+Description = ""
+Note = ""
+
+Armor 763
+Name = ""
+Description = ""
+Note = ""
+
+Armor 764
+Name = ""
+Description = ""
+Note = ""
+
+Armor 765
+Name = ""
+Description = ""
+Note = ""
+
+Armor 766
+Name = ""
+Description = ""
+Note = ""
+
+Armor 767
+Name = ""
+Description = ""
+Note = ""
+
+Armor 768
+Name = ""
+Description = ""
+Note = ""
+
+Armor 769
+Name = ""
+Description = ""
+Note = ""
+
+Armor 770
+Name = ""
+Description = ""
+Note = ""
+
+Armor 771
+Name = ""
+Description = ""
+Note = ""
+
+Armor 772
+Name = ""
+Description = ""
+Note = ""
+
+Armor 773
+Name = ""
+Description = ""
+Note = ""
+
+Armor 774
+Name = ""
+Description = ""
+Note = ""
+
+Armor 775
+Name = ""
+Description = ""
+Note = ""
+
+Armor 776
+Name = ""
+Description = ""
+Note = ""
+
+Armor 777
+Name = ""
+Description = ""
+Note = ""
+
+Armor 778
+Name = ""
+Description = ""
+Note = ""
+
+Armor 779
+Name = ""
+Description = ""
+Note = ""
+
+Armor 780
+Name = ""
+Description = ""
+Note = ""
+
+Armor 781
+Name = ""
+Description = ""
+Note = ""
+
+Armor 782
+Name = ""
+Description = ""
+Note = ""
+
+Armor 783
+Name = ""
+Description = ""
+Note = ""
+
+Armor 784
+Name = ""
+Description = ""
+Note = ""
+
+Armor 785
+Name = ""
+Description = ""
+Note = ""
+
+Armor 786
+Name = ""
+Description = ""
+Note = ""
+
+Armor 787
+Name = ""
+Description = ""
+Note = ""
+
+Armor 788
+Name = ""
+Description = ""
+Note = ""
+
+Armor 789
+Name = ""
+Description = ""
+Note = ""
+
+Armor 790
+Name = ""
+Description = ""
+Note = ""
+
+Armor 791
+Name = ""
+Description = ""
+Note = ""
+
+Armor 792
+Name = ""
+Description = ""
+Note = ""
+
+Armor 793
+Name = ""
+Description = ""
+Note = ""
+
+Armor 794
+Name = ""
+Description = ""
+Note = ""
+
+Armor 795
+Name = ""
+Description = ""
+Note = ""
+
+Armor 796
+Name = ""
+Description = ""
+Note = ""
+
+Armor 797
+Name = ""
+Description = ""
+Note = ""
+
+Armor 798
+Name = ""
+Description = ""
+Note = ""
+
+Armor 799
+Name = ""
+Description = ""
+Note = ""
+
+Armor 800
+Name = ""
+Description = ""
+Note = ""
+
+Armor 801
+Name = ""
+Description = ""
+Note = ""
+
+Armor 802
+Name = ""
+Description = ""
+Note = ""
+
+Armor 803
+Name = ""
+Description = ""
+Note = ""
+
+Armor 804
+Name = ""
+Description = ""
+Note = ""
+
+Armor 805
+Name = ""
+Description = ""
+Note = ""
+
+Armor 806
+Name = ""
+Description = ""
+Note = ""
+
+Armor 807
+Name = ""
+Description = ""
+Note = ""
+
+Armor 808
+Name = ""
+Description = ""
+Note = ""
+
+Armor 809
+Name = ""
+Description = ""
+Note = ""
+
+Armor 810
+Name = ""
+Description = ""
+Note = ""
+
+Armor 811
+Name = ""
+Description = ""
+Note = ""
+
+Armor 812
+Name = ""
+Description = ""
+Note = ""
+
+Armor 813
+Name = ""
+Description = ""
+Note = ""
+
+Armor 814
+Name = ""
+Description = ""
+Note = ""
+
+Armor 815
+Name = ""
+Description = ""
+Note = ""
+
+Armor 816
+Name = ""
+Description = ""
+Note = ""
+
+Armor 817
+Name = ""
+Description = ""
+Note = ""
+
+Armor 818
+Name = ""
+Description = ""
+Note = ""
+
+Armor 819
+Name = ""
+Description = ""
+Note = ""
+
+Armor 820
+Name = ""
+Description = ""
+Note = ""
+
+Armor 821
+Name = ""
+Description = ""
+Note = ""
+
+Armor 822
+Name = ""
+Description = ""
+Note = ""
+
+Armor 823
+Name = ""
+Description = ""
+Note = ""
+
+Armor 824
+Name = ""
+Description = ""
+Note = ""
+
+Armor 825
+Name = ""
+Description = ""
+Note = ""
+
+Armor 826
+Name = ""
+Description = ""
+Note = ""
+
+Armor 827
+Name = ""
+Description = ""
+Note = ""
+
+Armor 828
+Name = ""
+Description = ""
+Note = ""
+
+Armor 829
+Name = ""
+Description = ""
+Note = ""
+
+Armor 830
+Name = ""
+Description = ""
+Note = ""
+
+Armor 831
+Name = ""
+Description = ""
+Note = ""
+
+Armor 832
+Name = ""
+Description = ""
+Note = ""
+
+Armor 833
+Name = ""
+Description = ""
+Note = ""
+
+Armor 834
+Name = ""
+Description = ""
+Note = ""
+
+Armor 835
+Name = ""
+Description = ""
+Note = ""
+
+Armor 836
+Name = ""
+Description = ""
+Note = ""
+
+Armor 837
+Name = ""
+Description = ""
+Note = ""
+
+Armor 838
+Name = ""
+Description = ""
+Note = ""
+
+Armor 839
+Name = ""
+Description = ""
+Note = ""
+
+Armor 840
+Name = ""
+Description = ""
+Note = ""
+
+Armor 841
+Name = ""
+Description = ""
+Note = ""
+
+Armor 842
+Name = ""
+Description = ""
+Note = ""
+
+Armor 843
+Name = ""
+Description = ""
+Note = ""
+
+Armor 844
+Name = ""
+Description = ""
+Note = ""
+
+Armor 845
+Name = ""
+Description = ""
+Note = ""
+
+Armor 846
+Name = ""
+Description = ""
+Note = ""
+
+Armor 847
+Name = ""
+Description = ""
+Note = ""
+
+Armor 848
+Name = ""
+Description = ""
+Note = ""
+
+Armor 849
+Name = ""
+Description = ""
+Note = ""
+
+Armor 850
+Name = ""
+Description = ""
+Note = ""
+
+Armor 851
+Name = ""
+Description = ""
+Note = ""
+
+Armor 852
+Name = ""
+Description = ""
+Note = ""
+
+Armor 853
+Name = ""
+Description = ""
+Note = ""
+
+Armor 854
+Name = ""
+Description = ""
+Note = ""
+
+Armor 855
+Name = ""
+Description = ""
+Note = ""
+
+Armor 856
+Name = ""
+Description = ""
+Note = ""
+
+Armor 857
+Name = ""
+Description = ""
+Note = ""
+
+Armor 858
+Name = ""
+Description = ""
+Note = ""
+
+Armor 859
+Name = ""
+Description = ""
+Note = ""
+
+Armor 860
+Name = ""
+Description = ""
+Note = ""
+
+Armor 861
+Name = ""
+Description = ""
+Note = ""
+
+Armor 862
+Name = ""
+Description = ""
+Note = ""
+
+Armor 863
+Name = ""
+Description = ""
+Note = ""
+
+Armor 864
+Name = ""
+Description = ""
+Note = ""
+
+Armor 865
+Name = ""
+Description = ""
+Note = ""
+
+Armor 866
+Name = ""
+Description = ""
+Note = ""
+
+Armor 867
+Name = ""
+Description = ""
+Note = ""
+
+Armor 868
+Name = ""
+Description = ""
+Note = ""
+
+Armor 869
+Name = ""
+Description = ""
+Note = ""
+
+Armor 870
+Name = ""
+Description = ""
+Note = ""
+
+Armor 871
+Name = ""
+Description = ""
+Note = ""
+
+Armor 872
+Name = ""
+Description = ""
+Note = ""
+
+Armor 873
+Name = ""
+Description = ""
+Note = ""
+
+Armor 874
+Name = ""
+Description = ""
+Note = ""
+
+Armor 875
+Name = ""
+Description = ""
+Note = ""
+
+Armor 876
+Name = ""
+Description = ""
+Note = ""
+
+Armor 877
+Name = ""
+Description = ""
+Note = ""
+
+Armor 878
+Name = ""
+Description = ""
+Note = ""
+
+Armor 879
+Name = ""
+Description = ""
+Note = ""
+
+Armor 880
+Name = ""
+Description = ""
+Note = ""
+
+Armor 881
+Name = ""
+Description = ""
+Note = ""
+
+Armor 882
+Name = ""
+Description = ""
+Note = ""
+
+Armor 883
+Name = ""
+Description = ""
+Note = ""
+
+Armor 884
+Name = ""
+Description = ""
+Note = ""
+
+Armor 885
+Name = ""
+Description = ""
+Note = ""
+
+Armor 886
+Name = ""
+Description = ""
+Note = ""
+
+Armor 887
+Name = ""
+Description = ""
+Note = ""
+
+Armor 888
+Name = ""
+Description = ""
+Note = ""
+
+Armor 889
+Name = ""
+Description = ""
+Note = ""
+
+Armor 890
+Name = ""
+Description = ""
+Note = ""
+
+Armor 891
+Name = ""
+Description = ""
+Note = ""
+
+Armor 892
+Name = ""
+Description = ""
+Note = ""
+
+Armor 893
+Name = ""
+Description = ""
+Note = ""
+
+Armor 894
+Name = ""
+Description = ""
+Note = ""
+
+Armor 895
+Name = ""
+Description = ""
+Note = ""
+
+Armor 896
+Name = ""
+Description = ""
+Note = ""
+
+Armor 897
+Name = ""
+Description = ""
+Note = ""
+
+Armor 898
+Name = ""
+Description = ""
+Note = ""
+
+Armor 899
+Name = ""
+Description = ""
+Note = ""
+
+Armor 900
+Name = ""
+Description = ""
+Note = ""
+
+Armor 901
+Name = ""
+Description = ""
+Note = ""
+
+Armor 902
+Name = ""
+Description = ""
+Note = ""
+
+Armor 903
+Name = ""
+Description = ""
+Note = ""
+
+Armor 904
+Name = ""
+Description = ""
+Note = ""
+
+Armor 905
+Name = ""
+Description = ""
+Note = ""
+
+Armor 906
+Name = ""
+Description = ""
+Note = ""
+
+Armor 907
+Name = ""
+Description = ""
+Note = ""
+
+Armor 908
+Name = ""
+Description = ""
+Note = ""
+
+Armor 909
+Name = ""
+Description = ""
+Note = ""
+
+Armor 910
+Name = ""
+Description = ""
+Note = ""
+
+Armor 911
+Name = ""
+Description = ""
+Note = ""
+
+Armor 912
+Name = ""
+Description = ""
+Note = ""
+
+Armor 913
+Name = ""
+Description = ""
+Note = ""
+
+Armor 914
+Name = ""
+Description = ""
+Note = ""
+
+Armor 915
+Name = ""
+Description = ""
+Note = ""
+
+Armor 916
+Name = ""
+Description = ""
+Note = ""
+
+Armor 917
+Name = ""
+Description = ""
+Note = ""
+
+Armor 918
+Name = ""
+Description = ""
+Note = ""
+
+Armor 919
+Name = ""
+Description = ""
+Note = ""
+
+Armor 920
+Name = ""
+Description = ""
+Note = ""
+
+Armor 921
+Name = ""
+Description = ""
+Note = ""
+
+Armor 922
+Name = ""
+Description = ""
+Note = ""
+
+Armor 923
+Name = ""
+Description = ""
+Note = ""
+
+Armor 924
+Name = ""
+Description = ""
+Note = ""
+
+Armor 925
+Name = ""
+Description = ""
+Note = ""
+
+Armor 926
+Name = ""
+Description = ""
+Note = ""
+
+Armor 927
+Name = ""
+Description = ""
+Note = ""
+
+Armor 928
+Name = ""
+Description = ""
+Note = ""
+
+Armor 929
+Name = ""
+Description = ""
+Note = ""
+
+Armor 930
+Name = ""
+Description = ""
+Note = ""
+
+Armor 931
+Name = ""
+Description = ""
+Note = ""
+
+Armor 932
+Name = ""
+Description = ""
+Note = ""
+
+Armor 933
+Name = ""
+Description = ""
+Note = ""
+
+Armor 934
+Name = ""
+Description = ""
+Note = ""
+
+Armor 935
+Name = ""
+Description = ""
+Note = ""
+
+Armor 936
+Name = ""
+Description = ""
+Note = ""
+
+Armor 937
+Name = ""
+Description = ""
+Note = ""
+
+Armor 938
+Name = ""
+Description = ""
+Note = ""
+
+Armor 939
+Name = ""
+Description = ""
+Note = ""
+
+Armor 940
+Name = ""
+Description = ""
+Note = ""
+
+Armor 941
+Name = ""
+Description = ""
+Note = ""
+
+Armor 942
+Name = ""
+Description = ""
+Note = ""
+
+Armor 943
+Name = ""
+Description = ""
+Note = ""
+
+Armor 944
+Name = ""
+Description = ""
+Note = ""
+
+Armor 945
+Name = ""
+Description = ""
+Note = ""
+
+Armor 946
+Name = ""
+Description = ""
+Note = ""
+
+Armor 947
+Name = ""
+Description = ""
+Note = ""
+
+Armor 948
+Name = ""
+Description = ""
+Note = ""
+
+Armor 949
+Name = ""
+Description = ""
+Note = ""
+
+Armor 950
+Name = ""
+Description = ""
+Note = ""
+
+Armor 951
+Name = ""
+Description = ""
+Note = ""
+
+Armor 952
+Name = ""
+Description = ""
+Note = ""
+
+Armor 953
+Name = ""
+Description = ""
+Note = ""
+
+Armor 954
+Name = ""
+Description = ""
+Note = ""
+
+Armor 955
+Name = ""
+Description = ""
+Note = ""
+
+Armor 956
+Name = ""
+Description = ""
+Note = ""
+
+Armor 957
+Name = ""
+Description = ""
+Note = ""
+
+Armor 958
+Name = ""
+Description = ""
+Note = ""
+
+Armor 959
+Name = ""
+Description = ""
+Note = ""
+
+Armor 960
+Name = ""
+Description = ""
+Note = ""
+
+Armor 961
+Name = ""
+Description = ""
+Note = ""
+
+Armor 962
+Name = ""
+Description = ""
+Note = ""
+
+Armor 963
+Name = ""
+Description = ""
+Note = ""
+
+Armor 964
+Name = ""
+Description = ""
+Note = ""
+
+Armor 965
+Name = ""
+Description = ""
+Note = ""
+
+Armor 966
+Name = ""
+Description = ""
+Note = ""
+
+Armor 967
+Name = ""
+Description = ""
+Note = ""
+
+Armor 968
+Name = ""
+Description = ""
+Note = ""
+
+Armor 969
+Name = ""
+Description = ""
+Note = ""
+
+Armor 970
+Name = ""
+Description = ""
+Note = ""
+
+Armor 971
+Name = ""
+Description = ""
+Note = ""
+
+Armor 972
+Name = ""
+Description = ""
+Note = ""
+
+Armor 973
+Name = ""
+Description = ""
+Note = ""
+
+Armor 974
+Name = ""
+Description = ""
+Note = ""
+
+Armor 975
+Name = ""
+Description = ""
+Note = ""
+
+Armor 976
+Name = ""
+Description = ""
+Note = ""
+
+Armor 977
+Name = ""
+Description = ""
+Note = ""
+
+Armor 978
+Name = ""
+Description = ""
+Note = ""
+
+Armor 979
+Name = ""
+Description = ""
+Note = ""
+
+Armor 980
+Name = ""
+Description = ""
+Note = ""
+
+Armor 981
+Name = ""
+Description = ""
+Note = ""
+
+Armor 982
+Name = ""
+Description = ""
+Note = ""
+
+Armor 983
+Name = ""
+Description = ""
+Note = ""
+
+Armor 984
+Name = ""
+Description = ""
+Note = ""
+
+Armor 985
+Name = ""
+Description = ""
+Note = ""
+
+Armor 986
+Name = ""
+Description = ""
+Note = ""
+
+Armor 987
+Name = ""
+Description = ""
+Note = ""
+
+Armor 988
+Name = ""
+Description = ""
+Note = ""
+
+Armor 989
+Name = ""
+Description = ""
+Note = ""
+
+Armor 990
+Name = ""
+Description = ""
+Note = ""
+
+Armor 991
+Name = ""
+Description = ""
+Note = ""
+
+Armor 992
+Name = ""
+Description = ""
+Note = ""
+
+Armor 993
+Name = ""
+Description = ""
+Note = ""
+
+Armor 994
+Name = ""
+Description = ""
+Note = ""
+
+Armor 995
+Name = ""
+Description = ""
+Note = ""
+
+Armor 996
+Name = ""
+Description = ""
+Note = ""
+
+Armor 997
+Name = ""
+Description = ""
+Note = ""
+
+Armor 998
+Name = "？？？"
+Description = "？？？"
+Note = "@mat[3500]\r\n@def[1800]\r\n@hp[15000]\r\n@mp[800]\r\n<図鑑無効>"
+
+Armor 999
+Name = "バルムンクの紋章"
+Description = "バルムンクと契約した者に与えられる紋章"
+Note = "<装備タイプ 5>\r\n@atk[3000]\r\n@mat[1500]\r\n@def[1800]\r\n@hp[15000]\r\n@mp[1800]\r\n<図鑑無効>"
+
+Armor 1000
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1001
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1002
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1003
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1004
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1005
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1006
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1007
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1008
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1009
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1010
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1011
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1012
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1013
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1014
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1015
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1016
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1017
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1018
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1019
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1020
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1021
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1022
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1023
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1024
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1025
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1026
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1027
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1028
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1029
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1030
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1031
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1032
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1033
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1034
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1035
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1036
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1037
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1038
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1039
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1040
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1041
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1042
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1043
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1044
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1045
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1046
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1047
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1048
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1049
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1050
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1051
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1052
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1053
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1054
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1055
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1056
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1057
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1058
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1059
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1060
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1061
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1062
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1063
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1064
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1065
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1066
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1067
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1068
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1069
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1070
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1071
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1072
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1073
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1074
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1075
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1076
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1077
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1078
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1079
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1080
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1081
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1082
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1083
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1084
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1085
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1086
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1087
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1088
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1089
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1090
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1091
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1092
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1093
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1094
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1095
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1096
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1097
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1098
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1099
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1100
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1101
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1102
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1103
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1104
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1105
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1106
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1107
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1108
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1109
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1110
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1111
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1112
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1113
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1114
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1115
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1116
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1117
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1118
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1119
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1120
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1121
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1122
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1123
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1124
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1125
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1126
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1127
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1128
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1129
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1130
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1131
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1132
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1133
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1134
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1135
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1136
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1137
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1138
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1139
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1140
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1141
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1142
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1143
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1144
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1145
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1146
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1147
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1148
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1149
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1150
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1151
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1152
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1153
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1154
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1155
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1156
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1157
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1158
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1159
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1160
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1161
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1162
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1163
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1164
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1165
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1166
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1167
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1168
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1169
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1170
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1171
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1172
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1173
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1174
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1175
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1176
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1177
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1178
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1179
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1180
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1181
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1182
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1183
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1184
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1185
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1186
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1187
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1188
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1189
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1190
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1191
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1192
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1193
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1194
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1195
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1196
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1197
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1198
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1199
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1200
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1201
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1202
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1203
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1204
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1205
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1206
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1207
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1208
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1209
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1210
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1211
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1212
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1213
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1214
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1215
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1216
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1217
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1218
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1219
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1220
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1221
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1222
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1223
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1224
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1225
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1226
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1227
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1228
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1229
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1230
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1231
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1232
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1233
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1234
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1235
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1236
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1237
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1238
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1239
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1240
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1241
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1242
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1243
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1244
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1245
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1246
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1247
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1248
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1249
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1250
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1251
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1252
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1253
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1254
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1255
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1256
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1257
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1258
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1259
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1260
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1261
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1262
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1263
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1264
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1265
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1266
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1267
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1268
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1269
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1270
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1271
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1272
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1273
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1274
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1275
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1276
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1277
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1278
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1279
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1280
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1281
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1282
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1283
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1284
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1285
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1286
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1287
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1288
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1289
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1290
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1291
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1292
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1293
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1294
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1295
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1296
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1297
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1298
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1299
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1300
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1301
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1302
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1303
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1304
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1305
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1306
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1307
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1308
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1309
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1310
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1311
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1312
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1313
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1314
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1315
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1316
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1317
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1318
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1319
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1320
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1321
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1322
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1323
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1324
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1325
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1326
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1327
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1328
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1329
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1330
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1331
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1332
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1333
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1334
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1335
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1336
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1337
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1338
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1339
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1340
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1341
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1342
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1343
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1344
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1345
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1346
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1347
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1348
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1349
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1350
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1351
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1352
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1353
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1354
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1355
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1356
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1357
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1358
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1359
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1360
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1361
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1362
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1363
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1364
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1365
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1366
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1367
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1368
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1369
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1370
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1371
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1372
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1373
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1374
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1375
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1376
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1377
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1378
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1379
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1380
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1381
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1382
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1383
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1384
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1385
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1386
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1387
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1388
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1389
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1390
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1391
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1392
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1393
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1394
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1395
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1396
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1397
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1398
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1399
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1400
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1401
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1402
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1403
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1404
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1405
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1406
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1407
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1408
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1409
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1410
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1411
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1412
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1413
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1414
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1415
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1416
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1417
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1418
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1419
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1420
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1421
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1422
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1423
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1424
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1425
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1426
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1427
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1428
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1429
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1430
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1431
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1432
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1433
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1434
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1435
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1436
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1437
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1438
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1439
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1440
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1441
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1442
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1443
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1444
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1445
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1446
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1447
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1448
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1449
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1450
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1451
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1452
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1453
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1454
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1455
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1456
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1457
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1458
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1459
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1460
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1461
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1462
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1463
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1464
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1465
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1466
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1467
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1468
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1469
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1470
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1471
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1472
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1473
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1474
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1475
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1476
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1477
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1478
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1479
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1480
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1481
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1482
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1483
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1484
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1485
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1486
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1487
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1488
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1489
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1490
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1491
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1492
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1493
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1494
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1495
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1496
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1497
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1498
+Name = ""
+Description = ""
+Note = ""
+
+Armor 1499
+Name = ""
+Description = ""
+Note = ""
+

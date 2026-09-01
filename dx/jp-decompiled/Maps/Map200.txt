@@ -1,0 +1,649 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 199, 20, 9, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 199, 21, 9, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 199, 22, 9, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "教祖"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "サーヴェン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ControlVariables([338, 338, 0, 0, 1100])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 200, 22, 34, 8, 0])
+    SetEventLocation([4, 0, 21, 25, 8])
+    SetEventLocation([5, 0, 22, 26, 8])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, true])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････誰かいるの。"])
+    ShotBalloonIcon([4, 1, false])
+    SetMoveRoute([4, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    SetMoveRoute([5, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["見るからに冒険者でも教団員とも違う外見だった。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["みなさん！"])
+    ShowText(["あのローブの男が教祖です！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････ターゲット発見なの！"])
+    ShowTextAttributes(["Monster1", 6, 1, 2])
+    ShowText(["\\C[20]教祖\\C[0]"])
+    ShowText(["ここまで侵入を許してしまうとは････"])
+    ShowPicture([52, "200_サーヴェンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]スーツの男\\C[0]"])
+    ShowText(["やれやれ････困りましたねぇ･･･。"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私は教祖よりも隣に居るスーツの男の方に目がいってしまった。"])
+    ShowText(["その男は胡散臭さがスーツを着たような人物で"])
+    ShowText(["教祖以上に危険な臭いがしたからだ。"])
+    ShowTextAttributes(["Monster1", 6, 1, 2])
+    ShowText(["\\C[20]教祖\\C[0]"])
+    ShowText(["こうなっては仕方ありません･･･"])
+    ShowText(["私は緊急用の脱出口を使って逃げます。"])
+    ShowText(["時間を稼ぎなさいサーヴェン！"])
+    SetMoveRoute([4, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    SetEventLocation([4, 0, 49, 0, 0])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]サーヴェン\\C[0]"])
+    ShowText(["はぁ････肉体労働は苦手なんですがねぇ････。"])
+    ShowPicture([20, "200_ここなG1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あわわ････教祖が逃げちゃうよ････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ここなが慌てて走りだそうとするが私はすぐにそれを止める。"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ここなダメなの。"])
+    ShowText(["目の前の人は危険なの･･･この人をどうにかしないと追えないの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]サーヴェン\\C[0]"])
+    ShowText(["へぇー････勘が良いお嬢さんですねぇ････。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["では早く倒して教祖を追いましょう！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["そうなの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]サーヴェン\\C[0]"])
+    ShowText(["････この上の遺跡がどういったモノだったか知っていますか？"])
+    ShowPicture([20, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["････ふにゃ？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]サーヴェン\\C[0]"])
+    ShowText(["神殿、ですよ。"])
+    ShowText(["もう何百年も前の物ですけどね。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["時間稼ぎの話に付き合う気はないの！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私はサーヴェンに攻撃を仕掛けた！"])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    ErasePicture([20])
+    ErasePicture([52])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare1\", @pitch=100, @volume=100)"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"ボス曲A\", @volume=100, @pitch=100)"])
+    BattleProcessing([0, 136, false, true])
+    IfWin([])
+      ControlVariables([338, 338, 0, 0, 2000])
+      Empty([])
+
+    IfLose([])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["････私達は負けてしまった。"])
+      CallCommonEvent([992])
+      ControlVariables([338, 338, 0, 0, 1200])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Comment(["選択肢位置(180,80,9)"])
+    ShowChoices([["直前に戻る"], 0])
+    When([0, "直前に戻る"])
+      ControlVariables([338, 338, 0, 0, 1000])
+      RecoverAll([0, 0])
+      TransferPlayer([0, 199, 21, 11, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に戻る"], 0])
+    When([0, "拠点に戻る"])
+      ChangePartyMember([5, 1, 0])
+      ChangePartyMember([10, 1, 0])
+      ControlSwitches([201, 201, 0])
+      TransferPlayer([0, 21, 13, 8, 2, 0])
+      RecoverAll([0, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["反省会を開く"], 0])
+    When([0, "反省会を開く"])
+      ControlVariables([338, 338, 0, 0, 1300])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  Page 2
+    ControlVariables([338, 338, 0, 0, 1200])
+    PlayBGM(["RPG::BGM(@name=\"ここなだよ\", @volume=100, @pitch=105)"])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ここな反省会はじまるよー☆"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["わーわー"])
+    ShowPicture([50, "200_いちごA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["わー。"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["えーっと。"])
+    ShowText(["炎の守護者だねー･･･ふむふむ、なるほど"])
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["まずはこのボス。"])
+    ShowText(["スタン無効特性を持った敵なんだよ。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･衝撃の事実なの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["スキルのキャンセルは出来ないのですね。"])
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["そうなんだよ。"])
+    ShowPicture([51, "200_ここなC1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あとこれは基本の事だけど、"])
+    ShowText(["ボスのスキル予兆は全て決まったターンに行われているんだよね。"])
+    ShowText(["だから赤スキルなんてのは絶対に決まったタイミングで来るんだよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･なるほどなの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["ボスはパターンが決まっているんですね。"])
+    ShowPicture([51, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うん。"])
+    ShowText(["だからパターンを覚えてしまうのも攻略法の一つだね。"])
+    ShowText(["これからの攻略にも役に立つんだよ。"])
+    ShowPicture([51, "200_ここなG3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["それで今回のボスだけど････"])
+    ShowText(["スキルのキャンセルが出来ないからしっかりとHPを回復して"])
+    ShowText(["無理なく殴るのが大切だね。"])
+    ShowPicture([20, "200_ココアA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["基本なの。"])
+    ShowPicture([51, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["青と橙はとにかくしっかり回復しておけば大丈夫かな？"])
+    ShowText(["赤スキルだけは防御スキルを張っておく方が無難だね。"])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["敏捷が174あれば相手より早く動けるから"])
+    ShowText(["スキル前に回復が間に合うよ！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["赤スキルは10ターン以上経ってから来たの。"])
+    ShowText(["それまでに倒すか、無理ならしっかりと防ぐの。"])
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うんうん、そうだね。反省会終わるんだよ！"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([50])
+    ErasePicture([51])
+    FadeoutBGM([1])
+    Wait([60])
+    Empty([])
+
+  Page 3
+    SetEventLocation([5, 0, 49, 1, 0])
+    SetMoveRoute([5, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････倒したの。"])
+    ShowPicture([49, "200_いちごA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["でも逃げられてしまいましたね････。"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["辺りには私達３人しか居なかった。"])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["二人とも落ち込んでないで脱出路を探すんだよ。"])
+    ShowText(["あの男はともかく教祖を追いかけなくちゃ！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･そうなの。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([51])
+    RecoverAll([0, 0])
+    ControlVariables([338, 338, 0, 0, 3000])
+    FadeinScreen([])
+    Empty([])
+
+  Page 4
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Thunder2\", @pitch=120, @volume=100)"])
+    ControlSwitches([1006, 1006, 0])
+    ShotBalloonIcon([-1, 1, true])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 201, 22, 35, 0, 0])
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowPicture([51, "200_ここなG2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ･･･どこかに抜け道があると思ったんだけど"])
+    ShowText(["行き止まりなんだよ。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["入り口を隠したみたいですね。"])
+    ShowText(["怪しい場所を調べてみましょう！"])
+    ControlVariables([338, 338, 0, 0, 3100])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowPicture([51, "200_ここなG2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ･･･どこかに抜け道があると思ったんだけど"])
+    ShowText(["行き止まりなんだよ。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["入り口を隠したみたいですね。"])
+    ShowText(["怪しい場所を調べてみましょう！"])
+    ControlVariables([338, 338, 0, 0, 3100])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowPicture([51, "200_ここなG2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ･･･どこかに抜け道があると思ったんだけど"])
+    ShowText(["行き止まりなんだよ。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["入り口を隠したみたいですね。"])
+    ShowText(["怪しい場所を調べてみましょう！"])
+    ControlVariables([338, 338, 0, 0, 3100])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowPicture([51, "200_ここなG2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ･･･どこかに抜け道があると思ったんだけど"])
+    ShowText(["行き止まりなんだよ。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["入り口を隠したみたいですね。"])
+    ShowText(["怪しい場所を調べてみましょう！"])
+    ControlVariables([338, 338, 0, 0, 3100])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowPicture([51, "200_ここなG2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あれ･･･どこかに抜け道があると思ったんだけど"])
+    ShowText(["行き止まりなんだよ。"])
+    ShowPicture([20, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["入り口を隠したみたいですね。"])
+    ShowText(["怪しい場所を調べてみましょう！"])
+    ControlVariables([338, 338, 0, 0, 3100])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([49])
+    ErasePicture([51])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])

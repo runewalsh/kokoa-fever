@@ -1,0 +1,264 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 18, 28, 13, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 18, 29, 13, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 18, 30, 13, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【圧縮空間】とは"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["主に魔法・魔術により生み出された空間であり、世界。"])
+    ShowText(["その世界の法則は魔法体系や術者によって異なる。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["規模が小さなものもあれば大きなものもあり、"])
+    ShowText(["その中の環境もまた生み出した者、作り上げた者によって異なる。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["例え大きな世界だとしてもそれを圧縮して保存しておける為、"])
+    ShowText(["魔術師や魔法師などの実験場として使われるのが一般的だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["圧縮空間を保存するものは、"])
+    ShowText(["その空間を閉じ込められるような箱物が適切で"])
+    ShowText(["壷や瓶、箪笥など割と自由に選択できる。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["また魔族の中にもこういった圧縮空間を好んで使う個体もおり、"])
+    ShowText(["淫魔が所有する圧縮空間はその性質から【淫界】と呼ばれる。"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 淫魔の擬態 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["淫魔は人間界に紛れ込む為に人間の姿に擬態する能力がある。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["我々からすればその姿は本来の姿ではないと言う認識になってしまうが、"])
+    ShowText(["どうやら淫魔からすればそういう感覚は無いみたいだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["彼女等は淫魔の姿も人間の姿も同じように自分として認識しており"])
+    ShowText(["どちらが本当の姿という識別はしていないようである。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["本当の姿が１つしか無い我々にはどうにも分からない感覚である。"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 NPC 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["世界にはNPCと呼ばれる者が存在している。"])
+    ShowText(["NPCは魂が宿っておらず、感性であるクオリアを持たない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["あたかも人のように接するので普通の人間と区別がつき難いが"])
+    ShowText(["彼らは条件反射を繰り返すだけで、実のところ思考していない。"])
+    ShowText(["決められた行動をしているだけだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["哲学的ゾンビ････と言う呼び方もあるが"])
+    ShowText(["一般的にはNPCと呼ばれる事が多い。"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 覇属性 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["覇属性とはこの世にいる全ての存在に対して特攻効果のある属性である"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["誰１人として耐性を持つことは無く、"])
+    ShowText(["常に３倍近いダメージを叩き出せる素晴らしい属性だ"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかし覇の属性を持つスキルは燃費が悪く"])
+    ShowText(["扱うにもそれなりの技術が必要とされている。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["さらには特攻効果があるだけなので"])
+    ShowText(["元のダメージが小さければ実のところ大したダメージにならないと"])
+    ShowText(["いうのも問題点ではある････。"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 魔剣 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["魔剣・神剣・聖剣････そういった伝説級の力を持った武具"])
+    ShowText(["あるいは力を総じて魔剣と呼称する。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["伝説級の力に対して魔剣という総称が使われているだけで"])
+    ShowText(["神剣や聖剣が ≪魔≫ の属性である訳ではない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["神剣は神剣であり、聖剣は聖剣。"])
+    ShowText(["魔剣とは異なる存在である。"])
+    ShowText(["あくまでも伝説級の力に対して魔剣という"])
+    ShowText(["総称が使われているだけの事だ。"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 不浄汚染 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["この世界と違うどこかの異世界。"])
+    ShowText(["不浄世界と呼ばれる世界は『不浄』という穢れを"])
+    ShowText(["伝染させていく性質を持っている。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["その伝染は異世界にも影響し"])
+    ShowText(["我々の住むこの世界にも時折、突然その異世界と繋がり"])
+    ShowText(["不浄による汚染が広まっていく。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["現在、不浄による汚染拡大を防ぐ方法は確立されているが"])
+    ShowText(["一度不浄に汚染された土地は未だ浄化する術が確立されていない。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかしながら不浄汚染の最大の問題は"])
+    ShowText(["偶発的に不浄世界と繋がってしまう事であり、"])
+    ShowText(["予想や対策が無いという所だろう。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["不浄に汚染された地域は人が住む事は出来ない。"])
+    ShowText(["力を持たない者は不浄に汚染され、不浄の魔物と化してしまうのだ･･･。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["現在、各地で発生している不浄は沈静化し不浄の拡大は防がれている。"])
+    ShowText(["これは各国の英雄や学者達の働きによるものである。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["しかしながら完全な正常化はなされておらず"])
+    ShowText(["あくまでも不浄が拡大しない対策を講じているだけである。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["これは単純に浄化するコストとそこから来る利益とのバランスで"])
+    ShowText(["実現が難しいからと言う話が一般的である。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["さらに不浄はいきなりこの世界に侵略を開始するので"])
+    ShowText(["即時発見は非常に困難であり、現在は完全に事後処理となって"])
+    ShowText(["しまっているのも大きな問題である。"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 淫魔の性質 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["淫魔は淫らな行為を行い生命エネルギーを得る事が出来る。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["人が食事を摂るように淫魔は人と行為に及んで養分を得るのだ。"])
+    ShowText(["なので淫魔は必然的に人の存在を必要とする。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["そうした理由からか淫魔は正体を隠し人里に潜んでいる場合がある。"])
+    ShowText(["個体によっては淫魔の力を使って人々を魅了し"])
+    ShowText(["その地域を自分の物としてしまう者達が存在する。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["エリアの発展度などを誇りにし、"])
+    ShowText(["よりエリアを発展・拡大しようとする淫魔達も存在している。"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["【 女殺し 】"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["触手型の魔物は【女殺し】という属性攻撃を持つ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["これは名前の通り女に対して効果を発揮する属性で"])
+    ShowText(["どんな種族・生命であろうと女型であれば特効効果を持つ属性である。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["つまり触手は女に対してかなり有利な生き物であり"])
+    ShowText(["女にとっては生まれながらの天敵となる。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["ちなみに男にとっては意味の無い属性である。"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["ここの本、難しいの！"])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]青年\\C[0]"])
+    ShowText(["ふむふむ････なるほど！"])
+    ShowText(["(分かってない)"])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["割席断交の話は知ってる？"])
+    ShowText(["････俺も割ってみてぇ。"])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]英雄\\C[0]"])
+    ShowText(["基本的な話で知ってるかも知れないけど、"])
+    ShowText(["一般的な魔物に弱点属性はあっても、耐性属性は無いんだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]英雄\\C[0]"])
+    ShowText(["例えば突属性のダメージが通りやすいけれど"])
+    ShowText(["打属性が通り難い･･･なんて敵は存在しないんだよね。"])
+    ShowText(["突属性だけは通りやすくて他は普通！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]英雄\\C[0]"])
+    ShowText(["ただ、物理自体が通り難い。"])
+    ShowText(["魔法自体が通り難い敵というのは存在するから気をつけるんだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]英雄\\C[0]"])
+    ShowText(["まぁ････基本的に。だけどね。"])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["いくら防御力を上げても敵が使ってくる魔法は痛いわよ。"])
+    ShowText(["魔法攻撃はこちらの防御力を無視してくるのよ。"])
+    Empty([])

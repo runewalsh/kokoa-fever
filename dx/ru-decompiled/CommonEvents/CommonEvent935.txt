@@ -1,0 +1,16 @@
+CommonEvent 935
+Name = "SM本"
+
+  ConditionalBranch([4, 1, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････痛そう。"])
+    PlaySE(["RPG::SE(@name=\"Down3\", @pitch=100, @volume=90)"])
+    ControlVariables([5, 5, 1, 0, 10])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　　　　心の闇が 10 上昇した･･･････。"])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

@@ -1,0 +1,113 @@
+Display Name = "紋章屋"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]紋章師\\C[0]"])
+      ShowText(["紋章の力は････帰ってください。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["紋章師はココアの服装が気に入らなかったようだ。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]紋章師\\C[0]"])
+    ShowText(["紋章の力は侮れませんよ・・・。"])
+    ControlVariables([401, 401, 0, 3, 3, 1, 0])
+    ConditionalBranch([1, 302, 0, 1900, 1])
+      ShopProcessing([2, 601, 0, 0, true])
+      ShopItem([2, 602, 0, 0])
+      ShopItem([2, 603, 0, 0])
+      ShopItem([2, 604, 0, 0])
+      ShopItem([2, 605, 0, 0])
+      ShopItem([2, 607, 0, 0])
+      ShopItem([2, 608, 0, 0])
+      ShopItem([2, 610, 0, 0])
+      ShopItem([2, 611, 0, 0])
+      ShopItem([2, 612, 0, 0])
+      ShopItem([2, 613, 0, 0])
+      ShopItem([2, 614, 0, 0])
+      ShopItem([2, 616, 0, 0])
+      ShopItem([2, 617, 0, 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 401, 0, 40, 1])
+        ShopProcessing([2, 601, 0, 0, true])
+        ShopItem([2, 602, 0, 0])
+        ShopItem([2, 603, 0, 0])
+        ShopItem([2, 604, 0, 0])
+        ShopItem([2, 605, 0, 0])
+        ShopItem([2, 607, 0, 0])
+        ShopItem([2, 608, 0, 0])
+        ShopItem([2, 610, 0, 0])
+        ShopItem([2, 611, 0, 0])
+        ShopItem([2, 612, 0, 0])
+        ShopItem([2, 613, 0, 0])
+        ShopItem([2, 614, 0, 0])
+        Empty([])
+      Else([])
+        ConditionalBranch([1, 401, 0, 25, 1])
+          ShopProcessing([2, 601, 0, 0, true])
+          ShopItem([2, 602, 0, 0])
+          ShopItem([2, 603, 0, 0])
+          ShopItem([2, 604, 0, 0])
+          ShopItem([2, 605, 0, 0])
+          ShopItem([2, 607, 0, 0])
+          ShopItem([2, 608, 0, 0])
+          Empty([])
+        Else([])
+          ConditionalBranch([1, 401, 0, 1, 1])
+            ShopProcessing([2, 601, 0, 0, true])
+            ShopItem([2, 602, 0, 0])
+            ShopItem([2, 603, 0, 0])
+            ShopItem([2, 604, 0, 0])
+            ShopItem([2, 605, 0, 0])
+            Empty([])
+          Else([])
+            Empty([])
+          BranchEnd([])
+          Empty([])
+        BranchEnd([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 17, 6, 51, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["･･･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["紋章には能力上昇効果の他にスキルを扱えるようになるものも存在します。"])
+      ShowText(["例えば【火の紋章】は【ファイアーボール】を使えるようになるんですよ。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["紋章には能力上昇効果の他にスキルを扱えるようになるものも存在します。"])
+    ShowText(["例えば【火の紋章】は【ファイアーボール】を使えるようになるんですよ。"])
+    Empty([])

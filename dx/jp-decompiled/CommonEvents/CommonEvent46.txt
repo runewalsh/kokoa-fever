@@ -1,0 +1,45 @@
+CommonEvent 46
+Name = "表情描写"
+
+  ControlVariables([103, 103, 1, 0, 1])
+  ConditionalBranch([1, 104, 0, 1, 0])
+    CallCommonEvent([47])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 104, 0, 2, 0])
+      CallCommonEvent([48])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 104, 0, 3, 0])
+        CallCommonEvent([51])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 104, 0, 4, 0])
+          CallCommonEvent([52])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 104, 0, 5, 0])
+            CallCommonEvent([53])
+            Empty([])
+
+          Else([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

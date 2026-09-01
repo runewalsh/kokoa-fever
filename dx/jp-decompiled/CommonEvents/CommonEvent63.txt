@@ -1,0 +1,36 @@
+CommonEvent 63
+Name = "　拘束A"
+
+  ConditionalBranch([1, 212, 0, 0, 0])
+    ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココア拘束A1", 0])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 212, 0, 2, 0])
+      ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココア拘束A2", 0])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 212, 0, 3, 0])
+        ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココア拘束A3", 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 212, 0, 5, 0])
+          ChangeActorGraphic([1, "1_ココア裸", 0, "50_ココア拘束A5", 0])
+          Empty([])
+
+        Else([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

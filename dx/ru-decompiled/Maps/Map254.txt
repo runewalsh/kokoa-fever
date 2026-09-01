@@ -1,0 +1,87 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeoutScreen([])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 65, 37, 39, 2, 0])
+    ControlSwitches([201, 201, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowPicture([50, "1034_夜通りモブB", 0, 0, 0, 0, 100, 100, 100, 0])
+    Wait([4])
+    ShowPicture([50, "1034_夜通りモブB", 0, 0, 0, 0, 100, 100, 200, 0])
+    Wait([4])
+    ShowPicture([50, "1034_夜通りモブB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([40])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["あ、ダメ･･･約束したのにッ！"])
+    ShowText(["中はダメって約束したのにぃぃ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]貴族の男\\C[0]"])
+    ShowText(["中出し分の追加料金はちゃんと払うとも･･･"])
+    ShowText(["お金に困っているのだろう？"])
+    ShowText(["だったら腰を振って精子をおねだりするのだ！！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["や、止めて、中は、中には出さないで！！"])
+    ShowText(["私まだママになりたくないよ！　ああッ\\I[122]"])
+    ErasePicture([50])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私も一つ道が違えばこうなっていたのかも知れない････。"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowPicture([50, "1034_夜通りモブB", 0, 0, 0, 0, 100, 100, 100, 0])
+    Wait([4])
+    ShowPicture([50, "1034_夜通りモブB", 0, 0, 0, 0, 100, 100, 200, 0])
+    Wait([4])
+    ShowPicture([50, "1034_夜通りモブB", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([40])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["あ、ダメ･･･約束したのにッ！"])
+    ShowText(["中はダメって約束したのにぃぃ\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]貴族の男\\C[0]"])
+    ShowText(["中出し分の追加料金はちゃんと払うとも･･･"])
+    ShowText(["お金に困っているのだろう？"])
+    ShowText(["だったら腰を振って精子をおねだりするのだ！！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["や、止めて、中は、中には出さないで！！"])
+    ShowText(["私まだママになりたくないよ！　ああッ\\I[122]"])
+    ErasePicture([50])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私も一つ道が違えばこうなっていたのかも知れない････。"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]貴族の男\\C[0]"])
+    ShowText(["見たまえよ君。"])
+    ShowText(["同じ年頃の子を買ってセックスさせている所なのだよ。"])
+    Empty([])

@@ -1,0 +1,9 @@
+CommonEvent 1
+Name = "スイッチ"
+
+  ControlSwitches([11, 11, 0])
+  ControlSwitches([12, 12, 0])
+  ControlSwitches([7, 7, 0])
+  ControlSwitches([8, 8, 0])
+  ControlSwitches([9, 9, 0])
+  Empty([])

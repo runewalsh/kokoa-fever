@@ -1,0 +1,24 @@
+CommonEvent 8
+Name = "トリプルカウント"
+
+  ConditionalBranch([4, 1, 6, 72])
+    ChangeState([0, 1, 1, 72])
+    ChangeState([0, 1, 0, 73])
+    ConditionalBranch([0, 55, 0])
+      ForceAction([1, 1, 55, -2])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 1, 54, -2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    CallCommonEvent([10])
+    ForceAction([1, 1, 53, -2])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

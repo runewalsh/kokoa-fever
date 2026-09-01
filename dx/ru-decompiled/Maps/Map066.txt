@@ -1,0 +1,60 @@
+Display Name = "信長書服店２階"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 64, 4, 15, 2, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 64, 3, 15, 2, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]無口な店員\\C[0]"])
+    ShowText(["････････。"])
+    ShopProcessing([2, 3, 1, 5000, true])
+    ShopItem([2, 4, 1, 10000])
+    ShopItem([2, 5, 1, 50000])
+    ShopItem([2, 7, 1, 30000])
+    ShopItem([2, 8, 1, 25000])
+    ShopItem([2, 11, 1, 40000])
+    ShopItem([2, 14, 1, 50000])
+    ShopItem([2, 17, 1, 100000])
+    ShopItem([2, 43, 1, 20000])
+    ShopItem([2, 44, 1, 30000])
+    ShopItem([2, 45, 1, 15000])
+    ShopItem([2, 47, 1, 30000])
+    ShopItem([2, 48, 1, 10000])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男性\\C[0]"])
+    ShowText(["絶対この服似合うってー。"])
+    ShowText(["次のエッチはこれ着てくれよー"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["えーやだー････恥ずかしいよー･･･。"])
+    Empty([])

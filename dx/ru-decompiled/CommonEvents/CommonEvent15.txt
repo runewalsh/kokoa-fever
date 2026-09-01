@@ -1,0 +1,5 @@
+CommonEvent 15
+Name = "瞬牙封印"
+
+  ChangeState([0, 5, 0, 82])
+  Empty([])

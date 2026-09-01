@@ -1,0 +1,18 @@
+CommonEvent 936
+Name = "黒歴史ノート"
+
+  ConditionalBranch([4, 1, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･･････人の心の闇に触れた。"])
+    PlaySE(["RPG::SE(@name=\"Down3\", @pitch=100, @volume=90)"])
+    ControlVariables([5, 5, 1, 0, 20])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　　　　心の闇が 20 上昇した･･･････。"])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

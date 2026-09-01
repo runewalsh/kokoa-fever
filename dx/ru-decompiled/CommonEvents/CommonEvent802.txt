@@ -1,0 +1,5 @@
+CommonEvent 802
+Name = "拘束段階進める"
+
+  ControlVariables([212, 212, 1, 0, 1])
+  Empty([])

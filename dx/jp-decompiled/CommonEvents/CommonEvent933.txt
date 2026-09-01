@@ -1,0 +1,28 @@
+CommonEvent 933
+Name = "薄い本"
+
+  ConditionalBranch([4, 1, 0])
+    Empty([])
+
+  Else([])
+    ExitEventProcessing([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([10, 40, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･････エッチな箇所が黒で塗りつぶされている。"])
+    Empty([])
+
+  Else([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["･････エッチなのはこうやって隠せばいいのか。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["これは発見なの。"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeArmor([40, 0, 0, 1, false])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

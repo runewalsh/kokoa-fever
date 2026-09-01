@@ -1,0 +1,6 @@
+CommonEvent 979
+Name = "アクターグラフィック正常化"
+
+  ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+  ChangeActorGraphic([5, "ここなチビ２", 5, "", 0])
+  Empty([])

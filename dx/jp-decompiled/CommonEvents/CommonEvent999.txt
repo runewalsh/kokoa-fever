@@ -1,0 +1,53 @@
+CommonEvent 999
+Name = "★システムスイッチ"
+
+  Loop([])
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る", "ダッシュ時 立ち絵消去"], 1])
+    When([0, "戻る"])
+      BreakLoop([])
+      Empty([])
+
+    When([1, "ダッシュ時 立ち絵消去"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["通常時にShitfキーを押すと立ち絵が一時的に消えます"])
+      CommentMore([""])
+      CommentMore(["例：ダッシュ時に立ち絵が非表示になる。"])
+      ConditionalBranch([0, 24, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["現在この機能はonになっています。"])
+        Comment(["選択肢位置(180,80)"])
+        ShowChoices([["onのまま", "offにする"], 1])
+        When([0, "onのまま"])
+          Empty([])
+
+        When([1, "offにする"])
+          ControlSwitches([14, 14, 1])
+          Empty([])
+
+        ChoicesEnd([])
+        Empty([])
+
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["現在この機能はoffになっています。"])
+        Comment(["選択肢位置(180,80)"])
+        ShowChoices([["onにする", "offのまま"], 2])
+        When([0, "onにする"])
+          ControlSwitches([14, 14, 0])
+          Empty([])
+
+        When([1, "offのまま"])
+          Empty([])
+
+        ChoicesEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+  RepeatAbove([])
+  Empty([])

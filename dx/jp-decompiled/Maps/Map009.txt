@@ -1,0 +1,236 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "馬車後ろ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "馬車前"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "行商人"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ControlSwitches([15, 15, 0])
+    PlayBGM(["RPG::BGM(@name=\"Scene5\", @volume=100, @pitch=100)"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[4])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[4])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=true, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=true, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=true, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    FadeinScreen([])
+    ControlVariables([301, 301, 0, 0, 22])
+    ShowTextAttributes(["People2", 3, 1, 2])
+    ShowText(["へーっ・・・て言うとお嬢ちゃんは魔法使いになるために"])
+    ShowText(["魔法学校に通うのか。"])
+    ControlVariables([104, 104, 0, 0, 1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん・・ココアも疫病に掛かって死にかけた・・。"])
+    ShowText(["だけど魔法協会のお姉さんが魔法で私の病気治してくれた。"])
+    ShowText(["だから私も立派な魔法使いになりたいの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["このおじさんは馬車の運転手だ。"])
+    ShowText(["馬車に乗車してから結構な時間が経ち、そろそろ街に着く頃らしい。"])
+    ShowTextAttributes(["People2", 3, 1, 2])
+    ShowText(["そうかー・・・夢があるっていいねー。"])
+    ControlVariables([104, 104, 0, 0, 3])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん・・ココアいっぱい勉強頑張る・・！"])
+    ShowTextAttributes(["People2", 3, 1, 2])
+    ShowText(["そうかー････。"])
+    FadeoutBGM([2])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["それからしばらく経った時、異変が起こった。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["オラァァァ!! お前ら馬車を降りやがれ!!!!"])
+    Wait([20])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["私の乗る馬車は････山賊達に襲われた･････。"])
+    FadeoutScreen([])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    ChangeTransparency([1])
+    TransferPlayer([0, 9, 12, 11, 2, 0])
+    SetEventLocation([1, 0, 13, 10, 4])
+    SetEventLocation([2, 0, 12, 10, 4])
+    SetEventLocation([3, 0, 11, 10, 2])
+    ControlVariables([301, 301, 0, 0, 30])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    SetEventLocation([6, 0, 11, 12, 8])
+    SetEventLocation([7, 0, 13, 13, 8])
+    SetEventLocation([8, 0, 15, 11, 4])
+    SetEventLocation([11, 0, 10, 13, 8])
+    SetEventLocation([12, 0, 16, 13, 8])
+    SetEventLocation([9, 0, 14, 10, 2])
+    SetEventLocation([10, 0, 13, 11, 2])
+    ControlSwitches([15, 15, 0])
+    ControlVariables([104, 104, 0, 0, 4])
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["へへへっ･･･命が惜しかったら大人しく言う通りにするんだな！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････。"])
+    SetMoveRoute([10, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男性\\C[0]"])
+    ShowText(["こ、こんな事して良いと思っているのか！？"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["うるせー･･･。"])
+    ShowAnimation([10, 7, true])
+    SetMoveRoute([10, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    ShotBalloonIcon([-1, 1, false])
+    ShotBalloonIcon([9, 1, false])
+    ShotBalloonIcon([3, 8, false])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男性\\C[0]"])
+    ShowText(["ぐ、ぐはっ･････!!"])
+    PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=100, @volume=85)"])
+    ControlVariables([301, 301, 0, 0, 31])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["ふんっ････男はいらねーんだよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]男性\\C[0]"])
+    ShowText(["･･････････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["男の人はそのまま動かなくなってしまった････。"])
+    ShowTextAttributes(["People2", 3, 1, 2])
+    ShowText(["ひ、ひぃ･････"])
+    SetMoveRoute([3, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    SetEventLocation([3, 0, 23, 29, 0])
+    PlaySE(["RPG::SE(@name=\"Horse\", @pitch=115, @volume=95)"])
+    SetMoveRoute([2, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=false, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+    Wait([60])
+    ShotBalloonIcon([-1, 1, false])
+    ShotBalloonIcon([9, 1, false])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    SetMoveRoute([9, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Wait([60])
+    Wait([30])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["運転手は馬と共に逃げさっていった････。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["ふんっ････。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["一人逃げたと言うのに山賊達は慌てるどころか何故か落ち着いていた。"])
+    ShowText(["荷台は残っているし男はいらないと言う言葉から"])
+    ShowText(["運転手のあのおじさんが逃げた所で問題ないと言うことだろうか･･･。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["お譲ちゃん達には俺達の根城に来てもらうぜ････へへっ。"])
+    SetMoveRoute([9, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["い、いや･････。"])
+    ShowTextAttributes(["Evil", 1, 1, 2])
+    ShowText(["根城についたらまずはそっちの姉ちゃんから"])
+    ShowText(["可愛がってやるぜ･･････たっぷりとな！！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････。"])
+    FadeoutScreen([])
+    ControlSwitches([202, 202, 1])
+    CallCommonEvent([39])
+    ControlVariables([301, 301, 0, 0, 50])
+    TransferPlayer([0, 11, 8, 11, 2, 0])
+    ChangeActorGraphic([1, "1_ココア裸", 0, "", 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "山賊１"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "山賊２"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "山賊３"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "女性１"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "男１"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 11
+Name = "山賊４"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "山賊５"
+
+  Page 0
+    Empty([])

@@ -1,0 +1,146 @@
+CommonEvent 303
+Name = "anime１"
+
+  ControlVariables([421, 421, 1, 0, 1])
+  ConditionalBranch([1, 421, 0, 10, 2])
+    ConditionalBranch([1, 421, 0, 5, 2])
+      ConditionalBranch([1, 421, 0, 1, 0])
+        ShowPicture([90, "1000_モブお姉さんAani001", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 2, 0])
+          ShowPicture([90, "1000_モブお姉さんAani002", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 3, 0])
+            ShowPicture([90, "1000_モブお姉さんAani003", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 4, 0])
+              ShowPicture([90, "1000_モブお姉さんAani004", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 5, 0])
+                ShowPicture([90, "1000_モブお姉さんAani005", 0, 0, 0, 0, 100, 100, 255, 0])
+                PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=90)"])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 421, 0, 6, 0])
+        ShowPicture([90, "1000_モブお姉さんAani006", 0, 0, 0, 0, 100, 100, 255, 0])
+        Empty([])
+
+      Else([])
+        ConditionalBranch([1, 421, 0, 7, 0])
+          ShowPicture([90, "1000_モブお姉さんAani007", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 8, 0])
+            ShowPicture([90, "1000_モブお姉さんAani008", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 9, 0])
+              ShowPicture([90, "1000_モブお姉さんAani009", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 10, 0])
+                ShowPicture([90, "1000_モブお姉さんAani010", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 421, 0, 20, 2])
+      ConditionalBranch([1, 421, 0, 15, 2])
+        ConditionalBranch([1, 421, 0, 11, 0])
+          ShowPicture([90, "1000_モブお姉さんAani011", 0, 0, 0, 0, 100, 100, 255, 0])
+          Empty([])
+
+        Else([])
+          ConditionalBranch([1, 421, 0, 12, 0])
+            ShowPicture([90, "1000_モブお姉さんAani012", 0, 0, 0, 0, 100, 100, 255, 0])
+            Empty([])
+
+          Else([])
+            ConditionalBranch([1, 421, 0, 13, 0])
+              ShowPicture([90, "1000_モブお姉さんAani013", 0, 0, 0, 0, 100, 100, 255, 0])
+              Empty([])
+
+            Else([])
+              ConditionalBranch([1, 421, 0, 14, 0])
+                ShowPicture([90, "1000_モブお姉さんAani014", 0, 0, 0, 0, 100, 100, 255, 0])
+                Empty([])
+
+              Else([])
+                ConditionalBranch([1, 421, 0, 15, 0])
+                  ShowPicture([90, "1000_モブお姉さんAani015", 0, 0, 0, 0, 100, 100, 255, 0])
+                  ControlVariables([421, 421, 0, 0, 0])
+                  Empty([])
+
+                BranchEnd([])
+                Empty([])
+
+              BranchEnd([])
+              Empty([])
+
+            BranchEnd([])
+            Empty([])
+
+          BranchEnd([])
+          Empty([])
+
+        BranchEnd([])
+        Empty([])
+
+      Else([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    Else([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

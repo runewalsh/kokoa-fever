@@ -1,0 +1,136 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "魔王"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "レモン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    FadeoutScreen([])
+    TransferPlayer([0, 222, 17, 21, 0, 0])
+    SetEventLocation([2, 0, 18, 19, 8])
+    SetEventLocation([4, 0, 20, 21, 8])
+    SetEventLocation([3, 0, 16, 21, 8])
+    SetEventLocation([1, 0, 18, 14, 2])
+    FadeinScreen([])
+    ScrollMap([6, 1, 4])
+    ScrollMap([8, 2, 4])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]魔王\\C[0]"])
+    ShowText(["････久しぶりだな。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["お久しぶりです魔王様。"])
+    ShowText(["お元気そうでなによりです。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]魔王\\C[0]"])
+    ShowText(["････うむ。"])
+    ShowText(["まぁ楽にせよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["･･･はい。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]魔王\\C[0]"])
+    ShowText(["･･･して、今日は何用なのだ？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["えぇ、この近くの孤島に我々が追っている人物が逃げ込んだので"])
+    ShowText(["それを追って近くまで来たので寄らせて頂きました。"])
+    ErasePicture([50])
+    ScrollMap([2, 2, 4])
+    ScrollMap([4, 1, 4])
+    Wait([60])
+    ShowPicture([52, "200_ココアA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････クロウが丁寧に喋ってるの。"])
+    ShowPicture([50, "200_ここなC1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あーアレは相手がねー･･･。"])
+    ShowText(["へりくだると組しやすいってクロウが言ってたよ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["私も魔王と話す時はそうするの！"])
+    ErasePicture([50])
+    ErasePicture([52])
+    ScrollMap([6, 1, 4])
+    ScrollMap([8, 2, 4])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]魔王\\C[0]"])
+    ShowText(["そいつなら俺にも覚えがある。"])
+    ShowText(["俺の名を語って周辺国の王に呪いを掛けた奴だな。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["ご存知でしたか。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]魔王\\C[0]"])
+    ShowText(["討伐すると言うなら俺も行く。"])
+    ShowText(["奴には魔王に喧嘩を売ると言うのがどれだけ高い代償となるか"])
+    ShowText(["分からせなければならんからな。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["そう････ですか。"])
+    ErasePicture([50])
+    ScrollMap([2, 2, 4])
+    ScrollMap([4, 1, 4])
+    Wait([60])
+    ShowPicture([52, "200_ココアA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････魔王が仲間に入ったの。"])
+    ShowPicture([50, "200_ここなA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["これなら楽勝だね♪"])
+    FadeoutScreen([])
+    ErasePicture([50])
+    ErasePicture([52])
+    PlayBGM(["RPG::BGM(@name=\"\", @volume=100, @pitch=100)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["こうして私達はついに教祖が潜伏している小島に到着した"])
+    ControlVariables([341, 341, 0, 0, 1300])
+    TransferPlayer([0, 224, 12, 24, 8, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

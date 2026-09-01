@@ -1,0 +1,1492 @@
+Display Name = "要塞都市ハーリス-中央区"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["色んな冒険者を見てきたが･･･"])
+      ShowText(["やっぱりそういう系は男には毒だぜ･･･"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]冒険者\\C[0]"])
+        ShowText(["まともな服を買う金が無かったのか？"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["魔法の才能なんて無くても俺は剣一本で食っていくぜ！"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 37, 15, 18, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 38, 16, 17, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["冒険者にも様々な服を着た奴がいるが･･･"])
+      ShowText(["だからってそれは目のやり場に困る。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]冒険者\\C[0]"])
+        ShowText(["そんな装備で大丈夫か？"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["魔法使いが優遇されるようになってから"])
+    ShowText(["魔法の才能が無い者に諦めが増えた気がするんだ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["街の中にもそういう奴を見かけるだろう？"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    CallCommonEvent([994])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 39, 12, 17, 0, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 40, 16, 17, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 41, 16, 17, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 42, 5, 17, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 43, 9, 16, 0, 0])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 44, 5, 17, 0, 0])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    ControlSwitches([947, 947, 1])
+    TransferPlayer([0, 45, 5, 17, 0, 0])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    CallCommonEvent([39])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 18, 5, 20, 0, 0])
+    Empty([])
+
+CommonEvent 13
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    TintScreen(["Tone(@red=17.0, @green=-34.0, @blue=-34.0, @gray=0.0)", 1, true])
+    SetEventLocation([13, 0, 42, 44, 2])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([51, "200_ここなC3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["あちゃー････もうこんな時間だよ････。"])
+    ShowText(["もう帰らないと暗くなっちゃうね･･････。"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････もっと街見て回りたかった。"])
+    ShowPicture([51, "200_ここなC1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["しょうがないよ･･･また明日にでも来る事になるし"])
+    ShowText(["その時にでもゆっくり見て回ればいいよ！"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････そうする！"])
+    ShotBalloonIcon([-1, 2, true])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["（来る事になる････？）"])
+    ShowPicture([51, "200_ここなB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["それに最近この辺りは物騒なんだよね。"])
+    ShowText(["怪しい怪盗やら山賊やら出るって聞くし、あの黒犬も出たって聞いたよ。"])
+    ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ぶらっくどっぐ････？"])
+    ShowPicture([51, "200_ここなB4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["そうそうブラックドッグ。"])
+    ShowText(["正体不明の影の犬なんだって･･･遭遇したら一目散に逃げないと"])
+    ShowText(["食い殺されちゃうんだって････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ここな････。"])
+    ShowPicture([51, "200_ここなB3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["早く帰ろう････。"])
+    ShowPicture([51, "200_ここなC1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["そだねー････。"])
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ControlSwitches([403, 403, 0])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　【ハーリス中央区】が行き先に追加されました！"])
+    ErasePicture([20])
+    ErasePicture([51])
+    ChangePartyMember([5, 0, 0])
+    RecoverAll([0, 0])
+    ChangeState([0, 5, 0, 34])
+    ControlVariables([302, 302, 0, 0, 80])
+    TransferPlayer([0, 30, 10, 24, 6, 0])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 60, true])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["素材お売り下さい！！"])
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ろくでなし\\C[0]"])
+      ShowText(["へっへ･･･お譲ちゃん･･･えっちな格好してるねぇ････。"])
+      ShowText(["おじさんとすけべしたいのかなぁ？"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["･･････。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]ろくでなし\\C[0]"])
+        ShowText(["へっへ･･･お譲ちゃん･･･えっちな格好してるねぇ････。"])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["男がじろじろとこちらを見てきた。"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ろくでなし\\C[0]"])
+    ShowText(["あーどっかに楽して儲かる仕事ねぇかなぁ～"])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShotBalloonIcon([0, 8, false])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]掃除メイド\\C[0]"])
+        ShowText(["服はちゃんと着られた方が良いと思います。"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]掃除メイド\\C[0]"])
+    ShowText(["申し訳ありません････お掃除の途中なので。"])
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]青年\\C[0]"])
+      ShowText(["ここは要塞都市ハーリスの中央区でぇぇ！？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]青年\\C[0]"])
+    ShowText(["ここは要塞都市ハーリスの中央区です"])
+    ShowText(["南と東には住宅街が、西には歓楽街が広がっています"])
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["はぁ･･･魔法の才能が無いと日々生きるのが大変だぁ。"])
+    Empty([])
+
+CommonEvent 29
+Name = "EV029"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["わー･･･痴女だー！"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]少女\\C[0]"])
+        ShowText(["どうしてそんな服着てるの？"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["きゃっきゃきゃっきゃ"])
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]青年\\C[0]"])
+    ShowText(["いつか他の国にも行きてーよなー"])
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["ご、ごくり････っ"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["男に凝視されている。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]冒険者\\C[0]"])
+        ShowText(["最近の女の子は進んでるなぁ････"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["魔法学校・・・"])
+    ShowText(["僕が小さい頃にもあったら良かったんですが・・・。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["年齢関係なく入れるみたいなんですけど"])
+    ShowText(["ちょっとこの歳で若い子達に混じるのは抵抗あるんですよね。"])
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 34
+Name = "EV034"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["きゃあ、変態！？"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["ここトーレスは森や山に囲まれた天然の要塞なの"])
+    ShowText(["交通は不便だけど攻められにくいって利点があるそうよ"])
+    Empty([])
+
+CommonEvent 35
+Name = "EV035"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス夜通り　if(s[407])"], 0])
+    When([0, "ハーリス夜通り　if(s[407])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの歓楽街。"])
+      CommentMore(["夜の魔法が掛かっている為、いつも夜である。"])
+      CommentMore(["一般人も多いが場所が場所だけにいかがわしいお店もあり"])
+      CommentMore(["そういう人達も多くいるので気をつけよう。治安は悪くない。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+      TransferPlayer([0, 65, 41, 34, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 36
+Name = "EV036"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]縄跳び少女\\C[0]"])
+      ShowText(["わー変態さんだー。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]縄跳び少女\\C[0]"])
+    ShowText(["何よー邪魔しないで！"])
+    Empty([])
+
+CommonEvent 37
+Name = "EV037"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["あじさいきれいー"])
+    Empty([])
+
+CommonEvent 38
+Name = "EV038"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]冒険者\\C[0]"])
+      ShowText(["良い事あったぁあああああああああああああああああ!!!!"])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ShowTextAttributes(["", 0, 1, 2])
+        ShowText(["\\C[20]冒険者\\C[0]"])
+        ShowText(["良い事あったー！"])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]冒険者\\C[0]"])
+    ShowText(["なんか良いことないかなー"])
+    Empty([])
+
+CommonEvent 39
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 40
+Name = "EV040"
+
+  Page 0
+    SetEventLocation([13, 0, 30, 31, 8])
+    SetEventLocation([39, 0, 31, 31, 8])
+    ErasePicture([20])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([51, "200_ここなA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["頑張ってねココア！"])
+    ShowPicture([20, "200_ココアA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん･･･ココア頑張る。"])
+    ErasePicture([51])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["スライムの洞窟には当然ながらスライムがたくさんいる。"])
+    ShowText(["今のお前にはちょっと辛いかも知れん。"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["スライムってそんなに強かったかな？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["スライムにも色々いるが、"])
+    ShowText(["あそこのスライムは普通の物理攻撃が利かないんだ。"])
+    ShowText(["倒すには火や魔法の力が有効だ。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["Lv10になったら一度俺の所へ来い。"])
+    ShowText(["魔法が使えないお前でもそういう相手に有効なスキルを教えてやる。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["うん････分かった！"])
+    ErasePicture([50])
+    ShowPicture([51, "200_ここなF1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["街の周りを探索するのも手だよ！"])
+    ShowText(["ギルドの受付で冒険する場所を紹介してもらうのも良いね！"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ここなもありがとう！"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([51])
+    SetEventLocation([13, 0, 69, 11, 0])
+    SetEventLocation([39, 0, 69, 12, 0])
+    ControlVariables([302, 302, 0, 0, 270])
+    ControlSwitches([405, 405, 0])
+    ControlSwitches([201, 201, 0])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　【ハーリス西平原】が開放されました！"])
+    FadeinScreen([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 41
+Name = "EV041"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Chest\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=36, @parameters=[])\", \"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=36, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    ControlSelfSwitch(["A", 0])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeItems([3, 0, 0, 3])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 42
+Name = "EV042"
+
+  Page 0
+    CallCommonEvent([39])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 95, 27, 28, 0, 0])
+    Empty([])
+
+CommonEvent 43
+Name = "EV043"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 104, 16, 26, 0, 0])
+    Empty([])
+
+CommonEvent 44
+Name = "EV044"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["えーん。えーん。グスグス･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["少女が泣いている。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["お姉ちゃんどうしてそんな格好してるの････ぶわーーんッ!!"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["少女はココアの格好を見て、さらに激しく泣いてしまった･･･。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["えーん。えーん。グスグス･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["少女が泣いている。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["どうしたの？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["････ぐすんっぐすんっ。"])
+    ShowText(["じ、実はお母さんに貰った大事な髪飾りを落としちゃったの････"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["それは大変なの。探してあげるの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["南街道に落としちゃったみたいで････でも、魔物が居て危なくて、"])
+    ShowText(["うわーーーーーーんっっ!!"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["（南街道････私が代わりに探してきてあげよう。）"])
+    ControlSwitches([413, 413, 0])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　　フリーMAP【ハーリス南街道】が開放されました！"])
+    ControlVariables([326, 326, 0, 0, 1])
+    Empty([])
+
+  Page 1
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["えーん。えーん。グスグス･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["少女が泣いている。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["お姉ちゃんどうしてそんな格好してるの････ぶわーーんッ!!"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["少女はココアの格好を見て、さらに激しく泣いてしまった･･･。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["えーん。えーん。グスグス･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["（南街道にこの子の髪飾りが落ちてるはずなの。"])
+    ShowText(["　代わりに探して来てあげよう。）"])
+    Empty([])
+
+  Page 2
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["えーん。えーん。グスグス･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["少女が泣いている。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]少女\\C[0]"])
+      ShowText(["お姉ちゃんどうしてそんな格好してるの････ぶわーーんッ!!"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["少女はココアの格好を見て、さらに激しく泣いてしまった･･･。"])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["えーん。えーん。グスグス･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["髪飾り見つかったよ。"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([0, 1, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["え･･･どこ？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ここには無いの･････今はとある男の人が持っていて。"])
+    ShowText(["返して貰う為に一緒に取りに行って欲しいの。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]少女\\C[0]"])
+    ShowText(["う、うん････分かった。"])
+    ShowText(["取りに行く時、着いていくね･･･。"])
+    FadeoutScreen([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["少女の承諾を得た。"])
+    ShowText(["あとはあの男の人の小屋へ取りに行こう。"])
+    ControlVariables([326, 326, 0, 0, 100])
+    FadeinScreen([])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 45
+Name = "EV045"
+
+  Page 0
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ConditionalBranch([1, 102, 0, 500, 1])
+      ExitEventProcessing([])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 102, 0, 100, 1])
+        ExitEventProcessing([])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 46
+Name = "EV046"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 106, 10, 27, 0, 0])
+    Empty([])
+
+CommonEvent 47
+Name = "EV047"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 108, 12, 18, 0, 0])
+    Empty([])
+
+CommonEvent 48
+Name = "EV048"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 108, 22, 23, 0, 0])
+    Empty([])
+
+CommonEvent 49
+Name = "EV049"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 109, 8, 25, 0, 0])
+    Empty([])
+
+CommonEvent 50
+Name = "EV050"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 109, 23, 20, 0, 0])
+    Empty([])
+
+CommonEvent 51
+Name = "いちご"
+
+  Page 0
+    Empty([])
+
+CommonEvent 52
+Name = "オーク殲滅戦後"
+
+  Page 0
+    TintScreen(["Tone(@red=17.0, @green=-34.0, @blue=-34.0, @gray=0.0)", 1, true])
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ShowPicture([51, "200_ここなD2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ごめんココア、先に帰ってて貰えるかな？"])
+    ShowText(["私･･･ちょっと買いたい物があるから･････。"])
+    ShowPicture([50, "200_いちごA1", 0, 0, -180, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["あーここなさんはこの時期でしたね。"])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["私はモナカ様への報告があるのでここでお暇させて頂きますね。"])
+    ShowPicture([51, "200_ここなE2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["それじゃあ一旦ここで解散だね。"])
+    ShowText(["ごめんねココア、先に帰ってて欲しいんだよ。"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････うん。分かった。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["良く分からないけど一人で帰る事になった。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    ErasePicture([50])
+    ErasePicture([51])
+    ControlVariables([334, 334, 0, 0, 20100])
+    TransferPlayer([0, 176, 17, 28, 6, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 53
+Name = "EV053"
+
+  Page 0
+    Empty([])
+
+CommonEvent 54
+Name = "EV054"
+
+  Page 0
+    Empty([])
+
+CommonEvent 55
+Name = "EV055"
+
+  Page 0
+    Empty([])
+
+CommonEvent 56
+Name = "EV056"
+
+  Page 0
+    Empty([])

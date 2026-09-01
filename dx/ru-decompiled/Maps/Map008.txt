@@ -1,0 +1,53 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 7, 13, 23, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 7, 14, 23, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    ControlVariables([301, 301, 0, 0, 20])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    ControlVariables([301, 301, 0, 0, 20])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    FadeoutBGM([2])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["街道に出るとすぐに定期便の馬車はやってきた。"])
+    ShowText(["お金を払い、荷物を預けて私は馬車に乗った･････。"])
+    ControlVariables([301, 301, 0, 0, 21])
+    ChangeTransparency([0])
+    TransferPlayer([0, 9, 19, 11, 4, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

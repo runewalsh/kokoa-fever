@@ -1,0 +1,164 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeinScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["パブで合流したレモンの隣には知らない人がいた。"])
+    ShowPicture([50, "200_レモンA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["彼はこの周辺を仕切る大手ギルドの役員よ。"])
+    ShowPicture([52, "200_ココアA1", 0, 0, -380, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ････"])
+    ShowPicture([52, "200_ココアB3", 0, 0, -380, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･･･役員？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["聞いた事も無い言葉だった。"])
+    ShowText(["いまいち凄いのか良く分からない。たぶん凄いのだろう。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["役員というのはこの場合、監督者や管理責任がある上位職員を指す。"])
+    ShowText(["このエリアのギルドのお偉いさんと言う訳だ。"])
+    ShowPicture([52, "200_ココアA1", 0, 0, -380, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["おぉ･･･お偉いさんなの。"])
+    ShowTextAttributes(["J_Actor1", 2, 1, 2])
+    ShowText(["\\C[20]ギルドの役員\\C[0]"])
+    ShowText(["いえいえ････私などは････。"])
+    ShowPicture([50, "200_レモンA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["気を使う必要はないわよ。"])
+    ShowText(["彼はサンダーボルト家の息が掛かった人材だから。"])
+    ShowTextAttributes(["J_Actor1", 2, 1, 2])
+    ShowText(["\\C[20]ギルドの役員\\C[0]"])
+    ShowText(["･･･その通りでございます。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["彼を使って船を出させるわ。"])
+    ShowText(["これで今回の仕事は本当に終わりね。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["････先に魔王の所に寄るぞ。"])
+    ShowText(["近くまで行ったらどうせバレるし、"])
+    ShowText(["顔を見せとかないと後々が面倒になる。"])
+    ShowPicture([52, "200_レモンA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]レモン\\C[0]"])
+    ShowText(["････そうね。了解したわ。"])
+    FadeoutScreen([])
+    ErasePicture([50])
+    ErasePicture([52])
+    Wait([60])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["こうして私達は先にその魔王に会いに行く事になった。"])
+    ShowText(["教祖も潜伏が目的なので時間を掛けても逃げ出さないだろう･･。"])
+    TransferPlayer([0, 221, 18, 35, 8, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["People1", 5, 0, 2])
+    ShowText(["「ここは海の男達のための酒場さ」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["People1", 5, 0, 2])
+    ShowText(["「うちは売女は募集してないよ。」"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「ぷはーっ！！」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「なんだお嬢ちゃん、酌でもしてくれるのかい！？」"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「この一杯のために生きてるッ！！」"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「おいおい・・お前そう言って何杯飲むんだよ・・・。」"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船乗り"])
+    ShowText(["「・・・・・ﾋｯｸ。」"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船長"])
+    ShowText(["「わし船長。みんなと一緒に飲みたい・・・寂しい。」"])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["船長"])
+    ShowText(["「いいなぁ・・あっちで一緒に飲みたいなぁ・・。」"])
+    Empty([])
+
+CommonEvent 8
+Name = "レモン"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "ギルド長"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 11
+Name = "クロウ"
+
+  Page 0
+    Empty([])

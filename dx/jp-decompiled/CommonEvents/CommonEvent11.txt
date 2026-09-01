@@ -1,0 +1,39 @@
+CommonEvent 11
+Name = "通常"
+
+  Script(["if $game_actors[1].equips[0] == nil"])
+  ScriptMore([" $game_variables[141]=0"])
+  ScriptMore(["else"])
+  ScriptMore([" $game_variables[141]=$game_actors[1].equips[0].id"])
+  ScriptMore(["end"])
+  Script(["if $game_actors[1].equips[1] == nil"])
+  ScriptMore([" $game_variables[142]=0"])
+  ScriptMore(["else"])
+  ScriptMore([" $game_variables[142]=$game_actors[1].equips[1].id"])
+  ScriptMore(["end"])
+  ConditionalBranch([1, 141, 0, 0, 0])
+    ConditionalBranch([1, 142, 0, 0, 0])
+      ForceAction([1, 1, 11, -2])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 1, 11, -2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 142, 0, 0, 0])
+      ForceAction([1, 1, 11, -2])
+      Empty([])
+
+    Else([])
+      ForceAction([1, 1, 12, -2])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

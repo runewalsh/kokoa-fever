@@ -1,0 +1,8000 @@
+State 1
+Icon Index = 17
+Message 1 = "は倒れた！"
+Message 2 = "を倒した！"
+Message 3 = ""
+Message 4 = "は立ち上がった！"
+Name = "戦闘不能"
+Description = nil
+Note = "ステート１番はＨＰが０になったときに自動的に付加されます。"
+
+State 2
+Icon Index = 18
+Message 1 = "は毒に冒された！"
+Message 2 = "は毒に冒された！"
+Message 3 = ""
+Message 4 = "の毒が消えた！"
+Name = "毒"
+Description = nil
+Note = ""
+
+State 3
+Icon Index = 19
+Message 1 = "は暗闇に閉ざされた！"
+Message 2 = "を暗闇に閉ざした！"
+Message 3 = ""
+Message 4 = "の暗闇が消えた！"
+Name = "暗闇"
+Description = nil
+Note = ""
+
+State 4
+Icon Index = 20
+Message 1 = "は魔法を封じ込まれた！"
+Message 2 = "の魔法を封じ込めた！"
+Message 3 = ""
+Message 4 = "の魔法封じが解けた！"
+Name = "スキル封印"
+Description = nil
+Note = ""
+
+State 5
+Icon Index = 21
+Message 1 = "は混乱してしまった！"
+Message 2 = "を混乱させた！"
+Message 3 = ""
+Message 4 = "は我に返った！"
+Name = "混乱"
+Description = nil
+Note = ""
+
+State 6
+Icon Index = 22
+Message 1 = "は眠ってしまった！"
+Message 2 = "を眠らせた！"
+Message 3 = "は眠っている……"
+Message 4 = "は目を覚ました！"
+Name = "睡眠"
+Description = nil
+Note = ""
+
+State 7
+Icon Index = 23
+Message 1 = "はしびれて動けなくなった！"
+Message 2 = "を麻痺させた！"
+Message 3 = "は体がしびれて動けない！"
+Message 4 = "の麻痺が解けた！"
+Name = "麻痺"
+Description = nil
+Note = ""
+
+State 8
+Icon Index = 24
+Message 1 = "はバランスを崩した！"
+Message 2 = "はバランスを崩した！"
+Message 3 = "はバランスを崩している……"
+Message 4 = "は体勢を立て直した！"
+Name = "スタン"
+Description = nil
+Note = ""
+
+State 9
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "防御"
+Description = ""
+Note = ""
+
+State 10
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "不死身"
+Description = ""
+Note = ""
+
+State 11
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "かばう"
+Description = ""
+Note = ""
+
+State 12
+Icon Index = 25
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "挑発"
+Description = ""
+Note = ""
+
+State 13
+Icon Index = 28
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "隠れる"
+Description = ""
+Note = ""
+
+State 14
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "HP再生"
+Description = ""
+Note = ""
+
+State 15
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MP再生"
+Description = ""
+Note = ""
+
+State 16
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "TP再生"
+Description = ""
+Note = ""
+
+State 17
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "鉄壁"
+Description = ""
+Note = ""
+
+State 18
+Icon Index = 27
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "反撃"
+Description = ""
+Note = ""
+
+State 19
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "魔法回避"
+Description = ""
+Note = ""
+
+State 20
+Icon Index = 31
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "魔法反射"
+Description = ""
+Note = ""
+
+State 21
+Icon Index = 104
+Message 1 = "は炎の力を身にまとった。"
+Message 2 = "は炎の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "炎の力"
+Description = ""
+Note = ""
+
+State 22
+Icon Index = 105
+Message 1 = "は氷の力を身にまとった。"
+Message 2 = "は氷の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "氷の力"
+Description = ""
+Note = ""
+
+State 23
+Icon Index = 106
+Message 1 = "は雷の力を身にまとった。"
+Message 2 = "は雷の力を身にまとった。"
+Message 3 = ""
+Message 4 = ""
+Name = "雷の力"
+Description = ""
+Note = ""
+
+State 24
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "異常防止"
+Description = ""
+Note = ""
+
+State 25
+Icon Index = 30
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "消費MP減"
+Description = ""
+Note = ""
+
+State 26
+Icon Index = 759
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "感電"
+Description = ""
+Note = ""
+
+State 27
+Icon Index = 105
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "凍結"
+Description = ""
+Note = ""
+
+State 28
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "様子見"
+Description = ""
+Note = ""
+
+State 29
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "諦められない"
+Description = ""
+Note = ""
+
+State 30
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "何もないステート"
+Description = ""
+Note = ""
+
+State 31
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 32
+Icon Index = 123
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "陵辱"
+Description = ""
+Note = "<死亡時残留>"
+
+State 33
+Icon Index = 122
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "発情"
+Description = ""
+Note = ""
+
+State 34
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "装備変更不可"
+Description = ""
+Note = "<死亡時残留>\r\n<全回復時残留>\r\n<装備固定 0,1,2,3,4,5,6,7,8,9,10>"
+
+State 35
+Icon Index = 1253
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "無抵抗"
+Description = ""
+Note = ""
+
+State 36
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "裸"
+Description = ""
+Note = "<死亡時残留>\r\n<全回復時残留>"
+
+State 37
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "命令できない"
+Description = ""
+Note = ""
+
+State 38
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "装備無し"
+Description = ""
+Note = "<死亡時残留>\r\n<全回復時残留>\r\n<装備封印 0,1,2,3,4,5,6,7,8,9,10>"
+
+State 39
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 40
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 41
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 42
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 43
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 44
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 45
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 46
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 47
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 48
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 49
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 50
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 51
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 52
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 53
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 54
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 55
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 56
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 57
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 58
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 59
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 60
+Icon Index = 30
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "タクティックアソー"
+Description = ""
+Note = ""
+
+State 61
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "タクティックアソー封印"
+Description = ""
+Note = ""
+
+State 62
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 63
+Icon Index = 160
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ランパート"
+Description = ""
+Note = ""
+
+State 64
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ランパート封印"
+Description = ""
+Note = ""
+
+State 65
+Icon Index = 1233
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "センチネル"
+Description = ""
+Note = ""
+
+State 66
+Icon Index = 1233
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "センチネル"
+Description = ""
+Note = ""
+
+State 67
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "センチネル封印"
+Description = ""
+Note = ""
+
+State 68
+Icon Index = 66
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "攻撃力上昇"
+Description = ""
+Note = ""
+
+State 69
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "集気法封印"
+Description = ""
+Note = ""
+
+State 70
+Icon Index = 24
+Message 1 = "はバランスを崩した！"
+Message 2 = "はバランスを崩した！"
+Message 3 = "はバランスを崩している……"
+Message 4 = "は体勢を立て直した！"
+Name = "スタン"
+Description = nil
+Note = ""
+
+State 71
+Icon Index = 2042
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スタン耐性"
+Description = nil
+Note = ""
+
+State 72
+Icon Index = 1521
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ダブルカウント"
+Description = ""
+Note = ""
+
+State 73
+Icon Index = 1522
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "トリプルカウント"
+Description = ""
+Note = ""
+
+State 74
+Icon Index = 104
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "フレイムエッジ"
+Description = ""
+Note = ""
+
+State 75
+Icon Index = 1109
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "気合"
+Description = ""
+Note = ""
+
+State 76
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "気合封印"
+Description = ""
+Note = ""
+
+State 77
+Icon Index = 1150
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "フェザーステップ"
+Description = ""
+Note = ""
+
+State 78
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "フェザーステップ封印"
+Description = ""
+Note = ""
+
+State 79
+Icon Index = 1106
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "光速剣"
+Description = ""
+Note = ""
+
+State 80
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "光速剣封印"
+Description = ""
+Note = ""
+
+State 81
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "瞬刃封印"
+Description = ""
+Note = ""
+
+State 82
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "瞬牙封印"
+Description = ""
+Note = ""
+
+State 83
+Icon Index = 51
+Message 1 = ""
+Message 2 = "の防御性能が低下した！！"
+Message 3 = ""
+Message 4 = ""
+Name = "モアンソード"
+Description = ""
+Note = ""
+
+State 84
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "モアンソード封印"
+Description = ""
+Note = ""
+
+State 85
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ボマー封印"
+Description = ""
+Note = ""
+
+State 86
+Icon Index = 85
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "魔法防御低下"
+Description = ""
+Note = ""
+
+State 87
+Icon Index = 1233
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "センチネル"
+Description = ""
+Note = ""
+
+State 88
+Icon Index = 1150
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スウィフトステップ"
+Description = ""
+Note = ""
+
+State 89
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スウィフトステップ封印"
+Description = ""
+Note = ""
+
+State 90
+Icon Index = 1106
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "コンセントレイト"
+Description = ""
+Note = ""
+
+State 91
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "コンセントレイト封印"
+Description = ""
+Note = ""
+
+State 92
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 93
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 94
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 95
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 96
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 97
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 98
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 99
+Icon Index = 2042
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スタン耐性"
+Description = nil
+Note = ""
+
+State 100
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "敵＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+State 101
+Icon Index = 1241
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スキル準備"
+Description = ""
+Note = "青"
+
+State 102
+Icon Index = 1241
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スキル準備"
+Description = ""
+Note = "橙"
+
+State 103
+Icon Index = 1241
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スキル準備"
+Description = ""
+Note = "赤"
+
+State 104
+Icon Index = 1241
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スキル準備"
+Description = ""
+Note = "ピンク"
+
+State 105
+Icon Index = 1241
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "スキル準備"
+Description = ""
+Note = "紫"
+
+State 106
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "確定スキル準備A"
+Description = ""
+Note = ""
+
+State 107
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "確定スキル準備B"
+Description = ""
+Note = ""
+
+State 108
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "確定スキル準備C"
+Description = ""
+Note = ""
+
+State 109
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "＝こっちが使う＝＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+State 110
+Icon Index = 18
+Message 1 = "は毒に冒された！"
+Message 2 = "は毒に冒された！"
+Message 3 = ""
+Message 4 = "の毒が消えた！"
+Name = "毒"
+Description = nil
+Note = ""
+
+State 111
+Icon Index = 759
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "感電"
+Description = ""
+Note = ""
+
+State 112
+Icon Index = 105
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "凍結"
+Description = ""
+Note = ""
+
+State 113
+Icon Index = 1114
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "やけど"
+Description = ""
+Note = ""
+
+State 114
+Icon Index = 18
+Message 1 = "は鉛毒に冒された！"
+Message 2 = "は鉛毒に冒された！"
+Message 3 = ""
+Message 4 = "の鉛毒が消えた！"
+Name = "鉛毒"
+Description = nil
+Note = ""
+
+State 115
+Icon Index = 18
+Message 1 = "は猛毒に冒された！"
+Message 2 = "は猛毒に冒された！"
+Message 3 = ""
+Message 4 = "の猛毒が消えた！"
+Name = "猛毒"
+Description = nil
+Note = ""
+
+State 116
+Icon Index = 19
+Message 1 = ""
+Message 2 = "は暗闇に掛かった！"
+Message 3 = ""
+Message 4 = "の暗闇が消えた！"
+Name = "暗闇"
+Description = nil
+Note = ""
+
+State 117
+Icon Index = 82
+Message 1 = ""
+Message 2 = "の攻撃力が低下した!!"
+Message 3 = ""
+Message 4 = ""
+Name = "攻撃力低下"
+Description = ""
+Note = ""
+
+State 118
+Icon Index = 83
+Message 1 = ""
+Message 2 = "の防御力が低下した!!"
+Message 3 = ""
+Message 4 = ""
+Name = "防御力低下"
+Description = ""
+Note = ""
+
+State 119
+Icon Index = 19
+Message 1 = ""
+Message 2 = "は暗闇に掛かった！"
+Message 3 = ""
+Message 4 = "の暗闇が消えた！"
+Name = "暗闇Lv2"
+Description = nil
+Note = ""
+
+State 120
+Icon Index = 912
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "食事"
+Description = ""
+Note = ""
+
+State 121
+Icon Index = 19
+Message 1 = ""
+Message 2 = "は暗闇に掛かった！"
+Message 3 = ""
+Message 4 = "の暗闇が消えた！"
+Name = "暗闇"
+Description = nil
+Note = ""
+
+State 122
+Icon Index = 1112
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "出血"
+Description = ""
+Note = ""
+
+State 123
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 124
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 125
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 126
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 127
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 128
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 129
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 130
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 131
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 132
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 133
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 134
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 135
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 136
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 137
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 138
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 139
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 140
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 141
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 142
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 143
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 144
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 145
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 146
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 147
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 148
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 149
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 150
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 151
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 152
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 153
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 154
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 155
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 156
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 157
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 158
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 159
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 160
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 161
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 162
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 163
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 164
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 165
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 166
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 167
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 168
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 169
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 170
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 171
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 172
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 173
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 174
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 175
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 176
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 177
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 178
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 179
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 180
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 181
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 182
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 183
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 184
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 185
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 186
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 187
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 188
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 189
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 190
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 191
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 192
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 193
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 194
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 195
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 196
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 197
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 198
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 199
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 200
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 201
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 202
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 203
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 204
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 205
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 206
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 207
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 208
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 209
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 210
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 211
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 212
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 213
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 214
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 215
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 216
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 217
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 218
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 219
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 220
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 221
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 222
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 223
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 224
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 225
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 226
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 227
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 228
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 229
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 230
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 231
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 232
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 233
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 234
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 235
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 236
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 237
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 238
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 239
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 240
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 241
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 242
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 243
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 244
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 245
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 246
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 247
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 248
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 249
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "＝＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+State 250
+Icon Index = 505
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ストンスキン"
+Description = ""
+Note = ""
+
+State 251
+Icon Index = 1258
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ヒートアップ"
+Description = ""
+Note = ""
+
+State 252
+Icon Index = 1242
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "命中上昇"
+Description = ""
+Note = ""
+
+State 253
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ファイアピラー封印"
+Description = ""
+Note = ""
+
+State 254
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "サイクロン封印"
+Description = ""
+Note = ""
+
+State 255
+Icon Index = 106
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "エンチャントライトニング"
+Description = ""
+Note = ""
+
+State 256
+Icon Index = 1244
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "敵視上昇"
+Description = ""
+Note = ""
+
+State 257
+Icon Index = 1128
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "集中"
+Description = ""
+Note = ""
+
+State 258
+Icon Index = 1110
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ハイペイリターン"
+Description = ""
+Note = ""
+
+State 259
+Icon Index = 504
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "シャドウウォール"
+Description = ""
+Note = ""
+
+State 260
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "シャドウウォール封印"
+Description = ""
+Note = ""
+
+State 261
+Icon Index = 1254
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "シャインシールド"
+Description = ""
+Note = ""
+
+State 262
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "シャインシールド封印"
+Description = ""
+Note = ""
+
+State 263
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "敵視低下"
+Description = ""
+Note = ""
+
+State 264
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 265
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 266
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 267
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 268
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 269
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 270
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 271
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 272
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 273
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 274
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 275
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 276
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 277
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 278
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 279
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 280
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 281
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 282
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 283
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 284
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 285
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 286
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 287
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 288
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 289
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 290
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 291
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 292
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 293
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 294
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 295
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 296
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 297
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 298
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 299
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 300
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+State 301
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "触手拘束A＝＝＝＝"
+Description = ""
+Note = ""
+
+State 302
+Icon Index = 1361
+Message 1 = "は触手に捕らわれてしまった！"
+Message 2 = ""
+Message 3 = "は触手に捕まっている･･･。"
+Message 4 = "の拘束が解かれた！"
+Name = "拘束"
+Description = ""
+Note = "<アイテム封印>"
+
+State 303
+Icon Index = 1361
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "拘束中"
+Description = ""
+Note = ""
+
+State 304
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "＝コボルト突進＝＝＝＝"
+Description = ""
+Note = ""
+
+State 305
+Icon Index = 1134
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "ダウン"
+Description = ""
+Note = "<アイテム封印>"
+
+State 306
+Icon Index = 1130
+Message 1 = ""
+Message 2 = "は\\C[27]ココアに発情している\\C[0]！"
+Message 3 = ""
+Message 4 = ""
+Name = "発情"
+Description = ""
+Note = ""
+
+State 307
+Icon Index = 1130
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "交尾中"
+Description = ""
+Note = "<アイテム封印>"
+
+State 308
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "コボルト拘束"
+Description = ""
+Note = ""
+
+State 309
+Icon Index = 2024
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "放心"
+Description = ""
+Note = "<アイテム封印>"
+
+State 310
+Icon Index = 2020
+Message 1 = ""
+Message 2 = ""
+Message 3 = "は行為の余韻に浸っている"
+Message 4 = ""
+Name = "余韻"
+Description = ""
+Note = ""
+
+State 311
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 312
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 313
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 314
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 315
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 316
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 317
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 318
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 319
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 320
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 321
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 322
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 323
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 324
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 325
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 326
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 327
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 328
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 329
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 330
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 331
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 332
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 333
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 334
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 335
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 336
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 337
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 338
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 339
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 340
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 341
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 342
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 343
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 344
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 345
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 346
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 347
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 348
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 349
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 350
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 351
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 352
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 353
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 354
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 355
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 356
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 357
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 358
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 359
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 360
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 361
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 362
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 363
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 364
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 365
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 366
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 367
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 368
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 369
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 370
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 371
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 372
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 373
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 374
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 375
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 376
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 377
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 378
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 379
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 380
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "＝敵＝＝＝＝＝＝＝＝"
+Description = ""
+Note = ""
+
+State 381
+Icon Index = 30
+Message 1 = ""
+Message 2 = "は本気を出した!!"
+Message 3 = ""
+Message 4 = ""
+Name = "本気"
+Description = ""
+Note = ""
+
+State 382
+Icon Index = 1115
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "弱体"
+Description = ""
+Note = ""
+
+State 383
+Icon Index = 30
+Message 1 = ""
+Message 2 = "は本気を出した!!"
+Message 3 = ""
+Message 4 = ""
+Name = "本気"
+Description = ""
+Note = ""
+
+State 384
+Icon Index = 30
+Message 1 = ""
+Message 2 = "は次の一撃に掛けた!"
+Message 3 = ""
+Message 4 = ""
+Name = "一刀修羅"
+Description = ""
+Note = ""
+
+State 385
+Icon Index = 1258
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "気迫"
+Description = ""
+Note = ""
+
+State 386
+Icon Index = 1115
+Message 1 = ""
+Message 2 = ""
+Message 3 = "は疲れて休んでいる"
+Message 4 = ""
+Name = "疲労"
+Description = ""
+Note = ""
+
+State 387
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 388
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 389
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 390
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 391
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 392
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 393
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 394
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 395
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 396
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 397
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 398
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 399
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 400
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 401
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 402
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 403
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 404
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 405
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 406
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 407
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 408
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 409
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 410
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 411
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 412
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 413
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 414
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 415
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 416
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 417
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 418
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 419
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 420
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 421
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 422
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 423
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 424
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 425
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 426
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 427
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 428
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 429
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 430
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 431
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 432
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 433
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 434
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 435
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 436
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 437
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 438
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 439
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 440
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 441
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 442
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 443
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 444
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 445
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 446
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 447
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 448
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 449
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 450
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 451
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 452
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 453
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 454
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 455
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 456
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 457
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 458
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 459
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 460
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 461
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 462
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 463
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 464
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 465
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 466
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 467
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 468
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 469
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 470
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 471
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 472
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 473
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 474
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 475
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 476
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 477
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 478
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 479
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 480
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 481
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 482
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 483
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 484
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 485
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 486
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 487
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 488
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 489
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 490
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 491
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 492
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 493
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 494
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 495
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 496
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 497
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 498
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 499
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 500
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 501
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 502
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 503
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 504
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 505
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 506
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 507
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 508
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 509
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 510
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 511
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 512
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 513
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 514
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 515
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 516
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 517
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 518
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 519
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 520
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 521
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 522
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 523
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 524
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 525
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 526
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 527
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 528
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 529
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 530
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 531
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 532
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 533
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 534
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 535
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 536
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 537
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 538
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 539
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 540
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 541
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 542
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 543
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 544
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 545
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 546
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 547
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 548
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 549
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 550
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 551
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 552
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 553
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 554
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 555
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 556
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 557
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 558
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 559
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 560
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 561
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 562
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 563
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 564
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 565
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 566
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 567
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 568
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 569
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 570
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 571
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 572
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 573
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 574
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 575
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 576
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 577
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 578
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 579
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 580
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 581
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 582
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 583
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 584
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 585
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 586
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 587
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 588
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 589
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 590
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 591
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 592
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 593
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 594
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 595
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 596
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 597
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 598
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 599
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 600
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 601
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 602
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 603
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 604
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 605
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 606
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 607
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 608
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 609
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 610
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 611
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 612
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 613
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 614
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 615
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 616
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 617
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 618
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 619
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 620
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 621
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 622
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 623
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 624
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 625
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 626
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 627
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 628
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 629
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 630
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 631
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 632
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 633
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 634
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 635
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 636
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 637
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 638
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 639
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 640
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 641
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 642
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 643
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 644
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 645
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 646
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 647
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 648
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 649
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 650
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 651
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 652
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 653
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 654
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 655
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 656
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 657
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 658
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 659
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 660
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 661
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 662
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 663
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 664
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 665
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 666
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 667
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 668
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 669
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 670
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 671
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 672
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 673
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 674
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 675
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 676
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 677
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 678
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 679
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 680
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 681
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 682
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 683
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 684
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 685
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 686
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 687
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 688
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 689
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 690
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 691
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 692
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 693
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 694
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 695
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 696
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 697
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 698
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 699
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 700
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 701
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 702
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 703
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 704
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 705
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 706
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 707
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 708
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 709
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 710
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 711
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 712
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 713
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 714
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 715
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 716
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 717
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 718
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 719
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 720
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 721
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 722
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 723
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 724
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 725
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 726
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 727
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 728
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 729
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 730
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 731
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 732
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 733
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 734
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 735
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 736
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 737
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 738
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 739
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 740
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 741
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 742
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 743
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 744
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 745
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 746
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 747
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 748
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 749
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 750
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 751
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 752
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 753
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 754
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 755
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 756
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 757
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 758
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 759
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 760
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 761
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 762
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 763
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 764
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 765
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 766
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 767
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 768
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 769
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 770
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 771
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 772
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 773
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 774
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 775
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 776
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 777
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 778
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 779
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 780
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 781
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 782
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 783
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 784
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 785
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 786
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 787
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 788
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 789
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 790
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 791
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 792
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 793
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 794
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 795
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 796
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 797
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 798
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 799
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+
+State 800
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = ""
+Description = ""
+Note = ""
+

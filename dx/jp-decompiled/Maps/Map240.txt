@@ -1,0 +1,116 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 239, 24, 22, 0, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 239, 24, 23, 0, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["はーい。脱ぎ脱ぎしようねー。"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女の子\\C[0]"])
+    ShowText(["わーい。私お風呂大好きー♥"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ConditionalBranch([6, -1, 2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1014, 1014, 0])
+    ControlSwitches([204, 204, 0])
+    ChangeActorGraphic([1, "1_ココア裸", 0, "", 0])
+    PlaySE(["RPG::SE(@name=\"Equip2\", @pitch=100, @volume=100)"])
+    Empty([])
+
+  Page 1
+    ConditionalBranch([6, -1, 2])
+      ExitEventProcessing([])
+      Empty([])
+
+    BranchEnd([])
+    ControlSwitches([1014, 1014, 1])
+    ControlSwitches([204, 204, 1])
+    CallCommonEvent([39])
+    ChangeActorGraphic([1, "1_ココアベース", 0, "", 0])
+    PlaySE(["RPG::SE(@name=\"Equip3\", @pitch=100, @volume=100)"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["ここのお風呂は安くて良いわよね。"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]女性\\C[0]"])
+    ShowText(["ここは一見、入口から見えるような角度だけど、"])
+    ShowText(["ちゃんと暖簾などで見えなくしてるのよね。"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["服は脱がないといけない"])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 241, 15, 20, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["服は脱がないといけない"])
+    Empty([])
+
+  Page 1
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 241, 16, 20, 0, 0])
+    Empty([])

@@ -1,0 +1,21 @@
+CommonEvent 28
+Name = "敵８"
+
+  ConditionalBranch([5, 7, 1, 70])
+    ConditionalBranch([5, 7, 1, 74])
+      ForceAction([1, 1, 66, 7])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([5, 7, 1, 74])
+      ForceAction([0, 7, 62, 7])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

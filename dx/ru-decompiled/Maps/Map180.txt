@@ -1,0 +1,950 @@
+Display Name = ""
+Parallax Name = ""
+Note = "<色調 -68, -68, 0, 68>"
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Comment(["選択肢位置(180,80)"])
+    ShowChoices([["戻る"], 1])
+    When([0, "戻る"])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス中央区　if(s[403])"], 0])
+    When([0, "ハーリス中央区　if(s[403])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスの街中央区。"])
+      CommentMore(["商店が多く、ギルドや魔法協会などがある。"])
+      CommentMore(["冒険者が多くいる。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      ControlSwitches([201, 201, 0])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 17, 23, 45, 2, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["ハーリス闘技場　if(s[411])"], 0])
+    When([0, "ハーリス闘技場　if(s[411])"])
+      Comment(["選択肢ヘルプ"])
+      CommentMore(["\\sp[0]ハーリスにある大きな闘技場。"])
+      CommentMore(["いつも闘技が行われているがたまに冒険者のランクマッチが行われる。"])
+      CommentMore(["実はランクマッチをしなくてもランクは上がるが"])
+      CommentMore(["早くランクを上げたい冒険者はここでランク上昇を狙う。"])
+      FadeoutScreen([])
+      CallCommonEvent([39])
+      CallCommonEvent([940])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 91, 19, 55, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    ShowChoices([["拠点に帰る"], 0])
+    When([0, "拠点に帰る"])
+      FadeoutScreen([])
+      CallCommonEvent([940])
+      RecoverAll([0, 0])
+      ControlSwitches([201, 201, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=85)"])
+      TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 1, true])
+      TransferPlayer([0, 20, 12, 22, 8, 0])
+      FadeinScreen([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 64, 19, 18, 8, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    FadeoutScreen([])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 67, 16, 17, 8, 0])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 20
+Name = "EV020"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 21
+Name = "EV021"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 22
+Name = "EV022"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 23
+Name = "EV023"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 24
+Name = "EV024"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 25
+Name = "EV025"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 26
+Name = "EV026"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 27
+Name = "EV027"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 28
+Name = "EV028"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, 30>"])
+    Empty([])
+
+CommonEvent 29
+Name = "EV029"
+
+  Page 0
+    Empty([])
+
+CommonEvent 30
+Name = "EV030"
+
+  Page 0
+    Empty([])
+
+CommonEvent 31
+Name = "EV031"
+
+  Page 0
+    Empty([])
+
+CommonEvent 32
+Name = "EV032"
+
+  Page 0
+    Empty([])
+
+CommonEvent 33
+Name = "EV033"
+
+  Page 0
+    Empty([])
+
+CommonEvent 34
+Name = "EV034"
+
+  Page 0
+    Empty([])
+
+CommonEvent 35
+Name = "EV035"
+
+  Page 0
+    Comment(["<light red_light_s, 230, 0, -15>"])
+    Empty([])
+
+CommonEvent 36
+Name = "EV036"
+
+  Page 0
+    ControlVariables([336, 336, 0, 0, 4000])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 1, true])
+    ErasePicture([20])
+    FadeinScreen([])
+    SetMoveRoute([37, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    ShowPicture([20, "200_ここな裸発情A2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["おじさぁん\\I[122]"])
+    ShotBalloonIcon([37, 1, false])
+    SetMoveRoute([37, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Wait([40])
+    ShowPicture([20, "200_ここな裸発情A2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ここにゃと････交尾、して欲しいんだよぉ\\I[122]"])
+    SetMoveRoute([37, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowTextAttributes(["People4", 4, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["･･･こんなに濡らして、もうビチョビチョじゃないか。"])
+    ShowText(["これは早くちんぽ入れてあげないとねぇ････。"])
+    ShowPicture([20, "200_ここな裸発情A3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["うんうん\\I[122]"])
+    ShowTextAttributes(["People4", 4, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["それで、いくらだい？"])
+    ShowPicture([20, "200_ここな裸発情A2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["タダ。"])
+    ShowText(["タダで良いんだよ。だから早くおちんぽ入れて!!"])
+    ShowText(["ここなのおまんこに、せーしいっぱい流し込んでッ\\I[122]"])
+    ShowTextAttributes(["People4", 4, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["（･･･発情期の人獣族か。"])
+    ShowText(["　これは良い拾いモノになりそうだな。）"])
+    ShowTextAttributes(["People4", 4, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["よし分かった。"])
+    ShowText(["それじゃあそこの部屋に入ろうか。"])
+    ShowPicture([20, "200_ここな裸発情A1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["やったー\\I[122]"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["いっぱい交尾しようねっ\\I[122]"])
+    ShowTextAttributes(["People4", 4, 1, 2])
+    ShowText(["\\C[20]おじさん\\C[0]"])
+    ShowText(["あぁ･･･もちろんだとも。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    TransferPlayer([0, 181, 16, 17, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 37
+Name = "おじさん"
+
+  Page 0
+    Empty([])

@@ -1,0 +1,492 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 92, 19, 19, 4, 0])
+    SetEventLocation([14, 0, 16, 19, 0])
+    FadeinScreen([])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=85)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=90)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["Eランク戦も盛り上がってまいりました！"])
+    ShowText(["それでは戦闘開始です！！"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle5\", @volume=100, @pitch=100)"])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=85)"])
+    RecoverAll([0, 0])
+    BattleProcessing([0, 74, false, true])
+    IfWin([])
+      ControlVariables([202, 202, 1, 0, 1])
+      RecoverAll([0, 0])
+      TransferPlayer([0, 91, 19, 23, 2, 0])
+      ControlVariables([302, 302, 0, 0, 950])
+      Empty([])
+
+    IfLose([])
+      ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["ここまで････なの？"])
+      FadeoutScreen([])
+      ErasePicture([20])
+      Wait([60])
+      PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+      Wait([60])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["私の道はこうして閉ざされてしまった。"])
+      CallCommonEvent([992])
+      Comment(["選択肢位置(180,80)"])
+      ShowChoices([["再戦する", "闘技前に戻る"], 0])
+      When([0, "再戦する"])
+        RecoverAll([0, 0])
+        SetEventLocation([14, 0, 0, 0, 0])
+        TransferPlayer([0, 92, 18, 25, 8, 0])
+        PlayBGM(["RPG::BGM(@name=\"決闘場\", @volume=85, @pitch=100)"])
+        Empty([])
+      When([1, "闘技前に戻る"])
+        ControlVariables([302, 302, 0, 0, 800])
+        TransferPlayer([0, 91, 19, 53, 8, 0])
+        RecoverAll([0, 0])
+        FadeinScreen([])
+        Empty([])
+      ChoicesEnd([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    FadeoutScreen([])
+    TransferPlayer([0, 92, 19, 19, 4, 0])
+    SetEventLocation([14, 0, 16, 19, 0])
+    FadeinScreen([])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=85)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=90)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["Eランク戦もいよいよ大詰めです！"])
+    ShowText(["それでは試合開始！"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle2\", @volume=100, @pitch=100)"])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=85)"])
+    RecoverAll([0, 0])
+    BattleProcessing([0, 75, false, true])
+    IfWin([])
+      ControlVariables([202, 202, 1, 0, 1])
+      RecoverAll([0, 0])
+      ControlVariables([302, 302, 0, 0, 1050])
+      Empty([])
+
+    IfLose([])
+      ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["ここまで････なの？"])
+      FadeoutScreen([])
+      FadeoutBGM([1])
+      ErasePicture([20])
+      Wait([60])
+      PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+      Wait([60])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["私は負けてしまった･････。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["約束を果たせなかった私は自分からクロウ達のもとを離れていき"])
+      ShowText(["冒険者ギルドで仕事を請けて一人で生きていく道を選んだ。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["一人になった後も私の生活はそれほど大変なものでも無かった。"])
+      ShowText(["クロウに教えてもらった戦闘技術は実戦で役に立つものが多く"])
+      ShowText(["私は一人で生きていけるようになっていた。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["ここな達と会えなくなったのは寂しいけれど"])
+      ShowText(["私は一人で生きていくしかない････"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["そして、今日もギルドの仕事で商人の護衛についていた。"])
+      TransferPlayer([0, 93, 19, 11, 4, 0])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=39, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=39, @parameters=[])"])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+  Page 2
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["勝負あり！"])
+    ShowText(["ココア選手全ての試合で勝利し、Eランクを制しました!!"])
+    ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["やった･･････！"])
+    ErasePicture([20])
+    SetEventLocation([15, 0, 20, 9, 2])
+    SetEventLocation([16, 0, 21, 9, 2])
+    ScrollMap([8, 10, 4])
+    ScrollMap([6, 1, 4])
+    Wait([120])
+    ShowPicture([20, "200_マールA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["････彼女。良い腕ですね。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["魔法協会に引き抜くのか？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]マール\\C[0]"])
+    ShowText(["支部長には報告しますよ。それが仕事ですから。"])
+    ShowText(["それに、まだクロウさんの組織に所属している訳ではないですからね。"])
+    ShowPicture([50, "200_クロウA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["･･･････。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["確かに･･･な。"])
+    FadeoutScreen([])
+    RecoverAll([0, 0])
+    FadeoutBGM([1])
+    Wait([60])
+    ErasePicture([20])
+    ErasePicture([50])
+    ErasePicture([51])
+    ControlVariables([302, 302, 0, 0, 1100])
+    TransferPlayer([0, 25, 16, 11, 8, 0])
+    Empty([])
+
+  Page 3
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    Empty([])
+
+CommonEvent 13
+Name = "Eランク"
+
+  Page 0
+    FadeinScreen([])
+    ScrollMap([4, 5, 4])
+    ScrollMap([8, 10, 4])
+    ScrollMap([6, 10, 4])
+    ScrollMap([2, 10, 4])
+    ScrollMap([4, 5, 4])
+    Wait([60])
+    ShowPicture([20, "200_ココアA3", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["････緊張してきた。"])
+    FadeoutScreen([])
+    ErasePicture([20])
+    TransferPlayer([0, 92, 19, 19, 4, 0])
+    SetEventLocation([14, 0, 16, 19, 0])
+    FadeinScreen([])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=85)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=90)"])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["それではいよいよEランクマッチスタートです!!"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle6\", @volume=100, @pitch=100)"])
+    ControlSwitches([1, 1, 1])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=85)"])
+    RecoverAll([0, 0])
+    BattleProcessing([0, 73, false, true])
+    IfWin([])
+      ControlVariables([202, 202, 1, 0, 1])
+      RecoverAll([0, 0])
+      TransferPlayer([0, 91, 19, 23, 2, 0])
+      ControlVariables([302, 302, 0, 0, 900])
+      Empty([])
+
+    IfLose([])
+      ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["ここまで････なの？"])
+      FadeoutScreen([])
+      ErasePicture([20])
+      Wait([60])
+      PlaySE(["RPG::SE(@name=\"Blow6\", @pitch=120, @volume=90)"])
+      Wait([60])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["私の道はこうして閉ざされてしまった。"])
+      CallCommonEvent([992])
+      Comment(["選択肢位置(180,80)"])
+      ShowChoices([["再戦する", "闘技前に戻る"], 0])
+      When([0, "再戦する"])
+        RecoverAll([0, 0])
+        SetEventLocation([14, 0, 0, 0, 0])
+        TransferPlayer([0, 92, 18, 25, 8, 0])
+        PlayBGM(["RPG::BGM(@name=\"決闘場\", @volume=85, @pitch=100)"])
+        Empty([])
+      When([1, "闘技前に戻る"])
+        ControlVariables([302, 302, 0, 0, 800])
+        TransferPlayer([0, 91, 19, 53, 8, 0])
+        RecoverAll([0, 0])
+        FadeinScreen([])
+        Empty([])
+      ChoicesEnd([])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 14
+Name = "相手"
+
+  Page 0
+    Empty([])
+
+CommonEvent 15
+Name = "イベ用クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 16
+Name = "マル"
+
+  Page 0
+    Empty([])
+
+CommonEvent 17
+Name = "EV017"
+
+  Page 0
+    TransferPlayer([0, 92, 16, 18, 6, 0])
+    SetEventLocation([14, 0, 19, 18, 4])
+    FadeinScreen([])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["Eランクマッチで優れた成績を残してくれたココア選手!!"])
+    ShowText(["なんと今回Dランクマッチに参戦です!!!"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["相手は金で雇われる戦闘のプロ。傭兵です！"])
+    ShowText(["さぁどんな戦いを見せてくれるのかぁあ!?"])
+    RecoverAll([0, 0])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle5\", @volume=100, @pitch=100)"])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=85)"])
+    ControlSwitches([1, 1, 1])
+    BattleProcessing([0, 96, false, true])
+    IfWin([])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]実況\\C[0]"])
+      ShowText(["勝者ココア選手!!"])
+      ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["････やった。"])
+      ErasePicture([20])
+      ControlVariables([329, 329, 0, 0, 100])
+      RecoverAll([0, 0])
+      TransferPlayer([0, 148, 19, 25, 2, 0])
+      Empty([])
+
+    IfLose([])
+      ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["負けちゃった････。"])
+      ErasePicture([20])
+      ControlVariables([329, 329, 0, 0, 10000])
+      ControlSwitches([971, 971, 0])
+      TransferPlayer([0, 91, 8, 50, 2, 0])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 18
+Name = "EV018"
+
+  Page 0
+    TransferPlayer([0, 92, 16, 18, 6, 0])
+    SetEventLocation([14, 0, 19, 18, 4])
+    FadeinScreen([])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["さぁ本日ココア選手2回戦目です！"])
+    ShowText(["今回はどんなバトルを見せてくれるのでしょうか！？"])
+    RecoverAll([0, 0])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle5\", @volume=100, @pitch=100)"])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=85)"])
+    ControlSwitches([1, 1, 1])
+    BattleProcessing([0, 97, false, true])
+    IfWin([])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]実況\\C[0]"])
+      ShowText(["勝者ココア選手!!"])
+      ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["････やった。"])
+      ErasePicture([20])
+      ControlVariables([329, 329, 0, 0, 200])
+      RecoverAll([0, 0])
+      TransferPlayer([0, 148, 19, 25, 2, 0])
+      Empty([])
+
+    IfLose([])
+      ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["負けちゃった････。"])
+      ErasePicture([20])
+      ControlVariables([329, 329, 0, 0, 10000])
+      ControlSwitches([971, 971, 0])
+      TransferPlayer([0, 91, 8, 50, 2, 0])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 19
+Name = "EV019"
+
+  Page 0
+    TransferPlayer([0, 92, 16, 18, 6, 0])
+    SetEventLocation([14, 0, 19, 18, 4])
+    FadeinScreen([])
+    Wait([60])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Applause2\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]実況\\C[0]"])
+    ShowText(["いよいよ勝負は最終戦!!"])
+    ShowText(["どちらも優秀な選手！"])
+    ShowText(["さぁどんな試合になるでしょうか!!!!"])
+    RecoverAll([0, 0])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle4\", @volume=100, @pitch=100)"])
+    ChangeBattleEndME(["RPG::ME(@name=\"SC_fanfare2\", @pitch=100, @volume=85)"])
+    ControlSwitches([1, 1, 1])
+    BattleProcessing([0, 98, false, true])
+    IfWin([])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]実況\\C[0]"])
+      ShowText(["勝ったのはココア選手!!"])
+      ShowText(["今回のDランクマッチを制したのはココア選手です!!!"])
+      ShowPicture([20, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["やったの･･･。"])
+      ErasePicture([20])
+      ControlVariables([329, 329, 0, 0, 99999])
+      ControlSwitches([972, 972, 0])
+      RecoverAll([0, 0])
+      TransferPlayer([0, 91, 19, 51, 8, 0])
+      Empty([])
+
+    IfLose([])
+      ShowPicture([20, "200_ココアB3", 0, 0, 0, 0, 100, 100, 255, 0])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["負けちゃった････。"])
+      ErasePicture([20])
+      ControlVariables([329, 329, 0, 0, 10000])
+      ControlSwitches([971, 971, 0])
+      TransferPlayer([0, 91, 8, 50, 2, 0])
+      Empty([])
+
+    BattleProcessingEnd([])
+    Empty([])
+
+  Page 1
+    Empty([])

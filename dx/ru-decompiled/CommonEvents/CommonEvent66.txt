@@ -1,0 +1,5 @@
+CommonEvent 66
+Name = "ここな"
+
+  CallCommonEvent([67])
+  Empty([])

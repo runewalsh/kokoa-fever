@@ -1,0 +1,31 @@
+CommonEvent 298
+Name = "ピストン音"
+
+  ConditionalBranch([1, 10, 0, 0, 0])
+    PlaySE(["RPG::SE(@name=\"ぱちゅっ\", @pitch=100, @volume=100)"])
+    Wait([30])
+    Empty([])
+
+  Else([])
+    ConditionalBranch([1, 10, 0, 1, 0])
+      PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+      Wait([30])
+      Empty([])
+
+    Else([])
+      ConditionalBranch([1, 10, 0, 2, 0])
+        PlaySE(["RPG::SE(@name=\"ぱちゅん\", @pitch=100, @volume=100)"])
+        Wait([20])
+        Empty([])
+
+      Else([])
+        Empty([])
+
+      BranchEnd([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

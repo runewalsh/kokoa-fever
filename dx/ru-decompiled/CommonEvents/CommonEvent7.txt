@@ -1,0 +1,6 @@
+CommonEvent 7
+Name = "ダブルカウント"
+
+  CallCommonEvent([10])
+  ChangeState([0, 1, 0, 72])
+  Empty([])

@@ -1,0 +1,31 @@
+CommonEvent 932
+Name = "絆創膏の使い方"
+
+  ConditionalBranch([4, 1, 0])
+    Empty([])
+
+  Else([])
+    ExitEventProcessing([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([10, 41, true])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["絆創膏の使い方が色々載せられている。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["使い方はもうバッチリなの。"])
+    Empty([])
+
+  Else([])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["おぉ････絆創膏ってこういう風に使うのか･････。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["新たな･･･発見！"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeArmor([41, 0, 0, 1, false])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

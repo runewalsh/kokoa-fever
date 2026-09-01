@@ -1,0 +1,6495 @@
+Weapon 1
+Name = "折れた長剣"
+Description = "IL：1\r\n折れてしまっているので既に長剣とは言いがたい"
+Note = ""
+
+Weapon 2
+Name = "果物ナイフ"
+Description = "IL：5\r\n切れ味が悪くりんごの皮で精一杯な代物"
+Note = ""
+
+Weapon 3
+Name = "竹刀"
+Description = "IL：10\r\n練習用の竹刀"
+Note = ""
+
+Weapon 4
+Name = "木刀"
+Description = "IL：11\r\n練習用の木刀。修学旅行のお土産にどうぞ！"
+Note = ""
+
+Weapon 5
+Name = "上質竹刀"
+Description = "IL：15\r\n丈夫な竹が使われた強力な竹刀。結構痛い。"
+Note = ""
+
+Weapon 6
+Name = "強化木刀"
+Description = "IL：15\r\nこれで叩かれると割りと頭が割れる。"
+Note = ""
+
+Weapon 7
+Name = "強化木刀＋6"
+Description = "IL：18\r\n謎に強化されまくった木刀。誰かが遊びでやったのか･･･？"
+Note = "<図鑑無効>"
+
+Weapon 8
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 9
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 10
+Name = "骨の長剣"
+Description = "IL：22\r\n硬い骨で作られた長剣。カルシウム足りてますか？"
+Note = ""
+
+Weapon 11
+Name = "骨の太刀"
+Description = "IL：22\r\n骨で作られた刀。ほとんど模造刀である。"
+Note = ""
+
+Weapon 12
+Name = "石の短剣"
+Description = "IL：24\r\n柔らかい物は切断できるが基本的に殴る用"
+Note = ""
+
+Weapon 13
+Name = "石の長剣"
+Description = "IL：24\r\n柔らかい物は切断できるが基本的に殴る用"
+Note = ""
+
+Weapon 14
+Name = "石の太刀"
+Description = "IL：24\r\n石製の太刀。折れないか心配になるデザイン"
+Note = ""
+
+Weapon 15
+Name = "石の細剣"
+Description = "IL：24\r\n石製の細剣。絶対折れるぞコレ････。"
+Note = ""
+
+Weapon 16
+Name = "石の斧"
+Description = "IL：24\r\n片手持ちの斧。石製でも結構強い"
+Note = ""
+
+Weapon 17
+Name = "石槍"
+Description = "IL：24\r\n石でも侮れない攻撃力を誇る。"
+Note = ""
+
+Weapon 18
+Name = "石の大剣"
+Description = "IL：24\r\n剣ながら打属性攻撃が特徴の大剣。石製。"
+Note = ""
+
+Weapon 19
+Name = "石の長剣+5"
+Description = "IL：24\r\n柔らかい物は切断できるが基本的に殴る用。強化済み"
+Note = "<図鑑無効>"
+
+Weapon 20
+Name = "赤石の長剣"
+Description = "IL：30\r\n赤い石材を使用した少し特殊な長剣"
+Note = ""
+
+Weapon 21
+Name = "鉛の長剣"
+Description = "IL：35\r\nそれなりの長剣。だがまだ少し足りない"
+Note = ""
+
+Weapon 22
+Name = "鉛の太刀"
+Description = "IL：35\r\n鉛で作られた太刀。とても錆び易い"
+Note = ""
+
+Weapon 23
+Name = "鉛の細剣"
+Description = "IL：35\r\n細長い刀身全てが鉛。金属とはいえ心配になるフォルム･･･。"
+Note = ""
+
+Weapon 24
+Name = "鉛の長剣＋8"
+Description = "IL：35\r\nそれなりの長剣。魔改造済み。中古である。"
+Note = "<図鑑無効>"
+
+Weapon 25
+Name = "ナマリブレード"
+Description = "IL：42\r\n100%鉛で作られた刀。長く使うと手に豆が出来る。"
+Note = ""
+
+Weapon 26
+Name = "失敗した細剣"
+Description = "IL：42\r\n作るのに失敗したダメな細剣。誰かが捨てたのだろうか･･･。"
+Note = ""
+
+Weapon 27
+Name = "錆びた銅剣"
+Description = "IL：48\r\n錆びてしまった銅の剣"
+Note = ""
+
+Weapon 28
+Name = "銅の長剣"
+Description = "IL：52\r\nそのコストパフォーマンスから軍でも扱われている銅剣"
+Note = ""
+
+Weapon 29
+Name = "銅の太刀"
+Description = "IL：52\r\n頑丈な太刀。硬いが錆やすく切れ味を保つのは難しい。"
+Note = ""
+
+Weapon 30
+Name = "銅の細剣"
+Description = "IL：52\r\n刀身が銅になってほどほど安心感が出た細剣"
+Note = ""
+
+Weapon 31
+Name = "銅の長剣＋"
+Description = "IL：52\r\nそのコストパフォーマンスから軍でも扱われている銅剣"
+Note = "<図鑑無効>"
+
+Weapon 32
+Name = "カッパーブレード"
+Description = "IL：56\r\n銅で出来た刀。銅にしておくには勿体無い切れ味"
+Note = ""
+
+Weapon 33
+Name = "カッパーブレード＋"
+Description = "IL：60\r\n銅で出来た刀。銅にしておくには勿体無い切れ味"
+Note = ""
+
+Weapon 34
+Name = "銅のフルーレ"
+Description = "IL：62\r\n銅製のフルーレ。"
+Note = ""
+
+Weapon 35
+Name = "黄銅の長剣"
+Description = "IL：75\r\n黄銅で作られた銅よりも多少は優れた長剣"
+Note = ""
+
+Weapon 36
+Name = "黄銅の太刀"
+Description = "IL：75\r\n銅製よりも耐久性が増していてお手入れも多少は楽になった太刀"
+Note = ""
+
+Weapon 37
+Name = "黄銅の細剣"
+Description = "IL：75\r\n刀身が黄銅になり多少の事では折れなくなった"
+Note = ""
+
+Weapon 38
+Name = "黄銅のロングソード"
+Description = "IL：82\r\n黄銅で作られた長剣。ただの長剣ではない。ロングソードだ！"
+Note = ""
+
+Weapon 39
+Name = "黄銅のファルシオン"
+Description = "IL：82\r\n黄銅製のファルシオン。無銘の太刀より優れているぞ！"
+Note = ""
+
+Weapon 40
+Name = "黄銅のレイピア"
+Description = "IL：82\r\n無名の細剣には無い繊細さを感じます。"
+Note = ""
+
+Weapon 41
+Name = "黄銅のシールドソード"
+Description = "IL：82\r\n防御面にも考慮された攻防一体の剣"
+Note = ""
+
+Weapon 42
+Name = "黄銅のバスタードソード"
+Description = "IL：85\r\n片手、両手持ちどちらでも出来る両用剣。片手を意識している為少し小さめ"
+Note = ""
+
+Weapon 43
+Name = "青銅の長剣"
+Description = "IL：95\r\n青銅で作られた扱いやすく手入れもしやすいお利口な長剣"
+Note = ""
+
+Weapon 44
+Name = "青銅の太刀"
+Description = "IL：95\r\n青銅で作られた扱いやすく手入れもしやすいお利口な太刀"
+Note = ""
+
+Weapon 45
+Name = "青銅の細剣"
+Description = "IL：95\r\n青銅で作られた扱いやすく手入れもしやすいお利口な細剣"
+Note = ""
+
+Weapon 46
+Name = "☆オークブレード"
+Description = "IL：100\r\nナイトオークが扱っていた太刀。名前は適当である。"
+Note = ""
+
+Weapon 47
+Name = "どうのつるぎ"
+Description = "IL：100\r\n青銅を主材料に作られた剣。別名、ブロンズソード"
+Note = ""
+
+Weapon 48
+Name = "ブロンズシールドソード"
+Description = "IL：100\r\n青銅製のシールドソード。攻守のバランスが取れている"
+Note = ""
+
+Weapon 49
+Name = "コボルトロングブレード"
+Description = "IL：100\r\nコボルト戦士が扱う上質な太刀"
+Note = ""
+
+Weapon 50
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 51
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 52
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 53
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 54
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 55
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 56
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 57
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 58
+Name = "鉄の長剣"
+Description = "IL：130\r\n粗鉄で作られた少し長めな直剣"
+Note = ""
+
+Weapon 59
+Name = "鉄の太刀"
+Description = "IL：130\r\n粗鉄なので手入れを怠ると簡単に折れます。"
+Note = ""
+
+Weapon 60
+Name = "鉄の細剣"
+Description = "IL：130\r\n見た目は立派な細剣です！"
+Note = ""
+
+Weapon 61
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 62
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 63
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 64
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 65
+Name = "純鉄の長剣"
+Description = "IL：140\r\n純度の高い鉄で作られた立派な長剣です！"
+Note = ""
+
+Weapon 66
+Name = "純鉄の太刀"
+Description = "IL：140\r\n純度の高い鉄で作られた立派な太刀です！"
+Note = ""
+
+Weapon 67
+Name = "純鉄の細剣"
+Description = "IL：140\r\n純度の高い鉄で作られた立派な細剣です！"
+Note = ""
+
+Weapon 68
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 69
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 70
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 71
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 72
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 73
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 74
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 75
+Name = "☆再生剣バラッシュ"
+Description = "IL：150\r\n魔科学が生み出した再生力を高める魔法刀。高価"
+Note = "@atk[300]\r\n@mat[300]\r\n@def[0]\r\n@hp[5000]\r\n@mp[50]"
+
+Weapon 76
+Name = "鋼の長剣"
+Description = "IL：155\r\n駆け出しの冒険者にとって憧れと言える武器です"
+Note = "@atk[500]\r\n@mat[100]\r\n@hp[5500]\r\n"
+
+Weapon 77
+Name = "鋼の太刀"
+Description = "IL：155\r\nこれを持っている魔剣士は中級以上か金持ちです。"
+Note = "@atk[400]\r\n@mat[350]\r\n@hp[5500]"
+
+Weapon 78
+Name = "鋼の細剣"
+Description = "IL：155\r\n純度の高い鉄で作られた立派な細剣です！"
+Note = "@atk[100]\r\n@mat[500]\r\n@hp[5500]"
+
+Weapon 79
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 80
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 81
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 82
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 83
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 84
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 85
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 86
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 87
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 88
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 89
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 90
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 91
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 92
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 93
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 94
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 95
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 96
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 97
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 98
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 99
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 100
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 101
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 102
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 103
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 104
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 105
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 106
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 107
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 108
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 109
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 110
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 111
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 112
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 113
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 114
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 115
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 116
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 117
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 118
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 119
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 120
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 121
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 122
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 123
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 124
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 125
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 126
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 127
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 128
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 129
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 130
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 131
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 132
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 133
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 134
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 135
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 136
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 137
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 138
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 139
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 140
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 141
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 142
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 143
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 144
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 145
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 146
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 147
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 148
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 149
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 150
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 151
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 152
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 153
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 154
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 155
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 156
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 157
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 158
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 159
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 160
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 161
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 162
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 163
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 164
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 165
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 166
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 167
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 168
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 169
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 170
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 171
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 172
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 173
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 174
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 175
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 176
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 177
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 178
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 179
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 180
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 181
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 182
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 183
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 184
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 185
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 186
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 187
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 188
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 189
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 190
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 191
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 192
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 193
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 194
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 195
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 196
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 197
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 198
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 199
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 200
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 201
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 202
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 203
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 204
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 205
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 206
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 207
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 208
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 209
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 210
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 211
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 212
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 213
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 214
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 215
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 216
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 217
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 218
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 219
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 220
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 221
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 222
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 223
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 224
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 225
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 226
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 227
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 228
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 229
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 230
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 231
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 232
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 233
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 234
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 235
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 236
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 237
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 238
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 239
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 240
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 241
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 242
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 243
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 244
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 245
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 246
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 247
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 248
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 249
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 250
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 251
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 252
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 253
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 254
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 255
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 256
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 257
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 258
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 259
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 260
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 261
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 262
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 263
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 264
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 265
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 266
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 267
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 268
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 269
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 270
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 271
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 272
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 273
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 274
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 275
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 276
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 277
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 278
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 279
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 280
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 281
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 282
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 283
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 284
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 285
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 286
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 287
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 288
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 289
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 290
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 291
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 292
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 293
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 294
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 295
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 296
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 297
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 298
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 299
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 300
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 301
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 302
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 303
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 304
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 305
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 306
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 307
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 308
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 309
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 310
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 311
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 312
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 313
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 314
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 315
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 316
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 317
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 318
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 319
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 320
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 321
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 322
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 323
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 324
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 325
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 326
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 327
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 328
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 329
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 330
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 331
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 332
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 333
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 334
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 335
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 336
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 337
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 338
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 339
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 340
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 341
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 342
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 343
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 344
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 345
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 346
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 347
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 348
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 349
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 350
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 351
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 352
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 353
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 354
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 355
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 356
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 357
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 358
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 359
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 360
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 361
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 362
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 363
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 364
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 365
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 366
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 367
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 368
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 369
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 370
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 371
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 372
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 373
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 374
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 375
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 376
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 377
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 378
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 379
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 380
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 381
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 382
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 383
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 384
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 385
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 386
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 387
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 388
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 389
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 390
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 391
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 392
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 393
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 394
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 395
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 396
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 397
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 398
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 399
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 400
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 401
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 402
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 403
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 404
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 405
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 406
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 407
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 408
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 409
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 410
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 411
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 412
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 413
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 414
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 415
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 416
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 417
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 418
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 419
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 420
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 421
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 422
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 423
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 424
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 425
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 426
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 427
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 428
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 429
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 430
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 431
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 432
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 433
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 434
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 435
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 436
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 437
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 438
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 439
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 440
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 441
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 442
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 443
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 444
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 445
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 446
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 447
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 448
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 449
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 450
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 451
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 452
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 453
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 454
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 455
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 456
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 457
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 458
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 459
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 460
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 461
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 462
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 463
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 464
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 465
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 466
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 467
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 468
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 469
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 470
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 471
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 472
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 473
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 474
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 475
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 476
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 477
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 478
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 479
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 480
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 481
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 482
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 483
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 484
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 485
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 486
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 487
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 488
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 489
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 490
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 491
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 492
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 493
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 494
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 495
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 496
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 497
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 498
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 499
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 500
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 501
+Name = "呼吸法Lv1"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 502
+Name = "呼吸法Lv２"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 503
+Name = "呼吸法Lv３"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 504
+Name = "精神統一Lv1"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 505
+Name = "精神統一Lv２"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 506
+Name = "精神統一Lv３"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 507
+Name = "アクションアップ"
+Description = ""
+Note = ""
+
+Weapon 508
+Name = "アクションアップⅡ"
+Description = ""
+Note = ""
+
+Weapon 509
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 510
+Name = "冒険者Lv1"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 511
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 512
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 513
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 514
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 515
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 516
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 517
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 518
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 519
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 520
+Name = "修練"
+Description = ""
+Note = ""
+
+Weapon 521
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 522
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 523
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 524
+Name = "HP強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 525
+Name = "HP強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 526
+Name = "HP強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 527
+Name = "HP強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 528
+Name = "HP強化Lv5"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 529
+Name = "MP強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 530
+Name = "MP強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 531
+Name = "MP強化Lv3"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 532
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 533
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 534
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 535
+Name = "攻撃強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 536
+Name = "攻撃強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 537
+Name = "攻撃強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 538
+Name = "魔法強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 539
+Name = "魔法強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 540
+Name = "魔法強化"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 541
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 542
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 543
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 544
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 545
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 546
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 547
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 548
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 549
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 550
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 551
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 552
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 553
+Name = "致命知識"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 554
+Name = "致命知識"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 555
+Name = "致命知識"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 556
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 557
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 558
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 559
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 560
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 561
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 562
+Name = "カウンター"
+Description = ""
+Note = "<物理反撃スキル 563>\r\n"
+
+Weapon 563
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 564
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 565
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 566
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 567
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 568
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 569
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 570
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 571
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 572
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 573
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 574
+Name = "経験値UP"
+Description = ""
+Note = ""
+
+Weapon 575
+Name = "命中率UP"
+Description = ""
+Note = ""
+
+Weapon 576
+Name = ""
+Description = ""
+Note = "<属性強化 2-20>"
+
+Weapon 577
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 578
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 579
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 580
+Name = "スライムの友"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 581
+Name = "愛人"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 582
+Name = "母"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 583
+Name = "苗床"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 584
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 585
+Name = "ゼリイヌ猫"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 586
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 587
+Name = "メス蜘蛛"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 588
+Name = "剣闘士"
+Description = ""
+Note = ""
+
+Weapon 589
+Name = "期待のルーキー"
+Description = ""
+Note = ""
+
+Weapon 590
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 591
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 592
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 593
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 594
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 595
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 596
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 597
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 598
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 599
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 600
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 601
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 602
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 603
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 604
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 605
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 606
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 607
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 608
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 609
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 610
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 611
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 612
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 613
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 614
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 615
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 616
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 617
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 618
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 619
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 620
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 621
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 622
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 623
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 624
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 625
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 626
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 627
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 628
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 629
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 630
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 631
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 632
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 633
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 634
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 635
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 636
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 637
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 638
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 639
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 640
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 641
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 642
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 643
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 644
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 645
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 646
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 647
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 648
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 649
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 650
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 651
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 652
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 653
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 654
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 655
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 656
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 657
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 658
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 659
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 660
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 661
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 662
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 663
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 664
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 665
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 666
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 667
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 668
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 669
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 670
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 671
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 672
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 673
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 674
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 675
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 676
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 677
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 678
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 679
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 680
+Name = "中出し１"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 681
+Name = "中出し2"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 682
+Name = "中出し3"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 683
+Name = "中出し4"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 684
+Name = "中出し5"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 685
+Name = "犯された回数１"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 686
+Name = "犯された回数２"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 687
+Name = "犯された回数３"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 688
+Name = "犯された回数４"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 689
+Name = "犯された回数５"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 690
+Name = "闇１"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 691
+Name = "闇２"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 692
+Name = "闇３"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 693
+Name = "闇４"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 694
+Name = "闇５"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 695
+Name = "H回数１"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 696
+Name = "H回数２"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 697
+Name = "H回数３"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 698
+Name = "H回数４"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 699
+Name = "H回数５"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 700
+Name = "撃退者"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 701
+Name = "PKK"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 702
+Name = "ベリー採集１"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 703
+Name = "ベリー採集2"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 704
+Name = "ベリー採集3"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 705
+Name = "ベリー採集4"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 706
+Name = "戦闘回数１"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 707
+Name = "戦闘回数2"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 708
+Name = "戦闘回数3"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 709
+Name = "戦闘回数4"
+Description = ""
+Note = "<図鑑無効>"
+
+Weapon 710
+Name = "戦闘回数5"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 711
+Name = "逃走回数1"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 712
+Name = "逃走回数2"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 713
+Name = "逃走回数3"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 714
+Name = "敗北回数１"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 715
+Name = "敗北回数2"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 716
+Name = "敗北回数3"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 717
+Name = "敗北回数4"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 718
+Name = "敗北回数5"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 719
+Name = "トレジャー回数１"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 720
+Name = "トレジャー回数2"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 721
+Name = "トレジャー回数3"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 722
+Name = "トレジャー回数4"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 723
+Name = "一閃回数"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 724
+Name = "一閃回数2"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 725
+Name = "一閃回数3"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 726
+Name = "一閃回数3"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 727
+Name = "捕まった回数"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 728
+Name = "捕まった回数2"
+Description = ""
+Note = "<図鑑無効>\r\n"
+
+Weapon 729
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 730
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 731
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 732
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 733
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 734
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 735
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 736
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 737
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 738
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 739
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 740
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 741
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 742
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 743
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 744
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 745
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 746
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 747
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 748
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 749
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 750
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 751
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 752
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 753
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 754
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 755
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 756
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 757
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 758
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 759
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 760
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 761
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 762
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 763
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 764
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 765
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 766
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 767
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 768
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 769
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 770
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 771
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 772
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 773
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 774
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 775
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 776
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 777
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 778
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 779
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 780
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 781
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 782
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 783
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 784
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 785
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 786
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 787
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 788
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 789
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 790
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 791
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 792
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 793
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 794
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 795
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 796
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 797
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 798
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 799
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 800
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 801
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 802
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 803
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 804
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 805
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 806
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 807
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 808
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 809
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 810
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 811
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 812
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 813
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 814
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 815
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 816
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 817
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 818
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 819
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 820
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 821
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 822
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 823
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 824
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 825
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 826
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 827
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 828
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 829
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 830
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 831
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 832
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 833
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 834
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 835
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 836
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 837
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 838
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 839
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 840
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 841
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 842
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 843
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 844
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 845
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 846
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 847
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 848
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 849
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 850
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 851
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 852
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 853
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 854
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 855
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 856
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 857
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 858
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 859
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 860
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 861
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 862
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 863
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 864
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 865
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 866
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 867
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 868
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 869
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 870
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 871
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 872
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 873
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 874
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 875
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 876
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 877
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 878
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 879
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 880
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 881
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 882
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 883
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 884
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 885
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 886
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 887
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 888
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 889
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 890
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 891
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 892
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 893
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 894
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 895
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 896
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 897
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 898
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 899
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 900
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 901
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 902
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 903
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 904
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 905
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 906
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 907
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 908
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 909
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 910
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 911
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 912
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 913
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 914
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 915
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 916
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 917
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 918
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 919
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 920
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 921
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 922
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 923
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 924
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 925
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 926
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 927
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 928
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 929
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 930
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 931
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 932
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 933
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 934
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 935
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 936
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 937
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 938
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 939
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 940
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 941
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 942
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 943
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 944
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 945
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 946
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 947
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 948
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 949
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 950
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 951
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 952
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 953
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 954
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 955
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 956
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 957
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 958
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 959
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 960
+Name = "★ここなっくす"
+Description = "IL：155\r\nここな専用のロングサクス。名づけてここなっくす！"
+Note = "<図鑑無効>\r\n@hp[9800]"
+
+Weapon 961
+Name = "★夜桜"
+Description = "IL：180　いちご専用に用意された２本の小刀。\r\n素材に流れ星が使われていると言う･･･。"
+Note = "@atk[1000]\r\n@mat[1200]\r\n@def[520]\r\n@hp[10000]\r\n@mp[200]\r\n<図鑑無効>"
+
+Weapon 962
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 963
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 964
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 965
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 966
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 967
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 968
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 969
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 970
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 971
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 972
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 973
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 974
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 975
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 976
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 977
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 978
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 979
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 980
+Name = "魔器グロウスター"
+Description = "IL：185\r\n魔法少女リリィ専用の魔器"
+Note = "@mat[9800]\r\n@def[1200]\r\n@hp[35000]\r\n@mp[3500]\r\n<図鑑無効>"
+
+Weapon 981
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 982
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 983
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 984
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 985
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 986
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 987
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 988
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 989
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 990
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 991
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 992
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 993
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 994
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 995
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 996
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 997
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 998
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 999
+Name = "魔剣バルムンク"
+Description = "IL：205\r\n持ち主により性能が変化する強力な魔剣"
+Note = "@atk[9000]\r\n@mat[7800]\r\n@def[3000]\r\n@hp[53000]\r\n@mp[1500]\r\n<図鑑無効>"
+
+Weapon 1000
+Name = "魔王剣"
+Description = "IL：188\r\n魔王専用の魔剣"
+Note = "@atk[9000]\r\n@mat[13800]\r\n@def[4000]\r\n@hp[59000]\r\n@mp[5500]\r\n<図鑑無効>"
+
+Weapon 1001
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1002
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1003
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1004
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1005
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1006
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1007
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1008
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1009
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1010
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1011
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1012
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1013
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1014
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1015
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1016
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1017
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1018
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1019
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1020
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1021
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1022
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1023
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1024
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1025
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1026
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1027
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1028
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1029
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1030
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1031
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1032
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1033
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1034
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1035
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1036
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1037
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1038
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1039
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1040
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1041
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1042
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1043
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1044
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1045
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1046
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1047
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1048
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1049
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1050
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1051
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1052
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1053
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1054
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1055
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1056
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1057
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1058
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1059
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1060
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1061
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1062
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1063
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1064
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1065
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1066
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1067
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1068
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1069
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1070
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1071
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1072
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1073
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1074
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1075
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1076
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1077
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1078
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1079
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1080
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1081
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1082
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1083
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1084
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1085
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1086
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1087
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1088
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1089
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1090
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1091
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1092
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1093
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1094
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1095
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1096
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1097
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1098
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1099
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1100
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1101
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1102
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1103
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1104
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1105
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1106
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1107
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1108
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1109
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1110
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1111
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1112
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1113
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1114
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1115
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1116
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1117
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1118
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1119
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1120
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1121
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1122
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1123
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1124
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1125
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1126
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1127
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1128
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1129
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1130
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1131
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1132
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1133
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1134
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1135
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1136
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1137
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1138
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1139
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1140
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1141
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1142
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1143
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1144
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1145
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1146
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1147
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1148
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1149
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1150
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1151
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1152
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1153
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1154
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1155
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1156
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1157
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1158
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1159
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1160
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1161
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1162
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1163
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1164
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1165
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1166
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1167
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1168
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1169
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1170
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1171
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1172
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1173
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1174
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1175
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1176
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1177
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1178
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1179
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1180
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1181
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1182
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1183
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1184
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1185
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1186
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1187
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1188
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1189
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1190
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1191
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1192
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1193
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1194
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1195
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1196
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1197
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1198
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1199
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1200
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1201
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1202
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1203
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1204
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1205
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1206
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1207
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1208
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1209
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1210
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1211
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1212
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1213
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1214
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1215
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1216
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1217
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1218
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1219
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1220
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1221
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1222
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1223
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1224
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1225
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1226
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1227
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1228
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1229
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1230
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1231
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1232
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1233
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1234
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1235
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1236
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1237
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1238
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1239
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1240
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1241
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1242
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1243
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1244
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1245
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1246
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1247
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1248
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1249
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1250
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1251
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1252
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1253
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1254
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1255
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1256
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1257
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1258
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1259
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1260
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1261
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1262
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1263
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1264
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1265
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1266
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1267
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1268
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1269
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1270
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1271
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1272
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1273
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1274
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1275
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1276
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1277
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1278
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1279
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1280
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1281
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1282
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1283
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1284
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1285
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1286
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1287
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1288
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1289
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1290
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1291
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1292
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1293
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1294
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1295
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1296
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1297
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1298
+Name = ""
+Description = ""
+Note = ""
+
+Weapon 1299
+Name = ""
+Description = ""
+Note = ""
+

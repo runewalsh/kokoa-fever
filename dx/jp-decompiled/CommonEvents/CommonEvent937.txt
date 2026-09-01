@@ -1,0 +1,18 @@
+CommonEvent 937
+Name = "聖書"
+
+  ConditionalBranch([4, 1, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["･････････は！？"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["何かに心が持っていかれそうな感覚を覚えた。"])
+    PlaySE(["RPG::SE(@name=\"Down3\", @pitch=100, @volume=90)"])
+    ControlVariables([5, 5, 1, 0, 50])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText([" "])
+    ShowText(["　　　　　　　　心の闇が 50 上昇した･･･････。"])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

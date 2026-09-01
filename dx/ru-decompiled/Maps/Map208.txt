@@ -1,0 +1,91 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "馬車"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "馬車"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "いちご"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "クロウ"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "ここな"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    SetEventLocation([4, 0, 23, 23, 8])
+    SetEventLocation([5, 0, 24, 21, 8])
+    FadeinScreen([])
+    Wait([60])
+    ShowPicture([50, "200_いちごA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["馬車はここまでしか無理です。"])
+    ShowText(["ここからは歩いて頂く必要があります。"])
+    ShowPicture([51, "200_ここなA4", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["････洞窟なんだよ。"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["洞窟なの。"])
+    ErasePicture([51])
+    ShowPicture([52, "200_いちごA1", 0, 0, -350, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["地元の方が使っている近道だそうです。"])
+    ShowText(["ここを通れば目的地にも近いですよ。"])
+    ShowPicture([50, "200_クロウA2", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]クロウ\\C[0]"])
+    ShowText(["ふむ･･･そうか。ご苦労だったな。"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]いちご\\C[0]"])
+    ShowText(["はい。では私はこれにて失礼しますね。"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=false, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    SetMoveRoute([5, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    ErasePicture([52])
+    ShowPicture([51, "200_ここなE1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ここな\\C[0]"])
+    ShowText(["ありがとうなんだよ、いちごちゃん。"])
+    ShowPicture([50, "200_ココアA1", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["\\C[20]ココア\\C[0]"])
+    ShowText(["ありがとうなの。"])
+    FadeoutScreen([])
+    ErasePicture([50])
+    ErasePicture([51])
+    ErasePicture([52])
+    ControlVariables([302, 302, 0, 0, 5300])
+    TransferPlayer([0, 209, 32, 8, 2, 0])
+    Empty([])
+
+  Page 1
+    Empty([])

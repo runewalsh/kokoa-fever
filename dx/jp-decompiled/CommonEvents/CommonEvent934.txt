@@ -1,0 +1,24 @@
+CommonEvent 934
+Name = "月刊女の子の下着"
+
+  ConditionalBranch([4, 1, 0])
+    ConditionalBranch([10, 42, true])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["･････女の子が下着をつけた写真集だ。"])
+      Empty([])
+
+    Else([])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["･････女の子が下着をつけた写真集のようだ。"])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["\\C[20]ココア\\C[0]"])
+      ShowText(["これが付録････？"])
+      PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+      ChangeArmor([42, 0, 0, 1, false])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

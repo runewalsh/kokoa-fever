@@ -1,0 +1,19 @@
+CommonEvent 60
+Name = "●戦闘立ち絵更新"
+
+  ConditionalBranch([4, 1, 0])
+    CallCommonEvent([61])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 5, 0])
+    CallCommonEvent([66])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([4, 10, 0])
+    CallCommonEvent([72])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

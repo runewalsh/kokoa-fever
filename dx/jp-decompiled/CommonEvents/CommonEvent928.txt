@@ -1,0 +1,19 @@
+CommonEvent 928
+Name = "　スキル界侵入PT編入"
+
+  ConditionalBranch([0, 301, 0])
+    ChangePartyMember([5, 0, 0])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([0, 302, 0])
+    ChangePartyMember([7, 0, 0])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([0, 303, 0])
+    ChangePartyMember([10, 0, 0])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

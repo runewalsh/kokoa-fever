@@ -1,0 +1,5 @@
+CommonEvent 998
+Name = "魔物図鑑"
+
+  Script(["SceneManager.call(Scene_MonsterDictionary)"])
+  Empty([])
